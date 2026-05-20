@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import { GuestGate } from '../auth/GuestGate'
 import { PhoneBindBanner } from '../auth/PhoneBindBanner'
 import { BottomNav } from './BottomNav'
+import { EvolutionCelebration } from '../companion/EvolutionCelebration'
 
 export function AppLayout() {
   return (
@@ -12,6 +13,7 @@ export function AppLayout() {
           <Outlet />
         </main>
         <BottomNav />
+        <EvolutionCelebration />
       </div>
     </GuestGate>
   )

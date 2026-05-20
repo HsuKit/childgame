@@ -9,17 +9,27 @@ type Companion = Database['public']['Tables']['companions']['Row']
 interface CompanionState {
   companion: Companion | null
   isLoading: boolean
+  justEvolved: boolean
   fetchCompanion: () => Promise<void>
   createCompanion: (type: string, name: string) => Promise<void>
   feed: (hungerAmount: number, moodAmount: number) => Promise<void>
   addExp: (amount: number) => Promise<void>
   equipItem: (itemId: string) => Promise<void>
   unequipItem: (itemId: string) => Promise<void>
+  clearEvolved: () => void
+}
+
+function getEvolutionStage(level: number): number {
+  if (level >= 20) return 4
+  if (level >= 10) return 3
+  if (level >= 5) return 2
+  return 1
 }
 
 export const useCompanionStore = create<CompanionState>((set, get) => ({
   companion: null,
   isLoading: false,
+  justEvolved: false,
 
   fetchCompanion: async () => {
     set({ isLoading: true })
@@ -52,9 +62,20 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
     const newExp = c.exp + amount
     let newLevel = c.level
     while (newLevel < LEVEL_THRESHOLDS.length - 1 && newExp >= LEVEL_THRESHOLDS[newLevel]) newLevel++
-    await supabase.from('companions').update({ exp: newExp, level: newLevel }).eq('id', c.id)
-    set({ companion: { ...c, exp: newExp, level: newLevel } })
+    const oldStage = getEvolutionStage(c.level)
+    const newStage = getEvolutionStage(newLevel)
+    await supabase.from('companions').update({
+      exp: newExp,
+      level: newLevel,
+      evolution_stage: newStage,
+    }).eq('id', c.id)
+    set({
+      companion: { ...c, exp: newExp, level: newLevel, evolution_stage: newStage },
+      justEvolved: newStage > oldStage,
+    })
   },
+
+  clearEvolved: () => set({ justEvolved: false }),
 
   equipItem: async (itemId: string) => {
     const c = get().companion

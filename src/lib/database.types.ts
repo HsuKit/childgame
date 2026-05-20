@@ -13,9 +13,9 @@ export interface Database {
         Update: { nickname?: string; avatar_url?: string | null; grade?: number; phone?: string | null }
       }
       companions: {
-        Row: { id: string; user_id: string; companion_type: string; name: string; level: number; exp: number; hunger: number; mood: number; equipped_items: Json; created_at: string }
-        Insert: { id?: string; user_id: string; companion_type: string; name: string; level?: number; exp?: number; hunger?: number; mood?: number; equipped_items?: Json }
-        Update: { companion_type?: string; name?: string; level?: number; exp?: number; hunger?: number; mood?: number; equipped_items?: Json }
+        Row: { id: string; user_id: string; companion_type: string; name: string; level: number; exp: number; hunger: number; mood: number; equipped_items: Json; evolution_stage: number; created_at: string }
+        Insert: { id?: string; user_id: string; companion_type: string; name: string; level?: number; exp?: number; hunger?: number; mood?: number; equipped_items?: Json; evolution_stage?: number }
+        Update: { companion_type?: string; name?: string; level?: number; exp?: number; hunger?: number; mood?: number; equipped_items?: Json; evolution_stage?: number }
       }
       companion_types: {
         Row: { id: string; name: string; category: string; base_image_url: string; image_gen_prompt: string | null; rarity: string; unlock_cost: number; is_active: boolean }
