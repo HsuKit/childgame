@@ -72,7 +72,12 @@ export const useQuizStore = create<QuizState>((set, get) => ({
 
     if (subject === 'math') {
       try {
-        questions = Array.from({ length: DAILY_QUESTIONS_PER_SUBJECT }, (_, i) => ({
+        // Fetch grid/sudoku puzzles from DB (if any)
+        const { data: gridQs } = await supabase.from('questions').select('*').eq('subject', 'math').eq('type', 'grid')
+        const gridCount = gridQs && gridQs.length > 0 ? 1 : 0 // Mix in at most 1 grid question
+        const choiceCount = DAILY_QUESTIONS_PER_SUBJECT - gridCount
+
+        questions = Array.from({ length: choiceCount }, (_, i) => ({
           id: `gen_m${profile.grade}_${Date.now()}_${i}`,
           subject: 'math' as const,
           grade: profile.grade,
@@ -82,6 +87,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
           source: 'builtin' as const,
           created_at: new Date().toISOString(),
         }))
+        if (gridQs && gridQs.length > 0) {
+          questions.push(gridQs[Math.floor(Math.random() * gridQs.length)])
+        }
+        questions = questions.sort(() => Math.random() - 0.5)
       } catch (e) {
         console.error('Math generation failed:', e)
       }
