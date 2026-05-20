@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from './authStore'
 import { POINTS, DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
+import { generateMathQuestion } from '../lib/mathGenerator'
 import type { Subject } from '../lib/constants'
 import type { Database } from '../lib/database.types'
 
@@ -70,18 +71,20 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     let questions: Question[] = []
 
     if (subject === 'math') {
-      // Generate math questions on the fly — infinite variety, no DB needed
-      const { generateMathQuestion } = await import('../lib/mathGenerator')
-      questions = Array.from({ length: DAILY_QUESTIONS_PER_SUBJECT }, (_, i) => ({
-        id: `gen_m${profile.grade}_${Date.now()}_${i}`,
-        subject: 'math' as const,
-        grade: profile.grade,
-        difficulty: 1,
-        type: 'choice' as const,
-        content: generateMathQuestion(profile.grade) as any,
-        source: 'builtin' as const,
-        created_at: new Date().toISOString(),
-      }))
+      try {
+        questions = Array.from({ length: DAILY_QUESTIONS_PER_SUBJECT }, (_, i) => ({
+          id: `gen_m${profile.grade}_${Date.now()}_${i}`,
+          subject: 'math' as const,
+          grade: profile.grade,
+          difficulty: 1,
+          type: 'choice' as const,
+          content: generateMathQuestion(profile.grade) as any,
+          source: 'builtin' as const,
+          created_at: new Date().toISOString(),
+        }))
+      } catch (e) {
+        console.error('Math generation failed:', e)
+      }
     } else {
       const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
       // AI fallback if too few questions
@@ -195,7 +198,6 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!profile) return set({ isLoading: false })
 
     // Generate math questions on the fly
-    const { generateMathQuestion } = await import('../lib/mathGenerator')
     const mathQuestions = Array.from({ length: 4 }, (_, i) => ({
       id: `gen_ch_m${profile.grade}_${Date.now()}_${i}`,
       subject: 'math' as const, grade: profile.grade, difficulty: 1, type: 'choice' as const,
