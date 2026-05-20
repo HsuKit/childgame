@@ -1,0 +1,22 @@
+[
+  {"stem":"What color is the sky?","options":["Red","Blue","Green","Yellow"],"answer":1,"explanation":"The sky is blue"},
+  {"stem":"How many apples? 🍎🍎🍎","options":["One","Two","Three","Four"],"answer":2,"explanation":"There are three apples"},
+  {"stem":"Which animal says \"meow\"?","options":["Dog","Cat","Bird","Fish"],"answer":1,"explanation":"A cat says meow"},
+  {"stem":"\"Apple\"的中文意思是？","options":["香蕉","苹果","橘子","葡萄"],"answer":1,"explanation":"Apple是苹果"},
+  {"stem":"Choose the correct greeting:","options":["Goodbye","Hello","Sorry","Thanks"],"answer":1,"explanation":"Hello is a greeting"},
+  {"stem":"Which one is a dog?","options":["🐱","🐶","🐰","🐻"],"answer":1,"explanation":"🐶 is a dog"},
+  {"stem":"What number comes after 5?","options":["3","4","6","7"],"answer":2,"explanation":"6 comes after 5"},
+  {"stem":"\"I am ___ years old.\" (填数字, 我7岁)","options":["five","six","seven","eight"],"answer":2,"explanation":"Seven is 7"},
+  {"stem":"Which is a fruit?","options":["Bread","Banana","Milk","Rice"],"answer":1,"explanation":"Banana is a fruit"},
+  {"stem":"What is 红色 in English?","options":["Blue","Red","Green","Yellow"],"answer":1,"explanation":"红色 means Red"},
+  {"stem":"\"Goodbye\" means:","options":["你好","再见","谢谢","对不起"],"answer":1,"explanation":"Goodbye means 再见"},
+  {"stem":"Which animal can fly?","options":["Dog","Cat","Bird","Fish"],"answer":2,"explanation":"A bird can fly"},
+  {"stem":"\"I have a ___.\" (我有一支铅笔)","options":["book","pen","pencil","ruler"],"answer":2,"explanation":"Pencil is 铅笔"},
+  {"stem":"What is the opposite of \"big\"?","options":["Large","Small","Tall","Wide"],"answer":1,"explanation":"Small is the opposite of big"},
+  {"stem":"Which one is green?","options":["🌿","🌹","☀️","🌙"],"answer":0,"explanation":"🌿 is green"},
+  {"stem":"\"Father\" means:","options":["妈妈","爸爸","姐姐","哥哥"],"answer":1,"explanation":"Father means 爸爸"},
+  {"stem":"How do you spell \"猫\"?","options":["d-o-g","c-a-t","b-i-r-d","f-i-s-h"],"answer":1,"explanation":"Cat is c-a-t"},
+  {"stem":"\"I like to ___.\" (我喜欢唱歌)","options":["dance","sing","run","swim"],"answer":1,"explanation":"Sing means 唱歌"},
+  {"stem":"Which number is \"ten\"?","options":["5","8","10","12"],"answer":2,"explanation":"Ten is 10"},
+  {"stem":"What is \"水\" in English?","options":["Fire","Water","Air","Earth"],"answer":1,"explanation":"水 means Water"}
+]

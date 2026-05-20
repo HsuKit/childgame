@@ -1,0 +1,22 @@
+[
+  {"stem":"\"I ___ a student.\"","options":["is","am","are","be"],"answer":1,"explanation":"I am a student"},
+  {"stem":"What is the opposite of \"big\"?","options":["Large","Small","Tall","Wide"],"answer":1,"explanation":"Small is opposite of big"},
+  {"stem":"\"She ___ to school every day.\"","options":["go","goes","going","gone"],"answer":1,"explanation":"第三人称用goes"},
+  {"stem":"\"Banana\"的中文意思是？","options":["苹果","香蕉","橘子","西瓜"],"answer":1,"explanation":"Banana是香蕉"},
+  {"stem":"How many days in a week?","options":["5","6","7","8"],"answer":2,"explanation":"一周有7天"},
+  {"stem":"Which one is a fruit?","options":["Carrot","Rice","Orange","Bread"],"answer":2,"explanation":"Orange is a fruit"},
+  {"stem":"\"I can ___ a bike.\"","options":["ride","rides","riding","rode"],"answer":0,"explanation":"can后接动词原形ride"},
+  {"stem":"What color is the sun?","options":["Blue","Red","Yellow","Green"],"answer":2,"explanation":"太阳是黄色的"},
+  {"stem":"\"Twenty\" means:","options":["10","20","30","40"],"answer":1,"explanation":"Twenty=20"},
+  {"stem":"Which animal lives in water?","options":["Dog","Cat","Fish","Bird"],"answer":2,"explanation":"Fish lives in water"},
+  {"stem":"\"I have two ___.\" (眼睛)","options":["eye","eyes","ear","ears"],"answer":1,"explanation":"眼睛是eyes"},
+  {"stem":"What is the weather word? ⛈️","options":["Sunny","Rainy","Windy","Snowy"],"answer":1,"explanation":"⛈️ means rainy"},
+  {"stem":"\"My name ___ Tom.\"","options":["am","is","are","be"],"answer":1,"explanation":"第三人称用is"},
+  {"stem":"Which month comes after June?","options":["May","July","August","April"],"answer":1,"explanation":"July comes after June"},
+  {"stem":"\"Father's mother\" is my:","options":["uncle","aunt","grandma","sister"],"answer":2,"explanation":"爸爸的妈妈是奶奶grandma"},
+  {"stem":"\"Please ___ the door.\" (打开)","options":["close","open","push","pull"],"answer":1,"explanation":"Open=打开"},
+  {"stem":"\"She is ___ than me.\" (更高)","options":["tall","taller","tallest","more tall"],"answer":1,"explanation":"比较级用taller"},
+  {"stem":"What sound does a dog make?","options":["Meow","Woof","Moo","Quack"],"answer":1,"explanation":"狗叫是Woof"},
+  {"stem":"\"There ___ three books on the desk.\"","options":["is","am","are","be"],"answer":2,"explanation":"复数用are"},
+  {"stem":"Which is NOT a color?","options":["Pink","Happy","Purple","Brown"],"answer":1,"explanation":"Happy不是颜色"}
+]

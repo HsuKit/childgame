@@ -1,0 +1,22 @@
+[
+  {"stem":"She ___ to school every day.","options":["go","goes","going","gone"],"answer":1,"explanation":"第三人称单数用goes"},
+  {"stem":"What is the past tense of \"eat\"?","options":["eated","ate","eating","eats"],"answer":1},
+  {"stem":"There are ___ days in a week.","options":["five","six","seven","eight"],"answer":2},
+  {"stem":"\"They ___ playing football now.\"","options":["is","am","are","be"],"answer":2},
+  {"stem":"Which is the largest?","options":["Mouse","Cat","Elephant","Dog"],"answer":2},
+  {"stem":"\"Can you ___ me?\" (帮助)","options":["help","helps","helping","helped"],"answer":0},
+  {"stem":"What month is Christmas in?","options":["October","November","December","January"],"answer":2},
+  {"stem":"\"I ___ my homework yesterday.\"","options":["do","does","did","doing"],"answer":2},
+  {"stem":"Which word means \"图书馆\"?","options":["School","Library","Hospital","Park"],"answer":1},
+  {"stem":"\"Would you like ___ tea?\"","options":["a","an","some","any"],"answer":2},
+  {"stem":"Tom is ___ than Jack.","options":["tall","taller","tallest","more tall"],"answer":1},
+  {"stem":"\"How ___ is your bag?\" (多重)","options":["many","much","old","tall"],"answer":1},
+  {"stem":"Which animal has a trunk?","options":["Lion","Tiger","Elephant","Bear"],"answer":2},
+  {"stem":"\"I get up ___ 6:30 every morning.\"","options":["in","on","at","for"],"answer":2,"explanation":"具体时间用at"},
+  {"stem":"What is the plural of \"child\"?","options":["childs","childes","children","child's"],"answer":2},
+  {"stem":"\"Let's ___ to the park.\"","options":["go","goes","going","went"],"answer":0},
+  {"stem":"Which season comes after winter?","options":["Summer","Spring","Autumn","Fall"],"answer":1},
+  {"stem":"\"My sister ___ like math.\" (否定)","options":["isn't","aren't","don't","doesn't"],"answer":2},
+  {"stem":"What do you use to write?","options":["Ruler","Pencil","Eraser","Bag"],"answer":1},
+  {"stem":"\"There is ___ milk in the glass.\"","options":["a","an","some","many"],"answer":2}
+]

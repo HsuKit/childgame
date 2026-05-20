@@ -1,0 +1,22 @@
+[
+  {"stem":"If it rains tomorrow, I ___ stay home.","options":["will","would","am","was"],"answer":0},
+  {"stem":"The book ___ by Mark Twain.","options":["wrote","was written","written","writing"],"answer":1},
+  {"stem":"\"I have ___ been to London.\" (曾经)","options":["ever","never","yet","already"],"answer":0},
+  {"stem":"Which word is a noun?","options":["quickly","happiness","run","beautiful"],"answer":1},
+  {"stem":"\"Neither he nor I ___ a teacher.\"","options":["is","am","are","be"],"answer":1,"explanation":"neither nor就近, I用am"},
+  {"stem":"What does \"environment\" mean?","options":["娱乐","环境","教育","经济"],"answer":1},
+  {"stem":"\"The teacher asked us ___ in class.\"","options":["not talk","not to talk","don't talk","no talking"],"answer":1},
+  {"stem":"Which tense is \"have been studying\"?","options":["Simple Present","Past","Present Perfect","Present Perfect Continuous"],"answer":3},
+  {"stem":"\"I'm looking forward ___ you.\"","options":["meet","to meet","to meeting","meeting"],"answer":2,"explanation":"look forward to + doing"},
+  {"stem":"What is the synonym of \"difficult\"?","options":["easy","hard","soft","simple"],"answer":1},
+  {"stem":"\"A number of students ___ in the library.\"","options":["is","am","are","be"],"answer":2},
+  {"stem":"Which country is London the capital of?","options":["USA","UK","France","Germany"],"answer":1},
+  {"stem":"\"He suggested ___ a picnic.\"","options":["have","to have","having","had"],"answer":2},
+  {"stem":"What is the passive voice of \"They make cars\"?","options":["Cars made by them","Cars are made by them","Cars were made by them","Cars is made by them"],"answer":1},
+  {"stem":"\"By the time I arrived, the film ___.\"","options":["started","has started","had started","was starting"],"answer":2},
+  {"stem":"Which is the odd one out?","options":["Happy","Sad","Angry","Run"],"answer":3,"explanation":"Run是动词，其他是形容词"},
+  {"stem":"\"Would you mind ___ the window?\"","options":["open","to open","opening","opened"],"answer":2,"explanation":"mind+doing"},
+  {"stem":"What does \"Congratulations!\" mean?","options":["I am sorry","Well done!","Goodbye","Never mind"],"answer":1},
+  {"stem":"\"Not only the students but also the teacher ___ excited.\"","options":["is","am","are","be"],"answer":0,"explanation":"就近原则,the teacher用is"},
+  {"stem":"\"I wish I ___ fly like a bird.\"","options":["can","could","will","am"],"answer":1,"explanation":"wish后用虚拟语气could"}
+]

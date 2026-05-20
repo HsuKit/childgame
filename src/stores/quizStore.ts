@@ -66,10 +66,11 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     set({ isLoading: true })
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
-    let { data: questions } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade).limit(DAILY_QUESTIONS_PER_SUBJECT).order('id')
-    // Only call AI generation when truly empty (dont block on CORS/network errors)
-    if (!questions || questions.length === 0) {
-      set({ isLoading: false }); return
+    const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
+    if (!all || all.length === 0) { set({ isLoading: false }); return }
+    // Randomly pick DAILY_QUESTIONS_PER_SUBJECT questions
+    const shuffled = [...all].sort(() => Math.random() - 0.5)
+    const questions = shuffled.slice(0, DAILY_QUESTIONS_PER_SUBJECT)
     const session = createEmptySession(subject, questions)
     set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
   },
@@ -147,14 +148,15 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     set({ isLoading: true })
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
-    // Fetch 4 math + 3 chinese + 3 english questions for the user's grade
     const [mathQ, chineseQ, englishQ] = await Promise.all([
-      supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade).limit(4),
-      supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade).limit(3),
-      supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade).limit(3),
+      supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
+      supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
+      supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
     ])
-    const allQuestions = [...(mathQ.data || []), ...(chineseQ.data || []), ...(englishQ.data || [])]
-    // Shuffle
+    // Randomly pick 4 math + 3 chinese + 3 english
+    const pick = (arr: any[], n: number) => [...arr].sort(() => Math.random() - 0.5).slice(0, n)
+    const allQuestions = [...pick(mathQ.data || [], 4), ...pick(chineseQ.data || [], 3), ...pick(englishQ.data || [], 3)]
+    // Shuffle all
     for (let i = allQuestions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]]

@@ -1,0 +1,22 @@
+[
+  {"stem":"\"日\"字的正确拼音是？","options":["rì","rè","yè","rù"],"answer":0,"explanation":"\"日\"读作rì"},
+  {"stem":"下列哪个字和\"水\"有关系？","options":["火","水","山","口"],"answer":1,"explanation":"\"水\"字本身"},
+  {"stem":"比一比，谁最大？","options":["蚂蚁","小鸟","大象","鱼"],"answer":2,"explanation":"大象是陆地上最大的动物"},
+  {"stem":"\"妈妈\"的反义词是？","options":["奶奶","爸爸","姐姐","爷爷"],"answer":1,"explanation":"妈妈的反义词是爸爸"},
+  {"stem":"春天来了，什么花会开？","options":["梅花","桃花","菊花","兰花"],"answer":1,"explanation":"春天桃花盛开"},
+  {"stem":"\"大\"的反义词是？","options":["小","高","长","宽"],"answer":0,"explanation":"大和小是一对反义词"},
+  {"stem":"\"上\"字的正确拼音是？","options":["shàng","xià","shǎn","shān"],"answer":0,"explanation":"\"上\"读作shàng"},
+  {"stem":"下列哪个是水果？","options":["铅笔","苹果","书本","橡皮"],"answer":1,"explanation":"苹果是一种水果"},
+  {"stem":"天上有什么？","options":["鱼","鸟","马","虫"],"answer":1,"explanation":"鸟在天上飞"},
+  {"stem":"\"哭\"的反义词是？","options":["笑","叫","说","看"],"answer":0,"explanation":"哭的反义词是笑"},
+  {"stem":"下面哪个字是左右结构？","options":["田","明","口","日"],"answer":1,"explanation":"\"明\"字由\"日\"和\"月\"左右组成"},
+  {"stem":"\"山\"有几画？","options":["2画","3画","4画","5画"],"answer":1,"explanation":"\"山\"是3画"},
+  {"stem":"下列哪一个是动物？","options":["桌子","椅子","小狗","书本"],"answer":2,"explanation":"小狗是一种动物"},
+  {"stem":"\"太阳\"是什么颜色的？","options":["蓝色","红色","绿色","紫色"],"answer":1,"explanation":"太阳是红色的"},
+  {"stem":"下面哪个词表示数量？","options":["跑","三","大","高"],"answer":1,"explanation":"\"三\"表示数量"},
+  {"stem":"\"人\"字有几画？","options":["1画","2画","3画","4画"],"answer":1,"explanation":"\"人\"字是一撇一捺，共2画"},
+  {"stem":"\"木\"字加一笔变成什么字？","options":["林","本","水","火"],"answer":1,"explanation":"\"木\"加一横变成\"本\""},
+  {"stem":"\"月\"字组词正确的是？","options":["月亮","月木","月水","月山"],"answer":0,"explanation":"月亮是正确组词"},
+  {"stem":"下面哪个是颜色词？","options":["跑步","红色","大树","书本"],"answer":1,"explanation":"红色是颜色词"},
+  {"stem":"\"白\"的反义词是？","options":["黑","红","黄","绿"],"answer":0,"explanation":"白的反义词是黑"}
+]

@@ -1,0 +1,22 @@
+[
+  {"stem":"I wish I ___ fly like a bird.","options":["can","could","will","am"],"answer":1},
+  {"stem":"\"Congratulations!\" means:","options":["I am sorry","Well done!","Goodbye","Never mind"],"answer":1},
+  {"stem":"\"He ___ to China three times.\"","options":["has been","has gone","went","goes"],"answer":0},
+  {"stem":"Which word is an adjective?","options":["quickly","beautiful","run","happily"],"answer":1},
+  {"stem":"\"The bridge ___ next year.\"","options":["builds","built","will be built","is building"],"answer":2},
+  {"stem":"What does \"abandon\" mean?","options":["接受","放弃","开始","继续"],"answer":1},
+  {"stem":"\"I don't know ___ to do.\"","options":["what","how","where","when"],"answer":0},
+  {"stem":"Which sentence uses the subjunctive mood?","options":["I am happy","If I were you I'd go","He goes to school","She is tall"],"answer":1},
+  {"stem":"\"The number of students ___ 500.\"","options":["is","am","are","be"],"answer":0,"explanation":"the number of用单数"},
+  {"stem":"What is the synonym of \"brave\"?","options":["scared","courageous","weak","timid"],"answer":1},
+  {"stem":"\"He devoted himself ___ helping others.\"","options":["to","in","on","for"],"answer":0},
+  {"stem":"Which country is Washington D.C. the capital of?","options":["UK","USA","Canada","Australia"],"answer":1},
+  {"stem":"\"She is ___ of the two sisters.\"","options":["tall","taller","the taller","tallest"],"answer":2,"explanation":"两者比较特指用the+比较级"},
+  {"stem":"What is the past participle of \"write\"?","options":["wrote","written","writing","writes"],"answer":1},
+  {"stem":"\"Bread and butter ___ his favorite.\"","options":["is","am","are","be"],"answer":0,"explanation":"bread and butter视为一个整体"},
+  {"stem":"Which is NOT a continent?","options":["Asia","Africa","India","Europe"],"answer":2},
+  {"stem":"\"I'm used to ___ early.\"","options":["get up","got up","getting up","gets up"],"answer":2,"explanation":"be used to+doing"},
+  {"stem":"What does \"prevent\" mean?","options":["允许","阻止","开始","继续"],"answer":1},
+  {"stem":"\"___ hard, or you will fail.\"","options":["Work","Works","Working","Worked"],"answer":0},
+  {"stem":"Which is the correct order?","options":["a beautiful small red bag","a red small beautiful bag","a small beautiful red bag","a beautiful red small bag"],"answer":0,"explanation":"观点+大小+颜色"}
+]

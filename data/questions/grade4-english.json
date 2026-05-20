@@ -1,0 +1,22 @@
+[
+  {"stem":"\"Yesterday I ___ a movie.\"","options":["watch","watched","watching","watches"],"answer":1},
+  {"stem":"Which word means \"美丽的\"?","options":["ugly","pretty","angry","tall"],"answer":1},
+  {"stem":"\"They ___ to school by bus every day.\"","options":["go","goes","went","going"],"answer":0},
+  {"stem":"What tense is \"was eating\"?","options":["Present","Past","Past Continuous","Future"],"answer":2},
+  {"stem":"\"How much ___ the shoes?\"","options":["is","am","are","be"],"answer":2},
+  {"stem":"Which is a country?","options":["Shanghai","Tokyo","China","Beijing"],"answer":2},
+  {"stem":"\"Could you please ___ the window?\"","options":["open","opens","opened","opening"],"answer":0},
+  {"stem":"What is the comparative of \"good\"?","options":["gooder","more good","better","best"],"answer":2},
+  {"stem":"\"Don't ___ late for school!\"","options":["is","am","are","be"],"answer":3},
+  {"stem":"Which sentence is correct?","options":["He don't like it","He doesn't like it","He not like it","He no like it"],"answer":1},
+  {"stem":"\"I have been to Beijing ___.\" (两次)","options":["two","second","twice","double"],"answer":2},
+  {"stem":"What does \"dangerous\" mean?","options":["安全的","危险的","有趣的","无聊的"],"answer":1},
+  {"stem":"\"___ is your birthday?\" (什么时候)","options":["What","When","Where","Who"],"answer":1},
+  {"stem":"Which word is a verb?","options":["beautiful","happily","run","quick"],"answer":2},
+  {"stem":"\"She is good ___ playing the piano.\"","options":["at","in","on","for"],"answer":0,"explanation":"be good at擅长"},
+  {"stem":"What is the antonym of \"cheap\"?","options":["small","expensive","big","short"],"answer":1},
+  {"stem":"\"We will go to the zoo ___ Sunday.\"","options":["in","on","at","for"],"answer":1},
+  {"stem":"\"There ___ a book and two pens on the desk.\"","options":["is","am","are","be"],"answer":0,"explanation":"there be就近原则"},
+  {"stem":"Which is a healthy food?","options":["Candy","Chips","Vegetables","Soda"],"answer":2},
+  {"stem":"\"What are you ___?\" (你在干什么)","options":["do","does","did","doing"],"answer":3}
+]

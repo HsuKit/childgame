@@ -1,0 +1,22 @@
+[
+  {"stem":"3 + 5 = ?","options":["6","7","8","9"],"answer":2,"explanation":"3+5=8"},
+  {"stem":"10 - 4 = ?","options":["4","5","6","7"],"answer":2,"explanation":"10-4=6"},
+  {"stem":"7 + 2 = ?","options":["8","9","10","11"],"answer":1,"explanation":"7+2=9"},
+  {"stem":"5 - 3 = ?","options":["1","2","3","4"],"answer":1,"explanation":"5-3=2"},
+  {"stem":"6 + 4 = ?","options":["8","9","10","11"],"answer":2,"explanation":"6+4=10"},
+  {"stem":"9 - 6 = ?","options":["1","2","3","4"],"answer":2,"explanation":"9-6=3"},
+  {"stem":"2 + 8 = ?","options":["8","9","10","11"],"answer":2,"explanation":"2+8=10"},
+  {"stem":"15 - 5 = ?","options":["8","9","10","11"],"answer":2,"explanation":"15-5=10"},
+  {"stem":"1 + 1 = ?","options":["1","2","3","4"],"answer":1,"explanation":"1+1=2"},
+  {"stem":"4 + 3 = ?","options":["5","6","7","8"],"answer":2,"explanation":"4+3=7"},
+  {"stem":"8 - 3 = ?","options":["3","4","5","6"],"answer":2,"explanation":"8-3=5"},
+  {"stem":"12 + 5 = ?","options":["15","16","17","18"],"answer":2,"explanation":"12+5=17"},
+  {"stem":"20 - 10 = ?","options":["8","9","10","11"],"answer":2,"explanation":"20-10=10"},
+  {"stem":"11 + 4 = ?","options":["13","14","15","16"],"answer":2,"explanation":"11+4=15"},
+  {"stem":"18 - 9 = ?","options":["7","8","9","10"],"answer":2,"explanation":"18-9=9"},
+  {"stem":"下面哪个数字最大？","options":["5","8","3","6"],"answer":1,"explanation":"8是这些数字中最大的"},
+  {"stem":"下面哪个数字最小？","options":["7","2","9","4"],"answer":1,"explanation":"2是最小的"},
+  {"stem":"和7相邻的两个数是？","options":["5和6","6和8","8和9","5和9"],"answer":1,"explanation":"7的相邻数是6和8"},
+  {"stem":"一个苹果3元，妈妈买了2个苹果要付多少元？","options":["4元","5元","6元","7元"],"answer":2,"explanation":"3+3=6元"},
+  {"stem":"小明有10颗糖，吃了3颗，还剩几颗？","options":["5颗","6颗","7颗","8颗"],"answer":2,"explanation":"10-3=7颗"}
+]
