@@ -23,8 +23,8 @@ export interface Database {
         Update: { name?: string; category?: string; base_image_url?: string; image_gen_prompt?: string | null; rarity?: string; unlock_cost?: number; is_active?: boolean }
       }
       questions: {
-        Row: { id: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match'; content: Json; source: 'builtin' | 'ai_generated'; created_at: string }
-        Insert: { id?: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match'; content: Json; source?: 'builtin' | 'ai_generated' }
+        Row: { id: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source: 'builtin' | 'ai_generated'; created_at: string }
+        Insert: { id?: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source?: 'builtin' | 'ai_generated' }
         Update: { content?: Json; source?: 'builtin' | 'ai_generated' }
       }
       quiz_records: {

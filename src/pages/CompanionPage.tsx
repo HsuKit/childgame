@@ -1,10 +1,7 @@
 import { useCompanionStore } from '../stores/companionStore'
 import { CompanionStats } from '../components/companion/CompanionStats'
-import { STARTER_COMPANIONS } from '../data/companionTypes'
-
-function getCompanionImage(type: string): string {
-  return STARTER_COMPANIONS.find(c => c.id === type)?.baseImage ?? '/companions/default.png'
-}
+import { InteractiveCompanion } from '../components/companion/InteractiveCompanion'
+import { SpeechBubble } from '../components/companion/SpeechBubble'
 
 export default function CompanionPage() {
   const { companion } = useCompanionStore()
@@ -18,9 +15,8 @@ export default function CompanionPage() {
   return (
     <div className="p-6">
       <div className="text-center mb-6">
-        <div className="w-32 h-32 bg-gradient-to-b from-purple-100 to-blue-100 rounded-full flex items-center justify-center mx-auto overflow-hidden">
-          <img src={getCompanionImage(companion.companion_type)} alt={companion.name} className="w-24 h-24 object-contain" />
-        </div>
+        <SpeechBubble />
+        <InteractiveCompanion size="large" />
         <h1 className="text-2xl font-bold mt-4">{companion.name}</h1>
         <p className="text-sm text-gray-400">Lv.{companion.level}</p>
       </div>
