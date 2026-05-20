@@ -38,7 +38,7 @@ export default function QuizPage() {
         <div className="px-4"><button onClick={nextQuestion} className="btn-primary w-full">下一题 →</button></div>
       )}
       {session.currentIndex === session.questions.length - 1 && (
-        <div className="px-4"><button onClick={() => navigate(`/quiz/result?subject=${subject}`)} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
+        <div className="px-4"><button onClick={() => { nextQuestion(); navigate(`/quiz/result?subject=${subject}`) }} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
       )}
     </div>
   )

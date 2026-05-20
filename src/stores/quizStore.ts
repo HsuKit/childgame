@@ -7,6 +7,13 @@ import type { Database } from '../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
+interface QuizRecord {
+  question_id: string
+  subject: string
+  is_correct: boolean
+  points_earned: number
+}
+
 interface QuizSession {
   subject: Subject
   questions: Question[]
@@ -15,6 +22,7 @@ interface QuizSession {
   comboCount: number
   pointsEarned: number
   isComplete: boolean
+  records: QuizRecord[]
 }
 
 interface ChallengeSession {
@@ -25,6 +33,7 @@ interface ChallengeSession {
   pointsEarned: number
   isComplete: boolean
   passed: boolean
+  records: QuizRecord[]
 }
 
 interface QuizState {
@@ -40,10 +49,12 @@ interface QuizState {
   getSession: (subject: Subject) => QuizSession | null
   getTodayQuizCount: (subject: Subject) => Promise<number>
   getTodayChallengeDone: () => Promise<boolean>
+  saveQuizRecords: (subject: Subject) => Promise<void>
+  saveChallengeRecords: () => Promise<void>
 }
 
 function createEmptySession(subject: Subject, questions: Question[]): QuizSession {
-  return { subject, questions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false }
+  return { subject, questions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, records: [] }
 }
 
 export const useQuizStore = create<QuizState>((set, get) => ({
@@ -77,6 +88,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
         const bonusIndex = Math.min(comboCount - 2, 2)
         points += POINTS.COMBO_BONUS[bonusIndex]
       }
+      const record: QuizRecord = { question_id: questionId, subject, is_correct: isCorrect, points_earned: points }
       set(state => ({
         sessions: {
           ...state.sessions,
@@ -85,6 +97,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
             correctCount: session.correctCount + (isCorrect ? 1 : 0),
             comboCount,
             pointsEarned: session.pointsEarned + points,
+            records: [...session.records, record],
           },
         },
       }))
@@ -139,7 +152,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     }
     if (allQuestions.length === 0) { set({ isLoading: false }); return }
     set({
-      challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false },
+      challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [] },
       isLoading: false,
     })
   },
@@ -157,12 +170,14 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       const bonusIndex = Math.min(comboCount - 2, 2)
       points += POINTS.COMBO_BONUS[bonusIndex]
     }
+    const record: QuizRecord = { question_id: questionId, subject: question.subject, is_correct: isCorrect, points_earned: points }
     set(state => ({
       challengeSession: state.challengeSession ? {
         ...state.challengeSession,
         correctCount: state.challengeSession.correctCount + (isCorrect ? 1 : 0),
         comboCount,
         pointsEarned: state.challengeSession.pointsEarned + points,
+        records: [...state.challengeSession.records, record],
       } : null,
     }))
     return isCorrect
@@ -190,5 +205,31 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const today = new Date().toISOString().slice(0, 10)
     const { data } = await supabase.from('check_ins').select('challenge_done').eq('user_id', userId).eq('date', today).maybeSingle()
     return data?.challenge_done ?? false
+  },
+
+  saveQuizRecords: async (subject: Subject) => {
+    const userId = useAuthStore.getState().user?.id
+    if (!userId) return
+    const session = get().sessions[subject]
+    if (!session || !session.isComplete) return
+    for (const r of session.records) {
+      await supabase.from('quiz_records').insert({
+        user_id: userId, question_id: r.question_id, subject: r.subject,
+        is_correct: r.is_correct, points_earned: r.points_earned,
+      })
+    }
+  },
+
+  saveChallengeRecords: async () => {
+    const userId = useAuthStore.getState().user?.id
+    if (!userId) return
+    const session = get().challengeSession
+    if (!session || !session.isComplete) return
+    for (const r of session.records) {
+      await supabase.from('quiz_records').insert({
+        user_id: userId, question_id: r.question_id, subject: r.subject,
+        is_correct: r.is_correct, points_earned: r.points_earned,
+      })
+    }
   },
 }))

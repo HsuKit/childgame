@@ -43,7 +43,7 @@ export default function ChallengePage() {
         <div className="px-4"><button onClick={nextChallengeQuestion} className="btn-primary w-full">下一题 →</button></div>
       )}
       {challengeSession.currentIndex === challengeSession.questions.length - 1 && (
-        <div className="px-4"><button onClick={() => navigate('/challenge/result')} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
+        <div className="px-4"><button onClick={() => { nextChallengeQuestion(); navigate('/challenge/result') }} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
       )}
     </div>
   )

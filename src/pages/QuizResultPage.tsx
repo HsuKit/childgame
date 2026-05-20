@@ -17,9 +17,11 @@ export default function QuizResultPage() {
   const addPoints = usePointsStore(s => s.addPoints)
   const addExp = useCompanionStore(s => s.addExp)
   const markSubjectDone = useCheckinStore(s => s.markSubjectDone)
+  const saveQuizRecords = useQuizStore(s => s.saveQuizRecords)
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
+    saveQuizRecords(subject)
     if (session.pointsEarned > 0) {
       addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
       addExp(session.pointsEarned)

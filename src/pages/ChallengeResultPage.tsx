@@ -11,15 +11,17 @@ export default function ChallengeResultPage() {
   const session = useQuizStore(s => s.challengeSession)
   const addPoints = usePointsStore(s => s.addPoints)
   const addExp = useCompanionStore(s => s.addExp)
+  const saveChallengeRecords = useQuizStore(s => s.saveChallengeRecords)
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
+    saveChallengeRecords()
     if (session.pointsEarned > 0) {
       addPoints(session.pointsEarned, 'challenge_reward', session.questions[0]?.id ?? null)
       addExp(session.pointsEarned * 2)
     }
-    // Mark challenge as done
     if (session.passed) {
+      addPoints(100, 'challenge_bonus')
       const markChallengeDone = async () => {
         const { supabase } = await import('../lib/supabase')
         const { useAuthStore } = await import('../stores/authStore')
