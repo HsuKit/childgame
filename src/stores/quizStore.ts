@@ -66,7 +66,19 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     set({ isLoading: true })
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
-    const { data: questions } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade).limit(DAILY_QUESTIONS_PER_SUBJECT).order('id')
+    let { data: questions } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade).limit(DAILY_QUESTIONS_PER_SUBJECT).order('id')
+    // Auto-generate if not enough questions
+    if (!questions || questions.length < DAILY_QUESTIONS_PER_SUBJECT) {
+      try {
+        await supabase.functions.invoke('generate-questions', {
+          body: { subject, grade: profile.grade, count: DAILY_QUESTIONS_PER_SUBJECT, type: 'choice' },
+        })
+        const { data: newQuestions } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade).limit(DAILY_QUESTIONS_PER_SUBJECT).order('id')
+        questions = newQuestions
+      } catch {
+        // AI generation failed, proceed with available questions
+      }
+    }
     if (!questions || questions.length === 0) { set({ isLoading: false }); return }
     const session = createEmptySession(subject, questions)
     set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
