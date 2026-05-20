@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { QuizProgressBar } from './QuizProgressBar'
 import type { Database } from '../../lib/database.types'
+import { FillInCard } from './FillInCard'
+import { MatchCard } from './MatchCard'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -9,10 +8,29 @@ interface Props {
   question: Question
   questionNumber: number
   totalQuestions: number
-  onAnswer: (questionId: string, selectedIndex: number) => boolean
+  onAnswer: (questionId: string, selectedIndex: string | number) => boolean
 }
 
 export function QuizCard({ question, questionNumber, totalQuestions, onAnswer }: Props) {
+  if (question.type === 'fill') {
+    return <FillInCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
+  }
+  if (question.type === 'match') {
+    return <MatchCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
+  }
+
+  // Default: choice type
+  return <ChoiceCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
+}
+
+import { useState } from 'react'
+import { motion } from 'framer-motion'
+import { QuizProgressBar } from './QuizProgressBar'
+
+function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
+  question: Question; questionNumber: number; totalQuestions: number
+  onAnswer: (questionId: string, selectedIndex: string | number) => boolean
+}) {
   const [selected, setSelected] = useState<number | null>(null)
   const [result, setResult] = useState<'correct' | 'wrong' | null>(null)
   const content = question.content as { stem: string; options: string[]; answer: number; explanation: string }

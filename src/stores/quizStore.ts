@@ -42,8 +42,8 @@ interface QuizState {
   isLoading: boolean
   startSession: (subject: Subject) => Promise<void>
   startChallenge: () => Promise<void>
-  answerQuestion: (questionId: string, selectedIndex: number) => boolean
-  answerChallengeQuestion: (questionId: string, selectedIndex: number) => boolean
+  answerQuestion: (questionId: string, answer: string | number) => boolean
+  answerChallengeQuestion: (questionId: string, answer: string | number) => boolean
   nextQuestion: () => void
   nextChallengeQuestion: () => void
   getSession: (subject: Subject) => QuizSession | null
@@ -72,7 +72,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
   },
 
-  answerQuestion: (questionId: string, selectedIndex: number) => {
+  answerQuestion: (questionId: string, answer: string | number) => {
     const state = get()
     let result = false
     for (const subject of SUBJECTS) {
@@ -81,7 +81,14 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       const question = session.questions[session.currentIndex]
       if (!question || question.id !== questionId) continue
       const content = question.content as any
-      const isCorrect = content.answer === selectedIndex
+      let isCorrect = false
+      if (question.type === 'match') {
+        isCorrect = answer === 'correct'
+      } else if (question.type === 'fill') {
+        isCorrect = typeof answer === 'string' && content.answer.trim().toLowerCase() === answer.trim().toLowerCase()
+      } else {
+        isCorrect = content.answer === answer
+      }
       const comboCount = isCorrect ? session.comboCount + 1 : 0
       let points = isCorrect ? POINTS.CORRECT_ANSWER : 0
       if (isCorrect && comboCount >= 2) {
@@ -157,13 +164,20 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     })
   },
 
-  answerChallengeQuestion: (questionId: string, selectedIndex: number) => {
+  answerChallengeQuestion: (questionId: string, answer: string | number) => {
     const session = get().challengeSession
     if (!session) return false
     const question = session.questions[session.currentIndex]
     if (!question || question.id !== questionId) return false
     const content = question.content as any
-    const isCorrect = content.answer === selectedIndex
+    let isCorrect = false
+    if (question.type === 'match') {
+      isCorrect = answer === 'correct'
+    } else if (question.type === 'fill') {
+      isCorrect = typeof answer === 'string' && content.answer.trim().toLowerCase() === answer.trim().toLowerCase()
+    } else {
+      isCorrect = content.answer === answer
+    }
     const comboCount = isCorrect ? session.comboCount + 1 : 0
     let points = isCorrect ? POINTS.CORRECT_ANSWER : 0
     if (isCorrect && comboCount >= 2) {
