@@ -11,14 +11,15 @@ export default function ChallengePage() {
     if (!challengeSession) startChallenge()
   }, [challengeSession, startChallenge])
 
+  useEffect(() => {
+    if (challengeSession?.isComplete) navigate('/challenge/result')
+  }, [challengeSession?.isComplete, navigate])
+
   if (!challengeSession || challengeSession.questions.length === 0) {
     return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">⚔️</div><p>正在准备挑战关卡...</p></div>
   }
 
-  if (challengeSession.isComplete) {
-    navigate('/challenge/result')
-    return null
-  }
+  if (challengeSession.isComplete) return null
 
   const q = challengeSession.questions[challengeSession.currentIndex]
 

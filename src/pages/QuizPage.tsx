@@ -14,14 +14,15 @@ export default function QuizPage() {
 
   useEffect(() => { if (!session) startSession(subject) }, [subject, session, startSession])
 
+  useEffect(() => {
+    if (session?.isComplete) navigate(`/quiz/result?subject=${subject}`)
+  }, [session?.isComplete, subject, navigate])
+
   if (!session || session.questions.length === 0) {
     return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">📚</div><p>正在准备题目...</p></div>
   }
 
-  if (session.isComplete) {
-    navigate(`/quiz/result?subject=${subject}`)
-    return null
-  }
+  if (session.isComplete) return null
 
   const q = session.questions[session.currentIndex]
 
