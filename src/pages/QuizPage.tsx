@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useQuizStore } from '../stores/quizStore'
 import { QuizCard } from '../components/quiz/QuizCard'
@@ -11,12 +11,27 @@ export default function QuizPage() {
   const navigate = useNavigate()
   const { sessions, startSession, answerQuestion, nextQuestion } = useQuizStore()
   const session = sessions[subject]
+  const [error, setError] = useState(false)
 
-  useEffect(() => { if (!session) startSession(subject) }, [subject, session, startSession])
+  useEffect(() => {
+    if (!session && !error) {
+      startSession(subject).catch(() => setError(true))
+    }
+  }, [subject, session, startSession, error])
 
   useEffect(() => {
     if (session?.isComplete) navigate(`/quiz/result?subject=${subject}`)
   }, [session?.isComplete, subject, navigate])
+
+  if (error) {
+    return (
+      <div className="p-6 text-center">
+        <p className="text-4xl mb-4">😵</p>
+        <p className="font-bold mb-4">题目加载失败</p>
+        <button onClick={() => { setError(false); navigate('/') }} className="btn-primary">返回首页</button>
+      </div>
+    )
+  }
 
   if (!session || session.questions.length === 0) {
     return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">📚</div><p>正在准备题目...</p></div>
@@ -25,6 +40,10 @@ export default function QuizPage() {
   if (session.isComplete) return null
 
   const q = session.questions[session.currentIndex]
+  if (!q) {
+    return <div className="p-6 text-center"><p className="text-4xl mb-4">❓</p><p>题目数据异常</p>
+      <button onClick={() => navigate('/')} className="btn-primary mt-4">返回首页</button></div>
+  }
 
   return (
     <div>
