@@ -41,17 +41,40 @@ export function GridPuzzleCard({ question, questionNumber, totalQuestions, onAns
 
   const checkAllFilled = () => emptyCells.every(([r, c]) => userGrid[r][c] !== null)
 
+  function isValidSudoku(grid: (number | null)[][]): boolean {
+    // Check all cells filled
+    for (let r = 0; r < 4; r++)
+      for (let c = 0; c < 4; c++)
+        if (grid[r][c] == null) return false
+    // Check rows
+    for (let r = 0; r < 4; r++) {
+      const s = new Set(grid[r])
+      if (s.size !== 4 || [...s].some(n => n! < 1 || n! > 4)) return false
+    }
+    // Check columns
+    for (let c = 0; c < 4; c++) {
+      const s = new Set([grid[0][c], grid[1][c], grid[2][c], grid[3][c]])
+      if (s.size !== 4) return false
+    }
+    // Check 2x2 blocks
+    for (let br = 0; br < 2; br++) {
+      for (let bc = 0; bc < 2; bc++) {
+        const s = new Set([
+          grid[br*2][bc*2], grid[br*2][bc*2+1],
+          grid[br*2+1][bc*2], grid[br*2+1][bc*2+1],
+        ])
+        if (s.size !== 4) return false
+      }
+    }
+    return true
+  }
+
   const handleSubmit = () => {
     if (!checkAllFilled()) return
     setSubmitted(true)
-    let allCorrect = true
-    for (let r = 0; r < 4; r++) {
-      for (let c = 0; c < 4; c++) {
-        if (userGrid[r]?.[c] !== content.solution[r]?.[c]) { allCorrect = false; break }
-      }
-    }
-    setResult(allCorrect ? 'correct' : 'wrong')
-    onAnswer(question.id, allCorrect ? 'correct' : 'wrong')
+    const correct = isValidSudoku(userGrid)
+    setResult(correct ? 'correct' : 'wrong')
+    onAnswer(question.id, correct ? 'correct' : 'wrong')
   }
 
   return (
@@ -65,8 +88,8 @@ export function GridPuzzleCard({ question, questionNumber, totalQuestions, onAns
           {userGrid.map((row, r) =>
             row.map((cell, c) => {
               const isGiven = content.grid[r][c] !== null
-              const isCorrect = submitted && content.solution[r][c] === cell
-              const isWrong = submitted && !isCorrect && cell !== null
+              const isCorrect = submitted && result === 'correct'
+              const isWrong = submitted && result === 'wrong' && !isGiven && cell !== null
               return (
                 <button
                   key={`${r}-${c}`}
