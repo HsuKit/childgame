@@ -84,7 +84,24 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       }))
     } else {
       const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
-      if (all && all.length > 0) {
+      // AI fallback if too few questions
+      if (!all || all.length < DAILY_QUESTIONS_PER_SUBJECT) {
+        const needed = DAILY_QUESTIONS_PER_SUBJECT - (all?.length || 0)
+        try {
+          await supabase.functions.invoke('generate-questions', {
+            body: { subject, grade: profile.grade, count: needed, type: 'choice' },
+          })
+          // Re-fetch after generation
+          const { data: fresh } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
+          if (fresh && fresh.length > 0) {
+            const shuffled = [...fresh].sort(() => Math.random() - 0.5)
+            questions = shuffled.slice(0, DAILY_QUESTIONS_PER_SUBJECT)
+          }
+        } catch {
+          // AI failed, use whatever we have
+          if (all && all.length > 0) questions = [...all].sort(() => Math.random() - 0.5)
+        }
+      } else if (all && all.length > 0) {
         const shuffled = [...all].sort(() => Math.random() - 0.5)
         questions = shuffled.slice(0, DAILY_QUESTIONS_PER_SUBJECT)
       }
