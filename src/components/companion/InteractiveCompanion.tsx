@@ -58,16 +58,36 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
     <div className="relative">
       <motion.div
         onClick={handleTap}
-        animate={isDizzy ? { rotate: [0, -15, 15, -10, 10, 0] } : { y: [0, -3, 0] }}
-        transition={isDizzy ? { duration: 0.6 } : { repeat: Infinity, duration: 2 }}
-        className={`${containerSize} bg-gradient-to-b from-purple-100 to-blue-100 rounded-full flex items-center justify-center overflow-hidden mx-auto cursor-pointer shadow-md hover:shadow-lg transition-shadow`}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        animate={
+          isDizzy
+            ? { rotate: [0, -15, 15, -10, 10, 0], scale: [1, 0.9, 1] }
+            : { scale: [1, 1.03, 1], y: [0, -4, 0] }
+        }
+        transition={
+          isDizzy
+            ? { duration: 0.6 }
+            : { repeat: Infinity, duration: 3, ease: 'easeInOut' }
+        }
+        className={`${containerSize} bg-gradient-to-b from-purple-100 to-blue-100 rounded-full flex items-center justify-center overflow-hidden mx-auto cursor-pointer
+          shadow-lg hover:shadow-xl transition-shadow`}
+        whileHover={{ scale: 1.08 }}
+        whileTap={{ scale: 0.92 }}
       >
-        <img
+        {/* Animated glow ring */}
+        <motion.div
+          className="absolute inset-0 rounded-full"
+          animate={{ opacity: [0.2, 0.4, 0.2], scale: [1, 1.05, 1] }}
+          transition={{ repeat: Infinity, duration: 2.5 }}
+          style={{
+            background: 'radial-gradient(circle, rgba(108,92,231,0.2) 0%, transparent 70%)',
+          }}
+        />
+        <motion.img
           src={getCompanionImage(companion.companion_type)}
           alt={companion.name}
-          className={`${imgSize} object-contain pointer-events-none`}
+          className={`${imgSize} object-contain pointer-events-none relative z-10`}
+          animate={{ rotate: [0, 1, -1, 0] }}
+          transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
         />
       </motion.div>
 
