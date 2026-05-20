@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useCompanionStore } from '../../stores/companionStore'
 import { CompanionStats } from './CompanionStats'
+import { STARTER_COMPANIONS } from '../../data/companionTypes'
+
+function getCompanionImage(type: string): string {
+  const def = STARTER_COMPANIONS.find(c => c.id === type)
+  return def?.baseImage ?? '/companions/default.png'
+}
 
 export function CompanionDisplay() {
   const { companion, isLoading } = useCompanionStore()
@@ -23,8 +29,8 @@ export function CompanionDisplay() {
     <motion.div whileTap={{ scale: 0.98 }} onClick={() => navigate('/companion')} className="card cursor-pointer">
       <div className="flex items-center gap-4">
         <motion.div animate={{ y: [0, -5, 0] }} transition={{ repeat: Infinity, duration: 2 }}
-          className="w-24 h-24 bg-gradient-to-b from-purple-100 to-blue-100 rounded-full flex items-center justify-center text-5xl">
-          🐱
+          className="w-24 h-24 bg-gradient-to-b from-purple-100 to-blue-100 rounded-full flex items-center justify-center overflow-hidden">
+          <img src={getCompanionImage(companion.companion_type)} alt={companion.name} className="w-20 h-20 object-contain" />
         </motion.div>
         <div className="flex-1">
           <div className="flex items-center gap-2">
