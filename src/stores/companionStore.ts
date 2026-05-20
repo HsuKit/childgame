@@ -35,16 +35,28 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
     set({ isLoading: true })
     const userId = useAuthStore.getState().user?.id
     if (!userId) return set({ isLoading: false })
-    const { data } = await supabase.from('companions').select('*').eq('user_id', userId).maybeSingle()
+    const { data } = await supabase.from('companions').select('*').eq('user_id', userId).order('created_at', { ascending: false }).limit(1).maybeSingle()
     set({ companion: data, isLoading: false })
   },
 
   createCompanion: async (type: string, name: string) => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) throw new Error('Not authenticated')
-    const { data, error } = await supabase.from('companions').insert({ user_id: userId, companion_type: type, name }).select().single()
-    if (error) throw error
-    set({ companion: data })
+    // Check if already has one — update instead of creating duplicate
+    const existing = get().companion
+    if (existing) {
+      const { data, error } = await supabase.from('companions').update({
+        companion_type: type, name, level: 1, exp: 0, evolution_stage: 1,
+      }).eq('id', existing.id).select().single()
+      if (error) throw error
+      set({ companion: data })
+    } else {
+      const { data, error } = await supabase.from('companions').insert({
+        user_id: userId, companion_type: type, name,
+      }).select().single()
+      if (error) throw error
+      set({ companion: data })
+    }
   },
 
   feed: async (hungerAmount: number, moodAmount: number) => {
