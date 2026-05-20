@@ -1,0 +1,9 @@
+{"type":"server-started","port":63201,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:63201","screen_dir":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/content","state_dir":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/state"}
+{"type":"screen-added","file":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/content/companion-vision.html"}
+{"source":"user-event","type":"click","text":"C\n    \n      进化与成长可视化\n      伙伴从幼年→成年→完全体外观逐渐变化，进化时有全屏特效+新外观展示，让小朋友有\"养大它\"的期待。","choice":"evolution","id":null,"timestamp":1779263383317}
+{"source":"user-event","type":"click","text":"B\n    \n      互动与反馈\n      点击伙伴会跳起来/转圈、喂食有吃东西动画、拖食物给它吃。每次互动有音效和粒子特效反馈。","choice":"interaction","id":null,"timestamp":1779263411700}
+{"source":"user-event","type":"click","text":"A\n    \n      动画与表情系统\n      伙伴根据状态变化表情 (饿→哭😢、开心→笑😊)、空闲时跳舞/眨眼、升级时发光特效。让伙伴\"活\"起来。","choice":"animation","id":null,"timestamp":1779263413142}
+{"source":"user-event","type":"click","text":"A\n    \n      动画与表情系统\n      伙伴根据状态变化表情 (饿→哭😢、开心→笑😊)、空闲时跳舞/眨眼、升级时发光特效。让伙伴\"活\"起来。","choice":"animation","id":null,"timestamp":1779263413842}
+{"type":"screen-added","file":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/content/interaction-design.html"}
+{"type":"screen-added","file":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/content/art-assets.html"}
+{"type":"screen-added","file":"/Users/bytedance/Documents/vibe_coding/childgame/.superpowers/brainstorm/17492-1779263276/content/evolution-design.html"}

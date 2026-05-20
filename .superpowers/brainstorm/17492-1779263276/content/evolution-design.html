@@ -1,0 +1,101 @@
+<h2>C 进化系统 · 设计方案</h2>
+<p class="subtitle">伙伴分阶段成长，每个阶段外观变化，让小朋友有"养大它"的期待感</p>
+
+<div class="section">
+  <h3>进化阶段体系</h3>
+  <p style="font-size:12px;color:#666">每个伙伴 4 个阶段，达到特定等级自动进化</p>
+
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:12px">
+    <div class="card" style="text-align:center;background:#f0f0ff">
+      <div style="font-size:32px">🥚</div>
+      <h4>幼年期</h4>
+      <p style="font-size:11px">Lv.1-4</p>
+      <p style="font-size:10px;color:#666">小巧可爱<br>简单蹦跳动作</p>
+      <p style="font-size:9px;color:#999">Lottie 基础动画</p>
+    </div>
+    <div class="card" style="text-align:center;background:#e8f5e9">
+      <div style="font-size:36px">🐱</div>
+      <h4>成长期</h4>
+      <p style="font-size:11px">Lv.5-9</p>
+      <p style="font-size:10px;color:#666">体型变大<br>动作更丰富</p>
+      <p style="font-size:9px;color:#999">Lottie 进阶动画</p>
+    </div>
+    <div class="card" style="text-align:center;background:#fff3e0">
+      <div style="font-size:40px">🦁</div>
+      <h4>成熟期</h4>
+      <p style="font-size:11px">Lv.10-19</p>
+      <p style="font-size:10px;color:#666">添加装饰元素<br>颜色更鲜艳</p>
+      <p style="font-size:9px;color:#999">Lottie + 特效粒子</p>
+    </div>
+    <div class="card" style="text-align:center;background:#fce4ec">
+      <div style="font-size:48px">🌟</div>
+      <h4>完全体</h4>
+      <p style="font-size:11px">Lv.20+</p>
+      <p style="font-size:10px;color:#666">华丽变身<br>独特外观风格</p>
+      <p style="font-size:9px;color:#999">AI 生成独特形态</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>进化触发流程</h3>
+  <div class="mockup">
+    <div class="mockup-body" style="padding:20px">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px">
+        <div style="text-align:center">
+          <div style="font-size:24px">📊</div>
+          经验值满<br>→ 触发进化
+        </div>
+        <div>→</div>
+        <div style="text-align:center">
+          <div style="font-size:24px">🎆</div>
+          全屏特效<br>金光/羽毛/花瓣
+        </div>
+        <div>→</div>
+        <div style="text-align:center">
+          <div style="font-size:24px">🔄</div>
+          变身动画<br>变大/变色/变形
+        </div>
+        <div>→</div>
+        <div style="text-align:center">
+          <div style="font-size:24px">🎉</div>
+          新形态展示<br>+ 奖励积分
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>以小猫为例的进化链</h3>
+  <table style="width:100%;font-size:13px;border-collapse:collapse;margin-top:8px">
+    <tr style="background:#f5f5f5">
+      <td style="padding:8px;font-weight:bold">阶段</td>
+      <td style="padding:8px;font-weight:bold">名称</td>
+      <td style="padding:8px;font-weight:bold">等级</td>
+      <td style="padding:8px;font-weight:bold">外观变化</td>
+      <td style="padding:8px;font-weight:bold">资源</td>
+    </tr>
+    <tr>
+      <td style="padding:8px">1</td><td style="padding:8px">小猫咪</td><td style="padding:8px">1-4</td>
+      <td style="padding:8px">小小一只，圆滚滚</td><td style="padding:8px;color:green">Lottie</td>
+    </tr>
+    <tr style="background:#fafafa">
+      <td style="padding:8px">2</td><td style="padding:8px">大猫</td><td style="padding:8px">5-9</td>
+      <td style="padding:8px">体型+40%，眼神更锐利</td><td style="padding:8px;color:green">Lottie</td>
+    </tr>
+    <tr>
+      <td style="padding:8px">3</td><td style="padding:8px">猫骑士</td><td style="padding:8px">10-19</td>
+      <td style="padding:8px">穿上小盔甲，戴小头盔</td><td style="padding:8px;color:orange">Lottie + 特效</td>
+    </tr>
+    <tr style="background:#fafafa">
+      <td style="padding:8px">4</td><td style="padding:8px">星辰猫</td><td style="padding:8px">20+</td>
+      <td style="padding:8px">星光环绕，蓝色透明光翼</td><td style="padding:8px;color:blue">AI 生成</td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <h3>进化数据存储</h3>
+  <p style="font-size:12px">利用现有的 LEVEL_THRESHOLDS 数组，新增 evolution_stage 字段追踪当前阶段。每次升级检查是否跨阶段阈值。</p>
+</div>

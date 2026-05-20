@@ -29,7 +29,7 @@ export default function ProfilePage() {
       <div className="grid gap-3">
         <button onClick={() => navigate('/companion/select')} className="card text-left font-bold">切换伙伴 →</button>
         <button onClick={() => navigate('/checkin')} className="card text-left font-bold">打卡日历 →</button>
-        {user?.isAnonymous && (
+        {!profile?.phone && (
           <div className="card bg-yellow-50"><p className="text-sm text-yellow-700">⚠️ 游客模式，数据仅在本设备。建议绑定手机号永久保存。</p></div>
         )}
         <button onClick={() => signOut()} className="card text-left text-red-400 font-bold">退出登录</button>

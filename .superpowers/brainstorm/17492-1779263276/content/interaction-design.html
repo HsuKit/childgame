@@ -1,0 +1,90 @@
+<h2>B 互动与反馈 · 设计方案</h2>
+<p class="subtitle">让伙伴对孩子的操作有生动的反馈</p>
+
+<div class="section">
+  <h3>1. 点击互动</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">轻点一下</div>
+      <div class="mockup-body" style="text-align:center;padding:24px">
+        <div style="font-size:50px;transition:transform 0.3s">🐱</div>
+        <p style="font-size:14px">✨ 弹跳 + 旋转 + 发光</p>
+        <p style="font-size:11px;color:#999">伙伴"嘭"地跳起来，眼睛闪烁，飘出小心心</p>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">连续点击</div>
+      <div class="mockup-body" style="text-align:center;padding:24px">
+        <div style="font-size:50px">😵</div>
+        <p style="font-size:14px">💫 转晕 + 冒星星</p>
+        <p style="font-size:11px;color:#999">点击太快伙伴会晕，冒星星粒子，很有趣</p>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">空闲状态</div>
+      <div class="mockup-body" style="text-align:center;padding:24px">
+        <div style="font-size:50px">😴</div>
+        <p style="font-size:14px">💤 打哈欠 + 飘忽</p>
+        <p style="font-size:11px;color:#999">15秒不操作自动飘动，偶尔眨眼打哈欠</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>2. 状态驱动的表情与对话</h3>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:8px">
+    <div class="card" style="text-align:center">
+      <div style="font-size:40px">😢</div>
+      <h4>饱腹度低</h4>
+      <p style="font-size:12px">💬 "主人我好饿... 能给我点吃的吗?"</p>
+      <p style="font-size:10px;color:#999">表情委屈 · 动作缓慢 · 颜色变灰</p>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="font-size:40px">😊</div>
+      <h4>心情好</h4>
+      <p style="font-size:12px">💬 "今天心情好好呀! 一起去答题吧!"</p>
+      <p style="font-size:10px;color:#999">微笑 · 跳跃 · 周围飘小心心</p>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="font-size:40px">🌟</div>
+      <h4>升级时刻</h4>
+      <p style="font-size:12px">💬 "我变强了! 谢谢你陪我学习!"</p>
+      <p style="font-size:10px;color:#999">金色光芒 · 旋转变大 · 屏幕震动</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>3. 喂食互动</h3>
+  <div class="mockup">
+    <div class="mockup-header">喂食流程 (在伙伴详情页)</div>
+    <div class="mockup-body" style="padding:20px;text-align:center">
+      <div style="display:flex;align-items:center;justify-content:center;gap:16px">
+        <div style="font-size:40px">🍞</div>
+        <div style="font-size:12px;color:#999">拖动食物 →</div>
+        <div style="font-size:50px;animation:bounce 0.5s">🐱😋</div>
+        <div style="font-size:12px;color:#999">→ 吃掉！</div>
+      </div>
+      <p style="margin-top:8px;font-size:11px;color:#999">食物飞向伙伴 → 张开嘴 → 咀嚼动画 → +饱腹度飘出 → 满足表情</p>
+    </div>
+  </div>
+</div>
+
+<h3 style="margin-top:20px">技术方案</h3>
+<div class="pros-cons">
+  <div class="pros"><h4>用 Framer Motion 实现</h4><ul>
+    <li>已有依赖，无需新增包</li>
+    <li>tap/whileHover/AnimatePresence 开箱即用</li>
+    <li>layout animations 做变形效果</li>
+  </ul></div>
+  <div class="cons"><h4>注意性能</h4><ul>
+    <li>避免同时太多粒子 (限 20 个)</li>
+    <li>空闲动画用 CSS animation 而非 JS</li>
+    <li>手机端降低动画复杂度</li>
+  </ul></div>
+</div>
+
+<div class="section">
+  <p class="subtitle" style="text-align:center;margin-top:16px">这个互动方案看起来对吗？有没有要加的或改的？</p>
+</div>

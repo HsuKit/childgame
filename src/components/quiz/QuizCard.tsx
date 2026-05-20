@@ -1,6 +1,7 @@
 import type { Database } from '../../lib/database.types'
 import { FillInCard } from './FillInCard'
 import { MatchCard } from './MatchCard'
+import { GridPuzzleCard } from './GridPuzzleCard'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -17,6 +18,9 @@ export function QuizCard({ question, questionNumber, totalQuestions, onAnswer }:
   }
   if (question.type === 'match') {
     return <MatchCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
+  }
+  if (question.type === 'grid') {
+    return <GridPuzzleCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
   }
 
   // Default: choice type

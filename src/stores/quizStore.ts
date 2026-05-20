@@ -85,7 +85,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (!question || question.id !== questionId) continue
       const content = question.content as any
       let isCorrect = false
-      if (question.type === 'match') {
+      if (question.type === 'match' || question.type === 'grid') {
         isCorrect = answer === 'correct'
       } else if (question.type === 'fill') {
         isCorrect = typeof answer === 'string' && content.answer.trim().toLowerCase() === answer.trim().toLowerCase()
