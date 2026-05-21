@@ -1,8 +1,10 @@
 import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Lottie from 'lottie-react'
 import { useCompanionStore } from '../../stores/companionStore'
 import { STARTER_COMPANIONS } from '../../data/companionTypes'
 import { EquipmentOverlay } from './EquipmentOverlay'
+import { IDLE_PULSE } from '../../data/companionAnimations'
 
 function getCompanionImage(type: string): string {
   return STARTER_COMPANIONS.find(c => c.id === type)?.baseImage ?? '/companions/default.png'
@@ -74,15 +76,10 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.92 }}
       >
-        {/* Animated glow ring */}
-        <motion.div
-          className="absolute inset-0 rounded-full"
-          animate={{ opacity: [0.2, 0.4, 0.2], scale: [1, 1.05, 1] }}
-          transition={{ repeat: Infinity, duration: 2.5 }}
-          style={{
-            background: 'radial-gradient(circle, rgba(108,92,231,0.2) 0%, transparent 70%)',
-          }}
-        />
+        {/* Lottie pulse behind companion */}
+        <div className="absolute inset-0 opacity-30 pointer-events-none">
+          <Lottie animationData={IDLE_PULSE} loop={true} />
+        </div>
         <motion.img
           src={getCompanionImage(companion.companion_type)}
           alt={companion.name}
