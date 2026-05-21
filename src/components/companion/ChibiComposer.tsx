@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 
 interface Props {
@@ -7,23 +7,59 @@ interface Props {
   onClick?: () => void
 }
 
-const sizeMap = { small: 100, normal: 160, large: 240 }
+const SIZE = { small: 100, normal: 160, large: 240 }
+const TOTAL = 18
 
 export function ChibiComposer({ variant, size = 'normal', onClick }: Props) {
-  const [frame, setFrame] = useState(0)
-  const base = variant.replace(/_\d+$/, '')
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const rafRef = useRef(0)
 
   useEffect(() => {
-    const interval = setInterval(() => setFrame(f => (f + 1) % 18), 120)
-    return () => clearInterval(interval)
-  }, [])
+    const base = variant.replace(/_\d+$/, '')
+    const pad = (n: number) => String(n).padStart(3, '0')
+    let cancelled = false
+    const images: HTMLImageElement[] = []
+    let loaded = 0
 
-  const px = sizeMap[size]
-  const pad = (n: number) => String(n).padStart(3, '0')
+    for (let i = 0; i < TOTAL; i++) {
+      const img = new Image()
+      img.onload = () => { loaded++; if (loaded === TOTAL && !cancelled) start() }
+      img.src = `/assets/companions/${variant}/idle/0_${base}_Idle_${pad(i)}.png`
+      images.push(img)
+    }
+
+    function start() {
+      const canvas = canvasRef.current
+      if (!canvas || cancelled) return
+      const ctx = canvas.getContext('2d')!
+      const px = SIZE[size]
+      const s = px * 2
+      canvas.width = s
+      canvas.height = s
+      let frame = 0
+      let last = 0
+      const delay = 120
+
+      function draw(time: number) {
+        if (cancelled) return
+        if (time - last >= delay) {
+          last = time
+          ctx.clearRect(0, 0, s, s)
+          if (images[frame]) ctx.drawImage(images[frame], 0, 0, s, s)
+          frame = (frame + 1) % TOTAL
+        }
+        rafRef.current = requestAnimationFrame(draw)
+      }
+      rafRef.current = requestAnimationFrame(draw)
+    }
+
+    return () => { cancelled = true; cancelAnimationFrame(rafRef.current) }
+  }, [variant])
+
+  const px = SIZE[size]
 
   return (
-    <motion.div
-      onClick={onClick}
+    <motion.div onClick={onClick}
       animate={{ y: [0, -2, 0] }}
       transition={{ repeat: Infinity, duration: 2.5, ease: 'easeInOut' }}
       className="relative mx-auto cursor-pointer"
@@ -31,16 +67,7 @@ export function ChibiComposer({ variant, size = 'normal', onClick }: Props) {
       whileHover={onClick ? { scale: 1.05 } : {}}
       whileTap={onClick ? { scale: 0.95 } : {}}
     >
-      {/* Fade between adjacent frames to avoid flash */}
-      {[frame, (frame + 1) % 18].map((f, i) => (
-        <img
-          key={f}
-          src={`/assets/companions/${variant}/idle/0_${base}_Idle_${pad(f)}.png`}
-          alt=""
-          className="absolute inset-0 w-full h-full object-contain pointer-events-none"
-          style={{ opacity: i === 0 ? 1 : 0, transition: 'opacity 0.08s' }}
-        />
-      ))}
+      <canvas ref={canvasRef} className="w-full h-full" />
     </motion.div>
   )
 }
