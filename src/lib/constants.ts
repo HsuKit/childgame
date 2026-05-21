@@ -11,7 +11,7 @@ export const LEVEL_THRESHOLDS = [
   1700, 2200, 2800, 3500, 4300, 5200, 6200, 7300, 8500, 10000,
 ]
 
-export const DAILY_QUESTIONS_PER_SUBJECT = 5
+export const DAILY_QUESTIONS_PER_SUBJECT = 10
 
 export const SUBJECTS = ['chinese', 'math', 'english'] as const
 export type Subject = typeof SUBJECTS[number]

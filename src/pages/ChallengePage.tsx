@@ -31,7 +31,7 @@ export default function ChallengePage() {
         <div className="w-12" />
       </div>
       <div className="px-4 py-2 bg-yellow-50 text-center text-sm text-yellow-700">
-        答对 8/10 题即通关，获得额外奖励! | 当前: {challengeSession.correctCount}/{challengeSession.currentIndex}
+        答对 24/30 题即通关，获得额外奖励! | 当前: {challengeSession.correctCount}/{challengeSession.currentIndex + 1}
       </div>
       <QuizCard
         key={q.id}

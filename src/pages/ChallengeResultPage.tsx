@@ -67,7 +67,7 @@ export default function ChallengeResultPage() {
           <div className={`bg-gray-50 rounded-xl p-3 ${passed ? 'bg-yellow-50' : ''}`}>
             <p className="text-gray-400">{passed ? '通关奖励' : '通关所需'}</p>
             <p className="text-2xl font-bold text-kid-warning">
-              {passed ? `+${bonusPoints} ⭐` : `${8 - session.correctCount}题`}
+              {passed ? `+${bonusPoints} ⭐` : `还差${24 - session.correctCount}题`}
             </p>
           </div>
         </div>

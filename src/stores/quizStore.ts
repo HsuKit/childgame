@@ -2,7 +2,6 @@ import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from './authStore'
 import { POINTS, DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
-import { generateMathQuestion } from '../lib/mathGenerator'
 import type { Subject } from '../lib/constants'
 import type { Database } from '../lib/database.types'
 
@@ -68,41 +67,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
 
-    let questions: Question[] = []
-
-    if (subject === 'math') {
-      try {
-        // Generate 5 choice questions first (always works, no DB needed)
-        questions = Array.from({ length: DAILY_QUESTIONS_PER_SUBJECT }, (_, i) => ({
-          id: `gen_m${profile.grade}_${Date.now()}_${i}`,
-          subject: 'math' as const,
-          grade: profile.grade,
-          difficulty: 1,
-          type: 'choice' as const,
-          content: generateMathQuestion(profile.grade) as any,
-          source: 'builtin' as const,
-          created_at: new Date().toISOString(),
-        }))
-        // Try mixing in a grid/sudoku puzzle from DB
-        try {
-          const { data: gridQs } = await supabase.from('questions').select('*').eq('subject', 'math').eq('type', 'grid')
-          if (gridQs && gridQs.length > 0) {
-            questions[0] = gridQs[Math.floor(Math.random() * gridQs.length)]
-            questions = questions.sort(() => Math.random() - 0.5)
-          }
-        } catch { /* DB fetch failed, use generated questions only */ }
-      } catch (e) {
-        console.error('Math generation failed:', e)
-      }
-    } else {
-      const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
-      if (all && all.length > 0) {
-        const shuffled = [...all].sort(() => Math.random() - 0.5)
-        questions = shuffled.slice(0, Math.min(DAILY_QUESTIONS_PER_SUBJECT, all.length))
-      }
-    }
-
-    if (questions.length === 0) { set({ isLoading: false }); return }
+    const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
+    if (!all || all.length === 0) { set({ isLoading: false }); return }
+    const shuffled = [...all].sort(() => Math.random() - 0.5)
+    const questions = shuffled.slice(0, Math.min(DAILY_QUESTIONS_PER_SUBJECT, all.length))
     const session = createEmptySession(subject, questions)
     set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
   },
@@ -171,14 +139,6 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   getTodayQuizCount: async (subject: Subject) => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) return 0
-
-    // For math (generated questions), check check_ins instead of quiz_records
-    if (subject === 'math') {
-      const today = new Date().toISOString().slice(0, 10)
-      const { data } = await supabase.from('check_ins').select('math_done').eq('user_id', userId).eq('date', today).maybeSingle()
-      return data?.math_done ? DAILY_QUESTIONS_PER_SUBJECT : 0
-    }
-
     const today = new Date().toISOString().slice(0, 10)
     const { count } = await supabase.from('quiz_records').select('*', { count: 'exact', head: true }).eq('user_id', userId).eq('subject', subject).gte('answered_at', today)
     return count ?? 0
@@ -189,19 +149,13 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
 
-    // Generate math questions on the fly
-    const mathQuestions = Array.from({ length: 4 }, (_, i) => ({
-      id: `gen_ch_m${profile.grade}_${Date.now()}_${i}`,
-      subject: 'math' as const, grade: profile.grade, difficulty: 1, type: 'choice' as const,
-      content: generateMathQuestion(profile.grade) as any, source: 'builtin' as const, created_at: new Date().toISOString(),
-    }))
-
-    const [chineseQ, englishQ] = await Promise.all([
+    const [mathQ, chineseQ, englishQ] = await Promise.all([
+      supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
       supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
       supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
     ])
     const pick = (arr: any[], n: number) => [...arr].sort(() => Math.random() - 0.5).slice(0, n)
-    const allQuestions = [...mathQuestions, ...pick(chineseQ.data || [], 3), ...pick(englishQ.data || [], 3)]
+    const allQuestions = [...pick(mathQ.data || [], 10), ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)]
     // Shuffle all
     for (let i = allQuestions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -252,7 +206,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!session || session.isComplete) return
     const nextIndex = session.currentIndex + 1
     const isComplete = nextIndex >= session.questions.length
-    const passed = session.correctCount >= 8
+    const passed = session.correctCount >= 24
     set(state => ({
       challengeSession: state.challengeSession ? {
         ...state.challengeSession,
