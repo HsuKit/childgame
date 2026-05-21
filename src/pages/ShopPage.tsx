@@ -148,8 +148,8 @@ function ActionPreview({ variant, type }: { variant: string; type: 'attack' | 't
   }, [])
 
   const actionName = type === 'attack'
-    ? ((variant === 'Forest_Ranger_1' || variant === 'Forest_Ranger_2') ? 'Shooting in The Air' : 'Slashing in The Air')
-    : 'Throwing in The Air'
+    ? ((variant === 'Forest_Ranger_1' || variant === 'Forest_Ranger_2') ? 'Shooting_in_The_Air' : 'Slashing_in_The_Air')
+    : 'Throwing_in_The_Air'
   const folder = type === 'attack' ? 'attack' : 'throw'
 
   return (

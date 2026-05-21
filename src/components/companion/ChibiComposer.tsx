@@ -14,18 +14,18 @@ const TOTAL_IDLE = 18
 
 type AnimType = 'idle' | 'throw' | 'attack'
 
-function getActionFolder(variant: string, type: AnimType): string {
+function getActionName(variant: string, type: AnimType): string {
   if (type === 'attack') {
-    return (variant === 'Forest_Ranger_1' || variant === 'Forest_Ranger_2') ? 'Shooting in The Air' : 'Slashing in The Air'
+    return (variant === 'Forest_Ranger_1' || variant === 'Forest_Ranger_2') ? 'Shooting_in_The_Air' : 'Slashing_in_The_Air'
   }
-  if (type === 'throw') return 'Throwing in The Air'
+  if (type === 'throw') return 'Throwing_in_The_Air'
   return 'Idle'
 }
 
 function getFramePath(variant: string, type: AnimType, frame: number): string {
   const base = variant.replace(/_\d+$/, '')
   const folder = type === 'idle' ? 'idle' : type === 'attack' ? 'attack' : 'throw'
-  const actionName = getActionFolder(variant, type)
+  const actionName = getActionName(variant, type)
   return `/assets/companions/${variant}/${folder}/0_${base}_${actionName}_${String(frame).padStart(3, '0')}.png`
 }
 
