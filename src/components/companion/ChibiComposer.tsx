@@ -1,58 +1,45 @@
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
-type Part = 'Body' | 'Head' | 'Left Arm' | 'Right Arm' | 'Left Leg' | 'Right Leg' | 'Left Hand' | 'Right Hand'
-
 interface Props {
-  variant: string      // 'ranger' | 'warrior' | 'druid'
-  expression?: number  // 1-3 face variant, default 1
-  accessory?: string   // 'Bow' | 'Sword' | null
+  variant: string
   size?: 'small' | 'normal' | 'large'
   animate?: boolean
   onClick?: () => void
 }
 
-const PART_ORDER: (Part | 'Face')[] = [
-  'Left Leg', 'Right Leg', 'Body', 'Left Arm', 'Right Arm', 'Left Hand', 'Right Hand', 'Head',
-]
+const sizeMap = { small: 80, normal: 140, large: 220 }
 
-const sizeMap = { small: 64, normal: 100, large: 140 }
+export function ChibiComposer({ variant, size = 'normal', animate = true, onClick }: Props) {
+  const [frame, setFrame] = useState(0)
+  const totalFrames = 18
 
-function partPath(variant: string, part: string): string {
-  return `/assets/companions/${variant}/${part}.png`
-}
+  useEffect(() => {
+    if (!animate) return
+    const interval = setInterval(() => setFrame(f => (f + 1) % totalFrames), 100)
+    return () => clearInterval(interval)
+  }, [animate])
 
-export function ChibiComposer({ variant, expression = 1, accessory, size = 'normal', animate = true, onClick }: Props) {
   const px = sizeMap[size]
-  const faceFile = `Face 0${Math.min(3, Math.max(1, expression))}`
+  // Remove _N suffix from variant for filename (Forest_Ranger_1 → Forest_Ranger)
+  const base = variant.replace(/_\d+$/, '')
+  const framePath = `/assets/companions/${variant}/idle/0_${base}_Idle_${String(frame).padStart(3, '0')}.png`
 
   return (
     <motion.div
       onClick={onClick}
-      animate={animate ? { y: [0, -4, 0] } : {}}
-      transition={{ repeat: Infinity, duration: 3, ease: 'easeInOut' }}
+      animate={animate ? { y: [0, -2, 0] } : {}}
+      transition={{ repeat: Infinity, duration: 2.5, ease: 'easeInOut' }}
       className="relative mx-auto cursor-pointer"
-      style={{ width: px, height: px * 1.3 }}
+      style={{ width: px, height: px }}
       whileHover={onClick ? { scale: 1.05 } : {}}
       whileTap={onClick ? { scale: 0.95 } : {}}
     >
-      {PART_ORDER.map((part, i) => (
-        <img
-          key={part}
-          src={part === 'Head' ? partPath(variant, faceFile) : partPath(variant, part)}
-          alt={part}
-          className="absolute inset-0 w-full h-full object-contain pointer-events-none"
-          style={{ zIndex: i + 1 }}
-        />
-      ))}
-      {/* Accessory overlay */}
-      {accessory && (
-        <img
-          src={partPath(variant, accessory)}
-          alt={accessory}
-          className="absolute inset-0 w-full h-full object-contain pointer-events-none"
-          style={{ zIndex: 10 }}
-        />
-      )}
+      <img
+        src={framePath}
+        alt="companion"
+        className="w-full h-full object-contain pointer-events-none"
+      />
     </motion.div>
   )
 }
