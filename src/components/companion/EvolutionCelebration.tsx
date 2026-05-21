@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useCompanionStore } from '../../stores/companionStore'
-import { STARTER_COMPANIONS } from '../../data/companionTypes'
+import { COMPANION_TYPES } from '../../data/companionTypes'
 
 const PARTICLE_COLORS = ['#FF6B6B', '#6C5CE7', '#FFD43B', '#51CF66', '#FF922B', '#FF69B4']
 
-function getEvolutionName(type: string, stage: number): string {
-  const def = STARTER_COMPANIONS.find(c => c.id === type)
-  return def?.evolutionStages?.[stage - 1] ?? `阶段${stage}`
+function getEvolutionName(type: string): string {
+  const def = COMPANION_TYPES.find(c => c.id === type)
+  return def?.name ?? type
 }
 
 export function EvolutionCelebration() {
@@ -80,12 +80,12 @@ export function EvolutionCelebration() {
             <div className="flex items-center justify-center gap-4 mt-4">
               <div className="text-center">
                 <p className="text-xs text-gray-400">进化前</p>
-                <p className="font-bold text-gray-500 line-through">{getEvolutionName(companion.companion_type, prevStage)}</p>
+                <p className="font-bold text-gray-500 line-through">{getEvolutionName(companion.companion_type)}</p>
               </div>
               <span className="text-2xl">➡️</span>
               <div className="text-center">
                 <p className="text-xs text-gray-400">进化后</p>
-                <p className="font-bold text-kid-primary text-lg">{getEvolutionName(companion.companion_type, stage)}</p>
+                <p className="font-bold text-kid-primary text-lg">{getEvolutionName(companion.companion_type)}</p>
               </div>
             </div>
 

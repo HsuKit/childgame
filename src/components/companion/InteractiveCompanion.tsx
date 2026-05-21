@@ -1,17 +1,12 @@
 import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useCompanionStore } from '../../stores/companionStore'
-import { STARTER_COMPANIONS } from '../../data/companionTypes'
-import { EquipmentOverlay } from './EquipmentOverlay'
+import { COMPANION_TYPES } from '../../data/companionTypes'
 import { ChibiComposer } from './ChibiComposer'
 
-const TYPE_VARIANT: Record<string, string> = {
-  cat: 'ranger', dog: 'warrior', dino: 'druid', fox: 'ranger',
-}
-
 function getEvolutionName(type: string, stage: number): string {
-  const def = STARTER_COMPANIONS.find(c => c.id === type)
-  return def?.evolutionStages?.[stage - 1] ?? `阶段${stage}`
+  const def = COMPANION_TYPES.find(c => c.id === type)
+  return def?.name ?? type
 }
 
 export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'normal' | 'large' }) {
@@ -37,13 +32,11 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
   if (!companion) return null
 
   const stage = companion.level >= 20 ? 4 : companion.level >= 10 ? 3 : companion.level >= 5 ? 2 : 1
-  const variant = TYPE_VARIANT[companion.companion_type] || 'ranger'
-  const isDizzy = tapCount >= 3
+  const variant = companion.equipped_outfit || COMPANION_TYPES.find(c => c.id === companion.companion_type)?.baseVariant || 'Forest_Ranger_1'
   const expression = companion.hunger < 30 ? 3 : companion.mood > 80 ? 1 : 2
 
   return (
     <div className={`relative ${containerSizes[size]} mx-auto`}>
-      {/* Hearts */}
       <AnimatePresence>
         {hearts.map(h => (
           <motion.div key={h.id}
@@ -57,25 +50,15 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
       </AnimatePresence>
 
       <div onClick={handleTap}>
-        <ChibiComposer
-          variant={variant}
-          expression={expression}
-          accessory={companion.level >= 10 ? 'Bow' : undefined}
-          size={size === 'large' ? 'large' : 'normal'}
-          animate={!isDizzy}
-        />
+        <ChibiComposer variant={variant} expression={expression}
+          size={size === 'large' ? 'large' : 'normal'} />
       </div>
 
-      {/* Mood label */}
-      <motion.div
-        className="absolute -top-2 -right-2 bg-white rounded-full w-7 h-7 flex items-center justify-center text-sm shadow-md"
-        animate={{ scale: [1, 1.1, 1] }}
-        transition={{ duration: 2, repeat: Infinity }}
-      >
+      <motion.div className="absolute -top-2 -right-2 bg-white rounded-full w-7 h-7 flex items-center justify-center text-sm shadow-md"
+        animate={{ scale: [1, 1.1, 1] }} transition={{ duration: 2, repeat: Infinity }}>
         {companion.hunger < 30 ? '😢' : companion.mood > 80 ? '😄' : '😊'}
       </motion.div>
 
-      {/* Evolution badge */}
       <div className="text-center mt-1">
         <span className="text-xs bg-gradient-to-r from-amber-100 to-orange-100 text-amber-700 px-2 py-0.5 rounded-full font-bold">
           {getEvolutionName(companion.companion_type, stage)}

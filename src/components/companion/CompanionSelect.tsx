@@ -17,7 +17,7 @@ export function CompanionSelect({ companions, selected, onSelect, onNext }: Prop
             onClick={() => onSelect(c.id)}
             className={`p-4 rounded-3xl border-2 transition-all
               ${selected === c.id ? 'border-kid-primary bg-purple-50 shadow-lg' : 'border-gray-200 bg-white hover:border-purple-300'}`}>
-            <img src={c.baseImage} alt={c.name} className="w-24 h-24 mx-auto" />
+            <img src={`/assets/companions/${c.baseVariant}/Body.png`} alt={c.name} className="w-24 h-24 mx-auto object-contain" />
             <p className="text-center font-bold mt-2">{c.name}</p>
             <p className="text-xs text-gray-400 text-center">{c.description}</p>
           </motion.button>

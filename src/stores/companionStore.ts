@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from './authStore'
 import { LEVEL_THRESHOLDS } from '../lib/constants'
+import { COMPANION_TYPES } from '../data/companionTypes'
 import type { Database } from '../lib/database.types'
 
 type Companion = Database['public']['Tables']['companions']['Row']
@@ -12,6 +13,8 @@ interface CompanionState {
   justEvolved: boolean
   fetchCompanion: () => Promise<void>
   createCompanion: (type: string, name: string) => Promise<void>
+  switchCompanion: (type: string) => Promise<void>
+  equipOutfit: (variant: string) => Promise<void>
   feed: (hungerAmount: number, moodAmount: number) => Promise<void>
   addExp: (amount: number) => Promise<void>
   equipItem: (itemId: string) => Promise<void>
@@ -57,6 +60,26 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
       if (error) throw error
       set({ companion: data })
     }
+  },
+
+  switchCompanion: async (type: string) => {
+    const c = get().companion
+    if (!c) return
+    const def = COMPANION_TYPES.find(t => t.id === type)
+    if (!def) return
+    await supabase.from('companions').update({
+      companion_type: type,
+      equipped_outfit: def.baseVariant,
+      equipped_items: [],
+    }).eq('id', c.id)
+    set({ companion: { ...c, companion_type: type, equipped_outfit: def.baseVariant, equipped_items: [] } })
+  },
+
+  equipOutfit: async (variant: string) => {
+    const c = get().companion
+    if (!c) return
+    await supabase.from('companions').update({ equipped_outfit: variant }).eq('id', c.id)
+    set({ companion: { ...c, equipped_outfit: variant } })
   },
 
   feed: async (hungerAmount: number, moodAmount: number) => {
