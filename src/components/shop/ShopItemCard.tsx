@@ -13,17 +13,27 @@ export function ShopItemCard({ item, canAfford, onBuy }: Props) {
   const effect = item.effect as { hunger?: number; mood?: number }
 
   return (
-    <motion.div whileHover={{ scale: 1.03 }} className="card flex flex-col items-center text-center">
-      <p className="text-3xl mb-2">{getEmoji(item.type)}</p>
-      <p className="font-bold text-sm">{item.name}</p>
+    <motion.div
+      whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
+      className="bg-white rounded-3xl p-4 shadow-md shadow-gray-100/50 border border-gray-100 text-center"
+    >
+      <div className="w-14 h-14 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl flex items-center justify-center mx-auto mb-3">
+        <span className="text-2xl">{getEmoji(item.type)}</span>
+      </div>
+      <p className="font-extrabold text-sm text-kid-text">{item.name}</p>
       <p className="text-xs text-gray-400 mt-1">
         {effect.hunger ? `饱腹+${effect.hunger} ` : ''}{effect.mood ? `心情+${effect.mood}` : ''}
       </p>
-      <button onClick={() => onBuy(item)} disabled={!canAfford}
-        className="mt-3 px-4 py-2 rounded-xl text-sm font-bold transition-all
-                   bg-kid-primary text-white disabled:bg-gray-200 disabled:text-gray-400">
+      <motion.button
+        whileTap={{ scale: 0.9 }}
+        onClick={() => onBuy(item)}
+        disabled={!canAfford}
+        className="mt-3 w-full py-2.5 rounded-2xl text-sm font-extrabold transition-all
+          bg-gradient-to-r from-kid-warning to-kid-secondary text-white shadow-md shadow-orange-200/30
+          disabled:bg-gray-200 disabled:text-gray-400 disabled:shadow-none"
+      >
         ⭐ {item.cost}
-      </button>
+      </motion.button>
     </motion.div>
   )
 }
