@@ -68,7 +68,7 @@ export default function CompanionPage() {
                 }`}
               >
                 <div className="w-16 h-16 mx-auto mb-1">
-                  <img src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\\d+$/, '')}_Idle%20Blinking_000.png`}
+                  <img src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\\d+$/, '')}_Idle_Blinking_000.png`}
                     alt={type.name} className="w-full h-full object-contain" />
                 </div>
                 <p className="text-xs font-bold text-kid-text">{type.name}</p>
