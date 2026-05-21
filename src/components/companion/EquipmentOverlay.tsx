@@ -1,48 +1,39 @@
-import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { supabase } from '../../lib/supabase'
 
-interface ItemVisual { emoji: string; position: string; size: string }
-
-// Name-based mapping (stable, doesn't depend on UUID)
-const NAME_MAP: Record<string, ItemVisual> = {
-  '蝴蝶结':   { emoji: '🎀', position: '-top-1 -right-1', size: 'text-base' },
-  '墨镜':     { emoji: '🕶️', position: 'top-1 left-0 right-0 mx-auto', size: 'text-lg' },
-  '小围巾':   { emoji: '🧣', position: '-bottom-1 left-0 right-0 mx-auto', size: 'text-base' },
-  '金色皮肤': { emoji: '✨', position: 'inset-0 flex items-center justify-center', size: 'text-xl' },
-  '星空背景': { emoji: '🌟', position: 'inset-0 flex items-center justify-center', size: 'text-2xl' },
+// Shop items mapped to Craftpix accessories
+const NAME_TO_ACCESSORY: Record<string, string> = {
+  '蝴蝶结':   'Bow',
+  '墨镜':     'Sword',      // Will be replaced — using Sword as placeholder for now
+  '小围巾':   'SlashFX',    // Will be replaced
+  '金色皮肤': 'Face 02',    // Different face as "skin" effect
+  '星空背景': 'Face 03',
 }
 
-export function EquipmentOverlay({ itemIds, size }: { itemIds: string[]; size: 'small' | 'normal' | 'large' }) {
-  const [visuals, setVisuals] = useState<ItemVisual[]>([])
-  const containerSizes = { small: 'w-16 h-16', normal: 'w-24 h-24', large: 'w-32 h-32' }
+export function EquipmentOverlay({ itemIds, variant }: { itemIds: string[]; variant: string }) {
+  const [accessories, setAccessories] = useState<string[]>([])
 
   useEffect(() => {
-    if (!itemIds || itemIds.length === 0) { setVisuals([]); return }
-    // Resolve UUIDs to names via DB
+    if (!itemIds || itemIds.length === 0) { setAccessories([]); return }
     supabase.from('shop_items').select('id,name').in('id', itemIds).then(({ data }) => {
       if (!data) return
-      const found = data.flatMap(item => {
-        const v = NAME_MAP[item.name]
-        return v ? [v] : []
-      })
-      setVisuals(found)
+      const parts = data.map(item => NAME_TO_ACCESSORY[item.name]).filter(Boolean)
+      setAccessories(parts)
     })
   }, [itemIds])
 
-  if (visuals.length === 0) return null
+  if (accessories.length === 0) return null
 
   return (
-    <div className={`absolute ${containerSizes[size]} pointer-events-none`}>
-      {visuals.map((v, i) => (
-        <motion.div
+    <div className="absolute inset-0 pointer-events-none z-15">
+      {accessories.map((acc, i) => (
+        <img
           key={i}
-          className={`absolute ${v.position} ${v.size} z-20`}
-          animate={v.emoji === '✨' ? { opacity: [0.4, 1, 0.4] } : { y: [0, -2, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
-        >
-          {v.emoji}
-        </motion.div>
+          src={`/assets/companions/${variant}/${acc}.png`}
+          alt={acc}
+          className="absolute inset-0 w-full h-full object-contain"
+          style={{ zIndex: 11 + i, opacity: 0.9 }}
+        />
       ))}
     </div>
   )

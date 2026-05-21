@@ -15,7 +15,7 @@ export function CompanionDisplay() {
       <div className="card-gradient text-center py-10">
         <p className="text-5xl mb-4">🥚</p>
         <p className="font-extrabold text-lg mb-3 text-kid-text">还没有伙伴!</p>
-        <button onClick={() => navigate('/companion/select')} className="btn-play">选一个伙伴吧 →</button>
+        <button onClick={() => navigate('/companion/select')} className="btn-primary">选择伙伴 →</button>
       </div>
     )
   }
@@ -24,9 +24,9 @@ export function CompanionDisplay() {
     <div className="card-gradient cursor-pointer" onClick={() => navigate('/companion')}>
       <SpeechBubble />
       <InteractiveCompanion />
-      <div className="flex items-center gap-2 justify-center mt-2">
+      <div className="flex items-center gap-2 justify-center mt-1">
         <h2 className="text-lg font-extrabold text-kid-text">{companion.name}</h2>
-        <span className="text-xs bg-gradient-to-r from-kid-primary to-kid-primary-light text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm">
+        <span className="text-xs bg-gradient-to-r from-kid-primary to-kid-primary-light text-white px-2.5 py-0.5 rounded-full font-bold">
           Lv.{companion.level}
         </span>
       </div>
