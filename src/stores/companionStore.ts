@@ -17,6 +17,9 @@ interface CompanionState {
   equipOutfit: (variant: string) => Promise<void>
   feed: (hungerAmount: number, moodAmount: number) => Promise<void>
   addExp: (amount: number) => Promise<void>
+  equipWeapon: () => Promise<void>
+  unequipWeapon: () => Promise<void>
+  hasWeapon: () => boolean
   equipItem: (itemId: string) => Promise<void>
   unequipItem: (itemId: string) => Promise<void>
   clearEvolved: () => void
@@ -111,6 +114,26 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
   },
 
   clearEvolved: () => set({ justEvolved: false }),
+
+  equipWeapon: async () => {
+    const c = get().companion; if (!c) return
+    const items = (c.equipped_items as string[]) || []
+    if (items.includes('weapon_sword')) return
+    await supabase.from('companions').update({ equipped_items: [...items, 'weapon_sword'] }).eq('id', c.id)
+    set({ companion: { ...c, equipped_items: [...items, 'weapon_sword'] } })
+  },
+
+  unequipWeapon: async () => {
+    const c = get().companion; if (!c) return
+    const items = ((c.equipped_items as string[]) || []).filter((i: string) => i !== 'weapon_sword')
+    await supabase.from('companions').update({ equipped_items: items }).eq('id', c.id)
+    set({ companion: { ...c, equipped_items: items } })
+  },
+
+  hasWeapon: () => {
+    const items = (get().companion?.equipped_items as string[]) || []
+    return items.includes('weapon_sword')
+  },
 
   equipItem: async (itemId: string) => {
     const c = get().companion

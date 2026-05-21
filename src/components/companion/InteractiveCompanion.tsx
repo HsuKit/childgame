@@ -43,7 +43,8 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
       </AnimatePresence>
 
       <div onClick={handleTap}>
-        <ChibiComposer variant={variant} size={size === 'large' ? 'large' : 'normal'} />
+        <ChibiComposer variant={variant} size={size === 'large' ? 'large' : 'normal'}
+          hasWeapon={((companion.equipped_items as string[]) || []).includes('weapon_sword')} />
       </div>
 
       <motion.div className="absolute -top-1 -right-1 bg-white rounded-full w-6 h-6 flex items-center justify-center text-xs shadow-md"

@@ -1,71 +1,122 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { motion } from 'framer-motion'
 
 interface Props {
   variant: string
   size?: 'small' | 'normal' | 'large'
+  hasWeapon?: boolean
+  onAction?: () => void
   onClick?: () => void
 }
 
 const SIZE = { small: 100, normal: 160, large: 240 }
-const TOTAL = 18
+const TOTAL_IDLE = 18
 
-export function ChibiComposer({ variant, size = 'normal', onClick }: Props) {
+type AnimType = 'idle' | 'throw' | 'attack'
+
+function getActionFolder(variant: string, type: AnimType): string {
+  if (type === 'attack') {
+    return (variant === 'Forest_Ranger_1' || variant === 'Forest_Ranger_2') ? 'Shooting in The Air' : 'Slashing in The Air'
+  }
+  if (type === 'throw') return 'Throwing in The Air'
+  return 'Idle'
+}
+
+function getFramePath(variant: string, type: AnimType, frame: number): string {
+  const base = variant.replace(/_\d+$/, '')
+  const folder = type === 'idle' ? 'idle' : type === 'attack' ? 'attack' : 'throw'
+  const actionName = getActionFolder(variant, type)
+  return `/assets/companions/${variant}/${folder}/0_${base}_${actionName}_${String(frame).padStart(3, '0')}.png`
+}
+
+export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onAction, onClick }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const rafRef = useRef(0)
+  const animRef = useRef<AnimType>('idle')
+  const actionTimerRef = useRef(0)
+  const [, forceRender] = useState(0)
+
+  const triggerAction = useCallback(() => {
+    animRef.current = hasWeapon ? 'attack' : 'throw'
+    forceRender(n => n + 1)
+    onAction?.()
+    clearTimeout(actionTimerRef.current)
+    actionTimerRef.current = window.setTimeout(() => {
+      animRef.current = 'idle'
+      forceRender(n => n + 1)
+    }, 1200)
+  }, [hasWeapon, onAction])
+
+  // Expose trigger via onClick
+  const handleClick = () => {
+    onClick?.()
+    triggerAction()
+  }
 
   useEffect(() => {
-    const base = variant.replace(/_\d+$/, '')
-    const pad = (n: number) => String(n).padStart(3, '0')
+    // Preload: idle + throw + attack
+    const types: AnimType[] = ['idle', 'throw', 'attack']
+    const images: Record<string, HTMLImageElement[]> = {}
     let cancelled = false
-    const images: HTMLImageElement[] = []
-    let loaded = 0
 
-    for (let i = 0; i < TOTAL; i++) {
-      const img = new Image()
-      img.onload = () => { loaded++; if (loaded === TOTAL && !cancelled) start() }
-      img.src = `/assets/companions/${variant}/idle/0_${base}_Idle_${pad(i)}.png`
-      images.push(img)
+    for (const t of types) {
+      const total = t === 'idle' ? TOTAL_IDLE : 12
+      images[t] = []
+      for (let i = 0; i < total; i++) {
+        const img = new Image()
+        img.src = getFramePath(variant, t, i)
+        images[t].push(img)
+      }
     }
 
-    function start() {
+    // Wait a frame for preload to start
+    const startTimeout = setTimeout(() => {
+      if (cancelled) return
       const canvas = canvasRef.current
-      if (!canvas || cancelled) return
+      if (!canvas) return
       const ctx = canvas.getContext('2d')!
       const px = SIZE[size]
       const s = px * 2
       canvas.width = s
       canvas.height = s
+
       let frame = 0
       let last = 0
-      const delay = 120
+      const idleDelay = 120
+      const actionDelay = 100
 
       function draw(time: number) {
         if (cancelled) return
+        const currentType = animRef.current
+        const imgs = images[currentType] || images.idle
+        const total = currentType === 'idle' ? TOTAL_IDLE : 9
+        const delay = currentType === 'idle' ? idleDelay : actionDelay
+
         if (time - last >= delay) {
           last = time
           ctx.clearRect(0, 0, s, s)
-          if (images[frame]) ctx.drawImage(images[frame], 0, 0, s, s)
-          frame = (frame + 1) % TOTAL
+          const idx = frame % imgs.length
+          if (imgs[idx]) ctx.drawImage(imgs[idx], 0, 0, s, s)
+          frame = (frame + 1) % total
         }
         rafRef.current = requestAnimationFrame(draw)
       }
       rafRef.current = requestAnimationFrame(draw)
-    }
+    }, 200)
 
-    return () => { cancelled = true; cancelAnimationFrame(rafRef.current) }
-  }, [variant])
+    return () => { cancelled = true; clearTimeout(startTimeout); cancelAnimationFrame(rafRef.current) }
+  }, [variant, size])
 
   const px = SIZE[size]
 
   return (
-    <motion.div onClick={onClick}
+    <motion.div onClick={handleClick}
       animate={{ y: [0, -2, 0] }}
       transition={{ repeat: Infinity, duration: 2.5, ease: 'easeInOut' }}
       className="relative mx-auto cursor-pointer"
       style={{ width: px, height: px }}
-      whileHover={onClick ? { scale: 1.05 } : {}}
-      whileTap={onClick ? { scale: 0.95 } : {}}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
     >
       <canvas ref={canvasRef} className="w-full h-full" />
     </motion.div>
