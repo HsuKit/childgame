@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useCompanionStore } from '../../stores/companionStore'
 import { STARTER_COMPANIONS } from '../../data/companionTypes'
+import { EquipmentOverlay } from './EquipmentOverlay'
 
 function getCompanionImage(type: string): string {
   return STARTER_COMPANIONS.find(c => c.id === type)?.baseImage ?? '/companions/default.png'
@@ -89,6 +90,7 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
           animate={{ rotate: [0, 1, -1, 0] }}
           transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
         />
+        <EquipmentOverlay itemIds={(companion.equipped_items as string[]) || []} size={size} />
       </motion.div>
 
       {/* Mood emoji bubble */}
