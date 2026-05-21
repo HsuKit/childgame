@@ -67,8 +67,9 @@ export default function CompanionPage() {
                     : 'bg-white border-2 border-gray-100 hover:border-gray-300'
                 }`}
               >
-                <div className="text-3xl mb-1">
-                  {type.id === 'ranger' ? '🏹' : type.id === 'warrior' ? '⚔️' : type.id === 'mage' ? '🔮' : type.id === 'minotaur' ? '🐂' : '💀'}
+                <div className="w-16 h-16 mx-auto mb-1">
+                  <img src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\\d+$/, '')}_Idle%20Blinking_000.png`}
+                    alt={type.name} className="w-full h-full object-contain" />
                 </div>
                 <p className="text-xs font-bold text-kid-text">{type.name}</p>
                 {isActive && (
