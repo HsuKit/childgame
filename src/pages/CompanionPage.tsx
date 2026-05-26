@@ -27,12 +27,8 @@ export default function CompanionPage() {
       await switchCompanion(typeId)
       return
     }
-    if (target.unlockCost === 0) {
-      await switchCompanion(typeId)
-      await equipItem(`owned_${typeId}`)
-    } else if (!isOwned(typeId)) {
-      setSwitchTarget(typeId)
-    }
+    // All switches cost points (only initial 3-choose-1 is free)
+    setSwitchTarget(typeId)
   }
 
   const confirmSwitch = async () => {

@@ -59,6 +59,7 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
     } else {
       const { data, error } = await supabase.from('companions').insert({
         user_id: userId, companion_type: type, name,
+        equipped_items: [`owned_${type}`],  // Mark initial companion as owned
       }).select().single()
       if (error) throw error
       set({ companion: data })
