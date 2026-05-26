@@ -38,8 +38,31 @@ export default function CompanionPage() {
 
   const currentType = companion.companion_type
   const equipped = (companion.equipped_items as string[]) || []
-  const unlockedTypes = COMPANION_TYPES.filter(t => t.unlockCost === 0 || t.unlockCost <= balance)
-  const lockedTypes = COMPANION_TYPES.filter(t => t.unlockCost > 0 && t.unlockCost > balance)
+  const allItems = (companion.equipped_items as string[]) || []
+
+  // Check if a companion type has all 3 outfits purchased
+  const hasAllOutfits = (typeId: string) => {
+    const def = COMPANION_TYPES.find(t => t.id === typeId)
+    if (!def) return false
+    return def.outfitVariants.every(v => allItems.includes(`outfit_${v}`))
+  }
+
+  // Unlock chain: previous companion must have all outfits
+  const UNLOCK_CHAIN = ['minotaur', 'valkyrie', 'golem', 'reaper', 'angel']
+  const canUnlock = (typeId: string) => {
+    const idx = UNLOCK_CHAIN.indexOf(typeId)
+    if (idx === -1) return true // not in chain, free to unlock
+    if (idx === 0) return true   // first in chain, no prerequisite
+    const prevType = UNLOCK_CHAIN[idx - 1]
+    return hasAllOutfits(prevType)
+  }
+
+  const unlockedTypes = COMPANION_TYPES.filter(t => {
+    if (t.unlockCost === 0) return true  // starters always visible
+    if (balance < t.unlockCost) return false  // can't afford
+    return canUnlock(t.id)  // check chain
+  })
+  const lockedTypes = COMPANION_TYPES.filter(t => t.unlockCost > 0 && !unlockedTypes.find(u => u.id === t.id))
 
   return (
     <div className="p-4 space-y-5 pb-6">
@@ -125,7 +148,10 @@ export default function CompanionPage() {
                     />
                   </div>
                   <p className="text-xs font-bold text-gray-500 mt-1">{type.name}</p>
-                  <p className="text-xs text-amber-600 font-bold">⭐{type.unlockCost}</p>
+                  {(UNLOCK_CHAIN.indexOf(type.id) > 0 && !hasAllOutfits(UNLOCK_CHAIN[UNLOCK_CHAIN.indexOf(type.id) - 1]))
+                    ? <p className="text-xs text-red-400 font-bold">需解锁上一伙伴所有外观</p>
+                    : <p className="text-xs text-amber-600 font-bold">⭐{type.unlockCost}</p>
+                  }
                 </div>
               ))}
             </div>

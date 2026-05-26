@@ -70,12 +70,13 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
     if (!c) return
     const def = COMPANION_TYPES.find(t => t.id === type)
     if (!def) return
+    const currentOutfit = (c.equipped_items as string[])?.find(i => (i as string).startsWith(`outfit_${type}_`))
+    const fallbackOutfit = def.baseVariant
     await supabase.from('companions').update({
       companion_type: type,
-      equipped_outfit: def.baseVariant,
-      equipped_items: [],
+      equipped_outfit: currentOutfit ? currentOutfit.replace('outfit_', '') : fallbackOutfit,
     }).eq('id', c.id)
-    set({ companion: { ...c, companion_type: type, equipped_outfit: def.baseVariant, equipped_items: [] } })
+    set({ companion: { ...c, companion_type: type, equipped_outfit: currentOutfit ? currentOutfit.replace('outfit_', '') : fallbackOutfit } })
   },
 
   equipOutfit: async (variant: string, purchaseKey?: string) => {
