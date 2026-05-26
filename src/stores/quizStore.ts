@@ -67,6 +67,23 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
 
+    if (subject === 'math') {
+      // Mix 8 choice from DB + 2 generated Sudoku
+      const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
+      const { generateSudoku } = await import('../lib/sudokuGenerator')
+      const choiceQs = all ? [...all].sort(() => Math.random() - 0.5).slice(0, 8) : []
+      const gridQs = Array.from({ length: 2 }, (_, i) => ({
+        id: `gen_sudoku_${Date.now()}_${i}`,
+        subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
+        content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
+      }))
+      const questions = [...choiceQs, ...gridQs].sort(() => Math.random() - 0.5)
+      if (questions.length === 0) { set({ isLoading: false }); return }
+      const session = createEmptySession(subject, questions)
+      set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
+      return
+    }
+
     const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
     if (!all || all.length === 0) { set({ isLoading: false }); return }
     const shuffled = [...all].sort(() => Math.random() - 0.5)
@@ -149,13 +166,19 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const profile = useAuthStore.getState().profile
     if (!profile) return set({ isLoading: false })
 
+    const { generateSudoku } = await import('../lib/sudokuGenerator')
     const [mathQ, chineseQ, englishQ] = await Promise.all([
       supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
       supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
       supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
     ])
     const pick = (arr: any[], n: number) => [...arr].sort(() => Math.random() - 0.5).slice(0, n)
-    const allQuestions = [...pick(mathQ.data || [], 10), ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)]
+    const gridQs = Array.from({ length: 3 }, (_, i) => ({
+      id: `gen_ch_sudoku_${Date.now()}_${i}`,
+      subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
+      content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
+    }))
+    const allQuestions = [...pick(mathQ.data || [], 7), ...gridQs, ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)]
     // Shuffle all
     for (let i = allQuestions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
