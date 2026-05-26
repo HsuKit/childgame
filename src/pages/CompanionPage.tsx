@@ -11,7 +11,7 @@ import { COMPANION_TYPES } from '../data/companionTypes'
 const SWITCH_COST = 500
 
 export default function CompanionPage() {
-  const { companion, switchCompanion } = useCompanionStore()
+  const { companion, switchCompanion, equipItem } = useCompanionStore()
   const { balance, spendPoints } = usePointsStore()
   const [switchTarget, setSwitchTarget] = useState<string | null>(null)
 
@@ -22,9 +22,15 @@ export default function CompanionPage() {
   const handleSwitch = async (typeId: string) => {
     const target = COMPANION_TYPES.find(t => t.id === typeId)
     if (!target || typeId === companion.companion_type) return
+    // Already owned: switch for free
+    if (isOwned(typeId)) {
+      await switchCompanion(typeId)
+      return
+    }
     if (target.unlockCost === 0) {
       await switchCompanion(typeId)
-    } else {
+      await equipItem(`owned_${typeId}`)
+    } else if (!isOwned(typeId)) {
       setSwitchTarget(typeId)
     }
   }
@@ -32,13 +38,20 @@ export default function CompanionPage() {
   const confirmSwitch = async () => {
     if (!switchTarget) return
     const ok = await spendPoints(SWITCH_COST, 'switch_companion')
-    if (ok) await switchCompanion(switchTarget)
+    if (ok) {
+      await switchCompanion(switchTarget)
+      // Mark as owned so switching back is free
+      await equipItem(`owned_${switchTarget}`)
+    }
     setSwitchTarget(null)
   }
 
   const currentType = companion.companion_type
   const equipped = (companion.equipped_items as string[]) || []
   const allItems = (companion.equipped_items as string[]) || []
+
+  // Previously owned/paid companions are permanently available
+  const isOwned = (typeId: string) => allItems.includes(`owned_${typeId}`)
 
   // Check if a companion type has all 3 outfits purchased
   const hasAllOutfits = (typeId: string) => {
@@ -51,16 +64,16 @@ export default function CompanionPage() {
   const UNLOCK_CHAIN = ['minotaur', 'valkyrie', 'golem', 'reaper', 'angel']
   const canUnlock = (typeId: string) => {
     const idx = UNLOCK_CHAIN.indexOf(typeId)
-    if (idx === -1) return true // not in chain, free to unlock
-    if (idx === 0) return true   // first in chain, no prerequisite
-    const prevType = UNLOCK_CHAIN[idx - 1]
-    return hasAllOutfits(prevType)
+    if (idx === -1) return true
+    if (idx === 0) return true
+    return hasAllOutfits(UNLOCK_CHAIN[idx - 1])
   }
 
   const unlockedTypes = COMPANION_TYPES.filter(t => {
-    if (t.unlockCost === 0) return true  // starters always visible
-    if (balance < t.unlockCost) return false  // can't afford
-    return canUnlock(t.id)  // check chain
+    if (t.unlockCost === 0) return true  // starters
+    if (isOwned(t.id)) return true       // already unlocked
+    if (balance < t.unlockCost) return false
+    return canUnlock(t.id)
   })
   const lockedTypes = COMPANION_TYPES.filter(t => t.unlockCost > 0 && !unlockedTypes.find(u => u.id === t.id))
 
