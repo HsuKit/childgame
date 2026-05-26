@@ -15,14 +15,24 @@ export default function ShopPage() {
   const currentType = COMPANION_TYPES.find(t => t.id === companion.companion_type)
   const outfits = currentType?.outfitVariants || []
   const currentOutfit = companion.equipped_outfit
-  const weapons = ((companion.equipped_items as string[]) || [])
-  const hasWeapon = weapons.includes('weapon_sword')
+  const allItems = ((companion.equipped_items as string[]) || [])
+  const hasWeapon = allItems.includes('weapon_sword')
+  const purchasedOutfits = allItems.filter(i => (i as string).startsWith('outfit_'))
+  const weaponBought = allItems.includes('weapon_purchased')
 
   const buyOutfit = async (variant: string, cost: number) => {
     if (variant === currentOutfit) return
-    const ok = await spendPoints(cost, 'buy_outfit')
-    if (ok) { await equipOutfit(variant); setMessage('外观已更换!') }
-    else setMessage('积分不足!')
+    const alreadyBought = purchasedOutfits.includes(`outfit_${variant}`)
+    if (alreadyBought) {
+      await equipOutfit(variant)
+      setMessage('外观已更换!')
+    } else {
+      const ok = await spendPoints(cost, 'buy_outfit')
+      if (ok) {
+        await equipOutfit(variant, `outfit_${variant}`)
+        setMessage('外观已解锁并更换!')
+      } else setMessage('积分不足!')
+    }
     setTimeout(() => setMessage(null), 2000)
   }
 
@@ -30,9 +40,11 @@ export default function ShopPage() {
     setPreviewAnim(hasWeapon ? 'throw' : 'attack')
     if (hasWeapon) {
       await unequipWeapon(); setMessage('已卸下武器')
+    } else if (weaponBought) {
+      await equipWeapon(); setMessage('已装备武器! ⚔️')
     } else {
       const ok = await spendPoints(200, 'buy_weapon')
-      if (ok) { await equipWeapon(); setMessage('已装备武器! ⚔️') }
+      if (ok) { await equipWeapon(true); setMessage('已装备武器! ⚔️') }
       else { setMessage('积分不足!'); setPreviewAnim(null); return }
     }
     setTimeout(() => { setMessage(null); setPreviewAnim(null) }, 2500)

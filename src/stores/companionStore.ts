@@ -14,10 +14,10 @@ interface CompanionState {
   fetchCompanion: () => Promise<void>
   createCompanion: (type: string, name: string) => Promise<void>
   switchCompanion: (type: string) => Promise<void>
-  equipOutfit: (variant: string) => Promise<void>
+  equipOutfit: (variant: string, purchaseKey?: string) => Promise<void>
   feed: (hungerAmount: number, moodAmount: number) => Promise<void>
   addExp: (amount: number) => Promise<void>
-  equipWeapon: () => Promise<void>
+  equipWeapon: (firstBuy?: boolean) => Promise<void>
   unequipWeapon: () => Promise<void>
   hasWeapon: () => boolean
   equipItem: (itemId: string) => Promise<void>
@@ -78,11 +78,16 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
     set({ companion: { ...c, companion_type: type, equipped_outfit: def.baseVariant, equipped_items: [] } })
   },
 
-  equipOutfit: async (variant: string) => {
+  equipOutfit: async (variant: string, purchaseKey?: string) => {
     const c = get().companion
     if (!c) return
-    await supabase.from('companions').update({ equipped_outfit: variant }).eq('id', c.id)
-    set({ companion: { ...c, equipped_outfit: variant } })
+    const items = (c.equipped_items as string[]) || []
+    const newItems = purchaseKey ? [...items.filter(i => (i as string).startsWith('outfit_')), purchaseKey] : items
+    await supabase.from('companions').update({
+      equipped_outfit: variant,
+      equipped_items: newItems,
+    }).eq('id', c.id)
+    set({ companion: { ...c, equipped_outfit: variant, equipped_items: newItems } })
   },
 
   feed: async (hungerAmount: number, moodAmount: number) => {
@@ -115,12 +120,12 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
 
   clearEvolved: () => set({ justEvolved: false }),
 
-  equipWeapon: async () => {
+  equipWeapon: async (firstBuy?: boolean) => {
     const c = get().companion; if (!c) return
     const items = (c.equipped_items as string[]) || []
-    if (items.includes('weapon_sword')) return
-    await supabase.from('companions').update({ equipped_items: [...items, 'weapon_sword'] }).eq('id', c.id)
-    set({ companion: { ...c, equipped_items: [...items, 'weapon_sword'] } })
+    const newItems = firstBuy ? [...items, 'weapon_sword', 'weapon_purchased'] : [...items, 'weapon_sword']
+    await supabase.from('companions').update({ equipped_items: newItems }).eq('id', c.id)
+    set({ companion: { ...c, equipped_items: newItems } })
   },
 
   unequipWeapon: async () => {
