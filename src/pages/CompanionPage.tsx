@@ -17,6 +17,7 @@ export default function CompanionPage() {
   const currentType = companion.companion_type
   const equipped = (companion.equipped_items as string[]) || []
   const unlockedTypes = COMPANION_TYPES.filter(t => t.unlockCost === 0 || t.unlockCost <= balance)
+  const lockedTypes = COMPANION_TYPES.filter(t => t.unlockCost > 0 && t.unlockCost > balance)
 
   return (
     <div className="p-4 space-y-5 pb-6">
@@ -84,6 +85,30 @@ export default function CompanionPage() {
             )
           })}
         </div>
+
+        {/* Locked companions teaser */}
+        {lockedTypes.length > 0 && (
+          <div className="mt-4 bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 rounded-2xl p-4 border border-amber-200">
+            <p className="text-sm font-extrabold text-amber-700 mb-3 text-center">
+              🔒 获取更多积分解锁隐藏款伙伴!
+            </p>
+            <div className="flex gap-3 justify-center">
+              {lockedTypes.map(type => (
+                <div key={type.id} className="text-center relative">
+                  <div className="w-12 h-12 rounded-xl bg-gray-900/80 flex items-center justify-center mx-auto overflow-hidden">
+                    <img
+                      src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\d+$/, '')}_Idle_Blinking_000.png`}
+                      alt={type.name}
+                      className="w-full h-full object-contain opacity-20"
+                    />
+                  </div>
+                  <p className="text-xs font-bold text-gray-500 mt-1">{type.name}</p>
+                  <p className="text-xs text-amber-600 font-bold">⭐{type.unlockCost}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
