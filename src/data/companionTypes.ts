@@ -39,6 +39,24 @@ export const COMPANION_TYPES: CompanionTypeDef[] = [
     outfitVariants: ['Reaper_Man_1', 'Reaper_Man_2', 'Reaper_Man_3'],
     description: '来自暗影界的神秘使者', unlockCost: 1000,
   },
+  {
+    id: 'valkyrie', name: '女武神', category: 'rare',
+    baseVariant: 'Valkyrie_1',
+    outfitVariants: ['Valkyrie_1', 'Valkyrie_2', 'Valkyrie_3'],
+    description: '英灵殿的勇者，圣光护体', unlockCost: 800,
+  },
+  {
+    id: 'golem', name: '石魔像', category: 'rare',
+    baseVariant: 'Golem_1',
+    outfitVariants: ['Golem_1', 'Golem_2', 'Golem_3'],
+    description: '大地之心的守护者，坚不可摧', unlockCost: 600,
+  },
+  {
+    id: 'angel', name: '小天使', category: 'legendary',
+    baseVariant: 'Fallen_Angels_1',
+    outfitVariants: ['Fallen_Angels_1', 'Fallen_Angels_2', 'Fallen_Angels_3'],
+    description: '来自天堂的使者，圣洁之光', unlockCost: 1200,
+  },
 ]
 
 // Accessories available for all companions
