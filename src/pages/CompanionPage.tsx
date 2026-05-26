@@ -1,17 +1,39 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useCompanionStore } from '../stores/companionStore'
 import { usePointsStore } from '../stores/pointsStore'
 import { CompanionStats } from '../components/companion/CompanionStats'
 import { InteractiveCompanion } from '../components/companion/InteractiveCompanion'
 import { SpeechBubble } from '../components/companion/SpeechBubble'
+import { SwitchConfirmDialog } from '../components/companion/SwitchConfirmDialog'
 import { COMPANION_TYPES } from '../data/companionTypes'
+
+const SWITCH_COST = 500
 
 export default function CompanionPage() {
   const { companion, switchCompanion } = useCompanionStore()
-  const { balance } = usePointsStore()
+  const { balance, spendPoints } = usePointsStore()
+  const [switchTarget, setSwitchTarget] = useState<string | null>(null)
 
   if (!companion) {
     return <div className="p-6 text-center"><p className="text-5xl mb-4">🥚</p><p className="text-gray-400 font-bold">还没有伙伴</p></div>
+  }
+
+  const handleSwitch = async (typeId: string) => {
+    const target = COMPANION_TYPES.find(t => t.id === typeId)
+    if (!target || typeId === companion.companion_type) return
+    if (target.unlockCost === 0) {
+      await switchCompanion(typeId)
+    } else {
+      setSwitchTarget(typeId)
+    }
+  }
+
+  const confirmSwitch = async () => {
+    if (!switchTarget) return
+    const ok = await spendPoints(SWITCH_COST, 'switch_companion')
+    if (ok) await switchCompanion(switchTarget)
+    setSwitchTarget(null)
   }
 
   const currentType = companion.companion_type
@@ -61,7 +83,7 @@ export default function CompanionPage() {
               <motion.button
                 key={type.id}
                 whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
-                onClick={() => !isActive && switchCompanion(type.id)}
+                onClick={() => !isActive && handleSwitch(type.id)}
                 className={`rounded-2xl p-3 text-center transition-all ${
                   isActive
                     ? 'bg-gradient-to-br from-purple-100 to-pink-100 border-2 border-purple-400 shadow-md'
@@ -110,6 +132,15 @@ export default function CompanionPage() {
           </div>
         )}
       </div>
+
+      {switchTarget && (
+        <SwitchConfirmDialog
+          companionName={COMPANION_TYPES.find(t => t.id === switchTarget)?.name || ''}
+          cost={SWITCH_COST}
+          onConfirm={confirmSwitch}
+          onCancel={() => setSwitchTarget(null)}
+        />
+      )}
     </div>
   )
 }

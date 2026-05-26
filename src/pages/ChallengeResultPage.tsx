@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useQuizStore } from '../stores/quizStore'
@@ -12,36 +12,41 @@ export default function ChallengeResultPage() {
   const addPoints = usePointsStore(s => s.addPoints)
   const addExp = useCompanionStore(s => s.addExp)
   const saveChallengeRecords = useQuizStore(s => s.saveChallengeRecords)
+  const challengeDone = useQuizStore(s => s.getTodayChallengeDone)
+  const [alreadyDone, setAlreadyDone] = useState(false)
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
-    saveChallengeRecords()
-    if (session.pointsEarned > 0) {
-      addPoints(session.pointsEarned, 'challenge_reward', session.questions[0]?.id ?? null)
-      addExp(session.pointsEarned * 2)
-    }
-    if (session.passed) {
-      addPoints(100, 'challenge_bonus')
-      const markChallengeDone = async () => {
-        const { supabase } = await import('../lib/supabase')
-        const { useAuthStore } = await import('../stores/authStore')
-        const userId = useAuthStore.getState().user?.id
-        if (!userId) return
-        const today = new Date().toISOString().slice(0, 10)
-        await supabase.from('check_ins').update({ challenge_done: true }).eq('user_id', userId).eq('date', today)
+    challengeDone().then(done => {
+      if (done) { setAlreadyDone(true); return }
+      saveChallengeRecords()
+      if (session.pointsEarned > 0) {
+        addPoints(session.pointsEarned, 'challenge_reward', session.questions[0]?.id ?? null)
+        addExp(session.pointsEarned * 2)
       }
-      markChallengeDone()
-    }
+      if (session.passed) {
+        addPoints(200, 'challenge_bonus')
+        const markChallengeDone = async () => {
+          const { supabase } = await import('../lib/supabase')
+          const { useAuthStore } = await import('../stores/authStore')
+          const userId = useAuthStore.getState().user?.id
+          if (!userId) return
+          const today = new Date().toISOString().slice(0, 10)
+          await supabase.from('check_ins').update({ challenge_done: true }).eq('user_id', userId).eq('date', today)
+        }
+        markChallengeDone()
+      }
+    })
   }, [])
 
   if (!session) return null
 
   const passed = session.passed
-  const bonusPoints = passed ? 100 : 0
+  const bonusPoints = passed ? 200 : 0
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6">
-      <PointsFlyAnimation amount={session.pointsEarned + bonusPoints} />
+      {!alreadyDone && <PointsFlyAnimation amount={session.pointsEarned + bonusPoints} />}
 
       <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="card text-center w-full max-w-sm">
         <span className="text-6xl">{passed ? '🏆' : '💪'}</span>
@@ -72,6 +77,12 @@ export default function ChallengeResultPage() {
           </div>
         </div>
       </motion.div>
+
+      {alreadyDone && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 mt-4 text-center max-w-sm w-full">
+          <p className="font-bold text-amber-700">📋 今天已完成挑战，不再获得积分</p>
+        </div>
+      )}
 
       <div className="flex gap-4 mt-6">
         <button onClick={() => navigate('/')} className="btn-primary">返回首页</button>
