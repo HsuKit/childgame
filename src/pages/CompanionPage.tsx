@@ -43,6 +43,7 @@ export default function CompanionPage() {
   }
 
   const currentType = companion.companion_type
+  const currentTypeDef = COMPANION_TYPES.find(t => t.id === currentType)
   const equipped = (companion.equipped_items as string[]) || []
   const allItems = (companion.equipped_items as string[]) || []
 
@@ -92,18 +93,33 @@ export default function CompanionPage() {
       </div>
 
       {/* Equipped */}
-      {equipped.length > 0 && (
-        <div className="card">
-          <h2 className="font-bold mb-3">🎒 已装备</h2>
-          <div className="flex gap-2 flex-wrap">
-            {equipped.map((itemId, i) => (
-              <span key={i} className="bg-purple-50 text-purple-600 px-3 py-1 rounded-full text-sm font-bold">
-                {itemId}
-              </span>
-            ))}
+      {(() => {
+        const displayItems = equipped
+          .filter((i: string) => !i.startsWith('owned_') && i !== 'weapon_purchased')
+          .map((i: string) => {
+            if (i === 'weapon_sword') return '⚔️ 武器'
+            if (i.startsWith('outfit_')) {
+              const variant = i.replace('outfit_', '')
+              const outfitIdx = currentTypeDef?.outfitVariants.indexOf(variant) ?? -1
+              const labels = ['默认', '进阶', '传说']
+              return `👗 ${labels[outfitIdx] || '外观'}`
+            }
+            return null
+          }).filter(Boolean) as string[]
+        if (displayItems.length === 0) return null
+        return (
+          <div className="card">
+            <h2 className="font-bold mb-3">🎒 已装备</h2>
+            <div className="flex gap-2 flex-wrap">
+              {displayItems.map((label, i) => (
+                <span key={i} className="bg-purple-50 text-purple-600 px-3 py-1 rounded-full text-sm font-bold">
+                  {label}
+                </span>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )
+      })()}
 
       {/* Switch Companion */}
       <div>
