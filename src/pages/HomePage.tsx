@@ -80,6 +80,21 @@ export default function HomePage() {
       )}
 
       {/* Daily Tasks */}
+      {/* PK Entry */}
+      <motion.button
+        whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+        onClick={() => navigate('/pk')}
+        className="w-full bg-gradient-to-r from-blue-400 to-cyan-400 rounded-3xl p-4 shadow-lg shadow-blue-200/40 text-white text-left">
+        <div className="flex items-center gap-3">
+          <span className="text-3xl">⚔️</span>
+          <div>
+            <p className="font-extrabold">好友对战</p>
+            <p className="text-xs text-white/80">创建挑战码，和朋友一决高下</p>
+          </div>
+          <span className="ml-auto text-xl">→</span>
+        </div>
+      </motion.button>
+
       <div>
         <h2 className="font-extrabold text-lg mb-3 px-1">📝 今日任务</h2>
         <div className="grid gap-3">

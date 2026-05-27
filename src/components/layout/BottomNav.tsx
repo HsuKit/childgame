@@ -5,6 +5,7 @@ const links = [
   { to: '/', label: '首页', icon: '🏠' },
   { to: '/companion', label: '伙伴', icon: '🐾' },
   { to: '/shop', label: '商城', icon: '🛍️' },
+  { to: '/leaderboard', label: '排行', icon: '🏆' },
   { to: '/profile', label: '我的', icon: '👤' },
 ]
 

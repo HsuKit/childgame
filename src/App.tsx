@@ -11,6 +11,10 @@ import ChallengeResultPage from './pages/ChallengeResultPage'
 import ShopPage from './pages/ShopPage'
 import CheckInPage from './pages/CheckInPage'
 import ProfilePage from './pages/ProfilePage'
+import LeaderboardPage from './pages/LeaderboardPage'
+import PkPage from './pages/PkPage'
+import PkQuizPage from './pages/PkQuizPage'
+import PkResultPage from './pages/PkResultPage'
 
 export default function App() {
   return (
@@ -28,6 +32,10 @@ export default function App() {
             <Route path="/shop" element={<ShopPage />} />
             <Route path="/checkin" element={<CheckInPage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/leaderboard" element={<LeaderboardPage />} />
+            <Route path="/pk" element={<PkPage />} />
+            <Route path="/pk/quiz" element={<PkQuizPage />} />
+            <Route path="/pk/result" element={<PkResultPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
