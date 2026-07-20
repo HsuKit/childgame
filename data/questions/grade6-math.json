@@ -1,22 +1,3838 @@
 [
-  {"stem":"如果a:b=2:3,b:c=4:5,那么a:c=?","options":["2:5","4:15","8:15","6:15"],"answer":2},
-  {"stem":"-3 - (-5) = ?","options":["-8","-2","2","8"],"answer":2},
-  {"stem":"2的5次方等于？","options":["16","24","32","64"],"answer":2},
-  {"stem":"π的值大约是多少？","options":["2.14","3.14","4.14","5.14"],"answer":1},
-  {"stem":"一个圆柱底面半径3cm高5cm，体积是多少？","options":["141.3cm³","94.2cm³","47.1cm³","282.6cm³"],"answer":0,"explanation":"π×3²×5=141.3"},
-  {"stem":"绝对值最小的数是？","options":["-1","0","1","0.5"],"answer":1},
-  {"stem":"45和36的最大公约数是？","options":["6","9","12","18"],"answer":1},
-  {"stem":"x/5=8，x=？","options":["35","40","45","30"],"answer":1},
-  {"stem":"圆的半径扩大2倍，面积扩大几倍？","options":["2倍","3倍","4倍","8倍"],"answer":2},
-  {"stem":"圆锥体积是等底等高圆柱体积的几分之几？","options":["1/2","1/3","2/3","1/4"],"answer":1},
-  {"stem":"75%化成分数是？","options":["1/4","3/4","1/2","4/5"],"answer":1},
-  {"stem":"20比25少百分之几？","options":["15%","20%","25%","30%"],"answer":1,"explanation":"(25-20)÷25=20%"},
-  {"stem":"两个质数相乘的积一定是？","options":["质数","合数","偶数","奇数"],"answer":1},
-  {"stem":"a和b是互质数，它们的最小公倍数是？","options":["a","b","ab","1"],"answer":2},
-  {"stem":"一件衣服原价200元，打八折后多少元？","options":["150","160","170","180"],"answer":1},
-  {"stem":"在一个比例中，两个外项互为倒数，一个内项是2/3，另一个内项是？","options":["1/2","3/2","2/3","1"],"answer":1},
-  {"stem":"圆的周长公式是？","options":["πr","2πr","πr²","2πr²"],"answer":1},
-  {"stem":"长方体的棱长总和是48cm，长宽高比为3:2:1，体积是？","options":["48cm³","64cm³","72cm³","96cm³"],"answer":0,"explanation":"3+2+1=6,48÷4=12,12/6=2,2×3×2×2×2=48"},
-  {"stem":"一个数的30%是60，这个数是？","options":["180","200","220","240"],"answer":1},
-  {"stem":"甲的速度比乙快20%，甲速与乙速的比是？","options":["5:4","6:5","4:5","5:6"],"answer":1,"explanation":"(1+20%):1=1.2:1=6:5"}
+  {
+    "id": "g6-math-authored-001",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：160件作品中有35%获推荐，获推荐多少件？",
+      "options": [
+        "56件",
+        "35件",
+        "104件",
+        "66件"
+      ],
+      "answer": 0,
+      "explanation": "160×35%=56件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-002",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：把9:15化成最简整数比。",
+      "options": [
+        "24:1",
+        "3:5",
+        "15:9",
+        "9:16"
+      ],
+      "answer": 1,
+      "explanation": "同时除以最大公因数，最简比是3:5。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-003",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：比例x:48=1:6中，x可以取下面哪个数？",
+      "options": [
+        "9",
+        "48",
+        "8",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "8:48同时除以8，正好等于1:6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-004",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：半径6厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "113.04厘米",
+        "18.84厘米",
+        "12厘米",
+        "37.68厘米"
+      ],
+      "answer": 3,
+      "explanation": "圆周长=2πr=2×3.14×6=37.68厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-005",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：棱长6厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "6个",
+        "4个",
+        "8个",
+        "6个3"
+      ],
+      "answer": 0,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-006",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：海拔0米以下7米记作什么？",
+      "options": [
+        "+7米",
+        "-7米",
+        "0米",
+        "14米"
+      ],
+      "answer": 1,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-007",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：袋中有5个红球、8个蓝球、1个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "蓝球",
+        "三种一样"
+      ],
+      "answer": 2,
+      "explanation": "蓝球有8个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-008",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：每小时行48千米，2小时行多少千米？",
+      "options": [
+        "50千米",
+        "119千米",
+        "48千米",
+        "96千米"
+      ],
+      "answer": 3,
+      "explanation": "路程=速度×时间=48×2=96千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-009",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "毕业项目展：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "分别算出实际付款额再比较",
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "不看原价直接猜"
+      ],
+      "answer": 0,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-010",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：180件作品中有20%获推荐，获推荐多少件？",
+      "options": [
+        "20件",
+        "36件",
+        "144件",
+        "46件"
+      ],
+      "answer": 1,
+      "explanation": "180×20%=36件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-011",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：把10:17化成最简整数比。",
+      "options": [
+        "27:1",
+        "17:10",
+        "10:17",
+        "10:18"
+      ],
+      "answer": 2,
+      "explanation": "同时除以最大公因数，最简比是10:17。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-012",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：比例x:27=1:3中，x可以取下面哪个数？",
+      "options": [
+        "10",
+        "27",
+        "3",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "9:27同时除以9，正好等于1:3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-013",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：半径7厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "43.96厘米",
+        "153.86厘米",
+        "21.98厘米",
+        "14厘米"
+      ],
+      "answer": 0,
+      "explanation": "圆周长=2πr=2×3.14×7=43.96厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-014",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：棱长3厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "6个",
+        "8个",
+        "3个"
+      ],
+      "answer": 1,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-015",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：海拔0米以下8米记作什么？",
+      "options": [
+        "+8米",
+        "0米",
+        "-8米",
+        "16米"
+      ],
+      "answer": 2,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-016",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：袋中有2个红球、5个蓝球、2个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "三种一样",
+        "蓝球"
+      ],
+      "answer": 3,
+      "explanation": "蓝球有5个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-017",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：每小时行49千米，3小时行多少千米？",
+      "options": [
+        "147千米",
+        "52千米",
+        "171千米",
+        "49千米"
+      ],
+      "answer": 0,
+      "explanation": "路程=速度×时间=49×3=147千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-018",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园节能周：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "分别算出实际付款额再比较",
+        "选择广告颜色更亮的",
+        "不看原价直接猜"
+      ],
+      "answer": 1,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-019",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：200件作品中有25%获推荐，获推荐多少件？",
+      "options": [
+        "25件",
+        "150件",
+        "50件",
+        "60件"
+      ],
+      "answer": 2,
+      "explanation": "200×25%=50件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-020",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：把11:19化成最简整数比。",
+      "options": [
+        "30:1",
+        "19:11",
+        "11:20",
+        "11:19"
+      ],
+      "answer": 3,
+      "explanation": "同时除以最大公因数，最简比是11:19。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-021",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：比例x:40=1:4中，x可以取下面哪个数？",
+      "options": [
+        "10",
+        "11",
+        "40",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "10:40同时除以10，正好等于1:4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-022",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：半径3厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "28.26厘米",
+        "18.84厘米",
+        "9.42厘米",
+        "6厘米"
+      ],
+      "answer": 1,
+      "explanation": "圆周长=2πr=2×3.14×3=18.84厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-023",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：棱长4厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "8个",
+        "6个",
+        "4个3"
+      ],
+      "answer": 2,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-024",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：海拔0米以下9米记作什么？",
+      "options": [
+        "+9米",
+        "0米",
+        "18米",
+        "-9米"
+      ],
+      "answer": 3,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-025",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：袋中有3个红球、6个蓝球、3个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "蓝球",
+        "红球",
+        "绿球",
+        "三种一样"
+      ],
+      "answer": 0,
+      "explanation": "蓝球有6个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-026",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：每小时行50千米，4小时行多少千米？",
+      "options": [
+        "54千米",
+        "200千米",
+        "225千米",
+        "50千米"
+      ],
+      "answer": 1,
+      "explanation": "路程=速度×时间=50×4=200千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-027",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "分别算出实际付款额再比较",
+        "不看原价直接猜"
+      ],
+      "answer": 2,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-028",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：220件作品中有30%获推荐，获推荐多少件？",
+      "options": [
+        "30件",
+        "154件",
+        "76件",
+        "66件"
+      ],
+      "answer": 3,
+      "explanation": "220×30%=66件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-029",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：把12:21化成最简整数比。",
+      "options": [
+        "4:7",
+        "33:1",
+        "21:12",
+        "12:22"
+      ],
+      "answer": 0,
+      "explanation": "同时除以最大公因数，最简比是4:7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-030",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：比例x:55=1:5中，x可以取下面哪个数？",
+      "options": [
+        "12",
+        "11",
+        "55",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "11:55同时除以11，正好等于1:5。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-031",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：半径4厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "50.24厘米",
+        "12.56厘米",
+        "25.12厘米",
+        "8厘米"
+      ],
+      "answer": 2,
+      "explanation": "圆周长=2πr=2×3.14×4=25.12厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-032",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：棱长5厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "8个",
+        "5个",
+        "6个"
+      ],
+      "answer": 3,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-033",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：海拔0米以下10米记作什么？",
+      "options": [
+        "-10米",
+        "+10米",
+        "0米",
+        "20米"
+      ],
+      "answer": 0,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-034",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：袋中有4个红球、7个蓝球、1个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "蓝球",
+        "绿球",
+        "三种一样"
+      ],
+      "answer": 1,
+      "explanation": "蓝球有7个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-035",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：每小时行51千米，2小时行多少千米？",
+      "options": [
+        "53千米",
+        "128千米",
+        "102千米",
+        "51千米"
+      ],
+      "answer": 2,
+      "explanation": "路程=速度×时间=51×2=102千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-036",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "湿地调查站：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "不看原价直接猜",
+        "分别算出实际付款额再比较"
+      ],
+      "answer": 3,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-037",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：240件作品中有35%获推荐，获推荐多少件？",
+      "options": [
+        "84件",
+        "35件",
+        "156件",
+        "94件"
+      ],
+      "answer": 0,
+      "explanation": "240×35%=84件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-038",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：把13:23化成最简整数比。",
+      "options": [
+        "36:1",
+        "13:23",
+        "23:13",
+        "13:24"
+      ],
+      "answer": 1,
+      "explanation": "同时除以最大公因数，最简比是13:23。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-039",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：比例x:72=1:6中，x可以取下面哪个数？",
+      "options": [
+        "13",
+        "72",
+        "12",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "12:72同时除以12，正好等于1:6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-040",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：半径5厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "78.50厘米",
+        "15.70厘米",
+        "10厘米",
+        "31.40厘米"
+      ],
+      "answer": 3,
+      "explanation": "圆周长=2πr=2×3.14×5=31.40厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-041",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：棱长6厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "6个",
+        "4个",
+        "8个",
+        "6个3"
+      ],
+      "answer": 0,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-042",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：海拔0米以下11米记作什么？",
+      "options": [
+        "+11米",
+        "-11米",
+        "0米",
+        "22米"
+      ],
+      "answer": 1,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-043",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：袋中有5个红球、8个蓝球、2个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "蓝球",
+        "三种一样"
+      ],
+      "answer": 2,
+      "explanation": "蓝球有8个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-044",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：每小时行52千米，3小时行多少千米？",
+      "options": [
+        "55千米",
+        "183千米",
+        "52千米",
+        "156千米"
+      ],
+      "answer": 3,
+      "explanation": "路程=速度×时间=52×3=156千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-045",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书漂流节：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "分别算出实际付款额再比较",
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "不看原价直接猜"
+      ],
+      "answer": 0,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-046",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：260件作品中有20%获推荐，获推荐多少件？",
+      "options": [
+        "20件",
+        "52件",
+        "208件",
+        "62件"
+      ],
+      "answer": 1,
+      "explanation": "260×20%=52件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-047",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：把14:25化成最简整数比。",
+      "options": [
+        "39:1",
+        "25:14",
+        "14:25",
+        "14:26"
+      ],
+      "answer": 2,
+      "explanation": "同时除以最大公因数，最简比是14:25。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-048",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：比例x:39=1:3中，x可以取下面哪个数？",
+      "options": [
+        "14",
+        "39",
+        "3",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "13:39同时除以13，正好等于1:3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-049",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：半径6厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "37.68厘米",
+        "113.04厘米",
+        "18.84厘米",
+        "12厘米"
+      ],
+      "answer": 0,
+      "explanation": "圆周长=2πr=2×3.14×6=37.68厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-050",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：棱长3厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "6个",
+        "8个",
+        "3个"
+      ],
+      "answer": 1,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-051",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：海拔0米以下12米记作什么？",
+      "options": [
+        "+12米",
+        "0米",
+        "-12米",
+        "24米"
+      ],
+      "answer": 2,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-052",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学实验室：袋中有2个红球、5个蓝球、3个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "三种一样",
+        "蓝球"
+      ],
+      "answer": 3,
+      "explanation": "蓝球有5个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-053",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "科学实验室：每小时行53千米，4小时行多少千米？",
+      "options": [
+        "212千米",
+        "57千米",
+        "240千米",
+        "53千米"
+      ],
+      "answer": 0,
+      "explanation": "路程=速度×时间=53×4=212千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-054",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "科学实验室：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "分别算出实际付款额再比较",
+        "选择广告颜色更亮的",
+        "不看原价直接猜"
+      ],
+      "answer": 1,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-055",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：280件作品中有25%获推荐，获推荐多少件？",
+      "options": [
+        "25件",
+        "210件",
+        "70件",
+        "80件"
+      ],
+      "answer": 2,
+      "explanation": "280×25%=70件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-056",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：把15:27化成最简整数比。",
+      "options": [
+        "42:1",
+        "27:15",
+        "15:28",
+        "5:9"
+      ],
+      "answer": 3,
+      "explanation": "同时除以最大公因数，最简比是5:9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-057",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：比例x:56=1:4中，x可以取下面哪个数？",
+      "options": [
+        "14",
+        "15",
+        "56",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "14:56同时除以14，正好等于1:4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-058",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：半径7厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "153.86厘米",
+        "43.96厘米",
+        "21.98厘米",
+        "14厘米"
+      ],
+      "answer": 1,
+      "explanation": "圆周长=2πr=2×3.14×7=43.96厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-059",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：棱长4厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "8个",
+        "6个",
+        "4个3"
+      ],
+      "answer": 2,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-060",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：海拔0米以下13米记作什么？",
+      "options": [
+        "+13米",
+        "0米",
+        "26米",
+        "-13米"
+      ],
+      "answer": 3,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-061",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：袋中有3个红球、6个蓝球、1个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "蓝球",
+        "红球",
+        "绿球",
+        "三种一样"
+      ],
+      "answer": 0,
+      "explanation": "蓝球有6个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-062",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：每小时行54千米，2小时行多少千米？",
+      "options": [
+        "56千米",
+        "108千米",
+        "137千米",
+        "54千米"
+      ],
+      "answer": 1,
+      "explanation": "路程=速度×时间=54×2=108千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-063",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "城市规划馆：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "分别算出实际付款额再比较",
+        "不看原价直接猜"
+      ],
+      "answer": 2,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-064",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：300件作品中有30%获推荐，获推荐多少件？",
+      "options": [
+        "30件",
+        "210件",
+        "100件",
+        "90件"
+      ],
+      "answer": 3,
+      "explanation": "300×30%=90件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-065",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：把16:29化成最简整数比。",
+      "options": [
+        "16:29",
+        "45:1",
+        "29:16",
+        "16:30"
+      ],
+      "answer": 0,
+      "explanation": "同时除以最大公因数，最简比是16:29。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-066",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：比例x:75=1:5中，x可以取下面哪个数？",
+      "options": [
+        "16",
+        "15",
+        "75",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "15:75同时除以15，正好等于1:5。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-067",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：半径3厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "28.26厘米",
+        "9.42厘米",
+        "18.84厘米",
+        "6厘米"
+      ],
+      "answer": 2,
+      "explanation": "圆周长=2πr=2×3.14×3=18.84厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-068",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：棱长5厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "8个",
+        "5个",
+        "6个"
+      ],
+      "answer": 3,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-069",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：海拔0米以下14米记作什么？",
+      "options": [
+        "-14米",
+        "+14米",
+        "0米",
+        "28米"
+      ],
+      "answer": 0,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-070",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：袋中有4个红球、7个蓝球、2个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "蓝球",
+        "绿球",
+        "三种一样"
+      ],
+      "answer": 1,
+      "explanation": "蓝球有7个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-071",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：每小时行55千米，3小时行多少千米？",
+      "options": [
+        "58千米",
+        "195千米",
+        "165千米",
+        "55千米"
+      ],
+      "answer": 2,
+      "explanation": "路程=速度×时间=55×3=165千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-072",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "传统工艺坊：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "不看原价直接猜",
+        "分别算出实际付款额再比较"
+      ],
+      "answer": 3,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-073",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：320件作品中有35%获推荐，获推荐多少件？",
+      "options": [
+        "112件",
+        "35件",
+        "208件",
+        "122件"
+      ],
+      "answer": 0,
+      "explanation": "320×35%=112件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-074",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：把17:31化成最简整数比。",
+      "options": [
+        "48:1",
+        "17:31",
+        "31:17",
+        "17:32"
+      ],
+      "answer": 1,
+      "explanation": "同时除以最大公因数，最简比是17:31。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-075",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：比例x:96=1:6中，x可以取下面哪个数？",
+      "options": [
+        "17",
+        "96",
+        "16",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "16:96同时除以16，正好等于1:6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-076",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：半径4厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "50.24厘米",
+        "12.56厘米",
+        "8厘米",
+        "25.12厘米"
+      ],
+      "answer": 3,
+      "explanation": "圆周长=2πr=2×3.14×4=25.12厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-077",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：棱长6厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "6个",
+        "4个",
+        "8个",
+        "6个3"
+      ],
+      "answer": 0,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-078",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：海拔0米以下15米记作什么？",
+      "options": [
+        "+15米",
+        "-15米",
+        "0米",
+        "30米"
+      ],
+      "answer": 1,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-079",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：袋中有5个红球、8个蓝球、3个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "蓝球",
+        "三种一样"
+      ],
+      "answer": 2,
+      "explanation": "蓝球有8个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-080",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：每小时行56千米，4小时行多少千米？",
+      "options": [
+        "60千米",
+        "255千米",
+        "56千米",
+        "224千米"
+      ],
+      "answer": 3,
+      "explanation": "路程=速度×时间=56×4=224千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-081",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公益义卖场：解决“比较两种优惠方案”时，最可靠的策略是什么？",
+      "options": [
+        "分别算出实际付款额再比较",
+        "只比较“折”和“减”的字数",
+        "选择广告颜色更亮的",
+        "不看原价直接猜"
+      ],
+      "answer": 0,
+      "explanation": "不同优惠形式要转化为同一指标——实际付款额——再比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-082",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：340件作品中有20%获推荐，获推荐多少件？",
+      "options": [
+        "20件",
+        "68件",
+        "272件",
+        "78件"
+      ],
+      "answer": 1,
+      "explanation": "340×20%=68件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-083",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：把18:33化成最简整数比。",
+      "options": [
+        "51:1",
+        "33:18",
+        "6:11",
+        "18:34"
+      ],
+      "answer": 2,
+      "explanation": "同时除以最大公因数，最简比是6:11。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-084",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：比例x:51=1:3中，x可以取下面哪个数？",
+      "options": [
+        "18",
+        "51",
+        "3",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "17:51同时除以17，正好等于1:3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-085",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：半径5厘米的圆，周长是多少？（π取3.14）",
+      "options": [
+        "31.40厘米",
+        "78.50厘米",
+        "15.70厘米",
+        "10厘米"
+      ],
+      "answer": 0,
+      "explanation": "圆周长=2πr=2×3.14×5=31.40厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-086",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：棱长3厘米的正方体有几个完全相同的正方形面？",
+      "options": [
+        "4个",
+        "6个",
+        "8个",
+        "3个"
+      ],
+      "answer": 1,
+      "explanation": "正方体有6个完全相同的正方形面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-087",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：海拔0米以下16米记作什么？",
+      "options": [
+        "+16米",
+        "0米",
+        "-16米",
+        "32米"
+      ],
+      "answer": 2,
+      "explanation": "以海平面为0，低于海平面用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-088",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：袋中有2个红球、5个蓝球、1个绿球，任意摸一个，哪种颜色最可能？",
+      "options": [
+        "红球",
+        "绿球",
+        "三种一样",
+        "蓝球"
+      ],
+      "answer": 3,
+      "explanation": "蓝球有5个，数量最多，所以摸到的可能性最大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-089",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：每小时行57千米，2小时行多少千米？",
+      "options": [
+        "114千米",
+        "59千米",
+        "146千米",
+        "57千米"
+      ],
+      "answer": 0,
+      "explanation": "路程=速度×时间=57×2=114千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-090",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "气象观测组：购买5件单价20元的用品，可选择“总价减14元”或“按八五折付款”。哪种方案更省？",
+      "options": [
+        "原价付款更省",
+        "八五折更省",
+        "只看优惠数字无法比较",
+        "减14元更省"
+      ],
+      "answer": 1,
+      "explanation": "原价100元，减价后86元，八五折后85.00元，比较实际付款额即可。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-091",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：某类材料原占总量的25%，改进后该类数量增加20%，总量暂不变。现在该类相当于原总量的百分之几？",
+      "options": [
+        "45%",
+        "5%",
+        "30%",
+        "20.833333333333336%"
+      ],
+      "answer": 2,
+      "explanation": "以原总量为单位1，原来占25%，增加20%后是25%×1.2=30%。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-092",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：甲、乙两组人数比为19:35，总人数是216。甲组有多少人？",
+      "options": [
+        "140人",
+        "108人",
+        "54人",
+        "76人"
+      ],
+      "answer": 3,
+      "explanation": "比的总份数是54，每份216÷54=4人，甲组19×4=76人。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-093",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：地图上4厘米表示实际16千米。另一段图上长18厘米，实际长多少千米？",
+      "options": [
+        "72千米",
+        "22千米",
+        "72千米2",
+        "4.5千米"
+      ],
+      "answer": 0,
+      "explanation": "每厘米表示4千米，18厘米表示72千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-094",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：圆形花坛半径6米，沿外圈铺一周边条并在内部铺草。边条长度和草地面积分别是多少？（π取3.14）",
+      "options": [
+        "113.04米，37.68平方米",
+        "37.68米，113.04平方米",
+        "18.84米，72.00平方米",
+        "12米，36平方米"
+      ],
+      "answer": 1,
+      "explanation": "周长=2πr=37.68米，面积=πr²=113.04平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-095",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：一个无盖正方体收纳盒棱长4分米，制作外壳至少需要多少平方分米材料？",
+      "options": [
+        "96平方分米",
+        "64平方分米",
+        "80平方分米",
+        "16平方分米"
+      ],
+      "answer": 2,
+      "explanation": "无盖正方体有5个面，每面16平方分米，共80平方分米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-096",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：清晨气温为-17℃，中午上升7℃，夜间又下降3℃，夜间气温是多少？",
+      "options": [
+        "21℃",
+        "-10℃",
+        "-27℃",
+        "-13℃"
+      ],
+      "answer": 3,
+      "explanation": "从-17开始，上升7再下降3：-17+7-3=-13℃。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-097",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "统计与可能性",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：袋中有3个红球、6个蓝球、2个绿球。要使摸到红球与蓝球的可能性相同，至少应增加多少个红球？",
+      "options": [
+        "3个",
+        "3个1",
+        "2个",
+        "11个"
+      ],
+      "answer": 0,
+      "explanation": "球除颜色外相同，数量相等时可能性相同，应增加6-3=3个红球。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-098",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合建模",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：研学车前3小时平均每小时行58千米，休息后又行33千米。若全程计划237千米，还剩多少千米？",
+      "options": [
+        "207千米",
+        "30千米",
+        "63千米",
+        "94千米"
+      ],
+      "answer": 1,
+      "explanation": "已行58×3+33=207千米，计划比它多30千米，所以还剩30千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-099",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "策略选择",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "研学路线设计：购买6件单价21元的用品，可选择“总价减15元”或“按八五折付款”。哪种方案更省？",
+      "options": [
+        "原价付款更省",
+        "只看优惠数字无法比较",
+        "八五折更省",
+        "减15元更省"
+      ],
+      "answer": 2,
+      "explanation": "原价126元，减价后111元，八五折后107.10元，比较实际付款额即可。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-100",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数与百分数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：某类材料原占总量的30%，改进后该类数量增加20%，总量暂不变。现在该类相当于原总量的百分之几？",
+      "options": [
+        "50%",
+        "10%",
+        "25%",
+        "36%"
+      ],
+      "answer": 3,
+      "explanation": "以原总量为单位1，原来占30%，增加20%后是30%×1.2=36%。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-101",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：甲、乙两组人数比为20:37，总人数是228。甲组有多少人？",
+      "options": [
+        "80人",
+        "148人",
+        "114人",
+        "57人"
+      ],
+      "answer": 0,
+      "explanation": "比的总份数是57，每份228÷57=4人，甲组20×4=80人。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-102",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比例",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：地图上5厘米表示实际20千米。另一段图上长19厘米，实际长多少千米？",
+      "options": [
+        "23千米",
+        "76千米",
+        "95千米",
+        "4.75千米"
+      ],
+      "answer": 1,
+      "explanation": "每厘米表示4千米，19厘米表示76千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-103",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "圆",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：圆形花坛半径7米，沿外圈铺一周边条并在内部铺草。边条长度和草地面积分别是多少？（π取3.14）",
+      "options": [
+        "153.86米，43.96平方米",
+        "21.98米，98.00平方米",
+        "43.96米，153.86平方米",
+        "14米，49平方米"
+      ],
+      "answer": 2,
+      "explanation": "周长=2πr=43.96米，面积=πr²=153.86平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-104",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "空间观念",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：一个无盖正方体收纳盒棱长5分米，制作外壳至少需要多少平方分米材料？",
+      "options": [
+        "150平方分米",
+        "125平方分米2",
+        "20平方分米",
+        "125平方分米"
+      ],
+      "answer": 3,
+      "explanation": "无盖正方体有5个面，每面25平方分米，共125平方分米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-105",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "负数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "健康数据中心：清晨气温为-18℃，中午上升8℃，夜间又下降3℃，夜间气温是多少？",
+      "options": [
+        "-13℃",
+        "23℃",
+        "-10℃",
+        "-29℃"
+      ],
+      "answer": 0,
+      "explanation": "从-18开始，上升8再下降3：-18+8-3=-13℃。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-106",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康数据中心：袋中白球8个、黑球3个，摸到___球的可能性更大。",
+      "answer": "白",
+      "explanation": "数量越多，在随机摸取中可能性越大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-107",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康数据中心：单价8元，数量4件，总价是___元。",
+      "answer": "32",
+      "explanation": "总价=单价×数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-108",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "策略选择",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康数据中心：比较不同单位的数据前，应先统一___。",
+      "answer": "单位",
+      "explanation": "统一单位后才能直接比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-109",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：28%写成小数是___。",
+      "answer": "0.28",
+      "explanation": "百分数除以100化成小数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-110",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：12:16化简时，两项要同时除以它们的最大公___数。",
+      "answer": "因",
+      "explanation": "化简比要同时除以最大公因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-111",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：比例2:5=x:40，x=___。",
+      "answer": "16",
+      "explanation": "根据比例基本性质求未知项。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-112",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：直径7厘米的圆，半径是___厘米。",
+      "answer": "3.5",
+      "explanation": "半径是直径的一半。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-113",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：长方体长11厘米、宽3厘米、高2厘米，体积是___立方厘米。",
+      "answer": "66",
+      "explanation": "长方体体积=长×宽×高。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-114",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：比0低11的数记作___。",
+      "answer": "-11",
+      "explanation": "低于基准0用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-115",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：袋中白球8个、黑球4个，摸到___球的可能性更大。",
+      "answer": "白",
+      "explanation": "数量越多，在随机摸取中可能性越大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-116",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合建模",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园改造计划：单价17元，数量4件，总价是___元。",
+      "answer": "68",
+      "explanation": "总价=单价×数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-117",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "公园改造计划：比较不同单位的数据前，应先统一___。",
+      "answer": "单位",
+      "explanation": "统一单位后才能直接比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-118",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：37%写成小数是___。",
+      "answer": "0.37",
+      "explanation": "百分数除以100化成小数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-119",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：21:25化简时，两项要同时除以它们的最大公___数。",
+      "answer": "因",
+      "explanation": "化简比要同时除以最大公因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-120",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：比例2:5=x:85，x=___。",
+      "answer": "34",
+      "explanation": "根据比例基本性质求未知项。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-121",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "圆",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：直径6厘米的圆，半径是___厘米。",
+      "answer": "3",
+      "explanation": "半径是直径的一半。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-122",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "空间观念",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：长方体长20厘米、宽3厘米、高2厘米，体积是___立方厘米。",
+      "answer": "120",
+      "explanation": "长方体体积=长×宽×高。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-123",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "负数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：比0低20的数记作___。",
+      "answer": "-20",
+      "explanation": "低于基准0用负数表示。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-124",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "统计与可能性",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：袋中白球8个、黑球5个，摸到___球的可能性更大。",
+      "answer": "白",
+      "explanation": "数量越多，在随机摸取中可能性越大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-125",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "综合建模",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：单价26元，数量4件，总价是___元。",
+      "answer": "104",
+      "explanation": "总价=单价×数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-126",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "策略选择",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "班级预算会：比较不同单位的数据前，应先统一___。",
+      "answer": "单位",
+      "explanation": "统一单位后才能直接比较。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-127",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "分数与百分数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配等值的分数、小数与百分数。",
+      "left": [
+        "1/2",
+        "1/4",
+        "3/5",
+        "0.8"
+      ],
+      "right": [
+        "60%",
+        "50%",
+        "80%",
+        "25%"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据分数与百分数的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-128",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "比",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配能够化为同一最简比的两组比。",
+      "left": [
+        "2:3",
+        "4:5",
+        "1:2",
+        "3:4"
+      ],
+      "right": [
+        "5:10",
+        "4:6",
+        "9:12",
+        "8:10"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据比的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-129",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "比例",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配可以组成比例的比。",
+      "left": [
+        "2:3",
+        "3:5",
+        "4:7",
+        "5:8"
+      ],
+      "right": [
+        "8:14",
+        "6:9",
+        "15:24",
+        "9:15"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据比例的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-130",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "圆",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配圆的概念与计算式。",
+      "left": [
+        "半径",
+        "直径",
+        "周长",
+        "面积"
+      ],
+      "right": [
+        "2πr",
+        "d÷2",
+        "πr²",
+        "2r"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据圆的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-131",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "空间观念",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配量的单位与生活对象。",
+      "left": [
+        "立方厘米",
+        "立方分米",
+        "平方米",
+        "升"
+      ],
+      "right": [
+        "地面面积",
+        "小方块体积",
+        "水箱容量",
+        "纸箱体积"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据空间观念的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-132",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "负数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配有理数与相对基准的含义。",
+      "left": [
+        "+5",
+        "0",
+        "-3",
+        "-8"
+      ],
+      "right": [
+        "低于基准3",
+        "高于基准5",
+        "低于基准8",
+        "基准点"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据负数初步的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-133",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "统计与可能性",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配统计概念与求法或特征。",
+      "left": [
+        "平均数",
+        "中位数",
+        "最大可能性",
+        "不可能事件"
+      ],
+      "right": [
+        "数量最多",
+        "总数÷份数",
+        "概率为0",
+        "排序后的中间数"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据统计与可能性的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-134",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "综合建模",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配实际数量与建模关系。",
+      "left": [
+        "总价",
+        "路程",
+        "工作总量",
+        "浓度"
+      ],
+      "right": [
+        "效率×时间",
+        "单价×数量",
+        "溶质÷溶液",
+        "速度×时间"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据综合建模的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-135",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "策略选择",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "交通调查组：匹配解题策略与适用目的。",
+      "left": [
+        "画图",
+        "列表",
+        "假设",
+        "倒推"
+      ],
+      "right": [
+        "先设一种情况",
+        "表示空间关系",
+        "从结果回到条件",
+        "有序整理情况"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据策略选择的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-136",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "分数与百分数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "农业实践园：匹配等值的分数、小数与百分数。",
+      "left": [
+        "1/2",
+        "1/4",
+        "3/5",
+        "0.8"
+      ],
+      "right": [
+        "60%",
+        "50%",
+        "80%",
+        "25%"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据分数与百分数的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-137",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "比",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "农业实践园：匹配能够化为同一最简比的两组比。",
+      "left": [
+        "2:3",
+        "4:5",
+        "1:2",
+        "3:4"
+      ],
+      "right": [
+        "5:10",
+        "4:6",
+        "9:12",
+        "8:10"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据比的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-138",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "比例",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "农业实践园：匹配可以组成比例的比。",
+      "left": [
+        "2:3",
+        "3:5",
+        "4:7",
+        "5:8"
+      ],
+      "right": [
+        "8:14",
+        "6:9",
+        "15:24",
+        "9:15"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据比例的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-139",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "圆",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "农业实践园：匹配圆的概念与计算式。",
+      "left": [
+        "半径",
+        "直径",
+        "周长",
+        "面积"
+      ],
+      "right": [
+        "2πr",
+        "d÷2",
+        "πr²",
+        "2r"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据圆的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-math-authored-140",
+    "subject": "math",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "空间观念",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "建模推理"
+    ],
+    "content": {
+      "stem": "农业实践园：匹配量的单位与生活对象。",
+      "left": [
+        "立方厘米",
+        "立方分米",
+        "平方米",
+        "升"
+      ],
+      "right": [
+        "地面面积",
+        "小方块体积",
+        "水箱容量",
+        "纸箱体积"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据空间观念的定义、等值关系或适用条件逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

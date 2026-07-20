@@ -1,22 +1,3838 @@
 [
-  {"stem":"I wish I ___ fly like a bird.","options":["can","could","will","am"],"answer":1},
-  {"stem":"\"Congratulations!\" means:","options":["I am sorry","Well done!","Goodbye","Never mind"],"answer":1},
-  {"stem":"\"He ___ to China three times.\"","options":["has been","has gone","went","goes"],"answer":0},
-  {"stem":"Which word is an adjective?","options":["quickly","beautiful","run","happily"],"answer":1},
-  {"stem":"\"The bridge ___ next year.\"","options":["builds","built","will be built","is building"],"answer":2},
-  {"stem":"What does \"abandon\" mean?","options":["接受","放弃","开始","继续"],"answer":1},
-  {"stem":"\"I don't know ___ to do.\"","options":["what","how","where","when"],"answer":0},
-  {"stem":"Which sentence uses the subjunctive mood?","options":["I am happy","If I were you I'd go","He goes to school","She is tall"],"answer":1},
-  {"stem":"\"The number of students ___ 500.\"","options":["is","am","are","be"],"answer":0,"explanation":"the number of用单数"},
-  {"stem":"What is the synonym of \"brave\"?","options":["scared","courageous","weak","timid"],"answer":1},
-  {"stem":"\"He devoted himself ___ helping others.\"","options":["to","in","on","for"],"answer":0},
-  {"stem":"Which country is Washington D.C. the capital of?","options":["UK","USA","Canada","Australia"],"answer":1},
-  {"stem":"\"She is ___ of the two sisters.\"","options":["tall","taller","the taller","tallest"],"answer":2,"explanation":"两者比较特指用the+比较级"},
-  {"stem":"What is the past participle of \"write\"?","options":["wrote","written","writing","writes"],"answer":1},
-  {"stem":"\"Bread and butter ___ his favorite.\"","options":["is","am","are","be"],"answer":0,"explanation":"bread and butter视为一个整体"},
-  {"stem":"Which is NOT a continent?","options":["Asia","Africa","India","Europe"],"answer":2},
-  {"stem":"\"I'm used to ___ early.\"","options":["get up","got up","getting up","gets up"],"answer":2,"explanation":"be used to+doing"},
-  {"stem":"What does \"prevent\" mean?","options":["允许","阻止","开始","继续"],"answer":1},
-  {"stem":"\"___ hard, or you will fail.\"","options":["Work","Works","Working","Worked"],"answer":0},
-  {"stem":"Which is the correct order?","options":["a beautiful small red bag","a red small beautiful bag","a small beautiful red bag","a beautiful red small bag"],"answer":0,"explanation":"观点+大小+颜色"}
+  {
+    "id": "g6-english-authored-001",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Tree-Shade Rest Area”: Text A — Survey: 70% of pupils want seats close to the sports field. Text B — Site note: keep seats away from large roots and leave a wide path for wheelchairs. What issue do both texts help the team understand?",
+      "options": [
+        "choose a convenient site without harming roots or blocking access",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-002",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Tree-Shade Rest Area” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-003",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Survey: 70% of pupils want seats close to the sports field. Text B — Site note: keep seats away from large roots and leave a wide path for wheelchairs. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "choose a convenient site without harming roots or blocking access",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: choose a convenient site without harming roots or blocking access."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-004",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Tree-Shade Rest Area”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "popularity alone cannot decide the exact location"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: popularity alone cannot decide the exact location."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-005",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Tree-Shade Rest Area meeting — Tuesday, 3:30 p.m. — meeting room.” Which note records both when and where?",
+      "options": [
+        "Tuesday, 3:30 p.m.; meeting room",
+        "tomorrow; an unknown place",
+        "meeting room; no time given",
+        "Tuesday, 3:30 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-006",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “prepare a site proposal for the school planning team.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that the school planning team can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-007",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to choose a convenient site without harming roots or blocking access, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-008",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “prepare a site proposal”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-009",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Old Bridge Lighting”: Text A — Visitor note: the bridge feels too dark after sunset. Text B — Heritage note: strong lights may hide stone details and change the historic atmosphere. What issue do both texts help the team understand?",
+      "options": [
+        "improve night safety while protecting the bridge’s character",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-010",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Old Bridge Lighting” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-011",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Visitor note: the bridge feels too dark after sunset. Text B — Heritage note: strong lights may hide stone details and change the historic atmosphere. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "improve night safety while protecting the bridge’s character",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: improve night safety while protecting the bridge’s character."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-012",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Old Bridge Lighting”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "light level and position need testing before installation"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: light level and position need testing before installation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-013",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Old Bridge Lighting meeting — Friday, 4:00 p.m. — museum office.” Which note records both when and where?",
+      "options": [
+        "Friday, 4:00 p.m.; museum office",
+        "tomorrow; an unknown place",
+        "museum office; no time given",
+        "Friday, 4:00 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-014",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “compare two lighting plans for heritage volunteers.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that heritage volunteers can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-015",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to improve night safety while protecting the bridge’s character, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-016",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “compare two lighting plans”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-017",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Paper Bridge Test”: Text A — Trial 1: the folded bridge held 42 coins, the highest result. Text B — Trial 2: a different fold position lowered the same design to 29 coins. What issue do both texts help the team understand?",
+      "options": [
+        "report both structural strength and the effect of consistent construction",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-018",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Paper Bridge Test” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-019",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Trial 1: the folded bridge held 42 coins, the highest result. Text B — Trial 2: a different fold position lowered the same design to 29 coins. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "report both structural strength and the effect of consistent construction",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: report both structural strength and the effect of consistent construction."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-020",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Paper Bridge Test”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "one high result does not prove the design always works best"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: one high result does not prove the design always works best."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-021",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Paper Bridge Test meeting — Monday, 2:20 p.m. — science lab.” Which note records both when and where?",
+      "options": [
+        "Monday, 2:20 p.m.; science lab",
+        "tomorrow; an unknown place",
+        "science lab; no time given",
+        "Monday, 2:20 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-022",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “write a fair-test report for the science club.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that the science club can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-023",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to report both structural strength and the effect of consistent construction, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-024",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “write a fair-test report”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-025",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Library Labels”: Text A — Borrowing data: books near the entrance were found more quickly. Text B — Observation: younger children still misunderstood labels with abstract topic words. What issue do both texts help the team understand?",
+      "options": [
+        "combine efficient shelf placement with child-friendly labels",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-026",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Library Labels” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-027",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Borrowing data: books near the entrance were found more quickly. Text B — Observation: younger children still misunderstood labels with abstract topic words. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "combine efficient shelf placement with child-friendly labels",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: combine efficient shelf placement with child-friendly labels."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-028",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Library Labels”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "colour labels may need pictures and examples"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: colour labels may need pictures and examples."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-029",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Library Labels meeting — Thursday, 12:40 p.m. — library corner.” Which note records both when and where?",
+      "options": [
+        "Thursday, 12:40 p.m.; library corner",
+        "tomorrow; an unknown place",
+        "library corner; no time given",
+        "Thursday, 12:40 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-030",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “redesign the shelf guide for younger readers.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that younger readers can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-031",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to combine efficient shelf placement with child-friendly labels, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-032",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “redesign the shelf guide”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-033",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Wetland Bird Count”: Text A — Team A watched at the same place and time without making noise. Text B — Team B changed routes and sometimes played bird sounds. What issue do both texts help the team understand?",
+      "options": [
+        "standardise observation conditions before comparing bird counts",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-034",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Wetland Bird Count” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-035",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Team A watched at the same place and time without making noise. Text B — Team B changed routes and sometimes played bird sounds. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "standardise observation conditions before comparing bird counts",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: standardise observation conditions before comparing bird counts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-036",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Wetland Bird Count”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "the two teams’ totals are not directly comparable yet"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: the two teams’ totals are not directly comparable yet."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-037",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Wetland Bird Count meeting — Sunday, 6:30 a.m. — wetland gate.” Which note records both when and where?",
+      "options": [
+        "Sunday, 6:30 a.m.; wetland gate",
+        "tomorrow; an unknown place",
+        "wetland gate; no time given",
+        "Sunday, 6:30 a.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-038",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “create an observation rule card for new team members.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that new team members can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-039",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to standardise observation conditions before comparing bird counts, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-040",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “create an observation rule card”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-041",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Food-Waste Plan”: Text A — Data: average leftovers fell after small servings were offered. Text B — Interview: some pupils avoided second servings because the queue was slow. What issue do both texts help the team understand?",
+      "options": [
+        "keep small servings and improve the refill process",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-042",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Food-Waste Plan” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-043",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Data: average leftovers fell after small servings were offered. Text B — Interview: some pupils avoided second servings because the queue was slow. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "keep small servings and improve the refill process",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: keep small servings and improve the refill process."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-044",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “Food-Waste Plan”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "convenience can affect whether a saving plan succeeds"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: convenience can affect whether a saving plan succeeds."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-045",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Notice: “Food-Waste Plan meeting — Wednesday, 1:10 p.m. — dining hall.” Which note records both when and where?",
+      "options": [
+        "Wednesday, 1:10 p.m.; dining hall",
+        "tomorrow; an unknown place",
+        "dining hall; no time given",
+        "Wednesday, 1:10 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-046",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Task brief: “suggest the next improvement for the school canteen.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that the school canteen can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-047",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to keep small servings and improve the refill process, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-048",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Before completing “suggest the next improvement”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-049",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Read two short texts for “School Bus Routes”: Text A — Route A reaches more neighbourhoods but has more stops. Text B — Route B is faster, while some younger pupils must walk farther. What issue do both texts help the team understand?",
+      "options": [
+        "compare coverage, travel time and walking distance",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-050",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “School Bus Routes” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-051",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Route A reaches more neighbourhoods but has more stops. Text B — Route B is faster, while some younger pupils must walk farther. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "compare coverage, travel time and walking distance",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: compare coverage, travel time and walking distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-052",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "From the two sources in “School Bus Routes”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "the fastest route is not automatically best for every pupil"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: the fastest route is not automatically best for every pupil."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-053",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “School Bus Routes meeting — Tuesday, 5:00 p.m. — transport office.” Which note records both when and where?",
+      "options": [
+        "Tuesday, 5:00 p.m.; transport office",
+        "tomorrow; an unknown place",
+        "transport office; no time given",
+        "Tuesday, 5:00 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-054",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “build a route comparison table for families and pupils.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that families and pupils can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-055",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to compare coverage, travel time and walking distance, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-056",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “build a route comparison table”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-057",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Printmaking Workshop”: Text A — The activity uses easier tools so beginners can take part. Text B — The artist says careful alignment must still be taught because it is central to colour printing. What issue do both texts help the team understand?",
+      "options": [
+        "make the activity accessible without misrepresenting the key technique",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-058",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Printmaking Workshop” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-059",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — The activity uses easier tools so beginners can take part. Text B — The artist says careful alignment must still be taught because it is central to colour printing. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "make the activity accessible without misrepresenting the key technique",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: make the activity accessible without misrepresenting the key technique."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-060",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Printmaking Workshop”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "simplifying tools is different from removing the main principle"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: simplifying tools is different from removing the main principle."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-061",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Printmaking Workshop meeting — Saturday, 9:30 a.m. — art studio.” Which note records both when and where?",
+      "options": [
+        "Saturday, 9:30 a.m.; art studio",
+        "tomorrow; an unknown place",
+        "art studio; no time given",
+        "Saturday, 9:30 a.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-062",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “write an honest workshop guide for first-time visitors.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that first-time visitors can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-063",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to make the activity accessible without misrepresenting the key technique, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-064",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “write an honest workshop guide”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-065",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Park Night Lights”: Text A — More people used the main path after brighter lights were added. Text B — Many insects gathered near strong lights beside the wetland. What issue do both texts help the team understand?",
+      "options": [
+        "use different lighting plans for busy paths and sensitive habitats",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-066",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Park Night Lights” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-067",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — More people used the main path after brighter lights were added. Text B — Many insects gathered near strong lights beside the wetland. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "use different lighting plans for busy paths and sensitive habitats",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: use different lighting plans for busy paths and sensitive habitats."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-068",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Park Night Lights”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "a benefit in one area may create a problem in another"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: a benefit in one area may create a problem in another."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-069",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Park Night Lights meeting — Friday, 7:00 p.m. — park entrance.” Which note records both when and where?",
+      "options": [
+        "Friday, 7:00 p.m.; park entrance",
+        "tomorrow; an unknown place",
+        "park entrance; no time given",
+        "Friday, 7:00 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-070",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “mark lighting zones on a map for park managers.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that park managers can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-071",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to use different lighting plans for busy paths and sensitive habitats, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-072",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “mark lighting zones on a map”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-073",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Charity Sale Review”: Text A — Group A had the highest sales but also the highest material cost. Text B — Group B earned less but reused materials and kept complete accounts. What issue do both texts help the team understand?",
+      "options": [
+        "evaluate income, cost, environmental choices and record quality",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-074",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Charity Sale Review” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-075",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — Group A had the highest sales but also the highest material cost. Text B — Group B earned less but reused materials and kept complete accounts. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "evaluate income, cost, environmental choices and record quality",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: evaluate income, cost, environmental choices and record quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-076",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Charity Sale Review”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "sales alone do not show the full value of a project"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: sales alone do not show the full value of a project."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-077",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Charity Sale Review meeting — Monday, 3:50 p.m. — classroom 6.” Which note records both when and where?",
+      "options": [
+        "Monday, 3:50 p.m.; classroom 6",
+        "tomorrow; an unknown place",
+        "classroom 6; no time given",
+        "Monday, 3:50 p.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-078",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “design a fair scoring sheet for the class committee.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that the class committee can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-079",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to evaluate income, cost, environmental choices and record quality, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-080",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “design a fair scoring sheet”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-081",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Temperature Report”: Text A — This month’s recorded average is higher than last year’s. Text B — Some dates are missing, and readings were taken at different times of day. What issue do both texts help the team understand?",
+      "options": [
+        "report the difference together with limits in the data",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-082",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence connects the two sources in the “Temperature Report” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "Text A gives one need, while Text B adds a condition we must consider.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“While” clearly expresses how two useful sources contribute different information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-083",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — This month’s recorded average is higher than last year’s. Text B — Some dates are missing, and readings were taken at different times of day. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "report the difference together with limits in the data",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: report the difference together with limits in the data."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-084",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Temperature Report”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "more consistent records are needed before claiming a long-term change"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: more consistent records are needed before claiming a long-term change."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-085",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Temperature Report meeting — Thursday, 8:00 a.m. — weather station.” Which note records both when and where?",
+      "options": [
+        "Thursday, 8:00 a.m.; weather station",
+        "tomorrow; an unknown place",
+        "weather station; no time given",
+        "Thursday, 8:00 a.m.; a different city"
+      ],
+      "answer": 0,
+      "explanation": "A complete schedule entry includes the stated date or time and place."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-086",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “revise the data summary for the morning news team.” Which first decision best fits the brief?",
+      "options": [
+        "Ignore the audience and remove all evidence.",
+        "Choose evidence and wording that the morning news team can understand and use.",
+        "Decorate before reading the task.",
+        "Copy every sentence without organising it."
+      ],
+      "answer": 1,
+      "explanation": "The product must fit its named audience and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-087",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to report the difference together with limits in the data, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-088",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “revise the data summary”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "read the brief → select key facts → organise them → check clarity"
+      ],
+      "answer": 3,
+      "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-089",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Digital Museum Labels”: Text A — QR codes provide audio and photos from before restoration. Text B — Some older visitors cannot read the small instructions, and some children ignore the real object. What issue do both texts help the team understand?",
+      "options": [
+        "keep digital resources accessible and connected to object viewing",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-090",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence acknowledges evidence and limits a claim in the “Digital Museum Labels” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "The evidence supports this direction; however, digital content should support rather than replace the exhibition.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“However” introduces a reasonable limit after acknowledging the evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-091",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — QR codes provide audio and photos from before restoration. Text B — Some older visitors cannot read the small instructions, and some children ignore the real object. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "keep digital resources accessible and connected to object viewing",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: keep digital resources accessible and connected to object viewing."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-092",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Digital Museum Labels”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "digital content should support rather than replace the exhibition"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: digital content should support rather than replace the exhibition."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-093",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Digital Museum Labels meeting — Wednesday, 10:00 a.m. — gallery 2; bring evidence for the task ‘test a new exhibit label’.” Which preparation note includes every required detail?",
+      "options": [
+        "Wednesday, 10:00 a.m. at gallery 2; bring selected evidence for test a new exhibit label",
+        "Wednesday, 10:00 a.m. at an unknown place; bring no material",
+        "gallery 2 with no time; discuss another project",
+        "a different day and place; bring decoration only"
+      ],
+      "answer": 0,
+      "explanation": "The complete note combines time, place and the material required for the named task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-094",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “test a new exhibit label for visitors of different ages.” Which review question checks both trustworthiness and usefulness?",
+      "options": [
+        "Does the page contain the most decoration?",
+        "Can visitors of different ages trace the main points to the sources and use the result for the task?",
+        "Were all source details hidden from readers?",
+        "Is the product long even when its purpose is unclear?"
+      ],
+      "answer": 1,
+      "explanation": "A strong review checks whether claims are traceable and whether the intended audience can use the product."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-095",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to keep digital resources accessible and connected to object viewing, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-096",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “test a new exhibit label”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "identify audience → compare sources → state a supported conclusion → note limits → revise for use"
+      ],
+      "answer": 3,
+      "explanation": "The full process integrates audience, evidence, reasoning limits and revision."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-097",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Graduation Album”: Text A — The rules ask for true memories and the date of every photograph. Text B — One attractive article combines other pupils’ experiences and uses an image with no source. What issue do both texts help the team understand?",
+      "options": [
+        "check facts and image permission as well as writing quality",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-098",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合语言功能",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Which sentence acknowledges evidence and limits a claim in the “Graduation Album” project?",
+      "options": [
+        "One source proves everything in every situation.",
+        "The evidence supports this direction; however, beautiful language cannot repair false or unlicensed content.",
+        "The texts are different, so neither can be useful.",
+        "I prefer this plan; therefore, evidence is unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "“However” introduces a reasonable limit after acknowledging the evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-099",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息归纳",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Project notes: Text A — The rules ask for true memories and the date of every photograph. Text B — One attractive article combines other pupils’ experiences and uses an image with no source. Which summary keeps the main point without losing an important condition?",
+      "options": [
+        "copy only the first number",
+        "keep one attractive detail and delete the issue",
+        "check facts and image permission as well as writing quality",
+        "combine two unrelated actions"
+      ],
+      "answer": 2,
+      "explanation": "The summary represents both sources: check facts and image permission as well as writing quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-100",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "语境推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "From the two sources in “Graduation Album”, what can we infer without going beyond the evidence?",
+      "options": [
+        "the same result is certain everywhere forever",
+        "no further checking can ever be useful",
+        "the project has no real purpose",
+        "beautiful language cannot repair false or unlicensed content"
+      ],
+      "answer": 3,
+      "explanation": "The inference follows both sources and stays within their evidence: beautiful language cannot repair false or unlicensed content."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-101",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "通知与日程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Notice: “Graduation Album meeting — Friday, 3:00 p.m. — media room; bring evidence for the task ‘create an editing checklist’.” Which preparation note includes every required detail?",
+      "options": [
+        "Friday, 3:00 p.m. at media room; bring selected evidence for create an editing checklist",
+        "Friday, 3:00 p.m. at an unknown place; bring no material",
+        "media room with no time; discuss another project",
+        "a different day and place; bring decoration only"
+      ],
+      "answer": 0,
+      "explanation": "The complete note combines time, place and the material required for the named task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-102",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Task brief: “create an editing checklist for student editors.” Which review question checks both trustworthiness and usefulness?",
+      "options": [
+        "Does the page contain the most decoration?",
+        "Can student editors trace the main points to the sources and use the result for the task?",
+        "Were all source details hidden from readers?",
+        "Is the product long even when its purpose is unclear?"
+      ],
+      "answer": 1,
+      "explanation": "A strong review checks whether claims are traceable and whether the intended audience can use the product."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-103",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A teammate says, “I think our goal should be to check facts and image permission as well as writing quality, but I may have missed a condition.” Which reply is most constructive?",
+      "options": [
+        "There is no need to read the sources.",
+        "Your idea is wrong because I said so.",
+        "Let’s check both texts and mark which detail supports each part.",
+        "Let’s delete every different opinion."
+      ],
+      "answer": 2,
+      "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-104",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合运用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before completing “create an editing checklist”, which plan shows strong integrated language use?",
+      "options": [
+        "choose an answer first → hide sources → ignore feedback → stop",
+        "copy one text → delete conditions → change the audience → guess",
+        "decorate everything → remove the purpose → avoid revision → submit",
+        "identify audience → compare sources → state a supported conclusion → note limits → revise for use"
+      ],
+      "answer": 3,
+      "explanation": "The full process integrates audience, evidence, reasoning limits and revision."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-105",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多段文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Read two short texts for “Riverside Path”: Text A — The design keeps old trees and uses a surface that lets rain pass through. Text B — A safety review shows one section may block floodwater during heavy rain. What issue do both texts help the team understand?",
+      "options": [
+        "keep the ecological features but move the path away from the risky section",
+        "a topic unrelated to either text",
+        "only the colour of the page",
+        "a plan with no audience or evidence"
+      ],
+      "answer": 0,
+      "explanation": "The answer combines the key contribution of both texts."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-106",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "When two texts discuss the same issue, compare their shared topic and different ___.",
+      "answer": "angles",
+      "explanation": "The word “angles” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-107",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use “however” to introduce a contrast or ___.",
+      "answer": "limit",
+      "explanation": "The word “limit” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-108",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A summary keeps key information and removes ___ details.",
+      "answer": "unrelated",
+      "explanation": "The word “unrelated” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-109",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A careful inference stays within the available ___.",
+      "answer": "evidence",
+      "explanation": "The word “evidence” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-110",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A complete schedule records time, place and ___.",
+      "answer": "activity",
+      "explanation": "The word “activity” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-111",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A task brief usually names a purpose and an intended ___.",
+      "answer": "audience",
+      "explanation": "The word “audience” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-112",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "To ask for clarification politely, say “Could you explain that ___?”",
+      "answer": "again",
+      "explanation": "The word “again” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-113",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "After drafting, check accuracy, clarity and ___.",
+      "answer": "usefulness",
+      "explanation": "The word “usefulness” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-114",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "One source may support another or provide a different ___.",
+      "answer": "view",
+      "explanation": "The word “view” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-115",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "“According to the survey” introduces an information ___.",
+      "answer": "source",
+      "explanation": "The word “source” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-116",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "A table helps organise categories in a consistent ___.",
+      "answer": "order",
+      "explanation": "The word “order” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-117",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Words such as “may” prevent an unsupported over___.",
+      "answer": "claim",
+      "explanation": "The word “claim” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-118",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "通知与日程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "If two activities overlap, the schedule has a time ___.",
+      "answer": "conflict",
+      "explanation": "The word “conflict” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-119",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Instructions should let the reader complete the intended ___.",
+      "answer": "task",
+      "explanation": "The word “task” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-120",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A constructive disagreement recognises the other person’s ___.",
+      "answer": "point",
+      "explanation": "The word “point” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-121",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Reliable work connects each main claim to its ___.",
+      "answer": "evidence",
+      "explanation": "The word “evidence” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-122",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Conflicting sources should be checked for method, date and ___.",
+      "answer": "context",
+      "explanation": "The word “context” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-123",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "A heading helps readers locate a group of related ___.",
+      "answer": "facts",
+      "explanation": "The word “facts” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-124",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "语境推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Limited evidence may support a possibility, not absolute ___.",
+      "answer": "certainty",
+      "explanation": "The word “certainty” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-125",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Before submitting, test the product with a real ___.",
+      "answer": "reader",
+      "explanation": "The word “reader” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-126",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "综合运用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Revision improves both language accuracy and task ___.",
+      "answer": "effectiveness",
+      "explanation": "The word “effectiveness” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-127",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "多段文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each cross-text relationship with its meaning.",
+      "left": [
+        "same topic",
+        "different angle",
+        "supporting source",
+        "conflicting source"
+      ],
+      "right": [
+        "adds evidence",
+        "shared issue",
+        "disagrees",
+        "new viewpoint"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 多段文本 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-128",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "综合语言功能",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each linking expression with its language function.",
+      "left": [
+        "according to",
+        "however",
+        "therefore",
+        "for example"
+      ],
+      "right": [
+        "state result",
+        "introduce source",
+        "give an instance",
+        "show contrast"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 综合语言功能 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-129",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "信息归纳",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each organising term with its job.",
+      "left": [
+        "heading",
+        "category",
+        "key fact",
+        "summary"
+      ],
+      "right": [
+        "important detail",
+        "topic label",
+        "main combined idea",
+        "information group"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 信息归纳 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-130",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "语境推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each reasoning term with its evidence role.",
+      "left": [
+        "fact",
+        "clue",
+        "inference",
+        "overclaim"
+      ],
+      "right": [
+        "reasoned idea",
+        "direct statement",
+        "beyond evidence",
+        "supporting sign"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 语境推断 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-131",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "通知与日程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each schedule field with the question it answers.",
+      "left": [
+        "date",
+        "time",
+        "place",
+        "activity"
+      ],
+      "right": [
+        "where",
+        "which day",
+        "what happens",
+        "which hour"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 通知与日程 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-132",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each task element with its planning question.",
+      "left": [
+        "audience",
+        "purpose",
+        "format",
+        "criterion"
+      ],
+      "right": [
+        "how it is presented",
+        "who will use it",
+        "how quality is checked",
+        "why it is made"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 真实任务阅读 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-133",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "real-task English"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each communication action with its purpose.",
+      "left": [
+        "clarify",
+        "agree",
+        "disagree politely",
+        "suggest"
+      ],
+      "right": [
+        "state another view respectfully",
+        "ask for meaning",
+        "offer an idea",
+        "share a view"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 情境交际 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-134",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Use the graduation English project chart. Match each project stage with the work done there.",
+      "left": [
+        "plan",
+        "draft",
+        "review",
+        "revise"
+      ],
+      "right": [
+        "check quality",
+        "decide approach",
+        "improve the work",
+        "create first version"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 综合运用 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-135",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "多段文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each cross-text relationship with its meaning.",
+      "left": [
+        "same topic",
+        "different angle",
+        "supporting source",
+        "conflicting source"
+      ],
+      "right": [
+        "adds evidence",
+        "shared issue",
+        "disagrees",
+        "new viewpoint"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 多段文本 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-136",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "综合语言功能",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each linking expression with its language function.",
+      "left": [
+        "according to",
+        "however",
+        "therefore",
+        "for example"
+      ],
+      "right": [
+        "state result",
+        "introduce source",
+        "give an instance",
+        "show contrast"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 综合语言功能 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-137",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "信息归纳",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each organising term with its job.",
+      "left": [
+        "heading",
+        "category",
+        "key fact",
+        "summary"
+      ],
+      "right": [
+        "important detail",
+        "topic label",
+        "main combined idea",
+        "information group"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 信息归纳 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-138",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "语境推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each reasoning term with its evidence role.",
+      "left": [
+        "fact",
+        "clue",
+        "inference",
+        "overclaim"
+      ],
+      "right": [
+        "reasoned idea",
+        "direct statement",
+        "beyond evidence",
+        "supporting sign"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 语境推断 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-139",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "通知与日程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each schedule field with the question it answers.",
+      "left": [
+        "date",
+        "time",
+        "place",
+        "activity"
+      ],
+      "right": [
+        "where",
+        "which day",
+        "what happens",
+        "which hour"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 通知与日程 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-english-authored-140",
+    "subject": "english",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "真实任务阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "cross-text reasoning"
+    ],
+    "content": {
+      "stem": "Review the real-task checklist. Match each task element with its planning question.",
+      "left": [
+        "audience",
+        "purpose",
+        "format",
+        "criterion"
+      ],
+      "right": [
+        "how it is presented",
+        "who will use it",
+        "how quality is checked",
+        "why it is made"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 真实任务阅读 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

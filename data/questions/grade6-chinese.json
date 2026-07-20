@@ -1,22 +1,3838 @@
 [
-  {"stem":"\"醉翁之意不在酒\"下一句？","options":["在乎山水之间也","在乎名利之间","在乎天地之间","在于人心之间"],"answer":0},
-  {"stem":"《水浒传》的作者是？","options":["罗贯中","吴承恩","施耐庵","曹雪芹"],"answer":2},
-  {"stem":"\"学而不思则__，思而不学则殆\"","options":["罔","茫","忘","亡"],"answer":0},
-  {"stem":"\"莫愁前路无知己\"下一句？","options":["天下谁人不识君","西出阳关无故人","春风不度玉门关","千里江陵一日还"],"answer":0},
-  {"stem":"下面哪个是《论语》中的句子？","options":["道可道非常道","学而不厌诲人不倦","千里之行始于足下","知己知彼百战不殆"],"answer":1},
-  {"stem":"\"但愿人长久\"下一句？","options":["千里共婵娟","月是故乡明","低头思故乡","天涯共此时"],"answer":0},
-  {"stem":"四大名著不包括？","options":["红楼梦","西游记","儒林外史","水浒传"],"answer":2},
-  {"stem":"\"洛阳亲友如相问\"下一句？","options":["一片冰心在玉壶","轻舟已过万重山","春风又绿江南岸","烟花三月下扬州"],"answer":0},
-  {"stem":"《红楼梦》中林黛玉进贾府时几岁？","options":["七八岁","十来岁","十五六岁","十八九岁"],"answer":1},
-  {"stem":"下列哪个不是唐宋八大家？","options":["韩愈","柳宗元","欧阳修","李白"],"answer":3},
-  {"stem":"\"先天下之忧而忧\"的作者是？","options":["范仲淹","欧阳修","苏轼","王安石"],"answer":0},
-  {"stem":"\"桃李不言，下自成蹊\"比喻什么？","options":["老师受欢迎","桃子李子好吃","自然风光美","道路很拥挤"],"answer":0},
-  {"stem":"下列哪个是鲁迅的作品？","options":["家","骆驼祥子","朝花夕拾","边城"],"answer":2},
-  {"stem":"《诗经》中\"关关雎鸠\"的\"关关\"是什么意思？","options":["关门声","鸟叫声","关门","关于"],"answer":1},
-  {"stem":"\"千里莺啼绿映红\"的作者？","options":["李白","杜甫","杜牧","白居易"],"answer":2},
-  {"stem":"\"好雨知时节\"下一句？","options":["当春乃发生","润物细无声","随风潜入夜","春眠不觉晓"],"answer":0},
-  {"stem":"\"问渠那得清如许\"下一句？","options":["为有源头活水来","早有蜻蜓立上头","映日荷花别样红","春江水暖鸭先知"],"answer":0},
-  {"stem":"下面哪项是并列关系？","options":["因为所以","不但而且","虽然但是","如果就"],"answer":1},
-  {"stem":"\"人生自古谁无死\"下一句？","options":["留取丹心照汗青","家祭无忘告乃翁","此恨绵绵无绝期","无可奈何花落去"],"answer":0},
-  {"stem":"哪个成语形容\"见识少\"？","options":["见多识广","井底之蛙","一目十行","高瞻远瞩"],"answer":1}
+  {
+    "id": "g6-chinese-authored-001",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“设置休息区要兼顾使用需求、树木保护和无障碍通行”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-002",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“校园准备增加树荫下的座椅。调查显示，午后使用操场的同学中，七成希望休息区离活动场地近一些。”材料二：“园艺老师提醒，座椅不能压住树根，还要留出轮椅通行空间。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "设置休息区要兼顾使用需求、树木保护和无障碍通行",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“设置休息区要兼顾使用需求、树木保护和无障碍通行”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-003",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“校园准备增加树荫下的座椅。调查显示，午后使用操场的同学中，七成希望休息区离活动场地近一些。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "设置休息区要兼顾使用需求、树木保护和无障碍通行",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“设置休息区要兼顾使用需求、树木保护和无障碍通行”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-004",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“设置休息区要兼顾使用需求、树木保护和无障碍通行”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "七成同学的需求和园艺老师提出的两项限制"
+      ],
+      "answer": 3,
+      "explanation": "“七成同学的需求和园艺老师提出的两项限制”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-005",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "建议有调查依据，但具体位置仍需现场测量",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：建议有调查依据，但具体位置仍需现场测量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-006",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“一枝一叶总关情”可用来强调公共设计要关心真实需要",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-007",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "建议书应呈现调查数据、位置方案和安全说明",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“建议书应呈现调查数据、位置方案和安全说明”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-008",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "公共事务中兼顾他人和环境"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“公共事务中兼顾他人和环境”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-009",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“古桥利用要在安全、历史真实性和参观需求之间取得平衡”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-010",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“古桥修缮记录写道：石栏松动处采用原尺寸石料补配，仍稳固的旧构件尽量保留。”材料二：“游客问卷显示，多数人希望增加夜间照明，但也担心强光破坏古桥原有氛围。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "古桥利用要在安全、历史真实性和参观需求之间取得平衡",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“古桥利用要在安全、历史真实性和参观需求之间取得平衡”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-011",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“古桥修缮记录写道：石栏松动处采用原尺寸石料补配，仍稳固的旧构件尽量保留。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "古桥利用要在安全、历史真实性和参观需求之间取得平衡",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“古桥利用要在安全、历史真实性和参观需求之间取得平衡”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-012",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“古桥利用要在安全、历史真实性和参观需求之间取得平衡”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "修缮原则与游客对照明的两方面意见"
+      ],
+      "answer": 3,
+      "explanation": "“修缮原则与游客对照明的两方面意见”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-013",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "增加照明有需求基础，亮度和位置仍需论证",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：增加照明有需求基础，亮度和位置仍需论证。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-014",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“修旧如旧”强调修缮后仍保留历史信息",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-015",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "讲解方案需区分原有构件、修补部分和新增设施",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“讲解方案需区分原有构件、修补部分和新增设施”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-016",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "尊重历史遗存并审慎更新"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“尊重历史遗存并审慎更新”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-017",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“纸桥承重与结构有关，制作一致性也会影响实验结果”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-018",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“实验组用同样大小的纸张折三种桥，每次逐枚放入相同硬币，记录桥面塌下前的数量。”材料二：“第一次结果中A桥承重最多，但第二次A桥折痕位置改变，承重明显下降。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "纸桥承重与结构有关，制作一致性也会影响实验结果",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“纸桥承重与结构有关，制作一致性也会影响实验结果”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-019",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“实验组用同样大小的纸张折三种桥，每次逐枚放入相同硬币，记录桥面塌下前的数量。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "纸桥承重与结构有关，制作一致性也会影响实验结果",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“纸桥承重与结构有关，制作一致性也会影响实验结果”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-020",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“纸桥承重与结构有关，制作一致性也会影响实验结果”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "控制纸张和硬币相同以及A桥两次结果差异"
+      ],
+      "answer": 3,
+      "explanation": "“控制纸张和硬币相同以及A桥两次结果差异”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-021",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "一次最高记录不能单独证明A结构始终最好",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：一次最高记录不能单独证明A结构始终最好。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-022",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“纸上得来终觉浅，绝知此事要躬行”强调实践验证",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-023",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "实验报告要写清变量、重复次数和异常情况",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“实验报告要写清变量、重复次数和异常情况”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-024",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "重视实践并尊重证据"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“重视实践并尊重证据”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-025",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“图书分类既要提高查找效率，也要符合不同读者的理解能力”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-026",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“社区图书角把借阅量较高的书放在入口附近，并用颜色标签区分主题。”材料二：“志愿者观察到，低年级儿童仍常把书放错，因为他们不一定理解抽象的主题名称。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "图书分类既要提高查找效率，也要符合不同读者的理解能力",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“图书分类既要提高查找效率，也要符合不同读者的理解能力”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-027",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“社区图书角把借阅量较高的书放在入口附近，并用颜色标签区分主题。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "图书分类既要提高查找效率，也要符合不同读者的理解能力",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“图书分类既要提高查找效率，也要符合不同读者的理解能力”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-028",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“图书分类既要提高查找效率，也要符合不同读者的理解能力”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "借阅布局调整和低年级儿童仍放错书的观察"
+      ],
+      "answer": 3,
+      "explanation": "“借阅布局调整和低年级儿童仍放错书的观察”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-029",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "颜色标签有效但不足，还可增加图形或示例",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：颜色标签有效但不足，还可增加图形或示例。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-030",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“因材施教”提示服务设计要考虑对象差异",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-031",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "分类指南应配合文字、颜色、图形和示例",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“分类指南应配合文字、颜色、图形和示例”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-032",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "为不同年龄读者提供体贴服务"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“为不同年龄读者提供体贴服务”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-033",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“观察方法不同会影响数据，比较前要检查条件是否一致”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-034",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“湿地观察队在固定地点、固定时段记录鸟类数量，并保持安静。”材料二：“另一组边走边记录，路线每天不同，有时还用声音吸引鸟靠近。两组数据差异很大。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "观察方法不同会影响数据，比较前要检查条件是否一致",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“观察方法不同会影响数据，比较前要检查条件是否一致”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-035",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“湿地观察队在固定地点、固定时段记录鸟类数量，并保持安静。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "观察方法不同会影响数据，比较前要检查条件是否一致",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“观察方法不同会影响数据，比较前要检查条件是否一致”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-036",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“观察方法不同会影响数据，比较前要检查条件是否一致”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "固定观察与改变路线、主动吸引两种方法的差别"
+      ],
+      "answer": 3,
+      "explanation": "“固定观察与改变路线、主动吸引两种方法的差别”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-037",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "两组数量不能直接比较，需统一方法后再观察",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：两组数量不能直接比较，需统一方法后再观察。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-038",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“不以规矩，不能成方圆”可引申为研究要有统一规则",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-039",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "观察手册应明确地点、时段、距离和记录办法",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“观察手册应明确地点、时段、距离和记录办法”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-040",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "遵守规则并减少对自然的干扰"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“遵守规则并减少对自然的干扰”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-041",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“小份取餐能减少浪费，但还要改善添饭流程”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-042",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“食堂连续两周公布各年级人均剩饭量，并提供“小份可添”选择。”材料二：“数据显示剩饭下降，但访谈也发现部分同学因为排队时间长而不愿再次添饭。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "小份取餐能减少浪费，但还要改善添饭流程",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“小份取餐能减少浪费，但还要改善添饭流程”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-043",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“食堂连续两周公布各年级人均剩饭量，并提供“小份可添”选择。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "小份取餐能减少浪费，但还要改善添饭流程",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“小份取餐能减少浪费，但还要改善添饭流程”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-044",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“小份取餐能减少浪费，但还要改善添饭流程”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "剩饭数据下降和同学关于排队时间的访谈"
+      ],
+      "answer": 3,
+      "explanation": "“剩饭数据下降和同学关于排队时间的访谈”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-045",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "措施初见效果，不能忽略便利性对行为的影响",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：措施初见效果，不能忽略便利性对行为的影响。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-046",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“一粥一饭，当思来处不易”提醒人们珍惜粮食",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-047",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "改进方案应同时说明节约效果和排队优化办法",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“改进方案应同时说明节约效果和排队优化办法”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-048",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "珍惜粮食并用实际制度减少浪费"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“珍惜粮食并用实际制度减少浪费”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-049",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "围绕“校车方案要权衡覆盖范围、通勤时间和不同群体需求”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-050",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料一：“校车甲线停靠站多、覆盖范围广；乙线停靠站少、平均用时短。”材料二：“问卷中，低年级家长更关注步行距离，高年级学生更关注到校时间。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "校车方案要权衡覆盖范围、通勤时间和不同群体需求",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“校车方案要权衡覆盖范围、通勤时间和不同群体需求”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-051",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“校车甲线停靠站多、覆盖范围广；乙线停靠站少、平均用时短。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "校车方案要权衡覆盖范围、通勤时间和不同群体需求",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“校车方案要权衡覆盖范围、通勤时间和不同群体需求”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-052",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "观点是“校车方案要权衡覆盖范围、通勤时间和不同群体需求”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "两条线路的特点以及两个群体的不同关注点"
+      ],
+      "answer": 3,
+      "explanation": "“两条线路的特点以及两个群体的不同关注点”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-053",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "不能只凭平均用时决定线路优劣",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：不能只凭平均用时决定线路优劣。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-054",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“兼听则明”提醒决策者听取多方意见",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-055",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "路线比较表应列出站点、用时、服务人数和风险",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“路线比较表应列出站点、用时、服务人数和风险”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-056",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "公共决策尊重多方需求"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“公共决策尊重多方需求”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-057",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-058",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“木版年画体验课介绍画稿、刻版、调色、套印四道工序。”材料二：“传承人说，体验活动可以简化工具，却不能把套印说成“随便盖几下”，因为对版准确是技艺核心。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "传统工艺传播可以降低体验门槛，但不能歪曲关键技艺",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-059",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“木版年画体验课介绍画稿、刻版、调色、套印四道工序。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "传统工艺传播可以降低体验门槛，但不能歪曲关键技艺",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-060",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "工序介绍和传承人对套印核心要求的说明"
+      ],
+      "answer": 3,
+      "explanation": "“工序介绍和传承人对套印核心要求的说明”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-061",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "简化体验具有可行性，讲解必须保留技艺原理",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：简化体验具有可行性，讲解必须保留技艺原理。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-062",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“守正创新”强调在尊重根本的基础上发展",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-063",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "体验说明要标明简化步骤与正式工艺的区别",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“体验说明要标明简化步骤与正式工艺的区别”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-064",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "尊重技艺核心并探索恰当传播"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“尊重技艺核心并探索恰当传播”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-065",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“夜间照明要同时考虑人的安全活动和湿地生物影响”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-066",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“公园夜间照明改造后，主路亮度提高，晚间慢跑人数增加。”材料二：“昆虫观察小组发现，靠近湿地区域的强光会吸引大量飞虫，可能干扰其活动。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "夜间照明要同时考虑人的安全活动和湿地生物影响",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“夜间照明要同时考虑人的安全活动和湿地生物影响”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-067",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“公园夜间照明改造后，主路亮度提高，晚间慢跑人数增加。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "夜间照明要同时考虑人的安全活动和湿地生物影响",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“夜间照明要同时考虑人的安全活动和湿地生物影响”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-068",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“夜间照明要同时考虑人的安全活动和湿地生物影响”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "慢跑人数变化与强光附近飞虫聚集的观察"
+      ],
+      "answer": 3,
+      "explanation": "“慢跑人数变化与强光附近飞虫聚集的观察”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-069",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "主路增亮有积极作用，但湿地区域应采用更谨慎方案",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：主路增亮有积极作用，但湿地区域应采用更谨慎方案。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-070",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“万物并育而不相害”体现人与自然协调共处",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-071",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "改造说明应分区域提出亮度、时间和遮光措施",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“改造说明应分区域提出亮度、时间和遮光措施”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-072",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "在改善生活时保护其他生命"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“在改善生活时保护其他生命”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-073",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“评价义卖项目应综合收入、成本、环保和财务规范”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-074",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“班级义卖最初把“销售额最高”作为唯一评价标准。”材料二：“复盘时，同学发现有的小组成本很高，有的小组虽然收入不多，却把材料循环使用并完整记录账目。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "评价义卖项目应综合收入、成本、环保和财务规范",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“评价义卖项目应综合收入、成本、环保和财务规范”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-075",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“班级义卖最初把“销售额最高”作为唯一评价标准。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "评价义卖项目应综合收入、成本、环保和财务规范",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“评价义卖项目应综合收入、成本、环保和财务规范”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-076",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“评价义卖项目应综合收入、成本、环保和财务规范”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "高销售额可能伴随高成本以及低收入组的环保与规范表现"
+      ],
+      "answer": 3,
+      "explanation": "“高销售额可能伴随高成本以及低收入组的环保与规范表现”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-077",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "单用销售额排名不能全面反映项目质量",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：单用销售额排名不能全面反映项目质量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-078",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“取之有度，用之有节”可联系资源节约",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-079",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "成果报告要区分销售额、成本、结余和社会价值",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“成果报告要区分销售额、成本、结余和社会价值”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-080",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "诚信记账并节约使用资源"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“诚信记账并节约使用资源”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-081",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“现有数据提示气温差异，但不足以直接判断长期变化”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-082",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“气象小组发现本月平均气温高于去年同期。”材料二：“老师指出，两个月各只有部分日期数据，而且测量时间并不完全一致。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "现有数据提示气温差异，但不足以直接判断长期变化",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“现有数据提示气温差异，但不足以直接判断长期变化”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-083",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“气象小组发现本月平均气温高于去年同期。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "现有数据提示气温差异，但不足以直接判断长期变化",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“现有数据提示气温差异，但不足以直接判断长期变化”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-084",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“现有数据提示气温差异，但不足以直接判断长期变化”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "平均气温差异与日期、测量时间不一致的限制"
+      ],
+      "answer": 3,
+      "explanation": "“平均气温差异与日期、测量时间不一致的限制”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-085",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价现有结论：哪项说法最恰当？",
+      "options": [
+        "结论需要补齐数据并统一测量条件后再检验",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：结论需要补齐数据并统一测量条件后再检验。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-086",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“知之为知之，不知为不知”强调诚实面对认知边界",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-087",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "数据简报要同时呈现发现、方法和局限",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“数据简报要同时呈现发现、方法和局限”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-088",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "实事求是，不夸大有限证据"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“实事求是，不夸大有限证据”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-089",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "不仅要提出观点，还要说明证据与观点的联系",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-090",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“博物馆新展签增加了二维码，观众可以听语音讲解和查看修复前照片。”材料二：“老年观众反馈二维码字体太小，部分儿童则只看动画而忽略实物。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-091",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“博物馆新展签增加了二维码，观众可以听语音讲解和查看修复前照片。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-092",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "数字内容的功能与两类观众遇到的问题"
+      ],
+      "answer": 3,
+      "explanation": "“数字内容的功能与两类观众遇到的问题”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-093",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "判断结论的证据边界：哪项说法最恰当？",
+      "options": [
+        "不能用数字资源完全代替清晰展签和现场观察",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：不能用数字资源完全代替清晰展签和现场观察。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-094",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“博观而约取”可理解为广泛获取后选择关键信息",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-095",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "展签改版要测试字体、操作步骤和实物观察提示",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“展签改版要测试字体、操作步骤和实物观察提示”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-096",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "让文化服务对不同群体更友好"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“让文化服务对不同群体更友好”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-097",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“纪念作品既要有表达感染力，也必须尊重事实和版权”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "即使已有初步证据，也应说明适用范围并继续验证",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "严谨表达既说明证据，也承认范围和继续验证的必要。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-098",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多文本阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "材料一：“毕业纪念册征稿通知要求作品真实、简洁，并说明照片拍摄时间。”材料二：“编辑组收到一篇文字优美的稿件，但其中把同学经历移花接木，还使用了来源不明的网络图片。”两则材料共同关注的核心问题是？",
+      "options": [
+        "两段文字完全没有共同话题",
+        "纪念作品既要有表达感染力，也必须尊重事实和版权",
+        "只比较标点数量和句子长短",
+        "都在介绍与主题无关的娱乐活动"
+      ],
+      "answer": 1,
+      "explanation": "两则材料从不同角度共同指向“纪念作品既要有表达感染力，也必须尊重事实和版权”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-099",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息整合",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "分别提取两则材料的关键信息。哪项整合最完整？材料一：“毕业纪念册征稿通知要求作品真实、简洁，并说明照片拍摄时间。”材料二补充了另一角度。",
+      "options": [
+        "只保留材料一的一个数字",
+        "只抄材料二的最后一个词",
+        "纪念作品既要有表达感染力，也必须尊重事实和版权",
+        "删除两则材料之间的联系"
+      ],
+      "answer": 2,
+      "explanation": "整合结果同时保留两则材料的重点，并揭示“纪念作品既要有表达感染力，也必须尊重事实和版权”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-100",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "观点与证据",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "观点是“纪念作品既要有表达感染力，也必须尊重事实和版权”。哪组证据最能直接支持它？",
+      "options": [
+        "文章标题的字数",
+        "读者个人没有依据的喜好",
+        "与主题无关的一次偶然经历",
+        "征稿要求与稿件中经历、图片来源的问题"
+      ],
+      "answer": 3,
+      "explanation": "“征稿要求与稿件中经历、图片来源的问题”分别来自两则材料，能够共同支持观点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-101",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "概括评价",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "判断结论的证据边界：哪项说法最恰当？",
+      "options": [
+        "文字优美不能弥补事实失真和来源不明",
+        "现有材料可以证明所有时间和地点都一样",
+        "只要观点动听就不需要证据",
+        "发现限制后应把全部材料都丢弃"
+      ],
+      "answer": 0,
+      "explanation": "评价既承认已有信息，也注意到证据限制：文字优美不能弥补事实失真和来源不明。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-102",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗文语境",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "联系材料主题，哪项古诗文或成语理解最恰当？",
+      "options": [
+        "古诗文只能逐字翻译，不能联系语境",
+        "“言必信，行必果”可联系诚实表达与责任",
+        "引用名句后就不必说明它与材料的关系",
+        "任何名句都能支持任何观点"
+      ],
+      "answer": 1,
+      "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-103",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "要把材料转化为面向真实读者的作品，哪项要求最有效？",
+      "options": [
+        "只追求装饰，不写事实和步骤",
+        "隐藏材料来源和适用对象",
+        "编辑规范应包括事实核对、授权确认和修改流程",
+        "把不同意见全部删去"
+      ],
+      "answer": 2,
+      "explanation": "“编辑规范应包括事实核对、授权确认和修改流程”能让读者理解依据并实际使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-104",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "两则材料体现的传统观念或公共价值是？",
+      "options": [
+        "夸大结论比尊重事实重要",
+        "个人方便永远高于公共安全",
+        "传统文化与今天的生活毫无关系",
+        "珍视共同记忆并坚持诚信表达"
+      ],
+      "answer": 3,
+      "explanation": "材料中的选择和权衡体现了“珍视共同记忆并坚持诚信表达”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-105",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "语言综合运用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "围绕“步道建设要兼顾树木保护、雨水渗透和行洪安全”修改表达。哪句话逻辑严谨、语意完整？",
+      "options": [
+        "即使已有初步证据，也应说明适用范围并继续验证",
+        "因为有一个例子，所以任何情况都完全相同",
+        "虽然没有阅读材料，但是结论必定正确",
+        "只要句子很长，表达就一定严谨"
+      ],
+      "answer": 0,
+      "explanation": "严谨表达既说明证据，也承认范围和继续验证的必要。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-106",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "“不仅要提出观点，___要提供证据”中应填递进关联词。",
+      "answer": "还",
+      "explanation": "结合六年级综合语文知识，填“还”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-107",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "比较两则材料时，要先找共同话题，再辨别各自的___。",
+      "answer": "角度",
+      "explanation": "结合六年级综合语文知识，填“角度”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-108",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "整合信息不是简单拼接，而要建立信息之间的___。",
+      "answer": "联系",
+      "explanation": "结合六年级综合语文知识，填“联系”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-109",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "事实、数据和可靠事例都可以作为支持观点的___。",
+      "answer": "证据",
+      "explanation": "结合六年级综合语文知识，填“证据”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-110",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "评价结论时，要检查证据是否充分以及适用___。",
+      "answer": "范围",
+      "explanation": "结合六年级综合语文知识，填“范围”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-111",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "引用古诗文后，应说明它与当前语境的___。",
+      "answer": "联系",
+      "explanation": "结合六年级综合语文知识，填“联系”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-112",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "面向真实读者写作，要考虑对象、目的和使用___。",
+      "answer": "场景",
+      "explanation": "结合六年级综合语文知识，填“场景”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-113",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "传承传统文化既要尊重事实，也可以进行恰当的___。",
+      "answer": "创新",
+      "explanation": "结合六年级综合语文知识，填“创新”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-114",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "“虽然已有数据，___仍需继续验证”应填转折词。",
+      "answer": "但是",
+      "explanation": "结合六年级综合语文知识，填“但是”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-115",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "材料之间可能互相补充，也可能形成___。",
+      "answer": "对比",
+      "explanation": "结合六年级综合语文知识，填“对比”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-116",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "表格、流程图和提纲都能帮助___复杂信息。",
+      "answer": "整理",
+      "explanation": "结合六年级综合语文知识，填“整理”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-117",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "证据必须与观点相关，不能只追求数量___。",
+      "answer": "多",
+      "explanation": "结合六年级综合语文知识，填“多”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-118",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "概括评价",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "承认研究限制能使结论更加严谨和___。",
+      "answer": "可信",
+      "explanation": "结合六年级综合语文知识，填“可信”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-119",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "古诗文语境",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "“纸上得来终觉浅”强调还要亲身___。",
+      "answer": "实践",
+      "explanation": "结合六年级综合语文知识，填“实践”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-120",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "真实任务表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "通知要写清时间、地点、对象和注意___。",
+      "answer": "事项",
+      "explanation": "结合六年级综合语文知识，填“事项”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-121",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "保护文化遗产要保存其真实的历史___。",
+      "answer": "信息",
+      "explanation": "结合六年级综合语文知识，填“信息”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-122",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "删去重复和无关内容，可以使表达更___。",
+      "answer": "简洁",
+      "explanation": "结合六年级综合语文知识，填“简洁”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-123",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "整合相互矛盾的信息时，应先核查来源和___。",
+      "answer": "条件",
+      "explanation": "结合六年级综合语文知识，填“条件”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-124",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "观点与证据",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "单个事例通常不能证明所有情况，表达时要避免过度___。",
+      "answer": "概括",
+      "explanation": "结合六年级综合语文知识，填“概括”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-125",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "概括评价",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "评价方案既要看收益，也要分析成本和___。",
+      "answer": "风险",
+      "explanation": "结合六年级综合语文知识，填“风险”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-126",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "真实任务表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "作品交付前应让目标读者试用并提出___。",
+      "answer": "反馈",
+      "explanation": "结合六年级综合语文知识，填“反馈”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-127",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "语言综合运用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配关联词与逻辑关系。",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "只有……才……",
+        "不仅……还……"
+      ],
+      "right": [
+        "必要条件",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据语言综合运用的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-128",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "多文本阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配多文本关系与具体含义。",
+      "left": [
+        "共同点",
+        "不同点",
+        "补充",
+        "矛盾"
+      ],
+      "right": [
+        "增加信息",
+        "相同主题",
+        "说法冲突",
+        "不同角度"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据多文本阅读的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-129",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "信息整合",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配信息处理步骤与作用。",
+      "left": [
+        "提取",
+        "分类",
+        "联系",
+        "概括"
+      ],
+      "right": [
+        "建立关系",
+        "找到关键内容",
+        "形成整体认识",
+        "按标准归组"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据信息整合的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-130",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "观点与证据",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配论证要素与功能。",
+      "left": [
+        "观点",
+        "事实",
+        "数据",
+        "推理"
+      ],
+      "right": [
+        "具体数量",
+        "要说明的判断",
+        "证据到结论的过程",
+        "可核查情况"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据观点与证据的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-131",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "概括评价",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配评价标准与检查问题。",
+      "left": [
+        "充分性",
+        "相关性",
+        "适用范围",
+        "局限"
+      ],
+      "right": [
+        "结论在哪里成立",
+        "证据够不够",
+        "尚未解决的问题",
+        "证据是否支持观点"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据概括评价的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-132",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "古诗文语境",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配古语关键词与现代语境含义。",
+      "left": [
+        "躬行",
+        "兼听",
+        "守信",
+        "思危"
+      ],
+      "right": [
+        "讲求信用",
+        "亲身实践",
+        "预想风险",
+        "听取多方"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据古诗文语境的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-133",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "真实任务表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "综合阅读"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配写作要素与需要回答的问题。",
+      "left": [
+        "读者",
+        "目的",
+        "证据",
+        "行动"
+      ],
+      "right": [
+        "凭什么说",
+        "写给谁",
+        "希望怎样做",
+        "为什么写"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据真实任务表达的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-134",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "小学毕业综合阅读图谱：匹配文化实践与行动目标。",
+      "left": [
+        "保护",
+        "传承",
+        "创新",
+        "求证"
+      ],
+      "right": [
+        "适应当代",
+        "避免损毁",
+        "核查依据",
+        "延续价值"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据传统文化的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-135",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "语言综合运用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配关联词与逻辑关系。",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "只有……才……",
+        "不仅……还……"
+      ],
+      "right": [
+        "必要条件",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据语言综合运用的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-136",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "多文本阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配多文本关系与具体含义。",
+      "left": [
+        "共同点",
+        "不同点",
+        "补充",
+        "矛盾"
+      ],
+      "right": [
+        "增加信息",
+        "相同主题",
+        "说法冲突",
+        "不同角度"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据多文本阅读的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-137",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "信息整合",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配信息处理步骤与作用。",
+      "left": [
+        "提取",
+        "分类",
+        "联系",
+        "概括"
+      ],
+      "right": [
+        "建立关系",
+        "找到关键内容",
+        "形成整体认识",
+        "按标准归组"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据信息整合的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-138",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "观点与证据",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配论证要素与功能。",
+      "left": [
+        "观点",
+        "事实",
+        "数据",
+        "推理"
+      ],
+      "right": [
+        "具体数量",
+        "要说明的判断",
+        "证据到结论的过程",
+        "可核查情况"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据观点与证据的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-139",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "概括评价",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配评价标准与检查问题。",
+      "left": [
+        "充分性",
+        "相关性",
+        "适用范围",
+        "局限"
+      ],
+      "right": [
+        "结论在哪里成立",
+        "证据够不够",
+        "尚未解决的问题",
+        "证据是否支持观点"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据概括评价的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g6-chinese-authored-140",
+    "subject": "chinese",
+    "grade": 6,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "古诗文语境",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "多文本整合"
+    ],
+    "content": {
+      "stem": "真实任务表达检查表：匹配古语关键词与现代语境含义。",
+      "left": [
+        "躬行",
+        "兼听",
+        "守信",
+        "思危"
+      ],
+      "right": [
+        "讲求信用",
+        "亲身实践",
+        "预想风险",
+        "听取多方"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据古诗文语境的含义、证据关系和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
