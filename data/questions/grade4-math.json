@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "列竖式计算得到3098。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -48,7 +48,7 @@
       "answer": 1,
       "explanation": "先交换并结合25和4，25×4×15=100×15=1500。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -74,7 +74,7 @@
       "answer": 2,
       "explanation": "小数点对齐相加，3.3+2.5=5.8米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -100,7 +100,7 @@
       "answer": 3,
       "explanation": "30°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -126,7 +126,7 @@
       "answer": 0,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "总数除以3：（66+72+69）÷3=69厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -178,7 +178,7 @@
       "answer": 2,
       "explanation": "20最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -204,7 +204,7 @@
       "answer": 3,
       "explanation": "先减发出的，再加运来的：135-33+48=150盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -230,7 +230,7 @@
       "answer": 0,
       "explanation": "总价=单价×数量，11×4=44元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -256,7 +256,7 @@
       "answer": 1,
       "explanation": "列竖式计算得到3164。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -282,7 +282,7 @@
       "answer": 2,
       "explanation": "先交换并结合25和4，25×4×16=100×16=1600。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -308,7 +308,7 @@
       "answer": 3,
       "explanation": "小数点对齐相加，3.4+2.6=6.0米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +334,7 @@
       "answer": 0,
       "explanation": "35°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -360,7 +360,7 @@
       "answer": 1,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -386,7 +386,7 @@
       "answer": 2,
       "explanation": "总数除以3：（68+74+71）÷3=71厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -412,7 +412,7 @@
       "answer": 3,
       "explanation": "21最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -438,7 +438,7 @@
       "answer": 0,
       "explanation": "先减发出的，再加运来的：140-34+49=155盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -464,7 +464,7 @@
       "answer": 1,
       "explanation": "总价=单价×数量，12×5=60元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -490,7 +490,7 @@
       "answer": 2,
       "explanation": "列竖式计算得到3230。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -516,7 +516,7 @@
       "answer": 3,
       "explanation": "先交换并结合25和4，25×4×17=100×17=1700。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -542,7 +542,7 @@
       "answer": 0,
       "explanation": "小数点对齐相加，3.5+2.7=6.2米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -568,7 +568,7 @@
       "answer": 1,
       "explanation": "40°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -594,7 +594,7 @@
       "answer": 2,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -620,7 +620,7 @@
       "answer": 3,
       "explanation": "总数除以3：（70+76+73）÷3=73厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -646,7 +646,7 @@
       "answer": 0,
       "explanation": "22最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -672,7 +672,7 @@
       "answer": 1,
       "explanation": "先减发出的，再加运来的：145-35+50=160盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 2,
       "explanation": "总价=单价×数量，13×6=78元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -724,7 +724,7 @@
       "answer": 3,
       "explanation": "列竖式计算得到3296。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -750,7 +750,7 @@
       "answer": 0,
       "explanation": "先交换并结合25和4，25×4×18=100×18=1800。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +776,7 @@
       "answer": 1,
       "explanation": "小数点对齐相加，3.6+2.8=6.4米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -802,7 +802,7 @@
       "answer": 2,
       "explanation": "45°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -828,7 +828,7 @@
       "answer": 3,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -854,7 +854,7 @@
       "answer": 0,
       "explanation": "总数除以3：（72+78+75）÷3=75厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -880,7 +880,7 @@
       "answer": 1,
       "explanation": "23最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -906,7 +906,7 @@
       "answer": 2,
       "explanation": "先减发出的，再加运来的：150-36+51=165盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -932,7 +932,7 @@
       "answer": 3,
       "explanation": "总价=单价×数量，14×4=56元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -958,7 +958,7 @@
       "answer": 0,
       "explanation": "列竖式计算得到3362。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -984,7 +984,7 @@
       "answer": 1,
       "explanation": "先交换并结合25和4，25×4×19=100×19=1900。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1010,7 +1010,7 @@
       "answer": 2,
       "explanation": "小数点对齐相加，3.7+2.9=6.6米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1036,7 +1036,7 @@
       "answer": 3,
       "explanation": "50°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1062,7 +1062,7 @@
       "answer": 0,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1088,7 +1088,7 @@
       "answer": 1,
       "explanation": "总数除以3：（74+80+77）÷3=77厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1114,7 +1114,7 @@
       "answer": 2,
       "explanation": "24最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1140,7 +1140,7 @@
       "answer": 3,
       "explanation": "先减发出的，再加运来的：155-37+52=170盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1166,7 +1166,7 @@
       "answer": 0,
       "explanation": "总价=单价×数量，15×5=75元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1192,7 +1192,7 @@
       "answer": 1,
       "explanation": "列竖式计算得到3428。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1218,7 +1218,7 @@
       "answer": 2,
       "explanation": "先交换并结合25和4，25×4×20=100×20=2000。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1244,7 +1244,7 @@
       "answer": 3,
       "explanation": "小数点对齐相加，3.8+3.0=6.8米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1270,7 +1270,7 @@
       "answer": 0,
       "explanation": "55°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1296,7 +1296,7 @@
       "answer": 1,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1322,7 +1322,7 @@
       "answer": 2,
       "explanation": "总数除以3：（76+82+79）÷3=79厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       "answer": 3,
       "explanation": "25最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1374,7 @@
       "answer": 0,
       "explanation": "先减发出的，再加运来的：160-38+53=175盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 1,
       "explanation": "总价=单价×数量，16×6=96元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1426,7 +1426,7 @@
       "answer": 2,
       "explanation": "列竖式计算得到2032。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1452,7 +1452,7 @@
       "answer": 3,
       "explanation": "先交换并结合25和4，25×4×21=100×21=2100。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1478,7 +1478,7 @@
       "answer": 0,
       "explanation": "小数点对齐相加，3.9+3.1=7.0米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1504,7 +1504,7 @@
       "answer": 1,
       "explanation": "60°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1530,7 +1530,7 @@
       "answer": 2,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1556,7 +1556,7 @@
       "answer": 3,
       "explanation": "总数除以3：（78+84+81）÷3=81厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1582,7 +1582,7 @@
       "answer": 0,
       "explanation": "26最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1608,7 +1608,7 @@
       "answer": 1,
       "explanation": "先减发出的，再加运来的：165-39+54=180盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1634,7 +1634,7 @@
       "answer": 2,
       "explanation": "总价=单价×数量，17×4=68元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1660,7 +1660,7 @@
       "answer": 3,
       "explanation": "列竖式计算得到2060。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1686,7 +1686,7 @@
       "answer": 0,
       "explanation": "先交换并结合25和4，25×4×22=100×22=2200。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1712,7 +1712,7 @@
       "answer": 1,
       "explanation": "小数点对齐相加，4.0+3.2=7.2米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1738,7 +1738,7 @@
       "answer": 2,
       "explanation": "65°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1764,7 +1764,7 @@
       "answer": 3,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1790,7 +1790,7 @@
       "answer": 0,
       "explanation": "总数除以3：（80+86+83）÷3=83厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1816,7 +1816,7 @@
       "answer": 1,
       "explanation": "27最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1842,7 +1842,7 @@
       "answer": 2,
       "explanation": "先减发出的，再加运来的：170-40+55=185盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1868,7 +1868,7 @@
       "answer": 3,
       "explanation": "总价=单价×数量，18×5=90元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1894,7 +1894,7 @@
       "answer": 0,
       "explanation": "列竖式计算得到2088。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1920,7 +1920,7 @@
       "answer": 1,
       "explanation": "先交换并结合25和4，25×4×23=100×23=2300。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1946,7 +1946,7 @@
       "answer": 2,
       "explanation": "小数点对齐相加，4.1+3.3=7.4米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1972,7 +1972,7 @@
       "answer": 3,
       "explanation": "70°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1998,7 +1998,7 @@
       "answer": 0,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       "answer": 1,
       "explanation": "总数除以3：（82+88+85）÷3=85厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2050,7 +2050,7 @@
       "answer": 2,
       "explanation": "28最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2076,7 +2076,7 @@
       "answer": 3,
       "explanation": "先减发出的，再加运来的：175-41+56=190盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 0,
       "explanation": "总价=单价×数量，19×6=114元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2128,7 +2128,7 @@
       "answer": 1,
       "explanation": "列竖式计算得到2116。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2154,7 +2154,7 @@
       "answer": 2,
       "explanation": "先交换并结合25和4，25×4×24=100×24=2400。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "answer": 3,
       "explanation": "小数点对齐相加，4.2+3.4=7.6米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2206,7 +2206,7 @@
       "answer": 0,
       "explanation": "75°小于90°，所以是锐角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2232,7 +2232,7 @@
       "answer": 1,
       "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2258,7 +2258,7 @@
       "answer": 2,
       "explanation": "总数除以3：（84+90+87）÷3=87厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2284,7 +2284,7 @@
       "answer": 3,
       "explanation": "29最大，所以乙最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       "answer": 0,
       "explanation": "先减发出的，再加运来的：180-42+57=195盒。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2336,7 +2336,7 @@
       "answer": 1,
       "explanation": "前3小时行67×3=201千米，再加52千米，共253千米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2362,7 +2362,7 @@
       "answer": 2,
       "explanation": "先加新到的，再减发出的：1718+636-429=1925本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2388,7 +2388,7 @@
       "answer": 3,
       "explanation": "利用乘法交换律和结合律，先算25×4=100，再算100×29=2900。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2414,7 @@
       "answer": 0,
       "explanation": "先求总价25.5+9.9=35.4元，再用43减总价，找回7.6元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2440,7 +2440,7 @@
       "answer": 1,
       "explanation": "两个角相加是48+42=90°，90°的角是直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2466,7 +2466,7 @@
       "answer": 2,
       "explanation": "长方形的两条对边互相平行，延长后也不会相交。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2492,7 +2492,7 @@
       "answer": 3,
       "explanation": "总数364除以4，平均数是91下。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2518,7 +2518,7 @@
       "answer": 0,
       "explanation": "偶数周是37+40，奇数周是31+34，相差12千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2544,7 +2544,7 @@
       "answer": 1,
       "explanation": "总座位7×37=259个，减去维修的21个，得238个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2570,7 +2570,7 @@
       "answer": 2,
       "explanation": "前3小时行68×3=204千米，再加53千米，共257千米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2596,7 +2596,7 @@
       "answer": 3,
       "explanation": "先加新到的，再减发出的：1754+648-437=1965本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2622,7 +2622,7 @@
       "answer": 0,
       "explanation": "利用乘法交换律和结合律，先算25×4=100，再算100×30=3000。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2648,7 +2648,7 @@
       "answer": 1,
       "explanation": "先求总价26.5+10.0=36.5元，再用44减总价，找回7.5元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "answer": 2,
       "explanation": "两个角相加是49+41=90°，90°的角是直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2700,7 +2700,7 @@
       "answer": 3,
       "explanation": "横线和竖线互相垂直，相交形成四个直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2726,7 +2726,7 @@
       "answer": 0,
       "explanation": "总数368除以4，平均数是92下。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2746,7 +2746,7 @@
       "answer": "448",
       "explanation": "把四天的数据相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2766,7 +2766,7 @@
       "answer": "57",
       "explanation": "先算总瓶数，再减喝掉的。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2786,7 +2786,7 @@
       "answer": "183",
       "explanation": "路程=速度×时间。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2806,7 +2806,7 @@
       "answer": "5232",
       "explanation": "按相同数位相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2826,7 +2826,7 @@
       "answer": "5000",
       "explanation": "先算125×8=1000，再乘另一个因数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2846,7 +2846,7 @@
       "answer": "17.6",
       "explanation": "小数点对齐后相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2866,7 +2866,7 @@
       "answer": "180",
       "explanation": "平角的两条边在一条直线上，是180°。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2886,7 @@
       "answer": "平行",
       "explanation": "同一平面内不相交的两条直线互相平行。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2906,7 +2906,7 @@
       "answer": "120",
       "explanation": "三个等距数的平均数是中间数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2926,7 +2926,7 @@
       "answer": "484",
       "explanation": "把四天的数据相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "answer": "60",
       "explanation": "先算总瓶数，再减喝掉的。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2966,7 +2966,7 @@
       "answer": "150",
       "explanation": "路程=速度×时间。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2986,7 @@
       "answer": "5331",
       "explanation": "按相同数位相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3006,7 +3006,7 @@
       "answer": "4000",
       "explanation": "先算125×8=1000，再乘另一个因数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3026,7 +3026,7 @@
       "answer": "18.5",
       "explanation": "小数点对齐后相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       "answer": "180",
       "explanation": "平角的两条边在一条直线上，是180°。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3066,7 +3066,7 @@
       "answer": "平行",
       "explanation": "同一平面内不相交的两条直线互相平行。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3086,7 +3086,7 @@
       "answer": "129",
       "explanation": "三个等距数的平均数是中间数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3106,7 @@
       "answer": "520",
       "explanation": "把四天的数据相加。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3126,7 +3126,7 @@
       "answer": "35",
       "explanation": "先算总瓶数，再减喝掉的。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "177",
       "explanation": "路程=速度×时间。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3195,7 +3195,7 @@
       ],
       "explanation": "根据多位数运算的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3244,7 +3244,7 @@
       ],
       "explanation": "根据运算律的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3293,7 +3293,7 @@
       ],
       "explanation": "根据小数初步的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3342,7 +3342,7 @@
       ],
       "explanation": "根据角的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3391,7 +3391,7 @@
       ],
       "explanation": "根据几何关系的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3440,7 +3440,7 @@
       ],
       "explanation": "根据平均数的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3489,7 +3489,7 @@
       ],
       "explanation": "根据数据分析的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3538,7 +3538,7 @@
       ],
       "explanation": "根据多步问题的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3587,7 +3587,7 @@
       ],
       "explanation": "根据数量关系的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3636,7 +3636,7 @@
       ],
       "explanation": "根据多位数运算的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3685,7 +3685,7 @@
       ],
       "explanation": "根据运算律的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3734,7 +3734,7 @@
       ],
       "explanation": "根据小数初步的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3783,7 +3783,7 @@
       ],
       "explanation": "根据角的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3832,7 +3832,7 @@
       ],
       "explanation": "根据几何关系的定义、运算或数量关系逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

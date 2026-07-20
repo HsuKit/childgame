@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“因为……所以……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -48,7 +48,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先写问题，再写解决办法和结果”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -74,7 +74,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“值日生及时处理积水保障安全”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -100,7 +100,7 @@
       "answer": 3,
       "explanation": "“扫水并立起提示牌”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -126,7 +126,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“值日生做事细心负责”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "短文按事情发展顺序写清处理积水的过程。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -178,7 +178,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“积水会使通道湿滑”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -204,7 +204,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“傍晚”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -230,7 +230,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“虽然……但是……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -256,7 +256,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先写原来的问题，再写改进和变化”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -282,7 +282,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“增加回收箱改善了旧衣回收”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -308,7 +308,7 @@
       "answer": 3,
       "explanation": "“增加两只并标明投放要求”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +334,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“居民建议得到了重视”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -360,7 +360,7 @@
       "answer": 1,
       "explanation": "短文通过前后变化表现改进效果。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -386,7 +386,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“清楚的投放要求有助于分类”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -412,7 +412,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“因为”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -438,7 +438,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“只要……就……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -464,7 +464,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先写观察过程，再写发现及原因”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -490,7 +490,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“连续观察帮助发现绿豆生长差异的原因”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -516,7 +516,7 @@
       "answer": 3,
       "explanation": "“每天同一时间测量并记录”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -542,7 +542,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“阳光可能影响绿豆生长”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -568,7 +568,7 @@
       "answer": 1,
       "explanation": "短文用具体时间和发现推进事件。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -594,7 +594,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“对比记录能帮助寻找原因”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -620,7 +620,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“各有长处”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -646,7 +646,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“不但……而且……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -672,7 +672,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先写整理方法，再写使用效果”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“分类和编号让找书更高效”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -724,7 +724,7 @@
       "answer": 3,
       "explanation": "“按类别摆放并贴编号”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -750,7 +750,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“清楚的规则能节省查找时间”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +776,7 @@
       "answer": 1,
       "explanation": "短文围绕整理前后的使用过程叙述。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -802,7 +802,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“分类标牌和编号具有索引作用”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -828,7 +828,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“比喻”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -854,7 +854,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“如果……就……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -880,7 +880,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“按先后顺序写应对大风的行动”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -906,7 +906,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“小杰有条理地消除大风带来的隐患”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -932,7 +932,7 @@
       "answer": 3,
       "explanation": "“关窗、搬花盆并检查门窗”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -958,7 +958,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“遇到突发情况应先保证安全”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -984,7 +984,7 @@
       "answer": 1,
       "explanation": "短文用“先、再、最后”组织事件。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1010,7 +1010,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“大风可能使高处物品掉落”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1036,7 +1036,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“看到不同景象”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1062,7 +1062,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“一边……一边……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1088,7 +1088,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先比较现象，再说明实验结论”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1114,7 +1114,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“不同纸张的吸水性和湿强度不同”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1140,7 +1140,7 @@
       "answer": 3,
       "explanation": "“使用相同水量分别测试”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1166,7 +1166,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“选择擦水纸张还要考虑湿后强度”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1192,7 +1192,7 @@
       "answer": 1,
       "explanation": "短文按实验和结论的顺序记录。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1218,7 +1218,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“控制水量相同能使比较更公平”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1244,7 +1244,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“夕阳照进树林”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1270,7 +1270,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“不仅……还……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1296,7 +1296,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先列作用和现象，再得出结论”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1322,7 +1322,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“合理增加绿地能改善城市环境”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       "answer": 3,
       "explanation": "“树木遮阴、吸尘并降低树荫地面温度”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1374,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“绿地规划应考虑居民活动区域”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 1,
       "explanation": "短文从现象过渡到建议。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1426,7 +1426,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“树荫能减少阳光直射带来的升温”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1452,7 +1452,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“鼓励和惜别”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1478,7 +1478,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“即使……也……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1504,7 +1504,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先否定误解，再说明事实”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1530,7 +1530,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“候鸟利用多种线索有规律地迁徙”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1556,7 +1556,7 @@
       "answer": 3,
       "explanation": "“利用太阳、星星和地球磁场辨向”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1582,7 +1582,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“迁徙路线需要方向和补给条件”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1608,7 +1608,7 @@
       "answer": 1,
       "explanation": "短文先提出观点再列举依据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1634,7 +1634,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“候鸟会选择食物充足处休息”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1660,7 +1660,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“豪迈坚定”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1686,7 +1686,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“不是……而是……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1712,7 +1712,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先写困难，再写合作解决的过程”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1738,7 +1738,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“村民合作修好木桥”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1764,7 +1764,7 @@
       "answer": 3,
       "explanation": "“分工准备木料、施工和设置标志”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1790,7 +1790,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“合理分工能提高办事效率”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1816,7 +1816,7 @@
       "answer": 1,
       "explanation": "短文通过人物分工推动事情发展。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1842,7 +1842,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“临时标志能保障施工期间通行安全”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1868,7 +1868,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“七夕”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1894,7 +1894,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“尽管……可是……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1920,7 +1920,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先介绍设施，再分情况说明作用”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1946,7 +1946,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“海绵城市设施能调节雨水、减轻排水压力”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1972,7 +1972,7 @@
       "answer": 3,
       "explanation": "“透水路面渗水、下凹绿地储水”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1998,7 +1998,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“城市建设需同时考虑渗水和储水”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       "answer": 1,
       "explanation": "短文按雨量不同分情况说明。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2050,7 +2050,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“下凹绿地可暂时储存部分雨水”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2076,7 +2076,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“保卫边疆”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“只有……才……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2128,7 +2128,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“通过两次表现对比说明改进”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2154,7 +2154,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“调整讲解方式能提高表达效果”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "answer": 3,
       "explanation": "“缩短文字、增加示意图并与听众交流”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2206,7 +2206,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“有效表达要关注听众是否理解”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2232,7 +2232,7 @@
       "answer": 1,
       "explanation": "短文用前后对比突出人物进步。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2258,7 +2258,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“示意图能帮助呈现模型结构”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2284,7 +2284,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“风雪交加”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“既……又……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2336,7 +2336,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“先分类举例，再概括共同作用”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2362,7 +2362,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“植物种子利用不同结构传播”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2388,7 +2388,7 @@
       "answer": 3,
       "explanation": "“小钩附着、轻种子随风、果实弹射”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2414,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“种子结构与传播方式相适应”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2440,7 +2440,7 @@
       "answer": 1,
       "explanation": "短文并列列举三种传播现象。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2466,7 +2466,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“带小钩的种子可借助动物传播”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2492,7 +2492,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“战场”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2518,7 +2518,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“由于……因此……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2544,7 +2544,7 @@
       "answer": 1,
       "explanation": "段落内容体现了“从发现问题到调查、建议和验证”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2570,7 +2570,7 @@
       "answer": 2,
       "explanation": "关键内容都围绕“用记录和对比验证节电建议”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2596,7 +2596,7 @@
       "answer": 3,
       "explanation": "“连续记录并比较实施前后用电量”是直接支持中心意思的具体证据。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2622,7 +2622,7 @@
       "answer": 0,
       "explanation": "结合文中的做法和结果，可以推断“节能建议应有数据支持”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2648,7 +2648,7 @@
       "answer": 1,
       "explanation": "短文按研究步骤展开内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "answer": 2,
       "explanation": "短文明确说明或支持了“靠窗区域自然光通常更充足”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2700,7 +2700,7 @@
       "answer": 3,
       "explanation": "结合诗句中的关键词和画面，正确理解是“嫦娥”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2726,7 +2726,7 @@
       "answer": 0,
       "explanation": "前后分句的逻辑关系适合使用“只有……才……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2746,7 +2746,7 @@
       "answer": "虽然……但是……",
       "explanation": "结合四年级语言和阅读知识，填“虽然……但是……”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2766,7 +2766,7 @@
       "answer": "解决",
       "explanation": "结合四年级语言和阅读知识，填“解决”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2786,7 +2786,7 @@
       "answer": "次要",
       "explanation": "结合四年级语言和阅读知识，填“次要”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2806,7 +2806,7 @@
       "answer": "证据",
       "explanation": "结合四年级语言和阅读知识，填“证据”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2826,7 +2826,7 @@
       "answer": "猜测",
       "explanation": "结合四年级语言和阅读知识，填“猜测”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2846,7 +2846,7 @@
       "answer": "结果",
       "explanation": "结合四年级语言和阅读知识，填“结果”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2866,7 +2866,7 @@
       "answer": "数字",
       "explanation": "结合四年级语言和阅读知识，填“数字”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2886,7 @@
       "answer": "因为",
       "explanation": "结合四年级语言和阅读知识，填“因为”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2906,7 +2906,7 @@
       "answer": "只有……才……",
       "explanation": "结合四年级语言和阅读知识，填“只有……才……”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2926,7 +2926,7 @@
       "answer": "分",
       "explanation": "结合四年级语言和阅读知识，填“分”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "answer": "中心",
       "explanation": "结合四年级语言和阅读知识，填“中心”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2966,7 +2966,7 @@
       "answer": "句子",
       "explanation": "结合四年级语言和阅读知识，填“句子”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2986,7 @@
       "answer": "雨",
       "explanation": "结合四年级语言和阅读知识，填“雨”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3006,7 +3006,7 @@
       "answer": "特点",
       "explanation": "结合四年级语言和阅读知识，填“特点”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3026,7 +3026,7 @@
       "answer": "不同",
       "explanation": "结合四年级语言和阅读知识，填“不同”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       "answer": "意思",
       "explanation": "结合四年级语言和阅读知识，填“意思”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3066,7 +3066,7 @@
       "answer": "递进",
       "explanation": "结合四年级语言和阅读知识，填“递进”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3086,7 +3086,7 @@
       "answer": "却",
       "explanation": "结合四年级语言和阅读知识，填“却”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3106,7 @@
       "answer": "依据",
       "explanation": "结合四年级语言和阅读知识，填“依据”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3126,7 +3126,7 @@
       "answer": "特点",
       "explanation": "结合四年级语言和阅读知识，填“特点”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "实践",
       "explanation": "结合四年级语言和阅读知识，填“实践”最恰当。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3195,7 +3195,7 @@
       ],
       "explanation": "根据关联词的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3244,7 +3244,7 @@
       ],
       "explanation": "根据句段关系的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3293,7 +3293,7 @@
       ],
       "explanation": "根据中心意思的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3342,7 +3342,7 @@
       ],
       "explanation": "根据证据定位的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3391,7 +3391,7 @@
       ],
       "explanation": "根据概括与推断的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3440,7 +3440,7 @@
       ],
       "explanation": "根据叙事文本的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3489,7 +3489,7 @@
       ],
       "explanation": "根据说明性文本的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3538,7 +3538,7 @@
       ],
       "explanation": "根据古诗文初步的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3587,7 +3587,7 @@
       ],
       "explanation": "根据关联词的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3636,7 +3636,7 @@
       ],
       "explanation": "根据句段关系的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3685,7 +3685,7 @@
       ],
       "explanation": "根据中心意思的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3734,7 +3734,7 @@
       ],
       "explanation": "根据证据定位的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3783,7 +3783,7 @@
       ],
       "explanation": "根据概括与推断的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3832,7 +3832,7 @@
       ],
       "explanation": "根据叙事文本的含义和文章阅读方法逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

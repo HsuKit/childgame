@@ -36,3 +36,20 @@ test('grade-3 release contains exactly 420 publishable questions', () => {
   assert.equal((sql.match(/insert into public\.questions/g) ?? []).length, 420)
   assert.doesNotMatch(sql, /delete from public\.questions/i)
 })
+
+test('grade-4 release contains exactly 420 publishable questions', () => {
+  const result = loadAndValidateQuestions(undefined, {
+    files: ['grade4-chinese.json', 'grade4-math.json', 'grade4-english.json'],
+    groups: [
+      { grade: 4, subject: 'chinese' },
+      { grade: 4, subject: 'math' },
+      { grade: 4, subject: 'english' },
+    ],
+  })
+  assert.deepEqual(result.errors, [])
+  assert.deepEqual(result.warnings, [])
+  assert.equal(result.questions.filter(question => question.reviewStatus === 'approved').length, 420)
+  const sql = renderQuestionMigration(result.questions)
+  assert.equal((sql.match(/insert into public\.questions/g) ?? []).length, 420)
+  assert.doesNotMatch(sql, /delete from public\.questions/i)
+})
