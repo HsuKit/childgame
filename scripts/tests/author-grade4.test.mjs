@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { authorGrade4Math } from '../author-grade4-math.mjs'
 import { authorGrade4Chinese } from '../author-grade4-chinese.mjs'
+import { authorGrade4English } from '../author-grade4-english.mjs'
 import { validateQuestion } from '../lib/question-schema.mjs'
 import { auditQuestionSet } from '../lib/question-audit.mjs'
 
@@ -16,6 +17,15 @@ test('authors a clean grade-4 math collection', () => {
   assert.deepEqual(audit.errors, [])
   assert.deepEqual(audit.warnings, [])
   assert.equal(questions.every(question => question.reviewStatus === 'reviewed'), true)
+})
+
+test('authors a clean grade-4 english collection', () => {
+  const questions = authorGrade4English()
+  const blueprint = { ...config.defaults, knowledgePoints: config.grades['4'].english }
+  assert.deepEqual(questions.flatMap(validateQuestion), [])
+  const audit = auditQuestionSet(questions, blueprint)
+  assert.deepEqual(audit.errors, [])
+  assert.deepEqual(audit.warnings, [])
 })
 
 test('authors a clean grade-4 chinese collection', () => {

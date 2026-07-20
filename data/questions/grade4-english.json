@@ -1,22 +1,3978 @@
 [
-  {"stem":"\"Yesterday I ___ a movie.\"","options":["watch","watched","watching","watches"],"answer":1},
-  {"stem":"Which word means \"美丽的\"?","options":["ugly","pretty","angry","tall"],"answer":1},
-  {"stem":"\"They ___ to school by bus every day.\"","options":["go","goes","went","going"],"answer":0},
-  {"stem":"What tense is \"was eating\"?","options":["Present","Past","Past Continuous","Future"],"answer":2},
-  {"stem":"\"How much ___ the shoes?\"","options":["is","am","are","be"],"answer":2},
-  {"stem":"Which is a country?","options":["Shanghai","Tokyo","China","Beijing"],"answer":2},
-  {"stem":"\"Could you please ___ the window?\"","options":["open","opens","opened","opening"],"answer":0},
-  {"stem":"What is the comparative of \"good\"?","options":["gooder","more good","better","best"],"answer":2},
-  {"stem":"\"Don't ___ late for school!\"","options":["is","am","are","be"],"answer":3},
-  {"stem":"Which sentence is correct?","options":["He don't like it","He doesn't like it","He not like it","He no like it"],"answer":1},
-  {"stem":"\"I have been to Beijing ___.\" (两次)","options":["two","second","twice","double"],"answer":2},
-  {"stem":"What does \"dangerous\" mean?","options":["安全的","危险的","有趣的","无聊的"],"answer":1},
-  {"stem":"\"___ is your birthday?\" (什么时候)","options":["What","When","Where","Who"],"answer":1},
-  {"stem":"Which word is a verb?","options":["beautiful","happily","run","quick"],"answer":2},
-  {"stem":"\"She is good ___ playing the piano.\"","options":["at","in","on","for"],"answer":0,"explanation":"be good at擅长"},
-  {"stem":"What is the antonym of \"cheap\"?","options":["small","expensive","big","short"],"answer":1},
-  {"stem":"\"We will go to the zoo ___ Sunday.\"","options":["in","on","at","for"],"answer":1},
-  {"stem":"\"There ___ a book and two pens on the desk.\"","options":["is","am","are","be"],"answer":0,"explanation":"there be就近原则"},
-  {"stem":"Which is a healthy food?","options":["Candy","Chips","Vegetables","Soda"],"answer":2},
-  {"stem":"\"What are you ___?\" (你在干什么)","options":["do","does","did","doing"],"answer":3}
+  {
+    "id": "g4-english-authored-001",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Tom often visits the library. It is next to the art room. Today Tom is reading a science book to find facts about space.” What is its main idea?",
+      "options": [
+        "Tom's activity in the library",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Tom, the library, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-002",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The library is next to the art room.” Which location should Tom follow?",
+      "options": [
+        "under the sea",
+        "next to the art room",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the library next to the art room."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-003",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Tom often goes to the library to find facts about space. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "often",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“often” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-004",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's library report: “Tom is reading a science book.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "reading a science book"
+      ],
+      "answer": 3,
+      "explanation": "The form “is reading a science book” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-005",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: a blue robot is taller than a red toy car. Which word describes the comparison?",
+      "options": [
+        "taller",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“taller” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-006",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Tom's destination is the library.” “The plan is to find facts about space.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the library; to find facts about space",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the library; the other gives the purpose “to find facts about space”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-007",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Tom wants to reach the library to find facts about space. A sign says it is next to the art room. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the library?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-008",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Tom; place: library; activity: reading a science book.” Which note copies all three fields correctly?",
+      "options": [
+        "Tom — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Tom — hospital — buying a plane",
+        "Tom — library — reading a science book"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-009",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Lucy usually visits the garden. It is behind the classroom. Today Lucy is watering the flowers to care for the class plants.” What is its main idea?",
+      "options": [
+        "Lucy's activity in the garden",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Lucy, the garden, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-010",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The garden is behind the classroom.” Which location should Lucy follow?",
+      "options": [
+        "under the sea",
+        "behind the classroom",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the garden behind the classroom."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-011",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Lucy usually goes to the garden to care for the class plants. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "usually",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“usually” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-012",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's garden report: “Lucy is watering the flowers.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "watering the flowers"
+      ],
+      "answer": 3,
+      "explanation": "The form “is watering the flowers” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-013",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: the sunflower is taller than the rose. Which word describes the comparison?",
+      "options": [
+        "taller",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“taller” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-014",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Lucy's destination is the garden.” “The plan is to care for the class plants.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the garden; to care for the class plants",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the garden; the other gives the purpose “to care for the class plants”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-015",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Lucy wants to reach the garden to care for the class plants. A sign says it is behind the classroom. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the garden?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-016",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Lucy; place: garden; activity: watering the flowers.” Which note copies all three fields correctly?",
+      "options": [
+        "Lucy — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Lucy — hospital — buying a plane",
+        "Lucy — garden — watering the flowers"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-017",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Mike sometimes visits the playground. It is in front of the gym. Today Mike is playing basketball to prepare for a class game.” What is its main idea?",
+      "options": [
+        "Mike's activity in the playground",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Mike, the playground, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-018",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The playground is in front of the gym.” Which location should Mike follow?",
+      "options": [
+        "under the sea",
+        "in front of the gym",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the playground in front of the gym."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-019",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Mike sometimes goes to the playground to prepare for a class game. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "sometimes",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“sometimes” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-020",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's playground report: “Mike is playing basketball.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "playing basketball"
+      ],
+      "answer": 3,
+      "explanation": "The form “is playing basketball” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-021",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: Mike is faster than Ben. Which word describes the comparison?",
+      "options": [
+        "faster",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“faster” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-022",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Mike's destination is the playground.” “The plan is to prepare for a class game.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the playground; to prepare for a class game",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the playground; the other gives the purpose “to prepare for a class game”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-023",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Mike wants to reach the playground to prepare for a class game. A sign says it is in front of the gym. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the playground?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-024",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Mike; place: playground; activity: playing basketball.” Which note copies all three fields correctly?",
+      "options": [
+        "Mike — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Mike — hospital — buying a plane",
+        "Mike — playground — playing basketball"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-025",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Amy always visits the music room. It is between the lab and the hall. Today Amy is playing the piano to practise for the school show.” What is its main idea?",
+      "options": [
+        "Amy's activity in the music room",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Amy, the music room, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-026",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The music room is between the lab and the hall.” Which location should Amy follow?",
+      "options": [
+        "under the sea",
+        "between the lab and the hall",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the music room between the lab and the hall."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-027",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Amy always goes to the music room to practise for the school show. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "always",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“always” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-028",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's music room report: “Amy is playing the piano.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "playing the piano"
+      ],
+      "answer": 3,
+      "explanation": "The form “is playing the piano” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-029",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: the piano is longer than the desk. Which word describes the comparison?",
+      "options": [
+        "longer",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“longer” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-030",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Amy's destination is the music room.” “The plan is to practise for the school show.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the music room; to practise for the school show",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the music room; the other gives the purpose “to practise for the school show”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-031",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Amy wants to reach the music room to practise for the school show. A sign says it is between the lab and the hall. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the music room?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-032",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Amy; place: music room; activity: playing the piano.” Which note copies all three fields correctly?",
+      "options": [
+        "Amy — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Amy — hospital — buying a plane",
+        "Amy — music room — playing the piano"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-033",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Jack often visits the kitchen. It is beside the dining room. Today Jack is making sandwiches to make lunch for his family.” What is its main idea?",
+      "options": [
+        "Jack's activity in the kitchen",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Jack, the kitchen, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-034",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The kitchen is beside the dining room.” Which location should Jack follow?",
+      "options": [
+        "under the sea",
+        "beside the dining room",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the kitchen beside the dining room."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-035",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Jack often goes to the kitchen to make lunch for his family. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "often",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“often” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-036",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's kitchen report: “Jack is making sandwiches.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "making sandwiches"
+      ],
+      "answer": 3,
+      "explanation": "The form “is making sandwiches” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-037",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: the big plate is heavier than the small plate. Which word describes the comparison?",
+      "options": [
+        "heavier",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“heavier” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-038",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Jack's destination is the kitchen.” “The plan is to make lunch for his family.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the kitchen; to make lunch for his family",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the kitchen; the other gives the purpose “to make lunch for his family”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-039",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Jack wants to reach the kitchen to make lunch for his family. A sign says it is beside the dining room. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the kitchen?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-040",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Jack; place: kitchen; activity: making sandwiches.” Which note copies all three fields correctly?",
+      "options": [
+        "Jack — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Jack — hospital — buying a plane",
+        "Jack — kitchen — making sandwiches"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-041",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Lily usually visits the park. It is across from the museum. Today Lily is flying a kite to enjoy the windy afternoon.” What is its main idea?",
+      "options": [
+        "Lily's activity in the park",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Lily, the park, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-042",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The park is across from the museum.” Which location should Lily follow?",
+      "options": [
+        "under the sea",
+        "across from the museum",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the park across from the museum."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-043",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Lily usually goes to the park to enjoy the windy afternoon. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "usually",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“usually” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-044",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's park report: “Lily is flying a kite.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "flying a kite"
+      ],
+      "answer": 3,
+      "explanation": "The form “is flying a kite” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-045",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Compare: Lily’s kite is higher than Sam’s kite. Which word describes the comparison?",
+      "options": [
+        "higher",
+        "yesterday",
+        "carefully",
+        "between"
+      ],
+      "answer": 0,
+      "explanation": "“higher” is the comparative word in the sentence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-046",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Combine two clues: “Lily's destination is the park.” “The plan is to enjoy the windy afternoon.” Which record includes both facts?",
+      "options": [
+        "the playground; to miss the lesson",
+        "the park; to enjoy the windy afternoon",
+        "the kitchen; to lose all the books",
+        "the station; to wait until midnight"
+      ],
+      "answer": 1,
+      "explanation": "One clue gives the park; the other gives the purpose “to enjoy the windy afternoon”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-047",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Lily wants to reach the park to enjoy the windy afternoon. A sign says it is across from the museum. Which question asks for directions politely?",
+      "options": [
+        "Give me that book now.",
+        "How old is the colour blue?",
+        "Excuse me, how can I get to the park?",
+        "I never go anywhere."
+      ],
+      "answer": 2,
+      "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-048",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Information card: “Visitor: Lily; place: park; activity: flying a kite.” Which note copies all three fields correctly?",
+      "options": [
+        "Lily — airport — sleeping",
+        "Nobody — nowhere — nothing",
+        "Lily — hospital — buying a plane",
+        "Lily — park — flying a kite"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the same person, place and activity as the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-049",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read this activity note: “Peter sometimes visits the computer room. It is on the second floor. Today Peter is making a class poster to share recycling tips.” What is its main idea?",
+      "options": [
+        "Peter's activity in the computer room",
+        "a map of a different town",
+        "a meal with no people",
+        "a story about yesterday's storm"
+      ],
+      "answer": 0,
+      "explanation": "The note connects Peter, the computer room, the present activity and its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-050",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A school guide says, “The computer room is on the second floor.” Which location should Peter follow?",
+      "options": [
+        "under the sea",
+        "on the second floor",
+        "inside a bus",
+        "far beyond the moon"
+      ],
+      "answer": 1,
+      "explanation": "The guide directly locates the computer room on the second floor."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-051",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Peter sometimes goes to the computer room to share recycling tips. In this activity record, which word tells how often the visit happens?",
+      "options": [
+        "yesterday",
+        "at five o’clock",
+        "sometimes",
+        "for two metres"
+      ],
+      "answer": 2,
+      "explanation": "“sometimes” is a frequency word, not a date, clock time or distance."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-052",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look at today's computer room report: “Peter is making a class poster.” What is happening now?",
+      "options": [
+        "sleeping at home",
+        "buying a train",
+        "climbing on the roof",
+        "making a class poster"
+      ],
+      "answer": 3,
+      "explanation": "The form “is making a class poster” names the action happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-053",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A report states, “Peter’s picture is larger than the title.” Which conclusion keeps the same comparison?",
+      "options": [
+        "When compared with the title, Peter’s picture is larger",
+        "the title must be larger than itself",
+        "the two things were not compared",
+        "the sentence only tells a clock time"
+      ],
+      "answer": 0,
+      "explanation": "The comparative sentence gives Peter’s picture, rather than the title, the stated quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-054",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two sentences: “The computer room is on the second floor.” “Peter goes there to share recycling tips.” Which summary joins both clues without changing them?",
+      "options": [
+        "Peter avoids every place and purpose",
+        "Peter goes to the computer room, on the second floor, to share recycling tips",
+        "Peter goes to a station to miss school",
+        "The computer room moves to another town"
+      ],
+      "answer": 1,
+      "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-055",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Peter knows the computer room is on the second floor, but still needs help finding it. What is the clearest polite request?",
+      "options": [
+        "Move! I want that road.",
+        "Is sometimes a colour?",
+        "Excuse me, could you show me the way to the computer room?",
+        "I will not listen to any answer."
+      ],
+      "answer": 2,
+      "explanation": "The correct request is polite and asks specifically for the way to the destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-056",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Compare the card with the note. Card: “Peter; computer room; making a class poster; purpose: share recycling tips.” Which note keeps every key field?",
+      "options": [
+        "Peter sleeps at an airport with no purpose",
+        "Another pupil leaves the computer room before arriving",
+        "Peter visits the computer room to do the opposite task",
+        "Peter is making a class poster at the computer room to share recycling tips"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the person, place, present activity and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-057",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Kate often visits the reading corner, near the back door. Today, instead of the usual visit, Kate is telling a story to help younger pupils enjoy reading.” Which title covers the place, action and purpose?",
+      "options": [
+        "Kate's purposeful visit to the reading corner",
+        "An empty building with no activity",
+        "A weather report for next month",
+        "Rules for buying a bus ticket"
+      ],
+      "answer": 0,
+      "explanation": "A complete title should include the visit and its purpose, not just one small detail."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-058",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The reading corner is near the back door. Kate has reached the named landmark. Which direction clue should be used next?",
+      "options": [
+        "turn yesterday",
+        "near the back door",
+        "walk for a colour",
+        "wait inside a question"
+      ],
+      "answer": 1,
+      "explanation": "The location phrase “near the back door” connects the destination with the landmark."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-059",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The record says, “Kate often visits the reading corner, but today's special task is to help younger pupils enjoy reading.” Which word describes the regular pattern rather than today's task?",
+      "options": [
+        "telling a story",
+        "reading corner",
+        "often",
+        "help younger pupils enjoy reading"
+      ],
+      "answer": 2,
+      "explanation": "“often” describes how regularly the visits happen."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-060",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Kate often goes to the reading corner. A live message says, “Kate is telling a story now.” Which phrase belongs in the NOW column?",
+      "options": [
+        "goes there often",
+        "near the back door",
+        "help younger pupils enjoy reading",
+        "telling a story"
+      ],
+      "answer": 3,
+      "explanation": "The present continuous phrase after “is” reports what is happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-061",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A report states, “this story is longer than the last story.” Which conclusion keeps the same comparison?",
+      "options": [
+        "When compared with the last story, this story is longer",
+        "the last story must be longer than itself",
+        "the two things were not compared",
+        "the sentence only tells a clock time"
+      ],
+      "answer": 0,
+      "explanation": "The comparative sentence gives this story, rather than the last story, the stated quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-062",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two sentences: “The reading corner is near the back door.” “Kate goes there to help younger pupils enjoy reading.” Which summary joins both clues without changing them?",
+      "options": [
+        "Kate avoids every place and purpose",
+        "Kate goes to the reading corner, near the back door, to help younger pupils enjoy reading",
+        "Kate goes to a station to miss school",
+        "The reading corner moves to another town"
+      ],
+      "answer": 1,
+      "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-063",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Kate knows the reading corner is near the back door, but still needs help finding it. What is the clearest polite request?",
+      "options": [
+        "Move! I want that road.",
+        "Is often a colour?",
+        "Excuse me, could you show me the way to the reading corner?",
+        "I will not listen to any answer."
+      ],
+      "answer": 2,
+      "explanation": "The correct request is polite and asks specifically for the way to the destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-064",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Compare the card with the note. Card: “Kate; reading corner; telling a story; purpose: help younger pupils enjoy reading.” Which note keeps every key field?",
+      "options": [
+        "Kate sleeps at an airport with no purpose",
+        "Another pupil leaves the reading corner before arriving",
+        "Kate visits the reading corner to do the opposite task",
+        "Kate is telling a story at the reading corner to help younger pupils enjoy reading"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the person, place, present activity and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-065",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Sam usually visits the bus stop, opposite the post office. Today, instead of the usual visit, Sam is waiting for Bus 12 to arrive at school before eight.” Which title covers the place, action and purpose?",
+      "options": [
+        "Sam's purposeful visit to the bus stop",
+        "An empty building with no activity",
+        "A weather report for next month",
+        "Rules for buying a bus ticket"
+      ],
+      "answer": 0,
+      "explanation": "A complete title should include the visit and its purpose, not just one small detail."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-066",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The bus stop is opposite the post office. Sam has reached the named landmark. Which direction clue should be used next?",
+      "options": [
+        "turn yesterday",
+        "opposite the post office",
+        "walk for a colour",
+        "wait inside a question"
+      ],
+      "answer": 1,
+      "explanation": "The location phrase “opposite the post office” connects the destination with the landmark."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-067",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The record says, “Sam usually visits the bus stop, but today's special task is to arrive at school before eight.” Which word describes the regular pattern rather than today's task?",
+      "options": [
+        "waiting for Bus 12",
+        "bus stop",
+        "usually",
+        "arrive at school before eight"
+      ],
+      "answer": 2,
+      "explanation": "“usually” describes how regularly the visits happen."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-068",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Sam usually goes to the bus stop. A live message says, “Sam is waiting for Bus 12 now.” Which phrase belongs in the NOW column?",
+      "options": [
+        "goes there usually",
+        "opposite the post office",
+        "arrive at school before eight",
+        "waiting for Bus 12"
+      ],
+      "answer": 3,
+      "explanation": "The present continuous phrase after “is” reports what is happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-069",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A report states, “Bus 12 is later than Bus 8.” Which conclusion keeps the same comparison?",
+      "options": [
+        "When compared with Bus 8, Bus 12 is later",
+        "Bus 8 must be later than itself",
+        "the two things were not compared",
+        "the sentence only tells a clock time"
+      ],
+      "answer": 0,
+      "explanation": "The comparative sentence gives Bus 12, rather than Bus 8, the stated quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-070",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two sentences: “The bus stop is opposite the post office.” “Sam goes there to arrive at school before eight.” Which summary joins both clues without changing them?",
+      "options": [
+        "Sam avoids every place and purpose",
+        "Sam goes to the bus stop, opposite the post office, to arrive at school before eight",
+        "Sam goes to a station to miss school",
+        "The bus stop moves to another town"
+      ],
+      "answer": 1,
+      "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-071",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Sam knows the bus stop is opposite the post office, but still needs help finding it. What is the clearest polite request?",
+      "options": [
+        "Move! I want that road.",
+        "Is usually a colour?",
+        "Excuse me, could you show me the way to the bus stop?",
+        "I will not listen to any answer."
+      ],
+      "answer": 2,
+      "explanation": "The correct request is polite and asks specifically for the way to the destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-072",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Compare the card with the note. Card: “Sam; bus stop; waiting for Bus 12; purpose: arrive at school before eight.” Which note keeps every key field?",
+      "options": [
+        "Sam sleeps at an airport with no purpose",
+        "Another pupil leaves the bus stop before arriving",
+        "Sam visits the bus stop to do the opposite task",
+        "Sam is waiting for Bus 12 at the bus stop to arrive at school before eight"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the person, place, present activity and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-073",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Anna always visits the sports centre, to the east of the park. Today, instead of the usual visit, Anna is swimming in lane three to improve her swimming.” Which title covers the place, action and purpose?",
+      "options": [
+        "Anna's purposeful visit to the sports centre",
+        "An empty building with no activity",
+        "A weather report for next month",
+        "Rules for buying a bus ticket"
+      ],
+      "answer": 0,
+      "explanation": "A complete title should include the visit and its purpose, not just one small detail."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-074",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The sports centre is to the east of the park. Anna has reached the named landmark. Which direction clue should be used next?",
+      "options": [
+        "turn yesterday",
+        "to the east of the park",
+        "walk for a colour",
+        "wait inside a question"
+      ],
+      "answer": 1,
+      "explanation": "The location phrase “to the east of the park” connects the destination with the landmark."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-075",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The record says, “Anna always visits the sports centre, but today's special task is to improve her swimming.” Which word describes the regular pattern rather than today's task?",
+      "options": [
+        "swimming in lane three",
+        "sports centre",
+        "always",
+        "improve her swimming"
+      ],
+      "answer": 2,
+      "explanation": "“always” describes how regularly the visits happen."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-076",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Anna always goes to the sports centre. A live message says, “Anna is swimming in lane three now.” Which phrase belongs in the NOW column?",
+      "options": [
+        "goes there always",
+        "to the east of the park",
+        "improve her swimming",
+        "swimming in lane three"
+      ],
+      "answer": 3,
+      "explanation": "The present continuous phrase after “is” reports what is happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-077",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A report states, “lane three is wider than lane two.” Which conclusion keeps the same comparison?",
+      "options": [
+        "When compared with lane two, lane three is wider",
+        "lane two must be wider than itself",
+        "the two things were not compared",
+        "the sentence only tells a clock time"
+      ],
+      "answer": 0,
+      "explanation": "The comparative sentence gives lane three, rather than lane two, the stated quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-078",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two sentences: “The sports centre is to the east of the park.” “Anna goes there to improve her swimming.” Which summary joins both clues without changing them?",
+      "options": [
+        "Anna avoids every place and purpose",
+        "Anna goes to the sports centre, to the east of the park, to improve her swimming",
+        "Anna goes to a station to miss school",
+        "The sports centre moves to another town"
+      ],
+      "answer": 1,
+      "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-079",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Anna knows the sports centre is to the east of the park, but still needs help finding it. What is the clearest polite request?",
+      "options": [
+        "Move! I want that road.",
+        "Is always a colour?",
+        "Excuse me, could you show me the way to the sports centre?",
+        "I will not listen to any answer."
+      ],
+      "answer": 2,
+      "explanation": "The correct request is polite and asks specifically for the way to the destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-080",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Compare the card with the note. Card: “Anna; sports centre; swimming in lane three; purpose: improve her swimming.” Which note keeps every key field?",
+      "options": [
+        "Anna sleeps at an airport with no purpose",
+        "Another pupil leaves the sports centre before arriving",
+        "Anna visits the sports centre to do the opposite task",
+        "Anna is swimming in lane three at the sports centre to improve her swimming"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the person, place, present activity and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-081",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Ben often visits the community centre, at the end of Green Street. Today, instead of the usual visit, Ben is sorting old books to prepare books for sharing.” Which title covers the place, action and purpose?",
+      "options": [
+        "Ben's purposeful visit to the community centre",
+        "An empty building with no activity",
+        "A weather report for next month",
+        "Rules for buying a bus ticket"
+      ],
+      "answer": 0,
+      "explanation": "A complete title should include the visit and its purpose, not just one small detail."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-082",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The community centre is at the end of Green Street. Ben has reached the named landmark. Which direction clue should be used next?",
+      "options": [
+        "turn yesterday",
+        "at the end of Green Street",
+        "walk for a colour",
+        "wait inside a question"
+      ],
+      "answer": 1,
+      "explanation": "The location phrase “at the end of Green Street” connects the destination with the landmark."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-083",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The record says, “Ben often visits the community centre, but today's special task is to prepare books for sharing.” Which word describes the regular pattern rather than today's task?",
+      "options": [
+        "sorting old books",
+        "community centre",
+        "often",
+        "prepare books for sharing"
+      ],
+      "answer": 2,
+      "explanation": "“often” describes how regularly the visits happen."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-084",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Ben often goes to the community centre. A live message says, “Ben is sorting old books now.” Which phrase belongs in the NOW column?",
+      "options": [
+        "goes there often",
+        "at the end of Green Street",
+        "prepare books for sharing",
+        "sorting old books"
+      ],
+      "answer": 3,
+      "explanation": "The present continuous phrase after “is” reports what is happening now."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-085",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A report states, “the history box is heavier than the story box.” Which conclusion keeps the same comparison?",
+      "options": [
+        "When compared with the story box, the history box is heavier",
+        "the story box must be heavier than itself",
+        "the two things were not compared",
+        "the sentence only tells a clock time"
+      ],
+      "answer": 0,
+      "explanation": "The comparative sentence gives the history box, rather than the story box, the stated quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-086",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two sentences: “The community centre is at the end of Green Street.” “Ben goes there to prepare books for sharing.” Which summary joins both clues without changing them?",
+      "options": [
+        "Ben avoids every place and purpose",
+        "Ben goes to the community centre, at the end of Green Street, to prepare books for sharing",
+        "Ben goes to a station to miss school",
+        "The community centre moves to another town"
+      ],
+      "answer": 1,
+      "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-087",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Ben knows the community centre is at the end of Green Street, but still needs help finding it. What is the clearest polite request?",
+      "options": [
+        "Move! I want that road.",
+        "Is often a colour?",
+        "Excuse me, could you show me the way to the community centre?",
+        "I will not listen to any answer."
+      ],
+      "answer": 2,
+      "explanation": "The correct request is polite and asks specifically for the way to the destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-088",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Compare the card with the note. Card: “Ben; community centre; sorting old books; purpose: prepare books for sharing.” Which note keeps every key field?",
+      "options": [
+        "Ben sleeps at an airport with no purpose",
+        "Another pupil leaves the community centre before arriving",
+        "Ben visits the community centre to do the opposite task",
+        "Ben is sorting old books at the community centre to prepare books for sharing"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the person, place, present activity and purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-089",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Grace sometimes visits the science lab, above the school office. Today, instead of the usual visit, Grace is measuring plant leaves to compare plants in sun and shade.” Which title covers the place, action and purpose?",
+      "options": [
+        "Grace's purposeful visit to the science lab",
+        "An empty building with no activity",
+        "A weather report for next month",
+        "Rules for buying a bus ticket"
+      ],
+      "answer": 0,
+      "explanation": "A complete title should include the visit and its purpose, not just one small detail."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-090",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Clue 1: the science lab is above the school office. Clue 2: Grace is already at the landmark named in clue 1. Which phrase must Grace understand to locate the destination?",
+      "options": [
+        "every Sunday",
+        "above the school office",
+        "measuring plant leaves",
+        "sometimes"
+      ],
+      "answer": 1,
+      "explanation": "Only the location phrase describes the spatial relation between the landmark and destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-091",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A diary has many science lab entries, and its summary says “Grace sometimes goes there.” Which word is evidence about repeated visits but not about one exact day?",
+      "options": [
+        "today",
+        "science lab",
+        "sometimes",
+        "measuring plant leaves"
+      ],
+      "answer": 2,
+      "explanation": "A frequency adverb summarizes a repeated pattern without naming one exact date."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-092",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Routine: “Grace sometimes visits the science lab.” Live update: “Today Grace is measuring plant leaves.” Which statement correctly separates habit from current action?",
+      "options": [
+        "Both sentences describe only yesterday.",
+        "The science lab is an action verb.",
+        "The live update says nothing is happening.",
+        "The visit is a habit; measuring plant leaves is happening now."
+      ],
+      "answer": 3,
+      "explanation": "The simple present reports a habit, while “is ...ing” reports the current action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-093",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Given “plant A is greener than plant B,” which rewrite preserves both the direction and the quality of the comparison?",
+      "options": [
+        "Compared with plant B, plant A is greener.",
+        "Compared with plant A, plant B is greener.",
+        "plant A and plant B are never compared.",
+        "greener tells where both things are."
+      ],
+      "answer": 0,
+      "explanation": "The rewrite keeps ${s.first} as the item with more of the compared quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-094",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Sentence 1 locates the science lab above the school office. Sentence 2 says Grace is measuring plant leaves. Sentence 3 gives the reason: to compare plants in sun and shade. Which answer requires all three sentences?",
+      "options": [
+        "The science lab has a name.",
+        "Grace is measuring plant leaves at a place above the school office in order to compare plants in sun and shade",
+        "Grace exists.",
+        "There is one location word."
+      ],
+      "answer": 1,
+      "explanation": "The correct answer combines location, action and purpose, so no single sentence is enough."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-095",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Grace asks for the science lab. A helper says, “It is above the school office.” Which reply both confirms understanding and continues politely?",
+      "options": [
+        "Give me a different answer now!",
+        "I asked about a colour, not a place.",
+        "Thank you. So I should look above the school office, right?",
+        "Yesterday is taller than today."
+      ],
+      "answer": 2,
+      "explanation": "The reply thanks the helper and checks the location information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-096",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Card A says “Grace—science lab—measuring plant leaves.” Card B says “Purpose—compare plants in sun and shade; location—above the school office.” Which combined record is fully consistent?",
+      "options": [
+        "Grace; sleeping; airport; under the sea; no plan",
+        "unknown person; measuring plant leaves; wrong town; no purpose",
+        "Grace; opposite action; science lab; wrong location; compare plants in sun and shade",
+        "Grace; measuring plant leaves; science lab; above the school office; compare plants in sun and shade"
+      ],
+      "answer": 3,
+      "explanation": "Every field in the correct record agrees with one of the two cards."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-097",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “The school hall is past the main gate. David usually visits it. Today David is putting chairs in rows, because the goal is to get ready for a parents’ meeting.” Which outline follows the text's logic?",
+      "options": [
+        "location → regular visit → today's action → purpose",
+        "purpose → no visitor → yesterday → colour",
+        "weather → price → meal → train",
+        "action → wrong place → no reason → silence"
+      ],
+      "answer": 0,
+      "explanation": "The four sentences move from location and habit to the present action and its reason."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-098",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "方位表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Clue 1: the school hall is past the main gate. Clue 2: David is already at the landmark named in clue 1. Which phrase must David understand to locate the destination?",
+      "options": [
+        "every Sunday",
+        "past the main gate",
+        "putting chairs in rows",
+        "usually"
+      ],
+      "answer": 1,
+      "explanation": "Only the location phrase describes the spatial relation between the landmark and destination."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-099",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "频率表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A diary has many school hall entries, and its summary says “David usually goes there.” Which word is evidence about repeated visits but not about one exact day?",
+      "options": [
+        "today",
+        "school hall",
+        "usually",
+        "putting chairs in rows"
+      ],
+      "answer": 2,
+      "explanation": "A frequency adverb summarizes a repeated pattern without naming one exact date."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-100",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "进行中的动作",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Routine: “David usually visits the school hall.” Live update: “Today David is putting chairs in rows.” Which statement correctly separates habit from current action?",
+      "options": [
+        "Both sentences describe only yesterday.",
+        "The school hall is an action verb.",
+        "The live update says nothing is happening.",
+        "The visit is a habit; putting chairs in rows is happening now."
+      ],
+      "answer": 3,
+      "explanation": "The simple present reports a habit, while “is ...ing” reports the current action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-101",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "比较与描述",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Given “the front row is shorter than the back row,” which rewrite preserves both the direction and the quality of the comparison?",
+      "options": [
+        "Compared with the back row, the front row is shorter.",
+        "Compared with the front row, the back row is shorter.",
+        "the front row and the back row are never compared.",
+        "shorter tells where both things are."
+      ],
+      "answer": 0,
+      "explanation": "The rewrite keeps ${s.first} as the item with more of the compared quality."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-102",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "跨句信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Sentence 1 locates the school hall past the main gate. Sentence 2 says David is putting chairs in rows. Sentence 3 gives the reason: to get ready for a parents’ meeting. Which answer requires all three sentences?",
+      "options": [
+        "The school hall has a name.",
+        "David is putting chairs in rows at a place past the main gate in order to get ready for a parents’ meeting",
+        "David exists.",
+        "There is one location word."
+      ],
+      "answer": 1,
+      "explanation": "The correct answer combines location, action and purpose, so no single sentence is enough."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-103",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "David asks for the school hall. A helper says, “It is past the main gate.” Which reply both confirms understanding and continues politely?",
+      "options": [
+        "Give me a different answer now!",
+        "I asked about a colour, not a place.",
+        "Thank you. So I should look past the main gate, right?",
+        "Yesterday is taller than today."
+      ],
+      "answer": 2,
+      "explanation": "The reply thanks the helper and checks the location information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-104",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Card A says “David—school hall—putting chairs in rows.” Card B says “Purpose—get ready for a parents’ meeting; location—past the main gate.” Which combined record is fully consistent?",
+      "options": [
+        "David; sleeping; airport; under the sea; no plan",
+        "unknown person; putting chairs in rows; wrong town; no purpose",
+        "David; opposite action; school hall; wrong location; get ready for a parents’ meeting",
+        "David; putting chairs in rows; school hall; past the main gate; get ready for a parents’ meeting"
+      ],
+      "answer": 3,
+      "explanation": "Every field in the correct record agrees with one of the two cards."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-105",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "连贯短文",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “The nature centre is at the foot of the hill. Helen often visits it. Today Helen is writing an observation note, because the goal is to explain how visitors affect birds.” Which outline follows the text's logic?",
+      "options": [
+        "location → regular visit → today's action → purpose",
+        "purpose → no visitor → yesterday → colour",
+        "weather → price → meal → train",
+        "action → wrong place → no reason → silence"
+      ],
+      "answer": 0,
+      "explanation": "The four sentences move from location and habit to the present action and its reason."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-106",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "First we read the map. Then we walk to the park. The word “Then” shows the ___ step.",
+      "answer": "second",
+      "explanation": "The word “second” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-107",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "The library is ___ the bank and the post office.（填 between）",
+      "answer": "between",
+      "explanation": "The word “between” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-108",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "I go to school every weekday. I ___ go to school from Monday to Friday.",
+      "answer": "always",
+      "explanation": "The word “always” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-109",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Look! The children are ___ football.（填 play 的正确形式）",
+      "answer": "playing",
+      "explanation": "The word “playing” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-110",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "The giraffe is ___ than the dog.（填 tall 的比较级）",
+      "answer": "taller",
+      "explanation": "The word “taller” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-111",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read: “Mia has a map. She is looking for the museum.” Mia uses the map to find the ___.",
+      "answer": "museum",
+      "explanation": "The word “museum” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-112",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "To ask for directions politely, begin with “___ me”.",
+      "answer": "excuse",
+      "explanation": "The word “excuse” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-113",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "The card says “Friday—art room—drawing”. The place is the ___ room.",
+      "answer": "art",
+      "explanation": "The word “art” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-114",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "A paragraph with “first, next, finally” describes an ___ of events.",
+      "answer": "order",
+      "explanation": "The word “order” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-115",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "The cat is ___ the table, not on it.（填 under）",
+      "answer": "under",
+      "explanation": "The word “under” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-116",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "I do not eat ice cream on school days. I ___ eat it from Monday to Friday.",
+      "answer": "never",
+      "explanation": "The word “never” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-117",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Mum is ___ dinner now.（填 cook 的正确形式）",
+      "answer": "cooking",
+      "explanation": "The word “cooking” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-118",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "比较与描述",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "This box is ___ than that one.（填 heavy 的比较级）",
+      "answer": "heavier",
+      "explanation": "The word “heavier” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-119",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "跨句信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read: “Leo is at the pool. He is learning to swim.” Leo learns swimming at the ___.",
+      "answer": "pool",
+      "explanation": "The word “pool” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-120",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "When you do not hear clearly, say “Could you say that ___?”",
+      "answer": "again",
+      "explanation": "The word “again” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-121",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "A timetable line “8:00—English—Room 2” shows the time, subject and ___.",
+      "answer": "place",
+      "explanation": "The word “place” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-122",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The last sentence often gives the result or ___ of a short text.",
+      "answer": "ending",
+      "explanation": "The word “ending” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-123",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "The shop is ___ from the school, on the other side of the road.",
+      "answer": "opposite",
+      "explanation": "The word “opposite” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-124",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "进行中的动作",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Listen! A bird is ___ in the tree.（填 sing 的正确形式）",
+      "answer": "singing",
+      "explanation": "The word “singing” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-125",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "跨句信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read two facts before choosing; do not use only one ___.",
+      "answer": "sentence",
+      "explanation": "The word “sentence” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-126",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "信息匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "To match a notice correctly, compare its key time, place and ___.",
+      "answer": "activity",
+      "explanation": "The word “activity” completes the sentence with the correct meaning and form."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-127",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "连贯短文",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each sequence word with its position in an activity plan.",
+      "left": [
+        "first",
+        "next",
+        "then",
+        "finally"
+      ],
+      "right": [
+        "step 3",
+        "step 1",
+        "last step",
+        "step 2"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 连贯短文 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-128",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "方位表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each location phrase with its Chinese meaning.",
+      "left": [
+        "in front of",
+        "behind",
+        "between",
+        "opposite"
+      ],
+      "right": [
+        "两者之间",
+        "前面",
+        "对面",
+        "后面"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 方位表达 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-129",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "频率表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each frequency word with how often it means.",
+      "left": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "right": [
+        "有时",
+        "总是",
+        "从不",
+        "通常"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 频率表达 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-130",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "进行中的动作",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each present action with the correct number of people and activity.",
+      "left": [
+        "is reading",
+        "are playing",
+        "is cooking",
+        "are singing"
+      ],
+      "right": [
+        "one person cooks now",
+        "one person reads now",
+        "several people sing now",
+        "several people play now"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 进行中的动作 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-131",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "比较与描述",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each comparative adjective with its Chinese meaning.",
+      "left": [
+        "taller",
+        "shorter",
+        "heavier",
+        "faster"
+      ],
+      "right": [
+        "更重",
+        "更高",
+        "更快",
+        "更短"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 比较与描述 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-132",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "跨句信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each reading clue with the question it answers.",
+      "left": [
+        "person",
+        "place",
+        "time",
+        "purpose"
+      ],
+      "right": [
+        "when",
+        "who",
+        "why",
+        "where"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 跨句信息 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-133",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "日常表达"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each polite expression with its purpose.",
+      "left": [
+        "Excuse me.",
+        "Could you help me?",
+        "Thank you.",
+        "I am sorry."
+      ],
+      "right": [
+        "表示感谢",
+        "礼貌引起注意",
+        "表示歉意",
+        "请求帮助"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 情境交际 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-134",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "信息匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Read the school language chart. Match each timetable entry with the activity at that place.",
+      "left": [
+        "8:00—library",
+        "9:00—playground",
+        "10:00—lab",
+        "11:00—hall"
+      ],
+      "right": [
+        "doing an experiment",
+        "reading",
+        "having a meeting",
+        "running"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 信息匹配 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-135",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "连贯短文",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each sequence word with its position in an activity plan.",
+      "left": [
+        "first",
+        "next",
+        "then",
+        "finally"
+      ],
+      "right": [
+        "step 3",
+        "step 1",
+        "last step",
+        "step 2"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 连贯短文 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-136",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "方位表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each location phrase with its Chinese meaning.",
+      "left": [
+        "in front of",
+        "behind",
+        "between",
+        "opposite"
+      ],
+      "right": [
+        "两者之间",
+        "前面",
+        "对面",
+        "后面"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 方位表达 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-137",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "频率表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each frequency word with how often it means.",
+      "left": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "right": [
+        "有时",
+        "总是",
+        "从不",
+        "通常"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 频率表达 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-138",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "进行中的动作",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each present action with the correct number of people and activity.",
+      "left": [
+        "is reading",
+        "are playing",
+        "is cooking",
+        "are singing"
+      ],
+      "right": [
+        "one person cooks now",
+        "one person reads now",
+        "several people sing now",
+        "several people play now"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 进行中的动作 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-139",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "比较与描述",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each comparative adjective with its Chinese meaning.",
+      "left": [
+        "taller",
+        "shorter",
+        "heavier",
+        "faster"
+      ],
+      "right": [
+        "更重",
+        "更高",
+        "更快",
+        "更短"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 比较与描述 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-english-authored-140",
+    "subject": "english",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "跨句信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答",
+      "跨句理解"
+    ],
+    "content": {
+      "stem": "Use the weekend practice card. Match each reading clue with the question it answers.",
+      "left": [
+        "person",
+        "place",
+        "time",
+        "purpose"
+      ],
+      "right": [
+        "when",
+        "who",
+        "why",
+        "where"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 跨句信息 items before connecting them."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
