@@ -1,22 +1,3978 @@
 [
-  {"stem":"\"日\"字的正确拼音是？","options":["rì","rè","yè","rù"],"answer":0,"explanation":"\"日\"读作rì"},
-  {"stem":"下列哪个字和\"水\"有关系？","options":["火","水","山","口"],"answer":1,"explanation":"\"水\"字本身"},
-  {"stem":"比一比，谁最大？","options":["蚂蚁","小鸟","大象","鱼"],"answer":2,"explanation":"大象是陆地上最大的动物"},
-  {"stem":"\"妈妈\"的反义词是？","options":["奶奶","爸爸","姐姐","爷爷"],"answer":1,"explanation":"妈妈的反义词是爸爸"},
-  {"stem":"春天来了，什么花会开？","options":["梅花","桃花","菊花","兰花"],"answer":1,"explanation":"春天桃花盛开"},
-  {"stem":"\"大\"的反义词是？","options":["小","高","长","宽"],"answer":0,"explanation":"大和小是一对反义词"},
-  {"stem":"\"上\"字的正确拼音是？","options":["shàng","xià","shǎn","shān"],"answer":0,"explanation":"\"上\"读作shàng"},
-  {"stem":"下列哪个是水果？","options":["铅笔","苹果","书本","橡皮"],"answer":1,"explanation":"苹果是一种水果"},
-  {"stem":"天上有什么？","options":["鱼","鸟","马","虫"],"answer":1,"explanation":"鸟在天上飞"},
-  {"stem":"\"哭\"的反义词是？","options":["笑","叫","说","看"],"answer":0,"explanation":"哭的反义词是笑"},
-  {"stem":"下面哪个字是左右结构？","options":["田","明","口","日"],"answer":1,"explanation":"\"明\"字由\"日\"和\"月\"左右组成"},
-  {"stem":"\"山\"有几画？","options":["2画","3画","4画","5画"],"answer":1,"explanation":"\"山\"是3画"},
-  {"stem":"下列哪一个是动物？","options":["桌子","椅子","小狗","书本"],"answer":2,"explanation":"小狗是一种动物"},
-  {"stem":"\"太阳\"是什么颜色的？","options":["蓝色","红色","绿色","紫色"],"answer":1,"explanation":"太阳是红色的"},
-  {"stem":"下面哪个词表示数量？","options":["跑","三","大","高"],"answer":1,"explanation":"\"三\"表示数量"},
-  {"stem":"\"人\"字有几画？","options":["1画","2画","3画","4画"],"answer":1,"explanation":"\"人\"字是一撇一捺，共2画"},
-  {"stem":"\"木\"字加一笔变成什么字？","options":["林","本","水","火"],"answer":1,"explanation":"\"木\"加一横变成\"本\""},
-  {"stem":"\"月\"字组词正确的是？","options":["月亮","月木","月水","月山"],"answer":0,"explanation":"月亮是正确组词"},
-  {"stem":"下面哪个是颜色词？","options":["跑步","红色","大树","书本"],"answer":1,"explanation":"红色是颜色词"},
-  {"stem":"\"白\"的反义词是？","options":["黑","红","黄","绿"],"answer":0,"explanation":"白的反义词是黑"}
+  {
+    "id": "g1-chinese-authored-001",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“花”的正确拼音是？",
+      "options": [
+        "huā",
+        "mā",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 0,
+      "explanation": "“花”读huā。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-002",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“花”字？",
+      "options": [
+        "木头",
+        "花朵",
+        "早上",
+        "同学"
+      ],
+      "answer": 1,
+      "explanation": "“花朵”中含有“花”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-003",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "美丽的花朵",
+        "冰冷的太阳"
+      ],
+      "answer": 2,
+      "explanation": "“美丽的花朵”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-004",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在花。",
+        "很很漂亮。",
+        "我和。",
+        "花园里开着红花。"
+      ],
+      "answer": 3,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-005",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“请问，我可以给花浇水吗___”末尾应填什么标点？",
+      "options": [
+        "？",
+        "，",
+        "。",
+        "、"
+      ],
+      "answer": 0,
+      "explanation": "这是问句，末尾用问号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-006",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“小雨给花浇水。花抬起了头。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "小雨给花浇水",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 1,
+      "explanation": "从短文中可以找到“小雨给花浇水”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-007",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "请问，我可以给花浇水吗？",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 2,
+      "explanation": "“请问，我可以给花浇水吗？”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-008",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“鸟”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "tǔ",
+        "niǎo"
+      ],
+      "answer": 3,
+      "explanation": "“鸟”读niǎo。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-009",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“鸟”字？",
+      "options": [
+        "小鸟",
+        "木头",
+        "早上",
+        "同学"
+      ],
+      "answer": 0,
+      "explanation": "“小鸟”中含有“鸟”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-010",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "快乐的小鸟",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 1,
+      "explanation": "“快乐的小鸟”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-011",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在鸟。",
+        "很很漂亮。",
+        "小鸟在树上唱歌。",
+        "我和。"
+      ],
+      "answer": 2,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-012",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“请轻一点，不要吓到小鸟___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "、",
+        "。"
+      ],
+      "answer": 3,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-013",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“一只小鸟落在树枝上。它唱起了歌。”短文写了什么？",
+      "options": [
+        "小鸟在树枝上唱歌",
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 0,
+      "explanation": "从短文中可以找到“小鸟在树枝上唱歌”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-014",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "请轻一点，不要吓到小鸟。",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 1,
+      "explanation": "“请轻一点，不要吓到小鸟。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-015",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“书”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "shū",
+        "tǔ"
+      ],
+      "answer": 2,
+      "explanation": "“书”读shū。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-016",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“书”字？",
+      "options": [
+        "木头",
+        "早上",
+        "同学",
+        "图书"
+      ],
+      "answer": 3,
+      "explanation": "“图书”中含有“书”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-017",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "有趣的图书",
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 0,
+      "explanation": "“有趣的图书”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-018",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在书。",
+        "我在教室里读书。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 1,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-019",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“这本书我看完了，谢谢你___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "。",
+        "、"
+      ],
+      "answer": 2,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-020",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“明明借了一本书。看完后，他把书放回书架。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉",
+        "明明把书放回书架"
+      ],
+      "answer": 3,
+      "explanation": "从短文中可以找到“明明把书放回书架”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-021",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "这本书我看完了，谢谢你。",
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 0,
+      "explanation": "“这本书我看完了，谢谢你。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-022",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“水”的正确拼音是？",
+      "options": [
+        "mā",
+        "shuǐ",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 1,
+      "explanation": "“水”读shuǐ。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-023",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“水”字？",
+      "options": [
+        "木头",
+        "早上",
+        "河水",
+        "同学"
+      ],
+      "answer": 2,
+      "explanation": "“河水”中含有“水”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-024",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳",
+        "清清的河水"
+      ],
+      "answer": 3,
+      "explanation": "“清清的河水”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-025",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "杯子里有温水。",
+        "在水。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 0,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-026",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“请给我一杯温水，谢谢___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "。",
+        "？",
+        "、"
+      ],
+      "answer": 1,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-027",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“运动以后，乐乐先擦汗，再慢慢喝水。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "乐乐运动后慢慢喝水",
+        "大家一直在睡觉"
+      ],
+      "answer": 2,
+      "explanation": "从短文中可以找到“乐乐运动后慢慢喝水”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-028",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。",
+        "请给我一杯温水，谢谢。"
+      ],
+      "answer": 3,
+      "explanation": "“请给我一杯温水，谢谢。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-029",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“月”的正确拼音是？",
+      "options": [
+        "yuè",
+        "mā",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 0,
+      "explanation": "“月”读yuè。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-030",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“月”字？",
+      "options": [
+        "木头",
+        "月亮",
+        "早上",
+        "同学"
+      ],
+      "answer": 1,
+      "explanation": "“月亮”中含有“月”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-031",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "弯弯的月亮",
+        "冰冷的太阳"
+      ],
+      "answer": 2,
+      "explanation": "“弯弯的月亮”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-032",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在月。",
+        "很很漂亮。",
+        "我和。",
+        "月亮挂在夜空中。"
+      ],
+      "answer": 3,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-033",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“妈妈，我们一起看月亮吧___”末尾应填什么标点？",
+      "options": [
+        "！",
+        "，",
+        "？",
+        "、"
+      ],
+      "answer": 0,
+      "explanation": "语气较强，末尾用感叹号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-034",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“天黑了，月亮升起来。星星也亮了。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "天黑后月亮和星星亮了",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 1,
+      "explanation": "从短文中可以找到“天黑后月亮和星星亮了”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-035",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "妈妈，我们一起看月亮吧！",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 2,
+      "explanation": "“妈妈，我们一起看月亮吧！”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-036",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“雨”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "tǔ",
+        "yǔ"
+      ],
+      "answer": 3,
+      "explanation": "“雨”读yǔ。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-037",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“雨”字？",
+      "options": [
+        "下雨",
+        "木头",
+        "早上",
+        "同学"
+      ],
+      "answer": 0,
+      "explanation": "“下雨”中含有“雨”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-038",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "细细的小雨",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 1,
+      "explanation": "“细细的小雨”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-039",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在雨。",
+        "很很漂亮。",
+        "小雨点落在窗上。",
+        "我和。"
+      ],
+      "answer": 2,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-040",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“我们一起打伞回家吧___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "、",
+        "。"
+      ],
+      "answer": 3,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-041",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“放学时下雨了。东东和同学合用一把伞。”短文写了什么？",
+      "options": [
+        "东东和同学合用雨伞",
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 0,
+      "explanation": "从短文中可以找到“东东和同学合用雨伞”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-042",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我们一起打伞回家吧。",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 1,
+      "explanation": "“我们一起打伞回家吧。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-043",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“山”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "shān",
+        "tǔ"
+      ],
+      "answer": 2,
+      "explanation": "“山”读shān。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-044",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“山”字？",
+      "options": [
+        "木头",
+        "早上",
+        "同学",
+        "高山"
+      ],
+      "answer": 3,
+      "explanation": "“高山”中含有“山”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-045",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "高高的山峰",
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 0,
+      "explanation": "“高高的山峰”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-046",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在山。",
+        "远处有一座高山。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 1,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-047",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "句子“山路有点滑，请慢慢走___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "。",
+        "、"
+      ],
+      "answer": 2,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-048",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读短文：“山脚有一条小路。大家沿着小路慢慢走。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉",
+        "大家沿着山脚小路走"
+      ],
+      "answer": 3,
+      "explanation": "从短文中可以找到“大家沿着山脚小路走”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-049",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "山路有点滑，请慢慢走。",
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 0,
+      "explanation": "“山路有点滑，请慢慢走。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-050",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“鱼”的正确拼音是？",
+      "options": [
+        "mā",
+        "yú",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 1,
+      "explanation": "“鱼”读yú。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-051",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词中有“鱼”字？",
+      "options": [
+        "木头",
+        "早上",
+        "小鱼",
+        "同学"
+      ],
+      "answer": 2,
+      "explanation": "“小鱼”中含有“鱼”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-052",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳",
+        "游动的小鱼"
+      ],
+      "answer": 3,
+      "explanation": "“游动的小鱼”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-053",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "小鱼在水里游。",
+        "在鱼。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 0,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-054",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“请不要往池塘里扔东西___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "。",
+        "？",
+        "、"
+      ],
+      "answer": 1,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-055",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“池水很清。三条小鱼在水草旁游来游去。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "三条小鱼在水草旁游",
+        "大家一直在睡觉"
+      ],
+      "answer": 2,
+      "explanation": "从短文中可以找到“三条小鱼在水草旁游”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-056",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。",
+        "请不要往池塘里扔东西。"
+      ],
+      "answer": 3,
+      "explanation": "“请不要往池塘里扔东西。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-057",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“风”的正确拼音是？",
+      "options": [
+        "fēng",
+        "mā",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 0,
+      "explanation": "“风”读fēng。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-058",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“风”字？",
+      "options": [
+        "木头",
+        "大风",
+        "早上",
+        "同学"
+      ],
+      "answer": 1,
+      "explanation": "“大风”中含有“风”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-059",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "轻轻的春风",
+        "冰冷的太阳"
+      ],
+      "answer": 2,
+      "explanation": "“轻轻的春风”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-060",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在风。",
+        "很很漂亮。",
+        "我和。",
+        "春风吹动柳条。"
+      ],
+      "answer": 3,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-061",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“风有点大，请把帽子戴好___”末尾应填什么标点？",
+      "options": [
+        "。",
+        "，",
+        "？",
+        "、"
+      ],
+      "answer": 0,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-062",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“风吹来了。树叶轻轻摇动，风车也转起来。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "风让树叶摇动、风车转动",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 1,
+      "explanation": "从短文中可以找到“风让树叶摇动、风车转动”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-063",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "风有点大，请把帽子戴好。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 2,
+      "explanation": "“风有点大，请把帽子戴好。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-064",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“云”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "tǔ",
+        "yún"
+      ],
+      "answer": 3,
+      "explanation": "“云”读yún。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-065",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“云”字？",
+      "options": [
+        "白云",
+        "木头",
+        "早上",
+        "同学"
+      ],
+      "answer": 0,
+      "explanation": "“白云”中含有“云”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-066",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "软软的白云",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 1,
+      "explanation": "“软软的白云”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-067",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在云。",
+        "很很漂亮。",
+        "白云在天空中飘。",
+        "我和。"
+      ],
+      "answer": 2,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-068",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“你看，那朵云像什么___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "。",
+        "、",
+        "？"
+      ],
+      "answer": 3,
+      "explanation": "这是问句，末尾用问号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-069",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“蓝天上有几朵白云。一会儿像小羊，一会儿像棉花。”短文写了什么？",
+      "options": [
+        "白云的样子会变化",
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉"
+      ],
+      "answer": 0,
+      "explanation": "从短文中可以找到“白云的样子会变化”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-070",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "你看，那朵云像什么？",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 1,
+      "explanation": "“你看，那朵云像什么？”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-071",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“家”的正确拼音是？",
+      "options": [
+        "mā",
+        "lè",
+        "jiā",
+        "tǔ"
+      ],
+      "answer": 2,
+      "explanation": "“家”读jiā。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-072",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“家”字？",
+      "options": [
+        "木头",
+        "早上",
+        "同学",
+        "回家"
+      ],
+      "answer": 3,
+      "explanation": "“回家”中含有“家”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-073",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "温暖的家",
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 0,
+      "explanation": "“温暖的家”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-074",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在家。",
+        "放学后我按时回家。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 1,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-075",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“我来摆筷子，可以吗___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "。",
+        "？",
+        "、"
+      ],
+      "answer": 2,
+      "explanation": "这是问句，末尾用问号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-076",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“爸爸在做饭，妈妈在摆碗。我也来帮忙。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "大家一直在睡觉",
+        "一家人在准备晚饭"
+      ],
+      "answer": 3,
+      "explanation": "从短文中可以找到“一家人在准备晚饭”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-077",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "我来摆筷子，可以吗？",
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 0,
+      "explanation": "“我来摆筷子，可以吗？”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-078",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“门”的正确拼音是？",
+      "options": [
+        "mā",
+        "mén",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 1,
+      "explanation": "“门”读mén。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-079",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“门”字？",
+      "options": [
+        "木头",
+        "早上",
+        "大门",
+        "同学"
+      ],
+      "answer": 2,
+      "explanation": "“大门”中含有“门”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-080",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳",
+        "打开的大门"
+      ],
+      "answer": 3,
+      "explanation": "“打开的大门”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-081",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "老师轻轻关上门。",
+        "在门。",
+        "很很漂亮。",
+        "我和。"
+      ],
+      "answer": 0,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-082",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“对不起，我来晚了___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "。",
+        "？",
+        "、"
+      ],
+      "answer": 1,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-083",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“上课铃响了。小文轻轻关门，回到座位。”短文写了什么？",
+      "options": [
+        "小朋友在月球上",
+        "所有东西都不见了",
+        "小文关门后回到座位",
+        "大家一直在睡觉"
+      ],
+      "answer": 2,
+      "explanation": "从短文中可以找到“小文关门后回到座位”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-084",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。",
+        "对不起，我来晚了。"
+      ],
+      "answer": 3,
+      "explanation": "“对不起，我来晚了。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-085",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“手”的正确拼音是？",
+      "options": [
+        "shǒu",
+        "mā",
+        "lè",
+        "tǔ"
+      ],
+      "answer": 0,
+      "explanation": "“手”读shǒu。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-086",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“手”字？",
+      "options": [
+        "木头",
+        "小手",
+        "早上",
+        "同学"
+      ],
+      "answer": 1,
+      "explanation": "“小手”中含有“手”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-087",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "方方的歌声",
+        "干净的小手",
+        "冰冷的太阳"
+      ],
+      "answer": 2,
+      "explanation": "“干净的小手”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-088",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪句话意思完整？",
+      "options": [
+        "在手。",
+        "很很漂亮。",
+        "我和。",
+        "饭前要认真洗手。"
+      ],
+      "answer": 3,
+      "explanation": "完整的句子能把谁或什么、怎么样说清楚。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-089",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“请借我用一下洗手液___”末尾应填什么标点？",
+      "options": [
+        "。",
+        "，",
+        "？",
+        "、"
+      ],
+      "answer": 0,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-090",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“做完手工，小美的手上有胶水。她先洗手再吃点心。”下面哪句话把短文的主要事情说清楚了？",
+      "options": [
+        "短文只写了一个颜色",
+        "小美洗手后吃点心",
+        "文中谁也没有行动",
+        "事情发生在海底"
+      ],
+      "answer": 1,
+      "explanation": "短文的关键信息是“小美洗手后吃点心”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-091",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "请借我用一下洗手液。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 2,
+      "explanation": "“请借我用一下洗手液。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-092",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“汽车”中“车”的正确读音是哪一个？",
+      "options": [
+        "cha",
+        "mā",
+        "lè",
+        "chē"
+      ],
+      "answer": 3,
+      "explanation": "“车”在“汽车”中读chē。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-093",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“车”字？",
+      "options": [
+        "汽车",
+        "木头",
+        "早上",
+        "同学"
+      ],
+      "answer": 0,
+      "explanation": "“汽车”中含有“车”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-094",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "香香的石头",
+        "行驶的汽车",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 1,
+      "explanation": "“行驶的汽车”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-095",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "把“谁、在哪里、做什么”说清楚，哪句话最完整？",
+      "options": [
+        "车很好。",
+        "在那里做。",
+        "汽车在路上行驶",
+        "真漂亮呀。"
+      ],
+      "answer": 2,
+      "explanation": "“汽车在路上行驶”把事物和动作说清楚了。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-096",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“现在是红灯，请等一等___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "、",
+        "。"
+      ],
+      "answer": 3,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-097",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“红灯亮了，汽车停下来。绿灯亮后，汽车再出发。”下面哪句话把短文的主要事情说清楚了？",
+      "options": [
+        "汽车看信号灯通行",
+        "短文只写了一个颜色",
+        "文中谁也没有行动",
+        "事情发生在海底"
+      ],
+      "answer": 0,
+      "explanation": "短文的关键信息是“汽车看信号灯通行”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-098",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "快点，必须听我的！",
+        "现在是红灯，请等一等。",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 1,
+      "explanation": "“现在是红灯，请等一等。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-099",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "拼音与音节",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“星星”中“星”的正确读音是哪一个？",
+      "options": [
+        "xang",
+        "mā",
+        "xīng",
+        "lè"
+      ],
+      "answer": 2,
+      "explanation": "“星”在“星星”中读xīng。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-100",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用字识读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词中有“星”字？",
+      "options": [
+        "木头",
+        "早上",
+        "同学",
+        "星星"
+      ],
+      "answer": 3,
+      "explanation": "“星星”中含有“星”字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-101",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "字词搭配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "哪个词语搭配最合适？",
+      "options": [
+        "闪亮的星星",
+        "香香的石头",
+        "方方的歌声",
+        "冰冷的太阳"
+      ],
+      "answer": 0,
+      "explanation": "“闪亮的星星”符合事物特点，搭配自然。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-102",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单句",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "把“谁、在哪里、做什么”说清楚，哪句话最完整？",
+      "options": [
+        "星很好。",
+        "星星在夜空中闪",
+        "在那里做。",
+        "真漂亮呀。"
+      ],
+      "answer": 1,
+      "explanation": "“星星在夜空中闪”把事物和动作说清楚了。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-103",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "标点初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "句子“请排好队，大家轮流看___”末尾应填什么标点？",
+      "options": [
+        "，",
+        "？",
+        "。",
+        "、"
+      ],
+      "answer": 2,
+      "explanation": "这是陈述句，末尾用句号。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-104",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "短文信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读短文：“夜里，天文老师带大家看星星。大家排队使用望远镜。”下面哪句话把短文的主要事情说清楚了？",
+      "options": [
+        "短文只写了一个颜色",
+        "文中谁也没有行动",
+        "事情发生在海底",
+        "大家排队用望远镜看星星"
+      ],
+      "answer": 3,
+      "explanation": "短文的关键信息是“大家排队用望远镜看星星”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-105",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "在这个生活情境中，哪句话最清楚、最有礼貌？",
+      "options": [
+        "请排好队，大家轮流看。",
+        "快点，必须听我的！",
+        "我什么也不说。",
+        "把话说得别人听不懂。"
+      ],
+      "answer": 0,
+      "explanation": "“请排好队，大家轮流看。”把意思说清楚，也注意了礼貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-106",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“妈”的拼音是mā，声调是第___声。",
+      "answer": "一",
+      "explanation": "结合一年级语文知识，填“一”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-107",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“小河”的“河”左边是三点___。",
+      "answer": "水",
+      "explanation": "结合一年级语文知识，填“水”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-108",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "弯弯的___亮挂在天空。",
+      "answer": "月",
+      "explanation": "结合一年级语文知识，填“月”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-109",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“小鸟在树上___歌。”填一个合适的动作。",
+      "answer": "唱",
+      "explanation": "结合一年级语文知识，填“唱”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-110",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“你叫什么名字___”末尾应填问号，写作___。",
+      "answer": "？",
+      "explanation": "结合一年级语文知识，填“？”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-111",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "读：“小猫在睡觉。”小猫正在___。",
+      "answer": "睡觉",
+      "explanation": "结合一年级语文知识，填“睡觉”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-112",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "得到别人帮助后，可以说“___谢”。",
+      "answer": "谢",
+      "explanation": "结合一年级语文知识，填“谢”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-113",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“雨”的拼音是___。",
+      "answer": "yǔ",
+      "explanation": "结合一年级语文知识，填“yǔ”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-114",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“日”和“月”合在一起是“___”字。",
+      "answer": "明",
+      "explanation": "结合一年级语文知识，填“明”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-115",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "清清的___水慢慢流。",
+      "answer": "河",
+      "explanation": "结合一年级语文知识，填“河”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-116",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "“我在教室里___书。”填一个合适的动作。",
+      "answer": "读",
+      "explanation": "结合一年级语文知识，填“读”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-117",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“今天是星期一___”末尾用句号，写作___。",
+      "answer": "。",
+      "explanation": "结合一年级语文知识，填“。”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-118",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "短文信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读：“东东拿伞去上学。”东东拿了___。",
+      "answer": "伞",
+      "explanation": "结合一年级语文知识，填“伞”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-119",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "生活表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "不小心碰到同学，可以说“对不___”。",
+      "answer": "起",
+      "explanation": "结合一年级语文知识，填“起”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-120",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“山”的拼音是shān，声母是___。",
+      "answer": "sh",
+      "explanation": "结合一年级语文知识，填“sh”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-121",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "“森林”两个字都有“___”。",
+      "answer": "木",
+      "explanation": "结合一年级语文知识，填“木”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-122",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "高高的___峰上有白云。",
+      "answer": "山",
+      "explanation": "结合一年级语文知识，填“山”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-123",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "一句完整的话，末尾常要有标___。",
+      "answer": "点",
+      "explanation": "结合一年级语文知识，填“点”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-124",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "标点初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "表达惊喜“多美呀___”末尾可以用感叹号，写作___。",
+      "answer": "！",
+      "explanation": "结合一年级语文知识，填“！”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-125",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "短文信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "读：“红灯亮了，车停下。”车为什么停下？因为亮了___灯。",
+      "answer": "红",
+      "explanation": "结合一年级语文知识，填“红”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-126",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "生活表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "请别人帮忙时，可以先说“___问”。",
+      "answer": "请",
+      "explanation": "结合一年级语文知识，填“请”最合适。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-127",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "拼音与音节",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把汉字和正确拼音连起来。",
+      "left": [
+        "花",
+        "鸟",
+        "书",
+        "月"
+      ],
+      "right": [
+        "shū",
+        "huā",
+        "yuè",
+        "niǎo"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据拼音与音节的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-128",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常用字识读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把常用字和词语连起来。",
+      "left": [
+        "日",
+        "月",
+        "山",
+        "水"
+      ],
+      "right": [
+        "高山",
+        "太阳",
+        "河水",
+        "月亮"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据常用字识读的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-129",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字词搭配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把词语搭配连起来。",
+      "left": [
+        "弯弯的",
+        "清清的",
+        "高高的",
+        "闪闪的"
+      ],
+      "right": [
+        "山峰",
+        "月亮",
+        "星星",
+        "河水"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据字词搭配的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-130",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "简单句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把事物和它做的事情连起来。",
+      "left": [
+        "小鸟",
+        "小鱼",
+        "白云",
+        "汽车"
+      ],
+      "right": [
+        "在天空飘",
+        "在树上唱歌",
+        "在路上行驶",
+        "在水里游"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据简单句的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-131",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "标点初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把句子类型和标点连起来。",
+      "left": [
+        "陈述句",
+        "问句",
+        "感叹句",
+        "句中停顿"
+      ],
+      "right": [
+        "！",
+        "。",
+        "，",
+        "？"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据标点初步的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-132",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "短文信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把阅读问题和信息类型连起来。",
+      "left": [
+        "谁",
+        "哪里",
+        "做什么",
+        "什么时候"
+      ],
+      "right": [
+        "事情",
+        "人物",
+        "时间",
+        "地点"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据短文信息的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-133",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "生活表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础识读"
+    ],
+    "content": {
+      "stem": "一年级语文小卡片：把礼貌用语和作用连起来。",
+      "left": [
+        "请",
+        "谢谢",
+        "对不起",
+        "没关系"
+      ],
+      "right": [
+        "表示歉意",
+        "请求帮助",
+        "接受道歉",
+        "表示感谢"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据生活表达的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-134",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "拼音与音节",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把汉字和正确拼音连起来。",
+      "left": [
+        "花",
+        "鸟",
+        "书",
+        "月"
+      ],
+      "right": [
+        "shū",
+        "huā",
+        "yuè",
+        "niǎo"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据拼音与音节的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-135",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "常用字识读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把常用字和词语连起来。",
+      "left": [
+        "日",
+        "月",
+        "山",
+        "水"
+      ],
+      "right": [
+        "高山",
+        "太阳",
+        "河水",
+        "月亮"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据常用字识读的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-136",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "字词搭配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把词语搭配连起来。",
+      "left": [
+        "弯弯的",
+        "清清的",
+        "高高的",
+        "闪闪的"
+      ],
+      "right": [
+        "山峰",
+        "月亮",
+        "星星",
+        "河水"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据字词搭配的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-137",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把事物和它做的事情连起来。",
+      "left": [
+        "小鸟",
+        "小鱼",
+        "白云",
+        "汽车"
+      ],
+      "right": [
+        "在天空飘",
+        "在树上唱歌",
+        "在路上行驶",
+        "在水里游"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据简单句的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-138",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "标点初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把句子类型和标点连起来。",
+      "left": [
+        "陈述句",
+        "问句",
+        "感叹句",
+        "句中停顿"
+      ],
+      "right": [
+        "！",
+        "。",
+        "，",
+        "？"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据标点初步的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-139",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "短文信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把阅读问题和信息类型连起来。",
+      "left": [
+        "谁",
+        "哪里",
+        "做什么",
+        "什么时候"
+      ],
+      "right": [
+        "事情",
+        "人物",
+        "时间",
+        "地点"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据短文信息的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-chinese-authored-140",
+    "subject": "chinese",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "生活表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活理解"
+    ],
+    "content": {
+      "stem": "生活阅读练习：把礼貌用语和作用连起来。",
+      "left": [
+        "请",
+        "谢谢",
+        "对不起",
+        "没关系"
+      ],
+      "right": [
+        "表示歉意",
+        "请求帮助",
+        "接受道歉",
+        "表示感谢"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据生活表达的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

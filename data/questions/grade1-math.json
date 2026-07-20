@@ -1,22 +1,3978 @@
 [
-  {"stem":"3 + 5 = ?","options":["6","7","8","9"],"answer":2,"explanation":"3+5=8"},
-  {"stem":"10 - 4 = ?","options":["4","5","6","7"],"answer":2,"explanation":"10-4=6"},
-  {"stem":"7 + 2 = ?","options":["8","9","10","11"],"answer":1,"explanation":"7+2=9"},
-  {"stem":"5 - 3 = ?","options":["1","2","3","4"],"answer":1,"explanation":"5-3=2"},
-  {"stem":"6 + 4 = ?","options":["8","9","10","11"],"answer":2,"explanation":"6+4=10"},
-  {"stem":"9 - 6 = ?","options":["1","2","3","4"],"answer":2,"explanation":"9-6=3"},
-  {"stem":"2 + 8 = ?","options":["8","9","10","11"],"answer":2,"explanation":"2+8=10"},
-  {"stem":"15 - 5 = ?","options":["8","9","10","11"],"answer":2,"explanation":"15-5=10"},
-  {"stem":"1 + 1 = ?","options":["1","2","3","4"],"answer":1,"explanation":"1+1=2"},
-  {"stem":"4 + 3 = ?","options":["5","6","7","8"],"answer":2,"explanation":"4+3=7"},
-  {"stem":"8 - 3 = ?","options":["3","4","5","6"],"answer":2,"explanation":"8-3=5"},
-  {"stem":"12 + 5 = ?","options":["15","16","17","18"],"answer":2,"explanation":"12+5=17"},
-  {"stem":"20 - 10 = ?","options":["8","9","10","11"],"answer":2,"explanation":"20-10=10"},
-  {"stem":"11 + 4 = ?","options":["13","14","15","16"],"answer":2,"explanation":"11+4=15"},
-  {"stem":"18 - 9 = ?","options":["7","8","9","10"],"answer":2,"explanation":"18-9=9"},
-  {"stem":"下面哪个数字最大？","options":["5","8","3","6"],"answer":1,"explanation":"8是这些数字中最大的"},
-  {"stem":"下面哪个数字最小？","options":["7","2","9","4"],"answer":1,"explanation":"2是最小的"},
-  {"stem":"和7相邻的两个数是？","options":["5和6","6和8","8和9","5和9"],"answer":1,"explanation":"7的相邻数是6和8"},
-  {"stem":"一个苹果3元，妈妈买了2个苹果要付多少元？","options":["4元","5元","6元","7元"],"answer":2,"explanation":"3+3=6元"},
-  {"stem":"小明有10颗糖，吃了3颗，还剩几颗？","options":["5颗","6颗","7颗","8颗"],"answer":2,"explanation":"10-3=7颗"}
+  {
+    "id": "g1-math-authored-001",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：12里面有几个十和几个一？",
+      "options": [
+        "1个十和2个一",
+        "12个十和0个一",
+        "0个十和12个一",
+        "1个十和3个一"
+      ],
+      "answer": 0,
+      "explanation": "12=10+2，所以有1个十和2个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-002",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：7和8，哪个数大？",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "一样大"
+      ],
+      "answer": 1,
+      "explanation": "8排在7后面，所以8大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-003",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：5+4=？",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "把5和4合起来是9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-004",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：14-5=？",
+      "options": [
+        "8",
+        "10",
+        "5",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "从14里去掉5，还剩9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-005",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：小鸟在树枝上面。树枝在小鸟的哪边？",
+      "options": [
+        "下面",
+        "上面",
+        "左边",
+        "右边"
+      ],
+      "answer": 0,
+      "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-006",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：钟面的外圈没有角，它像什么平面图形？",
+      "options": [
+        "三角形",
+        "圆",
+        "正方形",
+        "长方形"
+      ],
+      "answer": 1,
+      "explanation": "钟面的外圈像圆。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-007",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：分针指向12，时针指向8，现在是？",
+      "options": [
+        "8时半",
+        "9时",
+        "8时",
+        "12时"
+      ],
+      "answer": 2,
+      "explanation": "分针指12表示整时，时针指8就是8时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-008",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：苹果5个，梨7个，香蕉4个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "一样多",
+        "梨"
+      ],
+      "answer": 3,
+      "explanation": "梨有7个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-009",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "整理书包：篮子里有7个苹果，又放入4个，现在有多少个？",
+      "options": [
+        "11个",
+        "7个",
+        "4个",
+        "3个"
+      ],
+      "answer": 0,
+      "explanation": "求现在一共有多少，用加法：7+4=11个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-010",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：13里面有几个十和几个一？",
+      "options": [
+        "13个十和0个一",
+        "1个十和3个一",
+        "0个十和13个一",
+        "1个十和4个一"
+      ],
+      "answer": 1,
+      "explanation": "13=10+3，所以有1个十和3个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-011",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：8和9，哪个数大？",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "一样大"
+      ],
+      "answer": 2,
+      "explanation": "9排在8后面，所以9大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-012",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：6+5=？",
+      "options": [
+        "10",
+        "12",
+        "6",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "把6和5合起来是11。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-013",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：15-6=？",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "从15里去掉6，还剩9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-014",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：书包在椅子下面。椅子在书包的哪边？",
+      "options": [
+        "下面",
+        "上面",
+        "左边",
+        "右边"
+      ],
+      "answer": 1,
+      "explanation": "书包在椅子下面，椅子就在书包上面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-015",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：一面小旗有3条直边和3个角，它像什么图形？",
+      "options": [
+        "圆",
+        "正方形",
+        "三角形",
+        "长方形"
+      ],
+      "answer": 2,
+      "explanation": "三角形有3条边和3个角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-016",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：分针指向12，时针指向9，现在是？",
+      "options": [
+        "9时半",
+        "10时",
+        "12时",
+        "9时"
+      ],
+      "answer": 3,
+      "explanation": "分针指12表示整时，时针指9就是9时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-017",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：苹果6个，梨8个，香蕉2个。哪种水果最多？",
+      "options": [
+        "梨",
+        "苹果",
+        "香蕉",
+        "一样多"
+      ],
+      "answer": 0,
+      "explanation": "梨有8个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-018",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "水果分享：篮子里有8个苹果，又放入5个，现在有多少个？",
+      "options": [
+        "8个",
+        "13个",
+        "5个",
+        "3个"
+      ],
+      "answer": 1,
+      "explanation": "求现在一共有多少，用加法：8+5=13个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-019",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：14里面有几个十和几个一？",
+      "options": [
+        "14个十和0个一",
+        "0个十和14个一",
+        "1个十和4个一",
+        "1个十和5个一"
+      ],
+      "answer": 2,
+      "explanation": "14=10+4，所以有1个十和4个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-020",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：9和10，哪个数大？",
+      "options": [
+        "9",
+        "8",
+        "一样大",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "10排在9后面，所以10大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-021",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：7+6=？",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "把7和6合起来是13。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-022",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：16-7=？",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "从16里去掉7，还剩9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-023",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：小猫在小狗的左边。小狗在小猫的哪边？",
+      "options": [
+        "左边",
+        "上边",
+        "右边",
+        "下面"
+      ],
+      "answer": 2,
+      "explanation": "两个物体左右位置相反，小狗在小猫右边。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-024",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：书本的封面有4条直边，上下一样长、左右一样长，它像什么图形？",
+      "options": [
+        "圆",
+        "三角形",
+        "球",
+        "长方形"
+      ],
+      "answer": 3,
+      "explanation": "书本封面通常像长方形。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-025",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：分针指向12，时针指向10，现在是？",
+      "options": [
+        "10时",
+        "10时半",
+        "11时",
+        "12时"
+      ],
+      "answer": 0,
+      "explanation": "分针指12表示整时，时针指10就是10时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-026",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：苹果3个，梨5个，香蕉3个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "梨",
+        "香蕉",
+        "一样多"
+      ],
+      "answer": 1,
+      "explanation": "梨有5个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-027",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "操场游戏：篮子里有9个苹果，又放入6个，现在有多少个？",
+      "options": [
+        "9个",
+        "6个",
+        "15个",
+        "3个"
+      ],
+      "answer": 2,
+      "explanation": "求现在一共有多少，用加法：9+6=15个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-028",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：15里面有几个十和几个一？",
+      "options": [
+        "15个十和0个一",
+        "0个十和15个一",
+        "1个十和6个一",
+        "1个十和5个一"
+      ],
+      "answer": 3,
+      "explanation": "15=10+5，所以有1个十和5个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-029",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：10和11，哪个数大？",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "一样大"
+      ],
+      "answer": 0,
+      "explanation": "11排在10后面，所以11大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-030",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：8+2=？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "把8和2合起来是10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-031",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：17-3=？",
+      "options": [
+        "13",
+        "15",
+        "14",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "从17里去掉3，还剩14。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-032",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：小鸟在树枝上面。树枝在小鸟的哪边？",
+      "options": [
+        "上面",
+        "左边",
+        "右边",
+        "下面"
+      ],
+      "answer": 3,
+      "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-033",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：一块方巾有4条一样长的直边，它像什么图形？",
+      "options": [
+        "正方形",
+        "圆",
+        "三角形",
+        "长方体"
+      ],
+      "answer": 0,
+      "explanation": "正方形的4条边一样长。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-034",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：分针指向12，时针指向11，现在是？",
+      "options": [
+        "11时半",
+        "11时",
+        "12时",
+        "12时3"
+      ],
+      "answer": 1,
+      "explanation": "分针指12表示整时，时针指11就是11时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-035",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：苹果4个，梨6个，香蕉4个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "梨",
+        "一样多"
+      ],
+      "answer": 2,
+      "explanation": "梨有6个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-036",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "图书角：篮子里有10个苹果，又放入2个，现在有多少个？",
+      "options": [
+        "10个",
+        "2个",
+        "8个",
+        "12个"
+      ],
+      "answer": 3,
+      "explanation": "求现在一共有多少，用加法：10+2=12个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-037",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：16里面有几个十和几个一？",
+      "options": [
+        "1个十和6个一",
+        "16个十和0个一",
+        "0个十和16个一",
+        "1个十和7个一"
+      ],
+      "answer": 0,
+      "explanation": "16=10+6，所以有1个十和6个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-038",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：11和12，哪个数大？",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "一样大"
+      ],
+      "answer": 1,
+      "explanation": "12排在11后面，所以12大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-039",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：3+3=？",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "把3和3合起来是6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-040",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：18-4=？",
+      "options": [
+        "13",
+        "15",
+        "4",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "从18里去掉4，还剩14。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-041",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：书包在椅子下面。椅子在书包的哪边？",
+      "options": [
+        "上面",
+        "下面",
+        "左边",
+        "右边"
+      ],
+      "answer": 0,
+      "explanation": "书包在椅子下面，椅子就在书包上面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-042",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：一枚硬币的平平一面像什么图形？",
+      "options": [
+        "三角形",
+        "圆",
+        "正方形",
+        "长方形"
+      ],
+      "answer": 1,
+      "explanation": "硬币的平面外形像圆。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-043",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：分针指向12，时针指向6，现在是？",
+      "options": [
+        "6时半",
+        "7时",
+        "6时",
+        "12时"
+      ],
+      "answer": 2,
+      "explanation": "分针指12表示整时，时针指6就是6时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-044",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：苹果5个，梨7个，香蕉2个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "一样多",
+        "梨"
+      ],
+      "answer": 3,
+      "explanation": "梨有7个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-045",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "积木乐园：篮子里有11个苹果，又放入3个，现在有多少个？",
+      "options": [
+        "14个",
+        "11个",
+        "3个",
+        "8个"
+      ],
+      "answer": 0,
+      "explanation": "求现在一共有多少，用加法：11+3=14个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-046",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：17里面有几个十和几个一？",
+      "options": [
+        "17个十和0个一",
+        "1个十和7个一",
+        "0个十和17个一",
+        "1个十和8个一"
+      ],
+      "answer": 1,
+      "explanation": "17=10+7，所以有1个十和7个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-047",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：12和13，哪个数大？",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "一样大"
+      ],
+      "answer": 2,
+      "explanation": "13排在12后面，所以13大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-048",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：4+4=？",
+      "options": [
+        "7",
+        "9",
+        "4",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "把4和4合起来是8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-049",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：12-5=？",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "从12里去掉5，还剩7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-050",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：小猫在小狗的左边。小狗在小猫的哪边？",
+      "options": [
+        "左边",
+        "右边",
+        "上边",
+        "下面"
+      ],
+      "answer": 1,
+      "explanation": "两个物体左右位置相反，小狗在小猫右边。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-051",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：小屋尖尖的屋顶轮廓像什么平面图形？",
+      "options": [
+        "圆",
+        "正方形",
+        "三角形",
+        "长方形"
+      ],
+      "answer": 2,
+      "explanation": "尖屋顶的轮廓常像三角形。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-052",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "动物观察：分针指向12，时针指向7，现在是？",
+      "options": [
+        "7时半",
+        "8时",
+        "12时",
+        "7时"
+      ],
+      "answer": 3,
+      "explanation": "分针指12表示整时，时针指7就是7时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-053",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "动物观察：苹果6个，梨8个，香蕉3个。哪种水果最多？",
+      "options": [
+        "梨",
+        "苹果",
+        "香蕉",
+        "一样多"
+      ],
+      "answer": 0,
+      "explanation": "梨有8个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-054",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "动物观察：篮子里有5个苹果，又放入4个，现在有多少个？",
+      "options": [
+        "5个",
+        "9个",
+        "4个",
+        "1个"
+      ],
+      "answer": 1,
+      "explanation": "求现在一共有多少，用加法：5+4=9个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-055",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：18里面有几个十和几个一？",
+      "options": [
+        "18个十和0个一",
+        "0个十和18个一",
+        "1个十和8个一",
+        "1个十和9个一"
+      ],
+      "answer": 2,
+      "explanation": "18=10+8，所以有1个十和8个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-056",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：13和14，哪个数大？",
+      "options": [
+        "13",
+        "12",
+        "一样大",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "14排在13后面，所以14大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-057",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：5+5=？",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "把5和5合起来是10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-058",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：13-6=？",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "63"
+      ],
+      "answer": 1,
+      "explanation": "从13里去掉6，还剩7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-059",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：小鸟在树枝上面。树枝在小鸟的哪边？",
+      "options": [
+        "上面",
+        "左边",
+        "下面",
+        "右边"
+      ],
+      "answer": 2,
+      "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-060",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：教室的门又高又长，它的正面像什么图形？",
+      "options": [
+        "圆",
+        "三角形",
+        "正方体",
+        "长方形"
+      ],
+      "answer": 3,
+      "explanation": "门的正面通常像长方形。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-061",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：分针指向12，时针指向8，现在是？",
+      "options": [
+        "8时",
+        "8时半",
+        "9时",
+        "12时"
+      ],
+      "answer": 0,
+      "explanation": "分针指12表示整时，时针指8就是8时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-062",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：苹果3个，梨5个，香蕉4个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "梨",
+        "香蕉",
+        "一样多"
+      ],
+      "answer": 1,
+      "explanation": "梨有5个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-063",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "班级值日：篮子里有6个苹果，又放入5个，现在有多少个？",
+      "options": [
+        "6个",
+        "5个",
+        "11个",
+        "1个"
+      ],
+      "answer": 2,
+      "explanation": "求现在一共有多少，用加法：6+5=11个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-064",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：19里面有几个十和几个一？",
+      "options": [
+        "19个十和0个一",
+        "0个十和19个一",
+        "1个十和10个一",
+        "1个十和9个一"
+      ],
+      "answer": 3,
+      "explanation": "19=10+9，所以有1个十和9个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-065",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：14和15，哪个数大？",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "一样大"
+      ],
+      "answer": 0,
+      "explanation": "15排在14后面，所以15大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-066",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：6+6=？",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "把6和6合起来是12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-067",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：14-7=？",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "73"
+      ],
+      "answer": 2,
+      "explanation": "从14里去掉7，还剩7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-068",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：书包在椅子下面。椅子在书包的哪边？",
+      "options": [
+        "下面",
+        "左边",
+        "右边",
+        "上面"
+      ],
+      "answer": 3,
+      "explanation": "书包在椅子下面，椅子就在书包上面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-069",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：方格纸上的一个小方格，4条边一样长，它是什么图形？",
+      "options": [
+        "正方形",
+        "圆",
+        "三角形",
+        "长方体"
+      ],
+      "answer": 0,
+      "explanation": "小方格是正方形。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-070",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：分针指向12，时针指向9，现在是？",
+      "options": [
+        "9时半",
+        "9时",
+        "10时",
+        "12时"
+      ],
+      "answer": 1,
+      "explanation": "分针指12表示整时，时针指9就是9时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-071",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：苹果4个，梨6个，香蕉2个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "梨",
+        "一样多"
+      ],
+      "answer": 2,
+      "explanation": "梨有6个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-072",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "美术课堂：篮子里有7个苹果，又放入6个，现在有多少个？",
+      "options": [
+        "7个",
+        "6个",
+        "1个",
+        "13个"
+      ],
+      "answer": 3,
+      "explanation": "求现在一共有多少，用加法：7+6=13个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-073",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：10里面有几个十和几个一？",
+      "options": [
+        "1个十和0个一",
+        "10个十和0个一",
+        "0个十和10个一",
+        "1个十和1个一"
+      ],
+      "answer": 0,
+      "explanation": "10=10+0，所以有1个十和0个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-074",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：15和16，哪个数大？",
+      "options": [
+        "15",
+        "16",
+        "14",
+        "一样大"
+      ],
+      "answer": 1,
+      "explanation": "16排在15后面，所以16大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-075",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：7+2=？",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "把7和2合起来是9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-076",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：15-3=？",
+      "options": [
+        "11",
+        "13",
+        "3",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "从15里去掉3，还剩12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-077",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：小猫在小狗的左边。小狗在小猫的哪边？",
+      "options": [
+        "右边",
+        "左边",
+        "上边",
+        "下面"
+      ],
+      "answer": 0,
+      "explanation": "两个物体左右位置相反，小狗在小猫右边。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-078",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：一个圆环的边一直弯曲，一个角也没有。它是什么图形？",
+      "options": [
+        "三角形",
+        "圆",
+        "正方形",
+        "长方形"
+      ],
+      "answer": 1,
+      "explanation": "边弯曲且没有角的平面图形是圆。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-079",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：分针指向12，时针指向10，现在是？",
+      "options": [
+        "10时半",
+        "11时",
+        "10时",
+        "12时"
+      ],
+      "answer": 2,
+      "explanation": "分针指12表示整时，时针指10就是10时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-080",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：苹果5个，梨7个，香蕉3个。哪种水果最多？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "一样多",
+        "梨"
+      ],
+      "answer": 3,
+      "explanation": "梨有7个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-081",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "春游准备：篮子里有8个苹果，又放入2个，现在有多少个？",
+      "options": [
+        "10个",
+        "8个",
+        "2个",
+        "6个"
+      ],
+      "answer": 0,
+      "explanation": "求现在一共有多少，用加法：8+2=10个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-082",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：11里面有几个十和几个一？",
+      "options": [
+        "11个十和0个一",
+        "1个十和1个一",
+        "0个十和11个一",
+        "1个十和2个一"
+      ],
+      "answer": 1,
+      "explanation": "11=10+1，所以有1个十和1个一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-083",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：16和17，哪个数大？",
+      "options": [
+        "16",
+        "15",
+        "17",
+        "一样大"
+      ],
+      "answer": 2,
+      "explanation": "17排在16后面，所以17大。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-084",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：8+3=？",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "把8和3合起来是11。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-085",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：16-4=？",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "从16里去掉4，还剩12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-086",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：小鸟在树枝上面。树枝在小鸟的哪边？",
+      "options": [
+        "上面",
+        "下面",
+        "左边",
+        "右边"
+      ],
+      "answer": 1,
+      "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-087",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：用3根直小棒首尾相连，能围成什么图形？",
+      "options": [
+        "圆",
+        "正方形",
+        "三角形",
+        "长方形"
+      ],
+      "answer": 2,
+      "explanation": "3根直小棒首尾相连能围成三角形。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-088",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：分针指向12，时针指向11，现在是？",
+      "options": [
+        "11时半",
+        "12时",
+        "12时3",
+        "11时"
+      ],
+      "answer": 3,
+      "explanation": "分针指12表示整时，时针指11就是11时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-089",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：苹果6个，梨8个，香蕉4个。哪种水果最多？",
+      "options": [
+        "梨",
+        "苹果",
+        "香蕉",
+        "一样多"
+      ],
+      "answer": 0,
+      "explanation": "梨有8个，数量最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-090",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "家庭晚餐：车上原有9人，又上来3人。车限坐20人，现在的人数是？",
+      "options": [
+        "9人，超过20人",
+        "12人，没有超过20人",
+        "3人，没有超过20人",
+        "8人，超过20人"
+      ],
+      "answer": 1,
+      "explanation": "只需一次加法：9+3=12，12比20小，没有超过限坐人数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-091",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：一个数比12大1，又比14小1，这个数是多少？",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "同时符合两个条件的数是13。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-092",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：小红有17颗星，小明比小红多2颗。谁的星多？",
+      "options": [
+        "小红",
+        "一样多",
+        "不能判断",
+        "小明"
+      ],
+      "answer": 3,
+      "explanation": "小明有17+2=19颗，比17颗多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-093",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：盒里有3支笔，又放进一些后共有9支。放进了多少支？",
+      "options": [
+        "6",
+        "7",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "用总数减原有数：9-3=6支。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-094",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：原有17个气球，送出一些后还剩11个。送出了多少个？",
+      "options": [
+        "11",
+        "6",
+        "5",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "用原有数减剩下数：17-11=6个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-095",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：从左数，小兔排第5。它左边有几个小动物？",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "排第5，前面也就是左边有4个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-096",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：一个图形有4条直边，4个角，四条边一样长。它最可能是什么图形？",
+      "options": [
+        "圆",
+        "三角形",
+        "长方体",
+        "正方形"
+      ],
+      "answer": 3,
+      "explanation": "正方形有4条一样长的直边和4个角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-097",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "钟表初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：活动6时开始，1小时后结束。结束时间是？",
+      "options": [
+        "7时",
+        "6时",
+        "5时",
+        "8时"
+      ],
+      "answer": 0,
+      "explanation": "6时过1小时是7时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-098",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分类统计",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：苹果3个，梨5个，香蕉2个。梨比苹果多几个？",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "5-3=2个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-099",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "一步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "校园花园：车上原有10人，又上来4人。车限坐20人，现在的人数是？",
+      "options": [
+        "10人，超过20人",
+        "4人，没有超过20人",
+        "14人，没有超过20人",
+        "6人，超过20人"
+      ],
+      "answer": 2,
+      "explanation": "只需一次加法：10+4=14，14比20小，没有超过限坐人数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-100",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数的认识",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：一个数比13大1，又比15小1，这个数是多少？",
+      "options": [
+        "13",
+        "15",
+        "12",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "同时符合两个条件的数是14。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-101",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数的比较",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：小红有18颗星，小明比小红多2颗。谁的星多？",
+      "options": [
+        "小明",
+        "小红",
+        "一样多",
+        "不能判断"
+      ],
+      "answer": 0,
+      "explanation": "小明有18+2=20颗，比18颗多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-102",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "基本加法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：盒里有4支笔，又放进一些后共有11支。放进了多少支？",
+      "options": [
+        "9",
+        "7",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "用总数减原有数：11-4=7支。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-103",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "基本减法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：原有18个气球，送出一些后还剩11个。送出了多少个？",
+      "options": [
+        "11",
+        "6",
+        "7",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "用原有数减剩下数：18-11=7个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-104",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "位置与顺序",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：从左数，小兔排第6。它左边有几个小动物？",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "排第6，前面也就是左边有5个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-105",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常见图形",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "玩具商店：一个平面图形有3条直边和3个角。它是什么图形？",
+      "options": [
+        "三角形",
+        "圆",
+        "正方形",
+        "长方体"
+      ],
+      "answer": 0,
+      "explanation": "三角形有3条直边和3个角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-106",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "玩具商店：分针指12，时针指8，是___时。",
+      "answer": "8",
+      "explanation": "分针指12表示整时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-107",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "玩具商店：红球5个、蓝球3个，___球多。",
+      "answer": "红",
+      "explanation": "5比3大，所以红球多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-108",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "一步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "玩具商店：有8本书，又来2本，一共有___本。",
+      "answer": "10",
+      "explanation": "求一共用加法。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-109",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：15里面有1个十和___个一。",
+      "answer": "5",
+      "explanation": "15由1个十和5个一组成。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-110",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：12比11___。",
+      "answer": "大",
+      "explanation": "后一个数比前一个数大1。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-111",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：3+4=___。",
+      "answer": "7",
+      "explanation": "把两个数合起来。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-112",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：13-3=___。",
+      "answer": "10",
+      "explanation": "从总数中去掉3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-113",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：从左数第1个，也就是最___边的一个。",
+      "answer": "左",
+      "explanation": "从左开始数，第1个在最左边。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-114",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：三角形有___个角。",
+      "answer": "3",
+      "explanation": "三角形有3条边和3个角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-115",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：分针指12，时针指8，是___时。",
+      "answer": "8",
+      "explanation": "分针指12表示整时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-116",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分类统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "运动小组：红球5个、蓝球3个，___球多。",
+      "answer": "红",
+      "explanation": "5比3大，所以红球多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-117",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "运动小组：有17本书，又来2本，一共有___本。",
+      "answer": "19",
+      "explanation": "求一共用加法。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-118",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：15里面有1个十和___个一。",
+      "answer": "5",
+      "explanation": "15由1个十和5个一组成。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-119",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：21比20___。",
+      "answer": "大",
+      "explanation": "后一个数比前一个数大1。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-120",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：7+4=___。",
+      "answer": "11",
+      "explanation": "把两个数合起来。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-121",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "基本减法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：12-3=___。",
+      "answer": "9",
+      "explanation": "从总数中去掉3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-122",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "位置与顺序",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：从左数第1个，也就是最___边的一个。",
+      "answer": "左",
+      "explanation": "从左开始数，第1个在最左边。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-123",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "常见图形",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：三角形有___个角。",
+      "answer": "3",
+      "explanation": "三角形有3条边和3个角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-124",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "钟表初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：分针指12，时针指8，是___时。",
+      "answer": "8",
+      "explanation": "分针指12表示整时。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-125",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "分类统计",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：红球5个、蓝球3个，___球多。",
+      "answer": "红",
+      "explanation": "5比3大，所以红球多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-126",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "一步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "生日会：有26本书，又来2本，一共有___本。",
+      "answer": "28",
+      "explanation": "求一共用加法。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-127",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "数的认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把数与组成连起来。",
+      "left": [
+        "10",
+        "12",
+        "15",
+        "19"
+      ],
+      "right": [
+        "1个十5个一",
+        "1个十",
+        "1个十9个一",
+        "1个十2个一"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数的认识的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-128",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "数的比较",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把比较式与意思连起来。",
+      "left": [
+        "3<5",
+        "8>6",
+        "7=7",
+        "10>9"
+      ],
+      "right": [
+        "一样大",
+        "5更大",
+        "10更大",
+        "8更大"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数的比较的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-129",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "基本加法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把加法算式与得数连起来。",
+      "left": [
+        "2+3",
+        "4+4",
+        "6+3",
+        "7+5"
+      ],
+      "right": [
+        "9",
+        "5",
+        "12",
+        "8"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据基本加法的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-130",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "基本减法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把减法算式与得数连起来。",
+      "left": [
+        "8-3",
+        "10-2",
+        "12-3",
+        "15-5"
+      ],
+      "right": [
+        "9",
+        "5",
+        "10",
+        "8"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据基本减法的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-131",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "位置与顺序",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把位置词与方向连起来。",
+      "left": [
+        "上",
+        "下",
+        "左",
+        "右"
+      ],
+      "right": [
+        "靠左方向",
+        "天空方向",
+        "靠右方向",
+        "地面方向"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据位置与顺序的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-132",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常见图形",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把图形与特点连起来。",
+      "left": [
+        "圆",
+        "三角形",
+        "正方形",
+        "长方形"
+      ],
+      "right": [
+        "4条边一样长",
+        "没有角",
+        "对边一样长",
+        "3个角"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据常见图形的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-133",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "钟表初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "基础认知"
+    ],
+    "content": {
+      "stem": "公交站：把钟面时间与读法连起来。",
+      "left": [
+        "6:00",
+        "7:30",
+        "8:00",
+        "9:30"
+      ],
+      "right": [
+        "8时",
+        "6时",
+        "9时半",
+        "7时半"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据钟表初步的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-134",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "分类统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "公交站：把物品与类别连起来。",
+      "left": [
+        "水果",
+        "文具",
+        "动物",
+        "交通工具"
+      ],
+      "right": [
+        "小猫",
+        "苹果",
+        "汽车",
+        "铅笔"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据分类统计的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-135",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "一步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "公交站：把问题类型与合适的方法连起来。",
+      "left": [
+        "求一共",
+        "求还剩",
+        "求多几个",
+        "求少几个"
+      ],
+      "right": [
+        "较大数减较小数",
+        "用加法",
+        "较大数减较小数",
+        "用减法"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据一步问题的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-136",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "数的认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "手工活动：把数与组成连起来。",
+      "left": [
+        "10",
+        "12",
+        "15",
+        "19"
+      ],
+      "right": [
+        "1个十5个一",
+        "1个十",
+        "1个十9个一",
+        "1个十2个一"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数的认识的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-137",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "数的比较",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "手工活动：把比较式与意思连起来。",
+      "left": [
+        "3<5",
+        "8>6",
+        "7=7",
+        "10>9"
+      ],
+      "right": [
+        "一样大",
+        "5更大",
+        "10更大",
+        "8更大"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数的比较的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-138",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "基本加法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "手工活动：把加法算式与得数连起来。",
+      "left": [
+        "2+3",
+        "4+4",
+        "6+3",
+        "7+5"
+      ],
+      "right": [
+        "9",
+        "5",
+        "12",
+        "8"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据基本加法的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-139",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "基本减法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "手工活动：把减法算式与得数连起来。",
+      "left": [
+        "8-3",
+        "10-2",
+        "12-3",
+        "15-5"
+      ],
+      "right": [
+        "9",
+        "5",
+        "10",
+        "8"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据基本减法的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-math-authored-140",
+    "subject": "math",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "位置与顺序",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "生活思考"
+    ],
+    "content": {
+      "stem": "手工活动：把位置词与方向连起来。",
+      "left": [
+        "上",
+        "下",
+        "左",
+        "右"
+      ],
+      "right": [
+        "靠左方向",
+        "天空方向",
+        "靠右方向",
+        "地面方向"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据位置与顺序的基础知识逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

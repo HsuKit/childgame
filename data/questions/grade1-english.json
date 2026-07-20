@@ -1,22 +1,3978 @@
 [
-  {"stem":"What color is the sky?","options":["Red","Blue","Green","Yellow"],"answer":1,"explanation":"The sky is blue"},
-  {"stem":"How many apples? 🍎🍎🍎","options":["One","Two","Three","Four"],"answer":2,"explanation":"There are three apples"},
-  {"stem":"Which animal says \"meow\"?","options":["Dog","Cat","Bird","Fish"],"answer":1,"explanation":"A cat says meow"},
-  {"stem":"\"Apple\"的中文意思是？","options":["香蕉","苹果","橘子","葡萄"],"answer":1,"explanation":"Apple是苹果"},
-  {"stem":"Choose the correct greeting:","options":["Goodbye","Hello","Sorry","Thanks"],"answer":1,"explanation":"Hello is a greeting"},
-  {"stem":"Which one is a dog?","options":["🐱","🐶","🐰","🐻"],"answer":1,"explanation":"🐶 is a dog"},
-  {"stem":"What number comes after 5?","options":["3","4","6","7"],"answer":2,"explanation":"6 comes after 5"},
-  {"stem":"\"I am ___ years old.\" (填数字, 我7岁)","options":["five","six","seven","eight"],"answer":2,"explanation":"Seven is 7"},
-  {"stem":"Which is a fruit?","options":["Bread","Banana","Milk","Rice"],"answer":1,"explanation":"Banana is a fruit"},
-  {"stem":"What is 红色 in English?","options":["Blue","Red","Green","Yellow"],"answer":1,"explanation":"红色 means Red"},
-  {"stem":"\"Goodbye\" means:","options":["你好","再见","谢谢","对不起"],"answer":1,"explanation":"Goodbye means 再见"},
-  {"stem":"Which animal can fly?","options":["Dog","Cat","Bird","Fish"],"answer":2,"explanation":"A bird can fly"},
-  {"stem":"\"I have a ___.\" (我有一支铅笔)","options":["book","pen","pencil","ruler"],"answer":2,"explanation":"Pencil is 铅笔"},
-  {"stem":"What is the opposite of \"big\"?","options":["Large","Small","Tall","Wide"],"answer":1,"explanation":"Small is the opposite of big"},
-  {"stem":"Which one is green?","options":["🌿","🌹","☀️","🌙"],"answer":0,"explanation":"🌿 is green"},
-  {"stem":"\"Father\" means:","options":["妈妈","爸爸","姐姐","哥哥"],"answer":1,"explanation":"Father means 爸爸"},
-  {"stem":"How do you spell \"猫\"?","options":["d-o-g","c-a-t","b-i-r-d","f-i-s-h"],"answer":1,"explanation":"Cat is c-a-t"},
-  {"stem":"\"I like to ___.\" (我喜欢唱歌)","options":["dance","sing","run","swim"],"answer":1,"explanation":"Sing means 唱歌"},
-  {"stem":"Which number is \"ten\"?","options":["5","8","10","12"],"answer":2,"explanation":"Ten is 10"},
-  {"stem":"What is \"水\" in English?","options":["Fire","Water","Air","Earth"],"answer":1,"explanation":"水 means Water"}
+  {
+    "id": "g1-english-authored-001",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “a red cat beside three books.” Look at the word “cat”. Which letter comes first?",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“cat” begins with c."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-002",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Good morning! —___",
+      "options": [
+        "I am a colour.",
+        "Good morning!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Good morning!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-003",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “a red cat beside three books.” Which number is written as “three”?",
+      "options": [
+        "7",
+        "8",
+        "3",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "“three” means 3."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-004",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a red cat beside three books”?",
+      "options": [
+        "book",
+        "classroom",
+        "three",
+        "red"
+      ],
+      "answer": 3,
+      "explanation": "“red” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-005",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "mother",
+        "classroom",
+        "book",
+        "red"
+      ],
+      "answer": 0,
+      "explanation": "“mother” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-006",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We learn with the class in the classroom.” Which option names this place?",
+      "options": [
+        "mother",
+        "classroom",
+        "red",
+        "three"
+      ],
+      "answer": 1,
+      "explanation": "“classroom” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-007",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The red is 3.",
+        "mother is at home.",
+        "Open your book.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Open your book.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-008",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a red cat beside three books”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "mother — classroom — yesterday",
+        "red — three — book"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-009",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “a blue dog beside five rulers.” Look at the word “dog”. Which letter comes first?",
+      "options": [
+        "d",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“dog” begins with d."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-010",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Hello! —___",
+      "options": [
+        "I am a colour.",
+        "Hello!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Hello!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-011",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “a blue dog beside five rulers.” Which number is written as “five”?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "“five” means 5."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-012",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a blue dog beside five rulers”?",
+      "options": [
+        "ruler",
+        "library",
+        "five",
+        "blue"
+      ],
+      "answer": 3,
+      "explanation": "“blue” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-013",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "father",
+        "library",
+        "ruler",
+        "blue"
+      ],
+      "answer": 0,
+      "explanation": "“father” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-014",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We read and borrow books in the library.” Which option names this place?",
+      "options": [
+        "father",
+        "library",
+        "blue",
+        "five"
+      ],
+      "answer": 1,
+      "explanation": "“library” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-015",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The blue is 5.",
+        "father is at home.",
+        "Put down your ruler.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Put down your ruler.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-016",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a blue dog beside five rulers”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "father — library — yesterday",
+        "blue — five — ruler"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-017",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “two green fish near a ball.” Look at the word “fish”. Which letter comes first?",
+      "options": [
+        "f",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“fish” begins with f."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-018",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—How are you? —___",
+      "options": [
+        "I am a colour.",
+        "I am fine, thank you.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“I am fine, thank you.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-019",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “two green fish near a ball.” Which number is written as “two”?",
+      "options": [
+        "5",
+        "6",
+        "2",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "“two” means 2."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-020",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “two green fish near a ball”?",
+      "options": [
+        "ball",
+        "playground",
+        "two",
+        "green"
+      ],
+      "answer": 3,
+      "explanation": "“green” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-021",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "sister",
+        "playground",
+        "ball",
+        "green"
+      ],
+      "answer": 0,
+      "explanation": "“sister” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-022",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We run and play safely in the playground.” Which option names this place?",
+      "options": [
+        "sister",
+        "playground",
+        "green",
+        "two"
+      ],
+      "answer": 1,
+      "explanation": "“playground” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-023",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The green is 2.",
+        "sister is at home.",
+        "Touch the ball.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Touch the ball.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-024",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “two green fish near a ball”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "sister — playground — yesterday",
+        "green — two — ball"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-025",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “a yellow bag with six pencils.” Look at the word “bag”. Which letter comes first?",
+      "options": [
+        "b",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“bag” begins with b."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-026",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Good afternoon! —___",
+      "options": [
+        "I am a colour.",
+        "Good afternoon!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Good afternoon!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-027",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “a yellow bag with six pencils.” Which number is written as “six”?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "“six” means 6."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-028",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a yellow bag with six pencils”?",
+      "options": [
+        "pencil",
+        "art room",
+        "six",
+        "yellow"
+      ],
+      "answer": 3,
+      "explanation": "“yellow” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-029",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "brother",
+        "art room",
+        "pencil",
+        "yellow"
+      ],
+      "answer": 0,
+      "explanation": "“brother” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-030",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We draw and make things in the art room.” Which option names this place?",
+      "options": [
+        "brother",
+        "art room",
+        "yellow",
+        "six"
+      ],
+      "answer": 1,
+      "explanation": "“art room” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-031",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The yellow is 6.",
+        "brother is at home.",
+        "Pick up your pencil.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Pick up your pencil.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-032",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a yellow bag with six pencils”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "brother — art room — yesterday",
+        "yellow — six — pencil"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-033",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “four black pens on a desk.” Look at the word “pen”. Which letter comes first?",
+      "options": [
+        "p",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“pen” begins with p."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-034",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—What is your name? —___",
+      "options": [
+        "I am a colour.",
+        "My name is Amy.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“My name is Amy.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-035",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “four black pens on a desk.” Which number is written as “four”?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "“four” means 4."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-036",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “four black pens on a desk”?",
+      "options": [
+        "desk",
+        "music room",
+        "four",
+        "black"
+      ],
+      "answer": 3,
+      "explanation": "“black” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-037",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "grandmother",
+        "music room",
+        "desk",
+        "black"
+      ],
+      "answer": 0,
+      "explanation": "“grandmother” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-038",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We sing and play music in the music room.” Which option names this place?",
+      "options": [
+        "grandmother",
+        "music room",
+        "black",
+        "four"
+      ],
+      "answer": 1,
+      "explanation": "“music room” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-039",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The black is 4.",
+        "grandmother is at home.",
+        "Stand by the desk.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Stand by the desk.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-040",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “four black pens on a desk”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "grandmother — music room — yesterday",
+        "black — four — desk"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-041",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “an orange sun above eight chairs.” Look at the word “sun”. Which letter comes first?",
+      "options": [
+        "s",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“sun” begins with s."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-042",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Nice to meet you. —___",
+      "options": [
+        "I am a colour.",
+        "Nice to meet you, too.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Nice to meet you, too.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-043",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “an orange sun above eight chairs.” Which number is written as “eight”?",
+      "options": [
+        "0",
+        "1",
+        "8",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "“eight” means 8."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-044",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “an orange sun above eight chairs”?",
+      "options": [
+        "chair",
+        "school gate",
+        "eight",
+        "orange"
+      ],
+      "answer": 3,
+      "explanation": "“orange” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-045",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "grandfather",
+        "school gate",
+        "chair",
+        "orange"
+      ],
+      "answer": 0,
+      "explanation": "“grandfather” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-046",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We enter or leave school in the school gate.” Which option names this place?",
+      "options": [
+        "grandfather",
+        "school gate",
+        "orange",
+        "eight"
+      ],
+      "answer": 1,
+      "explanation": "“school gate” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-047",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The orange is 8.",
+        "grandfather is at home.",
+        "Sit on the chair.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Sit on the chair.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-048",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “an orange sun above eight chairs”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "grandfather — school gate — yesterday",
+        "orange — eight — chair"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-049",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “a white map with seven stars.” Look at the word “map”. Which letter comes first?",
+      "options": [
+        "m",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“map” begins with m."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-050",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Goodbye! —___",
+      "options": [
+        "I am a colour.",
+        "Goodbye!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Goodbye!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-051",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “a white map with seven stars.” Which number is written as “seven”?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "“seven” means 7."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-052",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a white map with seven stars”?",
+      "options": [
+        "map",
+        "reading corner",
+        "seven",
+        "white"
+      ],
+      "answer": 3,
+      "explanation": "“white” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-053",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "baby",
+        "reading corner",
+        "map",
+        "white"
+      ],
+      "answer": 0,
+      "explanation": "“baby” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-054",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We sit and read quietly in the reading corner.” Which option names this place?",
+      "options": [
+        "baby",
+        "reading corner",
+        "white",
+        "seven"
+      ],
+      "answer": 1,
+      "explanation": "“reading corner” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-055",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The white is 7.",
+        "baby is at home.",
+        "Look at the map.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Look at the map.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-056",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a white map with seven stars”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "baby — reading corner — yesterday",
+        "white — seven — map"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-057",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “nine purple dots on a computer card.” Look at the word “red”. Which letter comes first?",
+      "options": [
+        "r",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“red” begins with r."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-058",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Good evening! —___",
+      "options": [
+        "I am a colour.",
+        "Good evening!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Good evening!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-059",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “nine purple dots on a computer card.” Which number is written as “nine”?",
+      "options": [
+        "2",
+        "3",
+        "9",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "“nine” means 9."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-060",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “nine purple dots on a computer card”?",
+      "options": [
+        "computer",
+        "computer room",
+        "nine",
+        "purple"
+      ],
+      "answer": 3,
+      "explanation": "“purple” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-061",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "uncle",
+        "computer room",
+        "computer",
+        "purple"
+      ],
+      "answer": 0,
+      "explanation": "“uncle” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-062",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We learn with computers in the computer room.” Which option names this place?",
+      "options": [
+        "uncle",
+        "computer room",
+        "purple",
+        "nine"
+      ],
+      "answer": 1,
+      "explanation": "“computer room” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-063",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The purple is 9.",
+        "uncle is at home.",
+        "Point to the computer.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Point to the computer.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-064",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “nine purple dots on a computer card”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "uncle — computer room — yesterday",
+        "purple — nine — computer"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-065",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “a pink kite with ten small circles.” Look at the word “kite”. Which letter comes first?",
+      "options": [
+        "k",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“kite” begins with k."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-066",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Thank you. —___",
+      "options": [
+        "I am a colour.",
+        "You are welcome.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“You are welcome.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-067",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “a pink kite with ten small circles.” Which number is written as “ten”?",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "“ten” means 10."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-068",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a pink kite with ten small circles”?",
+      "options": [
+        "kite",
+        "school hall",
+        "ten",
+        "pink"
+      ],
+      "answer": 3,
+      "explanation": "“pink” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-069",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "aunt",
+        "school hall",
+        "kite",
+        "pink"
+      ],
+      "answer": 0,
+      "explanation": "“aunt” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-070",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We meet for school events in the school hall.” Which option names this place?",
+      "options": [
+        "aunt",
+        "school hall",
+        "pink",
+        "ten"
+      ],
+      "answer": 1,
+      "explanation": "“school hall” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-071",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The pink is 10.",
+        "aunt is at home.",
+        "Show me the kite.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Show me the kite.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-072",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a pink kite with ten small circles”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "aunt — school hall — yesterday",
+        "pink — ten — kite"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-073",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “one brown hat in the garden.” Look at the word “hat”. Which letter comes first?",
+      "options": [
+        "h",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“hat” begins with h."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-074",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—I am sorry. —___",
+      "options": [
+        "I am a colour.",
+        "That’s OK.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“That’s OK.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-075",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “one brown hat in the garden.” Which number is written as “one”?",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "“one” means 1."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-076",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “one brown hat in the garden”?",
+      "options": [
+        "hat",
+        "garden",
+        "one",
+        "brown"
+      ],
+      "answer": 3,
+      "explanation": "“brown” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-077",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "cousin",
+        "garden",
+        "hat",
+        "brown"
+      ],
+      "answer": 0,
+      "explanation": "“cousin” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-078",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We care for plants in the garden.” Which option names this place?",
+      "options": [
+        "cousin",
+        "garden",
+        "brown",
+        "one"
+      ],
+      "answer": 1,
+      "explanation": "“garden” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-079",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The brown is 1.",
+        "cousin is at home.",
+        "Put on your hat.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Put on your hat.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-080",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “one brown hat in the garden”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "cousin — garden — yesterday",
+        "brown — one — hat"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-081",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “eleven grey cups in two rows.” Look at the word “leg”. Which letter comes first?",
+      "options": [
+        "l",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“leg” begins with l."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-082",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Can I help you? —___",
+      "options": [
+        "I am a colour.",
+        "Yes, please.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Yes, please.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-083",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Number card: “eleven grey cups in two rows.” Which number is written as “eleven”?",
+      "options": [
+        "6",
+        "7",
+        "11",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "“eleven” means 11."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-084",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “eleven grey cups in two rows”?",
+      "options": [
+        "cup",
+        "dining room",
+        "eleven",
+        "grey"
+      ],
+      "answer": 3,
+      "explanation": "“grey” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-085",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word names a family member or family group?",
+      "options": [
+        "parents",
+        "dining room",
+        "cup",
+        "grey"
+      ],
+      "answer": 0,
+      "explanation": "“parents” is a family word."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-086",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We eat lunch in the dining room.” Which option names this place?",
+      "options": [
+        "parents",
+        "dining room",
+        "grey",
+        "eleven"
+      ],
+      "answer": 1,
+      "explanation": "“dining room” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-087",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which sentence is a clear classroom instruction?",
+      "options": [
+        "The grey is 11.",
+        "parents is at home.",
+        "Hold the cup.",
+        "Good night, Monday."
+      ],
+      "answer": 2,
+      "explanation": "“Hold the cup.” tells someone what to do."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-088",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “eleven grey cups in two rows”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "parents — dining room — yesterday",
+        "grey — eleven — cup"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-089",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Word card: “twelve gold stars on a notebook.” Look at the word “nose”. Which letter comes first?",
+      "options": [
+        "n",
+        "a",
+        "t",
+        "o"
+      ],
+      "answer": 0,
+      "explanation": "“nose” begins with n."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-090",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—May I come in? —___",
+      "options": [
+        "I am a colour.",
+        "Yes, come in.",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“Yes, come in.” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-091",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "There are 12 notebooks. Which word matches the number?",
+      "options": [
+        "zero",
+        "one",
+        "twelve",
+        "two"
+      ],
+      "answer": 2,
+      "explanation": "12 is written “twelve”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-092",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “twelve gold stars on a notebook”?",
+      "options": [
+        "notebook",
+        "teachers’ office",
+        "twelve",
+        "gold"
+      ],
+      "answer": 3,
+      "explanation": "“gold” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-093",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The clue says “people at home who care for one another”. Who is it?",
+      "options": [
+        "family",
+        "teacher",
+        "classroom",
+        "pencil"
+      ],
+      "answer": 0,
+      "explanation": "“family” matches the family clue “people at home who care for one another”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-094",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We speak with a teacher in the teachers’ office.” Which option names this place?",
+      "options": [
+        "family",
+        "teachers’ office",
+        "gold",
+        "twelve"
+      ],
+      "answer": 1,
+      "explanation": "“teachers’ office” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-095",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The teacher says, “Close your notebook.” What should you use or move toward?",
+      "options": [
+        "family",
+        "gold",
+        "notebook",
+        "twelve"
+      ],
+      "answer": 2,
+      "explanation": "The instruction names the notebook."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-096",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “twelve gold stars on a notebook”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "family — teachers’ office — yesterday",
+        "gold — twelve — notebook"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-097",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The word “van” begins with v. Which pair is correct?",
+      "options": [
+        "v — /v/",
+        "a — /m/",
+        "t — /s/",
+        "o — /b/"
+      ],
+      "answer": 0,
+      "explanation": "“van” begins with the letter v and the sound /v/."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-098",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常问候",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—See you tomorrow. —___",
+      "options": [
+        "I am a colour.",
+        "See you!",
+        "Three books.",
+        "Open the window yesterday."
+      ],
+      "answer": 1,
+      "explanation": "“See you!” is a natural reply in this situation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-099",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数字",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "There are 13 flags. Which word matches the number?",
+      "options": [
+        "two",
+        "three",
+        "thirteen",
+        "four"
+      ],
+      "answer": 2,
+      "explanation": "13 is written “thirteen”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-100",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "颜色",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Which word is a colour in this card: “a silver van near thirteen flags”?",
+      "options": [
+        "flag",
+        "sports field",
+        "thirteen",
+        "silver"
+      ],
+      "answer": 3,
+      "explanation": "“silver” is the colour word in the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-101",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "家庭",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The clue says “a boy in a family”. Who is it?",
+      "options": [
+        "son",
+        "teacher",
+        "classroom",
+        "pencil"
+      ],
+      "answer": 0,
+      "explanation": "“son” matches the family clue “a boy in a family”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-102",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "学校",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "School map clue: “We practise sports in the sports field.” Which option names this place?",
+      "options": [
+        "son",
+        "sports field",
+        "silver",
+        "thirteen"
+      ],
+      "answer": 1,
+      "explanation": "“sports field” names the school place for this activity."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-103",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "课堂指令",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The teacher says, “Run to the flag.” What should you use or move toward?",
+      "options": [
+        "son",
+        "silver",
+        "flag",
+        "thirteen"
+      ],
+      "answer": 2,
+      "explanation": "The instruction names the flag."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-104",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "图文匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the picture card in words: “a silver van near thirteen flags”. Which note matches its colour, number and school item?",
+      "options": [
+        "blue — one — train",
+        "no colour — zero — nothing",
+        "son — sports field — yesterday",
+        "silver — thirteen — flag"
+      ],
+      "answer": 3,
+      "explanation": "The matching note keeps the colour, number and school item from the card."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-105",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "字母与声音",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The word “zoo” begins with z. Which pair is correct?",
+      "options": [
+        "z — /z/",
+        "a — /m/",
+        "t — /s/",
+        "o — /b/"
+      ],
+      "answer": 0,
+      "explanation": "“zoo” begins with the letter z and the sound /z/."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-106",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The word “book” begins with the letter ___.",
+      "answer": "b",
+      "explanation": "The word “b” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-107",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "When a friend says “Hello!”, you can answer “___!”",
+      "answer": "hello",
+      "explanation": "The word “hello” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-108",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The number after four is ___.",
+      "answer": "five",
+      "explanation": "The word “five” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-109",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Grass is often ___.",
+      "answer": "green",
+      "explanation": "The word “green” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-110",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "My mother and father are my ___.",
+      "answer": "parents",
+      "explanation": "The word “parents” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-111",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "We read books in the ___.",
+      "answer": "library",
+      "explanation": "The word “library” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-112",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "“___ your book” means 把书打开.",
+      "answer": "open",
+      "explanation": "The word “open” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-113",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "图文匹配",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Card: “one red apple”. The colour is ___.",
+      "answer": "red",
+      "explanation": "The word “red” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-114",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The word “dog” begins with ___.",
+      "answer": "d",
+      "explanation": "The word “d” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-115",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Thank you. —You are ___.",
+      "answer": "welcome",
+      "explanation": "The word “welcome” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-116",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Ten and one make ___.",
+      "answer": "eleven",
+      "explanation": "The word “eleven” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-117",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The sky is often ___.",
+      "answer": "blue",
+      "explanation": "The word “blue” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-118",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "家庭",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "My mum’s mother is my ___.",
+      "answer": "grandmother",
+      "explanation": "The word “grandmother” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-119",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "学校",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "We run and play on the ___.",
+      "answer": "playground",
+      "explanation": "The word “playground” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-120",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "课堂指令",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "“___ down” asks you to take a seat.",
+      "answer": "sit",
+      "explanation": "The word “sit” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-121",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Card: “three blue pens”. The number is ___.",
+      "answer": "three",
+      "explanation": "The word “three” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-122",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The word “sun” begins with the sound /___/.",
+      "answer": "s",
+      "explanation": "The word “s” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-123",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—How are you? —I am ___.",
+      "answer": "fine",
+      "explanation": "The word “fine” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-124",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "数字",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Twelve comes after ___.",
+      "answer": "eleven",
+      "explanation": "The word “eleven” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-125",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "课堂指令",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "“___ at the map” asks your eyes to face it.",
+      "answer": "look",
+      "explanation": "The word “look” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-126",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "图文匹配",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Card: “a yellow bag”. The object is a ___.",
+      "answer": "bag",
+      "explanation": "The word “bag” completes the sentence correctly."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-127",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字母与声音",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match the letters b, c, d and f with words that begin with them.",
+      "left": [
+        "b",
+        "c",
+        "d",
+        "f"
+      ],
+      "right": [
+        "dog",
+        "book",
+        "fish",
+        "cat"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 字母与声音 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-128",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常问候",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match Hello, How are you, Thank you and Goodbye with their replies.",
+      "left": [
+        "Hello!",
+        "How are you?",
+        "Thank you.",
+        "Goodbye!"
+      ],
+      "right": [
+        "You are welcome.",
+        "Hello!",
+        "Goodbye!",
+        "I am fine."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 日常问候 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-129",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "数字",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match the number words one, three, five and ten with digits.",
+      "left": [
+        "one",
+        "three",
+        "five",
+        "ten"
+      ],
+      "right": [
+        "5",
+        "1",
+        "10",
+        "3"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 数字 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-130",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "颜色",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match red, blue, green and yellow with their Chinese colour meanings.",
+      "left": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "right": [
+        "绿色",
+        "红色",
+        "黄色",
+        "蓝色"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 颜色 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-131",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "家庭",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match mother, father, sister and brother with their Chinese family meanings.",
+      "left": [
+        "mother",
+        "father",
+        "sister",
+        "brother"
+      ],
+      "right": [
+        "姐妹",
+        "妈妈",
+        "兄弟",
+        "爸爸"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 家庭 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-132",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "学校",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match each school place with the activity done there.",
+      "left": [
+        "classroom",
+        "library",
+        "playground",
+        "art room"
+      ],
+      "right": [
+        "运动",
+        "上课",
+        "画画",
+        "读书"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 学校 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-133",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "课堂指令",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match each classroom instruction with its action in Chinese.",
+      "left": [
+        "Open your book.",
+        "Stand up.",
+        "Sit down.",
+        "Look at the board."
+      ],
+      "right": [
+        "坐下",
+        "打开书",
+        "看黑板",
+        "起立"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 课堂指令 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-134",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "图文匹配",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the first-grade English card set. Match each colour-and-number word card with its full Chinese note.",
+      "left": [
+        "one red apple",
+        "two blue pens",
+        "three green books",
+        "four yellow bags"
+      ],
+      "right": [
+        "3本绿色书",
+        "1个红苹果",
+        "4个黄色包",
+        "2支蓝色笔"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 图文匹配 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-135",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "字母与声音",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match the letters b, c, d and f with words that begin with them.",
+      "left": [
+        "b",
+        "c",
+        "d",
+        "f"
+      ],
+      "right": [
+        "dog",
+        "book",
+        "fish",
+        "cat"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 字母与声音 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-136",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "日常问候",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match Hello, How are you, Thank you and Goodbye with their replies.",
+      "left": [
+        "Hello!",
+        "How are you?",
+        "Thank you.",
+        "Goodbye!"
+      ],
+      "right": [
+        "You are welcome.",
+        "Hello!",
+        "Goodbye!",
+        "I am fine."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 日常问候 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-137",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "数字",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match the number words one, three, five and ten with digits.",
+      "left": [
+        "one",
+        "three",
+        "five",
+        "ten"
+      ],
+      "right": [
+        "5",
+        "1",
+        "10",
+        "3"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 数字 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-138",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "颜色",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match red, blue, green and yellow with their Chinese colour meanings.",
+      "left": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "right": [
+        "绿色",
+        "红色",
+        "黄色",
+        "蓝色"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 颜色 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-139",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "家庭",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match mother, father, sister and brother with their Chinese family meanings.",
+      "left": [
+        "mother",
+        "father",
+        "sister",
+        "brother"
+      ],
+      "right": [
+        "姐妹",
+        "妈妈",
+        "兄弟",
+        "爸爸"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 家庭 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g1-english-authored-140",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "学校",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "低龄短句",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Review the classroom word cards. Match each school place with the activity done there.",
+      "left": [
+        "classroom",
+        "library",
+        "playground",
+        "art room"
+      ],
+      "right": [
+        "运动",
+        "上课",
+        "画画",
+        "读书"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning of all four 学校 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
