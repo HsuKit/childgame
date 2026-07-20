@@ -1,0 +1,101 @@
+[
+  {
+    "sourceId": "cd08dd3d-af2e-4840-b42e-01308892d494",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-math-legacy-cd08dd3daf2e: match must pair every item exactly once"
+    ]
+  },
+  {
+    "sourceId": "88422866-1c7c-46eb-af47-ce7a0e4e7b7b",
+    "reason": "knowledge-point-ambiguous"
+  },
+  {
+    "sourceId": "d59fc9e9-66bd-4ed6-a63b-bc601d5a019f",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-math-legacy-d59fc9e966bd: match must pair every item exactly once"
+    ]
+  },
+  {
+    "sourceId": "f3b67d44-5fa0-4121-8b92-0b84e563d41e",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-chinese-legacy-f3b67d445fa0: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "e84f8dbd-472a-4f1f-85b0-20c0f2ee5349",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-math-legacy-e84f8dbd472a: match must pair every item exactly once"
+    ]
+  },
+  {
+    "sourceId": "40cc4c97-6c17-433a-b7be-1b7fb54cb93a",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-chinese-legacy-40cc4c976c17: match must pair every item exactly once"
+    ]
+  },
+  {
+    "sourceId": "0033ef77-6361-4798-830e-d8a67ea44d80",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-english-legacy-0033ef776361: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "775579b8-f474-4ffa-8b5d-577714031bb4",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-english-legacy-775579b8f474: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "4e6eb9d0-5789-48dc-b439-c7d6a9290fff",
+    "reason": "knowledge-point-ambiguous"
+  },
+  {
+    "sourceId": "6e5cd1dd-d7cd-4a47-86f6-5beaccd8dd15",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-chinese-legacy-6e5cd1ddd7cd: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "07066c00-ccaf-4514-b0d7-c2ad75f5c179",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-math-legacy-07066c00ccaf: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "47f44540-80de-4476-a50a-e0146855b819",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-chinese-legacy-47f4454080de: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "6f3a6144-4b64-4654-8b66-17a908124611",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-chinese-legacy-6f3a61444b64: choice requires four unique options"
+    ]
+  },
+  {
+    "sourceId": "49e95f5f-35bc-439c-a5a1-51a445c07ff3",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-math-legacy-49e95f5f35bc: match must pair every item exactly once"
+    ]
+  },
+  {
+    "sourceId": "641f95ff-fb9f-4510-a3e5-6fb41cdc96e7",
+    "reason": "schema-invalid",
+    "errors": [
+      "g2-english-legacy-641f95fffb9f: choice requires four unique options"
+    ]
+  }
+]

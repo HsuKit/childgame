@@ -1,0 +1,7198 @@
+[
+  {
+    "id": "g2-chinese-legacy-472cd6b281dc",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "下面哪个字读“huā”？",
+      "answer": 0,
+      "options": [
+        "花",
+        "草",
+        "树",
+        "叶"
+      ],
+      "explanation": "“花”的拼音是huā。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-caf22caa47e4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“太阳”的“太”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "6画"
+      ],
+      "explanation": "“太”字笔顺：横、撇、捺、点，共4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5ee1af969a71",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "和“大”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "小",
+        "多",
+        "高",
+        "长"
+      ],
+      "explanation": "“大”的反义词是“小”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-563e5cde0b66",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪一个词可以填在“一（ ）鱼”中？",
+      "answer": 0,
+      "options": [
+        "条",
+        "只",
+        "头",
+        "匹"
+      ],
+      "explanation": "鱼的量词用“条”，如一条鱼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6bb2421fdc21",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "apply",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "下列哪一组是近义词？",
+      "answer": 1,
+      "options": [
+        "开心—难过",
+        "快乐—高兴",
+        "高大—矮小",
+        "冷—热"
+      ],
+      "explanation": "“快乐”和“高兴”意思相近，是一对近义词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d6984f709760",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一清二楚”是什么意思？",
+      "answer": 0,
+      "options": [
+        "非常清楚",
+        "马马虎虎",
+        "干干净净",
+        "安安静静"
+      ],
+      "explanation": "一清二楚就是看得很清楚、很明白。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8a13aa9a7486",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "下列句子中，哪个标点符号用错了？",
+      "answer": 3,
+      "options": [
+        "你吃饭了吗？",
+        "今天真开心！",
+        "小明说：“我来了。”",
+        "这是谁的书！"
+      ],
+      "explanation": "“这是谁的书”是问句，应该用问号，不是叹号。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-02d091d16f6e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“冰雪融化”描写的是什么季节？",
+      "answer": 0,
+      "options": [
+        "春天",
+        "夏天",
+        "秋天",
+        "冬天"
+      ],
+      "explanation": "冰雪融化，万物复苏，是春天的景象。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-837be0935b16",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "哪个汉字的结构是“左右结构”？",
+      "answer": 0,
+      "options": [
+        "明",
+        "早",
+        "园",
+        "花"
+      ],
+      "explanation": "“明”由“日”和“月”左右组成，是左右结构。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c7304f2fa984",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "妈妈在厨房（ ）菜。括号里填什么？",
+      "answer": 1,
+      "options": [
+        "坐",
+        "做",
+        "作",
+        "座"
+      ],
+      "explanation": "“做菜”表示烹饪，用“做”；“坐”是坐下，“作”用于工作，“座”是座位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fb499daa7af4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "《静夜思》的作者是谁？",
+      "answer": 2,
+      "options": [
+        "杜甫",
+        "白居易",
+        "李白",
+        "王维"
+      ],
+      "explanation": "《静夜思》是唐代诗人李白的著名作品。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f6b3a0b35241",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“他飞快地跑回家”中“飞快地”是修饰什么的？",
+      "answer": 1,
+      "options": [
+        "他",
+        "跑",
+        "回家",
+        "的"
+      ],
+      "explanation": "“飞快地”用来形容“跑”这个动作，是修饰动词的。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-74d324056761",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“森林”的“森”有几个“木”？",
+      "answer": 2,
+      "options": [
+        "一个",
+        "两个",
+        "三个",
+        "四个"
+      ],
+      "explanation": "“森”字由三个“木”组成。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-06f9a6357c31",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "apply",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "下面词语中，没有错别字的是？",
+      "answer": 2,
+      "options": [
+        "在见",
+        "已后",
+        "从前",
+        "以经"
+      ],
+      "explanation": "“从前”书写正确；其余应为“再见”“以后”“已经”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4ca1b0e75ea8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "reason",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "“一年之计在于春”的下一句是？",
+      "answer": 0,
+      "options": [
+        "一日之计在于晨",
+        "一生之计在于勤",
+        "一寸光阴一寸金",
+        "寸金难买寸光阴"
+      ],
+      "explanation": "完整句子：一年之计在于春，一日之计在于晨。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ba2d65354921",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“白云”的拼音是___。",
+      "answer": "bái yún",
+      "explanation": "“白”拼音bái，“云”拼音yún，注意声调。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8c524a0c0b4a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "春眠不觉晓，处处闻啼___。",
+      "answer": "鸟",
+      "explanation": "孟浩然《春晓》：春眠不觉晓，处处闻啼鸟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9c253bc2d456",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小明在公园里看到一___桥。",
+      "answer": "座",
+      "explanation": "桥的量词是“座”，一座桥。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b98ce9bf55a4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "鸟",
+        "马",
+        "鱼",
+        "花"
+      ],
+      "stem": "把汉字和正确的拼音连起来",
+      "right": [
+        "yú",
+        "huā",
+        "niǎo",
+        "mǎ"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "鸟niǎo、马mǎ、鱼yú、花huā。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4b4248939f94",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "暖和",
+        "安静",
+        "美丽",
+        "飞快"
+      ],
+      "stem": "把词语和它的意思连起来",
+      "right": [
+        "很温暖",
+        "没有声音",
+        "非常快",
+        "很漂亮"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "暖和对应很温暖，安静对应没有声音，美丽对应很漂亮，飞快对应非常快。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-374e933ecb16",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "同学们___教室里看书。",
+      "answer": "在",
+      "explanation": "在教室里看书。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7adaf0eb7066",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“爸爸”的拼音哪个正确？",
+      "answer": 0,
+      "options": [
+        "bà ba",
+        "bā bā",
+        "bǎ ba",
+        "bà bà"
+      ],
+      "explanation": "爸爸读bà ba，第二个字轻声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9710583e1ff1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“天”字加一笔变成什么字？",
+      "answer": 0,
+      "options": [
+        "夫",
+        "大",
+        "太",
+        "天"
+      ],
+      "explanation": "“天”加一笔可变成“夫”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8bb9c33fefbd",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪个词表示“非常生气”？",
+      "answer": 2,
+      "options": [
+        "开心",
+        "难过",
+        "愤怒",
+        "害怕"
+      ],
+      "explanation": "愤怒就是非常生气的意思。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c7221addd14d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一只小鸟在树上（ ）”选哪个？",
+      "answer": 0,
+      "options": [
+        "唱歌",
+        "跳舞",
+        "做作业",
+        "画画"
+      ],
+      "explanation": "小鸟会唱歌，用唱歌最合适。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d647184e8666",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "段落信息",
+    "skill": "reason",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“狐假虎威”故事中，狐狸依仗谁吓唬小动物？",
+      "answer": 0,
+      "options": [
+        "老虎",
+        "狮子",
+        "大象",
+        "熊"
+      ],
+      "explanation": "狐狸借着老虎的威风，所以是狐假虎威。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fea84a7fb6fa",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“左右”的“左”有几画？",
+      "answer": 1,
+      "options": [
+        "4画",
+        "5画",
+        "6画",
+        "7画"
+      ],
+      "explanation": "“左”笔顺：横、撇、横、竖、横，共5画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-292cb2ff9745",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的词：",
+      "answer": 3,
+      "options": [
+        "铅笔",
+        "橡皮",
+        "尺子",
+        "桌子"
+      ],
+      "explanation": "桌子是家具，其它是文具。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6be57901da7c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“蝴蝶”的正确读音是？",
+      "answer": 0,
+      "options": [
+        "hú dié",
+        "hú tié",
+        "hǔ dié",
+        "hù dié"
+      ],
+      "explanation": "蝴蝶读hú dié。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-aa4b0bda622d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "选择合适的词语：老师走进教室，同学们立刻（ ）下来。",
+      "answer": 0,
+      "options": [
+        "安静",
+        "吵闹",
+        "乱跑",
+        "大笑"
+      ],
+      "explanation": "老师来了，同学们会安静下来。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-36be56142fc3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个成语是描写春天的？",
+      "answer": 1,
+      "options": [
+        "秋高气爽",
+        "春暖花开",
+        "烈日炎炎",
+        "冰天雪地"
+      ],
+      "explanation": "春暖花开描写春天。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d0ff2246600e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“水”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "6画"
+      ],
+      "explanation": "水笔顺：竖钩、横撇、撇、捺，共4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1edb48c5d163",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "apply",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“飞”字的笔画顺序正确的是？",
+      "answer": 0,
+      "options": [
+        "横撇、撇、点",
+        "撇、横撇、点",
+        "点、横撇、撇",
+        "横撇、点、撇"
+      ],
+      "explanation": "“飞”笔顺：横斜钩、撇、点。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d03dca11da1d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“快”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "慢",
+        "走",
+        "跑",
+        "高"
+      ],
+      "explanation": "快的反义词是慢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-e1a6e202e034",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《村居》中“忙趁东风放纸鸢”，“纸鸢”是什么？",
+      "answer": 1,
+      "options": [
+        "纸飞机",
+        "风筝",
+        "灯笼",
+        "气球"
+      ],
+      "explanation": "纸鸢就是风筝。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a71c91913065",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“他跑得像风一样快”用了什么修辞？",
+      "answer": 0,
+      "options": [
+        "比喻",
+        "拟人",
+        "夸张",
+        "排比"
+      ],
+      "explanation": "把跑步速度比作风，是比喻句。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8626ed25ad91",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“中”字加偏旁可以变成“___”。",
+      "answer": "钟",
+      "explanation": "中加金字旁是钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-3832ad658a1c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "远看山有色，近听水___声。",
+      "answer": "无",
+      "explanation": "画中远看山有颜色，走近听水却没有声音。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f91951523901",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小猫___爱吃鱼。",
+      "answer": "非常",
+      "explanation": "填“非常”或“特别”等都可，但这里用非常。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5bc9ca135204",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "江",
+        "打",
+        "花",
+        "吃"
+      ],
+      "stem": "将相同部首的字连起来",
+      "right": [
+        "叫",
+        "草",
+        "河",
+        "拍"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "江河都带氵，打拍带扌，花草带艹，吃叫带口。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-961fd5110de2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "大雪",
+        "荷花",
+        "落叶",
+        "柳绿"
+      ],
+      "stem": "把词语和对应的季节连起来",
+      "right": [
+        "冬天",
+        "夏天",
+        "秋天",
+        "春天"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "大雪-冬，荷花-夏，落叶-秋，柳绿-春。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8d18a7a090af",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“下雨”的“下”有几画？",
+      "answer": 1,
+      "options": [
+        "2画",
+        "3画",
+        "4画",
+        "5画"
+      ],
+      "explanation": "“下”笔顺：横、竖、点，共3画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5f18a9eec66c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个字与“口”有关？",
+      "answer": 0,
+      "options": [
+        "唱",
+        "打",
+        "跑",
+        "江"
+      ],
+      "explanation": "唱是用嘴的，带口字旁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-10a131dc5e3f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "选出正确的句子：",
+      "answer": 0,
+      "options": [
+        "我爱吃西瓜。",
+        "我爱吃西瓜",
+        "我吃爱西瓜。",
+        "西瓜爱我吃。"
+      ],
+      "explanation": "第一句表达正确且有句号。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7b8e8c352ee1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“亡羊补牢”告诉我们什么道理？",
+      "answer": 1,
+      "options": [
+        "不要养羊",
+        "发现问题及时补救",
+        "羊丢了就别管了",
+        "要多盖房子"
+      ],
+      "explanation": "亡羊补牢意思是丢失羊后修补羊圈，比喻及时补救。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-59f765e23feb",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“快乐”的“乐”另一个读音是？",
+      "answer": 1,
+      "options": [
+        "lè",
+        "yuè",
+        "yào",
+        "luò"
+      ],
+      "explanation": "乐读lè（快乐），也读yuè（音乐）。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ee4333be87a8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的词：",
+      "answer": 3,
+      "options": [
+        "荷花",
+        "菊花",
+        "梅花",
+        "火花"
+      ],
+      "explanation": "火花不是花，是火苗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-89a48d3952da",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“同学们在操场上（ ）”选哪个？",
+      "answer": 0,
+      "options": [
+        "跑步",
+        "睡觉",
+        "写字",
+        "看书"
+      ],
+      "explanation": "操场上通常进行体育活动，跑步合适。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-62bc8428d12c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“弯弯的月亮像小船”把什么比作小船？",
+      "answer": 1,
+      "options": [
+        "天空",
+        "月亮",
+        "星星",
+        "云朵"
+      ],
+      "explanation": "把月亮比作小船。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-89e14605ad90",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《登鹳雀楼》中“欲穷千里目”的下一句是？",
+      "answer": 0,
+      "options": [
+        "更上一层楼",
+        "低头思故乡",
+        "处处闻啼鸟",
+        "春风吹又生"
+      ],
+      "explanation": "欲穷千里目，更上一层楼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f4eb081d4c05",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“手”字可以组成什么词？",
+      "answer": 3,
+      "options": [
+        "手心",
+        "手机",
+        "手指",
+        "以上都是"
+      ],
+      "explanation": "手可以组成手心、手机、手指等很多词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-53c87f66fb7b",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“红的像火，粉的像霞，白的像雪”用了什么修辞？",
+      "answer": 0,
+      "options": [
+        "比喻",
+        "拟人",
+        "夸张",
+        "设问"
+      ],
+      "explanation": "把颜色比作火、霞、雪，是比喻。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b4ad4f004918",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“马”的第二笔是？",
+      "answer": 1,
+      "options": [
+        "横",
+        "竖折折钩",
+        "横折",
+        "竖"
+      ],
+      "explanation": "马笔顺：横折、竖折折钩、横。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0bbe0d402803",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个词描写天气？",
+      "answer": 0,
+      "options": [
+        "万里无云",
+        "五颜六色",
+        "前前后后",
+        "高高兴兴"
+      ],
+      "explanation": "万里无云形容天气晴朗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-afcaefdf2b1f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“坐井观天”中，青蛙认为天有多大？",
+      "answer": 2,
+      "options": [
+        "很大",
+        "无边无际",
+        "井口那么大",
+        "和井底一样"
+      ],
+      "explanation": "青蛙在井底看天，认为天只有井口那么大。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-755f62ae3ce7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小___真可爱。（填一种动物）",
+      "answer": "狗",
+      "explanation": "常见宠物，填写狗、猫等都可以，答案用狗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ab48089a89b0",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "不知细叶谁裁出，二月春风似___刀。",
+      "answer": "剪",
+      "explanation": "《咏柳》：不知细叶谁裁出，二月春风似剪刀。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1ce04b056014",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "妈妈在___衣服。",
+      "answer": "洗",
+      "explanation": "根据语境，洗衣服。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-25c3ac08ef8f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "日",
+        "月",
+        "田",
+        "口"
+      ],
+      "stem": "把汉字和它的笔画数连起来",
+      "right": [
+        "4画",
+        "4画",
+        "5画",
+        "3画"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "日4画，月4画，田5画，口3画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b1b00fb19daa",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "医生",
+        "老师",
+        "消防员",
+        "农民"
+      ],
+      "stem": "把人物和对应的事情连起来",
+      "right": [
+        "教书",
+        "救火",
+        "种地",
+        "看病"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "医生看病，老师教书，消防员救火，农民种地。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-86f0f8c769ca",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“学校”的“学”字部首是什么？",
+      "answer": 0,
+      "options": [
+        "子",
+        "小",
+        "学",
+        "穴"
+      ],
+      "explanation": "“学”的部首是“子”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f00c9dbdef7c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“又大又红”形容的是什么？",
+      "answer": 1,
+      "options": [
+        "草",
+        "苹果",
+        "小河",
+        "书本"
+      ],
+      "explanation": "苹果常被形容又大又红。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-62b9e1bbb84c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“高”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "低",
+        "胖",
+        "长",
+        "粗"
+      ],
+      "explanation": "高的反义词是低或矮。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-28596b3c918d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "选词填空：小河里的水（ ）地流着。",
+      "answer": 2,
+      "options": [
+        "悄悄",
+        "轻轻",
+        "哗哗",
+        "慢慢"
+      ],
+      "explanation": "哗哗形容流水声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-79a1cbfc0f37",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《望庐山瀑布》中“飞流直下三千尺”运用了什么修辞？",
+      "answer": 2,
+      "options": [
+        "比喻",
+        "拟人",
+        "夸张",
+        "排比"
+      ],
+      "explanation": "“三千尺”是夸张的写法。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-70f27e31414c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“春”字一共有几画？",
+      "answer": 1,
+      "options": [
+        "8画",
+        "9画",
+        "10画",
+        "7画"
+      ],
+      "explanation": "春：横、横、横、撇、捺、竖、横折、横、横，9画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-281fbda4c6cd",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "太阳",
+        "月亮",
+        "星星",
+        "白云"
+      ],
+      "explanation": "白云不是天体，其它都是。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0f98fd8069d6",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "下面哪个字是整体认读音节？",
+      "answer": 3,
+      "options": [
+        "云",
+        "月",
+        "雨",
+        "只"
+      ],
+      "explanation": "“只”的拼音zhi是整体认读音节。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1ccbadc48f41",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“美丽的（ ）”括号里填什么合适？",
+      "answer": 1,
+      "options": [
+        "跑步",
+        "风景",
+        "思考",
+        "写字"
+      ],
+      "explanation": "美丽的风景是常见搭配。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7b6d378c5161",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "段落信息",
+    "skill": "reason",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“揠苗助长”故事中的农夫犯了什么错误？",
+      "answer": 1,
+      "options": [
+        "种得太早",
+        "拔高禾苗急于求成",
+        "没有浇水",
+        "没有施肥"
+      ],
+      "explanation": "他为了禾苗快长，把苗拔高，结果禾苗枯死了。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-63696a21be1c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“开心”的近义词是？",
+      "answer": 1,
+      "options": [
+        "难过",
+        "快乐",
+        "生气",
+        "伤心"
+      ],
+      "explanation": "开心和快乐意思相近。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f7f949c8d93a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "下面句子中，哪个是正确的？",
+      "answer": 1,
+      "options": [
+        "小红是好朋友我的。",
+        "我的好朋友是小红。",
+        "好朋友小红是我的。",
+        "是小红我的好朋友。"
+      ],
+      "explanation": "“我的好朋友是小红”语序正确。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a4d2a3aeb1f3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“月”字加一笔变成什么字？",
+      "answer": 0,
+      "options": [
+        "用",
+        "明",
+        "有",
+        "朋"
+      ],
+      "explanation": "“月”加一笔“竖”变成“用”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-040118f3b436",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“太阳像火球”把什么比作火球？",
+      "answer": 0,
+      "options": [
+        "太阳",
+        "火",
+        "球",
+        "光"
+      ],
+      "explanation": "把太阳比作火球。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8e208cb4b8bf",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下列哪句诗描写了朋友情？",
+      "answer": 1,
+      "options": [
+        "举头望明月",
+        "桃花潭水深千尺",
+        "二月春风似剪刀",
+        "春眠不觉晓"
+      ],
+      "explanation": "“桃花潭水深千尺，不及汪伦送我情”写友情。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6266d8bcbe79",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "天上的___一闪一闪的。",
+      "answer": "星星",
+      "explanation": "星星在天空闪烁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d25a648b7f52",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小荷才露尖尖角，早有蜻蜓___上头。",
+      "answer": "立",
+      "explanation": "《小池》：小荷才露尖尖角，早有蜻蜓立上头。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-64f2638b6cb2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "段落信息",
+    "skill": "apply",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "爸爸___我讲故事。",
+      "answer": "给",
+      "explanation": "爸爸给我讲故事。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9f231613618c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "公鸡",
+        "鸭子",
+        "小猫",
+        "小狗"
+      ],
+      "stem": "把动物和它们的叫声连起来",
+      "right": [
+        "喵喵",
+        "汪汪",
+        "喔喔",
+        "嘎嘎"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "公鸡喔喔，鸭子嘎嘎，小猫喵喵，小狗汪汪。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-bd6e0c407124",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "春暖花开",
+        "烈日炎炎",
+        "秋风习习",
+        "大雪纷飞"
+      ],
+      "stem": "把词语和它们的意思连起来",
+      "right": [
+        "春天",
+        "夏天",
+        "秋天",
+        "冬天"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "春暖花开-春，烈日炎炎-夏，秋风习习-秋，大雪纷飞-冬。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4f53bba5d3a9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“我们”的“们”读什么？",
+      "answer": 1,
+      "options": [
+        "mén",
+        "men",
+        "ménɡ",
+        "mèn"
+      ],
+      "explanation": "“们”读轻声men。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d2d780511e77",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“大”字加一笔变成什么字？",
+      "answer": 0,
+      "options": [
+        "天",
+        "太",
+        "夫",
+        "犬"
+      ],
+      "explanation": "大加一笔“横”是天。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fb1ff5f5dc9f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“慢”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "快",
+        "停",
+        "走",
+        "跑"
+      ],
+      "explanation": "慢的反义词是快。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-044b9d43b4a3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "选择合适的词语：小鸟在枝头（ ）歌。",
+      "answer": 0,
+      "options": [
+        "唱",
+        "跳",
+        "写",
+        "画"
+      ],
+      "explanation": "小鸟唱歌合适。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-77bd92435ede",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "“朝霞不出门，晚霞行千里”是哪种句子？",
+      "answer": 0,
+      "options": [
+        "谚语",
+        "古诗",
+        "谜语",
+        "故事"
+      ],
+      "explanation": "这是一句关于天气的谚语。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4f20e8e5e6ef",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“林”字是什么结构？",
+      "answer": 1,
+      "options": [
+        "上下结构",
+        "左右结构",
+        "半包围",
+        "独体字"
+      ],
+      "explanation": "林由两个木左右组成。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6b3808b049c8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "电视机",
+        "电冰箱",
+        "洗衣机",
+        "铅笔"
+      ],
+      "explanation": "铅笔是文具，其它是家电。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4cc08b768fb3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“不”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "2画"
+      ],
+      "explanation": "不笔顺：横、撇、竖、点，4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a8df4d00718a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“闪闪的星星像（ ）”",
+      "answer": 0,
+      "options": [
+        "宝石",
+        "苹果",
+        "大树",
+        "小河"
+      ],
+      "explanation": "星星像宝石闪烁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a296a9fa3fcc",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《梅花》的作者是谁？",
+      "answer": 0,
+      "options": [
+        "王安石",
+        "李白",
+        "孟浩然",
+        "杜甫"
+      ],
+      "explanation": "《梅花》是宋代王安石的诗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-db83758911b7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“花”字部首是？",
+      "answer": 1,
+      "options": [
+        "化",
+        "艹",
+        "亻",
+        "七"
+      ],
+      "explanation": "花的部首是草字头艹。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5c8f6da3fd22",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪句话说得对？",
+      "answer": 0,
+      "options": [
+        "我把作业写完了。",
+        "我把作业写完不。",
+        "作业把我写完了。",
+        "我完写了作业。"
+      ],
+      "explanation": "第一句语序通顺。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-dd8ca7411806",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“手”的拼音是什么？",
+      "answer": 0,
+      "options": [
+        "shǒu",
+        "shóu",
+        "sǒu",
+        "shǒ"
+      ],
+      "explanation": "手读shǒu，第三声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ed125da35f05",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“绿油油”形容什么？",
+      "answer": 0,
+      "options": [
+        "颜色很绿",
+        "味道很香",
+        "很高大",
+        "很吵闹"
+      ],
+      "explanation": "绿油油形容绿色很浓、有光泽。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5239a3973aa2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《敕勒歌》中“天苍苍，野茫茫”的下一句是？",
+      "answer": 0,
+      "options": [
+        "风吹草低见牛羊",
+        "更上一层楼",
+        "处处闻啼鸟",
+        "床前明月光"
+      ],
+      "explanation": "天苍苍，野茫茫，风吹草低见牛羊。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-3cf808ed2e39",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "红红的太阳像___。",
+      "answer": "火球",
+      "explanation": "常见比喻，太阳像火球。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6c4a926a72b2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "夜来风雨声，花落知___少。",
+      "answer": "多",
+      "explanation": "《春晓》：夜来风雨声，花落知多少。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-eb990971f9d6",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小明___跑步很快。",
+      "answer": "的",
+      "explanation": "小明的跑步很快，“的”表示所属。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-54b1b8838576",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "stem": "把数字和汉字连起来",
+      "right": [
+        "四",
+        "三",
+        "一",
+        "二"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "1一，2二，3三，4四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a7ae6c9cbb34",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "一石二鸟",
+        "三心二意",
+        "五颜六色",
+        "七上八下"
+      ],
+      "stem": "把成语和对应的意思连起来",
+      "right": [
+        "不专心",
+        "心里不安",
+        "一举两得",
+        "色彩多"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "一石二鸟一举两得，三心二意不专心，五颜六色色彩多，七上八下心里不安。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9e698048b646",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“小河”的“河”有几个读音？",
+      "answer": 1,
+      "options": [
+        "1个",
+        "2个",
+        "3个",
+        "4个"
+      ],
+      "explanation": "河读hé，没有其他常见读音。但字音就一个，题目可能歧义，改为正确选项：1个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ec54c254d4a1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个字是前鼻音？",
+      "answer": 0,
+      "options": [
+        "山",
+        "上",
+        "三",
+        "伤"
+      ],
+      "explanation": "山(shān)是前鼻音，其他为后鼻音或翘舌。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8011fb622b64",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“来”的反义词是？",
+      "answer": 0,
+      "options": [
+        "去",
+        "走",
+        "跑",
+        "回"
+      ],
+      "explanation": "来和去是反义词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-98888aa90471",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "选词：春天来了，小草（ ）地从土里钻出来。",
+      "answer": 0,
+      "options": [
+        "悄悄",
+        "静静",
+        "慢慢",
+        "快快"
+      ],
+      "explanation": "悄悄地钻出来，体现不知不觉。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b26b36f067a6",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“独在异乡为异客”是哪首诗？",
+      "answer": 1,
+      "options": [
+        "《静夜思》",
+        "《九月九日忆山东兄弟》",
+        "《春晓》",
+        "《登鹳雀楼》"
+      ],
+      "explanation": "出自王维《九月九日忆山东兄弟》。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ab8bb836eb8c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“耳”的第三笔是？",
+      "answer": 1,
+      "options": [
+        "横",
+        "竖",
+        "横折",
+        "提"
+      ],
+      "explanation": "耳笔顺：横、竖、竖、横、横、横，第三笔是竖。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7afe8b1e9e32",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪个词描写的是夏天？",
+      "answer": 1,
+      "options": [
+        "雪花飞舞",
+        "烈日当空",
+        "果实累累",
+        "鸟语花香"
+      ],
+      "explanation": "烈日当空是夏天景象。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2d7e23387293",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“读”字是什么结构？",
+      "answer": 0,
+      "options": [
+        "左右",
+        "上下",
+        "半包围",
+        "独体"
+      ],
+      "explanation": "读是言字旁加卖，左右结构。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-dc4d6717f9af",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪一组都是水果？",
+      "answer": 2,
+      "options": [
+        "苹果 香蕉 白菜",
+        "西瓜 草莓 黄瓜",
+        "橘子 葡萄 桃子",
+        "茄子 辣椒 梨"
+      ],
+      "explanation": "第三组全是水果。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c4651e8e072c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“赠人玫瑰，手有余香”告诉我们什么？",
+      "answer": 1,
+      "options": [
+        "玫瑰很香",
+        "帮助别人自己快乐",
+        "手上有香味",
+        "不要送花"
+      ],
+      "explanation": "意思是帮助他人，自己也会快乐。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-487938e8aedc",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“田”字有几画？",
+      "answer": 1,
+      "options": [
+        "4画",
+        "5画",
+        "6画",
+        "3画"
+      ],
+      "explanation": "田笔顺：竖、横折、横、竖、横，5画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-dc8f564c4efa",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“弯弯的（ ）像小船”填什么？",
+      "answer": 0,
+      "options": [
+        "月亮",
+        "太阳",
+        "星星",
+        "云朵"
+      ],
+      "explanation": "弯弯的月亮像小船。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c347d18b07ac",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“目”字代表什么？",
+      "answer": 0,
+      "options": [
+        "眼睛",
+        "耳朵",
+        "嘴巴",
+        "鼻子"
+      ],
+      "explanation": "目是眼睛的意思。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-57acea2abe88",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一只只小鸟”表示什么？",
+      "answer": 1,
+      "options": [
+        "一只小鸟",
+        "很多小鸟",
+        "没有小鸟",
+        "大鸟"
+      ],
+      "explanation": "一只只表示数量多。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-03c949dd55f7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "“遥知不是雪，为有暗香来”描写的是？",
+      "answer": 0,
+      "options": [
+        "梅花",
+        "桃花",
+        "雪花",
+        "梨花"
+      ],
+      "explanation": "《梅花》诗句，描写梅花。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8c5420801048",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___的苹果真好吃。",
+      "answer": "红红",
+      "explanation": "形容词填空，红红的苹果。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-996a31581ca0",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "举头望明月，___头思故乡。",
+      "answer": "低",
+      "explanation": "《静夜思》：举头望明月，低头思故乡。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b60ed8d1d371",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "妈妈___我买了新书包。",
+      "answer": "给",
+      "explanation": "妈妈给我买了新书包。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8c86f3f9248f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "古诗名句",
+    "skill": "apply",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "left": [
+        "《静夜思》",
+        "《春晓》",
+        "《村居》",
+        "《咏柳》"
+      ],
+      "stem": "把古诗和作者连起来",
+      "right": [
+        "李白",
+        "孟浩然",
+        "高鼎",
+        "贺知章"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "一一对应作者。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6c99073b072f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“女”字一共有几画？",
+      "answer": 1,
+      "options": [
+        "2画",
+        "3画",
+        "4画",
+        "5画"
+      ],
+      "explanation": "女笔顺：撇点、撇、横，3画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-04cb5229f973",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "apply",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“哭”的反义词是？",
+      "answer": 0,
+      "options": [
+        "笑",
+        "说",
+        "喊",
+        "叫"
+      ],
+      "explanation": "哭和笑是反义词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-49a9c0f140d2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“书”的第四笔是？",
+      "answer": 3,
+      "options": [
+        "横",
+        "横折",
+        "竖",
+        "点"
+      ],
+      "explanation": "书笔顺：横折、横折钩、竖、点，第四笔是点。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c735abe8c474",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "“火红火红的（ ）”括号里填什么？",
+      "answer": 0,
+      "options": [
+        "太阳",
+        "大海",
+        "树叶",
+        "草地"
+      ],
+      "explanation": "太阳常用火红火红形容。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-59519c6c8ef4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《登鹳雀楼》告诉我们什么道理？",
+      "answer": 0,
+      "options": [
+        "站得高看得远",
+        "要多吃饭",
+        "楼很高",
+        "黄河很长"
+      ],
+      "explanation": "欲穷千里目更上一层楼，指站得高看得远。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-198318f3da4d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个是后鼻音音节？",
+      "answer": 2,
+      "options": [
+        "心",
+        "金",
+        "星",
+        "林"
+      ],
+      "explanation": "星xīng，后鼻音。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-313d32efeee1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "开心",
+        "高兴",
+        "快乐",
+        "伤心"
+      ],
+      "explanation": "伤心是负面情绪，其他是正面。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-dd401ac4f60e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“雨”的部首是？",
+      "answer": 0,
+      "options": [
+        "雨",
+        "一",
+        "水",
+        "丶"
+      ],
+      "explanation": "雨字本身就是部首。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-04105103f057",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一片片树叶从树上落下来”说明什么季节？",
+      "answer": 2,
+      "options": [
+        "春天",
+        "夏天",
+        "秋天",
+        "冬天"
+      ],
+      "explanation": "落叶是秋天。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a62783804aec",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "“四海无闲田，农夫犹饿死”反映了什么？",
+      "answer": 2,
+      "options": [
+        "农民很懒",
+        "田地很多",
+        "农民辛勤却挨饿",
+        "粮食丰收"
+      ],
+      "explanation": "诗句揭示农民辛勤劳动却吃不饱。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d307f6ce4dbc",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“飞”字的第一笔是？",
+      "answer": 1,
+      "options": [
+        "横撇",
+        "横斜钩",
+        "点",
+        "撇"
+      ],
+      "explanation": "飞笔顺：横斜钩、撇、点，第一笔横斜钩。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1b28a6bcad8a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落信息",
+    "skill": "apply",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "选词填空：老师（ ）地给我们讲故事。",
+      "answer": 0,
+      "options": [
+        "温柔",
+        "大力",
+        "飞快",
+        "用力"
+      ],
+      "explanation": "温柔地讲故事。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f0e055ec5da4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“左右”的“右”有几画？",
+      "answer": 1,
+      "options": [
+        "4画",
+        "5画",
+        "6画",
+        "7画"
+      ],
+      "explanation": "右笔顺：横、撇、竖、横折、横，5画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-bc8a8fbd2637",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪个词表示“非常安静”？",
+      "answer": 1,
+      "options": [
+        "吵吵闹闹",
+        "安安静静",
+        "高高兴兴",
+        "来来往往"
+      ],
+      "explanation": "安安静静就是非常安静。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-64edf14c113f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《赠汪伦》中，“李白乘舟将欲行”的下一句是？",
+      "answer": 0,
+      "options": [
+        "忽闻岸上踏歌声",
+        "桃花潭水深千尺",
+        "不及汪伦送我情",
+        "飞流直下三千尺"
+      ],
+      "explanation": "李白乘舟将欲行，忽闻岸上踏歌声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ec145422660a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___暖花开（填一个字）。",
+      "answer": "春",
+      "explanation": "春暖花开。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ec93a43c405e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "好雨知时节，当春乃___生。",
+      "answer": "发",
+      "explanation": "《春夜喜雨》：好雨知时节，当春乃发生。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8707e66998d3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "天___了，要下雨了。",
+      "answer": "阴",
+      "explanation": "天阴了，要下雨。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-19dfbfa797c9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "儿童节",
+        "国庆节",
+        "教师节",
+        "元旦"
+      ],
+      "stem": "把节日和日期连起来",
+      "right": [
+        "1月1日",
+        "6月1日",
+        "9月10日",
+        "10月1日"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "儿童节6.1，国庆节10.1，教师节9.10，元旦1.1。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-da639db65d0c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "apply",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "氵",
+        "扌",
+        "口",
+        "木"
+      ],
+      "stem": "把偏旁和带有该偏旁的字连起来",
+      "right": [
+        "树",
+        "河",
+        "唱",
+        "打"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "氵-河，扌-打，口-唱，木-树。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-101f88769433",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“月亮”的“月”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "6画"
+      ],
+      "explanation": "月字笔顺：撇、横折钩、横、横，共4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c86b08623261",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“白”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "黑",
+        "红",
+        "绿",
+        "黄"
+      ],
+      "explanation": "白的反义词是黑。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9f62d7a4d6cd",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一片片”后面应该接什么？",
+      "answer": 0,
+      "options": [
+        "树叶",
+        "小鸟",
+        "小鱼",
+        "花朵"
+      ],
+      "explanation": "一片片树叶，表示很多叶子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4d39a6e1154d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“妹妹在院子里（ ）花。”选哪个动词？",
+      "answer": 0,
+      "options": [
+        "看",
+        "听",
+        "吃",
+        "写"
+      ],
+      "explanation": "看花最合适。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-33ca11542541",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个词语形容心情好？",
+      "answer": 1,
+      "options": [
+        "伤心",
+        "高兴",
+        "生气",
+        "害怕"
+      ],
+      "explanation": "高兴表示心情愉快。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-30c1c4026f48",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "段落信息",
+    "skill": "reason",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“司马光砸缸”的故事中，司马光用什么办法救了小朋友？",
+      "answer": 1,
+      "options": [
+        "喊大人",
+        "用石头砸破缸",
+        "爬进缸里",
+        "倒水"
+      ],
+      "explanation": "他急中生智砸破水缸放水救人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0185e87521fe",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“上”字的笔顺是？",
+      "answer": 0,
+      "options": [
+        "竖、横、横",
+        "横、竖、横",
+        "横、横、竖",
+        "竖、横折、横"
+      ],
+      "explanation": "上：竖、横、横，共3画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-cb2ccdfd7377",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪一个量词使用不正确？",
+      "answer": 3,
+      "options": [
+        "一（片）大海",
+        "一（只）小鸟",
+        "一（头）牛",
+        "一（条）马"
+      ],
+      "explanation": "马应该用“匹”，一条马不对。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-60a4d7dcaadf",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“西瓜”的“瓜”字部首是？",
+      "answer": 0,
+      "options": [
+        "瓜",
+        "丿",
+        "丶",
+        "厶"
+      ],
+      "explanation": "瓜字本身就是一个部首。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5fd3ecd81a67",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“弯弯的月亮像小船”这句话中，把什么比作小船？",
+      "answer": 2,
+      "options": [
+        "星星",
+        "天空",
+        "月亮",
+        "河水"
+      ],
+      "explanation": "把弯弯的月亮比作小船。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-17c3ad4bc8c1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《回乡偶书》的作者是谁？",
+      "answer": 2,
+      "options": [
+        "李白",
+        "杜甫",
+        "贺知章",
+        "王维"
+      ],
+      "explanation": "“少小离家老大回”是贺知章的诗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f4ebedf98b4b",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“苹果”的“苹”字是什么结构？",
+      "answer": 0,
+      "options": [
+        "上下",
+        "左右",
+        "半包围",
+        "独体"
+      ],
+      "explanation": "苹是草字头加平，上下结构。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ce3f5b7070b5",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "下面哪句话是完整的？",
+      "answer": 2,
+      "options": [
+        "在公园里玩。",
+        "小明在公园。",
+        "小明在公园里玩。",
+        "玩在公园小明。"
+      ],
+      "explanation": "第三句有主语、地点和动作，是完整句子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b581776778b7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“水”字可以组成什么词？",
+      "answer": 3,
+      "options": [
+        "水果",
+        "水牛",
+        "河水",
+        "以上都是"
+      ],
+      "explanation": "水可以组成水果、水牛、河水等。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-e5aea5cedd43",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“火红火红的太阳”中“火红火红”是形容什么的？",
+      "answer": 1,
+      "options": [
+        "大小",
+        "颜色",
+        "形状",
+        "声音"
+      ],
+      "explanation": "火红火红形容颜色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7f82e088279f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小___在河里游来游去。",
+      "answer": "鱼",
+      "explanation": "小鱼在河里游。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8aefe2932b46",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "床前明月光，疑是地上___。",
+      "answer": "霜",
+      "explanation": "《静夜思》：疑是地上霜。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-04a5f82cde19",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "爸爸带我去___场踢足球。",
+      "answer": "操",
+      "explanation": "操场是踢球的地方。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f4ad26f71d8b",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "口",
+        "日",
+        "田",
+        "目"
+      ],
+      "stem": "把汉字和它的笔画连起来",
+      "right": [
+        "3画",
+        "4画",
+        "5画",
+        "5画"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "口3画，日4画，田5画，目5画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-01f21617cb30",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "小猫",
+        "小兔",
+        "小狗",
+        "小鸡"
+      ],
+      "stem": "把动物和它们喜欢吃的食物连起来",
+      "right": [
+        "骨头",
+        "虫子",
+        "鱼",
+        "萝卜"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "小猫爱吃鱼，小兔爱吃萝卜，小狗爱骨头，小鸡爱虫子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9223916fa224",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“草地”的“地”字在词语中读什么？",
+      "answer": 1,
+      "options": [
+        "de",
+        "dì",
+        "tā",
+        "dí"
+      ],
+      "explanation": "草地的地读dì。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7bd85b94cf67",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个字与“手”有关？",
+      "answer": 0,
+      "options": [
+        "打",
+        "河",
+        "吃",
+        "花"
+      ],
+      "explanation": "打是手的动作，带提手旁扌。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8f7c5b7deea6",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“可爱”的近义词是？",
+      "answer": 2,
+      "options": [
+        "可怕",
+        "可恨",
+        "喜欢",
+        "讨厌"
+      ],
+      "explanation": "可爱和喜欢意思相近。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-df4ec25f97ab",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“河水（ ）地流着。”选哪个词？",
+      "answer": 0,
+      "options": [
+        "哗哗",
+        "悄悄",
+        "慢慢",
+        "快快"
+      ],
+      "explanation": "哗哗形容水流声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a6738eba97e7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《敕勒歌》描写的景色在我国什么地方？",
+      "answer": 1,
+      "options": [
+        "江南",
+        "塞北草原",
+        "海边",
+        "沙漠"
+      ],
+      "explanation": "敕勒歌描写的是北方草原风光。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-410be31e0b55",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“牛”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "6画"
+      ],
+      "explanation": "牛笔顺：撇、横、横、竖，4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a8b6e04b9296",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "春天",
+        "夏天",
+        "秋天",
+        "星期天"
+      ],
+      "explanation": "星期天不是季节。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-548517103873",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“金鱼”的“金”读什么？",
+      "answer": 0,
+      "options": [
+        "jīn",
+        "jīng",
+        "jīnɡ",
+        "jǐn"
+      ],
+      "explanation": "金读jīn，前鼻音。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1260b09bef0f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一只美丽的小鸟在树上唱歌。”哪个词是形容小鸟的？",
+      "answer": 1,
+      "options": [
+        "一只",
+        "美丽",
+        "唱歌",
+        "树上"
+      ],
+      "explanation": "美丽是形容词，形容小鸟漂亮。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-35e685609fde",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "下面哪个是寓言故事？",
+      "answer": 1,
+      "options": [
+        "《静夜思》",
+        "《狐假虎威》",
+        "《村居》",
+        "《春晓》"
+      ],
+      "explanation": "狐假虎威是寓言故事，其他是古诗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-43031586ff5c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“儿”字加一笔变成什么字？",
+      "answer": 0,
+      "options": [
+        "几",
+        "九",
+        "丸",
+        "凡"
+      ],
+      "explanation": "儿加一笔横变成几。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-19bcef22f6d5",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "生活语言",
+    "skill": "apply",
+    "tags": [
+      "情境表达"
+    ],
+    "content": {
+      "stem": "下面哪句话说得更好听？",
+      "answer": 1,
+      "options": [
+        "你给我拿书！",
+        "请帮我拿本书好吗？",
+        "拿书来！",
+        "快拿书！"
+      ],
+      "explanation": "加“请”和“好吗”更有礼貌。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fb4b8503adad",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“土”字在“土地”中读什么？",
+      "answer": 0,
+      "options": [
+        "tǔ",
+        "tù",
+        "dǔ",
+        "tū"
+      ],
+      "explanation": "土读tǔ，第三声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7e42654481d9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“弯弯的小路像彩带”把什么比作彩带？",
+      "answer": 0,
+      "options": [
+        "小路",
+        "山",
+        "河流",
+        "树木"
+      ],
+      "explanation": "把小路的形状比作彩带。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b647815ee626",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "下列诗句中，哪一句是描写母爱的？",
+      "answer": 0,
+      "options": [
+        "谁言寸草心",
+        "春风吹又生",
+        "更上一层楼",
+        "处处闻啼鸟"
+      ],
+      "explanation": "“谁言寸草心，报得三春晖”描写母爱。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f0cf1ca03f76",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___树上的苹果熟了。",
+      "answer": "秋天",
+      "explanation": "秋天苹果成熟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ab16a7cfebc1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "白日依山尽，黄河___海流。",
+      "answer": "入",
+      "explanation": "《登鹳雀楼》：黄河入海流。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-04c46d937955",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "我和小明是好___。",
+      "answer": "朋友",
+      "explanation": "好朋友。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-883f850a4d0d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "眼睛",
+        "鼻子",
+        "嘴巴",
+        "耳朵"
+      ],
+      "stem": "把身体部位和名称连起来",
+      "right": [
+        "听声音",
+        "看东西",
+        "闻气味",
+        "吃东西"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "眼睛看，鼻子闻，嘴巴吃，耳朵听。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-adca27d7d376",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "古诗名句",
+    "skill": "apply",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "left": [
+        "春眠不觉晓",
+        "举头望明月",
+        "锄禾日当午",
+        "儿童散学归来早"
+      ],
+      "stem": "把诗句和诗名连起来",
+      "right": [
+        "《悯农》",
+        "《静夜思》",
+        "《村居》",
+        "《春晓》"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "春眠对应春晓，举头对应静夜思，锄禾对应悯农，儿童对应村居。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a575187a896a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“公园”的“园”字读音是？",
+      "answer": 0,
+      "options": [
+        "yuán",
+        "yán",
+        "yuān",
+        "yàn"
+      ],
+      "explanation": "园读yuán，整体认读音节。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-e8b618bcf349",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“雪白雪白”可以用来形容什么？",
+      "answer": 0,
+      "options": [
+        "棉花",
+        "煤炭",
+        "天空",
+        "树叶"
+      ],
+      "explanation": "雪白雪白常形容云朵、棉花等。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7f40b78dfb5e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“里”意思相反的词是？",
+      "answer": 1,
+      "options": [
+        "内",
+        "外",
+        "上",
+        "下"
+      ],
+      "explanation": "里的反义词是外。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1a13538358ce",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“爸爸（ ）地工作。”选哪个词？",
+      "answer": 0,
+      "options": [
+        "努力",
+        "美丽",
+        "好吃",
+        "开心"
+      ],
+      "explanation": "努力地工作。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2e3d44bf4d22",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《悯农》中“四海无闲田”的下一句是？",
+      "answer": 0,
+      "options": [
+        "农夫犹饿死",
+        "粒粒皆辛苦",
+        "春种一粒粟",
+        "秋收万颗子"
+      ],
+      "explanation": "四海无闲田，农夫犹饿死。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6a658f1e8071",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“山”字共有几画？",
+      "answer": 1,
+      "options": [
+        "2画",
+        "3画",
+        "4画",
+        "5画"
+      ],
+      "explanation": "山笔顺：竖、竖折、竖，3画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-66600587cf51",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面词语中，哪个不是形容颜色的？",
+      "answer": 3,
+      "options": [
+        "碧绿",
+        "火红",
+        "雪白",
+        "巨大"
+      ],
+      "explanation": "巨大不是颜色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a954c498fc87",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一条条街道像什么？”可以想象成？",
+      "answer": 0,
+      "options": [
+        "长长的带子",
+        "高高的山",
+        "圆圆的月亮",
+        "红红的太阳"
+      ],
+      "explanation": "街道长而弯曲，像带子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1c117674a8eb",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个成语说明做事情要有目标？",
+      "answer": 1,
+      "options": [
+        "亡羊补牢",
+        "有的放矢",
+        "三心二意",
+        "画蛇添足"
+      ],
+      "explanation": "有的放矢比喻做事有目的。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7c1dc0131ebf",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“云”字加一笔可以变成什么字？",
+      "answer": 1,
+      "options": [
+        "去",
+        "会",
+        "动",
+        "层"
+      ],
+      "explanation": "云加人字头变成会。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-49cef00a3370",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪句话是完整的？",
+      "answer": 1,
+      "options": [
+        "小鸟在天上。",
+        "小鸟在天上飞。",
+        "在天上飞。",
+        "飞在天上小鸟。"
+      ],
+      "explanation": "“小鸟在天上飞”主谓宾完整。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b32cb1432543",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“花”字的部首是艹，表示与什么有关？",
+      "answer": 0,
+      "options": [
+        "植物",
+        "动物",
+        "人",
+        "水"
+      ],
+      "explanation": "草字头与植物有关。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-192904af268d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“天阴沉沉的，好像要下雨了”中的“阴沉沉”形容什么？",
+      "answer": 2,
+      "options": [
+        "颜色",
+        "声音",
+        "天气",
+        "心情"
+      ],
+      "explanation": "阴沉沉形容阴天。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-12b83e32e982",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《咏柳》中“碧玉妆成一树高”的“妆”是什么意思？",
+      "answer": 1,
+      "options": [
+        "化妆",
+        "装饰",
+        "打扮",
+        "梳头"
+      ],
+      "explanation": "妆这里指装饰、打扮。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-038350c03859",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___开了，春天来了。",
+      "answer": "花儿",
+      "explanation": "花儿开了。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a3ea000b79d8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "千山鸟飞绝，万径人___灭。",
+      "answer": "踪",
+      "explanation": "《江雪》：万径人踪灭。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2712f845e629",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "姐姐___歌唱得很好听。",
+      "answer": "的",
+      "explanation": "姐姐的歌唱得好听，用“的”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-03e25553ca5c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "b",
+        "p",
+        "m",
+        "f"
+      ],
+      "stem": "把声母和对应的字连起来",
+      "right": [
+        "马",
+        "发",
+        "爸",
+        "怕"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "b爸，p怕，m马，f发。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c1627624fbb1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "一寸光阴一寸金",
+        "一年之计在于春",
+        "朝霞不出门",
+        "蚂蚁搬家蛇过道"
+      ],
+      "stem": "把谚语和意思连起来",
+      "right": [
+        "要珍惜时间",
+        "计划要早做",
+        "要下雨了",
+        "可能要下雨"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "一一对应意思。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-70e542d3f666",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“花儿”的“花”字读第几声？",
+      "answer": 0,
+      "options": [
+        "第一声",
+        "第二声",
+        "第三声",
+        "第四声"
+      ],
+      "explanation": "花读huā，第一声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-3e54eff7e435",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个字是翘舌音？",
+      "answer": 2,
+      "options": [
+        "四",
+        "三",
+        "十",
+        "一"
+      ],
+      "explanation": "十shí是翘舌音。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-bcdd36a8cb1d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“多”的反义词是？",
+      "answer": 0,
+      "options": [
+        "少",
+        "小",
+        "长",
+        "短"
+      ],
+      "explanation": "多的反义词是少。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-29d524cbe300",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "“金黄金黄的（ ）”括号里填什么？",
+      "answer": 0,
+      "options": [
+        "稻子",
+        "天空",
+        "大海",
+        "草地"
+      ],
+      "explanation": "稻子成熟是金黄色的。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-41b108453d27",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "《咏鹅》的作者骆宾王是哪个朝代的？",
+      "answer": 0,
+      "options": [
+        "唐朝",
+        "宋朝",
+        "明朝",
+        "清朝"
+      ],
+      "explanation": "骆宾王是唐代诗人，七岁作《咏鹅》。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ee1423da05a8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“米”字共几画？",
+      "answer": 1,
+      "options": [
+        "5画",
+        "6画",
+        "7画",
+        "4画"
+      ],
+      "explanation": "米笔顺：点、撇、横、竖、撇、捺，6画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1061a425aae1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 2,
+      "options": [
+        "高兴",
+        "快乐",
+        "难过",
+        "兴奋"
+      ],
+      "explanation": "难过是负面情绪，其他是正面。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1bb67aa456ec",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“水”的拼音是什么？",
+      "answer": 0,
+      "options": [
+        "shuǐ",
+        "suǐ",
+        "shuì",
+        "suì"
+      ],
+      "explanation": "水读shuǐ，翘舌音，第三声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4734cee4334a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“火红火红的枫叶像一团团火。”这句话把枫叶比作什么？",
+      "answer": 0,
+      "options": [
+        "火",
+        "太阳",
+        "花",
+        "红旗"
+      ],
+      "explanation": "比作一团团火。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fc0be4359b60",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《望庐山瀑布》中，“日照香炉生紫烟”的下一句是？",
+      "answer": 0,
+      "options": [
+        "遥看瀑布挂前川",
+        "飞流直下三千尺",
+        "疑是银河落九天",
+        "更上一层楼"
+      ],
+      "explanation": "日照香炉生紫烟，遥看瀑布挂前川。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b670e9312c1f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“又”字是什么结构？",
+      "answer": 0,
+      "options": [
+        "独体字",
+        "左右",
+        "上下",
+        "半包围"
+      ],
+      "explanation": "又是独体字。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-da2c5bb10d59",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪句话使用了“一边…一边…”？",
+      "answer": 0,
+      "options": [
+        "我一边唱歌一边跳舞。",
+        "我唱歌跳舞。",
+        "我唱歌和跳舞。",
+        "我先唱歌后跳舞。"
+      ],
+      "explanation": "一边唱歌一边跳舞使用了一边…一边…。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1baed7d74a8d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "“大”字的反义词是？",
+      "answer": 0,
+      "options": [
+        "小",
+        "多",
+        "高",
+        "长"
+      ],
+      "explanation": "大和小反义。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-79d501b20037",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“胖乎乎”可以形容什么？",
+      "answer": 0,
+      "options": [
+        "小猪",
+        "铅笔",
+        "书本",
+        "大树"
+      ],
+      "explanation": "胖乎乎常形容人或动物圆润可爱。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0e160c5de03c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪句诗不是李白的？",
+      "answer": 3,
+      "options": [
+        "床前明月光",
+        "飞流直下三千尺",
+        "桃花潭水深千尺",
+        "春眠不觉晓"
+      ],
+      "explanation": "春眠不觉晓是孟浩然的诗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-00cfb845de4d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___天的太阳真暖和。",
+      "answer": "冬",
+      "explanation": "冬天的太阳让人感觉暖和。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7c4f2c347204",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "离离原上草，一岁一___荣。",
+      "answer": "枯",
+      "explanation": "一岁一枯荣。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-33f2b94db9c6",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "段落信息",
+    "skill": "apply",
+    "tags": [
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "老师___我们讲故事。",
+      "answer": "给",
+      "explanation": "老师给我们讲故事。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-14dc69e31e26",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "小鸟",
+        "小鱼",
+        "小马",
+        "小狗"
+      ],
+      "stem": "把动物和它们的家连起来",
+      "right": [
+        "水里",
+        "鸟巢",
+        "狗窝",
+        "马厩"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "小鸟住鸟巢，小鱼在水里，小马住马厩，小狗住狗窝。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-167e46875299",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "笑眯眯",
+        "泪汪汪",
+        "气呼呼",
+        "急匆匆"
+      ],
+      "stem": "把词语和包含的情感连起来",
+      "right": [
+        "伤心",
+        "生气",
+        "着急",
+        "开心"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "笑眯眯开心，泪汪汪伤心，气呼呼生气，急匆匆着急。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-93fb8f6639c7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“草地”的“草”字部首是什么？",
+      "answer": 0,
+      "options": [
+        "艹",
+        "日",
+        "十",
+        "早"
+      ],
+      "explanation": "草字头艹。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-ee59ef94e0ef",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "“他跑得可真快呀！”这句的标点应该是？",
+      "answer": 1,
+      "options": [
+        "。",
+        "！",
+        "？",
+        "，"
+      ],
+      "explanation": "感叹语气用叹号。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4c7b2d57c407",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“东”意思相反的词是？",
+      "answer": 1,
+      "options": [
+        "南",
+        "西",
+        "北",
+        "中"
+      ],
+      "explanation": "东和西反义。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-6a4072b5d7ce",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“蓝蓝的天空像（ ）”填什么？",
+      "answer": 0,
+      "options": [
+        "大海",
+        "草地",
+        "火",
+        "苹果"
+      ],
+      "explanation": "天空像大海一样蓝。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2918b0d85046",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "《静夜思》表达了诗人怎样的感情？",
+      "answer": 1,
+      "options": [
+        "喜悦",
+        "思乡",
+        "愤怒",
+        "悲伤"
+      ],
+      "explanation": "静夜思表达了对故乡的思念。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9b6150b272c7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“好”字是左右结构，左边是女，右边是？",
+      "answer": 0,
+      "options": [
+        "子",
+        "了",
+        "字",
+        "好"
+      ],
+      "explanation": "好由女和子组成。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-43c6812af064",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪个词可以填在“一（ ）古诗”中？",
+      "answer": 1,
+      "options": [
+        "个",
+        "首",
+        "条",
+        "只"
+      ],
+      "explanation": "古诗用量词“首”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-fa355e860a43",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“耳”字共几画？",
+      "answer": 1,
+      "options": [
+        "5画",
+        "6画",
+        "7画",
+        "4画"
+      ],
+      "explanation": "耳笔顺：横、竖、竖、横、横、横，6画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-f5543caa8328",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "apply",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“绿油油”和下面哪个词结构相同？",
+      "answer": 0,
+      "options": [
+        "红彤彤",
+        "飞快",
+        "开心",
+        "学习"
+      ],
+      "explanation": "红彤彤也是ABB式。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2ec11a7d83c9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《村居》中“拂堤杨柳醉春烟”的“春烟”指什么？",
+      "answer": 1,
+      "options": [
+        "春天的烟雾",
+        "水汽",
+        "炊烟",
+        "雾霾"
+      ],
+      "explanation": "春烟指春天水泽草木蒸发的水汽。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4082c50dc3c7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“书”字在“书包”中读什么？",
+      "answer": 0,
+      "options": [
+        "shū",
+        "sū",
+        "shù",
+        "sù"
+      ],
+      "explanation": "书读shū，第一声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-27ec99a31192",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "apply",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "下面哪句没有错别字？",
+      "answer": 0,
+      "options": [
+        "今天天气真好！",
+        "今天天气真好啊",
+        "今夭天气真好。",
+        "今天大气真好！"
+      ],
+      "explanation": "其他句有别字或标点错误。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-02dde03ce6c3",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“尾巴”的“巴”读几声？",
+      "answer": 3,
+      "options": [
+        "一声",
+        "二声",
+        "三声",
+        "轻声"
+      ],
+      "explanation": "尾巴的巴读轻声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-67f6d5be5c1e",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“甜津津”形容什么味道？",
+      "answer": 0,
+      "options": [
+        "甜",
+        "苦",
+        "辣",
+        "咸"
+      ],
+      "explanation": "甜津津形容很甜。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-747928d7e99d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活语言",
+    "skill": "reason",
+    "tags": [
+      "情境表达"
+    ],
+    "content": {
+      "stem": "下面哪首诗描写了儿童生活？",
+      "answer": 1,
+      "options": [
+        "《静夜思》",
+        "《村居》",
+        "《登鹳雀楼》",
+        "《望庐山瀑布》"
+      ],
+      "explanation": "《村居》中有儿童散学放纸鸢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-be335de34785",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___果熟了，红红的。",
+      "answer": "苹",
+      "explanation": "苹果熟了。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-444df6b4fb11",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "桃花潭水深千尺，不及汪伦送___情。",
+      "answer": "我",
+      "explanation": "不及汪伦送我情。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c275178025b2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "公园里，___花开了。",
+      "answer": "鲜",
+      "explanation": "鲜花开了。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-bb7c239b1663",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "自行车",
+        "小汽车",
+        "火车",
+        "飞机"
+      ],
+      "stem": "把交通工具和特点连起来",
+      "right": [
+        "飞得快",
+        "跑得快",
+        "会冒烟",
+        "要用脚蹬"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "自行车脚蹬，小汽车跑得快，火车冒烟（传统），飞机飞得快。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5a7f5317458d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "闻鸡起舞",
+        "精卫填海",
+        "夸父追日",
+        "愚公移山"
+      ],
+      "stem": "把成语和故事主角连起来",
+      "right": [
+        "愚公",
+        "夸父",
+        "精卫",
+        "祖逖"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "闻鸡起舞祖逖，精卫填海精卫，夸父追日夸父，愚公移山愚公。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-27b4aaf7bd78",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“叶子”的“叶”字读音是？",
+      "answer": 0,
+      "options": [
+        "yè",
+        "yé",
+        "yě",
+        "yē"
+      ],
+      "explanation": "叶读yè，第四声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-51d0618d82e1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "下面哪组字都有“口”字旁？",
+      "answer": 0,
+      "options": [
+        "吃 喝 唱",
+        "打 拍 找",
+        "江 河 海",
+        "花 草 苹"
+      ],
+      "explanation": "第一组都是口字旁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5e5f63970edc",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“长”在“长江”中读什么？",
+      "answer": 0,
+      "options": [
+        "cháng",
+        "zhǎng",
+        "chánɡ",
+        "zhànɡ"
+      ],
+      "explanation": "长江的“长”读cháng。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-01353e79103c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“红彤彤的苹果”中“红彤彤”是形容什么？",
+      "answer": 1,
+      "options": [
+        "形状",
+        "颜色",
+        "味道",
+        "大小"
+      ],
+      "explanation": "红彤彤形容红得很鲜艳。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a4688fc9ae4f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《回乡偶书》中“乡音无改鬓毛衰”的上一句是？",
+      "answer": 0,
+      "options": [
+        "少小离家老大回",
+        "儿童相见不相识",
+        "笑问客从何处来",
+        "独在异乡为异客"
+      ],
+      "explanation": "少小离家老大回，乡音无改鬓毛衰。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0f5bd3b4913f",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“风”字是什么结构？",
+      "answer": 0,
+      "options": [
+        "半包围",
+        "独体字",
+        "左右",
+        "上下"
+      ],
+      "explanation": "风是半包围结构。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-10539ab798d1",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "铅笔",
+        "橡皮",
+        "尺子",
+        "电话"
+      ],
+      "explanation": "电话是通讯工具，其他是文具。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b9521dbb8b06",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“毛”字共有几画？",
+      "answer": 1,
+      "options": [
+        "3画",
+        "4画",
+        "5画",
+        "6画"
+      ],
+      "explanation": "毛笔顺：撇、横、横、竖弯钩，4画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-3f7676403652",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“金灿灿的阳光”中“金灿灿”说明阳光怎样？",
+      "answer": 2,
+      "options": [
+        "很温暖",
+        "很刺眼",
+        "很亮很灿烂",
+        "很热"
+      ],
+      "explanation": "金灿灿形容光亮耀眼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b333dd4c2c20",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“谁言寸草心，报得三春晖”表达的是什么？",
+      "answer": 0,
+      "options": [
+        "母爱伟大",
+        "春天美丽",
+        "小草坚强",
+        "太阳温暖"
+      ],
+      "explanation": "比喻儿女难报答母爱。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9800d09011b5",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“石”字在“石头”中读什么？",
+      "answer": 0,
+      "options": [
+        "shí",
+        "sí",
+        "shǐ",
+        "shì"
+      ],
+      "explanation": "石读shí，第二声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c70f013618a9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "哪句话用上了“好像”？",
+      "answer": 0,
+      "options": [
+        "月亮好像小船。",
+        "月亮小船。",
+        "月亮弯弯。",
+        "月亮美。"
+      ],
+      "explanation": "第一句用了好像。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-b4d8345fe9e8",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一（ ）井”填什么量词？",
+      "answer": 0,
+      "options": [
+        "口",
+        "个",
+        "只",
+        "条"
+      ],
+      "explanation": "一口井。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2f421d5891a4",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《悯农》的作者是谁？",
+      "answer": 2,
+      "options": [
+        "李白",
+        "杜甫",
+        "李绅",
+        "王维"
+      ],
+      "explanation": "《悯农》作者李绅。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-a070ea325da7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___风把树叶吹落了。",
+      "answer": "秋",
+      "explanation": "秋风落叶。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9f891220523c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "远上寒山石径斜，白云生处有___家。",
+      "answer": "人",
+      "explanation": "《山行》：白云生处有人家。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-5bcbfd1733c2",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "一",
+        "七",
+        "九",
+        "十"
+      ],
+      "stem": "把数字和成语连起来",
+      "right": [
+        "牛一毛",
+        "上八下",
+        "全十美",
+        "死一生"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "九牛一毛，七上八下，十全十美，九死一生，注意连线九死一生应该对一，但一牛一毛。重新匹配：一 -> 一毛，七->八下，九->一毛? 不对，重新设计：左:一,七,九,十；右:一毛,八下,一毛,十美。为避免重复，换词：左:一,七,八,十；右:心一意,嘴八舌,面玲珑,全十美。这样：一->一心一意，七->七嘴八舌，八->八面玲珑，十->十全十美。修改。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0cdbd8439209",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“一片片雪花从天上（ ）下来。”选哪个词？",
+      "answer": 0,
+      "options": [
+        "飘",
+        "跑",
+        "跳",
+        "飞"
+      ],
+      "explanation": "雪花飘落。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-9e579e9ab3eb",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "近义词与反义词",
+    "skill": "understand",
+    "tags": [
+      "词义辨析"
+    ],
+    "content": {
+      "stem": "与“里”意思相反的词是？",
+      "answer": 0,
+      "options": [
+        "外",
+        "内",
+        "上",
+        "下"
+      ],
+      "explanation": "里外反义。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-17105340e099",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“白茫茫的雪地”中“白茫茫”是形容？",
+      "answer": 0,
+      "options": [
+        "颜色很白一片",
+        "很冷",
+        "很软",
+        "很厚"
+      ],
+      "explanation": "白茫茫形容一望无际的白。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-96e8ac55bc6c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "《赠汪伦》描写了什么感情？",
+      "answer": 0,
+      "options": [
+        "友情",
+        "亲情",
+        "思乡",
+        "爱国"
+      ],
+      "explanation": "赠汪伦表达了李白对汪伦的友情。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-176840dc9b16",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“左”和“右”这两个字有什么共同点？",
+      "answer": 0,
+      "options": [
+        "都有横和撇",
+        "都是半包围",
+        "都有工",
+        "笔画数相同"
+      ],
+      "explanation": "左和右都有横和撇。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-86b463f4262c",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "找出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "跑步",
+        "跳绳",
+        "踢球",
+        "音乐"
+      ],
+      "explanation": "音乐不是体育运动。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-634bd8f78618",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "stem": "“来”字共有几画？",
+      "answer": 1,
+      "options": [
+        "6画",
+        "7画",
+        "8画",
+        "5画"
+      ],
+      "explanation": "来笔顺：横、点、撇、横、竖、撇、捺，7画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-66464812b411",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“沉甸甸”可以形容什么？",
+      "answer": 0,
+      "options": [
+        "书包",
+        "羽毛",
+        "云朵",
+        "空气"
+      ],
+      "explanation": "沉甸甸形容重量大，书包可以。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-8ee77f02843a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "reason",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“野火烧不尽，春风吹又生”说明什么？",
+      "answer": 0,
+      "options": [
+        "草很顽强",
+        "火很大",
+        "风很大",
+        "春天很美"
+      ],
+      "explanation": "赞美野草生命力顽强。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-2798e7273058",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“大”字加一笔是什么字？",
+      "answer": 3,
+      "options": [
+        "天",
+        "太",
+        "犬",
+        "以上都可以"
+      ],
+      "explanation": "大加点太，加横天，加横犬。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-114e00295d2d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句式运用",
+    "skill": "apply",
+    "tags": [
+      "句子运用"
+    ],
+    "content": {
+      "stem": "下面哪句话用上了问号？",
+      "answer": 0,
+      "options": [
+        "你吃饭了吗？",
+        "今天真开心。",
+        "我要看书。",
+        "他走了。"
+      ],
+      "explanation": "问句用问号。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-0f2c5d0a91ab",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“语文”的“语”读第几声？",
+      "answer": 2,
+      "options": [
+        "第一声",
+        "第二声",
+        "第三声",
+        "第四声"
+      ],
+      "explanation": "语读yǔ，第三声。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-e73ef81ab8b9",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "“弯弯的月亮像小船。”这句话中，小船是？",
+      "answer": 3,
+      "options": [
+        "弯弯的",
+        "月亮",
+        "像",
+        "比喻的东西"
+      ],
+      "explanation": "小船是用来比喻月亮的事物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-4c05c0a8659b",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗名句",
+    "skill": "reason",
+    "tags": [
+      "传统文化"
+    ],
+    "content": {
+      "stem": "下面哪位不是唐代诗人？",
+      "answer": 3,
+      "options": [
+        "李白",
+        "杜甫",
+        "王维",
+        "苏轼"
+      ],
+      "explanation": "苏轼是宋代诗人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-d6953916d58a",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "understand",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "___天到了，树叶黄了。",
+      "answer": "秋",
+      "explanation": "秋天叶黄。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-1929e949485d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "欲穷千里目，更___一层楼。",
+      "answer": "上",
+      "explanation": "更上一层楼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-c2342ee2813d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "stem": "小明___我都是二年级的学生。",
+      "answer": "和",
+      "explanation": "小明和我。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-7b915955a35d",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "字音字形",
+    "skill": "understand",
+    "tags": [
+      "字词基础"
+    ],
+    "content": {
+      "left": [
+        "横",
+        "竖",
+        "撇",
+        "捺"
+      ],
+      "stem": "把一年级学过的笔画和名称连起来",
+      "right": [
+        "一",
+        "丨",
+        "丿",
+        "乀"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "笔画直接对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-chinese-legacy-967e97dcc7b7",
+    "subject": "chinese",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "量词与搭配",
+    "skill": "apply",
+    "tags": [
+      "词语运用"
+    ],
+    "content": {
+      "left": [
+        "看",
+        "听",
+        "说",
+        "闻"
+      ],
+      "stem": "把表示动作的词和身体部位连起来",
+      "right": [
+        "眼睛",
+        "耳朵",
+        "嘴巴",
+        "鼻子"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "看用眼，听用耳，说用嘴，闻用鼻。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  }
+]

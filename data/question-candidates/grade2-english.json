@@ -1,0 +1,7319 @@
+[
+  {
+    "id": "g2-english-legacy-55ca8aff3a82",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“猫”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "dog",
+        "cat",
+        "bird",
+        "fish"
+      ],
+      "explanation": "cat是猫，dog是狗，bird是鸟，fish是鱼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6241fce9aaf1",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "如果你想说“你好”，应该说：",
+      "answer": 1,
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Sorry",
+        "Thank you"
+      ],
+      "explanation": "Hello是你好，Goodbye是再见。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-02c7b7e71463",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can ___ a picture.",
+      "answer": 0,
+      "options": [
+        "draw",
+        "drink",
+        "eat",
+        "read"
+      ],
+      "explanation": "draw a picture是画一幅画的意思。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ced6da5b2159",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "数字“five”是几？",
+      "answer": 1,
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "five=5，four=4，six=6，seven=7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f8dd9d50e059",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 2,
+      "options": [
+        "apple",
+        "banana",
+        "car",
+        "orange"
+      ],
+      "explanation": "car是汽车，其它都是水果。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f3febe6a30b2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "This ___ my friend.",
+      "answer": 1,
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "explanation": "This is ... 这是固定句型，表示“这是……”。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0fff0de7b218",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "What color is the sky? 天空是什么颜色？",
+      "answer": 1,
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green"
+      ],
+      "explanation": "天空是蓝色的，blue。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e4e3ae301fad",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：How are you?",
+      "answer": 1,
+      "options": [
+        "How are you?",
+        "I'm fine, thank you.",
+        "Goodbye.",
+        "Hello."
+      ],
+      "explanation": "别人问How are you?，通常回答I'm fine, thank you."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4060b0174b7d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我有一本书”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I have a book.",
+        "I have a pen.",
+        "I see a book.",
+        "I like books."
+      ],
+      "explanation": "have是有，book是书，I have a book.我有一本书。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d32646ec25ab",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 2,
+      "options": [
+        "aple",
+        "apel",
+        "apple",
+        "appel"
+      ],
+      "explanation": "苹果的正确拼写是apple。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-66d22701ef5c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母D后面是哪个字母？",
+      "answer": 1,
+      "options": [
+        "C",
+        "E",
+        "F",
+        "B"
+      ],
+      "explanation": "字母表顺序：A B C D E F G，D后面是E。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ebff655f2e6e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Touch your ___. （摸摸你的头）",
+      "answer": 2,
+      "options": [
+        "foot",
+        "hand",
+        "head",
+        "nose"
+      ],
+      "explanation": "head是头，foot是脚，hand是手，nose是鼻子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-931472c9dc17",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "reason",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "run",
+        "jump",
+        "swim",
+        "red"
+      ],
+      "explanation": "run跑、jump跳、swim游泳都是动作，red红色是颜色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f66a2e398bc3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“two+three”等于几？",
+      "answer": 1,
+      "options": [
+        "four",
+        "five",
+        "six",
+        "seven"
+      ],
+      "explanation": "two是2，three是3，2+3=5，five。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f32d51701354",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ is a dog. (那是一只狗)",
+      "answer": 1,
+      "options": [
+        "This",
+        "That",
+        "It",
+        "He"
+      ],
+      "explanation": "That是那个，指远处的东西。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-5f8c924ea3e9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The apple is r___. （红色的）",
+      "answer": "ed",
+      "explanation": "red红色，缺ed。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6024e69ed774",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "I ___ a boy. (我是男孩)",
+      "answer": "am",
+      "explanation": "I am 我是。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1fc6cbf8729a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简单问答",
+    "skill": "understand",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "How old are you? I'm ___. (7岁)",
+      "answer": "seven",
+      "explanation": "七岁用seven，数字7的英文。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c0c6ddcc7b9c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "dog",
+        "cat",
+        "bird",
+        "fish"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "猫",
+        "鱼",
+        "狗",
+        "鸟"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "dog狗，cat猫，bird鸟，fish鱼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-10b6321e79f4",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "left": [
+        "Hello",
+        "How are you?",
+        "Goodbye",
+        "Thank you"
+      ],
+      "stem": "把问候语和相应的回答连起来",
+      "right": [
+        "Bye",
+        "You're welcome.",
+        "I'm fine.",
+        "Hi"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "Hello/Hi，How are you?/I'm fine.，Goodbye/Bye，Thank you/You're welcome."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-973b8036b98d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“狗”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "cat",
+        "dog",
+        "pig",
+        "cow"
+      ],
+      "explanation": "dog是狗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6c9626874d27",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "当你想说“再见”时，可以说：",
+      "answer": 2,
+      "options": [
+        "Hello",
+        "Hi",
+        "Bye",
+        "Sorry"
+      ],
+      "explanation": "Bye或Goodbye是再见。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f839c5ba108b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I like ___ apple.",
+      "answer": 1,
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "explanation": "apple是以元音音素开头的单词，用an。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-527b5de03156",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“蓝色”的英文是？",
+      "answer": 1,
+      "options": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "explanation": "blue是蓝色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f3c58c1375ea",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "tiger",
+        "lion",
+        "elephant",
+        "pencil"
+      ],
+      "explanation": "pencil是铅笔，其它是动物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d0a43d3e5048",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ is my book.",
+      "answer": 2,
+      "options": [
+        "I",
+        "My",
+        "This",
+        "He"
+      ],
+      "explanation": "This is my book.这是我的书。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-551c7270e2ee",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "What's your name? 回答：",
+      "answer": 1,
+      "options": [
+        "I'm fine.",
+        "My name is Tom.",
+        "Hello.",
+        "Thank you."
+      ],
+      "explanation": "询问名字，回答My name is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-efe70d2227d7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "reason",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "请选择正确的单词填空：I have two ___.",
+      "answer": 2,
+      "options": [
+        "foot",
+        "foots",
+        "feet",
+        "feets"
+      ],
+      "explanation": "foot的复数是feet。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c643d868da99",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "数字“ten”是几？",
+      "answer": 2,
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "explanation": "ten是10。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e1c4e1b8fa19",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "选出正确的句子：",
+      "answer": 0,
+      "options": [
+        "I can swim.",
+        "I can swims.",
+        "I can swimming.",
+        "I can to swim."
+      ],
+      "explanation": "can后面接动词原形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1af9786660cc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母G的小写是？",
+      "answer": 0,
+      "options": [
+        "g",
+        "q",
+        "p",
+        "j"
+      ],
+      "explanation": "G的小写是g。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-009530eefcbd",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Point to your ___. （指指你的耳朵）",
+      "answer": 1,
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "mouth"
+      ],
+      "explanation": "ear是耳朵。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-62a109654bc0",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "pink",
+        "brown",
+        "black",
+        "book"
+      ],
+      "explanation": "book是书，其它都是颜色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bfc73989e474",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "understand",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "“我有两只猫”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I have two cats.",
+        "I have two cat.",
+        "I am two cats.",
+        "I like cats."
+      ],
+      "explanation": "两只猫要用复数cats。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d93fc23dcd42",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "___ is a red apple. (这是一个红苹果)",
+      "answer": 1,
+      "options": [
+        "That",
+        "This",
+        "These",
+        "Those"
+      ],
+      "explanation": "This is 用于介绍近处的东西。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-34da37bb8c2b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "C___ the door, please. (关上门)",
+      "answer": "lose",
+      "explanation": "Close关，缺lose。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c571b3af4ba7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "I ___ seven years old.",
+      "answer": "am",
+      "explanation": "表示年龄用 I am ... years old."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-796db2af7b99",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The cat is bl___. (黑色的)",
+      "answer": "ack",
+      "explanation": "black黑色，缺ack。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-5dd8c6c8f2bd",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "apple",
+        "banana",
+        "orange",
+        "pear"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "香蕉",
+        "梨",
+        "苹果",
+        "橙子"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "apple苹果，banana香蕉，orange橙子，pear梨。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-10c9b3359f00",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "left": [
+        "What color is it?",
+        "How are you?",
+        "What's this?",
+        "Goodbye"
+      ],
+      "stem": "把问句和答句连起来",
+      "right": [
+        "I'm fine.",
+        "It's a book.",
+        "It's red.",
+        "Bye"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "问颜色答It's red.，问身体答I'm fine.，问物品答It's a book.，再见答Bye。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d9edcf897f5f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“鸟”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "bird",
+        "cat",
+        "dog",
+        "fish"
+      ],
+      "explanation": "bird是鸟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-96c3afca349c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "当你想说“谢谢”，应该说：",
+      "answer": 1,
+      "options": [
+        "Sorry",
+        "Thank you",
+        "Please",
+        "Hello"
+      ],
+      "explanation": "Thank you是谢谢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bbeb7062d9fe",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can see ___ elephant.",
+      "answer": 1,
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "explanation": "elephant元音开头，用an。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d79713200bca",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“绿色”的英文是？",
+      "answer": 2,
+      "options": [
+        "red",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "explanation": "green绿色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-003d2499f93c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "head",
+        "hand",
+        "eye",
+        "book"
+      ],
+      "explanation": "book是书，其它是身体部位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3cc21c6792b8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "It ___ a big ball.",
+      "answer": 1,
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "explanation": "It is 固定搭配。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3e2833582c3c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "How many pencils? 回答：",
+      "answer": 0,
+      "options": [
+        "Five",
+        "I'm five.",
+        "It's a pencil.",
+        "Red."
+      ],
+      "explanation": "问数量，答Five."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-91cfce815e80",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Good morning.",
+      "answer": 3,
+      "options": [
+        "Good afternoon.",
+        "Good evening.",
+        "Goodbye.",
+        "Good morning."
+      ],
+      "explanation": "早上好回答早上好。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ea2dbf746775",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我有一个苹果”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "I have a apple.",
+        "I have an apple.",
+        "I have apple.",
+        "I like apple."
+      ],
+      "explanation": "apple元音开头用an。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7f563c806307",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 0,
+      "options": [
+        "banana",
+        "bananna",
+        "banan",
+        "banane"
+      ],
+      "explanation": "香蕉banana。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6afa95745db8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母H的小写是？",
+      "answer": 0,
+      "options": [
+        "h",
+        "n",
+        "m",
+        "b"
+      ],
+      "explanation": "H小写h。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-34eb573cf464",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Touch your ___. （摸摸你的鼻子）",
+      "answer": 1,
+      "options": [
+        "head",
+        "nose",
+        "ear",
+        "eye"
+      ],
+      "explanation": "nose鼻子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b20a722eca64",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "reason",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "happy",
+        "sad",
+        "big",
+        "run"
+      ],
+      "explanation": "run跑是动作，其它是形容词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9963e5e6dfd5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“four+five”等于几？",
+      "answer": 2,
+      "options": [
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ],
+      "explanation": "4+5=9，nine。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c9410aeed39d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "They ___ ducks. (是)",
+      "answer": "are",
+      "explanation": "They are复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-41059d8ce1e7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ is my mother. (这是我妈妈)",
+      "answer": 1,
+      "options": [
+        "He",
+        "She",
+        "It",
+        "I"
+      ],
+      "explanation": "妈妈是女性，用She。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d4f02adf8c1d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I like to dr___ water. (喝水)",
+      "answer": "ink",
+      "explanation": "drink喝，缺ink。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e861ed067dbf",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "She ___ my sister. (是)",
+      "answer": "is",
+      "explanation": "She is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b47ba16ef096",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The sun is y___. (黄色的)",
+      "answer": "ellow",
+      "explanation": "yellow黄色，缺ellow。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-df8e16de405c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "四",
+        "二",
+        "三",
+        "一"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "one一，two二，three三，four四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-18d5eb52c21e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "Stand up.",
+        "Sit down.",
+        "Open your book.",
+        "Close your book."
+      ],
+      "stem": "把句子和意思连起来",
+      "right": [
+        "合上书",
+        "站起来",
+        "坐下",
+        "打开书"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "Stand up.站起来，Sit down.坐下，Open your book.打开书，Close your book.合上书。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-455c55cba7ce",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“鱼”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "bird",
+        "fish",
+        "cat",
+        "dog"
+      ],
+      "explanation": "fish是鱼。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-96b6603d1d05",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "当你做错事说“对不起”，应该说：",
+      "answer": 2,
+      "options": [
+        "Thank you",
+        "Hello",
+        "Sorry",
+        "Goodbye"
+      ],
+      "explanation": "Sorry是对不起。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1fe8ec282124",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "There ___ a pen on the desk.",
+      "answer": 0,
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "explanation": "There is + 单数物品。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-50f7588da844",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“黑色”的英文是？",
+      "answer": 1,
+      "options": [
+        "white",
+        "black",
+        "red",
+        "pink"
+      ],
+      "explanation": "black是黑色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d435556dce15",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "apply",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "run",
+        "swim",
+        "fly",
+        "apple"
+      ],
+      "explanation": "apple是苹果，其它是动作。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6ed2aeb04e7f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ name is Amy.",
+      "answer": 1,
+      "options": [
+        "I",
+        "My",
+        "Me",
+        "Mine"
+      ],
+      "explanation": "My name is ... 我的名字是。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f305f0d53640",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "What's that? 回答：",
+      "answer": 0,
+      "options": [
+        "It's a dog.",
+        "I'm fine.",
+        "Five.",
+        "My name is Tom."
+      ],
+      "explanation": "问那是什么，回答It's a ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9fe8ec6e25c6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "reason",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "请选择正确的句子：",
+      "answer": 1,
+      "options": [
+        "He like apples.",
+        "He likes apples.",
+        "He liking apples.",
+        "He is like apples."
+      ],
+      "explanation": "第三人称单数用likes。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b435efbe1246",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "数字“eight”是几？",
+      "answer": 2,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "eight是8。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6a8cfe45a3e3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 1,
+      "options": [
+        "teecher",
+        "teacher",
+        "techer",
+        "teachar"
+      ],
+      "explanation": "老师teacher。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8fdaebe08165",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母K的小写是？",
+      "answer": 0,
+      "options": [
+        "k",
+        "h",
+        "l",
+        "j"
+      ],
+      "explanation": "K小写k。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-780ce1d770a3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Touch your ___. （指指你的嘴）",
+      "answer": 1,
+      "options": [
+        "ear",
+        "mouth",
+        "eye",
+        "nose"
+      ],
+      "explanation": "mouth嘴。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ea8a32c58231",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "desk",
+        "chair",
+        "table",
+        "cat"
+      ],
+      "explanation": "cat猫，其它是家具。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2813170675ce",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“她是我的老师”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "He is my teacher.",
+        "She is my teacher.",
+        "I am a teacher.",
+        "She is a teacher."
+      ],
+      "explanation": "她是女性，用She，我的老师my teacher。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0931ee103496",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "___ many books? (多少本书)",
+      "answer": 1,
+      "options": [
+        "What",
+        "How",
+        "Who",
+        "Where"
+      ],
+      "explanation": "How many问数量。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b3db0837f7a0",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can s___ a bird. (看见)",
+      "answer": "ee",
+      "explanation": "see看见，缺ee。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-117d2eb4284b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "They ___ my friends. (是)",
+      "answer": "are",
+      "explanation": "They are复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-be56cddff6bf",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The sky is bl___. (蓝色的)",
+      "answer": "ue",
+      "explanation": "blue蓝色，缺ue。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-fcde654d0e2c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "big",
+        "small",
+        "long",
+        "short"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "短",
+        "长",
+        "大",
+        "小"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "big大，small小，long长，short短。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d23f2b463ef9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "apply",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "Touch your head.",
+        "Clap your hands.",
+        "Stamp your feet.",
+        "Wave your arms."
+      ],
+      "stem": "把指令和相应动作连起来",
+      "right": [
+        "拍手",
+        "挥手",
+        "摸头",
+        "跺脚"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "摸头-摸头，拍手-拍手，跺脚-跺脚，挥手-挥手。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-56325eb71f1b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“兔子”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "rabbit",
+        "cat",
+        "dog",
+        "fish"
+      ],
+      "explanation": "rabbit兔子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9d193140f328",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "当你想请别人坐下，可以说：",
+      "answer": 1,
+      "options": [
+        "Stand up.",
+        "Sit down.",
+        "Open the door.",
+        "Come in."
+      ],
+      "explanation": "Sit down.坐下。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-136e9cec5028",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I have ___ orange.",
+      "answer": 1,
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "explanation": "orange元音开头，用an。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6a06008c1f5d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“白色”的英文是？",
+      "answer": 1,
+      "options": [
+        "black",
+        "white",
+        "red",
+        "blue"
+      ],
+      "explanation": "white白色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-284eb07b76e6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "nose",
+        "mouth",
+        "ear",
+        "pen"
+      ],
+      "explanation": "pen是笔，其它是五官。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-383f9dfc5ac7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "This ___ my dog.",
+      "answer": 0,
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "explanation": "This is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-18958dd32af0",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Can you dance? 回答：",
+      "answer": 0,
+      "options": [
+        "Yes, I can.",
+        "Yes, I do.",
+        "Yes, I am.",
+        "No, I can."
+      ],
+      "explanation": "can问can答，肯定Yes, I can."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4d05101ee0ca",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Nice to meet you.",
+      "answer": 1,
+      "options": [
+        "How are you?",
+        "Nice to meet you, too.",
+        "Goodbye.",
+        "Thank you."
+      ],
+      "explanation": "Nice to meet you.回答Nice to meet you, too."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-297df0dee4ee",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我喜欢蓝色”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I like blue.",
+        "I like blue color.",
+        "I like a blue.",
+        "I am like blue."
+      ],
+      "explanation": "I like blue."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-5ee3fcac043f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 1,
+      "options": [
+        "pensil",
+        "pencil",
+        "pencel",
+        "pensl"
+      ],
+      "explanation": "铅笔pencil。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8e52c37d4f64",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母L的小写是？",
+      "answer": 0,
+      "options": [
+        "l",
+        "i",
+        "j",
+        "t"
+      ],
+      "explanation": "L小写l。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ab73074596b3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "Show me your ___. （给我看你的书包）",
+      "answer": 1,
+      "options": [
+        "book",
+        "bag",
+        "pen",
+        "ruler"
+      ],
+      "explanation": "bag书包。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f768b5dd2d61",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "tall",
+        "short",
+        "fat",
+        "teacher"
+      ],
+      "explanation": "teacher老师，其它是形容词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6a29f53b6b86",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“他是我弟弟”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "He is my brother.",
+        "She is my brother.",
+        "He is my sister.",
+        "I am brother."
+      ],
+      "explanation": "弟弟brother，男性用He。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1645890fbe1e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What ___ you like?",
+      "answer": 1,
+      "options": [
+        "are",
+        "do",
+        "is",
+        "can"
+      ],
+      "explanation": "What do you like? 你喜欢什么？"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0d46131945a9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The sun is b___. (明亮的)",
+      "answer": "right",
+      "explanation": "bright明亮的，缺right。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b4ab5c1bd44d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "You ___ a good student. (是)",
+      "answer": "are",
+      "explanation": "You are ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9a3c011b7ff8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I have a ___ (狗).",
+      "answer": "dog",
+      "explanation": "狗dog。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-505203a2d386",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "mother",
+        "father",
+        "sister",
+        "brother"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "父亲",
+        "兄弟",
+        "母亲",
+        "姐妹"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "mother母亲，father父亲，sister姐妹，brother兄弟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-354f21bb07f7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "left": [
+        "How old are you?",
+        "What color is it?",
+        "How are you?",
+        "What's your name?"
+      ],
+      "stem": "把问题与正确答案连起来",
+      "right": [
+        "I'm fine.",
+        "My name is Jack.",
+        "I'm eight.",
+        "It's yellow."
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "问年龄答I'm eight.，问颜色答It's yellow.，问身体答I'm fine.，问名字答My name is Jack."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2463011bf20d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“猴子”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "monkey",
+        "donkey",
+        "tiger",
+        "lion"
+      ],
+      "explanation": "monkey猴子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b8f1f02b976c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "当你见到新同学，应该说：",
+      "answer": 1,
+      "options": [
+        "Goodbye.",
+        "Hello.",
+        "Sorry.",
+        "Thank you."
+      ],
+      "explanation": "Hello.你好。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-41388f6807a9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can ___ a song.",
+      "answer": 0,
+      "options": [
+        "sing",
+        "drink",
+        "eat",
+        "run"
+      ],
+      "explanation": "sing a song 唱歌。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-a83eb5058efc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“黄色”的英文是？",
+      "answer": 0,
+      "options": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "explanation": "yellow黄色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-985f3f86fb03",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "milk",
+        "water",
+        "juice",
+        "book"
+      ],
+      "explanation": "book书，其它是饮品。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-827deafe11ec",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "understand",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "___ you happy? Yes, I am.",
+      "answer": 1,
+      "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Do"
+      ],
+      "explanation": "Are you ...? 回答Yes, I am."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2860dd800c5b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Where is the cat? 回答：",
+      "answer": 1,
+      "options": [
+        "It's a cat.",
+        "It's under the table.",
+        "I can see a cat.",
+        "I like cats."
+      ],
+      "explanation": "问位置，回答在桌子下面。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f3742975ae06",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "reason",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "请选择正确的句子：",
+      "answer": 1,
+      "options": [
+        "She have a doll.",
+        "She has a doll.",
+        "She haves a doll.",
+        "She is have a doll."
+      ],
+      "explanation": "第三人称单数用has。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f98a0e602269",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "数字“seven”是几？",
+      "answer": 2,
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "seven是7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-91a212c9e6e6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 1,
+      "options": [
+        "ruer",
+        "ruler",
+        "rular",
+        "rurle"
+      ],
+      "explanation": "尺子ruler。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2c63cf5cf55e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母N的小写是？",
+      "answer": 0,
+      "options": [
+        "n",
+        "m",
+        "h",
+        "u"
+      ],
+      "explanation": "N小写n。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c87f68e9e0c4",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Close your ___. （闭上你的眼睛）",
+      "answer": 1,
+      "options": [
+        "ears",
+        "eyes",
+        "mouth",
+        "nose"
+      ],
+      "explanation": "eyes眼睛。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3093e949f831",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "reason",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "morning",
+        "afternoon",
+        "evening",
+        "hello"
+      ],
+      "explanation": "hello是招呼，其它是时间。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c255037b4456",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“它在椅子下面”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "It is on the chair.",
+        "It is under the chair.",
+        "It is in the chair.",
+        "It is a chair."
+      ],
+      "explanation": "under在下面。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b6777db856b5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Do you like cats? 肯定回答：",
+      "answer": 0,
+      "options": [
+        "Yes, I do.",
+        "No, I don't.",
+        "Yes, I am.",
+        "No, I can't."
+      ],
+      "explanation": "Do问do答，肯定Yes, I do."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b16fe68eda95",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can j___ high. (跳得高)",
+      "answer": "ump",
+      "explanation": "jump跳，缺ump。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-31015ee7dc35",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "This ___ a big tree. (是)",
+      "answer": "is",
+      "explanation": "This is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-479816af1a96",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "I see a ___ (鸟).",
+      "answer": "bird",
+      "explanation": "鸟bird。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7a60a8424f1e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "happy",
+        "sad",
+        "tall",
+        "short"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "伤心",
+        "高兴",
+        "高",
+        "矮"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "happy高兴，sad伤心，tall高，short矮。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-a64d9f72cacb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "apply",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "red",
+        "apple",
+        "dog",
+        "run"
+      ],
+      "stem": "把单词和对应的类别连起来",
+      "right": [
+        "animal",
+        "action",
+        "color",
+        "fruit"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "red颜色，apple水果，dog动物，run动作。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d438873c7c91",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“老虎”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "lion",
+        "tiger",
+        "bear",
+        "monkey"
+      ],
+      "explanation": "tiger老虎。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7a9bcf42b822",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "当你向别人介绍你的妈妈，可以说：",
+      "answer": 0,
+      "options": [
+        "This is my mother.",
+        "This is my father.",
+        "This is my sister.",
+        "This is my brother."
+      ],
+      "explanation": "mother妈妈。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-67520a592550",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "There ___ three books on the desk.",
+      "answer": 2,
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "explanation": "复数books用are。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2c2f7e5242d2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“粉色”的英文是？",
+      "answer": 0,
+      "options": [
+        "pink",
+        "purple",
+        "brown",
+        "orange"
+      ],
+      "explanation": "pink粉色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-faf61cbae9cb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "banana",
+        "grape",
+        "pear",
+        "dog"
+      ],
+      "explanation": "dog狗，其他是水果。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3e49a1acb9bb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "Look ___ me.",
+      "answer": 0,
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "explanation": "Look at ... 看……。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-082708639972",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What do you see? 回答：",
+      "answer": 0,
+      "options": [
+        "I see a bird.",
+        "I can see.",
+        "Yes, I do.",
+        "It's a bird."
+      ],
+      "explanation": "问看见什么，回答I see ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bd8c9e491631",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Let's go to school.",
+      "answer": 0,
+      "options": [
+        "OK!",
+        "Thank you.",
+        "Goodbye.",
+        "Sorry."
+      ],
+      "explanation": "Let's ... 建议，一般回答OK/Great。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-eb887fe92858",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我八岁了”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I am eight.",
+        "I am eight years.",
+        "I eight.",
+        "I have eight."
+      ],
+      "explanation": "表达年龄：I am eight."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bae794814db3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母P的小写是？",
+      "answer": 0,
+      "options": [
+        "p",
+        "q",
+        "b",
+        "d"
+      ],
+      "explanation": "P小写p。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f80823600a77",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Wash your ___. （洗洗手）",
+      "answer": 0,
+      "options": [
+        "hands",
+        "head",
+        "feet",
+        "face"
+      ],
+      "explanation": "hands手。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b51062746dbb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 0,
+      "options": [
+        "duck",
+        "hen",
+        "pig",
+        "cow"
+      ],
+      "explanation": "duck鸭子禽类，其它是农场哺乳动物，但也可接受。考虑二年级，更明显：duck是禽类，其它四条腿？可以。保留。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-cdbbec2b332d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“你是我的朋友”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "You are my friend.",
+        "I am your friend.",
+        "He is my friend.",
+        "She is my friend."
+      ],
+      "explanation": "You are my friend."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2062d0dabfea",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "___ is he? He is my father.",
+      "answer": 1,
+      "options": [
+        "What",
+        "Who",
+        "How",
+        "Where"
+      ],
+      "explanation": "Who问谁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-76d1d034731b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I have a ___ (猫).",
+      "answer": "cat",
+      "explanation": "猫cat。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-382fb2d5340c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "We ___ happy today. (是)",
+      "answer": "are",
+      "explanation": "We are复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-19f241af2437",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The grass is g___. (绿色的)",
+      "answer": "reen",
+      "explanation": "green绿色，缺reen。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-028e9469b453",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "sunny",
+        "rainy",
+        "windy",
+        "cloudy"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "有风",
+        "多云",
+        "晴朗",
+        "下雨"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "sunny晴，rainy雨，windy风，cloudy多云。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4f1e5db670f8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "生活对话",
+    "skill": "apply",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "left": [
+        "Good morning!",
+        "Good night!",
+        "Happy birthday!",
+        "Happy New Year!"
+      ],
+      "stem": "把句子和场景连起来",
+      "right": [
+        "早上好",
+        "晚安",
+        "生日快乐",
+        "新年快乐"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "直接对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1f67d527968f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can s___ a bird. (看见)",
+      "answer": "ee",
+      "explanation": "see看见，缺ee。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ff4dc08e0387",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“大象”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "elephant",
+        "tiger",
+        "monkey",
+        "lion"
+      ],
+      "explanation": "elephant是大象。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ddc7d85f77a0",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "早晨见到老师，你应该说：",
+      "answer": 0,
+      "options": [
+        "Good morning.",
+        "Goodbye.",
+        "Good night.",
+        "Thank you."
+      ],
+      "explanation": "Good morning早上好。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bdded1c24811",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "I can see two ___.",
+      "answer": 1,
+      "options": [
+        "bird",
+        "birds",
+        "birdes",
+        "a bird"
+      ],
+      "explanation": "two后面用复数birds。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ed6c66cf242b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“红色”的英文是？",
+      "answer": 0,
+      "options": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "explanation": "red红色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-64414bd1d557",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "pencil",
+        "ruler",
+        "book",
+        "apple"
+      ],
+      "explanation": "apple是水果，其他是文具。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c1d543c2d728",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ is a cat.",
+      "answer": 2,
+      "options": [
+        "I",
+        "My",
+        "It",
+        "He"
+      ],
+      "explanation": "It is a cat.它是一只猫。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-15a377382f76",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "How many bananas? 回答：",
+      "answer": 2,
+      "options": [
+        "It's a banana.",
+        "I like bananas.",
+        "Six.",
+        "Yes, please."
+      ],
+      "explanation": "问数量直接回答数字。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-21dcc3599820",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "reason",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Have some juice.",
+      "answer": 0,
+      "options": [
+        "Thank you.",
+        "No, I'm not.",
+        "I'm fine.",
+        "It's juice."
+      ],
+      "explanation": "请喝果汁，回答谢谢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e526f96356c6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我有一支铅笔”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I have a pencil.",
+        "I have a pen.",
+        "I see a pencil.",
+        "I like pencils."
+      ],
+      "explanation": "pencil铅笔，have有。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2cbbbd36d2ff",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母Q的小写是？",
+      "answer": 1,
+      "options": [
+        "p",
+        "q",
+        "g",
+        "d"
+      ],
+      "explanation": "Q小写q。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d19d4efccc22",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Clap your ___. （拍拍手）",
+      "answer": 0,
+      "options": [
+        "hands",
+        "head",
+        "feet",
+        "legs"
+      ],
+      "explanation": "hands手。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b8bf6387004f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "reason",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "car",
+        "bus",
+        "bike",
+        "run"
+      ],
+      "explanation": "run跑是动作，其他是交通工具。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ddc6e67c0c3f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“她是一个女孩”用英语怎么说？",
+      "answer": 1,
+      "options": [
+        "She is a boy.",
+        "She is a girl.",
+        "He is a girl.",
+        "I am a girl."
+      ],
+      "explanation": "女孩girl，女性用she。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0144fd6eace4",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What color is the banana? 回答：",
+      "answer": 0,
+      "options": [
+        "It's yellow.",
+        "It's a banana.",
+        "Yes, it is.",
+        "I like yellow."
+      ],
+      "explanation": "香蕉是黄色的。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-fb594b4a67d3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I have a ___ (狗).",
+      "answer": "dog",
+      "explanation": "狗dog。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8868cd21a243",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "He ___ my friend. (是)",
+      "answer": "is",
+      "explanation": "He is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4f38f1319d3b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The apple is r___. (红色的)",
+      "answer": "ed",
+      "explanation": "red，缺ed。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-260f05e0efe1",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "open",
+        "close",
+        "sit",
+        "stand"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "关",
+        "开",
+        "站",
+        "坐"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "open开，close关，sit坐，stand站。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0000a2a70b89",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "It's a sunny day.",
+        "It's rainy.",
+        "It's snowy.",
+        "It's windy."
+      ],
+      "stem": "把句子和对应的图片描述连起来",
+      "right": [
+        "下雨",
+        "晴天",
+        "下雪",
+        "刮风"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "sunny晴天，rainy下雨，snowy下雪，windy刮风。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b9a7c4c71487",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“青蛙”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "frog",
+        "dog",
+        "cat",
+        "duck"
+      ],
+      "explanation": "frog是青蛙。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-36454f4d870e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "晚上睡觉前，你应该对妈妈说：",
+      "answer": 1,
+      "options": [
+        "Good morning.",
+        "Good night.",
+        "Goodbye.",
+        "Hello."
+      ],
+      "explanation": "Good night.晚安。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f68d4c80d969",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "There ___ a banana on the plate.",
+      "answer": 1,
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "explanation": "单数用is。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1c1ae6445818",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“紫色”的英文是？",
+      "answer": 1,
+      "options": [
+        "pink",
+        "purple",
+        "brown",
+        "orange"
+      ],
+      "explanation": "purple紫色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-25f7ffe3995d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "head",
+        "hand",
+        "eye",
+        "red"
+      ],
+      "explanation": "red颜色，其他是身体部位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d194a8b81e6a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "___ is my pen.",
+      "answer": 0,
+      "options": [
+        "This",
+        "I",
+        "He",
+        "We"
+      ],
+      "explanation": "This is my pen. 这是我的钢笔。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1a5a7ddf9b51",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What animal is it? 回答：",
+      "answer": 0,
+      "options": [
+        "It's a tiger.",
+        "It's red.",
+        "I like it.",
+        "Yes."
+      ],
+      "explanation": "问动物，回答It's a ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ef50e5207ec7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "reason",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Let's paint.",
+      "answer": 1,
+      "options": [
+        "Goodbye.",
+        "Great!",
+        "I'm fine.",
+        "Thank you."
+      ],
+      "explanation": "Let's建议，应答Great/OK。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9206c3150ceb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我会跳舞”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I can dance.",
+        "I can sing.",
+        "I am dance.",
+        "I like dance."
+      ],
+      "explanation": "can+动词原形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-18c4561149ea",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 0,
+      "options": [
+        "crayon",
+        "craon",
+        "crayen",
+        "crayan"
+      ],
+      "explanation": "蜡笔crayon。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-5b6181ca56ea",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母R的小写是？",
+      "answer": 0,
+      "options": [
+        "r",
+        "v",
+        "n",
+        "m"
+      ],
+      "explanation": "R小写r。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-990fdeba5132",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Shake your ___. （摇摇你的腿）",
+      "answer": 0,
+      "options": [
+        "legs",
+        "hands",
+        "head",
+        "body"
+      ],
+      "explanation": "leg腿。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f04d14e8d18b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "reason",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 2,
+      "options": [
+        "cake",
+        "bread",
+        "milk",
+        "hot dog"
+      ],
+      "explanation": "milk饮品，其他是食物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-df689ccf11b8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“那是一本书”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "That is a book.",
+        "This is a book.",
+        "It is a book.",
+        "I have a book."
+      ],
+      "explanation": "That表示远指。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7c8ad3c38952",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "Is it a cat? 肯定回答：",
+      "answer": 0,
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, it isn't.",
+        "No, it is."
+      ],
+      "explanation": "Is it问，肯定回答Yes, it is."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-9b33f8bbdee7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "like与have",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I like to e___ apples. (吃)",
+      "answer": "at",
+      "explanation": "eat吃，缺at。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8e889b567e42",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "These ___ my books. (是)",
+      "answer": "are",
+      "explanation": "These are复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7dc75c29d90b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The flower is p___. (粉色的)",
+      "answer": "ink",
+      "explanation": "pink粉色，缺ink。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-a6beb7612039",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "rice",
+        "noodles",
+        "bread",
+        "cake"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "米饭",
+        "蛋糕",
+        "面条",
+        "面包"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "rice米饭，noodles面条，bread面包，cake蛋糕。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-60c309668ad5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "left": [
+        "How old are you?",
+        "What's your name?",
+        "Where is the book?",
+        "How are you?"
+      ],
+      "stem": "把问题和回答连起来",
+      "right": [
+        "My name is Lucy.",
+        "I'm nine.",
+        "It's on the desk.",
+        "Fine, thank you."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "问年龄答nine，问名字答Lucy，问位置答on the desk，问身体答Fine。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f15d24eebfed",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“奶牛”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "cow",
+        "dog",
+        "cat",
+        "pig"
+      ],
+      "explanation": "cow奶牛。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7c3ab81ed02e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "别人帮助了你，你应该说：",
+      "answer": 0,
+      "options": [
+        "Thank you.",
+        "Sorry.",
+        "Hello.",
+        "Goodbye."
+      ],
+      "explanation": "Thank you.谢谢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3ba912170484",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I ___ a new book.",
+      "answer": 0,
+      "options": [
+        "have",
+        "has",
+        "am",
+        "is"
+      ],
+      "explanation": "I have 我有。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ec49df74b762",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“橙色”的英文是？",
+      "answer": 0,
+      "options": [
+        "orange",
+        "apple",
+        "banana",
+        "grape"
+      ],
+      "explanation": "orange既是橙子也是橙色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-73fe77117dae",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "fish",
+        "bird",
+        "cat",
+        "book"
+      ],
+      "explanation": "book书，其他是动物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-dc653b2f220a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "Look ___ the blackboard.",
+      "answer": 0,
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "explanation": "look at看。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-09ea19192e8e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What do you like? 回答：",
+      "answer": 0,
+      "options": [
+        "I like milk.",
+        "I'm fine.",
+        "It's a dog.",
+        "I can run."
+      ],
+      "explanation": "问喜欢什么，回答喜欢的东西。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c425d7b3c6d2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Here you are.",
+      "answer": 0,
+      "options": [
+        "Thank you.",
+        "Yes.",
+        "I'm fine.",
+        "Goodbye."
+      ],
+      "explanation": "Here you are.给你，回答谢谢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f846e65e8e9f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“他是男孩”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "He is a boy.",
+        "She is a boy.",
+        "I am a boy.",
+        "He is a girl."
+      ],
+      "explanation": "男孩boy，他用He。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c8ec7c79d574",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 1,
+      "options": [
+        "taiger",
+        "tiger",
+        "teiger",
+        "tigre"
+      ],
+      "explanation": "老虎tiger。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f0e7be13608c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母S的小写是？",
+      "answer": 0,
+      "options": [
+        "s",
+        "z",
+        "c",
+        "x"
+      ],
+      "explanation": "S小写s。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d0238047c907",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Stamp your ___. （跺跺脚）",
+      "answer": 0,
+      "options": [
+        "feet",
+        "hands",
+        "head",
+        "legs"
+      ],
+      "explanation": "feet脚。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3d6208ad4db5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 2,
+      "options": [
+        "mother",
+        "father",
+        "teacher",
+        "sister"
+      ],
+      "explanation": "teacher职业，其他是家庭成员。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e3b4426c0095",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "understand",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "“我喜欢小狗”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I like dogs.",
+        "I like dog.",
+        "I am like dogs.",
+        "I can dogs."
+      ],
+      "explanation": "喜欢狗用复数dogs。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-89c7bf834f23",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "Is she a teacher? 肯定回答：",
+      "answer": 0,
+      "options": [
+        "Yes, she is.",
+        "No, she isn't.",
+        "Yes, he is.",
+        "No, he isn't."
+      ],
+      "explanation": "Is she问，肯定答Yes, she is."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ef252dc37440",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The pig is b___. (大的)",
+      "answer": "ig",
+      "explanation": "big大，缺ig。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bb0067e9e488",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "walk",
+        "run",
+        "jump",
+        "swim"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "跑",
+        "游泳",
+        "走",
+        "跳"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "walk走，run跑，jump跳，swim游泳。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6e48571880eb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "Stand up.",
+        "Sit down.",
+        "Open the door.",
+        "Close the window."
+      ],
+      "stem": "把指令和图片连起来（用中文描述）",
+      "right": [
+        "站起来",
+        "坐下",
+        "开门",
+        "关窗"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "一一对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-28bcf95d00bb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“熊猫”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "panda",
+        "tiger",
+        "lion",
+        "bear"
+      ],
+      "explanation": "panda熊猫。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f3b7eecb46bb",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "放学时，你应该对老师说：",
+      "answer": 1,
+      "options": [
+        "Good morning.",
+        "Goodbye.",
+        "Hello.",
+        "Sorry."
+      ],
+      "explanation": "放学告别说Goodbye。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e9fd8b8f26f6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "___ you like pears? Yes, I do.",
+      "answer": 0,
+      "options": [
+        "Do",
+        "Are",
+        "Is",
+        "Can"
+      ],
+      "explanation": "Do you like... 问喜欢。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-5b2e71cd89ee",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“棕色”的英文是？",
+      "answer": 0,
+      "options": [
+        "brown",
+        "black",
+        "blue",
+        "green"
+      ],
+      "explanation": "brown棕色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2412237859a7",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "leg",
+        "arm",
+        "hand",
+        "girl"
+      ],
+      "explanation": "girl女孩，其他是身体部位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-48a6a9862859",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "I ___ a student.",
+      "answer": 1,
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "explanation": "I am 我是。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b063d51768cc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "Where is the cat? 回答：",
+      "answer": 0,
+      "options": [
+        "It is under the chair.",
+        "It's a cat.",
+        "I see a cat.",
+        "It's small."
+      ],
+      "explanation": "问位置，回答方位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-deb44a878945",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "reason",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：May I have a look?",
+      "answer": 0,
+      "options": [
+        "Sure. Here you are.",
+        "Thank you.",
+        "I'm fine.",
+        "Goodbye."
+      ],
+      "explanation": "请求看东西，同意说Sure。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ad7b9a5aa1f1",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“它是一只大狗”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "It is a big dog.",
+        "It is big dog.",
+        "It is a dog big.",
+        "It big dog."
+      ],
+      "explanation": "形容词big放在名词前。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-63f4c067c27b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 0,
+      "options": [
+        "grape",
+        "graepe",
+        "grap",
+        "graep"
+      ],
+      "explanation": "葡萄grape。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-627f38b80061",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母T的小写是？",
+      "answer": 0,
+      "options": [
+        "t",
+        "l",
+        "i",
+        "f"
+      ],
+      "explanation": "T小写t。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1e9c82623bc6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Touch your ___. （摸摸你的脸）",
+      "answer": 0,
+      "options": [
+        "face",
+        "nose",
+        "ear",
+        "eye"
+      ],
+      "explanation": "face脸。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-aa07488c5137",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "small",
+        "big",
+        "long",
+        "pencil"
+      ],
+      "explanation": "pencil铅笔，其他是形容词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bb151990b912",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“我爸爸很高”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "My father is tall.",
+        "My father is short.",
+        "My mother is tall.",
+        "I am tall."
+      ],
+      "explanation": "tall高。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-1258bcde1356",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "How many books? 回答：",
+      "answer": 0,
+      "options": [
+        "Ten.",
+        "It's a book.",
+        "I'm ten.",
+        "Yes."
+      ],
+      "explanation": "问数量回答数字。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-14397c737184",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "I see a ___ (鸭子).",
+      "answer": "duck",
+      "explanation": "鸭子duck。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ed552f35685f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "She ___ my mother. (是)",
+      "answer": "is",
+      "explanation": "She is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-62c10402b1d1",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The sky is bl___. (蓝色的)",
+      "answer": "ue",
+      "explanation": "blue，缺ue。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-00796822fd66",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "milk",
+        "water",
+        "juice",
+        "tea"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "茶",
+        "果汁",
+        "水",
+        "牛奶"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "milk牛奶，water水，juice果汁，tea茶。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2ebaa96adba4",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "left": [
+        "Happy birthday!",
+        "Happy New Year!",
+        "Merry Christmas!",
+        "Have some cake."
+      ],
+      "stem": "把句子和场景连起来",
+      "right": [
+        "新年快乐",
+        "圣诞快乐",
+        "吃些蛋糕吧",
+        "生日快乐"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Happy birthday生日快乐，New Year新年，Christmas圣诞，Have some cake吃蛋糕。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b16ca50e5899",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“狮子”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "lion",
+        "tiger",
+        "bear",
+        "monkey"
+      ],
+      "explanation": "lion狮子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d08044ba454c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "你弄坏了同学的玩具，应该说：",
+      "answer": 1,
+      "options": [
+        "Thank you.",
+        "I'm sorry.",
+        "Hello.",
+        "Goodbye."
+      ],
+      "explanation": "I'm sorry.对不起。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f969ba23454b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "The bird ___ fly.",
+      "answer": 0,
+      "options": [
+        "can",
+        "is",
+        "has",
+        "are"
+      ],
+      "explanation": "can能，会。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7e20e5459f87",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“灰色”的英文是？",
+      "answer": 0,
+      "options": [
+        "grey",
+        "gold",
+        "green",
+        "blue"
+      ],
+      "explanation": "grey灰色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e355eaa4becc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "panda",
+        "cat",
+        "dog",
+        "red"
+      ],
+      "explanation": "red颜色，其他动物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e3cd9cc150aa",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "understand",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "___ you a boy? Yes, I am.",
+      "answer": 0,
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Do"
+      ],
+      "explanation": "Are you...?"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b67482ede1fc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What's this? 回答：",
+      "answer": 0,
+      "options": [
+        "It's a ruler.",
+        "I'm fine.",
+        "My name is Amy.",
+        "I like it."
+      ],
+      "explanation": "问这是什么，回答It's a ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-fb101e491a09",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：How old are you?",
+      "answer": 0,
+      "options": [
+        "I'm eight.",
+        "I'm fine.",
+        "It's eight.",
+        "Eight."
+      ],
+      "explanation": "完整回答I'm eight."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e5bc55ff0cb9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“她能唱歌”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "She can sing.",
+        "She can sings.",
+        "She is sing.",
+        "She likes sing."
+      ],
+      "explanation": "can后面动词原形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-55cdd8715789",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 1,
+      "options": [
+        "fesh",
+        "fish",
+        "fihs",
+        "fis"
+      ],
+      "explanation": "鱼fish。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c692ae6aa305",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母U的小写是？",
+      "answer": 0,
+      "options": [
+        "u",
+        "v",
+        "n",
+        "w"
+      ],
+      "explanation": "U小写u。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-48560eb72032",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Wave your ___. （挥挥手臂）",
+      "answer": 0,
+      "options": [
+        "arms",
+        "legs",
+        "feet",
+        "head"
+      ],
+      "explanation": "arms手臂。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4a1dd92216c5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "apple",
+        "banana",
+        "pear",
+        "milk"
+      ],
+      "explanation": "milk饮品，其他水果。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-442d24dd3b88",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“它在桌子上”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "It is on the table.",
+        "It is under the table.",
+        "It is in the table.",
+        "It is a table."
+      ],
+      "explanation": "on在...上面。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bb3bc099b0cd",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Can you swim? 否定回答：",
+      "answer": 0,
+      "options": [
+        "No, I can't.",
+        "No, I don't.",
+        "No, I am not.",
+        "Yes, I can."
+      ],
+      "explanation": "can问can答，否定No, I can't."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-93dede6c6727",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "understand",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "I like ___ (苹果).",
+      "answer": "apples",
+      "explanation": "苹果apples，喜欢复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-43fb6107bf09",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "We ___ good friends. (是)",
+      "answer": "are",
+      "explanation": "We are复数。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-988a7a6ca96a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The car is b___. (蓝色的)",
+      "answer": "lue",
+      "explanation": "blue，缺lue。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-a682bb7f0a1a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "read",
+        "write",
+        "draw",
+        "sing"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "写",
+        "唱",
+        "画",
+        "读"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "read读，write写，draw画，sing唱。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-881813478091",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "New Year",
+        "Christmas",
+        "Birthday",
+        "Teacher's Day"
+      ],
+      "stem": "把节日和祝福语连起来",
+      "right": [
+        "Merry Christmas!",
+        "Happy birthday!",
+        "Happy New Year!",
+        "Happy Teacher's Day!"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "新年新年快乐，圣诞圣诞快乐，生日生日快乐，教师节教师节快乐。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-df00971b8f03",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“马”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "horse",
+        "house",
+        "mouse",
+        "dog"
+      ],
+      "explanation": "horse马。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-37a214367f8c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "understand",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "你想知道别人叫什么名字，应该问：",
+      "answer": 1,
+      "options": [
+        "How are you?",
+        "What's your name?",
+        "How old are you?",
+        "Where are you?"
+      ],
+      "explanation": "What's your name?问名字。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f17ac79ff916",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I have ___ eraser.",
+      "answer": 1,
+      "options": [
+        "a",
+        "an",
+        "the",
+        "/"
+      ],
+      "explanation": "eraser元音开头，用an。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4f92842d8e4d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“粉色”的英文是？",
+      "answer": 0,
+      "options": [
+        "pink",
+        "purple",
+        "brown",
+        "yellow"
+      ],
+      "explanation": "pink粉色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3bfa171681bf",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "apply",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "milk",
+        "juice",
+        "water",
+        "bread"
+      ],
+      "explanation": "bread面包，其他是饮品。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bd3b77505db3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "understand",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "They ___ my sisters.",
+      "answer": 2,
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "explanation": "复数用are。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6059978c9859",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "What color is the snow? 回答：",
+      "answer": 0,
+      "options": [
+        "It's white.",
+        "It's cold.",
+        "It's a snow.",
+        "I like snow."
+      ],
+      "explanation": "雪是白色的。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ae089ba23b61",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "reason",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：Let's go to the zoo.",
+      "answer": 0,
+      "options": [
+        "Great!",
+        "Thank you.",
+        "I'm fine.",
+        "Goodbye."
+      ],
+      "explanation": "建议，回答Great/OK。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0ab5e838614e",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“它是一只小鸭子”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "It is a small duck.",
+        "It is a duck small.",
+        "It small duck.",
+        "It is small duck."
+      ],
+      "explanation": "形容词在名词前，且要有a。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3368fda9c273",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出正确的单词拼写：",
+      "answer": 0,
+      "options": [
+        "duck",
+        "duk",
+        "dukc",
+        "duke"
+      ],
+      "explanation": "鸭子duck。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-cf0bedcfbef2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母V的小写是？",
+      "answer": 0,
+      "options": [
+        "v",
+        "u",
+        "w",
+        "y"
+      ],
+      "explanation": "V小写v。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-4b2d39ee86e3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Close your ___. （闭上你的嘴）",
+      "answer": 0,
+      "options": [
+        "mouth",
+        "nose",
+        "eyes",
+        "ears"
+      ],
+      "explanation": "mouth嘴。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6f79337a2bec",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "long",
+        "short",
+        "tall",
+        "ruler"
+      ],
+      "explanation": "ruler尺子，其他形容词。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-d57d34789005",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“我妈妈很漂亮”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "My mother is beautiful.",
+        "My father is beautiful.",
+        "My mother is handsome.",
+        "I am beautiful."
+      ],
+      "explanation": "妈妈女性，beautiful漂亮。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-cb457e4b3d5a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Do you like milk? 否定回答：",
+      "answer": 0,
+      "options": [
+        "No, I don't.",
+        "No, I do.",
+        "Yes, I don't.",
+        "No, I am not."
+      ],
+      "explanation": "Do问do答，否定No, I don't."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-ae13273176f2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "I see a ___ (猪).",
+      "answer": "pig",
+      "explanation": "猪pig。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-2bd7d610c962",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "It ___ a funny monkey. (是)",
+      "answer": "is",
+      "explanation": "It is ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-7d46505dfa65",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The leaf is g___. (绿色的)",
+      "answer": "reen",
+      "explanation": "green，缺reen。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-561739779961",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "morning",
+        "afternoon",
+        "evening",
+        "night"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "晚上",
+        "下午",
+        "早上",
+        "夜晚"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "morning早上，afternoon下午，evening傍晚，night夜晚。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e34d476fa24d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "left": [
+        "Thank you.",
+        "I'm sorry.",
+        "How are you?",
+        "Goodbye."
+      ],
+      "stem": "把句子和应答连起来",
+      "right": [
+        "Bye.",
+        "I'm fine.",
+        "That's OK.",
+        "You're welcome."
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "谢谢-不客气，对不起-没关系，你好-好，再见-再见。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-223a2cfb0b6f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“绵羊”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "sheep",
+        "ship",
+        "goat",
+        "lamb"
+      ],
+      "explanation": "sheep绵羊。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6efa755139d2",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "生活对话",
+    "skill": "understand",
+    "tags": [
+      "日常交际"
+    ],
+    "content": {
+      "stem": "你邀请朋友一起玩，可以说：",
+      "answer": 0,
+      "options": [
+        "Let's play!",
+        "Goodbye.",
+        "Thank you.",
+        "Sorry."
+      ],
+      "explanation": "Let's play! 让我们一起玩！"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-c368717a699f",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "apply",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "The ducks ___ swimming.",
+      "answer": 2,
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "explanation": "ducks复数用are。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-6a9638a15bbc",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“黑色”的英文是？",
+      "answer": 1,
+      "options": [
+        "white",
+        "black",
+        "brown",
+        "grey"
+      ],
+      "explanation": "black黑色。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-150e0f3f0730",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的一项：",
+      "answer": 3,
+      "options": [
+        "teacher",
+        "doctor",
+        "nurse",
+        "mother"
+      ],
+      "explanation": "mother家庭成员，其他职业。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-888543daee57",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "Look ___ the cat.",
+      "answer": 0,
+      "options": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
+      "explanation": "look at看。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b8efc41129dd",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单问答",
+    "skill": "apply",
+    "tags": [
+      "情境交际"
+    ],
+    "content": {
+      "stem": "Is this your book? 肯定回答：",
+      "answer": 0,
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "explanation": "Is this问，肯定回答Yes, it is."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b243de51e6f4",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "单数与复数",
+    "skill": "reason",
+    "tags": [
+      "词形运用"
+    ],
+    "content": {
+      "stem": "请选择正确的应答：How many crayons?",
+      "answer": 0,
+      "options": [
+        "Ten.",
+        "I'm ten.",
+        "It's ten.",
+        "Yes, ten."
+      ],
+      "explanation": "问数量直接数字回答。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-3aed3ac1c965",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "understand",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "“我会画画”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "I can draw.",
+        "I can paint.",
+        "I can sing.",
+        "I am draw."
+      ],
+      "explanation": "draw画画。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f1f791cc710c",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "字母W的小写是？",
+      "answer": 0,
+      "options": [
+        "w",
+        "m",
+        "v",
+        "u"
+      ],
+      "explanation": "W小写w。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8d8ea599f1f1",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "Shake your ___. （摇摇头）",
+      "answer": 0,
+      "options": [
+        "head",
+        "hands",
+        "legs",
+        "body"
+      ],
+      "explanation": "head头。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e65630c95f1d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "reason",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "选出不同类的单词：",
+      "answer": 3,
+      "options": [
+        "panda",
+        "tiger",
+        "lion",
+        "desk"
+      ],
+      "explanation": "desk桌子，其他动物。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e28e5d8de5c3",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "“那个是只猫”用英语怎么说？",
+      "answer": 0,
+      "options": [
+        "That is a cat.",
+        "This is a cat.",
+        "It is a cat.",
+        "A cat is that."
+      ],
+      "explanation": "That那个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-a800edc385b8",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Where is my bag? 回答：",
+      "answer": 0,
+      "options": [
+        "It's on the bed.",
+        "It's a bag.",
+        "I have a bag.",
+        "It's big."
+      ],
+      "explanation": "问位置，答方位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-61506e9b238d",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常用动作",
+    "skill": "understand",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "stem": "I see a ___ (鸟).",
+      "answer": "bird",
+      "explanation": "鸟bird。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-0ccf07d0c591",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "apply",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "You ___ my good friend. (是)",
+      "answer": "are",
+      "explanation": "You are ..."
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-8d306514109a",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "stem": "The banana is y___. (黄色的)",
+      "answer": "ellow",
+      "explanation": "yellow，缺ellow。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-cfbae7b7973b",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常名词",
+    "skill": "understand",
+    "tags": [
+      "主题词汇"
+    ],
+    "content": {
+      "left": [
+        "summer",
+        "winter",
+        "spring",
+        "autumn"
+      ],
+      "stem": "把英文和中文意思连起来",
+      "right": [
+        "春天",
+        "秋天",
+        "夏天",
+        "冬天"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "summer夏，winter冬，spring春，autumn秋。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-f831f1b89c79",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "常用动作",
+    "skill": "apply",
+    "tags": [
+      "动作表达"
+    ],
+    "content": {
+      "left": [
+        "apple",
+        "tiger",
+        "blue",
+        "run"
+      ],
+      "stem": "把单词和对应的类别连起来",
+      "right": [
+        "颜色",
+        "动物",
+        "水果",
+        "动作"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "苹果水果，老虎动物，蓝色颜色，跑动作。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  }
+]

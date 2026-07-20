@@ -1,0 +1,7127 @@
+[
+  {
+    "id": "g2-math-legacy-32a2eafbf7a6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3 × 4 = ？",
+      "answer": 1,
+      "options": [
+        "7",
+        "12",
+        "10",
+        "15"
+      ],
+      "explanation": "三四十二，3乘4等于12。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-7c2a702db6f4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "18 ÷ 3 = ？",
+      "answer": 2,
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "三六十八，18除以3等于6。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-89c4a9a8b2bb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一支铅笔5角，买3支需要多少钱？",
+      "answer": 1,
+      "options": [
+        "1元",
+        "1元5角",
+        "2元",
+        "8角"
+      ],
+      "explanation": "5角+5角+5角=15角=1元5角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fdb55da2f4b4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下列哪个是角？",
+      "answer": 0,
+      "options": [
+        "一个顶点两条直直的边",
+        "一条线",
+        "一个圆",
+        "两条不相连的线"
+      ],
+      "explanation": "角由一个顶点和两条边组成。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2a0cafa42c43",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "课桌大约有多高？",
+      "answer": 1,
+      "options": [
+        "7厘米",
+        "70厘米",
+        "7米",
+        "70米"
+      ],
+      "explanation": "课桌高度大约70厘米，也就是7分米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-04e5a81a6346",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "56 + 8 = ？",
+      "answer": 1,
+      "options": [
+        "62",
+        "64",
+        "66",
+        "54"
+      ],
+      "explanation": "56+4=60，60+4=64，所以56+8=64。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2510b8436cf1",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "分针从12走到6，走了多长时间？",
+      "answer": 1,
+      "options": [
+        "6分钟",
+        "30分钟",
+        "1小时",
+        "半小时"
+      ],
+      "explanation": "分针走一大格是5分钟，走到6是6大格，5×6=30分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-13186621ae38",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "加法与减法",
+    "skill": "reason",
+    "tags": [
+      "计算与应用"
+    ],
+    "content": {
+      "stem": "小明有20张卡片，比小红多5张，小红有几张？",
+      "answer": 1,
+      "options": [
+        "25张",
+        "15张",
+        "10张",
+        "20张"
+      ],
+      "explanation": "小明比小红多5张，小红就比小明少5张，20-5=15张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-7b024d9076f4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "用口诀“五七三十五”不可以计算哪道题？",
+      "answer": 3,
+      "options": [
+        "5×7",
+        "7×5",
+        "35÷5",
+        "35÷6"
+      ],
+      "explanation": "“五七三十五”只能算5×7、7×5、35÷5、35÷7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-87d1e85e83be",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一条绳子长1米，用去30厘米，还剩多少厘米？",
+      "answer": 0,
+      "options": [
+        "70厘米",
+        "60厘米",
+        "50厘米",
+        "7厘米"
+      ],
+      "explanation": "1米=100厘米，100-30=70厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3e96f716ac52",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "△+△+△=15，那么△=？",
+      "answer": 2,
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "3个相同的数相加得15，三五十五，△=5。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3f729044e335",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 2 = ？",
+      "answer": 1,
+      "options": [
+        "16",
+        "18",
+        "20",
+        "11"
+      ],
+      "explanation": "二九十八，9乘2等于18。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dcf37ea592f6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "加法与减法",
+    "skill": "apply",
+    "tags": [
+      "计算与应用"
+    ],
+    "content": {
+      "stem": "姐姐今年8岁，妹妹比她小3岁，妹妹几岁？",
+      "answer": 1,
+      "options": [
+        "11岁",
+        "5岁",
+        "3岁",
+        "8岁"
+      ],
+      "explanation": "8-3=5，妹妹5岁。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d33e234fa0fd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下列图形中，哪个不是四边形？",
+      "answer": 2,
+      "options": [
+        "长方形",
+        "正方形",
+        "三角形",
+        "平行四边形"
+      ],
+      "explanation": "三角形有3条边，不是四边形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-bf1248d6845d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "reason",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "时钟显示时针在8和9之间，分针指向6，是什么时间？",
+      "answer": 0,
+      "options": [
+        "8:30",
+        "9:30",
+        "8:06",
+        "6:40"
+      ],
+      "explanation": "分针指向6是半时，时针刚过8就是8:30。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9ec1f699a2f4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6 × 7 = ___",
+      "answer": "42",
+      "explanation": "六七四十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4ab2184f253d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一集动画片30分钟，看两集需要___分钟，也就是___小时。",
+      "answer": "60 1",
+      "explanation": "30+30=60分钟，60分钟=1小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4cb5912d54ad",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一根黄瓜长约20___。（填厘米或米）",
+      "answer": "厘米",
+      "explanation": "黄瓜长度用厘米，20厘米大约是一拃长。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-97a188dc9ce6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "上午7时",
+        "中午12时",
+        "下午4时",
+        "晚上9时"
+      ],
+      "stem": "把时间与对应的钟面描述连起来",
+      "right": [
+        "时针指7，分针指12",
+        "时针指12，分针指12",
+        "时针指4，分针指12",
+        "时针指9，分针指12"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "整时的时候，分针指向12，时针指向几就是几时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2d49d7346a99",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7 × 8 = ？",
+      "answer": 1,
+      "options": [
+        "54",
+        "56",
+        "58",
+        "49"
+      ],
+      "explanation": "七八五十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-425ce09af36c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "54 ÷ 6 = ？",
+      "answer": 2,
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "explanation": "六九五十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8a4afafc7815",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "小丽有12块饼干，吃了一半，还剩几块？",
+      "answer": 1,
+      "options": [
+        "4块",
+        "6块",
+        "8块",
+        "12块"
+      ],
+      "explanation": "一半就是12÷2=6块。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3f6634e7c464",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "比直角小的角叫什么角？",
+      "answer": 1,
+      "options": [
+        "钝角",
+        "锐角",
+        "直角",
+        "平角"
+      ],
+      "explanation": "锐角比直角小。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e73d702757ad",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一棵大树大约高8什么？",
+      "answer": 1,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "分米"
+      ],
+      "explanation": "大树的高度用米，8米大约三层楼高。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-86c8c553ad48",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "45 + 37 = ？",
+      "answer": 1,
+      "options": [
+        "72",
+        "82",
+        "78",
+        "92"
+      ],
+      "explanation": "45+30=75，75+7=82。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9132c3bcc74f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一个作业本大约厚3什么？",
+      "answer": 2,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "分米"
+      ],
+      "explanation": "作业本厚度用毫米，3毫米比较合理。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e7e70e5475f4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有24个苹果，每6个装一袋，可以装几袋？",
+      "answer": 1,
+      "options": [
+        "3袋",
+        "4袋",
+        "5袋",
+        "6袋"
+      ],
+      "explanation": "24÷6=4袋。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a6de4534f3de",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8+8+8+8 写成乘法算式是？",
+      "answer": 0,
+      "options": [
+        "8×4",
+        "8×8",
+        "4×8",
+        "8+4"
+      ],
+      "explanation": "4个8相加，就是8×4。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5b45fc7b53b6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "妈妈买了20个鸡蛋，吃了5个，又买了8个，现在有？",
+      "answer": 0,
+      "options": [
+        "23个",
+        "15个",
+        "28个",
+        "13个"
+      ],
+      "explanation": "20-5=15，15+8=23个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3482dc3e3105",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "□×6=30，□里填几？",
+      "answer": 1,
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "五六三十，所以是5。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-125bd001cff1",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "时针走一大格是几小时？",
+      "answer": 2,
+      "options": [
+        "1分钟",
+        "5分钟",
+        "1小时",
+        "12小时"
+      ],
+      "explanation": "时针走一大格是1小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b83eec3a0f84",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3×9=？",
+      "answer": 1,
+      "options": [
+        "21",
+        "27",
+        "36",
+        "18"
+      ],
+      "explanation": "三九二十七。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-49562affa0ed",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一根绳子对折一次后长4米，原来长多少米？",
+      "answer": 1,
+      "options": [
+        "2米",
+        "8米",
+        "4米",
+        "16米"
+      ],
+      "explanation": "对折一次变成两段，原来长4×2=8米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-77691382b54a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 5 = ___",
+      "answer": "45",
+      "explanation": "五九四十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4b636cb1c63f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "小华从9点开始看书，看了30分钟，___点___分结束。",
+      "answer": "9 30",
+      "explanation": "9时+30分=9时30分。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-acc57942028d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一支铅笔长约15___。（填厘米或米）",
+      "answer": "厘米",
+      "explanation": "铅笔长度约15厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-272197644b01",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "4×7",
+        "6×8",
+        "5×9",
+        "3×6"
+      ],
+      "stem": "把乘法算式和对应的口诀连起来",
+      "right": [
+        "四七二十八",
+        "六八四十八",
+        "五九四十五",
+        "三六十八"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "直接根据口诀连线。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f9bccf7082bf",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "1米等于多少厘米？",
+      "answer": 1,
+      "options": [
+        "10厘米",
+        "100厘米",
+        "50厘米",
+        "200厘米"
+      ],
+      "explanation": "1米=100厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3f130d9d1ced",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "2 × 9 = ？",
+      "answer": 1,
+      "options": [
+        "16",
+        "18",
+        "20",
+        "11"
+      ],
+      "explanation": "二九十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-eb729222b9ff",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "40 ÷ 5 = ？",
+      "answer": 2,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "五八四十。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-30e6a216976b",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一袋糖果有10颗，3袋有多少颗？",
+      "answer": 1,
+      "options": [
+        "20颗",
+        "30颗",
+        "13颗",
+        "40颗"
+      ],
+      "explanation": "10×3=30颗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e89ab3097cc9",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "黑板的面是什么形状？",
+      "answer": 1,
+      "options": [
+        "圆形",
+        "长方形",
+        "三角形",
+        "正方形"
+      ],
+      "explanation": "教室黑板通常是长方形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2a88d035f2f1",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "63 - 29 = ？",
+      "answer": 0,
+      "options": [
+        "34",
+        "44",
+        "24",
+        "33"
+      ],
+      "explanation": "63-20=43，43-9=34。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-454ea2e55547",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一部电影从2:30放到3:50，放了多久？",
+      "answer": 0,
+      "options": [
+        "1小时20分",
+        "1小时30分",
+        "2小时20分",
+        "50分钟"
+      ],
+      "explanation": "2:30到3:30是1小时，再到3:50是20分钟，共1小时20分。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dc6ab4ed15fd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有3盘桃子，每盘5个，吃了4个，还剩几个？",
+      "answer": 0,
+      "options": [
+        "11个",
+        "15个",
+        "19个",
+        "10个"
+      ],
+      "explanation": "3×5=15，15-4=11个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-35181387af62",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5×5表示几个几？",
+      "answer": 3,
+      "options": [
+        "5个5",
+        "5个5相加",
+        "5和5",
+        "以上都对"
+      ],
+      "explanation": "5×5表示5个5相加，也可以说几个几，都对。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9422a79ebf50",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "小红有35张贴纸，送给妹妹8张，妈妈又给买了5张，现在有？",
+      "answer": 0,
+      "options": [
+        "32张",
+        "22张",
+        "42张",
+        "38张"
+      ],
+      "explanation": "35-8=27，27+5=32张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-1e1b744e5238",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "reason",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个正方形剪去一个角，还剩几个角？",
+      "answer": 3,
+      "options": [
+        "3个",
+        "4个",
+        "5个",
+        "3个或5个"
+      ],
+      "explanation": "剪法不同，可能剩3个或5个角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-1e1881ec44bd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7×7=？",
+      "answer": 1,
+      "options": [
+        "48",
+        "49",
+        "56",
+        "42"
+      ],
+      "explanation": "七七四十九。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9c87747d70c4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "测量黑板长度，用什么单位合适？",
+      "answer": 1,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "黑板长度约几米，用米做单位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d63cf0cc5e37",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "4×8=？",
+      "answer": 2,
+      "options": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "explanation": "四八三十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-da9072f40a0d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一桶水可以倒满3个同样的大杯子，每个大杯子可以倒满2个小杯子，一桶水倒满多少小杯子？",
+      "answer": 1,
+      "options": [
+        "5个",
+        "6个",
+        "3个",
+        "8个"
+      ],
+      "explanation": "3×2=6个小杯子。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-31d464ac7366",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8 × 3 = ___",
+      "answer": "24",
+      "explanation": "三八二十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-1ff298333086",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "从8:30到9:00，经过了___分钟。",
+      "answer": "30",
+      "explanation": "8:30到9:00是半小时，即30分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4c0e29ea0b2e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "我的身高大约1___20厘米。",
+      "answer": "米",
+      "explanation": "二年级学生身高约1米多。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-240712f83e63",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "上午7:30",
+        "中午12:00",
+        "下午4:00",
+        "晚上8:30"
+      ],
+      "stem": "把时间与相应的活动连起来",
+      "right": [
+        "吃午饭",
+        "看电视",
+        "上学",
+        "放学"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "上午上学，中午吃饭，下午放学，晚上看电视。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-59cc3af8d43b",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8 × 5 = ？",
+      "answer": 1,
+      "options": [
+        "35",
+        "40",
+        "45",
+        "30"
+      ],
+      "explanation": "五八四十。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d52d7edff129",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "36 ÷ 4 = ？",
+      "answer": 1,
+      "options": [
+        "8",
+        "9",
+        "7",
+        "6"
+      ],
+      "explanation": "四九三十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-589764e9ba9f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "每个小组有6人，4个小组共有多少人？",
+      "answer": 1,
+      "options": [
+        "10人",
+        "24人",
+        "16人",
+        "20人"
+      ],
+      "explanation": "6×4=24人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-624afaf366af",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个角是直角？",
+      "answer": 0,
+      "options": [
+        "三角尺上最大的角",
+        "比锐角小的角",
+        "比钝角小的角",
+        "圆圆的角"
+      ],
+      "explanation": "三角尺上有一个直角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d47687e8417d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一个水杯高约10什么？",
+      "answer": 1,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "水杯高度大约10厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-aca9e924b3e9",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "81 - 16 = ？",
+      "answer": 1,
+      "options": [
+        "55",
+        "65",
+        "75",
+        "45"
+      ],
+      "explanation": "81-10=71，71-6=65。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-7b372ba3339b",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "小明7:40到校，11:30放学，上午在校多久？",
+      "answer": 0,
+      "options": [
+        "3小时50分",
+        "4小时10分",
+        "3小时10分",
+        "4小时"
+      ],
+      "explanation": "7:40到11:40是4小时，差10分，所以3小时50分。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ec512cc5b8ba",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一些花，每6朵扎一束，扎了4束还剩2朵，一共有多少朵？",
+      "answer": 1,
+      "options": [
+        "24朵",
+        "26朵",
+        "22朵",
+        "28朵"
+      ],
+      "explanation": "6×4=24，24+2=26朵。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b68b21a5c413",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "0×5=？",
+      "answer": 1,
+      "options": [
+        "5",
+        "0",
+        "1",
+        "10"
+      ],
+      "explanation": "0乘任何数都得0。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fc05042a9cad",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "从45里连续减9，减几次得0？",
+      "answer": 1,
+      "options": [
+        "4次",
+        "5次",
+        "6次",
+        "3次"
+      ],
+      "explanation": "45÷9=5，减5次。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-68e3474e53ff",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "☆+☆+☆+☆=28，☆=？",
+      "answer": 2,
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "4个☆相加得28，28÷4=7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-eadb52995ae7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6×3=？",
+      "answer": 1,
+      "options": [
+        "16",
+        "18",
+        "20",
+        "12"
+      ],
+      "explanation": "三六十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-514c08939fc5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一枚硬币厚约2什么？",
+      "answer": 2,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "硬币厚约2毫米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-338272a69d55",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面图形中，有4个直角的是？",
+      "answer": 0,
+      "options": [
+        "长方形",
+        "三角形",
+        "圆形",
+        "半圆"
+      ],
+      "explanation": "长方形有4个直角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ef11275fa88b",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "二（1）班有男生18人，女生比男生少3人，全班一共多少人？",
+      "answer": 0,
+      "options": [
+        "33人",
+        "36人",
+        "21人",
+        "15人"
+      ],
+      "explanation": "女生18-3=15人，全班18+15=33人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0144c9bdda2e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7 × 9 = ___",
+      "answer": "63",
+      "explanation": "七九六十三。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dc748d22d76c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一节课40分钟，课间休息10分钟，加起来是___分钟。",
+      "answer": "50",
+      "explanation": "40+10=50分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-20d5ffca3d18",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "操场跑道一圈约200___。（填米或厘米）",
+      "answer": "米",
+      "explanation": "跑道长度用米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-28e6e623ee65",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "28÷4",
+        "42÷6",
+        "72÷9",
+        "32÷8"
+      ],
+      "stem": "把除法算式和对应的口诀连起来",
+      "right": [
+        "六七四十二",
+        "四七二十八",
+        "四八三十二",
+        "八九七十二"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "28÷4用四七二十八，42÷6用六七四十二，72÷9用八九七十二，32÷8用四八三十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-64784fa6ba9a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "left": [
+        "测量操场长度",
+        "量作业本厚度",
+        "量粉笔长度",
+        "量教室门高"
+      ],
+      "stem": "把问题和解决方法连起来",
+      "right": [
+        "用卷尺",
+        "用尺子毫米",
+        "用直尺厘米",
+        "用米尺"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "操场长用卷尺，本厚度用毫米尺，粉笔用直尺厘米，门高用米尺。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3f6606c73c4a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 4 = ？",
+      "answer": 1,
+      "options": [
+        "32",
+        "36",
+        "40",
+        "27"
+      ],
+      "explanation": "四九三十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-15f8bc684a56",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "28 ÷ 7 = ？",
+      "answer": 1,
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "四七二十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4062b2da7f40",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一打袜子有5双，4打袜子有多少双？",
+      "answer": 1,
+      "options": [
+        "9双",
+        "20双",
+        "15双",
+        "25双"
+      ],
+      "explanation": "5×4=20双。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-def0fef43989",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个角有几个顶点？",
+      "answer": 0,
+      "options": [
+        "1个",
+        "2个",
+        "3个",
+        "4个"
+      ],
+      "explanation": "一个角有1个顶点和2条边。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-81e35c46fe29",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "妈妈身高163什么？",
+      "answer": 1,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "身高用厘米，163厘米即1.63米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3e6babe03677",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "47 + 35 = ？",
+      "answer": 1,
+      "options": [
+        "72",
+        "82",
+        "78",
+        "92"
+      ],
+      "explanation": "47+30=77，77+5=82。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-bbff282178f0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "电影2:10开始，3:40结束，放映了多长时间？",
+      "answer": 0,
+      "options": [
+        "1小时30分",
+        "1小时20分",
+        "2小时30分",
+        "50分钟"
+      ],
+      "explanation": "2:10到3:10是1小时，再到3:40是30分，共1小时30分。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-28a4e95d1c84",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "reason",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一束花8元，妈妈买了3束，付了30元，找回多少钱？",
+      "answer": 2,
+      "options": [
+        "2元",
+        "4元",
+        "6元",
+        "8元"
+      ],
+      "explanation": "8×3=24元，30-24=6元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ebd435afa8bd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "乘法算式2×3可以表示？",
+      "answer": 3,
+      "options": [
+        "2个3相加",
+        "3个2相加",
+        "2和3相加",
+        "以上都对"
+      ],
+      "explanation": "2×3既表示2个3相加，也表示3个2相加。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6cc42a358a9d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "公交车上原来有15人，到站下去6人，又上来9人，现在有？",
+      "answer": 0,
+      "options": [
+        "18人",
+        "12人",
+        "21人",
+        "30人"
+      ],
+      "explanation": "15-6=9，9+9=18人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-79e986d6001d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "□÷5=7，□是多少？",
+      "answer": 1,
+      "options": [
+        "30",
+        "35",
+        "40",
+        "28"
+      ],
+      "explanation": "五七三十五，35÷5=7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e6f456664e1d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3+3+3+3+3可以写成？",
+      "answer": 0,
+      "options": [
+        "3×5",
+        "5×3",
+        "3+5",
+        "以上都可以"
+      ],
+      "explanation": "5个3相加写成3×5。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-516c0c1baaf3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "你的手掌宽约6什么？",
+      "answer": 1,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "手掌宽约6厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5262fb387392",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9×0=？",
+      "answer": 1,
+      "options": [
+        "9",
+        "0",
+        "90",
+        "1"
+      ],
+      "explanation": "任何数乘0都得0。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-c192c8d8b4dd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有一堆苹果，比30多比40少，平均分给6个小朋友正好分完，这堆苹果有几个？",
+      "answer": 1,
+      "options": [
+        "32个",
+        "36个",
+        "35个",
+        "38个"
+      ],
+      "explanation": "6的倍数在30-40之间只有36。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f7b3e75bfe66",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8 × 7 = ___",
+      "answer": "56",
+      "explanation": "七八五十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-468bb9c3f062",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "时针从12走到6，走了___小时。",
+      "answer": "6",
+      "explanation": "时针一大格1小时，6大格是6小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0f00d5b46662",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一把学生尺长约20___。",
+      "answer": "厘米",
+      "explanation": "学生尺长20厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-c8bb4a6991a0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "9×3",
+        "6×7",
+        "8×5",
+        "4×4"
+      ],
+      "stem": "把算式和正确答案连起来",
+      "right": [
+        "27",
+        "40",
+        "42",
+        "16"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "9×3=27，6×7=42，8×5=40，4×4=16。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ff6f2e42c6b1",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "有几个苹果总数",
+        "每个盘子放几个",
+        "一共几组",
+        "分掉一些还剩多少"
+      ],
+      "stem": "把生活中的问题和数学方法连起来",
+      "right": [
+        "用加法",
+        "用除法",
+        "用乘法",
+        "用减法"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "总数多用加法，每份数用除法，几组用乘法，剩下用减法。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ace86c9c1894",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "4 × 7 = ？",
+      "answer": 1,
+      "options": [
+        "24",
+        "28",
+        "32",
+        "21"
+      ],
+      "explanation": "四七二十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-994222147028",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "49 ÷ 7 = ？",
+      "answer": 1,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "七七四十九。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2e5ee4bef9ac",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个笔记本6元，买5本多少钱？",
+      "answer": 2,
+      "options": [
+        "11元",
+        "25元",
+        "30元",
+        "35元"
+      ],
+      "explanation": "6×5=30元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-90a3f6353d5d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个是钝角？",
+      "answer": 0,
+      "options": [
+        "比直角大",
+        "比直角小",
+        "和直角一样大",
+        "没有角"
+      ],
+      "explanation": "钝角比直角大。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-cf3318766645",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一扇门高约2什么？",
+      "answer": 1,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "门高约2米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3a2c11e78f8f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "56 + 29 = ？",
+      "answer": 1,
+      "options": [
+        "75",
+        "85",
+        "95",
+        "79"
+      ],
+      "explanation": "56+20=76，76+9=85。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5393964128d7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "公交车每隔9分钟来一辆，等第5辆要等多少分钟？",
+      "answer": 0,
+      "options": [
+        "36分钟",
+        "45分钟",
+        "40分钟",
+        "27分钟"
+      ],
+      "explanation": "间隔数：5-1=4，4×9=36分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4abeeca3486a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "一班有28人，二班比一班多4人，两班一共多少人？",
+      "answer": 2,
+      "options": [
+        "32人",
+        "56人",
+        "60人",
+        "52人"
+      ],
+      "explanation": "二班28+4=32人，28+32=60人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3e4f431b1a0d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7×4改写成加法是？",
+      "answer": 0,
+      "options": [
+        "7+7+7+7",
+        "4+4+4+4+4+4+4",
+        "7+4",
+        "4×7"
+      ],
+      "explanation": "7×4表示4个7相加。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e02ee0cab3ae",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "奶奶买来18个橘子，吃了6个，剩下的平均分给3个小朋友，每人几个？",
+      "answer": 0,
+      "options": [
+        "4个",
+        "6个",
+        "3个",
+        "5个"
+      ],
+      "explanation": "18-6=12，12÷3=4个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5c0c82ba8cbc",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "把一根绳子剪成同样长的8段，每段长3米，原来绳长多少？",
+      "answer": 1,
+      "options": [
+        "11米",
+        "24米",
+        "16米",
+        "28米"
+      ],
+      "explanation": "8×3=24米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5e4a94f90a42",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个正方形剪去一个角，变成什么形？",
+      "answer": 2,
+      "options": [
+        "三角形",
+        "五边形",
+        "三角形或五边形",
+        "梯形"
+      ],
+      "explanation": "看剪法，可能变成三角形或五边形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f9f7aaf3d85b",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "小明的食指宽约1什么？",
+      "answer": 1,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "食指宽约1厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d1622d9785a6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "understand",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "下列不是长度单位的是？",
+      "answer": 2,
+      "options": [
+        "米",
+        "厘米",
+        "千克",
+        "毫米"
+      ],
+      "explanation": "千克是质量单位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8754a3d15485",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "△+△=12，☆+△=20，☆=？",
+      "answer": 1,
+      "options": [
+        "8",
+        "14",
+        "16",
+        "6"
+      ],
+      "explanation": "△=6，☆=20-6=14。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8cd7c203588e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5 × 9 = ___",
+      "answer": "45",
+      "explanation": "五九四十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b5bbb2738a63",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "做早操从8:05到8:25，用了___分钟。",
+      "answer": "20",
+      "explanation": "25-5=20分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0ffe0e241132",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一座桥长约50___。（填米或厘米）",
+      "answer": "米",
+      "explanation": "桥的长度用米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-01c824c2640f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "5×7",
+        "6×8",
+        "4×9",
+        "7×7"
+      ],
+      "stem": "把算式和积连起来",
+      "right": [
+        "35",
+        "49",
+        "48",
+        "36"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "5×7=35，6×8=48，4×9=36，7×7=49。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-34ffc302ab77",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "3:00",
+        "6:30",
+        "12:00",
+        "8:15"
+      ],
+      "stem": "把钟面时间与说法连起来",
+      "right": [
+        "3时整",
+        "6时半",
+        "12时整",
+        "8时15分"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "一一对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a88c36dca800",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6 × 9 = ？",
+      "answer": 1,
+      "options": [
+        "52",
+        "54",
+        "56",
+        "48"
+      ],
+      "explanation": "六九五十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-56b717556961",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "64 ÷ 8 = ？",
+      "answer": 1,
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "explanation": "八八六十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-183f1fa1b4b0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "每个礼盒装4个苹果，7个礼盒装多少个？",
+      "answer": 1,
+      "options": [
+        "24个",
+        "28个",
+        "32个",
+        "30个"
+      ],
+      "explanation": "4×7=28个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-37b12b6b0d7d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一条红领巾上有几个角？",
+      "answer": 2,
+      "options": [
+        "1个",
+        "2个",
+        "3个",
+        "4个"
+      ],
+      "explanation": "红领巾是三角形，有3个角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-783be3b8b2f5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一根跳绳长约2什么？",
+      "answer": 1,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "跳绳长2米左右。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a16cd3479164",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "73 - 45 = ？",
+      "answer": 0,
+      "options": [
+        "28",
+        "38",
+        "18",
+        "32"
+      ],
+      "explanation": "73-40=33，33-5=28。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4af0988ec455",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "做一件衣服要8颗扣子，6件衣服要多少颗？",
+      "answer": 1,
+      "options": [
+        "40颗",
+        "48颗",
+        "14颗",
+        "56颗"
+      ],
+      "explanation": "8×6=48颗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b271f653d1e7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有一些糖，分给5个小朋友每人4块，还剩3块，原来有多少块？",
+      "answer": 1,
+      "options": [
+        "20块",
+        "23块",
+        "17块",
+        "15块"
+      ],
+      "explanation": "5×4=20，20+3=23块。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-25e262b051b0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "“三四十二”这句口诀可算几道算式？",
+      "answer": 3,
+      "options": [
+        "1道",
+        "2道",
+        "3道",
+        "4道"
+      ],
+      "explanation": "3×4、4×3、12÷3、12÷4，共4道。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a05601f63d0a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "教室长约10什么？",
+      "answer": 0,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "教室长度用米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3aad204ecf3a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一张正方形纸对折两次后，每份是原来的几分之几？",
+      "answer": 1,
+      "options": [
+        "一半",
+        "四分之一",
+        "三分之一",
+        "两份"
+      ],
+      "explanation": "对折两次分成4份，每份是四分之一。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-66b7620c7560",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5+5+5 写成乘法是？",
+      "answer": 0,
+      "options": [
+        "5×3",
+        "3×5",
+        "5+3",
+        "都可以"
+      ],
+      "explanation": "3个5相加写作5×3。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-53d9fd7df701",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "小明从1数到50，每数一个数用1秒，需要多少秒？",
+      "answer": 0,
+      "options": [
+        "50秒",
+        "49秒",
+        "51秒",
+        "1分钟"
+      ],
+      "explanation": "数50个数用50秒。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e4d78e25cff7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个是锐角？",
+      "answer": 0,
+      "options": [
+        "比直角小",
+        "比直角大",
+        "等于直角",
+        "不是角"
+      ],
+      "explanation": "锐角比直角小。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-1ab8d3f4b32d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有两排树，第一排5棵，第二排是第一排的3倍，两排一共多少棵？",
+      "answer": 1,
+      "options": [
+        "15棵",
+        "20棵",
+        "25棵",
+        "10棵"
+      ],
+      "explanation": "第二排5×3=15棵，一共5+15=20棵。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4566f80eb0b6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3 × 8 = ___",
+      "answer": "24",
+      "explanation": "三八二十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-25df6e3f2184",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "从3:45开始，经过15分钟是___:___。",
+      "answer": "4 00",
+      "explanation": "3:45+15分=4:00。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3de2e10139ba",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "课桌高约70___。",
+      "answer": "厘米",
+      "explanation": "课桌高70厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-414b03d772d3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "4×6=24",
+        "5×7=35",
+        "6×8=48",
+        "3×9=27"
+      ],
+      "stem": "把乘法算式和相应的除法算式连起来",
+      "right": [
+        "27÷3=9",
+        "24÷4=6",
+        "48÷6=8",
+        "35÷5=7"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "一一对应逆运算。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-1fa5a6c56b76",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "三条边",
+        "四条边",
+        "没有角",
+        "四个直角"
+      ],
+      "stem": "把图形和名称连起来",
+      "right": [
+        "圆形",
+        "三角形",
+        "长方形",
+        "四边形"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "三条边-三角形，四条边-四边形，没有角-圆形，四个直角-长方形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3703f7bb798d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8 × 4 = ？",
+      "answer": 1,
+      "options": [
+        "24",
+        "32",
+        "28",
+        "36"
+      ],
+      "explanation": "四八三十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ad2785439c40",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "48 ÷ 6 = ？",
+      "answer": 2,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "六八四十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-53d7ff6b529f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一张电影票8元，爸爸买了3张，一共多少钱？",
+      "answer": 1,
+      "options": [
+        "11元",
+        "24元",
+        "16元",
+        "32元"
+      ],
+      "explanation": "8×3=24元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-94be13703281",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个三角尺上有几个锐角？",
+      "answer": 2,
+      "options": [
+        "0个",
+        "1个",
+        "2个",
+        "3个"
+      ],
+      "explanation": "一副三角尺上通常有一个直角和两个锐角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-753bc2033429",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一根黄瓜长约20什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "黄瓜长约20厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e0a721841e82",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "35 + 48 = ？",
+      "answer": 1,
+      "options": [
+        "73",
+        "83",
+        "78",
+        "93"
+      ],
+      "explanation": "35+40=75，75+8=83。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-202455f6c2db",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "小红每天看9页书，5天看完一本书，这本书共多少页？",
+      "answer": 1,
+      "options": [
+        "14页",
+        "45页",
+        "36页",
+        "54页"
+      ],
+      "explanation": "9×5=45页。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2db201630ccb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有25个气球，平均分给6个小朋友，每人几个，还剩几个？",
+      "answer": 1,
+      "options": [
+        "3个剩5个",
+        "4个剩1个",
+        "4个剩5个",
+        "5个剩0个"
+      ],
+      "explanation": "25÷6=4……1。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-4e18afe76b17",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6+6+6+6 改写成乘法算式是？",
+      "answer": 0,
+      "options": [
+        "6×4",
+        "4×6",
+        "6+4",
+        "6×6"
+      ],
+      "explanation": "4个6相加写作6×4。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e387eb64449e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一支铅笔9角，一块橡皮5角，一共多少钱？",
+      "answer": 1,
+      "options": [
+        "4角",
+        "1元4角",
+        "14角",
+        "1元5角"
+      ],
+      "explanation": "9+5=14角=1元4角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0af7f105372f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "☆+☆+☆=18，□+☆=15，□是多少？",
+      "answer": 1,
+      "options": [
+        "6",
+        "9",
+        "8",
+        "7"
+      ],
+      "explanation": "☆=6，□=15-6=9。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-963f0e0b78f6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7×6=？",
+      "answer": 1,
+      "options": [
+        "36",
+        "42",
+        "48",
+        "49"
+      ],
+      "explanation": "六七四十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9c1d7458ffc0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "分针从12走到3，走了几分钟？",
+      "answer": 2,
+      "options": [
+        "3分钟",
+        "5分钟",
+        "15分钟",
+        "30分钟"
+      ],
+      "explanation": "分针一大格5分钟，3大格15分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-bbd3b4ea1c8f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "方向与图形",
+    "skill": "understand",
+    "tags": [
+      "空间观念"
+    ],
+    "content": {
+      "stem": "下列图形中，哪些是对称的？",
+      "answer": 3,
+      "options": [
+        "蝴蝶",
+        "房子",
+        "树木",
+        "以上都是对称的"
+      ],
+      "explanation": "蝴蝶、房屋、树木常见图案多是对称图形。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d3c8cab84665",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "reason",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一根木头锯成2段要3分钟，锯成4段要几分钟？",
+      "answer": 1,
+      "options": [
+        "6分钟",
+        "9分钟",
+        "12分钟",
+        "3分钟"
+      ],
+      "explanation": "锯成2段锯1次，锯成4段锯3次，3×3=9分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-caaa569050c2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 8 = ___",
+      "answer": "72",
+      "explanation": "八九七十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3aab867e895e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "10厘米+90厘米=___米。",
+      "answer": "1",
+      "explanation": "10+90=100厘米=1米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ec35ba578bf2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一节课是40分钟，加上10分钟课间，一共___分钟。",
+      "answer": "50",
+      "explanation": "40+10=50分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f2f0c80e52d0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "6×7",
+        "8×3",
+        "9×4",
+        "5×7"
+      ],
+      "stem": "把算式和对应口诀连起来",
+      "right": [
+        "四九三十六",
+        "五七三十五",
+        "三八二十四",
+        "六七四十二"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "6×7六七四十二，8×3三八二十四，9×4四九三十六，5×7五七三十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f20a1e6f544a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "2:15",
+        "10:30",
+        "5:00",
+        "9:45"
+      ],
+      "stem": "把时间与对应的钟面描述连起来",
+      "right": [
+        "分针指3，时针刚过2",
+        "分针指6，时针在10和11中间",
+        "分针指12，时针指5",
+        "分针指9，时针快指10"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "2:15分针指3，10:30分针指6，5:00分针指12，9:45分针指9。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-cf4a9515972d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3 × 6 = ？",
+      "answer": 1,
+      "options": [
+        "15",
+        "18",
+        "21",
+        "12"
+      ],
+      "explanation": "三六十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d296b243e112",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5 × 8 = ？",
+      "answer": 1,
+      "options": [
+        "35",
+        "40",
+        "45",
+        "30"
+      ],
+      "explanation": "五八四十。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b5efc923ba68",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "56 ÷ 7 = ？",
+      "answer": 2,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "七八五十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8f8b8ebc8273",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "每个鱼缸有5条鱼，4个鱼缸一共有多少条鱼？",
+      "answer": 1,
+      "options": [
+        "9条",
+        "20条",
+        "15条",
+        "25条"
+      ],
+      "explanation": "5×4=20条。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-21a129f3267d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个不是角？",
+      "answer": 3,
+      "options": [
+        "锐角",
+        "钝角",
+        "直角",
+        "圆角"
+      ],
+      "explanation": "没有圆角这种说法，圆形没有角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-cebc3596fcb9",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一棵大树高约10什么？",
+      "answer": 1,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "大树高度通常用米，约10米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fbba6716ca94",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "61 - 17 = ？",
+      "answer": 0,
+      "options": [
+        "44",
+        "54",
+        "34",
+        "64"
+      ],
+      "explanation": "61-10=51，51-7=44。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-253bbf4df2ff",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一列火车10:05到达，晚点了20分钟，它实际什么时间到？",
+      "answer": 1,
+      "options": [
+        "9:45",
+        "10:25",
+        "10:15",
+        "10:35"
+      ],
+      "explanation": "10:05+20分=10:25。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e8df7d8ad698",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "小华有30块糖，吃了6块，剩下的平均分给4个朋友，每人分几块？",
+      "answer": 0,
+      "options": [
+        "6块",
+        "4块",
+        "5块",
+        "7块"
+      ],
+      "explanation": "30-6=24，24÷4=6块。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ec6de8aece86",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3×7 和 7×3 的结果相同吗？",
+      "answer": 0,
+      "options": [
+        "相同",
+        "不同",
+        "有时相同",
+        "不确定"
+      ],
+      "explanation": "乘法交换律，积都是21。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-34587426fe27",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "加法与减法",
+    "skill": "apply",
+    "tags": [
+      "计算与应用"
+    ],
+    "content": {
+      "stem": "妈妈买了一些苹果，吃了9个，还剩15个，妈妈买了多少个？",
+      "answer": 1,
+      "options": [
+        "6个",
+        "24个",
+        "25个",
+        "22个"
+      ],
+      "explanation": "15+9=24个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ed72e9fd3fa3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "□÷7=6……3，□里应填几？",
+      "answer": 1,
+      "options": [
+        "42",
+        "45",
+        "39",
+        "48"
+      ],
+      "explanation": "7×6+3=45。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d2759778e0e7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一个文具盒大约长20什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "文具盒长约20厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ac46b44ce0cf",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8×2=？",
+      "answer": 1,
+      "options": [
+        "14",
+        "16",
+        "18",
+        "10"
+      ],
+      "explanation": "二八十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b056d2a0b8db",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "有一队小朋友，从前往后数小明排第8，从后往前数排第5，这队有多少人？",
+      "answer": 0,
+      "options": [
+        "12人",
+        "13人",
+        "11人",
+        "14人"
+      ],
+      "explanation": "8+5-1=12人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d8e3285aacf2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6 × 4 = ___",
+      "answer": "24",
+      "explanation": "四六二十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a111f016aec0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "上午11:50放学，中午1:50上学，午休___小时。",
+      "answer": "2",
+      "explanation": "11:50到1:50是2小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6cf2fccd6dbb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "我的身高是1___25厘米。",
+      "answer": "米",
+      "explanation": "1米25厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e244da4359e2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "4+4+4",
+        "5+5+5+5",
+        "6+6",
+        "3+3+3+3+3"
+      ],
+      "stem": "把加法算式和乘法算式连起来",
+      "right": [
+        "4×5",
+        "3×5",
+        "6×2",
+        "4×3"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "4个3是4×3，4个5是4×5，2个6是6×2，5个3是3×5。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-48c066885bc3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "有5盒彩笔，每盒6支",
+        "24本书，平均分给6个班",
+        "一共有18个梨，吃了一些还剩9个",
+        "鸡有8只，鸭的只数是鸡的3倍"
+      ],
+      "stem": "把条件和问题连起来",
+      "right": [
+        "鸭有多少只？",
+        "吃掉了几个？",
+        "一共有几支？",
+        "每班分几本？"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "一一对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f75c38e23459",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7 × 5 = ？",
+      "answer": 1,
+      "options": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "explanation": "五七三十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8c953a6a8705",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "42 ÷ 6 = ？",
+      "answer": 1,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "explanation": "六七四十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2fa232f65b47",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一辆玩具车9元，买4辆需要多少钱？",
+      "answer": 1,
+      "options": [
+        "13元",
+        "36元",
+        "27元",
+        "45元"
+      ],
+      "explanation": "9×4=36元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dd1cc22583bb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个长方形有几条边？几个角？",
+      "answer": 0,
+      "options": [
+        "4条边4个角",
+        "4条边2个角",
+        "2条边4个角",
+        "3条边3个角"
+      ],
+      "explanation": "长方形有4条边和4个直角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-c5ef85c9be2c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "爸爸的裤子长约90什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "裤子长90厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-711872b1fe9e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "大课间从9:30到9:55，用了多长时间？",
+      "answer": 0,
+      "options": [
+        "25分钟",
+        "35分钟",
+        "15分钟",
+        "20分钟"
+      ],
+      "explanation": "9:55-9:30=25分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9d04fcaf6c8f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "二(1)班有4排桌子，每排6张，搬走了9张，还剩几张？",
+      "answer": 0,
+      "options": [
+        "15张",
+        "24张",
+        "33张",
+        "18张"
+      ],
+      "explanation": "4×6=24，24-9=15张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9211e7d07b87",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "0除以任何不是0的数都得？",
+      "answer": 0,
+      "options": [
+        "0",
+        "那个数",
+        "1",
+        "不确定"
+      ],
+      "explanation": "0除以任何非0数都得0。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6cf48dee9ec1",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有16颗糖，平均分给小明和他的3个同学，每人分几颗？",
+      "answer": 1,
+      "options": [
+        "5颗",
+        "4颗",
+        "3颗",
+        "6颗"
+      ],
+      "explanation": "分给4个人，16÷4=4颗。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-afbb2ca47efe",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "△×6=24，□×△=18，□是多少？",
+      "answer": 0,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "△=4，□=18÷4不对，应该是18÷4不是整数。换个题：△×6=24，□×△=12，□=？改为△=4，□=3。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0a9fe68fa80e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个角的大小与什么有关？",
+      "answer": 1,
+      "options": [
+        "边的长短",
+        "开口大小",
+        "顶点位置",
+        "画的大小"
+      ],
+      "explanation": "角的大小与两条边张开的大小有关。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-60e9b6f8de67",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "加法与减法",
+    "skill": "apply",
+    "tags": [
+      "计算与应用"
+    ],
+    "content": {
+      "stem": "妈妈买了一本故事书，看了28页，还剩15页，这本书共多少页？",
+      "answer": 1,
+      "options": [
+        "33页",
+        "43页",
+        "13页",
+        "53页"
+      ],
+      "explanation": "28+15=43页。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-34bfd2b4c7a3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "下面哪一句口诀不能写出两个乘法算式？",
+      "answer": 1,
+      "options": [
+        "二四得八",
+        "三三得九",
+        "五六三十",
+        "七八五十六"
+      ],
+      "explanation": "三三得九是两个相同乘数，只能写3×3=9。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-29ea0ab80fc9",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "小花有12张贴纸，比小丽少3张，两人一共有多少张？",
+      "answer": 1,
+      "options": [
+        "21张",
+        "27张",
+        "15张",
+        "24张"
+      ],
+      "explanation": "小丽12+3=15张，一共12+15=27张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e7717f99db5e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "8 × 6 = ___",
+      "answer": "48",
+      "explanation": "六八四十八。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5631a3f564f2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "用直尺画一条5___长的线段。",
+      "answer": "厘米",
+      "explanation": "通常画厘米长的线段。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-436b1000fd4f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一节数学课是40分钟，如果在10:00下课，那么是___:___开始上课的。",
+      "answer": "9 20",
+      "explanation": "10:00前推40分钟是9:20。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ff9b51cfcf1f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "四七二十八",
+        "六九五十四",
+        "五八四十",
+        "三七二十一"
+      ],
+      "stem": "把乘法口诀和对应的算式连起来",
+      "right": [
+        "3×7=21",
+        "4×7=28",
+        "6×9=54",
+        "5×8=40"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "直接对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5f4674cdbb5c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "正方形",
+        "长方形",
+        "三角形",
+        "圆形"
+      ],
+      "stem": "把图形和它的特征连起来",
+      "right": [
+        "对边相等，四个直角",
+        "四条边相等，四个直角",
+        "三条边，三个角",
+        "没有角，曲线围成"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "正方形四条边相等，长方形对边相等，三角形三条边，圆形没角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-babbf6611031",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 6 = ？",
+      "answer": 1,
+      "options": [
+        "48",
+        "54",
+        "56",
+        "63"
+      ],
+      "explanation": "六九五十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e1cad8ee7780",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "35 ÷ 5 = ？",
+      "answer": 2,
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "五七三十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-57032a65f259",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一只小船坐4人，6只小船能坐多少人？",
+      "answer": 1,
+      "options": [
+        "10人",
+        "24人",
+        "16人",
+        "20人"
+      ],
+      "explanation": "4×6=24人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f81e8681402e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "钟面上，时针从12走到3，走了几小时？",
+      "answer": 1,
+      "options": [
+        "3分钟",
+        "3小时",
+        "15分钟",
+        "1小时"
+      ],
+      "explanation": "时针走一大格是1小时，3大格是3小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-908439f177db",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "24 ÷ 3 = ？",
+      "answer": 2,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "三八二十四。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3cda84cc5c5a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一辆小汽车长约4什么？",
+      "answer": 0,
+      "options": [
+        "米",
+        "厘米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "汽车长约4米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-7398cb71ad1e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "47 + 26 = ？",
+      "answer": 1,
+      "options": [
+        "63",
+        "73",
+        "83",
+        "53"
+      ],
+      "explanation": "47+20=67，67+6=73。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e9a250847b72",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一集动画片35分钟，从4:10开始放，什么时候结束？",
+      "answer": 1,
+      "options": [
+        "4:35",
+        "4:45",
+        "4:50",
+        "5:00"
+      ],
+      "explanation": "4:10+35分=4:45。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fc8ee134e2c7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "老师买了3盒彩笔，每盒8支，奖给小朋友10支，还剩几支？",
+      "answer": 0,
+      "options": [
+        "14支",
+        "24支",
+        "18支",
+        "34支"
+      ],
+      "explanation": "3×8=24，24-10=14支。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-cfe80e6e9c41",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7×0和0×7的结果？",
+      "answer": 1,
+      "options": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "explanation": "任何数乘0都得0。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-236efdbf08f2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一根绳子长25米，剪下5段同样长的短绳，每段长多少米？",
+      "answer": 1,
+      "options": [
+        "4米",
+        "5米",
+        "6米",
+        "7米"
+      ],
+      "explanation": "25÷5=5米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f39ba6932da2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "加法与减法",
+    "skill": "reason",
+    "tags": [
+      "计算与应用"
+    ],
+    "content": {
+      "stem": "姐姐和妹妹都有一些贴纸，姐姐给妹妹3张后，两人一样多，原来姐姐比妹妹多几张？",
+      "answer": 1,
+      "options": [
+        "3张",
+        "6张",
+        "9张",
+        "1张"
+      ],
+      "explanation": "姐姐给妹妹3张后相等，原来多3+3=6张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2520c5e3433e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个是时间单位？",
+      "answer": 2,
+      "options": [
+        "米",
+        "千克",
+        "时",
+        "厘米"
+      ],
+      "explanation": "时是时间单位。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6a07f04eb05d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个西瓜8元，爸爸付了50元，买了3个，应找回多少钱？",
+      "answer": 0,
+      "options": [
+        "26元",
+        "24元",
+        "34元",
+        "16元"
+      ],
+      "explanation": "3×8=24元，50-24=26元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f7f6a60cb18f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "用口诀“六六三十六”可以计算哪道题？",
+      "answer": 3,
+      "options": [
+        "6×6",
+        "6+6",
+        "36÷6",
+        "6×6和36÷6"
+      ],
+      "explanation": "六六三十六可算乘法和相应除法。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e12805178945",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一排树有6棵，每相邻两棵间距离5米，从第1棵到第6棵距离多少米？",
+      "answer": 1,
+      "options": [
+        "30米",
+        "25米",
+        "35米",
+        "20米"
+      ],
+      "explanation": "间隔数6-1=5，5×5=25米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-febf87622bb4",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "4 × 8 = ___",
+      "answer": "32",
+      "explanation": "四八三十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-21cbe91dd222",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "从12:00到1:30，经过了___小时___分钟。",
+      "answer": "1 30",
+      "explanation": "12:00到1:30是1小时30分。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dc904a35f2b6",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一支粉笔长约8___。",
+      "answer": "厘米",
+      "explanation": "粉笔长约8厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f9aef28462b5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "7×8",
+        "9×5",
+        "6×6",
+        "8×4"
+      ],
+      "stem": "把算式和结果连起来",
+      "right": [
+        "36",
+        "56",
+        "45",
+        "32"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "7×8=56，9×5=45，6×6=36，8×4=32。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9b5445a2352f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "left": [
+        "数学书长",
+        "餐桌高",
+        "操场长",
+        "一枚硬币厚"
+      ],
+      "stem": "把物品和估计的长度连起来",
+      "right": [
+        "约26厘米",
+        "约80厘米",
+        "约200米",
+        "约2毫米"
+      ],
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explanation": "数学书约26cm，餐桌约80cm，操场约200m，硬币约2mm。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-64ec0dde7625",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "每盒蜡笔8元，妈妈给售货员50元买5盒，应找回多少钱？",
+      "answer": 0,
+      "options": [
+        "10元",
+        "15元",
+        "20元",
+        "25元"
+      ],
+      "explanation": "5×8=40元，50-40=10元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3d4da6891d60",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个是锐角？",
+      "answer": 0,
+      "options": [
+        "三角尺上最小的角",
+        "直角",
+        "比直角大的角",
+        "平角"
+      ],
+      "explanation": "三角尺上除直角外另两个是锐角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e357d3114558",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一棵小草高约10什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "小草高度约10厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ea39a45ba26f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "82 - 57 = ？",
+      "answer": 0,
+      "options": [
+        "25",
+        "35",
+        "15",
+        "45"
+      ],
+      "explanation": "82-50=32，32-7=25。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-18d5dcfa81bd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "晚会有8个节目，每个节目5分钟，一共表演多少分钟？",
+      "answer": 2,
+      "options": [
+        "13分钟",
+        "35分钟",
+        "40分钟",
+        "45分钟"
+      ],
+      "explanation": "8×5=40分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-61574feb1e1a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一箱苹果有4层，每层6个，拿出8个招待客人，还剩几个？",
+      "answer": 0,
+      "options": [
+        "16个",
+        "24个",
+        "18个",
+        "12个"
+      ],
+      "explanation": "4×6=24，24-8=16个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6f4bd24aaabd",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "6×4表示什么意思？",
+      "answer": 3,
+      "options": [
+        "4个6相加",
+        "6个4相加",
+        "4和6相加",
+        "6和4相乘"
+      ],
+      "explanation": "6×4既表示4个6也表示6个4，即相乘。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-79fb4c5f9f9d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "爷爷买了18个橘子，每3个装一袋，可以装几袋？",
+      "answer": 2,
+      "options": [
+        "4袋",
+        "5袋",
+        "6袋",
+        "7袋"
+      ],
+      "explanation": "18÷3=6袋。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6dbca4e9716c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "☆+☆+☆+☆=32，△×☆=24，△等于多少？",
+      "answer": 1,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "☆=8，24÷8=3。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-5c5d25b1e3be",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "下面哪个不是乘法口诀？",
+      "answer": 1,
+      "options": [
+        "五五二十五",
+        "四六二十二",
+        "三九二十七",
+        "七八五十六"
+      ],
+      "explanation": "四六二十四，不是二十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-2d788a5694ce",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "妈妈早上7:30出门上班，晚上6:30到家，中间经过了多少小时？",
+      "answer": 2,
+      "options": [
+        "9小时",
+        "10小时",
+        "11小时",
+        "12小时"
+      ],
+      "explanation": "7:30到12:00是4.5小时，12:00到6:30是6.5小时，共11小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-caffecd34f05",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一支铅笔5角，一个橡皮3角，买这两样用多少钱？",
+      "answer": 0,
+      "options": [
+        "8角",
+        "2角",
+        "15角",
+        "1元"
+      ],
+      "explanation": "5+3=8角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ae7174da2abe",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "同学们做操，每行8人，排了4行，如果改成每行7人，要多排1行，总人数？",
+      "answer": 0,
+      "options": [
+        "32人",
+        "28人",
+        "35人",
+        "30人"
+      ],
+      "explanation": "8×4=32人，7×5=35人多3人不符，所以32人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-55bbea2b222a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "7 × 3 = ___",
+      "answer": "21",
+      "explanation": "三七二十一。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-cd8823a88ca5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "1米 = ___厘米。",
+      "answer": "100",
+      "explanation": "1米=100厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-c97e433355d5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一个正方形___条边相等，有___个直角。",
+      "answer": "4 4",
+      "explanation": "正方形特征。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8f4c7f0f3d29",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "12÷3=4",
+        "4×5=20",
+        "15+3=18",
+        "20-5=15"
+      ],
+      "stem": "把算式和正确的读法连起来",
+      "right": [
+        "4乘5等于20",
+        "12除以3等于4",
+        "20减5等于15",
+        "15加3等于18"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "除法读作除以，乘读作乘，加读作加，减读作减。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-03f5c98c839f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "早上7:00",
+        "中午12:00",
+        "下午4:30",
+        "晚上9:00"
+      ],
+      "stem": "把钟表上的时间和生活作息连起来",
+      "right": [
+        "吃午饭",
+        "睡觉",
+        "放学",
+        "起床"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "起床7点，午饭12点，放学4:30，睡觉9点。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-613242c953ed",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "4 × 9 = ？",
+      "answer": 1,
+      "options": [
+        "32",
+        "36",
+        "38",
+        "27"
+      ],
+      "explanation": "四九三十六。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e1b658cffd2c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "45 ÷ 5 = ？",
+      "answer": 2,
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "五九四十五。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d749bbd6e271",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有7个小组，每组4人，一共有多少人？",
+      "answer": 2,
+      "options": [
+        "11人",
+        "24人",
+        "28人",
+        "32人"
+      ],
+      "explanation": "7×4=28人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fe6a5e6bbe35",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下列哪个物体的表面有直角？",
+      "answer": 1,
+      "options": [
+        "篮球",
+        "数学书",
+        "水杯",
+        "乒乓球"
+      ],
+      "explanation": "数学书的封面有直角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0524a01928eb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一把雨伞长约60什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "雨伞长约60厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-9b135ef38ae8",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "68 + 24 = ？",
+      "answer": 1,
+      "options": [
+        "82",
+        "92",
+        "88",
+        "72"
+      ],
+      "explanation": "68+20=88，88+4=92。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e5314b02055c",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "小明跳绳，每分钟跳45下，跳了3分钟，一共跳了多少下？",
+      "answer": 2,
+      "options": [
+        "48下",
+        "90下",
+        "135下",
+        "120下"
+      ],
+      "explanation": "45×3=135下。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-bcf7bc263971",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一些气球，每5个扎一束，扎了6束，还剩2个，一共有多少个？",
+      "answer": 2,
+      "options": [
+        "28个",
+        "30个",
+        "32个",
+        "34个"
+      ],
+      "explanation": "5×6=30，30+2=32个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-da5a162c5d0f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5×6和6×5的结果？",
+      "answer": 1,
+      "options": [
+        "不同",
+        "相同",
+        "大",
+        "小"
+      ],
+      "explanation": "都是30。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-b16b33d32317",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "做一件风衣用2米布，14米布可以做几件？",
+      "answer": 1,
+      "options": [
+        "6件",
+        "7件",
+        "8件",
+        "5件"
+      ],
+      "explanation": "14÷2=7件。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0bc245e9899d",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "有两条绳子，第一条长18米，第二条对折后和第一条一样长，第二条原来长多少？",
+      "answer": 3,
+      "options": [
+        "9米",
+        "18米",
+        "27米",
+        "36米"
+      ],
+      "explanation": "对折后18米，原来18×2=36米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-3bf3db2841f3",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "understand",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "1米的一半是多少厘米？",
+      "answer": 1,
+      "options": [
+        "5厘米",
+        "50厘米",
+        "10厘米",
+        "100厘米"
+      ],
+      "explanation": "1米=100厘米，一半是50厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ddc24f5bdcc2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "钟面上，分针走一小格是几分钟？",
+      "answer": 0,
+      "options": [
+        "1分钟",
+        "5分钟",
+        "10分钟",
+        "1小时"
+      ],
+      "explanation": "分针走一小格1分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-a2f7b6e75ece",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "用口诀“二五一十”不能计算哪道题？",
+      "answer": 3,
+      "options": [
+        "2×5",
+        "5×2",
+        "10÷2",
+        "2+5"
+      ],
+      "explanation": "加法不能用此口诀。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-63b5c0ff81b8",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "同学们排队，从左边数小亮是第7个，从右边数是第8个，这一排有多少人？",
+      "answer": 1,
+      "options": [
+        "13人",
+        "14人",
+        "15人",
+        "16人"
+      ],
+      "explanation": "7+8-1=14人。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-f6e1814ee35f",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3 × 7 = ___",
+      "answer": "21",
+      "explanation": "三七二十一。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dc5eac608995",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "时针在5和6之间，分针指6，是___:30。",
+      "answer": "5",
+      "explanation": "分针指6是半时，时针在5和6间是5:30。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-0c0045a1a7c5",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "量比较短的物体，常用___作单位。",
+      "answer": "厘米",
+      "explanation": "短物体用厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-20555995a86a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "left": [
+        "五六三十",
+        "四八三十二",
+        "三九二十七",
+        "五七三十五"
+      ],
+      "stem": "把口诀和对应的算式连起来",
+      "right": [
+        "5×7=35",
+        "3×9=27",
+        "5×6=30",
+        "4×8=32"
+      ],
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "一一对应。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-93ab18626706",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "left": [
+        "直尺",
+        "卷尺",
+        "米尺",
+        "软尺"
+      ],
+      "stem": "把测量工具和用途连起来",
+      "right": [
+        "量腰围",
+        "量书本",
+        "量操场",
+        "量身高"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "直尺量书本，卷尺量操场，米尺量身髙，软尺量腰围。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d40fa79743e2",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "9 × 7 = ？",
+      "answer": 1,
+      "options": [
+        "56",
+        "63",
+        "72",
+        "49"
+      ],
+      "explanation": "七九六十三。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-6db5fd15a6f7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "63 ÷ 7 = ？",
+      "answer": 2,
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "七九六十三。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-c3c9f074b1eb",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "一瓶牛奶3元，妈妈买了7瓶，付了25元，够吗？",
+      "answer": 0,
+      "options": [
+        "够，找回4元",
+        "不够",
+        "刚好",
+        "找回1元"
+      ],
+      "explanation": "3×7=21元，25-21=4元。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-03ca3b05ef78",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "9时整，钟面上时针和分针成什么角？",
+      "answer": 1,
+      "options": [
+        "锐角",
+        "直角",
+        "钝角",
+        "不是角"
+      ],
+      "explanation": "9时整时针指9，分针指12，成直角。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-dc2afcba3761",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一块橡皮厚约1什么？",
+      "answer": 0,
+      "options": [
+        "厘米",
+        "米",
+        "毫米",
+        "千米"
+      ],
+      "explanation": "橡皮厚约1厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-e2b78fbb7457",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "生活情境"
+    ],
+    "content": {
+      "stem": "75 - 38 = ？",
+      "answer": 0,
+      "options": [
+        "37",
+        "47",
+        "33",
+        "43"
+      ],
+      "explanation": "75-30=45，45-8=37。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-378e82acfc77",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "apply",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "小明每天写8个大字，一周（7天）写多少个大字？",
+      "answer": 1,
+      "options": [
+        "15个",
+        "56个",
+        "49个",
+        "64个"
+      ],
+      "explanation": "8×7=56个。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-992c81c8fe8a",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法初步",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "一盒巧克力有24块，平均分给爸爸、妈妈、哥哥和小丽，每人分几块？",
+      "answer": 1,
+      "options": [
+        "4块",
+        "6块",
+        "8块",
+        "12块"
+      ],
+      "explanation": "24÷4=6块。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-40f544d4ef13",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "计算4×8时用哪句口诀？",
+      "answer": 0,
+      "options": [
+        "四八三十二",
+        "八四三十二",
+        "四八二十四",
+        "八四二十四"
+      ],
+      "explanation": "口诀是四八三十二。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-260ddb505940",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "一根彩带长60厘米，做花用去35厘米，还剩多长？",
+      "answer": 0,
+      "options": [
+        "25厘米",
+        "35厘米",
+        "95厘米",
+        "15厘米"
+      ],
+      "explanation": "60-35=25厘米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d91da20f2eb0",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "reason",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "芳芳有4张邮票，明明的邮票数是芳芳的3倍还多2张，明明有多少张？",
+      "answer": 2,
+      "options": [
+        "10张",
+        "12张",
+        "14张",
+        "16张"
+      ],
+      "explanation": "4×3+2=14张。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-afff2de53fef",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "understand",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "下面哪个不是轴对称图形？",
+      "answer": 2,
+      "options": [
+        "正方形",
+        "圆形",
+        "平行四边形",
+        "等腰三角形"
+      ],
+      "explanation": "一般的平行四边形不是轴对称。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-d5f68857fb1e",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "小军从家到学校要走15分钟，他每天7:45到校，他最晚什么时间出发？",
+      "answer": 0,
+      "options": [
+        "7:30",
+        "7:20",
+        "7:25",
+        "7:35"
+      ],
+      "explanation": "7:45-15分=7:30。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-8b046fe6d9ff",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "3个7相加的和写成乘法是？",
+      "answer": 0,
+      "options": [
+        "3×7",
+        "7×3",
+        "3+7",
+        "都可以"
+      ],
+      "explanation": "3个7相加写作3×7。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-ebce24b9c596",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间与人民币",
+    "skill": "reason",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "把一根绳子剪成5段，每剪一次需要2分钟，一共需要几分钟？",
+      "answer": 1,
+      "options": [
+        "10分钟",
+        "8分钟",
+        "6分钟",
+        "5分钟"
+      ],
+      "explanation": "剪成5段需剪4次，2×4=8分钟。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-68c54842cdf9",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "表内乘法",
+    "skill": "understand",
+    "tags": [
+      "数量关系"
+    ],
+    "content": {
+      "stem": "5 × 8 = ___",
+      "answer": "40",
+      "explanation": "五八四十。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-38cc9d4099ee",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "stem": "从3时到6时，时针走了___大格，是___小时。",
+      "answer": "3 3",
+      "explanation": "3时到6时走了3大格，3小时。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-405b409695a7",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "长度与测量",
+    "skill": "apply",
+    "tags": [
+      "测量"
+    ],
+    "content": {
+      "stem": "我们学过的长度单位有___和___。",
+      "answer": "厘米 米",
+      "explanation": "二年级学厘米和米。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  },
+  {
+    "id": "g2-math-legacy-fc2904a4bb12",
+    "subject": "math",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "时间与人民币",
+    "skill": "apply",
+    "tags": [
+      "生活计量"
+    ],
+    "content": {
+      "left": [
+        "时针指8，分针指12",
+        "时针在10和11间，分针指6",
+        "时针接近3，分针指10",
+        "分针指12，时针指5"
+      ],
+      "stem": "把钟面时间和电子表时间连起来",
+      "right": [
+        "10:30",
+        "5:00",
+        "2:50",
+        "8:00"
+      ],
+      "matches": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "explanation": "8:00, 10:30, 2:50, 5:00。"
+    },
+    "reviewStatus": "draft",
+    "version": 1
+  }
+]
