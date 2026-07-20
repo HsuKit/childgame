@@ -1,22 +1,3838 @@
 [
-  {"stem":"25 × 4 = ?","options":["80","90","100","110"],"answer":2},
-  {"stem":"120 ÷ 6 = ?","options":["15","20","25","30"],"answer":1},
-  {"stem":"正方形边长5cm，周长是多少？","options":["15cm","20cm","25cm","10cm"],"answer":1,"explanation":"周长=5×4=20cm"},
-  {"stem":"56 + 37 = ?","options":["83","93","103","87"],"answer":1},
-  {"stem":"350 - 185 = ?","options":["155","165","175","145"],"answer":1},
-  {"stem":"8 × 7 = ?","options":["54","56","58","60"],"answer":1},
-  {"stem":"480 ÷ 8 = ?","options":["50","55","60","65"],"answer":2},
-  {"stem":"一个长方形长8cm宽3cm，面积是多少？","options":["22cm²","24cm²","26cm²","11cm²"],"answer":1,"explanation":"面积=8×3=24cm²"},
-  {"stem":"3/4 和 1/4 谁大？","options":["1/4大","一样大","3/4大","无法比较"],"answer":2,"explanation":"分母相同，分子大的大"},
-  {"stem":"15 × 6 = ?","options":["80","85","90","95"],"answer":2},
-  {"stem":"一本书98页，每天看14页，几天看完？","options":["5天","6天","7天","8天"],"answer":2,"explanation":"98÷14=7天"},
-  {"stem":"时钟上3:00，时针和分针组成什么角？","options":["锐角","直角","钝角","平角"],"answer":1,"explanation":"3点整是直角90°"},
-  {"stem":"把1米平均分成100份，每份是？","options":["1mm","1cm","1dm","1m"],"answer":1,"explanation":"1米=100厘米，每份1厘米"},
-  {"stem":"38 + 49 = ?","options":["77","87","97","107"],"answer":1},
-  {"stem":"72 ÷ 3 = ?","options":["22","24","26","28"],"answer":1},
-  {"stem":"最大的三位数是多少？","options":["900","990","999","1000"],"answer":2},
-  {"stem":"小明早上7:30到校，11:40放学，上午在校多久？","options":["3小时10分","4小时10分","4小时30分","5小时10分"],"answer":1,"explanation":"11:40-7:30=4小时10分"},
-  {"stem":"比412多198的数是多少？","options":["600","610","620","590"],"answer":1},
-  {"stem":"900 - 456 = ?","options":["434","444","454","464"],"answer":1},
-  {"stem":"有12排座位，每排8个，共几个座位？","options":["86","96","106","116"],"answer":1,"explanation":"12×8=96"}
+  {
+    "id": "g3-math-authored-001",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：社区图书角有1274本书，其中数字“2”在百位上，它表示多少？",
+      "options": [
+        "200",
+        "2",
+        "20",
+        "2000"
+      ],
+      "answer": 0,
+      "explanation": "百位上的数字表示几个百，所以表示200。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-002",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：手工课每组要用15张彩纸，5个小组一共要用多少张？",
+      "options": [
+        "70张",
+        "75张",
+        "90张",
+        "20张"
+      ],
+      "answer": 1,
+      "explanation": "15×5=75，所以一共要用75张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-003",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：把48颗棋子平均装进6个盒子，每盒有多少颗？",
+      "options": [
+        "7颗",
+        "14颗",
+        "8颗",
+        "42颗"
+      ],
+      "answer": 2,
+      "explanation": "48÷6=8，每盒有8颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-004",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：一张纸平均分成4份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "1/4",
+        "4/2",
+        "4/4",
+        "2/4"
+      ],
+      "answer": 3,
+      "explanation": "原来涂1份，再涂1份是2份，占2/4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-005",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：科技活动在10:00开始，持续40分钟，结束时间是几点？",
+      "options": [
+        "10:40",
+        "11:40",
+        "13:40",
+        "12:00"
+      ],
+      "answer": 0,
+      "explanation": "从10:00经过40分钟，结束时间是10:40。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-006",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：长方形卡片长13厘米、宽5厘米，它的周长是多少？",
+      "options": [
+        "18厘米",
+        "36厘米",
+        "26厘米",
+        "41厘米"
+      ],
+      "answer": 1,
+      "explanation": "周长是（13+5）×2=36厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-007",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：三组回收废纸数量为：一组5千克、二组8千克、三组3千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "5千克",
+        "16千克"
+      ],
+      "answer": 2,
+      "explanation": "比较二组和三组，8-3=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-008",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：书架原有27本故事书，借出5本，又放回6本，现在有多少本？",
+      "options": [
+        "22本",
+        "33本",
+        "36本",
+        "28本"
+      ],
+      "answer": 3,
+      "explanation": "先算借出后有27-5=22本，再加放回的6本，共28本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-009",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "春游准备：观察数列：6，8，10，12，下一个数是多少？",
+      "options": [
+        "14",
+        "12",
+        "16",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "相邻两个数都增加2，所以下一个数是14。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-010",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：社区图书角有1607本书，其中数字“6”在百位上，它表示多少？",
+      "options": [
+        "6",
+        "600",
+        "60",
+        "6000"
+      ],
+      "answer": 1,
+      "explanation": "百位上的数字表示几个百，所以表示600。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-011",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：手工课每组要用24张彩纸，7个小组一共要用多少张？",
+      "options": [
+        "161张",
+        "192张",
+        "168张",
+        "31张"
+      ],
+      "answer": 2,
+      "explanation": "24×7=168，所以一共要用168张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-012",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：把48颗棋子平均装进8个盒子，每盒有多少颗？",
+      "options": [
+        "5颗",
+        "14颗",
+        "40颗",
+        "6颗"
+      ],
+      "answer": 3,
+      "explanation": "48÷8=6，每盒有6颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-013",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：一张纸平均分成5份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "2/5",
+        "1/5",
+        "5/2",
+        "4/5"
+      ],
+      "answer": 0,
+      "explanation": "原来涂1份，再涂1份是2份，占2/5。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-014",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：科技活动在11:00开始，持续50分钟，结束时间是几点？",
+      "options": [
+        "12:50",
+        "11:50",
+        "14:50",
+        "13:00"
+      ],
+      "answer": 1,
+      "explanation": "从11:00经过50分钟，结束时间是11:50。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-015",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：长方形卡片长6厘米、宽2厘米，它的周长是多少？",
+      "options": [
+        "8厘米",
+        "12厘米",
+        "16厘米",
+        "18厘米"
+      ],
+      "answer": 2,
+      "explanation": "周长是（6+2）×2=16厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-016",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：三组回收废纸数量为：一组6千克、二组9千克、三组4千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "19千克",
+        "5千克"
+      ],
+      "answer": 3,
+      "explanation": "比较二组和三组，9-4=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-017",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：书架原有36本故事书，借出7本，又放回7本，现在有多少本？",
+      "options": [
+        "36本",
+        "29本",
+        "43本",
+        "46本"
+      ],
+      "answer": 0,
+      "explanation": "先算借出后有36-7=29本，再加放回的7本，共36本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-018",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "运动会记录：观察数列：3，9，15，21，下一个数是多少？",
+      "options": [
+        "21",
+        "27",
+        "33",
+        "39"
+      ],
+      "answer": 1,
+      "explanation": "相邻两个数都增加6，所以下一个数是27。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-019",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：社区图书角有1940本书，其中数字“9”在百位上，它表示多少？",
+      "options": [
+        "9",
+        "90",
+        "900",
+        "9000"
+      ],
+      "answer": 2,
+      "explanation": "百位上的数字表示几个百，所以表示900。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-020",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：手工课每组要用33张彩纸，2个小组一共要用多少张？",
+      "options": [
+        "64张",
+        "99张",
+        "35张",
+        "66张"
+      ],
+      "answer": 3,
+      "explanation": "33×2=66，所以一共要用66张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-021",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：把12颗棋子平均装进3个盒子，每盒有多少颗？",
+      "options": [
+        "4颗",
+        "3颗",
+        "7颗",
+        "9颗"
+      ],
+      "answer": 0,
+      "explanation": "12÷3=4，每盒有4颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-022",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：一张纸平均分成6份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "1/6",
+        "2/6",
+        "6/2",
+        "4/6"
+      ],
+      "answer": 1,
+      "explanation": "原来涂1份，再涂1份是2份，占2/6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-023",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：科技活动在8:00开始，持续20分钟，结束时间是几点？",
+      "options": [
+        "9:20",
+        "11:20",
+        "8:20",
+        "10:00"
+      ],
+      "answer": 2,
+      "explanation": "从8:00经过20分钟，结束时间是8:20。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-024",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：长方形卡片长7厘米、宽3厘米，它的周长是多少？",
+      "options": [
+        "10厘米",
+        "14厘米",
+        "23厘米",
+        "20厘米"
+      ],
+      "answer": 3,
+      "explanation": "周长是（7+3）×2=20厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-025",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：三组回收废纸数量为：一组7千克、二组10千克、三组5千克。二组比三组多多少千克？",
+      "options": [
+        "5千克",
+        "3千克",
+        "2千克",
+        "22千克"
+      ],
+      "answer": 0,
+      "explanation": "比较二组和三组，10-5=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-026",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：书架原有45本故事书，借出9本，又放回8本，现在有多少本？",
+      "options": [
+        "36本",
+        "44本",
+        "53本",
+        "56本"
+      ],
+      "answer": 1,
+      "explanation": "先算借出后有45-9=36本，再加放回的8本，共44本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-027",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "图书节任务：观察数列：6，11，16，21，下一个数是多少？",
+      "options": [
+        "21",
+        "31",
+        "26",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "相邻两个数都增加5，所以下一个数是26。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-028",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：社区图书角有2273本书，其中数字“2”在百位上，它表示多少？",
+      "options": [
+        "2",
+        "20",
+        "2000",
+        "200"
+      ],
+      "answer": 3,
+      "explanation": "百位上的数字表示几个百，所以表示200。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-029",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：手工课每组要用14张彩纸，4个小组一共要用多少张？",
+      "options": [
+        "56张",
+        "52张",
+        "70张",
+        "18张"
+      ],
+      "answer": 0,
+      "explanation": "14×4=56，所以一共要用56张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-030",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：把65颗棋子平均装进5个盒子，每盒有多少颗？",
+      "options": [
+        "12颗",
+        "13颗",
+        "18颗",
+        "60颗"
+      ],
+      "answer": 1,
+      "explanation": "65÷5=13，每盒有13颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-031",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：一张纸平均分成7份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "1/7",
+        "7/2",
+        "2/7",
+        "4/7"
+      ],
+      "answer": 2,
+      "explanation": "原来涂1份，再涂1份是2份，占2/7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-032",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：科技活动在9:00开始，持续30分钟，结束时间是几点？",
+      "options": [
+        "10:30",
+        "12:30",
+        "11:00",
+        "9:30"
+      ],
+      "answer": 3,
+      "explanation": "从9:00经过30分钟，结束时间是9:30。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-033",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：长方形卡片长8厘米、宽4厘米，它的周长是多少？",
+      "options": [
+        "24厘米",
+        "12厘米",
+        "16厘米",
+        "28厘米"
+      ],
+      "answer": 0,
+      "explanation": "周长是（8+4）×2=24厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-034",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：三组回收废纸数量为：一组8千克、二组11千克、三组6千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "5千克",
+        "2千克",
+        "25千克"
+      ],
+      "answer": 1,
+      "explanation": "比较二组和三组，11-6=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-035",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：书架原有54本故事书，借出4本，又放回9本，现在有多少本？",
+      "options": [
+        "50本",
+        "63本",
+        "59本",
+        "66本"
+      ],
+      "answer": 2,
+      "explanation": "先算借出后有54-4=50本，再加放回的9本，共59本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-036",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科学角观察：观察数列：3，7，11，15，下一个数是多少？",
+      "options": [
+        "15",
+        "23",
+        "27",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "相邻两个数都增加4，所以下一个数是19。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-037",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：社区图书角有2606本书，其中数字“6”在百位上，它表示多少？",
+      "options": [
+        "600",
+        "6",
+        "60",
+        "6000"
+      ],
+      "answer": 0,
+      "explanation": "百位上的数字表示几个百，所以表示600。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-038",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：手工课每组要用23张彩纸，6个小组一共要用多少张？",
+      "options": [
+        "132张",
+        "138张",
+        "161张",
+        "29张"
+      ],
+      "answer": 1,
+      "explanation": "23×6=138，所以一共要用138张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-039",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：把77颗棋子平均装进7个盒子，每盒有多少颗？",
+      "options": [
+        "10颗",
+        "18颗",
+        "11颗",
+        "70颗"
+      ],
+      "answer": 2,
+      "explanation": "77÷7=11，每盒有11颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-040",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：一张纸平均分成8份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "1/8",
+        "8/2",
+        "4/8",
+        "2/8"
+      ],
+      "answer": 3,
+      "explanation": "原来涂1份，再涂1份是2份，占2/8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-041",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：科技活动在10:00开始，持续40分钟，结束时间是几点？",
+      "options": [
+        "10:40",
+        "11:40",
+        "13:40",
+        "12:00"
+      ],
+      "answer": 0,
+      "explanation": "从10:00经过40分钟，结束时间是10:40。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-042",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：长方形卡片长9厘米、宽5厘米，它的周长是多少？",
+      "options": [
+        "14厘米",
+        "28厘米",
+        "18厘米",
+        "33厘米"
+      ],
+      "answer": 1,
+      "explanation": "周长是（9+5）×2=28厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-043",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：三组回收废纸数量为：一组9千克、二组12千克、三组7千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "5千克",
+        "28千克"
+      ],
+      "answer": 2,
+      "explanation": "比较二组和三组，12-7=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-044",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：书架原有63本故事书，借出6本，又放回10本，现在有多少本？",
+      "options": [
+        "57本",
+        "73本",
+        "76本",
+        "67本"
+      ],
+      "answer": 3,
+      "explanation": "先算借出后有63-6=57本，再加放回的10本，共67本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-045",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "劳动课统计：观察数列：6，9，12，15，下一个数是多少？",
+      "options": [
+        "18",
+        "15",
+        "21",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "相邻两个数都增加3，所以下一个数是18。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-046",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：社区图书角有2939本书，其中数字“9”在百位上，它表示多少？",
+      "options": [
+        "9",
+        "900",
+        "90",
+        "9000"
+      ],
+      "answer": 1,
+      "explanation": "百位上的数字表示几个百，所以表示900。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-047",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：手工课每组要用32张彩纸，8个小组一共要用多少张？",
+      "options": [
+        "248张",
+        "288张",
+        "256张",
+        "40张"
+      ],
+      "answer": 2,
+      "explanation": "32×8=256，所以一共要用256张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-048",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：把18颗棋子平均装进2个盒子，每盒有多少颗？",
+      "options": [
+        "8颗",
+        "11颗",
+        "16颗",
+        "9颗"
+      ],
+      "answer": 3,
+      "explanation": "18÷2=9，每盒有9颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-049",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：一张纸平均分成9份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "2/9",
+        "1/9",
+        "9/2",
+        "4/9"
+      ],
+      "answer": 0,
+      "explanation": "原来涂1份，再涂1份是2份，占2/9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-050",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：科技活动在11:00开始，持续50分钟，结束时间是几点？",
+      "options": [
+        "12:50",
+        "11:50",
+        "14:50",
+        "13:00"
+      ],
+      "answer": 1,
+      "explanation": "从11:00经过50分钟，结束时间是11:50。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-051",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：长方形卡片长10厘米、宽2厘米，它的周长是多少？",
+      "options": [
+        "12厘米",
+        "20厘米",
+        "24厘米",
+        "26厘米"
+      ],
+      "answer": 2,
+      "explanation": "周长是（10+2）×2=24厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-052",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：三组回收废纸数量为：一组10千克、二组13千克、三组8千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "31千克",
+        "5千克"
+      ],
+      "answer": 3,
+      "explanation": "比较二组和三组，13-8=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-053",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "班级义卖：书架原有72本故事书，借出8本，又放回11本，现在有多少本？",
+      "options": [
+        "75本",
+        "64本",
+        "83本",
+        "86本"
+      ],
+      "answer": 0,
+      "explanation": "先算借出后有72-8=64本，再加放回的11本，共75本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-054",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "班级义卖：观察数列：3，5，7，9，下一个数是多少？",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "相邻两个数都增加2，所以下一个数是11。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-055",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：社区图书角有3272本书，其中数字“2”在百位上，它表示多少？",
+      "options": [
+        "2",
+        "20",
+        "200",
+        "2000"
+      ],
+      "answer": 2,
+      "explanation": "百位上的数字表示几个百，所以表示200。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-056",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：手工课每组要用13张彩纸，3个小组一共要用多少张？",
+      "options": [
+        "36张",
+        "52张",
+        "16张",
+        "39张"
+      ],
+      "answer": 3,
+      "explanation": "13×3=39，所以一共要用39张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-057",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：把28颗棋子平均装进4个盒子，每盒有多少颗？",
+      "options": [
+        "7颗",
+        "6颗",
+        "11颗",
+        "24颗"
+      ],
+      "answer": 0,
+      "explanation": "28÷4=7，每盒有7颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-058",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：一张纸平均分成10份，涂了1份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "1/10",
+        "2/10",
+        "10/2",
+        "4/10"
+      ],
+      "answer": 1,
+      "explanation": "原来涂1份，再涂1份是2份，占2/10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-059",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：科技活动在8:00开始，持续20分钟，结束时间是几点？",
+      "options": [
+        "9:20",
+        "11:20",
+        "8:20",
+        "10:00"
+      ],
+      "answer": 2,
+      "explanation": "从8:00经过20分钟，结束时间是8:20。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-060",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：长方形卡片长11厘米、宽3厘米，它的面积是多少？",
+      "options": [
+        "14平方厘米",
+        "22平方厘米",
+        "36平方厘米",
+        "33平方厘米"
+      ],
+      "answer": 3,
+      "explanation": "面积是11×3=33平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-061",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：三组回收废纸数量为：一组11千克、二组14千克、三组9千克。二组比三组多多少千克？",
+      "options": [
+        "5千克",
+        "3千克",
+        "2千克",
+        "34千克"
+      ],
+      "answer": 0,
+      "explanation": "比较二组和三组，14-9=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-062",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：书架原有81本故事书，借出3本，又放回12本，现在有多少本？",
+      "options": [
+        "78本",
+        "90本",
+        "93本",
+        "96本"
+      ],
+      "answer": 1,
+      "explanation": "先算借出后有81-3=78本，再加放回的12本，共90本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-063",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "校园种植：观察数列：6，12，18，24，下一个数是多少？",
+      "options": [
+        "24",
+        "36",
+        "30",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "相邻两个数都增加6，所以下一个数是30。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-064",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：社区图书角有3605本书，其中数字“6”在百位上，它表示多少？",
+      "options": [
+        "6",
+        "60",
+        "6000",
+        "600"
+      ],
+      "answer": 3,
+      "explanation": "百位上的数字表示几个百，所以表示600。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-065",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：手工课每组要用22张彩纸，5个小组一共要用多少张？",
+      "options": [
+        "110张",
+        "105张",
+        "132张",
+        "27张"
+      ],
+      "answer": 0,
+      "explanation": "22×5=110，所以一共要用110张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-066",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：把30颗棋子平均装进6个盒子，每盒有多少颗？",
+      "options": [
+        "4颗",
+        "5颗",
+        "11颗",
+        "24颗"
+      ],
+      "answer": 1,
+      "explanation": "30÷6=5，每盒有5颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-067",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：一张纸平均分成4份，涂了2份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "2/4",
+        "4/3",
+        "3/4",
+        "1/4"
+      ],
+      "answer": 2,
+      "explanation": "原来涂2份，再涂1份是3份，占3/4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-068",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：科技活动在9:00开始，持续30分钟，结束时间是几点？",
+      "options": [
+        "10:30",
+        "12:30",
+        "11:00",
+        "9:30"
+      ],
+      "answer": 3,
+      "explanation": "从9:00经过30分钟，结束时间是9:30。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-069",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：长方形卡片长12厘米、宽4厘米，它的面积是多少？",
+      "options": [
+        "48平方厘米",
+        "16平方厘米",
+        "24平方厘米",
+        "52平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "面积是12×4=48平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-070",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：三组回收废纸数量为：一组12千克、二组15千克、三组10千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "5千克",
+        "2千克",
+        "37千克"
+      ],
+      "answer": 1,
+      "explanation": "比较二组和三组，15-10=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-071",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：书架原有90本故事书，借出5本，又放回5本，现在有多少本？",
+      "options": [
+        "85本",
+        "95本",
+        "90本",
+        "98本"
+      ],
+      "answer": 2,
+      "explanation": "先算借出后有90-5=85本，再加放回的5本，共90本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-072",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社团活动：观察数列：3，8，13，18，下一个数是多少？",
+      "options": [
+        "18",
+        "28",
+        "33",
+        "23"
+      ],
+      "answer": 3,
+      "explanation": "相邻两个数都增加5，所以下一个数是23。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-073",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：社区图书角有3938本书，其中数字“9”在百位上，它表示多少？",
+      "options": [
+        "900",
+        "9",
+        "90",
+        "9000"
+      ],
+      "answer": 0,
+      "explanation": "百位上的数字表示几个百，所以表示900。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-074",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：手工课每组要用31张彩纸，7个小组一共要用多少张？",
+      "options": [
+        "210张",
+        "217张",
+        "248张",
+        "38张"
+      ],
+      "answer": 1,
+      "explanation": "31×7=217，所以一共要用217张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-075",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：把112颗棋子平均装进8个盒子，每盒有多少颗？",
+      "options": [
+        "13颗",
+        "22颗",
+        "14颗",
+        "104颗"
+      ],
+      "answer": 2,
+      "explanation": "112÷8=14，每盒有14颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-076",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：一张纸平均分成5份，涂了2份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "2/5",
+        "5/3",
+        "1/5",
+        "3/5"
+      ],
+      "answer": 3,
+      "explanation": "原来涂2份，再涂1份是3份，占3/5。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-077",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：科技活动在10:00开始，持续40分钟，结束时间是几点？",
+      "options": [
+        "10:40",
+        "11:40",
+        "13:40",
+        "12:00"
+      ],
+      "answer": 0,
+      "explanation": "从10:00经过40分钟，结束时间是10:40。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-078",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：长方形卡片长13厘米、宽5厘米，它的面积是多少？",
+      "options": [
+        "18平方厘米",
+        "65平方厘米",
+        "26平方厘米",
+        "70平方厘米"
+      ],
+      "answer": 1,
+      "explanation": "面积是13×5=65平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-079",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：三组回收废纸数量为：一组13千克、二组16千克、三组11千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "5千克",
+        "40千克"
+      ],
+      "answer": 2,
+      "explanation": "比较二组和三组，16-11=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-080",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：书架原有99本故事书，借出7本，又放回6本，现在有多少本？",
+      "options": [
+        "92本",
+        "105本",
+        "108本",
+        "98本"
+      ],
+      "answer": 3,
+      "explanation": "先算借出后有99-7=92本，再加放回的6本，共98本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-081",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "家庭采购：观察数列：6，10，14，18，下一个数是多少？",
+      "options": [
+        "22",
+        "18",
+        "26",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "相邻两个数都增加4，所以下一个数是22。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-082",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：社区图书角有4271本书，其中数字“2”在百位上，它表示多少？",
+      "options": [
+        "2",
+        "200",
+        "20",
+        "2000"
+      ],
+      "answer": 1,
+      "explanation": "百位上的数字表示几个百，所以表示200。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-083",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：手工课每组要用12张彩纸，2个小组一共要用多少张？",
+      "options": [
+        "22张",
+        "36张",
+        "24张",
+        "14张"
+      ],
+      "answer": 2,
+      "explanation": "12×2=24，所以一共要用24张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-084",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：把36颗棋子平均装进3个盒子，每盒有多少颗？",
+      "options": [
+        "11颗",
+        "15颗",
+        "33颗",
+        "12颗"
+      ],
+      "answer": 3,
+      "explanation": "36÷3=12，每盒有12颗。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-085",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：一张纸平均分成6份，涂了2份。再涂1份后，涂色部分是这张纸的几分之几？",
+      "options": [
+        "3/6",
+        "2/6",
+        "6/3",
+        "1/6"
+      ],
+      "answer": 0,
+      "explanation": "原来涂2份，再涂1份是3份，占3/6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-086",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：科技活动在11:00开始，持续50分钟，结束时间是几点？",
+      "options": [
+        "12:50",
+        "11:50",
+        "14:50",
+        "13:00"
+      ],
+      "answer": 1,
+      "explanation": "从11:00经过50分钟，结束时间是11:50。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-087",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：长方形卡片长6厘米、宽2厘米，它的面积是多少？",
+      "options": [
+        "8平方厘米",
+        "14平方厘米",
+        "12平方厘米",
+        "17平方厘米"
+      ],
+      "answer": 2,
+      "explanation": "面积是6×2=12平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-088",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：三组回收废纸数量为：一组14千克、二组17千克、三组12千克。二组比三组多多少千克？",
+      "options": [
+        "3千克",
+        "2千克",
+        "43千克",
+        "5千克"
+      ],
+      "answer": 3,
+      "explanation": "比较二组和三组，17-12=5千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-089",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：书架原有108本故事书，借出9本，又放回7本，现在有多少本？",
+      "options": [
+        "106本",
+        "99本",
+        "115本",
+        "118本"
+      ],
+      "answer": 0,
+      "explanation": "先算借出后有108-9=99本，再加放回的7本，共106本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-090",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "社区服务：数列从13开始，依次加1、加2、加3。按照这个规律，下一次加4后得到多少？",
+      "options": [
+        "19",
+        "23",
+        "24",
+        "27"
+      ],
+      "answer": 1,
+      "explanation": "依次计算：13+1+2+3+4=23。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-091",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：仓库原有4488件物品，运走1200件。剩下物品数的百位数字是多少？",
+      "options": [
+        "0",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "先算4488-1200=3288，再看百位数字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-092",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：3盒贴纸，每盒30张。布置展板用去9张，还剩多少张？",
+      "options": [
+        "90张",
+        "84张",
+        "72张",
+        "81张"
+      ],
+      "answer": 3,
+      "explanation": "先算3×30=90张，再减9张，剩81张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-093",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：38名同学，每4人组成一组。最多组成几个完整小组，还剩几人？",
+      "options": [
+        "9组，剩2人",
+        "10组，剩0人",
+        "11组，剩2人",
+        "4组，剩2人"
+      ],
+      "answer": 0,
+      "explanation": "38÷4=9……2，可组成9个完整小组，剩2人。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-094",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：一盒点心平均分成6份，小雨吃了2份，小林吃了3份。两人一共吃了这盒点心的几分之几？",
+      "options": [
+        "3/6",
+        "5/6",
+        "2/6",
+        "6/5"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，把吃掉的份数相加：2+3=5，所以是5/6。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-095",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：活动8:00开始，先参观35分钟，休息10分钟，再体验25分钟。全部结束是几点？",
+      "options": [
+        "8:60",
+        "9:25",
+        "9:10",
+        "10:10"
+      ],
+      "answer": 2,
+      "explanation": "总用时35+10+25=70分钟，即1小时10分钟，结束时间是9:10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-096",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：长20米、宽4米的长方形花坛中，有一块2米×4米的区域铺石子，其余种花。种花面积是多少？",
+      "options": [
+        "80平方米",
+        "48平方米",
+        "76平方米",
+        "72平方米"
+      ],
+      "answer": 3,
+      "explanation": "花坛面积20×4=80，石子区面积2×4=8，种花面积是72平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-097",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数据表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：图书借阅记录：周一24本、周二21本、周三27本。三天共借出多少本？",
+      "options": [
+        "72本",
+        "6本",
+        "45本",
+        "48本"
+      ],
+      "answer": 0,
+      "explanation": "把三天数据相加：24+21+27=72本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-098",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：礼堂安排4排座位，每排20个。已有3个座位损坏，可用座位有多少个？",
+      "options": [
+        "80个",
+        "77个",
+        "81个",
+        "17个"
+      ],
+      "answer": 1,
+      "explanation": "先算座位总数4×20=80，再减损坏的3个，得77个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-099",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "规律发现",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "阅读分享：数列从14开始，依次加1、加2、加3。按照这个规律，下一次加4后得到多少？",
+      "options": [
+        "20",
+        "25",
+        "24",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "依次计算：14+1+2+3+4=24。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-100",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "较大数认识",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：仓库原有4612件物品，运走1300件。剩下物品数的百位数字是多少？",
+      "options": [
+        "0",
+        "2",
+        "8",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "先算4612-1300=3312，再看百位数字。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-101",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "乘法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：4盒贴纸，每盒31张。布置展板用去10张，还剩多少张？",
+      "options": [
+        "114张",
+        "124张",
+        "118张",
+        "104张"
+      ],
+      "answer": 0,
+      "explanation": "先算4×31=124张，再减10张，剩114张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-102",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "除法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：53名同学，每5人组成一组。最多组成几个完整小组，还剩几人？",
+      "options": [
+        "11组，剩0人",
+        "10组，剩3人",
+        "10组，剩2人",
+        "5组，剩3人"
+      ],
+      "answer": 1,
+      "explanation": "53÷5=10……3，可组成10个完整小组，剩3人。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-103",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：一盒点心平均分成7份，小雨吃了2份，小林吃了3份。两人一共吃了这盒点心的几分之几？",
+      "options": [
+        "3/7",
+        "2/7",
+        "5/7",
+        "7/5"
+      ],
+      "answer": 2,
+      "explanation": "分母不变，把吃掉的份数相加：2+3=5，所以是5/7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-104",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "质量与时间",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：活动9:00开始，先参观35分钟，休息10分钟，再体验25分钟。全部结束是几点？",
+      "options": [
+        "9:60",
+        "10:25",
+        "11:10",
+        "10:10"
+      ],
+      "answer": 3,
+      "explanation": "总用时35+10+25=70分钟，即1小时10分钟，结束时间是10:10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-105",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "周长与面积",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "手工作品展：长21米、宽5米的长方形花坛中，有一块2米×5米的区域铺石子，其余种花。种花面积是多少？",
+      "options": [
+        "95平方米",
+        "105平方米",
+        "52平方米",
+        "100平方米"
+      ],
+      "answer": 0,
+      "explanation": "花坛面积21×5=105，石子区面积2×5=10，种花面积是95平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-106",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "手工作品展：调查结果是喜欢足球116人、篮球113人，喜欢足球的比篮球多___人。",
+      "answer": "3",
+      "explanation": "用116-113=3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-107",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "手工作品展：一盒彩笔10支，买3盒后送出3支，还剩___支。",
+      "answer": "27",
+      "explanation": "先求3盒总数，再减去送出的数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-108",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "规律发现",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "手工作品展：按规律填数：110，113，116，___。",
+      "answer": "119",
+      "explanation": "每次增加3，所以下一个数是119。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-109",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：14100里面有___个百。",
+      "answer": "141",
+      "explanation": "每100个组成1个百，所以共有141个百。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-110",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：132 × 6 = ___",
+      "answer": "792",
+      "explanation": "用乘法计算两个因数的积。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-111",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：80 ÷ 8 = ___",
+      "answer": "10",
+      "explanation": "根据乘除法关系求商。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-112",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：把一个苹果平均分成8份，每份是它的___。",
+      "answer": "1/8",
+      "explanation": "平均分成几份，每份就是几分之一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-113",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：2千克 = ___克",
+      "answer": "2000",
+      "explanation": "1千克是1000克，2千克是2000克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-114",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：边长7厘米的正方形，周长是___厘米。",
+      "answer": "28",
+      "explanation": "正方形周长等于边长乘4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-115",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：调查结果是喜欢足球125人、篮球122人，喜欢足球的比篮球多___人。",
+      "answer": "3",
+      "explanation": "用125-122=3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-116",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "两步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水行动：一盒彩笔9支，买3盒后送出4支，还剩___支。",
+      "answer": "23",
+      "explanation": "先求3盒总数，再减去送出的数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-117",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "节水行动：按规律填数：119，122，125，___。",
+      "answer": "128",
+      "explanation": "每次增加3，所以下一个数是128。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-118",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：15000里面有___个百。",
+      "answer": "150",
+      "explanation": "每100个组成1个百，所以共有150个百。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-119",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：141 × 3 = ___",
+      "answer": "423",
+      "explanation": "用乘法计算两个因数的积。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-120",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：50 ÷ 5 = ___",
+      "answer": "10",
+      "explanation": "根据乘除法关系求商。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-121",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "分数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：把一个苹果平均分成7份，每份是它的___。",
+      "answer": "1/7",
+      "explanation": "平均分成几份，每份就是几分之一。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-122",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "质量与时间",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：2千克 = ___克",
+      "answer": "2000",
+      "explanation": "1千克是1000克，2千克是2000克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-123",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "周长与面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：边长8厘米的正方形，周长是___厘米。",
+      "answer": "32",
+      "explanation": "正方形周长等于边长乘4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-124",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "数据表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：三天收集废电池数量分别是143节、138节、141节，共收集___节。",
+      "answer": "422",
+      "explanation": "把三天数量相加：143+138+141=422节。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-125",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "两步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：4袋卡片，每袋11张，用去8张后还剩___张。",
+      "answer": "36",
+      "explanation": "先算4袋有11×4=44张，再减去8张，剩36张。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-126",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "规律发现",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "旧物回收：按“依次加1、加2、加3、加4”的规律填数：9，10，12，15，___。",
+      "answer": "19",
+      "explanation": "最后一次加4，15+4=19。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-127",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "较大数认识",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第127组较大数认识练习：把左边内容与正确结果连起来",
+      "left": [
+        "3个千和2个百",
+        "5个百和8个一",
+        "7个千和4个十",
+        "9个百和6个十"
+      ],
+      "right": [
+        "7040",
+        "3200",
+        "960",
+        "508"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据千位、百位、十位和个位表示的数值组成各数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-128",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "乘法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第128组乘法练习：把左边内容与正确结果连起来",
+      "left": [
+        "12×5",
+        "13×5",
+        "14×5",
+        "15×5"
+      ],
+      "right": [
+        "70",
+        "60",
+        "75",
+        "65"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐个计算乘法算式的积。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-129",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "除法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第129组除法练习：把左边内容与正确结果连起来",
+      "left": [
+        "12÷2",
+        "14÷2",
+        "16÷2",
+        "18÷2"
+      ],
+      "right": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据乘除法关系计算每个商。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-130",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "分数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第130组分数初步练习：把左边内容与正确结果连起来",
+      "left": [
+        "平均分2份取1份",
+        "平均分3份取1份",
+        "平均分4份取3份",
+        "平均分5份取2份"
+      ],
+      "right": [
+        "3/4",
+        "1/2",
+        "2/5",
+        "1/3"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "分母表示平均分的份数，分子表示取的份数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-131",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "质量与时间",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第131组质量与时间练习：把左边内容与正确结果连起来",
+      "left": [
+        "2千克",
+        "3000克",
+        "1小时",
+        "90分钟"
+      ],
+      "right": [
+        "60分钟",
+        "2000克",
+        "1小时30分",
+        "3千克"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "1千克=1000克，1小时=60分钟。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-132",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "周长与面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第132组周长与面积练习：把左边内容与正确结果连起来",
+      "left": [
+        "边长3厘米正方形的周长",
+        "长5厘米宽2厘米长方形的面积",
+        "长6厘米宽3厘米长方形的周长",
+        "边长4厘米正方形的面积"
+      ],
+      "right": [
+        "18厘米",
+        "12厘米",
+        "16平方厘米",
+        "10平方厘米"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "分别使用正方形、长方形的周长或面积公式。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-133",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "数据表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康打卡：第133组数据表达练习：把左边内容与正确结果连起来",
+      "left": [
+        "一班8票、二班12票",
+        "晴天9天、雨天4天",
+        "篮球15人、足球11人",
+        "红花7朵、黄花7朵"
+      ],
+      "right": [
+        "篮球多4人",
+        "二班多4票",
+        "两种一样多",
+        "晴天多5天"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "读取每组数据并比较相差数量。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-134",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "两步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "健康打卡：第134组两步问题练习：把左边内容与正确结果连起来",
+      "left": [
+        "20-6+3",
+        "5×4-2",
+        "36÷4+5",
+        "8+7×2"
+      ],
+      "right": [
+        "14",
+        "17",
+        "22",
+        "18"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "按先乘除后加减的顺序计算两步算式。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-135",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "规律发现",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "健康打卡：第135组规律发现练习：把左边内容与正确结果连起来",
+      "left": [
+        "2,4,6,8",
+        "3,6,9,12",
+        "20,18,16,14",
+        "1,2,4,8"
+      ],
+      "right": [
+        "下一个是12",
+        "下一个是10",
+        "下一个是16",
+        "下一个是15"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "分别寻找加2、加3、减2和乘2的规律。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-136",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "较大数认识",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "研学计划：第136组较大数认识练习：把左边内容与正确结果连起来",
+      "left": [
+        "3个千和2个百",
+        "5个百和8个一",
+        "7个千和4个十",
+        "9个百和6个十"
+      ],
+      "right": [
+        "7040",
+        "3200",
+        "960",
+        "508"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据千位、百位、十位和个位表示的数值组成各数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-137",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "乘法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "研学计划：第137组乘法练习：把左边内容与正确结果连起来",
+      "left": [
+        "12×2",
+        "13×2",
+        "14×2",
+        "15×2"
+      ],
+      "right": [
+        "28",
+        "24",
+        "30",
+        "26"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐个计算乘法算式的积。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-138",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "除法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "研学计划：第138组除法练习：把左边内容与正确结果连起来",
+      "left": [
+        "18÷3",
+        "21÷3",
+        "24÷3",
+        "27÷3"
+      ],
+      "right": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据乘除法关系计算每个商。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-139",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "分数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "研学计划：第139组分数初步练习：把左边内容与正确结果连起来",
+      "left": [
+        "平均分2份取1份",
+        "平均分3份取1份",
+        "平均分4份取3份",
+        "平均分5份取2份"
+      ],
+      "right": [
+        "3/4",
+        "1/2",
+        "2/5",
+        "1/3"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "分母表示平均分的份数，分子表示取的份数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g3-math-authored-140",
+    "subject": "math",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "质量与时间",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "情境应用"
+    ],
+    "content": {
+      "stem": "研学计划：第140组质量与时间练习：把左边内容与正确结果连起来",
+      "left": [
+        "2千克",
+        "3000克",
+        "1小时",
+        "90分钟"
+      ],
+      "right": [
+        "60分钟",
+        "2000克",
+        "1小时30分",
+        "3千克"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "1千克=1000克，1小时=60分钟。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
