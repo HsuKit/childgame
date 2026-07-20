@@ -1,0 +1,23 @@
+{
+  "name": "grade6-phase1",
+  "expectedApproved": 420,
+  "files": [
+    "grade6-chinese.json",
+    "grade6-math.json",
+    "grade6-english.json"
+  ],
+  "groups": [
+    {
+      "grade": 6,
+      "subject": "chinese"
+    },
+    {
+      "grade": 6,
+      "subject": "math"
+    },
+    {
+      "grade": 6,
+      "subject": "english"
+    }
+  ]
+}

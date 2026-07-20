@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -48,7 +48,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“设置休息区要兼顾使用需求、树木保护和无障碍通行”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -74,7 +74,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“设置休息区要兼顾使用需求、树木保护和无障碍通行”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -100,7 +100,7 @@
       "answer": 3,
       "explanation": "“七成同学的需求和园艺老师提出的两项限制”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -126,7 +126,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：建议有调查依据，但具体位置仍需现场测量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -178,7 +178,7 @@
       "answer": 2,
       "explanation": "“建议书应呈现调查数据、位置方案和安全说明”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -204,7 +204,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“公共事务中兼顾他人和环境”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -230,7 +230,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -256,7 +256,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“古桥利用要在安全、历史真实性和参观需求之间取得平衡”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -282,7 +282,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“古桥利用要在安全、历史真实性和参观需求之间取得平衡”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -308,7 +308,7 @@
       "answer": 3,
       "explanation": "“修缮原则与游客对照明的两方面意见”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +334,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：增加照明有需求基础，亮度和位置仍需论证。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -360,7 +360,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -386,7 +386,7 @@
       "answer": 2,
       "explanation": "“讲解方案需区分原有构件、修补部分和新增设施”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -412,7 +412,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“尊重历史遗存并审慎更新”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -438,7 +438,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -464,7 +464,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“纸桥承重与结构有关，制作一致性也会影响实验结果”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -490,7 +490,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“纸桥承重与结构有关，制作一致性也会影响实验结果”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -516,7 +516,7 @@
       "answer": 3,
       "explanation": "“控制纸张和硬币相同以及A桥两次结果差异”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -542,7 +542,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：一次最高记录不能单独证明A结构始终最好。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -568,7 +568,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -594,7 +594,7 @@
       "answer": 2,
       "explanation": "“实验报告要写清变量、重复次数和异常情况”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -620,7 +620,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“重视实践并尊重证据”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -646,7 +646,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -672,7 +672,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“图书分类既要提高查找效率，也要符合不同读者的理解能力”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“图书分类既要提高查找效率，也要符合不同读者的理解能力”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -724,7 +724,7 @@
       "answer": 3,
       "explanation": "“借阅布局调整和低年级儿童仍放错书的观察”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -750,7 +750,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：颜色标签有效但不足，还可增加图形或示例。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +776,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -802,7 +802,7 @@
       "answer": 2,
       "explanation": "“分类指南应配合文字、颜色、图形和示例”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -828,7 +828,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“为不同年龄读者提供体贴服务”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -854,7 +854,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -880,7 +880,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“观察方法不同会影响数据，比较前要检查条件是否一致”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -906,7 +906,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“观察方法不同会影响数据，比较前要检查条件是否一致”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -932,7 +932,7 @@
       "answer": 3,
       "explanation": "“固定观察与改变路线、主动吸引两种方法的差别”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -958,7 +958,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：两组数量不能直接比较，需统一方法后再观察。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -984,7 +984,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1010,7 +1010,7 @@
       "answer": 2,
       "explanation": "“观察手册应明确地点、时段、距离和记录办法”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1036,7 +1036,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“遵守规则并减少对自然的干扰”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1062,7 +1062,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1088,7 +1088,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“小份取餐能减少浪费，但还要改善添饭流程”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1114,7 +1114,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“小份取餐能减少浪费，但还要改善添饭流程”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1140,7 +1140,7 @@
       "answer": 3,
       "explanation": "“剩饭数据下降和同学关于排队时间的访谈”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1166,7 +1166,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：措施初见效果，不能忽略便利性对行为的影响。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1192,7 +1192,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1218,7 +1218,7 @@
       "answer": 2,
       "explanation": "“改进方案应同时说明节约效果和排队优化办法”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1244,7 +1244,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“珍惜粮食并用实际制度减少浪费”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1270,7 +1270,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1296,7 +1296,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“校车方案要权衡覆盖范围、通勤时间和不同群体需求”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1322,7 +1322,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“校车方案要权衡覆盖范围、通勤时间和不同群体需求”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       "answer": 3,
       "explanation": "“两条线路的特点以及两个群体的不同关注点”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1374,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：不能只凭平均用时决定线路优劣。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1426,7 +1426,7 @@
       "answer": 2,
       "explanation": "“路线比较表应列出站点、用时、服务人数和风险”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1452,7 +1452,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“公共决策尊重多方需求”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1478,7 +1478,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1504,7 +1504,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1530,7 +1530,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“传统工艺传播可以降低体验门槛，但不能歪曲关键技艺”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1556,7 +1556,7 @@
       "answer": 3,
       "explanation": "“工序介绍和传承人对套印核心要求的说明”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1582,7 +1582,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：简化体验具有可行性，讲解必须保留技艺原理。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1608,7 +1608,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1634,7 +1634,7 @@
       "answer": 2,
       "explanation": "“体验说明要标明简化步骤与正式工艺的区别”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1660,7 +1660,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“尊重技艺核心并探索恰当传播”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1686,7 +1686,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1712,7 +1712,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“夜间照明要同时考虑人的安全活动和湿地生物影响”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1738,7 +1738,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“夜间照明要同时考虑人的安全活动和湿地生物影响”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1764,7 +1764,7 @@
       "answer": 3,
       "explanation": "“慢跑人数变化与强光附近飞虫聚集的观察”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1790,7 +1790,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：主路增亮有积极作用，但湿地区域应采用更谨慎方案。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1816,7 +1816,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1842,7 +1842,7 @@
       "answer": 2,
       "explanation": "“改造说明应分区域提出亮度、时间和遮光措施”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1868,7 +1868,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“在改善生活时保护其他生命”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1894,7 +1894,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1920,7 +1920,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“评价义卖项目应综合收入、成本、环保和财务规范”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1946,7 +1946,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“评价义卖项目应综合收入、成本、环保和财务规范”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1972,7 +1972,7 @@
       "answer": 3,
       "explanation": "“高销售额可能伴随高成本以及低收入组的环保与规范表现”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1998,7 +1998,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：单用销售额排名不能全面反映项目质量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2050,7 +2050,7 @@
       "answer": 2,
       "explanation": "“成果报告要区分销售额、成本、结余和社会价值”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2076,7 +2076,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“诚信记账并节约使用资源”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2128,7 +2128,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“现有数据提示气温差异，但不足以直接判断长期变化”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2154,7 +2154,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“现有数据提示气温差异，但不足以直接判断长期变化”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "answer": 3,
       "explanation": "“平均气温差异与日期、测量时间不一致的限制”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2206,7 +2206,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：结论需要补齐数据并统一测量条件后再检验。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2232,7 +2232,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2258,7 +2258,7 @@
       "answer": 2,
       "explanation": "“数据简报要同时呈现发现、方法和局限”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2284,7 +2284,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“实事求是，不夸大有限证据”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       "answer": 0,
       "explanation": "完整论述需要把观点、证据及二者关系说清楚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2336,7 +2336,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2362,7 +2362,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“数字讲解能扩展信息，但设计要兼顾可访问性并引导观察实物”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2388,7 +2388,7 @@
       "answer": 3,
       "explanation": "“数字内容的功能与两类观众遇到的问题”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2414,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：不能用数字资源完全代替清晰展签和现场观察。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2440,7 +2440,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2466,7 +2466,7 @@
       "answer": 2,
       "explanation": "“展签改版要测试字体、操作步骤和实物观察提示”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2492,7 +2492,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“让文化服务对不同群体更友好”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2518,7 +2518,7 @@
       "answer": 0,
       "explanation": "严谨表达既说明证据，也承认范围和继续验证的必要。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2544,7 +2544,7 @@
       "answer": 1,
       "explanation": "两则材料从不同角度共同指向“纪念作品既要有表达感染力，也必须尊重事实和版权”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2570,7 +2570,7 @@
       "answer": 2,
       "explanation": "整合结果同时保留两则材料的重点，并揭示“纪念作品既要有表达感染力，也必须尊重事实和版权”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2596,7 +2596,7 @@
       "answer": 3,
       "explanation": "“征稿要求与稿件中经历、图片来源的问题”分别来自两则材料，能够共同支持观点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2622,7 +2622,7 @@
       "answer": 0,
       "explanation": "评价既承认已有信息，也注意到证据限制：文字优美不能弥补事实失真和来源不明。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2648,7 +2648,7 @@
       "answer": 1,
       "explanation": "这一理解能把名句含义与材料的做法或价值建立合理联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "answer": 2,
       "explanation": "“编辑规范应包括事实核对、授权确认和修改流程”能让读者理解依据并实际使用。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2700,7 +2700,7 @@
       "answer": 3,
       "explanation": "材料中的选择和权衡体现了“珍视共同记忆并坚持诚信表达”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2726,7 +2726,7 @@
       "answer": 0,
       "explanation": "严谨表达既说明证据，也承认范围和继续验证的必要。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2746,7 +2746,7 @@
       "answer": "还",
       "explanation": "结合六年级综合语文知识，填“还”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2766,7 +2766,7 @@
       "answer": "角度",
       "explanation": "结合六年级综合语文知识，填“角度”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2786,7 +2786,7 @@
       "answer": "联系",
       "explanation": "结合六年级综合语文知识，填“联系”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2806,7 +2806,7 @@
       "answer": "证据",
       "explanation": "结合六年级综合语文知识，填“证据”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2826,7 +2826,7 @@
       "answer": "范围",
       "explanation": "结合六年级综合语文知识，填“范围”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2846,7 +2846,7 @@
       "answer": "联系",
       "explanation": "结合六年级综合语文知识，填“联系”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2866,7 +2866,7 @@
       "answer": "场景",
       "explanation": "结合六年级综合语文知识，填“场景”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2886,7 @@
       "answer": "创新",
       "explanation": "结合六年级综合语文知识，填“创新”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2906,7 +2906,7 @@
       "answer": "但是",
       "explanation": "结合六年级综合语文知识，填“但是”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2926,7 +2926,7 @@
       "answer": "对比",
       "explanation": "结合六年级综合语文知识，填“对比”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "answer": "整理",
       "explanation": "结合六年级综合语文知识，填“整理”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2966,7 +2966,7 @@
       "answer": "多",
       "explanation": "结合六年级综合语文知识，填“多”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2986,7 @@
       "answer": "可信",
       "explanation": "结合六年级综合语文知识，填“可信”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3006,7 +3006,7 @@
       "answer": "实践",
       "explanation": "结合六年级综合语文知识，填“实践”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3026,7 +3026,7 @@
       "answer": "事项",
       "explanation": "结合六年级综合语文知识，填“事项”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       "answer": "信息",
       "explanation": "结合六年级综合语文知识，填“信息”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3066,7 +3066,7 @@
       "answer": "简洁",
       "explanation": "结合六年级综合语文知识，填“简洁”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3086,7 +3086,7 @@
       "answer": "条件",
       "explanation": "结合六年级综合语文知识，填“条件”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3106,7 @@
       "answer": "概括",
       "explanation": "结合六年级综合语文知识，填“概括”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3126,7 +3126,7 @@
       "answer": "风险",
       "explanation": "结合六年级综合语文知识，填“风险”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "反馈",
       "explanation": "结合六年级综合语文知识，填“反馈”能使表达准确完整。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3195,7 +3195,7 @@
       ],
       "explanation": "根据语言综合运用的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3244,7 +3244,7 @@
       ],
       "explanation": "根据多文本阅读的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3293,7 +3293,7 @@
       ],
       "explanation": "根据信息整合的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3342,7 +3342,7 @@
       ],
       "explanation": "根据观点与证据的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3391,7 +3391,7 @@
       ],
       "explanation": "根据概括评价的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3440,7 +3440,7 @@
       ],
       "explanation": "根据古诗文语境的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3489,7 +3489,7 @@
       ],
       "explanation": "根据真实任务表达的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3538,7 +3538,7 @@
       ],
       "explanation": "根据传统文化的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3587,7 +3587,7 @@
       ],
       "explanation": "根据语言综合运用的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3636,7 +3636,7 @@
       ],
       "explanation": "根据多文本阅读的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3685,7 +3685,7 @@
       ],
       "explanation": "根据信息整合的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3734,7 +3734,7 @@
       ],
       "explanation": "根据观点与证据的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3783,7 +3783,7 @@
       ],
       "explanation": "根据概括评价的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3832,7 +3832,7 @@
       ],
       "explanation": "根据古诗文语境的含义、证据关系和使用场景逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]
