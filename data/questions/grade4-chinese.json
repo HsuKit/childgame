@@ -1,22 +1,3838 @@
 [
-  {"stem":"\"胸有成竹\"的意思是？","options":["心里有竹子","很有信心","很害怕","很生气"],"answer":1},
-  {"stem":"下列哪个句子用了拟人？","options":["太阳升起来了","小鸟在枝头唱歌","天上有很多星星","河水向东流"],"answer":1},
-  {"stem":"\"读书破万卷，下笔如有__\"","options":["神","仙","灵","魂"],"answer":0},
-  {"stem":"\"谦虚使人进步\"的下一句？","options":["骄傲使人落后","学习使人进步","努力使人成功","坚持就是胜利"],"answer":0},
-  {"stem":"《望庐山瀑布》的作者是？","options":["杜甫","李白","白居易","王维"],"answer":1},
-  {"stem":"下面哪个成语来自历史故事？","options":["鸟语花香","守株待兔","完璧归赵","风和日丽"],"answer":2,"explanation":"完璧归赵出自《史记》"},
-  {"stem":"\"一日不见，如隔三秋\"用了什么修辞？","options":["比喻","拟人","夸张","排比"],"answer":2},
-  {"stem":"下面哪个词是\"危险\"的近义词？","options":["安全","平安","凶险","稳定"],"answer":2},
-  {"stem":"\"窗含西岭千秋雪\"的下一句？","options":["门泊东吴万里船","日照香炉生紫烟","一行白鹭上青天","夜半钟声到客船"],"answer":0},
-  {"stem":"下面哪个不是唐代诗人？","options":["李白","杜甫","苏轼","白居易"],"answer":2,"explanation":"苏轼是宋代诗人"},
-  {"stem":"\"他长得像他爸爸\"用了什么词？","options":["好像","似乎","相似","一样"],"answer":0},
-  {"stem":"\"欲穷千里目\"的下一句是？","options":["更上一层楼","春风吹又生","处处闻啼鸟","恐惊天上人"],"answer":0},
-  {"stem":"下面哪个词是褒义的？","options":["阴险","勇敢","狡猾","懒惰"],"answer":1},
-  {"stem":"\"举世闻名\"的反义词是？","options":["默默无闻","名扬四海","大名鼎鼎","如雷贯耳"],"answer":0},
-  {"stem":"\"他急得像热锅上的蚂蚁\"用了什么修辞？","options":["比喻","拟人","夸张","排比"],"answer":0},
-  {"stem":"《西游记》的作者是？","options":["罗贯中","吴承恩","施耐庵","曹雪芹"],"answer":1},
-  {"stem":"\"宝剑锋从磨砺出\"的下一句是？","options":["梅花香自苦寒来","一寸光阴一寸金","少壮不努力","老大徒伤悲"],"answer":0},
-  {"stem":"下面哪个是\"美\"的反义词？","options":["好","丑","善","真"],"answer":1},
-  {"stem":"\"三人行，必有我师\"出自哪本书？","options":["《孟子》","《论语》","《大学》","《中庸》"],"answer":1},
-  {"stem":"哪个字是\"本\"字加一笔？","options":["未","末","来","以上都是"],"answer":3}
+  {
+    "id": "g4-chinese-authored-001",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___今天下雨，运动会___改到体育馆举行。",
+      "options": [
+        "因为……所以……",
+        "虽然……但是……",
+        "如果……就……",
+        "不但……而且……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“因为……所以……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-002",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先写问题，再写解决办法和结果",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先写问题，再写解决办法和结果”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-003",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "值日生及时处理积水保障安全",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“值日生及时处理积水保障安全”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-004",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”哪项信息最能支持“值日生及时处理积水保障安全”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "扫水并立起提示牌"
+      ],
+      "answer": 3,
+      "explanation": "“扫水并立起提示牌”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-005",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”可以合理推断什么？",
+      "options": [
+        "值日生做事细心负责",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“值日生做事细心负责”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-006",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "按事情发展顺序写清处理积水的过程",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文按事情发展顺序写清处理积水的过程。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-007",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“雨停后，操场上还有积水。值日生先用扫帚把水推向排水口，又立起“小心地滑”的提示牌。很快，通道恢复了安全。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "积水会使通道湿滑",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“积水会使通道湿滑”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-008",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“一道残阳铺水中，半江瑟瑟半江红”描写的时间最可能是？",
+      "options": [
+        "清晨",
+        "正午",
+        "深夜",
+        "傍晚"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“傍晚”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-009",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___路程很远，队员们___按时到达了。",
+      "options": [
+        "虽然……但是……",
+        "因为……所以……",
+        "只要……就……",
+        "一边……一边……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“虽然……但是……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-010",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先写原来的问题，再写改进和变化",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先写原来的问题，再写改进和变化”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-011",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "增加回收箱改善了旧衣回收",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“增加回收箱改善了旧衣回收”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-012",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”哪项信息最能支持“增加回收箱改善了旧衣回收”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "增加两只并标明投放要求"
+      ],
+      "answer": 3,
+      "explanation": "“增加两只并标明投放要求”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-013",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”可以合理推断什么？",
+      "options": [
+        "居民建议得到了重视",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“居民建议得到了重视”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-014",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "通过前后变化表现改进效果",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文通过前后变化表现改进效果。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-015",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“小区原来只有一只旧衣回收箱，常常装满。居民提出建议后，物业增加了两只，并标明投放要求。如今旧衣分类更方便了。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "清楚的投放要求有助于分类",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“清楚的投放要求有助于分类”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-016",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“不识庐山真面目，只缘身在此山中”中的“缘”意思是？",
+      "options": [
+        "缘分",
+        "沿着",
+        "边缘",
+        "因为"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“因为”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-017",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___认真观察，___能发现植物每天的变化。",
+      "options": [
+        "只要……就……",
+        "即使……也……",
+        "因为……所以……",
+        "不是……而是……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“只要……就……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-018",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先写观察过程，再写发现及原因",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先写观察过程，再写发现及原因”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-019",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "连续观察帮助发现绿豆生长差异的原因",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“连续观察帮助发现绿豆生长差异的原因”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-020",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”哪项信息最能支持“连续观察帮助发现绿豆生长差异的原因”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "每天同一时间测量并记录"
+      ],
+      "answer": 3,
+      "explanation": "“每天同一时间测量并记录”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-021",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”可以合理推断什么？",
+      "options": [
+        "阳光可能影响绿豆生长",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“阳光可能影响绿豆生长”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-022",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "用具体时间和发现推进事件",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文用具体时间和发现推进事件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-023",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“为了观察绿豆发芽，小语每天早上七点测量并记录。第五天，她发现有一盆长得慢，检查后发现这盆得到的阳光较少。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "对比记录能帮助寻找原因",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“对比记录能帮助寻找原因”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-024",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“梅须逊雪三分白，雪却输梅一段香”主要写梅和雪？",
+      "options": [
+        "完全相同",
+        "都没有优点",
+        "只比较大小",
+        "各有长处"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“各有长处”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-025",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "小林___会画画，___会制作手工作品。",
+      "options": [
+        "不但……而且……",
+        "如果……就……",
+        "虽然……但是……",
+        "因为……所以……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“不但……而且……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-026",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先写整理方法，再写使用效果",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先写整理方法，再写使用效果”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-027",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "分类和编号让找书更高效",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“分类和编号让找书更高效”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-028",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”哪项信息最能支持“分类和编号让找书更高效”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "按类别摆放并贴编号"
+      ],
+      "answer": 3,
+      "explanation": "“按类别摆放并贴编号”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-029",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”可以合理推断什么？",
+      "options": [
+        "清楚的规则能节省查找时间",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“清楚的规则能节省查找时间”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-030",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "围绕整理前后的使用过程叙述",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文围绕整理前后的使用过程叙述。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-031",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“图书管理员把书按类别摆放，又在书架侧面贴上编号。读者先看分类标牌，再按编号寻找，很快就能找到需要的书。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "分类标牌和编号具有索引作用",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“分类标牌和编号具有索引作用”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-032",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“可怜九月初三夜，露似真珠月似弓”用了什么修辞？",
+      "options": [
+        "排比",
+        "反问",
+        "夸张",
+        "比喻"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“比喻”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-033",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___明天不下雨，我们___去公园调查昆虫。",
+      "options": [
+        "如果……就……",
+        "不但……而且……",
+        "因为……所以……",
+        "一边……一边……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“如果……就……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-034",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "按先后顺序写应对大风的行动",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“按先后顺序写应对大风的行动”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-035",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "小杰有条理地消除大风带来的隐患",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“小杰有条理地消除大风带来的隐患”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-036",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”哪项信息最能支持“小杰有条理地消除大风带来的隐患”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "关窗、搬花盆并检查门窗"
+      ],
+      "answer": 3,
+      "explanation": "“关窗、搬花盆并检查门窗”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-037",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”可以合理推断什么？",
+      "options": [
+        "遇到突发情况应先保证安全",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“遇到突发情况应先保证安全”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-038",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "用“先、再、最后”组织事件",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文用“先、再、最后”组织事件。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-039",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“午后突然刮起大风，阳台上的花盆摇晃起来。小杰先关好窗户，再把花盆搬到墙边，最后检查门窗是否牢固。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "大风可能使高处物品掉落",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“大风可能使高处物品掉落”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-040",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“横看成岭侧成峰，远近高低各不同”说明观察角度不同会怎样？",
+      "options": [
+        "改变山的高度",
+        "让山消失",
+        "使天气变化",
+        "看到不同景象"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“看到不同景象”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-041",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "妹妹___听音乐，___整理书架。",
+      "options": [
+        "一边……一边……",
+        "只要……就……",
+        "虽然……但是……",
+        "不是……而是……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“一边……一边……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-042",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先比较现象，再说明实验结论",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先比较现象，再说明实验结论”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-043",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "不同纸张的吸水性和湿强度不同",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“不同纸张的吸水性和湿强度不同”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-044",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”哪项信息最能支持“不同纸张的吸水性和湿强度不同”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "使用相同水量分别测试"
+      ],
+      "answer": 3,
+      "explanation": "“使用相同水量分别测试”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-045",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "根据短文：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”可以合理推断什么？",
+      "options": [
+        "选择擦水纸张还要考虑湿后强度",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“选择擦水纸张还要考虑湿后强度”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-046",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "按实验和结论的顺序记录",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文按实验和结论的顺序记录。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-047",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“一张普通纸巾吸水快，但湿后容易破；厨房纸稍厚，吸水后仍较结实。实验小组用相同水量测试，得出了这个结论。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "控制水量相同能使比较更公平",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“控制水量相同能使比较更公平”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-048",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“返景入深林，复照青苔上”描写的是哪种景象？",
+      "options": [
+        "大雨落入树林",
+        "月光照亮雪地",
+        "清晨浓雾散去",
+        "夕阳照进树林"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“夕阳照进树林”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-049",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "这本书___故事有趣，___插图也很精美。",
+      "options": [
+        "不仅……还……",
+        "因为……所以……",
+        "如果……就……",
+        "即使……也……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“不仅……还……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-050",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先列作用和现象，再得出结论",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先列作用和现象，再得出结论”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-051",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "合理增加绿地能改善城市环境",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“合理增加绿地能改善城市环境”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-052",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”哪项信息最能支持“合理增加绿地能改善城市环境”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "树木遮阴、吸尘并降低树荫地面温度"
+      ],
+      "answer": 3,
+      "explanation": "“树木遮阴、吸尘并降低树荫地面温度”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-053",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”可以合理推断什么？",
+      "options": [
+        "绿地规划应考虑居民活动区域",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“绿地规划应考虑居民活动区域”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-054",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "从现象过渡到建议",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文从现象过渡到建议。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-055",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“城市里的树木能遮阴，也能吸收一部分灰尘。夏天，树荫下的地面温度通常比阳光直射处低。因此，合理增加绿地有助于改善生活环境。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "树荫能减少阳光直射带来的升温",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“树荫能减少阳光直射带来的升温”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-056",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“莫愁前路无知己，天下谁人不识君”表达了怎样的情感？",
+      "options": [
+        "愤怒和责备",
+        "惊讶和害怕",
+        "骄傲和自满",
+        "鼓励和惜别"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“鼓励和惜别”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-057",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "___遇到难题，他___没有放弃。",
+      "options": [
+        "即使……也……",
+        "一边……一边……",
+        "因为……所以……",
+        "不但……而且……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“即使……也……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-058",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先否定误解，再说明事实",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先否定误解，再说明事实”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-059",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "候鸟利用多种线索有规律地迁徙",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“候鸟利用多种线索有规律地迁徙”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-060",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”哪项信息最能支持“候鸟利用多种线索有规律地迁徙”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "利用太阳、星星和地球磁场辨向"
+      ],
+      "answer": 3,
+      "explanation": "“利用太阳、星星和地球磁场辨向”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-061",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”可以合理推断什么？",
+      "options": [
+        "迁徙路线需要方向和补给条件",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“迁徙路线需要方向和补给条件”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-062",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "先提出观点再列举依据",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文先提出观点再列举依据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-063",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“候鸟迁徙并不是随意飞行。它们会利用太阳、星星和地球磁场辨别方向，还会在途中选择食物充足的地方休息。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "候鸟会选择食物充足处休息",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“候鸟会选择食物充足处休息”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-064",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“生当作人杰，死亦为鬼雄”表现了怎样的精神？",
+      "options": [
+        "胆小犹豫",
+        "悠闲自在",
+        "悲观退缩",
+        "豪迈坚定"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“豪迈坚定”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-065",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "我们要做的___抱怨困难，___想办法解决。",
+      "options": [
+        "不是……而是……",
+        "如果……就……",
+        "虽然……但是……",
+        "因为……所以……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“不是……而是……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-066",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先写困难，再写合作解决的过程",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先写困难，再写合作解决的过程”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-067",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "村民合作修好木桥",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“村民合作修好木桥”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-068",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”哪项信息最能支持“村民合作修好木桥”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "分工准备木料、施工和设置标志"
+      ],
+      "answer": 3,
+      "explanation": "“分工准备木料、施工和设置标志”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-069",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”可以合理推断什么？",
+      "options": [
+        "合理分工能提高办事效率",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“合理分工能提高办事效率”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-070",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "通过人物分工推动事情发展",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文通过人物分工推动事情发展。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-071",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小溪旁的木桥年久失修，村民过桥很不方便。大家共同商量方案，有人准备木料，有人负责施工，还有人设置临时绕行标志。新桥很快建好了。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "临时标志能保障施工期间通行安全",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“临时标志能保障施工期间通行安全”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-072",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“家家乞巧望秋月”与哪个传统节日有关？",
+      "options": [
+        "春节",
+        "端午",
+        "清明",
+        "七夕"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“七夕”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-073",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "___风很大，___风筝仍然飞得很稳。",
+      "options": [
+        "尽管……可是……",
+        "只要……就……",
+        "不是……而是……",
+        "因为……所以……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“尽管……可是……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-074",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先介绍设施，再分情况说明作用",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先介绍设施，再分情况说明作用”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-075",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "海绵城市设施能调节雨水、减轻排水压力",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“海绵城市设施能调节雨水、减轻排水压力”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-076",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”哪项信息最能支持“海绵城市设施能调节雨水、减轻排水压力”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "透水路面渗水、下凹绿地储水"
+      ],
+      "answer": 3,
+      "explanation": "“透水路面渗水、下凹绿地储水”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-077",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”可以合理推断什么？",
+      "options": [
+        "城市建设需同时考虑渗水和储水",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“城市建设需同时考虑渗水和储水”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-078",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "按雨量不同分情况说明",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文按雨量不同分情况说明。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-079",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“海绵城市会用透水路面、下凹绿地等设施吸收和储存雨水。雨量小时，水慢慢渗入地下；雨量大时，一部分水会被暂时储存，从而减轻排水压力。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "下凹绿地可暂时储存部分雨水",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“下凹绿地可暂时储存部分雨水”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-080",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“但使龙城飞将在，不教胡马度阴山”表达诗人什么愿望？",
+      "options": [
+        "游览山水",
+        "回乡种田",
+        "学习书法",
+        "保卫边疆"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“保卫边疆”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-081",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "___先查阅资料，___能让调查更有依据。",
+      "options": [
+        "只有……才……",
+        "虽然……但是……",
+        "不是……而是……",
+        "一边……一边……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“只有……才……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-082",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "通过两次表现对比说明改进",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“通过两次表现对比说明改进”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-083",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "调整讲解方式能提高表达效果",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“调整讲解方式能提高表达效果”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-084",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”哪项信息最能支持“调整讲解方式能提高表达效果”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "缩短文字、增加示意图并与听众交流"
+      ],
+      "answer": 3,
+      "explanation": "“缩短文字、增加示意图并与听众交流”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-085",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”可以合理推断什么？",
+      "options": [
+        "有效表达要关注听众是否理解",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“有效表达要关注听众是否理解”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-086",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "用前后对比突出人物进步",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文用前后对比突出人物进步。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-087",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“小林第一次讲解模型时，只顾低头读稿，听众听不清重点。第二次，他缩短文字、增加示意图，并抬头与听众交流，讲解效果明显提高。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "示意图能帮助呈现模型结构",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“示意图能帮助呈现模型结构”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-088",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“千里黄云白日曛，北风吹雁雪纷纷”描写怎样的天气？",
+      "options": [
+        "晴空万里",
+        "春雨绵绵",
+        "炎热无风",
+        "风雪交加"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“风雪交加”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-089",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "我们___要节约用水，___要提醒身边的人。",
+      "options": [
+        "既……又……",
+        "如果……就……",
+        "因为……所以……",
+        "即使……也……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“既……又……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-090",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "先分类举例，再概括共同作用",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“先分类举例，再概括共同作用”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-091",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "植物种子利用不同结构传播",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“植物种子利用不同结构传播”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-092",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”哪项信息最能支持“植物种子利用不同结构传播”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "小钩附着、轻种子随风、果实弹射"
+      ],
+      "answer": 3,
+      "explanation": "“小钩附着、轻种子随风、果实弹射”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-093",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”可以合理推断什么？",
+      "options": [
+        "种子结构与传播方式相适应",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“种子结构与传播方式相适应”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-094",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "并列列举三种传播现象",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文并列列举三种传播现象。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-095",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“有些植物的种子带着小钩，能挂在动物毛上旅行；有些种子很轻，能随风飘远；还有些果实成熟后会弹出种子。不同结构帮助种子传播到新的地方。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "带小钩的种子可借助动物传播",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“带小钩的种子可借助动物传播”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-096",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“醉卧沙场君莫笑，古来征战几人回”中的“沙场”指？",
+      "options": [
+        "沙滩",
+        "田野",
+        "集市",
+        "战场"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“战场”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-097",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "___实验失败了，大家___重新检查步骤。",
+      "options": [
+        "由于……因此……",
+        "不但……而且……",
+        "一边……一边……",
+        "虽然……但是……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“由于……因此……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-098",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "句段关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”这段话的句段关系是？",
+      "options": [
+        "按地点远近排列",
+        "从发现问题到调查、建议和验证",
+        "各句互不相关",
+        "只写结论不写依据"
+      ],
+      "answer": 1,
+      "explanation": "段落内容体现了“从发现问题到调查、建议和验证”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-099",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "中心意思",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”最恰当的中心意思是？",
+      "options": [
+        "只介绍天气和时间",
+        "重点描写人物外貌",
+        "用记录和对比验证节电建议",
+        "说明一种游戏规则"
+      ],
+      "answer": 2,
+      "explanation": "关键内容都围绕“用记录和对比验证节电建议”展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-100",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "证据定位",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”哪项信息最能支持“用记录和对比验证节电建议”？",
+      "options": [
+        "文中出现了几个标点",
+        "故事发生在某一天",
+        "段落使用了许多常用字",
+        "连续记录并比较实施前后用电量"
+      ],
+      "answer": 3,
+      "explanation": "“连续记录并比较实施前后用电量”是直接支持中心意思的具体证据。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-101",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "概括与推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "根据短文：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”可以合理推断什么？",
+      "options": [
+        "节能建议应有数据支持",
+        "所有问题都能自动解决",
+        "只要等待就一定成功",
+        "文中人物从不需要合作"
+      ],
+      "answer": 0,
+      "explanation": "结合文中的做法和结果，可以推断“节能建议应有数据支持”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-102",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "叙事文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”作者怎样把事情写清楚？",
+      "options": [
+        "只罗列无关词语",
+        "按研究步骤展开内容",
+        "不断重复同一句话",
+        "完全省略人物行动"
+      ],
+      "answer": 1,
+      "explanation": "短文按研究步骤展开内容。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-103",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "说明性文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读：“研究小组发现，教室开灯时间常比需要的长。他们连续一周记录光照和开灯情况，提出“靠窗区域光线充足时少开一组灯”的建议，并比较实施前后的用电量。”下列哪项知识能从文中得到？",
+      "options": [
+        "所有事物的特点都相同",
+        "任何结论都不需要证据",
+        "靠窗区域自然光通常更充足",
+        "观察和记录没有作用"
+      ],
+      "answer": 2,
+      "explanation": "短文明确说明或支持了“靠窗区域自然光通常更充足”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-104",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "古诗文初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“嫦娥应悔偷灵药，碧海青天夜夜心”涉及哪个神话人物？",
+      "options": [
+        "女娲",
+        "夸父",
+        "盘古",
+        "嫦娥"
+      ],
+      "answer": 3,
+      "explanation": "结合诗句中的关键词和画面，正确理解是“嫦娥”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-105",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "关联词",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "___证据充分，结论___更有说服力。",
+      "options": [
+        "只有……才……",
+        "即使……也……",
+        "不是……而是……",
+        "一边……一边……"
+      ],
+      "answer": 0,
+      "explanation": "前后分句的逻辑关系适合使用“只有……才……”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-106",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___天气寒冷，清洁工___按时清扫街道。（填转折关联词）",
+      "answer": "虽然……但是……",
+      "explanation": "结合四年级语言和阅读知识，填“虽然……但是……”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-107",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "段落先提出问题，再写解决办法，这属于“问题—___”关系。",
+      "answer": "解决",
+      "explanation": "结合四年级语言和阅读知识，填“解决”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-108",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "概括中心意思时，要抓住反复出现的重点内容，舍去___信息。",
+      "answer": "次要",
+      "explanation": "结合四年级语言和阅读知识，填“次要”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-109",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "支持观点的具体事实、数据或语句，可以称为___。",
+      "answer": "证据",
+      "explanation": "结合四年级语言和阅读知识，填“证据”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-110",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "推断必须以文章内容为依据，不能凭空___。",
+      "answer": "猜测",
+      "explanation": "结合四年级语言和阅读知识，填“猜测”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-111",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "叙事通常要写清人物、时间、地点和事情的起因、经过、___。",
+      "answer": "结果",
+      "explanation": "结合四年级语言和阅读知识，填“结果”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-112",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "列出具体数字来说明事物特点的方法叫列___。",
+      "answer": "数字",
+      "explanation": "结合四年级语言和阅读知识，填“数字”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-113",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "古诗文初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“不识庐山真面目，只缘身在此山中”中的“缘”是“___”的意思。",
+      "answer": "因为",
+      "explanation": "结合四年级语言和阅读知识，填“因为”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-114",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "___努力练习，___能熟练掌握这项技能。",
+      "answer": "只有……才……",
+      "explanation": "结合四年级语言和阅读知识，填“只有……才……”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-115",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“先总说特点，再分别举例”属于先总后___。",
+      "answer": "分",
+      "explanation": "结合四年级语言和阅读知识，填“分”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-116",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "文章的题目、开头、结尾和反复出现的词句常能提示___意思。",
+      "answer": "中心",
+      "explanation": "结合四年级语言和阅读知识，填“中心”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-117",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "寻找证据时，应回到原文定位相关的关键词和___。",
+      "answer": "句子",
+      "explanation": "结合四年级语言和阅读知识，填“句子”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-118",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "概括与推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "由“地面湿、行人撑伞”可以推断刚刚下过___。",
+      "answer": "雨",
+      "explanation": "结合四年级语言和阅读知识，填“雨”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-119",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "叙事文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "人物的语言、动作和心理能帮助表现人物___。",
+      "answer": "特点",
+      "explanation": "结合四年级语言和阅读知识，填“特点”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-120",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "说明性文本",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "把两种事物放在一起比较，可以突出它们的相同点和___点。",
+      "answer": "不同",
+      "explanation": "结合四年级语言和阅读知识，填“不同”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-121",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“梅须逊雪三分白”中的“逊”是“不如”的___。",
+      "answer": "意思",
+      "explanation": "结合四年级语言和阅读知识，填“意思”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-122",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“不仅……还……”表示前后内容是___关系。",
+      "answer": "递进",
+      "explanation": "结合四年级语言和阅读知识，填“递进”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-123",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "转折句前后意思发生变化，常用“但是、可是、___”连接。",
+      "answer": "却",
+      "explanation": "结合四年级语言和阅读知识，填“却”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-124",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "概括与推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合两处以上信息得出合理结论，也要说明推断的___。",
+      "answer": "依据",
+      "explanation": "结合四年级语言和阅读知识，填“依据”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-125",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "说明性文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "说明文中的例子要与被说明的___密切相关。",
+      "answer": "特点",
+      "explanation": "结合四年级语言和阅读知识，填“特点”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-126",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "古诗文初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "“纸上得来终觉浅”提醒我们还要重视亲身___。",
+      "answer": "实践",
+      "explanation": "结合四年级语言和阅读知识，填“实践”最恰当。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-127",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "关联词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把关联词内容与正确解释连起来",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "如果……就……",
+        "不但……而且……"
+      ],
+      "right": [
+        "假设",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据关联词的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-128",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "句段关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把句段关系内容与正确解释连起来",
+      "left": [
+        "总—分",
+        "问题—解决",
+        "原因—结果",
+        "现象—结论"
+      ],
+      "right": [
+        "先说明缘由再写结果",
+        "先概括再展开",
+        "先观察再概括",
+        "先提困难再写办法"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据句段关系的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-129",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "中心意思",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把中心意思内容与正确解释连起来",
+      "left": [
+        "植树",
+        "阅读",
+        "运动",
+        "垃圾分类"
+      ],
+      "right": [
+        "增强体质",
+        "改善环境",
+        "方便回收",
+        "增长知识"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据中心意思的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-130",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "证据定位",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把证据定位内容与正确解释连起来",
+      "left": [
+        "观点",
+        "事实",
+        "数据",
+        "例子"
+      ],
+      "right": [
+        "具体数量",
+        "要说明的看法",
+        "具体事例",
+        "真实发生的情况"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据证据定位的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-131",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "概括与推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把概括与推断内容与正确解释连起来",
+      "left": [
+        "乌云密布",
+        "树叶摇动",
+        "地面结冰",
+        "灯光熄灭"
+      ],
+      "right": [
+        "气温较低",
+        "可能下雨",
+        "可能停电或关灯",
+        "可能有风"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据概括与推断的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-132",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "叙事文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把叙事文本内容与正确解释连起来",
+      "left": [
+        "语言",
+        "动作",
+        "心理",
+        "外貌"
+      ],
+      "right": [
+        "心里怎样想",
+        "说了什么",
+        "长什么样",
+        "做了什么"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据叙事文本的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-133",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "说明性文本",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把说明性文本内容与正确解释连起来",
+      "left": [
+        "列数字",
+        "作比较",
+        "举例子",
+        "分类别"
+      ],
+      "right": [
+        "列举实例",
+        "用数量说明",
+        "分成类别",
+        "比较异同"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据说明性文本的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-134",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "古诗文初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "阅读方法整理：把古诗文初步内容与正确解释连起来",
+      "left": [
+        "缘",
+        "逊",
+        "沙场",
+        "躬行"
+      ],
+      "right": [
+        "战场",
+        "因为",
+        "亲自实践",
+        "不如"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据古诗文初步的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-135",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "关联词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把关联词内容与正确解释连起来",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "如果……就……",
+        "不但……而且……"
+      ],
+      "right": [
+        "假设",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据关联词的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-136",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "句段关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把句段关系内容与正确解释连起来",
+      "left": [
+        "总—分",
+        "问题—解决",
+        "原因—结果",
+        "现象—结论"
+      ],
+      "right": [
+        "先说明缘由再写结果",
+        "先概括再展开",
+        "先观察再概括",
+        "先提困难再写办法"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据句段关系的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-137",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "中心意思",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把中心意思内容与正确解释连起来",
+      "left": [
+        "植树",
+        "阅读",
+        "运动",
+        "垃圾分类"
+      ],
+      "right": [
+        "增强体质",
+        "改善环境",
+        "方便回收",
+        "增长知识"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据中心意思的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-138",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "证据定位",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把证据定位内容与正确解释连起来",
+      "left": [
+        "观点",
+        "事实",
+        "数据",
+        "例子"
+      ],
+      "right": [
+        "具体数量",
+        "要说明的看法",
+        "具体事例",
+        "真实发生的情况"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据证据定位的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-139",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "概括与推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把概括与推断内容与正确解释连起来",
+      "left": [
+        "乌云密布",
+        "树叶摇动",
+        "地面结冰",
+        "灯光熄灭"
+      ],
+      "right": [
+        "气温较低",
+        "可能下雨",
+        "可能停电或关灯",
+        "可能有风"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据概括与推断的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-chinese-authored-140",
+    "subject": "chinese",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "叙事文本",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "信息整合"
+    ],
+    "content": {
+      "stem": "综合阅读实践：把叙事文本内容与正确解释连起来",
+      "left": [
+        "语言",
+        "动作",
+        "心理",
+        "外貌"
+      ],
+      "right": [
+        "心里怎样想",
+        "说了什么",
+        "长什么样",
+        "做了什么"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据叙事文本的含义和文章阅读方法逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
