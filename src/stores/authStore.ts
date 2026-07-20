@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
+import { getErrorMessage } from '../lib/errorMessage'
 import type { Database } from '../lib/database.types'
 
 type Profile = Database['public']['Tables']['profiles']['Row']
@@ -9,6 +10,7 @@ interface AuthState {
   profile: Profile | null
   isLoading: boolean
   isNewUser: boolean
+  authError: string | null
   initAuth: () => Promise<void>
   signInAnonymously: () => Promise<void>
   bindPhone: (phone: string) => Promise<void>
@@ -23,19 +25,35 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   profile: null,
   isLoading: true,
   isNewUser: false,
+  authError: null,
 
   initAuth: async () => {
-    set({ isLoading: true })
-    const { data: { session } } = await supabase.auth.getSession()
-    if (session?.user) {
-      set({ user: { id: session.user.id, isAnonymous: session.user.is_anonymous ?? false } })
-      const { data: profile } = await supabase.from('profiles').select('*').eq('id', session.user.id).single()
-      if (profile) {
-        set({ profile, isNewUser: false, isLoading: false })
-      } else {
-        set({ isNewUser: true, isLoading: false })
+    set({ isLoading: true, authError: null })
+    try {
+      const { data: sessionData, error: sessionError } = await supabase.auth.getSession()
+      if (sessionError) throw sessionError
+
+      let authUser = sessionData.session?.user
+      if (!authUser) {
+        const { data, error } = await supabase.auth.signInAnonymously()
+        if (error) throw error
+        if (!data.user) throw new Error('Anonymous sign-in returned no user')
+        authUser = data.user
       }
-    } else {
+
+      const user = { id: authUser.id, isAnonymous: authUser.is_anonymous ?? false }
+      const { data: profile, error: profileError } = await supabase.from('profiles').select('*').eq('id', authUser.id).maybeSingle()
+      if (profileError) throw profileError
+      set({ user, profile, isNewUser: !profile, authError: null })
+    } catch (error) {
+      console.error('Authentication bootstrap failed:', error)
+      set({
+        user: null,
+        profile: null,
+        isNewUser: false,
+        authError: getErrorMessage(error, '登录服务暂时不可用，请稍后重试'),
+      })
+    } finally {
       set({ isLoading: false })
     }
   },
@@ -43,7 +61,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   signInAnonymously: async () => {
     const { data, error } = await supabase.auth.signInAnonymously()
     if (error) throw error
-    if (data.user) set({ user: { id: data.user.id, isAnonymous: true }, isNewUser: true })
+    if (data.user) set({ user: { id: data.user.id, isAnonymous: true }, isNewUser: true, authError: null })
   },
 
   createProfile: async (nickname: string, grade: number) => {
@@ -51,8 +69,9 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     if (!user) throw new Error('Not authenticated')
     const { error } = await supabase.from('profiles').insert({ id: user.id, nickname, grade })
     if (error) throw error
-    const { data: profile } = await supabase.from('profiles').select('*').eq('id', user.id).single()
-    set({ profile, isNewUser: false })
+    const { data: profile, error: profileError } = await supabase.from('profiles').select('*').eq('id', user.id).single()
+    if (profileError) throw profileError
+    set({ profile, isNewUser: false, authError: null })
   },
 
   bindPhone: async (phone: string) => {
@@ -75,6 +94,6 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 
   signOut: async () => {
     await supabase.auth.signOut()
-    set({ user: null, profile: null, isNewUser: false })
+    set({ user: null, profile: null, isNewUser: false, authError: null })
   },
 }))

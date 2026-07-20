@@ -39,15 +39,21 @@ export const useCompanionStore = create<CompanionState>((set, get) => ({
 
   fetchCompanion: async () => {
     set({ isLoading: true })
-    const userId = useAuthStore.getState().user?.id
-    if (!userId) return set({ isLoading: false })
-    const { data } = await supabase.from('companions').select('*').eq('user_id', userId).order('created_at', { ascending: false }).limit(1).maybeSingle()
-    set({ companion: data, isLoading: false })
+    try {
+      const userId = useAuthStore.getState().user?.id
+      if (!userId) return
+      const { data, error } = await supabase.from('companions').select('*').eq('user_id', userId).order('created_at', { ascending: false }).limit(1).maybeSingle()
+      if (error) throw error
+      set({ companion: data })
+    } finally {
+      set({ isLoading: false })
+    }
   },
 
   createCompanion: async (type: string, name: string) => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) throw new Error('Not authenticated')
+    if (!COMPANION_TYPES.some(companionType => companionType.id === type)) throw new Error('Invalid companion type')
     // Check if already has one — update instead of creating duplicate
     const existing = get().companion
     if (existing) {
