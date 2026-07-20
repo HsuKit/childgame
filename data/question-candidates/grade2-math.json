@@ -55,10 +55,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一支铅笔5角，买3支需要多少钱？",
@@ -80,10 +80,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下列哪个是角？",
@@ -330,10 +330,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下列图形中，哪个不是四边形？",
@@ -560,10 +560,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "比直角小的角叫什么角？",
@@ -1040,10 +1040,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "黑板的面是什么形状？",
@@ -1190,10 +1190,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "reason",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个正方形剪去一个角，还剩几个角？",
@@ -1495,10 +1495,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "长度与测量",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "测量"
     ],
     "content": {
       "stem": "下面哪个角是直角？",
@@ -1745,10 +1745,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下面图形中，有4个直角的是？",
@@ -2023,10 +2023,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个角有几个顶点？",
@@ -2123,10 +2123,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "reason",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "一束花8元，妈妈买了3束，付了30元，找回多少钱？",
@@ -2526,10 +2526,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "一个笔记本6元，买5本多少钱？",
@@ -2551,10 +2551,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下面哪个是钝角？",
@@ -2751,10 +2751,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个正方形剪去一个角，变成什么形？",
@@ -3079,10 +3079,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一条红领巾上有几个角？",
@@ -3329,10 +3329,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下面哪个是锐角？",
@@ -3484,10 +3484,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "left": [
@@ -3582,10 +3582,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "一张电影票8元，爸爸买了3张，一共多少钱？",
@@ -3607,10 +3607,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "长度与测量",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "测量"
     ],
     "content": {
       "stem": "一个三角尺上有几个锐角？",
@@ -3757,10 +3757,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一支铅笔9角，一块橡皮5角，一共多少钱？",
@@ -4160,10 +4160,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下面哪个不是角？",
@@ -4638,10 +4638,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "一辆玩具车9元，买4辆需要多少钱？",
@@ -4663,10 +4663,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个长方形有几条边？几个角？",
@@ -4838,10 +4838,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个角的大小与什么有关？",
@@ -5043,10 +5043,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "left": [
@@ -5416,10 +5416,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个西瓜8元，爸爸付了50元，买了3个，应找回多少钱？",
@@ -5644,10 +5644,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "每盒蜡笔8元，妈妈给售货员50元买5盒，应找回多少钱？",
@@ -5669,10 +5669,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "长度与测量",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "测量"
     ],
     "content": {
       "stem": "下面哪个是锐角？",
@@ -5919,10 +5919,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一支铅笔5角，一个橡皮3角，买这两样用多少钱？",
@@ -6007,10 +6007,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "一个正方形___条边相等，有___个直角。",
@@ -6197,10 +6197,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下列哪个物体的表面有直角？",
@@ -6700,10 +6700,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "表内乘法",
     "skill": "apply",
     "tags": [
-      "生活计量"
+      "数量关系"
     ],
     "content": {
       "stem": "一瓶牛奶3元，妈妈买了7瓶，付了25元，够吗？",
@@ -6925,10 +6925,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "时间与人民币",
+    "knowledgePoint": "方向与图形",
     "skill": "understand",
     "tags": [
-      "生活计量"
+      "空间观念"
     ],
     "content": {
       "stem": "下面哪个不是轴对称图形？",

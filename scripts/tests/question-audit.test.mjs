@@ -65,10 +65,11 @@ test('reports type, difficulty, knowledge point and answer-position quota violat
 test('rejects duplicate ids and normalized stems', () => {
   const questions = makeQuestions()
   questions[1].id = questions[0].id
+  questions[2].content = structuredClone(questions[0].content)
   questions[2].content.stem = `  ${questions[0].content.stem}  `
   const errors = auditQuestionSet(questions, blueprint).errors.join('\n')
   assert.match(errors, /duplicate id/)
-  assert.match(errors, /duplicate normalized stem/)
+  assert.match(errors, /duplicate normalized question/)
 })
 
 test('blocks near-duplicate stems unless their pair is reviewed', () => {

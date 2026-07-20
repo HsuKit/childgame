@@ -130,10 +130,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "This ___ my friend.",
@@ -280,10 +280,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Touch your ___. （摸摸你的头）",
@@ -399,10 +399,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "I ___ a boy. (我是男孩)",
@@ -908,10 +908,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "C___ the door, please. (关上门)",
@@ -927,10 +927,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "I ___ seven years old.",
@@ -1186,10 +1186,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "It ___ a big ball.",
@@ -1336,10 +1336,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Touch your ___. （摸摸你的鼻子）",
@@ -1474,10 +1474,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "She ___ my sister. (是)",
@@ -1560,10 +1560,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "短文信息",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "阅读理解"
     ],
     "content": {
       "left": [
@@ -1883,10 +1883,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Touch your ___. （指指你的嘴）",
@@ -2161,10 +2161,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "当你想请别人坐下，可以说：",
@@ -2261,10 +2261,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "This ___ my dog.",
@@ -2530,10 +2530,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "You ___ a good student. (是)",
@@ -2939,10 +2939,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Close your ___. （闭上你的眼睛）",
@@ -3058,10 +3058,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "This ___ a big tree. (是)",
@@ -3964,10 +3964,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Clap your ___. （拍拍手）",
@@ -4083,10 +4083,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "He ___ my friend. (是)",
@@ -4121,10 +4121,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "match",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "left": [
@@ -4169,10 +4169,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "短文信息",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "阅读理解"
     ],
     "content": {
       "left": [
@@ -5020,10 +5020,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Stamp your ___. （跺跺脚）",
@@ -5187,10 +5187,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "left": [
@@ -5360,10 +5360,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "understand",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "I ___ a student.",
@@ -5510,10 +5510,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Touch your ___. （摸摸你的脸）",
@@ -5629,10 +5629,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "She ___ my mother. (是)",
@@ -6038,10 +6038,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Wave your ___. （挥挥手臂）",
@@ -6566,10 +6566,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "常用动作",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "动作表达"
     ],
     "content": {
       "stem": "Close your ___. （闭上你的嘴）",
@@ -6685,10 +6685,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "It ___ a funny monkey. (是)",
@@ -7188,10 +7188,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "日常名词",
+    "knowledgePoint": "简单问答",
     "skill": "apply",
     "tags": [
-      "主题词汇"
+      "句型运用"
     ],
     "content": {
       "stem": "You ___ my good friend. (是)",

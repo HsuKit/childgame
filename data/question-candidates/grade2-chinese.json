@@ -180,10 +180,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "“冰雪融化”描写的是什么季节？",
@@ -305,10 +305,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“森林”的“森”有几个“木”？",
@@ -355,10 +355,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "句式运用",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "句子运用"
+      "传统文化"
     ],
     "content": {
       "stem": "“一年之计在于春”的下一句是？",
@@ -399,10 +399,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "春眠不觉晓，处处闻啼___。",
@@ -577,10 +577,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“天”字加一笔变成什么字？",
@@ -752,10 +752,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "选择合适的词语：老师走进教室，同学们立刻（ ）下来。",
@@ -877,10 +877,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《村居》中“忙趁东风放纸鸢”，“纸鸢”是什么？",
@@ -902,10 +902,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“他跑得像风一样快”用了什么修辞？",
@@ -1032,10 +1032,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -1105,10 +1105,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "下面哪个字与“口”有关？",
@@ -1255,10 +1255,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“弯弯的月亮像小船”把什么比作小船？",
@@ -1280,10 +1280,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《登鹳雀楼》中“欲穷千里目”的下一句是？",
@@ -1305,10 +1305,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“手”字可以组成什么词？",
@@ -1330,10 +1330,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“红的像火，粉的像霞，白的像雪”用了什么修辞？",
@@ -1355,10 +1355,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“马”的第二笔是？",
@@ -1380,10 +1380,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "下面哪个词描写天气？",
@@ -1449,10 +1449,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "不知细叶谁裁出，二月春风似___刀。",
@@ -1535,10 +1535,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -1658,10 +1658,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "选词填空：小河里的水（ ）地流着。",
@@ -1683,10 +1683,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《望庐山瀑布》中“飞流直下三千尺”运用了什么修辞？",
@@ -1783,10 +1783,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“美丽的（ ）”括号里填什么合适？",
@@ -1883,10 +1883,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“月”字加一笔变成什么字？",
@@ -1908,10 +1908,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“太阳像火球”把什么比作火球？",
@@ -1933,10 +1933,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "下列哪句诗描写了朋友情？",
@@ -1977,10 +1977,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "小荷才露尖尖角，早有蜻蜓___上头。",
@@ -2015,10 +2015,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -2136,10 +2136,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“大”字加一笔变成什么字？",
@@ -2336,10 +2336,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《梅花》的作者是谁？",
@@ -2386,10 +2386,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "哪句话说得对？",
@@ -2461,10 +2461,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《敕勒歌》中“天苍苍，野茫茫”的下一句是？",
@@ -2505,10 +2505,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "夜来风雨声，花落知___少。",
@@ -2664,10 +2664,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "下面哪个字是前鼻音？",
@@ -2714,10 +2714,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "选词：春天来了，小草（ ）地从土里钻出来。",
@@ -2739,10 +2739,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "“独在异乡为异客”是哪首诗？",
@@ -2764,10 +2764,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“耳”的第三笔是？",
@@ -2914,10 +2914,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“弯弯的（ ）像小船”填什么？",
@@ -2939,10 +2939,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“目”字代表什么？",
@@ -3033,10 +3033,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "举头望明月，___头思故乡。",
@@ -3169,10 +3169,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“书”的第四笔是？",
@@ -3219,10 +3219,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《登鹳雀楼》告诉我们什么道理？",
@@ -3319,10 +3319,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "“一片片树叶从树上落下来”说明什么季节？",
@@ -3369,10 +3369,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“飞”字的第一笔是？",
@@ -3394,10 +3394,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "段落信息",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "阅读理解"
+      "句子运用"
     ],
     "content": {
       "stem": "选词填空：老师（ ）地给我们讲故事。",
@@ -3469,10 +3469,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《赠汪伦》中，“李白乘舟将欲行”的下一句是？",
@@ -3513,10 +3513,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "好雨知时节，当春乃___生。",
@@ -3551,10 +3551,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -3797,10 +3797,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“上”字的笔顺是？",
@@ -3872,10 +3872,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“弯弯的月亮像小船”这句话中，把什么比作小船？",
@@ -3897,10 +3897,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《回乡偶书》的作者是谁？",
@@ -3972,10 +3972,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“水”字可以组成什么词？",
@@ -4041,10 +4041,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "床前明月光，疑是地上___。",
@@ -4127,10 +4127,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -4175,10 +4175,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“草地”的“地”字在词语中读什么？",
@@ -4200,10 +4200,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "下面哪个字与“手”有关？",
@@ -4275,10 +4275,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《敕勒歌》描写的景色在我国什么地方？",
@@ -4325,10 +4325,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "找出不同类的一项：",
@@ -4425,10 +4425,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“儿”字加一笔变成什么字？",
@@ -4450,10 +4450,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "生活语言",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "情境表达"
+      "句子运用"
     ],
     "content": {
       "stem": "下面哪句话说得更好听？",
@@ -4475,10 +4475,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“土”字在“土地”中读什么？",
@@ -4500,10 +4500,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“弯弯的小路像彩带”把什么比作彩带？",
@@ -4569,10 +4569,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "白日依山尽，黄河___海流。",
@@ -4803,10 +4803,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《悯农》中“四海无闲田”的下一句是？",
@@ -4878,10 +4878,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“一条条街道像什么？”可以想象成？",
@@ -4928,10 +4928,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“云”字加一笔可以变成什么字？",
@@ -4953,10 +4953,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "下面哪句话是完整的？",
@@ -5003,10 +5003,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "stem": "“天阴沉沉的，好像要下雨了”中的“阴沉沉”形容什么？",
@@ -5028,10 +5028,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《咏柳》中“碧玉妆成一树高”的“妆”是什么意思？",
@@ -5072,10 +5072,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "千山鸟飞绝，万径人___灭。",
@@ -5158,10 +5158,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -5206,10 +5206,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“花儿”的“花”字读第几声？",
@@ -5231,10 +5231,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "下面哪个字是翘舌音？",
@@ -5406,10 +5406,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“火红火红的枫叶像一团团火。”这句话把枫叶比作什么？",
@@ -5431,10 +5431,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《望庐山瀑布》中，“日照香炉生紫烟”的下一句是？",
@@ -5481,10 +5481,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "下面哪句话使用了“一边…一边…”？",
@@ -5556,10 +5556,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "下面哪句诗不是李白的？",
@@ -5619,10 +5619,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "段落信息",
+    "knowledgePoint": "生活语言",
     "skill": "apply",
     "tags": [
-      "阅读理解"
+      "情境表达"
     ],
     "content": {
       "stem": "老师___我们讲故事。",
@@ -5638,10 +5638,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -5809,10 +5809,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“蓝蓝的天空像（ ）”填什么？",
@@ -5884,10 +5884,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "下面哪个词可以填在“一（ ）古诗”中？",
@@ -5959,10 +5959,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《村居》中“拂堤杨柳醉春烟”的“春烟”指什么？",
@@ -5984,10 +5984,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“书”字在“书包”中读什么？",
@@ -6084,10 +6084,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "生活语言",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "情境表达"
+      "传统文化"
     ],
     "content": {
       "stem": "下面哪首诗描写了儿童生活？",
@@ -6166,10 +6166,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "match",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "生活语言",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "情境表达"
     ],
     "content": {
       "left": [
@@ -6287,10 +6287,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "下面哪组字都有“口”字旁？",
@@ -6362,10 +6362,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《回乡偶书》中“乡音无改鬓毛衰”的上一句是？",
@@ -6512,10 +6512,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“石”字在“石头”中读什么？",
@@ -6537,10 +6537,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "哪句话用上了“好像”？",
@@ -6562,10 +6562,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "句式运用",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "句子运用"
     ],
     "content": {
       "stem": "“一（ ）井”填什么量词？",
@@ -6587,10 +6587,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《悯农》的作者是谁？",
@@ -6631,10 +6631,10 @@
     "grade": 2,
     "difficulty": 2,
     "type": "fill",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "apply",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "远上寒山石径斜，白云生处有___家。",
@@ -6773,10 +6773,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "《赠汪伦》描写了什么感情？",
@@ -6898,10 +6898,10 @@
     "grade": 2,
     "difficulty": 3,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "古诗名句",
     "skill": "reason",
     "tags": [
-      "词语运用"
+      "传统文化"
     ],
     "content": {
       "stem": "“野火烧不尽，春风吹又生”说明什么？",
@@ -6923,10 +6923,10 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "量词与搭配",
+    "knowledgePoint": "字音字形",
     "skill": "understand",
     "tags": [
-      "词语运用"
+      "字词基础"
     ],
     "content": {
       "stem": "“大”字加一笔是什么字？",

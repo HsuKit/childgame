@@ -37,6 +37,22 @@ function pairKey(first, second) {
   return [first, second].sort().join('|')
 }
 
+function questionSignature(question) {
+  const content = question.content ?? {}
+  const normalizedOptions = Array.isArray(content.options) ? content.options.map(normalizeText) : undefined
+  const normalizedAnswer = normalizedOptions && Number.isInteger(content.answer)
+    ? normalizedOptions[content.answer]
+    : typeof content.answer === 'string' ? normalizeText(content.answer) : content.answer
+  return JSON.stringify({
+    stem: normalizeText(content.stem),
+    options: normalizedOptions?.sort(),
+    answer: normalizedAnswer,
+    left: Array.isArray(content.left) ? content.left.map(normalizeText) : undefined,
+    right: Array.isArray(content.right) ? content.right.map(normalizeText) : undefined,
+    matches: content.matches,
+  })
+}
+
 export function auditQuestionSet(questions, blueprint) {
   const errors = []
   const warnings = []
@@ -71,9 +87,9 @@ export function auditQuestionSet(questions, blueprint) {
   for (const question of questions) {
     if (seenIds.has(question.id)) errors.push(`duplicate id ${question.id}`)
     seenIds.add(question.id)
-    const stem = normalizeText(question.content?.stem)
-    if (seenStems.has(stem)) errors.push(`duplicate normalized stem ${question.id} and ${seenStems.get(stem)}`)
-    else seenStems.set(stem, question.id)
+    const signature = questionSignature(question)
+    if (seenStems.has(signature)) errors.push(`duplicate normalized question ${question.id} and ${seenStems.get(signature)}`)
+    else seenStems.set(signature, question.id)
   }
 
   const choices = questions.filter(question => question.type === 'choice')
