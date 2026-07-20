@@ -9,7 +9,7 @@ type HistoryRow = Pick<Database['public']['Tables']['quiz_records']['Row'], 'que
 interface QuestionQuery {
   subject: Subject
   grade: number
-  reviewStatus: 'approved'
+  reviewStatus: 'approved' | 'reviewed'
   from: number
   to: number
 }
@@ -50,10 +50,21 @@ export async function loadQuestionPool(
   grade: number,
   client: QuestionDataClient = supabaseQuestionClient,
 ): Promise<Question[]> {
+  const approved = await loadQuestionPoolByStatus(subject, grade, 'approved', client)
+  if (approved.length > 0) return approved
+  return loadQuestionPoolByStatus(subject, grade, 'reviewed', client)
+}
+
+async function loadQuestionPoolByStatus(
+  subject: Subject,
+  grade: number,
+  reviewStatus: 'approved' | 'reviewed',
+  client: QuestionDataClient,
+): Promise<Question[]> {
   const pageSize = 1000
   const questions: Question[] = []
   for (let from = 0; ; from += pageSize) {
-    const page = await client.queryQuestions({ subject, grade, reviewStatus: 'approved', from, to: from + pageSize - 1 })
+    const page = await client.queryQuestions({ subject, grade, reviewStatus, from, to: from + pageSize - 1 })
     questions.push(...page)
     if (page.length < pageSize) break
   }

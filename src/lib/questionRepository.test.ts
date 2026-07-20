@@ -32,6 +32,24 @@ describe('questionRepository', () => {
     ])
   })
 
+  it('falls back to reviewed legacy questions when a subject has no approved pool', async () => {
+    const calls: unknown[] = []
+    const legacy = { ...question(1), review_status: 'reviewed' as const }
+    const client: QuestionDataClient = {
+      queryQuestions: async args => {
+        calls.push(args)
+        return args.reviewStatus === 'reviewed' ? [legacy] : []
+      },
+      queryHistory: async () => [],
+    }
+
+    await expect(loadQuestionPool('math', 3, client)).resolves.toEqual([legacy])
+    expect(calls).toEqual([
+      { subject: 'math', grade: 3, reviewStatus: 'approved', from: 0, to: 999 },
+      { subject: 'math', grade: 3, reviewStatus: 'reviewed', from: 0, to: 999 },
+    ])
+  })
+
   it('maps multiple records to the latest answer time per question', async () => {
     const client: QuestionDataClient = {
       queryQuestions: async () => [],
