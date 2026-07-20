@@ -6,6 +6,8 @@ import type { Subject } from '../lib/constants'
 import type { Database } from '../lib/database.types'
 import { formatLocalDate, getLocalDayRange } from '../lib/dateUtils'
 import { calculateAnswerReward, countSubjects, isAnswerCorrect, shuffle } from '../lib/quizUtils'
+import { composeQuestions } from '../lib/questionComposer'
+import { loadCompositionInputs } from '../lib/questionRepository'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -14,6 +16,57 @@ interface QuizRecord {
   subject: string
   is_correct: boolean
   points_earned: number
+}
+
+interface QuizDependencies {
+  loadInputs: typeof loadCompositionInputs
+  compose: typeof composeQuestions
+  random: () => number
+}
+
+const defaultQuizDependencies: QuizDependencies = {
+  loadInputs: loadCompositionInputs,
+  compose: composeQuestions,
+  random: Math.random,
+}
+
+export class QuestionSessionError extends Error {
+  constructor(public code: 'insufficient-total') {
+    super('该年级题库正在准备中，请稍后再试')
+    this.name = 'QuestionSessionError'
+  }
+}
+
+export async function buildSubjectQuestions(
+  userId: string,
+  subject: Subject,
+  grade: number,
+  dependencies: QuizDependencies = defaultQuizDependencies,
+): Promise<Question[]> {
+  const { candidates, history } = await dependencies.loadInputs(userId, subject, grade)
+  const result = dependencies.compose({ candidates, history, random: dependencies.random })
+  if (result.questions.length !== DAILY_QUESTIONS_PER_SUBJECT) throw new QuestionSessionError('insufficient-total')
+  if (result.degraded) console.warn(`Question composition used quota fallback for grade ${grade} ${subject}.`)
+  return result.questions
+}
+
+export async function buildChallengeQuestions(
+  userId: string,
+  grade: number,
+  dependencies: QuizDependencies = defaultQuizDependencies,
+): Promise<Question[]> {
+  const groups = await Promise.all(SUBJECTS.map(subject => buildSubjectQuestions(userId, subject, grade, dependencies)))
+  return shuffle(groups.flat(), dependencies.random)
+}
+
+export function prepareQuizRecordInserts(userId: string, records: QuizRecord[]) {
+  return records.map(record => ({
+    user_id: userId,
+    question_id: record.question_id,
+    subject: record.subject,
+    is_correct: record.is_correct,
+    points_earned: record.points_earned,
+  }))
 }
 
 interface QuizSession {
@@ -42,6 +95,7 @@ interface QuizState {
   sessions: Record<Subject, QuizSession | null>
   challengeSession: ChallengeSession | null
   isLoading: boolean
+  sessionError: string | null
   startSession: (subject: Subject) => Promise<void>
   startChallenge: () => Promise<void>
   answerQuestion: (questionId: string, answer: string | number) => boolean
@@ -64,40 +118,20 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   sessions: { chinese: null, math: null, english: null },
   challengeSession: null,
   isLoading: false,
+  sessionError: null,
 
   startSession: async (subject: Subject) => {
-    set({ isLoading: true })
+    set({ isLoading: true, sessionError: null })
     try {
       const profile = useAuthStore.getState().profile
-      if (!profile) return
-
-      const { data: all, error } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
-      if (error) throw error
-
-      if (subject === 'math') {
-        // Mix 8 choice from DB + 2 generated Sudoku
-        const { generateSudoku } = await import('../lib/sudokuGenerator')
-        const choiceQs = shuffle(all || []).slice(0, 8)
-        const gridQs = Array.from({ length: 2 }, (_, i) => {
-          const generatedId = `gen_sudoku_${Date.now()}_${i}`
-          return {
-          id: generatedId, external_id: generatedId,
-          subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-          content: generateSudoku() as any, source: 'builtin' as const, knowledge_point: '思维拓展',
-          skill: 'reason' as const, tags: ['数独'], content_hash: generatedId,
-          review_status: 'approved' as const, version: 1, created_at: new Date().toISOString(),
-        }})
-        const questions = shuffle([...choiceQs, ...gridQs])
-        if (questions.length === 0) return
-        const session = createEmptySession(subject, questions)
-        set(state => ({ sessions: { ...state.sessions, [subject]: session } }))
-        return
-      }
-
-      if (!all || all.length === 0) return
-      const questions = shuffle(all).slice(0, Math.min(DAILY_QUESTIONS_PER_SUBJECT, all.length))
+      const userId = useAuthStore.getState().user?.id
+      if (!profile || !userId) throw new Error('用户信息尚未准备好')
+      const questions = await buildSubjectQuestions(userId, subject, profile.grade)
       const session = createEmptySession(subject, questions)
       set(state => ({ sessions: { ...state.sessions, [subject]: session } }))
+    } catch (error) {
+      set({ sessionError: error instanceof Error ? error.message : '题目加载失败' })
+      throw error
     } finally {
       set({ isLoading: false })
     }
@@ -177,35 +211,18 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   },
 
   startChallenge: async () => {
-    set({ isLoading: true })
+    set({ isLoading: true, sessionError: null })
     try {
       const profile = useAuthStore.getState().profile
-      if (!profile) return
-
-      const { generateSudoku } = await import('../lib/sudokuGenerator')
-      const [mathQ, chineseQ, englishQ] = await Promise.all([
-        supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
-        supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
-        supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
-      ])
-      if (mathQ.error) throw mathQ.error
-      if (chineseQ.error) throw chineseQ.error
-      if (englishQ.error) throw englishQ.error
-      const pick = (arr: Question[], count: number) => shuffle(arr).slice(0, count)
-      const gridQs = Array.from({ length: 3 }, (_, i) => {
-        const generatedId = `gen_ch_sudoku_${Date.now()}_${i}`
-        return {
-        id: generatedId, external_id: generatedId,
-        subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-        content: generateSudoku() as any, source: 'builtin' as const, knowledge_point: '思维拓展',
-        skill: 'reason' as const, tags: ['数独'], content_hash: generatedId,
-        review_status: 'approved' as const, version: 1, created_at: new Date().toISOString(),
-      }})
-      const allQuestions = shuffle([...pick(mathQ.data || [], 7), ...gridQs, ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)])
-      if (allQuestions.length === 0) return
+      const userId = useAuthStore.getState().user?.id
+      if (!profile || !userId) throw new Error('用户信息尚未准备好')
+      const allQuestions = await buildChallengeQuestions(userId, profile.grade)
       set({
         challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [] },
       })
+    } catch (error) {
+      set({ sessionError: error instanceof Error ? error.message : '挑战题目加载失败' })
+      throw error
     } finally {
       set({ isLoading: false })
     }
@@ -261,12 +278,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().sessions[subject]
     if (!session || !session.isComplete) return
-    const records = session.records
-      .filter(r => !r.question_id.startsWith('gen_'))
-      .map(r => ({
-        user_id: userId, question_id: r.question_id, subject: r.subject,
-        is_correct: r.is_correct, points_earned: r.points_earned,
-      }))
+    const records = prepareQuizRecordInserts(userId, session.records)
     if (records.length === 0) return
     const { error } = await supabase.from('quiz_records').insert(records)
     if (error) throw error
@@ -277,12 +289,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().challengeSession
     if (!session || !session.isComplete) return
-    const records = session.records
-      .filter(r => !r.question_id.startsWith('gen_'))
-      .map(r => ({
-        user_id: userId, question_id: r.question_id, subject: r.subject,
-        is_correct: r.is_correct, points_earned: r.points_earned,
-      }))
+    const records = prepareQuizRecordInserts(userId, session.records)
     if (records.length === 0) return
     const { error } = await supabase.from('quiz_records').insert(records)
     if (error) throw error

@@ -9,7 +9,7 @@ export default function QuizPage() {
   const [params] = useSearchParams()
   const subject = (params.get('subject') || 'math') as Subject
   const navigate = useNavigate()
-  const { sessions, startSession, answerQuestion, nextQuestion } = useQuizStore()
+  const { sessions, sessionError, startSession, answerQuestion, nextQuestion } = useQuizStore()
   const session = sessions[subject]
   const [error, setError] = useState(false)
 
@@ -27,7 +27,8 @@ export default function QuizPage() {
     return (
       <div className="p-6 text-center">
         <p className="text-4xl mb-4">😵</p>
-        <p className="font-bold mb-4">题目加载失败</p>
+        <p className="font-bold mb-2">题目加载失败</p>
+        <p className="text-sm text-gray-500 mb-4">{sessionError || '请检查网络后重试'}</p>
         <button onClick={() => { setError(false); navigate('/') }} className="btn-primary">返回首页</button>
       </div>
     )

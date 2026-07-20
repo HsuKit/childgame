@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "vitest run",
+    "test": "vitest run --exclude 'scripts/tests/**/*'",
     "test:questions": "node --test scripts/tests/*.test.mjs",
     "questions:validate": "node scripts/validate-questions.mjs",
     "questions:sql": "node scripts/generate-seed-sql.mjs"

@@ -1,19 +1,31 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useQuizStore } from '../stores/quizStore'
 import { QuizCard } from '../components/quiz/QuizCard'
 
 export default function ChallengePage() {
   const navigate = useNavigate()
-  const { challengeSession, startChallenge, answerChallengeQuestion, nextChallengeQuestion } = useQuizStore()
+  const { challengeSession, sessionError, startChallenge, answerChallengeQuestion, nextChallengeQuestion } = useQuizStore()
+  const [error, setError] = useState(false)
 
   useEffect(() => {
-    if (!challengeSession) startChallenge()
-  }, [challengeSession, startChallenge])
+    if (!challengeSession && !error) startChallenge().catch(() => setError(true))
+  }, [challengeSession, startChallenge, error])
 
   useEffect(() => {
     if (challengeSession?.isComplete) navigate('/challenge/result')
   }, [challengeSession?.isComplete, navigate])
+
+  if (error) {
+    return (
+      <div className="p-6 text-center">
+        <p className="text-4xl mb-4">😵</p>
+        <p className="font-bold mb-2">挑战题目加载失败</p>
+        <p className="text-sm text-gray-500 mb-4">{sessionError || '请检查网络后重试'}</p>
+        <button onClick={() => navigate('/')} className="btn-primary">返回首页</button>
+      </div>
+    )
+  }
 
   if (!challengeSession || challengeSession.questions.length === 0) {
     return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">⚔️</div><p>正在准备挑战关卡...</p></div>
