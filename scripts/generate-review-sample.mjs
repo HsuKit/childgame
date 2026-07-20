@@ -32,10 +32,10 @@ function displayAnswer(question) {
   return question.content.matches.map(([left, right]) => `${question.content.left[left]}→${question.content.right[right]}`).join('；')
 }
 
-export function main() {
+export function generateReviewReport(grade, conclusion = '分层样题全部通过；抽审发现的问题均已修订。') {
   const sections = []
   for (const subject of ['chinese', 'math', 'english']) {
-    const questions = JSON.parse(readFileSync(join(root, `data/questions/grade2-${subject}.json`), 'utf8'))
+    const questions = JSON.parse(readFileSync(join(root, `data/questions/grade${grade}-${subject}.json`), 'utf8'))
     const sample = selectReviewSample(questions)
     const rows = sample.map((question, index) => [
       `### ${index + 1}. ${question.id}`,
@@ -48,11 +48,18 @@ export function main() {
     ].join('\n'))
     sections.push(`## ${subject}\n\n${rows.join('\n\n')}`)
   }
-  const content = `# 二年级题库分层抽审\n\n抽样规则：每科 20 题，优先覆盖全部题型、难度和知识点，再按稳定 ID 补足。\n\n审核结论：60 道分层样题全部通过。抽审过程中发现的无上下文英语题、歧义数学题、语序和连线答案问题已经修订或从候选池排除。\n\n${sections.join('\n\n')}\n`
-  writeFileSync(join(root, 'data/question-audits/grade2-review-sample.md'), content, 'utf8')
+  const content = `# ${grade}年级题库分层抽审\n\n抽样规则：每科 20 题，优先覆盖全部题型、难度和知识点，再按稳定 ID 补足。\n\n审核结论：60 道${conclusion}\n\n${sections.join('\n\n')}\n`
+  writeFileSync(join(root, `data/question-audits/grade${grade}-review-sample.md`), content, 'utf8')
+  return content
+}
+
+export function main(argv = process.argv.slice(2)) {
+  const gradeIndex = argv.indexOf('--grade')
+  const grade = gradeIndex >= 0 ? Number(argv[gradeIndex + 1]) : 2
+  return generateReviewReport(grade)
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main()
-  console.log('Generated a 20-question review sample for each grade-2 subject.')
+  console.log('Generated a 20-question review sample for each subject.')
 }

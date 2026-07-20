@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "百位上的数字表示几个百，所以表示200。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -48,7 +48,7 @@
       "answer": 1,
       "explanation": "15×5=75，所以一共要用75张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -74,7 +74,7 @@
       "answer": 2,
       "explanation": "48÷6=8，每盒有8颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -100,7 +100,7 @@
       "answer": 3,
       "explanation": "原来涂1份，再涂1份是2份，占2/4。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -126,7 +126,7 @@
       "answer": 0,
       "explanation": "从10:00经过40分钟，结束时间是10:40。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "周长是（13+5）×2=36厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -178,7 +178,7 @@
       "answer": 2,
       "explanation": "比较二组和三组，8-3=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -204,7 +204,7 @@
       "answer": 3,
       "explanation": "先算借出后有27-5=22本，再加放回的6本，共28本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -230,7 +230,7 @@
       "answer": 0,
       "explanation": "相邻两个数都增加2，所以下一个数是14。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -256,7 +256,7 @@
       "answer": 1,
       "explanation": "百位上的数字表示几个百，所以表示600。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -282,7 +282,7 @@
       "answer": 2,
       "explanation": "24×7=168，所以一共要用168张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -308,7 +308,7 @@
       "answer": 3,
       "explanation": "48÷8=6，每盒有6颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +334,7 @@
       "answer": 0,
       "explanation": "原来涂1份，再涂1份是2份，占2/5。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -360,7 +360,7 @@
       "answer": 1,
       "explanation": "从11:00经过50分钟，结束时间是11:50。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -386,7 +386,7 @@
       "answer": 2,
       "explanation": "周长是（6+2）×2=16厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -412,7 +412,7 @@
       "answer": 3,
       "explanation": "比较二组和三组，9-4=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -438,7 +438,7 @@
       "answer": 0,
       "explanation": "先算借出后有36-7=29本，再加放回的7本，共36本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -464,7 +464,7 @@
       "answer": 1,
       "explanation": "相邻两个数都增加6，所以下一个数是27。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -490,7 +490,7 @@
       "answer": 2,
       "explanation": "百位上的数字表示几个百，所以表示900。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -516,7 +516,7 @@
       "answer": 3,
       "explanation": "33×2=66，所以一共要用66张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -542,7 +542,7 @@
       "answer": 0,
       "explanation": "12÷3=4，每盒有4颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -568,7 +568,7 @@
       "answer": 1,
       "explanation": "原来涂1份，再涂1份是2份，占2/6。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -594,7 +594,7 @@
       "answer": 2,
       "explanation": "从8:00经过20分钟，结束时间是8:20。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -620,7 +620,7 @@
       "answer": 3,
       "explanation": "周长是（7+3）×2=20厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -646,7 +646,7 @@
       "answer": 0,
       "explanation": "比较二组和三组，10-5=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -672,7 +672,7 @@
       "answer": 1,
       "explanation": "先算借出后有45-9=36本，再加放回的8本，共44本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 2,
       "explanation": "相邻两个数都增加5，所以下一个数是26。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -724,7 +724,7 @@
       "answer": 3,
       "explanation": "百位上的数字表示几个百，所以表示200。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -750,7 +750,7 @@
       "answer": 0,
       "explanation": "14×4=56，所以一共要用56张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +776,7 @@
       "answer": 1,
       "explanation": "65÷5=13，每盒有13颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -802,7 +802,7 @@
       "answer": 2,
       "explanation": "原来涂1份，再涂1份是2份，占2/7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -828,7 +828,7 @@
       "answer": 3,
       "explanation": "从9:00经过30分钟，结束时间是9:30。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -854,7 +854,7 @@
       "answer": 0,
       "explanation": "周长是（8+4）×2=24厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -880,7 +880,7 @@
       "answer": 1,
       "explanation": "比较二组和三组，11-6=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -906,7 +906,7 @@
       "answer": 2,
       "explanation": "先算借出后有54-4=50本，再加放回的9本，共59本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -932,7 +932,7 @@
       "answer": 3,
       "explanation": "相邻两个数都增加4，所以下一个数是19。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -958,7 +958,7 @@
       "answer": 0,
       "explanation": "百位上的数字表示几个百，所以表示600。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -984,7 +984,7 @@
       "answer": 1,
       "explanation": "23×6=138，所以一共要用138张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1010,7 +1010,7 @@
       "answer": 2,
       "explanation": "77÷7=11，每盒有11颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1036,7 +1036,7 @@
       "answer": 3,
       "explanation": "原来涂1份，再涂1份是2份，占2/8。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1062,7 +1062,7 @@
       "answer": 0,
       "explanation": "从10:00经过40分钟，结束时间是10:40。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1088,7 +1088,7 @@
       "answer": 1,
       "explanation": "周长是（9+5）×2=28厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1114,7 +1114,7 @@
       "answer": 2,
       "explanation": "比较二组和三组，12-7=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1140,7 +1140,7 @@
       "answer": 3,
       "explanation": "先算借出后有63-6=57本，再加放回的10本，共67本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1166,7 +1166,7 @@
       "answer": 0,
       "explanation": "相邻两个数都增加3，所以下一个数是18。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1192,7 +1192,7 @@
       "answer": 1,
       "explanation": "百位上的数字表示几个百，所以表示900。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1218,7 +1218,7 @@
       "answer": 2,
       "explanation": "32×8=256，所以一共要用256张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1244,7 +1244,7 @@
       "answer": 3,
       "explanation": "18÷2=9，每盒有9颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1270,7 +1270,7 @@
       "answer": 0,
       "explanation": "原来涂1份，再涂1份是2份，占2/9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1296,7 +1296,7 @@
       "answer": 1,
       "explanation": "从11:00经过50分钟，结束时间是11:50。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1322,7 +1322,7 @@
       "answer": 2,
       "explanation": "周长是（10+2）×2=24厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       "answer": 3,
       "explanation": "比较二组和三组，13-8=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1374,7 @@
       "answer": 0,
       "explanation": "先算借出后有72-8=64本，再加放回的11本，共75本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 1,
       "explanation": "相邻两个数都增加2，所以下一个数是11。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1426,7 +1426,7 @@
       "answer": 2,
       "explanation": "百位上的数字表示几个百，所以表示200。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1452,7 +1452,7 @@
       "answer": 3,
       "explanation": "13×3=39，所以一共要用39张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1478,7 +1478,7 @@
       "answer": 0,
       "explanation": "28÷4=7，每盒有7颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1504,7 +1504,7 @@
       "answer": 1,
       "explanation": "原来涂1份，再涂1份是2份，占2/10。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1530,7 +1530,7 @@
       "answer": 2,
       "explanation": "从8:00经过20分钟，结束时间是8:20。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1556,7 +1556,7 @@
       "answer": 3,
       "explanation": "面积是11×3=33平方厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1582,7 +1582,7 @@
       "answer": 0,
       "explanation": "比较二组和三组，14-9=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1608,7 +1608,7 @@
       "answer": 1,
       "explanation": "先算借出后有81-3=78本，再加放回的12本，共90本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1634,7 +1634,7 @@
       "answer": 2,
       "explanation": "相邻两个数都增加6，所以下一个数是30。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1660,7 +1660,7 @@
       "answer": 3,
       "explanation": "百位上的数字表示几个百，所以表示600。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1686,7 +1686,7 @@
       "answer": 0,
       "explanation": "22×5=110，所以一共要用110张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1712,7 +1712,7 @@
       "answer": 1,
       "explanation": "30÷6=5，每盒有5颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1738,7 +1738,7 @@
       "answer": 2,
       "explanation": "原来涂2份，再涂1份是3份，占3/4。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1764,7 +1764,7 @@
       "answer": 3,
       "explanation": "从9:00经过30分钟，结束时间是9:30。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1790,7 +1790,7 @@
       "answer": 0,
       "explanation": "面积是12×4=48平方厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1816,7 +1816,7 @@
       "answer": 1,
       "explanation": "比较二组和三组，15-10=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1842,7 +1842,7 @@
       "answer": 2,
       "explanation": "先算借出后有90-5=85本，再加放回的5本，共90本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1868,7 +1868,7 @@
       "answer": 3,
       "explanation": "相邻两个数都增加5，所以下一个数是23。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1894,7 +1894,7 @@
       "answer": 0,
       "explanation": "百位上的数字表示几个百，所以表示900。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1920,7 +1920,7 @@
       "answer": 1,
       "explanation": "31×7=217，所以一共要用217张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1946,7 +1946,7 @@
       "answer": 2,
       "explanation": "112÷8=14，每盒有14颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1972,7 +1972,7 @@
       "answer": 3,
       "explanation": "原来涂2份，再涂1份是3份，占3/5。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1998,7 +1998,7 @@
       "answer": 0,
       "explanation": "从10:00经过40分钟，结束时间是10:40。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       "answer": 1,
       "explanation": "面积是13×5=65平方厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2050,7 +2050,7 @@
       "answer": 2,
       "explanation": "比较二组和三组，16-11=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2076,7 +2076,7 @@
       "answer": 3,
       "explanation": "先算借出后有99-7=92本，再加放回的6本，共98本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 0,
       "explanation": "相邻两个数都增加4，所以下一个数是22。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2128,7 +2128,7 @@
       "answer": 1,
       "explanation": "百位上的数字表示几个百，所以表示200。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2154,7 +2154,7 @@
       "answer": 2,
       "explanation": "12×2=24，所以一共要用24张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "answer": 3,
       "explanation": "36÷3=12，每盒有12颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2206,7 +2206,7 @@
       "answer": 0,
       "explanation": "原来涂2份，再涂1份是3份，占3/6。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2232,7 +2232,7 @@
       "answer": 1,
       "explanation": "从11:00经过50分钟，结束时间是11:50。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2258,7 +2258,7 @@
       "answer": 2,
       "explanation": "面积是6×2=12平方厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2284,7 +2284,7 @@
       "answer": 3,
       "explanation": "比较二组和三组，17-12=5千克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       "answer": 0,
       "explanation": "先算借出后有108-9=99本，再加放回的7本，共106本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2336,7 +2336,7 @@
       "answer": 1,
       "explanation": "依次计算：13+1+2+3+4=23。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2362,7 +2362,7 @@
       "answer": 2,
       "explanation": "先算4488-1200=3288，再看百位数字。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2388,7 +2388,7 @@
       "answer": 3,
       "explanation": "先算3×30=90张，再减9张，剩81张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2414,7 @@
       "answer": 0,
       "explanation": "38÷4=9……2，可组成9个完整小组，剩2人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2440,7 +2440,7 @@
       "answer": 1,
       "explanation": "分母不变，把吃掉的份数相加：2+3=5，所以是5/6。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2466,7 +2466,7 @@
       "answer": 2,
       "explanation": "总用时35+10+25=70分钟，即1小时10分钟，结束时间是9:10。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2492,7 +2492,7 @@
       "answer": 3,
       "explanation": "花坛面积20×4=80，石子区面积2×4=8，种花面积是72平方米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2518,7 +2518,7 @@
       "answer": 0,
       "explanation": "把三天数据相加：24+21+27=72本。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2544,7 +2544,7 @@
       "answer": 1,
       "explanation": "先算座位总数4×20=80，再减损坏的3个，得77个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2570,7 +2570,7 @@
       "answer": 2,
       "explanation": "依次计算：14+1+2+3+4=24。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2596,7 +2596,7 @@
       "answer": 3,
       "explanation": "先算4612-1300=3312，再看百位数字。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2622,7 +2622,7 @@
       "answer": 0,
       "explanation": "先算4×31=124张，再减10张，剩114张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2648,7 +2648,7 @@
       "answer": 1,
       "explanation": "53÷5=10……3，可组成10个完整小组，剩3人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "answer": 2,
       "explanation": "分母不变，把吃掉的份数相加：2+3=5，所以是5/7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2700,7 +2700,7 @@
       "answer": 3,
       "explanation": "总用时35+10+25=70分钟，即1小时10分钟，结束时间是10:10。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2726,7 +2726,7 @@
       "answer": 0,
       "explanation": "花坛面积21×5=105，石子区面积2×5=10，种花面积是95平方米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2746,7 +2746,7 @@
       "answer": "3",
       "explanation": "用116-113=3。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2766,7 +2766,7 @@
       "answer": "27",
       "explanation": "先求3盒总数，再减去送出的数量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2786,7 +2786,7 @@
       "answer": "119",
       "explanation": "每次增加3，所以下一个数是119。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2806,7 +2806,7 @@
       "answer": "141",
       "explanation": "每100个组成1个百，所以共有141个百。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2826,7 +2826,7 @@
       "answer": "792",
       "explanation": "用乘法计算两个因数的积。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2846,7 +2846,7 @@
       "answer": "10",
       "explanation": "根据乘除法关系求商。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2866,7 +2866,7 @@
       "answer": "1/8",
       "explanation": "平均分成几份，每份就是几分之一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2886,7 @@
       "answer": "2000",
       "explanation": "1千克是1000克，2千克是2000克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2906,7 +2906,7 @@
       "answer": "28",
       "explanation": "正方形周长等于边长乘4。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2926,7 +2926,7 @@
       "answer": "3",
       "explanation": "用125-122=3。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "answer": "23",
       "explanation": "先求3盒总数，再减去送出的数量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2966,7 +2966,7 @@
       "answer": "128",
       "explanation": "每次增加3，所以下一个数是128。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2986,7 @@
       "answer": "150",
       "explanation": "每100个组成1个百，所以共有150个百。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3006,7 +3006,7 @@
       "answer": "423",
       "explanation": "用乘法计算两个因数的积。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3026,7 +3026,7 @@
       "answer": "10",
       "explanation": "根据乘除法关系求商。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       "answer": "1/7",
       "explanation": "平均分成几份，每份就是几分之一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3066,7 +3066,7 @@
       "answer": "2000",
       "explanation": "1千克是1000克，2千克是2000克。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3086,7 +3086,7 @@
       "answer": "32",
       "explanation": "正方形周长等于边长乘4。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3106,7 @@
       "answer": "422",
       "explanation": "把三天数量相加：143+138+141=422节。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3126,7 +3126,7 @@
       "answer": "36",
       "explanation": "先算4袋有11×4=44张，再减去8张，剩36张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "19",
       "explanation": "最后一次加4，15+4=19。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3195,7 +3195,7 @@
       ],
       "explanation": "根据千位、百位、十位和个位表示的数值组成各数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3244,7 +3244,7 @@
       ],
       "explanation": "逐个计算乘法算式的积。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3293,7 +3293,7 @@
       ],
       "explanation": "根据乘除法关系计算每个商。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3342,7 +3342,7 @@
       ],
       "explanation": "分母表示平均分的份数，分子表示取的份数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3391,7 +3391,7 @@
       ],
       "explanation": "1千克=1000克，1小时=60分钟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3440,7 +3440,7 @@
       ],
       "explanation": "分别使用正方形、长方形的周长或面积公式。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3489,7 +3489,7 @@
       ],
       "explanation": "读取每组数据并比较相差数量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3538,7 +3538,7 @@
       ],
       "explanation": "按先乘除后加减的顺序计算两步算式。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3587,7 +3587,7 @@
       ],
       "explanation": "分别寻找加2、加3、减2和乘2的规律。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3636,7 +3636,7 @@
       ],
       "explanation": "根据千位、百位、十位和个位表示的数值组成各数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3685,7 +3685,7 @@
       ],
       "explanation": "逐个计算乘法算式的积。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3734,7 +3734,7 @@
       ],
       "explanation": "根据乘除法关系计算每个商。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3783,7 +3783,7 @@
       ],
       "explanation": "分母表示平均分的份数，分子表示取的份数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3832,7 +3832,7 @@
       ],
       "explanation": "1千克=1000克，1小时=60分钟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

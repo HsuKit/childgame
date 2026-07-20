@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“注意力集中”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -48,7 +48,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -74,7 +74,7 @@
       "answer": 2,
       "explanation": "段落围绕“小林上学前做了哪些事”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -100,7 +100,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -126,7 +126,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“浇花、整理书包后上学”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“浇花、整理书包后上学”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -178,7 +178,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“请假原因和时间”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -204,7 +204,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“贴春联”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -230,7 +230,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“清爽而新鲜”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -256,7 +256,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -282,7 +282,7 @@
       "answer": 2,
       "explanation": "段落围绕“小猫发现了什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -308,7 +308,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +334,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“一只迷路的小鸟”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -360,7 +360,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“一只迷路的小鸟”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -386,7 +386,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“活动时间和地点”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -412,7 +412,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“赛龙舟”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -438,7 +438,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“慢慢地”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -464,7 +464,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -490,7 +490,7 @@
       "answer": 2,
       "explanation": "段落围绕“事情的结果是什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -516,7 +516,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -542,7 +542,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“种子长出了嫩芽”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -568,7 +568,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“种子长出了嫩芽”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -594,7 +594,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“冒号”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -620,7 +620,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“赏月”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -646,7 +646,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“马上”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -672,7 +672,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 2,
       "explanation": "段落围绕“小刚最值得学习的品质”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -724,7 +724,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -750,7 +750,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“坚持不放弃”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +776,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“坚持不放弃”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -802,7 +802,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“日期和天气”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -828,7 +828,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“登高”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -854,7 +854,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“高低不平”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -880,7 +880,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -906,7 +906,7 @@
       "answer": 2,
       "explanation": "段落围绕“小美做了什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -932,7 +932,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -958,7 +958,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“和同桌共用雨伞”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -984,7 +984,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“和同桌共用雨伞”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1010,7 +1010,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“丢失物品的特征”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1036,7 +1036,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“珍惜粮食”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1062,7 +1062,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“还想继续参加”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1088,7 +1088,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1114,7 +1114,7 @@
       "answer": 2,
       "explanation": "段落围绕“小宇帮爸爸做了什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1140,7 +1140,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1166,7 +1166,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“递工具并清扫木屑”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1192,7 +1192,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“递工具并清扫木屑”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1218,7 +1218,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“发布单位和日期”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1244,7 +1244,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“想看得远要站得更高”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1270,7 +1270,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“不急躁地坚持”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1296,7 +1296,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1322,7 +1322,7 @@
       "answer": 2,
       "explanation": "段落围绕“这段话主要说明什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1374,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“清理垃圾改善了河岸环境”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“清理垃圾改善了河岸环境”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1426,7 +1426,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“事情和联系方式”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1452,7 +1452,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“不能只靠侥幸”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1478,7 +1478,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“看得很清楚”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1504,7 +1504,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1530,7 +1530,7 @@
       "answer": 2,
       "explanation": "段落围绕“班长的方法带来什么变化”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1556,7 +1556,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1582,7 +1582,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“大家找书更方便”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1608,7 +1608,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“大家找书更方便”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1634,7 +1634,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“所借物品或钱款数量”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1660,7 +1660,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“情况变化后方法也要改变”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1686,7 +1686,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“内容多而充实”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1712,7 +1712,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1738,7 +1738,7 @@
       "answer": 2,
       "explanation": "段落围绕“蚂蚁怎样帮助伙伴找到食物”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1764,7 +1764,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1790,7 +1790,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“留下气味指引路线”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1816,7 +1816,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“留下气味指引路线”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1842,7 +1842,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“具体时间和地点”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1868,7 +1868,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“处处闻啼鸟”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1894,7 +1894,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“说话含蓄不生硬”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1920,7 +1920,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1946,7 +1946,7 @@
       "answer": 2,
       "explanation": "段落围绕“这段话比较了什么”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1972,7 +1972,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1998,7 +1998,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“冬天松树和落叶树的不同”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“冬天松树和落叶树的不同”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2050,7 +2050,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“敬礼”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2076,7 +2076,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“算盘”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“共同努力”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2128,7 +2128,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2154,7 +2154,7 @@
       "answer": 2,
       "explanation": "段落围绕“这段话赞美了什么精神”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2206,7 +2206,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“遇到困难仍坚持前进”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2232,7 +2232,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“遇到困难仍坚持前进”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2258,7 +2258,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“感谢的原因”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2284,7 +2284,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“龙”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“增长了见识”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2336,7 +2336,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2362,7 +2362,7 @@
       "answer": 2,
       "explanation": "段落围绕“旧衣回收的主要作用”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2388,7 +2388,7 @@
       "answer": 3,
       "explanation": "句子把事物当作人来写，是拟人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2414,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“让闲置衣物得到再利用”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2440,7 +2440,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“让闲置衣物得到再利用”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2466,7 +2466,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“物品的全部细节”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2492,7 +2492,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“老师”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2518,7 +2518,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“沉着不慌张”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2544,7 +2544,7 @@
       "answer": 1,
       "explanation": "修改后句子成分完整、搭配恰当，也没有重复或矛盾。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2570,7 +2570,7 @@
       "answer": 2,
       "explanation": "段落围绕“制作风筝的正确顺序”展开，句子之间有清楚的先后或因果联系。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2596,7 +2596,7 @@
       "answer": 3,
       "explanation": "句子把一种事物比作另一种事物，是比喻。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2622,7 +2622,7 @@
       "answer": 0,
       "explanation": "从短文中的人物行动可以找到答案：“画图、扎骨架、糊纸、系线”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2648,7 +2648,7 @@
       "answer": 1,
       "explanation": "短文中的关键句和事件都围绕“画图、扎骨架、糊纸、系线”展开。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "answer": 2,
       "explanation": "应用文要让读者获得必要信息，本题应写清“要做的事情”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2700,7 +2700,7 @@
       "answer": 3,
       "explanation": "根据传统文化常识，正确答案是“祭扫和踏青”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2726,7 +2726,7 @@
       "answer": 0,
       "explanation": "结合句子内容，“忘记”最符合这个词在句中的意思。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2746,7 +2746,7 @@
       "answer": "兴奋",
       "explanation": "结合题意，填“兴奋”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2766,7 +2766,7 @@
       "answer": "可能",
       "explanation": "结合题意，填“可能”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2786,7 +2786,7 @@
       "answer": "最后",
       "explanation": "结合题意，填“最后”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2806,7 +2806,7 @@
       "answer": "拟人",
       "explanation": "结合题意，填“拟人”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2826,7 +2826,7 @@
       "answer": "把钱包交给老师",
       "explanation": "结合题意，填“把钱包交给老师”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2846,7 +2846,7 @@
       "answer": "改善",
       "explanation": "结合题意，填“改善”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2866,7 +2866,7 @@
       "answer": "地点",
       "explanation": "结合题意，填“地点”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2886,7 @@
       "answer": "中秋",
       "explanation": "结合题意，填“中秋”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2906,7 +2906,7 @@
       "answer": "决定",
       "explanation": "结合题意，填“决定”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2926,7 +2926,7 @@
       "answer": "习惯",
       "explanation": "结合题意，填“习惯”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "answer": "中心",
       "explanation": "结合题意，填“中心”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2966,7 +2966,7 @@
       "answer": "比喻",
       "explanation": "结合题意，填“比喻”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2986,7 @@
       "answer": "关爱",
       "explanation": "结合题意，填“关爱”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3006,7 +3006,7 @@
       "answer": "事件",
       "explanation": "结合题意，填“事件”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3026,7 +3026,7 @@
       "answer": "天气",
       "explanation": "结合题意，填“天气”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       "answer": "重阳",
       "explanation": "结合题意，填“重阳”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3066,7 +3066,7 @@
       "answer": "安静",
       "explanation": "结合题意，填“安静”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3086,7 +3086,7 @@
       "answer": "第一个",
       "explanation": "结合题意，填“第一个”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3106,7 @@
       "answer": "主要内容",
       "explanation": "结合题意，填“主要内容”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3126,7 +3126,7 @@
       "answer": "拟人",
       "explanation": "结合题意，填“拟人”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "日期",
       "explanation": "结合题意，填“日期”后语意完整、表达准确。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3195,7 +3195,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3244,7 +3244,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3293,7 +3293,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3342,7 +3342,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3391,7 +3391,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3440,7 +3440,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3489,7 +3489,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3538,7 +3538,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3587,7 +3587,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3636,7 +3636,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3685,7 +3685,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3734,7 +3734,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3783,7 +3783,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3832,7 +3832,7 @@
       ],
       "explanation": "逐项理解左边内容，再选择意义准确、关系对应的右边内容。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

@@ -1,0 +1,23 @@
+{
+  "name": "grade3-phase1",
+  "expectedApproved": 420,
+  "files": [
+    "grade3-chinese.json",
+    "grade3-math.json",
+    "grade3-english.json"
+  ],
+  "groups": [
+    {
+      "grade": 3,
+      "subject": "chinese"
+    },
+    {
+      "grade": 3,
+      "subject": "math"
+    },
+    {
+      "grade": 3,
+      "subject": "english"
+    }
+  ]
+}

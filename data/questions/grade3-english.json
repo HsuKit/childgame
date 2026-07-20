@@ -1,22 +1,3838 @@
 [
-  {"stem":"She ___ to school every day.","options":["go","goes","going","gone"],"answer":1,"explanation":"第三人称单数用goes"},
-  {"stem":"What is the past tense of \"eat\"?","options":["eated","ate","eating","eats"],"answer":1},
-  {"stem":"There are ___ days in a week.","options":["five","six","seven","eight"],"answer":2},
-  {"stem":"\"They ___ playing football now.\"","options":["is","am","are","be"],"answer":2},
-  {"stem":"Which is the largest?","options":["Mouse","Cat","Elephant","Dog"],"answer":2},
-  {"stem":"\"Can you ___ me?\" (帮助)","options":["help","helps","helping","helped"],"answer":0},
-  {"stem":"What month is Christmas in?","options":["October","November","December","January"],"answer":2},
-  {"stem":"\"I ___ my homework yesterday.\"","options":["do","does","did","doing"],"answer":2},
-  {"stem":"Which word means \"图书馆\"?","options":["School","Library","Hospital","Park"],"answer":1},
-  {"stem":"\"Would you like ___ tea?\"","options":["a","an","some","any"],"answer":2},
-  {"stem":"Tom is ___ than Jack.","options":["tall","taller","tallest","more tall"],"answer":1},
-  {"stem":"\"How ___ is your bag?\" (多重)","options":["many","much","old","tall"],"answer":1},
-  {"stem":"Which animal has a trunk?","options":["Lion","Tiger","Elephant","Bear"],"answer":2},
-  {"stem":"\"I get up ___ 6:30 every morning.\"","options":["in","on","at","for"],"answer":2,"explanation":"具体时间用at"},
-  {"stem":"What is the plural of \"child\"?","options":["childs","childes","children","child's"],"answer":2},
-  {"stem":"\"Let's ___ to the park.\"","options":["go","goes","going","went"],"answer":0},
-  {"stem":"Which season comes after winter?","options":["Summer","Spring","Autumn","Fall"],"answer":1},
-  {"stem":"\"My sister ___ like math.\" (否定)","options":["isn't","aren't","don't","doesn't"],"answer":2},
-  {"stem":"What do you use to write?","options":["Ruler","Pencil","Eraser","Bag"],"answer":1},
-  {"stem":"\"There is ___ milk in the glass.\"","options":["a","an","some","many"],"answer":2}
+  {
+    "id": "g3-english-authored-001",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. Choose the sentence that correctly adds the activity at 7:00.",
+      "options": [
+        "Tom gets up at 7:00.",
+        "Tom does not have a daily plan.",
+        "Tom is asking the time.",
+        "Tom has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Tom gets up at 7:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-002",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. Complete the dialogue: —What does Tom like? —___",
+      "options": [
+        "It is 7:00.",
+        "Tom likes football.",
+        "Tom is in the home.",
+        "Today is Monday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Tom likes football.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-003",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. Choose the correct verb: Tom ___ up at 7:00 every week.",
+      "options": [
+        "get",
+        "getsing",
+        "gets",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Tom is one person, so the verb in this daily routine is “gets”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-004",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. Complete the question about the timetable: ___ does Tom do this activity? At 7:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-005",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. The activity starts at 7:00. Which expression matches this start time?",
+      "options": [
+        "7 o'clock",
+        "8 o'clock",
+        "half past 8",
+        "7 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "7:00 can be read as “7 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-006",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. The plan says, “Tom gets up at 7:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "gets up",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“gets up” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-007",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Tom is at home with some milk. Tom likes football. Read the added note: “Tom is at home. It is 7:00. Tom has some milk and gets up.” What does Tom have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "some milk",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Tom has some milk."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-008",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "At home, a friend helps Tom find the milk. Tom says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-009",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. Choose the sentence that correctly adds the activity at 7:30.",
+      "options": [
+        "Lucy has breakfast at 7:30.",
+        "Lucy does not have a daily plan.",
+        "Lucy is asking the time.",
+        "Lucy has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Lucy has breakfast at 7:30."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-010",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. Complete the dialogue: —What does Lucy like? —___",
+      "options": [
+        "It is 7:30.",
+        "Lucy likes drawing.",
+        "Lucy is in the kitchen.",
+        "Today is Tuesday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Lucy likes drawing.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-011",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. Choose the correct verb: Lucy ___ breakfast at 7:30 every week.",
+      "options": [
+        "have",
+        "hasing",
+        "has",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Lucy is one person, so the verb in this daily routine is “has”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-012",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. Complete the question about the timetable: ___ does Lucy do this activity? At 7:30.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-013",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. The activity starts at 7:30. Which expression matches this start time?",
+      "options": [
+        "half past 7",
+        "8 o'clock",
+        "half past 8",
+        "7 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "7:30 can be read as “half past 7”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-014",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. The plan says, “Lucy has breakfast at 7:30.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "has breakfast",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“has breakfast” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-015",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Lucy is in the kitchen with some bread. Lucy likes drawing. Read the added note: “Lucy is in the kitchen. It is 7:30. Lucy has some bread and has breakfast.” What does Lucy have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "some bread",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Lucy has some bread."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-016",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the kitchen, a friend helps Lucy find the bread. Lucy says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-017",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. Choose the sentence that correctly adds the activity at 8:00.",
+      "options": [
+        "Mike goes to school at 8:00.",
+        "Mike does not have a daily plan.",
+        "Mike is asking the time.",
+        "Mike has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Mike goes to school at 8:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-018",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. Complete the dialogue: —What does Mike like? —___",
+      "options": [
+        "It is 8:00.",
+        "Mike likes reading.",
+        "Mike is in the school.",
+        "Today is Wednesday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Mike likes reading.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-019",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. Choose the correct verb: Mike ___ to school at 8:00 every week.",
+      "options": [
+        "go",
+        "goesing",
+        "goes",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Mike is one person, so the verb in this daily routine is “goes”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-020",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. Complete the question about the timetable: ___ does Mike do this activity? At 8:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-021",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. The activity starts at 8:00. Which expression matches this start time?",
+      "options": [
+        "8 o'clock",
+        "9 o'clock",
+        "half past 9",
+        "8 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "8:00 can be read as “8 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-022",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. The plan says, “Mike goes to school at 8:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "goes to school",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“goes to school” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-023",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Mike is at school with a book. Mike likes reading. Read the added note: “Mike is at school. It is 8:00. Mike has a book and goes to school.” What does Mike have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a book",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Mike has a book."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-024",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "At school, a friend helps Mike find the book. Mike says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-025",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. Choose the sentence that correctly adds the activity at 9:00.",
+      "options": [
+        "Amy has an English class at 9:00.",
+        "Amy does not have a daily plan.",
+        "Amy is asking the time.",
+        "Amy has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Amy has an English class at 9:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-026",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. Complete the dialogue: —What does Amy like? —___",
+      "options": [
+        "It is 9:00.",
+        "Amy likes English.",
+        "Amy is in the classroom.",
+        "Today is Thursday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Amy likes English.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-027",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. Choose the correct verb: Amy ___ an English class at 9:00 every week.",
+      "options": [
+        "have",
+        "hasing",
+        "has",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Amy is one person, so the verb in this daily routine is “has”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-028",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. Complete the question about the timetable: ___ does Amy do this activity? At 9:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-029",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. The activity starts at 9:00. Which expression matches this start time?",
+      "options": [
+        "9 o'clock",
+        "10 o'clock",
+        "half past 10",
+        "9 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "9:00 can be read as “9 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-030",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. The plan says, “Amy has an English class at 9:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "has an English class",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“has an English class” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-031",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Amy is in the classroom with a pencil. Amy likes English. Read the added note: “Amy is in the classroom. It is 9:00. Amy has a pencil and has an English class.” What does Amy have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a pencil",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Amy has a pencil."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-032",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the classroom, a friend helps Amy find the pencil. Amy says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-033",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. Choose the sentence that correctly adds the activity at 10:00.",
+      "options": [
+        "Jack plays basketball at 10:00.",
+        "Jack does not have a daily plan.",
+        "Jack is asking the time.",
+        "Jack has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Jack plays basketball at 10:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-034",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. Complete the dialogue: —What does Jack like? —___",
+      "options": [
+        "It is 10:00.",
+        "Jack likes basketball.",
+        "Jack is in the playground.",
+        "Today is Friday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Jack likes basketball.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-035",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. Choose the correct verb: Jack ___ basketball at 10:00 every week.",
+      "options": [
+        "play",
+        "playsing",
+        "plays",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Jack is one person, so the verb in this daily routine is “plays”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-036",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. Complete the question about the timetable: ___ does Jack do this activity? At 10:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-037",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. The activity starts at 10:00. Which expression matches this start time?",
+      "options": [
+        "10 o'clock",
+        "11 o'clock",
+        "half past 11",
+        "10 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "10:00 can be read as “10 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-038",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. The plan says, “Jack plays basketball at 10:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "plays basketball",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“plays basketball” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-039",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Jack is in the playground with a ball. Jack likes basketball. Read the added note: “Jack is in the playground. It is 10:00. Jack has a ball and plays basketball.” What does Jack have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a ball",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Jack has a ball."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-040",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the playground, a friend helps Jack find the ball. Jack says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-041",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. Choose the sentence that correctly adds the activity at 12:00.",
+      "options": [
+        "Lily has lunch at 12:00.",
+        "Lily does not have a daily plan.",
+        "Lily is asking the time.",
+        "Lily has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Lily has lunch at 12:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-042",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. Complete the dialogue: —What does Lily like? —___",
+      "options": [
+        "It is 12:00.",
+        "Lily likes cooking.",
+        "Lily is in the dining room.",
+        "Today is Saturday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Lily likes cooking.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-043",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. Choose the correct verb: Lily ___ lunch at 12:00 every week.",
+      "options": [
+        "have",
+        "hasing",
+        "has",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Lily is one person, so the verb in this daily routine is “has”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-044",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. Complete the question about the timetable: ___ does Lily do this activity? At 12:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-045",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. The activity starts at 12:00. Which expression matches this start time?",
+      "options": [
+        "12 o'clock",
+        "13 o'clock",
+        "half past 13",
+        "12 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "12:00 can be read as “12 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-046",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. The plan says, “Lily has lunch at 12:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "has lunch",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“has lunch” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-047",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, Lily is in the dining room with some rice. Lily likes cooking. Read the added note: “Lily is in the dining room. It is 12:00. Lily has some rice and has lunch.” What does Lily have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "some rice",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Lily has some rice."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-048",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the dining room, a friend helps Lily find the rice. Lily says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-049",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. Choose the sentence that correctly adds the activity at 3:00.",
+      "options": [
+        "Peter flies a kite at 3:00.",
+        "Peter does not have a daily plan.",
+        "Peter is asking the time.",
+        "Peter has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Peter flies a kite at 3:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-050",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. Complete the dialogue: —What does Peter like? —___",
+      "options": [
+        "It is 3:00.",
+        "Peter likes kites.",
+        "Peter is in the park.",
+        "Today is Sunday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Peter likes kites.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-051",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. Choose the correct verb: Peter ___ a kite at 3:00 every week.",
+      "options": [
+        "fly",
+        "fliesing",
+        "flies",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Peter is one person, so the verb in this daily routine is “flies”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-052",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. Complete the question about the timetable: ___ does Peter do this activity? At 3:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-053",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. The activity starts at 3:00. Which expression matches this start time?",
+      "options": [
+        "3 o'clock",
+        "4 o'clock",
+        "half past 4",
+        "3 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "3:00 can be read as “3 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-054",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. The plan says, “Peter flies a kite at 3:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "flies a kite",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“flies a kite” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-055",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Sunday, Peter is in the park with a kite. Peter likes kites. Read the added note: “Peter is in the park. It is 3:00. Peter has a kite and flies a kite.” What does Peter have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a kite",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Peter has a kite."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-056",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the park, a friend helps Peter find the kite. Peter says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-057",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. Choose the sentence that correctly adds the activity at 4:00.",
+      "options": [
+        "Kate does her homework at 4:00.",
+        "Kate does not have a daily plan.",
+        "Kate is asking the time.",
+        "Kate has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Kate does her homework at 4:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-058",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. Complete the dialogue: —What does Kate like? —___",
+      "options": [
+        "It is 4:00.",
+        "Kate likes maths.",
+        "Kate is in the study.",
+        "Today is Monday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Kate likes maths.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-059",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. Choose the correct verb: Kate ___ her homework at 4:00 every week.",
+      "options": [
+        "do",
+        "doesing",
+        "does",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Kate is one person, so the verb in this daily routine is “does”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-060",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. Complete the question about the timetable: ___ does Kate do this activity? At 4:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-061",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. The activity starts at 4:00. Which expression matches this start time?",
+      "options": [
+        "4 o'clock",
+        "5 o'clock",
+        "half past 5",
+        "4 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "4:00 can be read as “4 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-062",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. The plan says, “Kate does her homework at 4:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "does her homework",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“does her homework” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-063",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Monday, Kate is in the study with a ruler. Kate likes maths. Read the added note: “Kate is in the study. It is 4:00. Kate has a ruler and does her homework.” What does Kate have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a ruler",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Kate has a ruler."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-064",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the study, a friend helps Kate find the ruler. Kate says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-065",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. Choose the sentence that correctly adds the activity at 5:00.",
+      "options": [
+        "Sam waters the flowers at 5:00.",
+        "Sam does not have a daily plan.",
+        "Sam is asking the time.",
+        "Sam has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Sam waters the flowers at 5:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-066",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. Complete the dialogue: —What does Sam like? —___",
+      "options": [
+        "It is 5:00.",
+        "Sam likes plants.",
+        "Sam is in the garden.",
+        "Today is Tuesday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Sam likes plants.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-067",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. Choose the correct verb: Sam ___ the flowers at 5:00 every week.",
+      "options": [
+        "water",
+        "watersing",
+        "waters",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Sam is one person, so the verb in this daily routine is “waters”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-068",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. Complete the question about the timetable: ___ does Sam do this activity? At 5:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-069",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. The activity starts at 5:00. Which expression matches this start time?",
+      "options": [
+        "5 o'clock",
+        "6 o'clock",
+        "half past 6",
+        "5 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "5:00 can be read as “5 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-070",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. The plan says, “Sam waters the flowers at 5:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "waters the flowers",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“waters the flowers” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-071",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Tuesday, Sam is in the garden with some water. Sam likes plants. Read the added note: “Sam is in the garden. It is 5:00. Sam has some water and waters the flowers.” What does Sam have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "some water",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Sam has some water."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-072",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the garden, a friend helps Sam find the water. Sam says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-073",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. Choose the sentence that correctly adds the activity at 6:00.",
+      "options": [
+        "Anna walks her dog at 6:00.",
+        "Anna does not have a daily plan.",
+        "Anna is asking the time.",
+        "Anna has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Anna walks her dog at 6:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-074",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. Complete the dialogue: —What does Anna like? —___",
+      "options": [
+        "It is 6:00.",
+        "Anna likes animals.",
+        "Anna is in the street.",
+        "Today is Wednesday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Anna likes animals.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-075",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. Choose the correct verb: Anna ___ her dog at 6:00 every week.",
+      "options": [
+        "walk",
+        "walksing",
+        "walks",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Anna is one person, so the verb in this daily routine is “walks”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-076",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. Complete the question about the timetable: ___ does Anna do this activity? At 6:00.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-077",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. The activity starts at 6:00. Which expression matches this start time?",
+      "options": [
+        "6 o'clock",
+        "7 o'clock",
+        "half past 7",
+        "6 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "6:00 can be read as “6 o'clock”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-078",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. The plan says, “Anna walks her dog at 6:00.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "walks her dog",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“walks her dog” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-079",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Wednesday, Anna is in the street with a dog. Anna likes animals. Read the added note: “Anna is in the street. It is 6:00. Anna has a dog and walks her dog.” What does Anna have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a dog",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Anna has a dog."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-080",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the street, a friend helps Anna find the dog. Anna says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-081",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. Choose the sentence that correctly adds the activity at 6:30.",
+      "options": [
+        "Ben helps his mother at 6:30.",
+        "Ben does not have a daily plan.",
+        "Ben is asking the time.",
+        "Ben has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Ben helps his mother at 6:30."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-082",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. Complete the dialogue: —What does Ben like? —___",
+      "options": [
+        "It is 6:30.",
+        "Ben likes helping.",
+        "Ben is in the kitchen.",
+        "Today is Thursday."
+      ],
+      "answer": 1,
+      "explanation": "The question asks about a preference, so the answer is “Ben likes helping.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-083",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. Choose the correct verb: Ben ___ his mother at 6:30 every week.",
+      "options": [
+        "help",
+        "helpsing",
+        "helps",
+        "can"
+      ],
+      "answer": 2,
+      "explanation": "Ben is one person, so the verb in this daily routine is “helps”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-084",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. Complete the question about the timetable: ___ does Ben do this activity? At 6:30.",
+      "options": [
+        "Where",
+        "Who",
+        "What colour",
+        "When"
+      ],
+      "answer": 3,
+      "explanation": "The answer gives a time, so the question word is “When”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-085",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. The activity starts at 6:30. Which expression matches this start time?",
+      "options": [
+        "half past 6",
+        "7 o'clock",
+        "half past 7",
+        "6 fifteen"
+      ],
+      "answer": 0,
+      "explanation": "6:30 can be read as “half past 6”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-086",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. The plan says, “Ben helps his mother at 6:30.” Which words name the daily activity?",
+      "options": [
+        "buys a spaceship",
+        "helps his mother",
+        "finds a dinosaur",
+        "visits the moon"
+      ],
+      "answer": 1,
+      "explanation": "“helps his mother” is the activity stated in the sentence."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-087",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Thursday, Ben is in the kitchen with a plate. Ben likes helping. Read the added note: “Ben is in the kitchen. It is 6:30. Ben has a plate and helps his mother.” What does Ben have?",
+      "options": [
+        "a train",
+        "a computer game",
+        "a plate",
+        "a red bike"
+      ],
+      "answer": 2,
+      "explanation": "The text directly says that Ben has a plate."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-088",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "In the kitchen, a friend helps Ben find the plate. Ben says, “Thank you.” What is the best reply?",
+      "options": [
+        "Good night.",
+        "Here you are?",
+        "I am ten.",
+        "You are welcome."
+      ],
+      "answer": 3,
+      "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-089",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Grace is in the bedroom with a storybook. Grace likes stories. Choose the sentence that correctly adds the activity at 7:00.",
+      "options": [
+        "Grace reads a story at 7:00.",
+        "Grace does not have a daily plan.",
+        "Grace is asking the time.",
+        "Grace has no activity today."
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells us who does the activity and when: Grace reads a story at 7:00."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-090",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “Grace cannot find the storybook. A friend points to it.” —Thank you for helping me. —___",
+      "options": [
+        "I do not know your name.",
+        "You are welcome. It is over there.",
+        "Good night. I am sleeping.",
+        "It is Monday yesterday."
+      ],
+      "answer": 1,
+      "explanation": "The reply is polite and continues the situation by showing where the item is."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-091",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Grace is in the bedroom with a storybook. Grace likes stories. Complete both facts: Grace ___ a story at 7:00 and likes stories.",
+      "options": [
+        "read",
+        "reading",
+        "reads",
+        "are"
+      ],
+      "answer": 2,
+      "explanation": "The subject is one person, so “reads” completes the regular activity."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-092",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Grace is in the bedroom with a storybook. Grace likes stories. Read the schedule line: “Grace is in the bedroom at 7:00.” Which pair of question words asks about the place and then the time?",
+      "options": [
+        "Who; What",
+        "When; Where",
+        "How many; What colour",
+        "Where; When"
+      ],
+      "answer": 3,
+      "explanation": "“Where” asks about a place; “When” asks about a time."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-093",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Grace is in the bedroom for the stories activity. It starts at 7:00 and finishes 30 minutes later. When does it finish?",
+      "options": [
+        "7:30",
+        "7:00",
+        "8:30",
+        "7:15"
+      ],
+      "answer": 0,
+      "explanation": "Thirty minutes after 7:00 is 7:30."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-094",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the plan: “First Grace packs the bag. Then Grace reads a story. After that, Grace reads.” What happens second?",
+      "options": [
+        "packs the bag",
+        "reads a story",
+        "reads",
+        "goes to sleep before everything"
+      ],
+      "answer": 1,
+      "explanation": "The order word “Then” introduces the second activity: reads a story."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-095",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “On Friday, Grace is in the bedroom with a storybook. Grace likes stories. At 7:00, Grace reads a story.” Which two facts are both true?",
+      "options": [
+        "Grace is on a train and has a bike.",
+        "Grace dislikes stories and loses everything.",
+        "Grace likes stories and has a storybook.",
+        "Grace is at the zoo at midnight."
+      ],
+      "answer": 2,
+      "explanation": "Both facts are directly stated in the text."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-096",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Friday, Grace is in the bedroom before reads a story. Grace needs the storybook, but a classmate is using it. What is the most polite request?",
+      "options": [
+        "Give me the storybook now!",
+        "I never need the storybook.",
+        "What colour is Monday?",
+        "May I use the storybook after you?"
+      ],
+      "answer": 3,
+      "explanation": "“May I...?” is a polite request and “after you” respects the classmate who is using it."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-097",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “On Saturday, David is in the bedroom with a notebook. David likes science. At 8:00, David packs his bag.” Which sentence gives both the day and the activity?",
+      "options": [
+        "On Saturday, David packs his bag.",
+        "David has no plan on Saturday.",
+        "David only asks about 8:00.",
+        "David dislikes science."
+      ],
+      "answer": 0,
+      "explanation": "The text states the day Saturday and the activity “packs his bag”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-098",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "短对话",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “David cannot find the notebook. A friend points to it.” —Thank you for helping me. —___",
+      "options": [
+        "I do not know your name.",
+        "You are welcome. It is over there.",
+        "Good night. I am sleeping.",
+        "It is Monday yesterday."
+      ],
+      "answer": 1,
+      "explanation": "The reply is polite and continues the situation by showing where the item is."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-099",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "一般现在时",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, David is in the bedroom with a notebook. David likes science. Complete both facts: David ___ his bag at 8:00 and likes science.",
+      "options": [
+        "pack",
+        "packing",
+        "packs",
+        "are"
+      ],
+      "answer": 2,
+      "explanation": "The subject is one person, so “packs” completes the regular activity."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-100",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "疑问词",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, David is in the bedroom with a notebook. David likes science. Read the schedule line: “David is in the bedroom at 8:00.” Which pair of question words asks about the place and then the time?",
+      "options": [
+        "Who; What",
+        "When; Where",
+        "How many; What colour",
+        "Where; When"
+      ],
+      "answer": 3,
+      "explanation": "“Where” asks about a place; “When” asks about a time."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-101",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "时间表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, David is in the bedroom for the science activity. It starts at 8:00 and finishes 30 minutes later. When does it finish?",
+      "options": [
+        "8:30",
+        "8:00",
+        "9:30",
+        "8:15"
+      ],
+      "answer": 0,
+      "explanation": "Thirty minutes after 8:00 is 8:30."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-102",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "日常活动",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read the plan: “First David packs the bag. Then David packs his bag. After that, David reads.” What happens second?",
+      "options": [
+        "packs the bag",
+        "packs his bag",
+        "reads",
+        "goes to sleep before everything"
+      ],
+      "answer": 1,
+      "explanation": "The order word “Then” introduces the second activity: packs his bag."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-103",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "显性信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “On Saturday, David is in the bedroom with a notebook. David likes science. At 8:00, David packs his bag.” Which two facts are both true?",
+      "options": [
+        "David is on a train and has a bike.",
+        "David dislikes science and loses everything.",
+        "David likes science and has a notebook.",
+        "David is at the zoo at midnight."
+      ],
+      "answer": 2,
+      "explanation": "Both facts are directly stated in the text."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-104",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "On Saturday, David is in the bedroom before packs his bag. David needs the notebook, but a classmate is using it. What is the most polite request?",
+      "options": [
+        "Give me the notebook now!",
+        "I never need the notebook.",
+        "What colour is Monday?",
+        "May I use the notebook after you?"
+      ],
+      "answer": 3,
+      "explanation": "“May I...?” is a polite request and “after you” respects the classmate who is using it."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-105",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "句子阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “On Sunday, Helen is in the bedroom with a clock. Helen likes music. At 9:00, Helen goes to bed.” Which sentence gives both the day and the activity?",
+      "options": [
+        "On Sunday, Helen goes to bed.",
+        "Helen has no plan on Sunday.",
+        "Helen only asks about 9:00.",
+        "Helen dislikes music."
+      ],
+      "answer": 0,
+      "explanation": "The text states the day Sunday and the activity “goes to bed”."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-106",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "I have a ___. I use it to read stories.（填 book）",
+      "answer": "book",
+      "explanation": "The word “book” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-107",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—How are you? —I am ___.（填“很好”）",
+      "answer": "fine",
+      "explanation": "The word “fine” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-108",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Tom ___ to school every day.（填 go 的正确形式）",
+      "answer": "goes",
+      "explanation": "The word “goes” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-109",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "___ is your name? My name is Lily.",
+      "answer": "what",
+      "explanation": "The word “what” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-110",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Class starts at eight ___.（填“整点”）",
+      "answer": "o'clock",
+      "explanation": "The word “o'clock” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-111",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "I ___ my teeth every morning.（填 brush）",
+      "answer": "brush",
+      "explanation": "The word “brush” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-112",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “The bag is blue.” The bag is ___.",
+      "answer": "blue",
+      "explanation": "The word “blue” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-113",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "When someone says “Thank you”, you can say “You are ___.”",
+      "answer": "welcome",
+      "explanation": "The word “welcome” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-114",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The cat is under the desk. It is ___ the desk.",
+      "answer": "under",
+      "explanation": "The word “under” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-115",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—Can you swim? —Yes, I ___.",
+      "answer": "can",
+      "explanation": "The word “can” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-116",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Amy ___ English on Mondays.（填 study 的正确形式）",
+      "answer": "studies",
+      "explanation": "The word “studies” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-117",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "___ is my ruler? It is in the bag.",
+      "answer": "where",
+      "explanation": "The word “where” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-118",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "时间表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "7:30 can be read as half past ___.",
+      "answer": "seven",
+      "explanation": "The word “seven” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-119",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "日常活动",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "We have ___ at twelve o’clock.（填 lunch）",
+      "answer": "lunch",
+      "explanation": "The word “lunch” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-120",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "显性信息",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “Ben has two dogs.” Ben has ___ dogs.",
+      "answer": "two",
+      "explanation": "The word “two” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-121",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Before going to bed, we can say “Good ___.”",
+      "answer": "night",
+      "explanation": "The word “night” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-122",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "The children are in the library. They are reading ___.",
+      "answer": "books",
+      "explanation": "The word “books” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-123",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "—What time is it? —It is nine ___.",
+      "answer": "o'clock",
+      "explanation": "The word “o'clock” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-124",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "一般现在时",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "My father ___ breakfast at seven every day.（填 have 的正确形式）",
+      "answer": "has",
+      "explanation": "The word “has” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-125",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "疑问词",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "___ is that girl? She is my sister.",
+      "answer": "who",
+      "explanation": "The word “who” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-126",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "显性信息",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Read: “Lucy goes to the park after lunch.” Lucy goes there ___ lunch.",
+      "answer": "after",
+      "explanation": "The word “after” completes the sentence correctly."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-127",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "句子阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each sentence with its meaning.",
+      "left": [
+        "I am hungry.",
+        "I am thirsty.",
+        "I am tired.",
+        "I am cold."
+      ],
+      "right": [
+        "I want to rest.",
+        "I want some food.",
+        "I need a coat.",
+        "I want some water."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-128",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "短对话",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each question with the best answer.",
+      "left": [
+        "How are you?",
+        "What is your name?",
+        "How old are you?",
+        "Where are you?"
+      ],
+      "right": [
+        "I am nine.",
+        "I am fine.",
+        "I am at school.",
+        "I am Amy."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-129",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "一般现在时",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each subject and verb with the rest of its sentence.",
+      "left": [
+        "I play",
+        "He plays",
+        "We read",
+        "She reads"
+      ],
+      "right": [
+        "books every day",
+        "football after school",
+        "a story at night",
+        "basketball on Friday"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-130",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "疑问词",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each question word with what it asks about.",
+      "left": [
+        "What",
+        "Where",
+        "When",
+        "Who"
+      ],
+      "right": [
+        "a time",
+        "a thing or action",
+        "a person",
+        "a place"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-131",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "时间表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each clock time with its English expression.",
+      "left": [
+        "7:00",
+        "8:30",
+        "12:00",
+        "6:30"
+      ],
+      "right": [
+        "twelve o'clock",
+        "seven o'clock",
+        "half past six",
+        "half past eight"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-132",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "日常活动",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each daily activity with its Chinese meaning.",
+      "left": [
+        "get up",
+        "have breakfast",
+        "go to school",
+        "go to bed"
+      ],
+      "right": [
+        "去上学",
+        "起床",
+        "睡觉",
+        "吃早饭"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-133",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "显性信息",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each sentence with the information it gives.",
+      "left": [
+        "The apple is red.",
+        "The dog is small.",
+        "The book is new.",
+        "The box is heavy."
+      ],
+      "right": [
+        "new book",
+        "red apple",
+        "heavy box",
+        "small dog"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-134",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the classroom language chart. Match each expression with the polite reply.",
+      "left": [
+        "Thank you.",
+        "Good morning.",
+        "I am sorry.",
+        "Goodbye."
+      ],
+      "right": [
+        "That's OK.",
+        "You are welcome.",
+        "See you.",
+        "Good morning."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-135",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "句子阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each sentence with its meaning.",
+      "left": [
+        "I am hungry.",
+        "I am thirsty.",
+        "I am tired.",
+        "I am cold."
+      ],
+      "right": [
+        "I want to rest.",
+        "I want some food.",
+        "I need a coat.",
+        "I want some water."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-136",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "短对话",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each question with the best answer.",
+      "left": [
+        "How are you?",
+        "What is your name?",
+        "How old are you?",
+        "Where are you?"
+      ],
+      "right": [
+        "I am nine.",
+        "I am fine.",
+        "I am at school.",
+        "I am Amy."
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-137",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "一般现在时",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each subject and verb with the rest of its sentence.",
+      "left": [
+        "I play",
+        "He plays",
+        "We read",
+        "She reads"
+      ],
+      "right": [
+        "books every day",
+        "football after school",
+        "a story at night",
+        "basketball on Friday"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-138",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "疑问词",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each question word with what it asks about.",
+      "left": [
+        "What",
+        "Where",
+        "When",
+        "Who"
+      ],
+      "right": [
+        "a time",
+        "a thing or action",
+        "a person",
+        "a place"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-139",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "时间表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each clock time with its English expression.",
+      "left": [
+        "7:00",
+        "8:30",
+        "12:00",
+        "6:30"
+      ],
+      "right": [
+        "twelve o'clock",
+        "seven o'clock",
+        "half past six",
+        "half past eight"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g3-english-authored-140",
+    "subject": "english",
+    "grade": 3,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "日常活动",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "文字可作答"
+    ],
+    "content": {
+      "stem": "Use the weekend reading card and compare all four examples. Match each daily activity with its Chinese meaning.",
+      "left": [
+        "get up",
+        "have breakfast",
+        "go to school",
+        "go to bed"
+      ],
+      "right": [
+        "去上学",
+        "起床",
+        "睡觉",
+        "吃早饭"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+    },
+    "reviewStatus": "approved",
+    "version": 1
+  }
 ]
