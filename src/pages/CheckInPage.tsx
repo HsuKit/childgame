@@ -1,41 +1,63 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useCheckinStore } from '../stores/checkinStore'
 import { StreakBadge } from '../components/checkin/StreakBadge'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from '../stores/authStore'
+import { formatLocalDate, getCalendarCells, getMonthRange, isCurrentMonth, moveMonth } from '../lib/dateUtils'
 
 export default function CheckInPage() {
   const { today, fetchToday, isLoading } = useCheckinStore()
   const userId = useAuthStore(s => s.user?.id)
   const [monthData, setMonthData] = useState<Record<string, boolean>>({})
-  const [viewDate] = useState(() => new Date())
+  const [viewDate, setViewDate] = useState(() => new Date())
+  const [monthLoading, setMonthLoading] = useState(false)
+  const [monthError, setMonthError] = useState<string | null>(null)
+  const requestIdRef = useRef(0)
+  const viewingCurrentMonth = isCurrentMonth(viewDate)
+
+  const goMonth = (delta: number) => {
+    const target = moveMonth(viewDate, delta)
+    if (target > new Date()) return
+    setViewDate(target)
+  }
 
   useEffect(() => { fetchToday() }, [fetchToday])
 
   useEffect(() => {
     if (!userId) return
-    const year = viewDate.getFullYear()
-    const month = viewDate.getMonth()
-    const start = new Date(year, month, 1).toISOString().slice(0, 10)
-    const end = new Date(year, month + 1, 0).toISOString().slice(0, 10)
-    supabase.from('check_ins').select('date,chinese_done,math_done,english_done')
-      .eq('user_id', userId).gte('date', start).lte('date', end)
-      .then(({ data }) => {
-        if (!data) return
+    const requestId = ++requestIdRef.current
+    const { start, end } = getMonthRange(viewDate)
+    setMonthLoading(true)
+    setMonthError(null)
+    setMonthData({})
+    void (async () => {
+      try {
+        const { data, error } = await supabase.from('check_ins').select('date,chinese_done,math_done,english_done')
+          .eq('user_id', userId).gte('date', start).lte('date', end)
+        if (requestId !== requestIdRef.current) return
+        if (error) {
+          setMonthError('日历加载失败，请稍后重试')
+          return
+        }
         const map: Record<string, boolean> = {}
-        data.forEach(r => { map[r.date] = r.chinese_done && r.math_done && r.english_done })
+        data?.forEach(r => { map[r.date] = r.chinese_done && r.math_done && r.english_done })
         setMonthData(map)
-      })
-  }, [userId, viewDate.getMonth()])
+      } catch {
+        if (requestId === requestIdRef.current) setMonthError('日历加载失败，请稍后重试')
+      } finally {
+        if (requestId === requestIdRef.current) setMonthLoading(false)
+      }
+    })()
+    return () => {
+      if (requestIdRef.current === requestId) requestIdRef.current += 1
+    }
+  }, [userId, viewDate])
 
   // Build calendar grid
   const year = viewDate.getFullYear()
   const month = viewDate.getMonth()
-  const firstDay = new Date(year, month, 1).getDay()
-  const daysInMonth = new Date(year, month + 1, 0).getDate()
-  const todayStr = new Date().toISOString().slice(0, 10)
-  const cells: (number | null)[] = Array.from({ length: firstDay }, () => null)
-  for (let d = 1; d <= daysInMonth; d++) cells.push(d)
+  const todayStr = formatLocalDate(new Date())
+  const cells = getCalendarCells(viewDate)
 
   if (isLoading || !today) return <div className="p-6 text-center animate-bounce text-4xl">📅</div>
 
@@ -57,9 +79,22 @@ export default function CheckInPage() {
 
       {/* Calendar */}
       <div className="card">
-        <h2 className="font-extrabold text-center mb-3">
-          {year}年{month + 1}月
-        </h2>
+        <div className="flex items-center justify-between mb-3">
+          <button onClick={() => goMonth(-1)} aria-label="查看上个月" className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 text-lg transition-colors">
+            ←
+          </button>
+          <h2 className="font-extrabold text-center">
+            {year}年{month + 1}月
+          </h2>
+          <button onClick={() => goMonth(1)}
+            aria-label="查看下个月"
+            className={`w-8 h-8 flex items-center justify-center rounded-full text-lg transition-colors ${viewingCurrentMonth ? 'text-gray-300 cursor-default' : 'hover:bg-gray-100'}`}
+            disabled={viewingCurrentMonth}>
+            →
+          </button>
+        </div>
+        {monthLoading && <p className="text-center text-xs text-gray-400 mb-2">正在加载日历...</p>}
+        {monthError && <p className="text-center text-xs text-red-500 mb-2" role="alert">{monthError}</p>}
         <div className="grid grid-cols-7 gap-1 text-center text-xs">
           {['日', '一', '二', '三', '四', '五', '六'].map(d => (
             <div key={d} className="font-bold text-gray-400 py-1">{d}</div>

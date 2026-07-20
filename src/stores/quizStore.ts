@@ -1,9 +1,11 @@
 import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from './authStore'
-import { POINTS, DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
+import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
 import type { Subject } from '../lib/constants'
 import type { Database } from '../lib/database.types'
+import { formatLocalDate, getLocalDayRange } from '../lib/dateUtils'
+import { calculateAnswerReward, countSubjects, isAnswerCorrect, shuffle } from '../lib/quizUtils'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -48,6 +50,7 @@ interface QuizState {
   nextChallengeQuestion: () => void
   getSession: (subject: Subject) => QuizSession | null
   getTodayQuizCount: (subject: Subject) => Promise<number>
+  getTodayStats: () => Promise<{ chinese: number; math: number; english: number; challengeDone: boolean }>
   getTodayChallengeDone: () => Promise<boolean>
   saveQuizRecords: (subject: Subject) => Promise<void>
   saveChallengeRecords: () => Promise<void>
@@ -64,32 +67,36 @@ export const useQuizStore = create<QuizState>((set, get) => ({
 
   startSession: async (subject: Subject) => {
     set({ isLoading: true })
-    const profile = useAuthStore.getState().profile
-    if (!profile) return set({ isLoading: false })
+    try {
+      const profile = useAuthStore.getState().profile
+      if (!profile) return
 
-    if (subject === 'math') {
-      // Mix 8 choice from DB + 2 generated Sudoku
-      const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
-      const { generateSudoku } = await import('../lib/sudokuGenerator')
-      const choiceQs = all ? [...all].sort(() => Math.random() - 0.5).slice(0, 8) : []
-      const gridQs = Array.from({ length: 2 }, (_, i) => ({
-        id: `gen_sudoku_${Date.now()}_${i}`,
-        subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-        content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
-      }))
-      const questions = [...choiceQs, ...gridQs].sort(() => Math.random() - 0.5)
-      if (questions.length === 0) { set({ isLoading: false }); return }
+      const { data: all, error } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
+      if (error) throw error
+
+      if (subject === 'math') {
+        // Mix 8 choice from DB + 2 generated Sudoku
+        const { generateSudoku } = await import('../lib/sudokuGenerator')
+        const choiceQs = shuffle(all || []).slice(0, 8)
+        const gridQs = Array.from({ length: 2 }, (_, i) => ({
+          id: `gen_sudoku_${Date.now()}_${i}`,
+          subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
+          content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
+        }))
+        const questions = shuffle([...choiceQs, ...gridQs])
+        if (questions.length === 0) return
+        const session = createEmptySession(subject, questions)
+        set(state => ({ sessions: { ...state.sessions, [subject]: session } }))
+        return
+      }
+
+      if (!all || all.length === 0) return
+      const questions = shuffle(all).slice(0, Math.min(DAILY_QUESTIONS_PER_SUBJECT, all.length))
       const session = createEmptySession(subject, questions)
-      set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
-      return
+      set(state => ({ sessions: { ...state.sessions, [subject]: session } }))
+    } finally {
+      set({ isLoading: false })
     }
-
-    const { data: all } = await supabase.from('questions').select('*').eq('subject', subject).eq('grade', profile.grade)
-    if (!all || all.length === 0) { set({ isLoading: false }); return }
-    const shuffled = [...all].sort(() => Math.random() - 0.5)
-    const questions = shuffled.slice(0, Math.min(DAILY_QUESTIONS_PER_SUBJECT, all.length))
-    const session = createEmptySession(subject, questions)
-    set(state => ({ sessions: { ...state.sessions, [subject]: session }, isLoading: false }))
   },
 
   answerQuestion: (questionId: string, answer: string | number) => {
@@ -100,21 +107,8 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (!session) continue
       const question = session.questions[session.currentIndex]
       if (!question || question.id !== questionId) continue
-      const content = question.content as any
-      let isCorrect = false
-      if (question.type === 'match' || question.type === 'grid') {
-        isCorrect = answer === 'correct'
-      } else if (question.type === 'fill') {
-        isCorrect = typeof answer === 'string' && content.answer.trim().toLowerCase() === answer.trim().toLowerCase()
-      } else {
-        isCorrect = content.answer === answer
-      }
-      const comboCount = isCorrect ? session.comboCount + 1 : 0
-      let points = isCorrect ? POINTS.CORRECT_ANSWER : 0
-      if (isCorrect && comboCount >= 2) {
-        const bonusIndex = Math.min(comboCount - 2, 2)
-        points += POINTS.COMBO_BONUS[bonusIndex]
-      }
+      const isCorrect = isAnswerCorrect(question.type, question.content, answer)
+      const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
       const record: QuizRecord = { question_id: questionId, subject, is_correct: isCorrect, points_earned: points }
       set(state => ({
         sessions: {
@@ -156,39 +150,57 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   getTodayQuizCount: async (subject: Subject) => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) return 0
-    const today = new Date().toISOString().slice(0, 10)
-    const { count } = await supabase.from('quiz_records').select('*', { count: 'exact', head: true }).eq('user_id', userId).eq('subject', subject).gte('answered_at', today)
+    const { start, end } = getLocalDayRange()
+    const { count, error } = await supabase.from('quiz_records').select('*', { count: 'exact', head: true })
+      .eq('user_id', userId).eq('subject', subject).gte('answered_at', start).lt('answered_at', end)
+    if (error) throw error
     return count ?? 0
+  },
+
+  getTodayStats: async () => {
+    const userId = useAuthStore.getState().user?.id
+    if (!userId) return { chinese: 0, math: 0, english: 0, challengeDone: false }
+    const { start, end } = getLocalDayRange()
+    const today = formatLocalDate(new Date())
+    const [quizRes, checkinRes] = await Promise.all([
+      supabase.from('quiz_records').select('subject').eq('user_id', userId).gte('answered_at', start).lt('answered_at', end),
+      supabase.from('check_ins').select('challenge_done').eq('user_id', userId).eq('date', today).maybeSingle(),
+    ])
+    if (quizRes.error) throw quizRes.error
+    if (checkinRes.error) throw checkinRes.error
+    const counts = countSubjects(quizRes.data || [])
+    return { ...counts, challengeDone: checkinRes.data?.challenge_done ?? false }
   },
 
   startChallenge: async () => {
     set({ isLoading: true })
-    const profile = useAuthStore.getState().profile
-    if (!profile) return set({ isLoading: false })
+    try {
+      const profile = useAuthStore.getState().profile
+      if (!profile) return
 
-    const { generateSudoku } = await import('../lib/sudokuGenerator')
-    const [mathQ, chineseQ, englishQ] = await Promise.all([
-      supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
-      supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
-      supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
-    ])
-    const pick = (arr: any[], n: number) => [...arr].sort(() => Math.random() - 0.5).slice(0, n)
-    const gridQs = Array.from({ length: 3 }, (_, i) => ({
-      id: `gen_ch_sudoku_${Date.now()}_${i}`,
-      subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-      content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
-    }))
-    const allQuestions = [...pick(mathQ.data || [], 7), ...gridQs, ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)]
-    // Shuffle all
-    for (let i = allQuestions.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]]
+      const { generateSudoku } = await import('../lib/sudokuGenerator')
+      const [mathQ, chineseQ, englishQ] = await Promise.all([
+        supabase.from('questions').select('*').eq('subject', 'math').eq('grade', profile.grade),
+        supabase.from('questions').select('*').eq('subject', 'chinese').eq('grade', profile.grade),
+        supabase.from('questions').select('*').eq('subject', 'english').eq('grade', profile.grade),
+      ])
+      if (mathQ.error) throw mathQ.error
+      if (chineseQ.error) throw chineseQ.error
+      if (englishQ.error) throw englishQ.error
+      const pick = (arr: Question[], count: number) => shuffle(arr).slice(0, count)
+      const gridQs = Array.from({ length: 3 }, (_, i) => ({
+        id: `gen_ch_sudoku_${Date.now()}_${i}`,
+        subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
+        content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
+      }))
+      const allQuestions = shuffle([...pick(mathQ.data || [], 7), ...gridQs, ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)])
+      if (allQuestions.length === 0) return
+      set({
+        challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [] },
+      })
+    } finally {
+      set({ isLoading: false })
     }
-    if (allQuestions.length === 0) { set({ isLoading: false }); return }
-    set({
-      challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [] },
-      isLoading: false,
-    })
   },
 
   answerChallengeQuestion: (questionId: string, answer: string | number) => {
@@ -196,21 +208,8 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!session) return false
     const question = session.questions[session.currentIndex]
     if (!question || question.id !== questionId) return false
-    const content = question.content as any
-    let isCorrect = false
-    if (question.type === 'match' || question.type === 'grid') {
-      isCorrect = answer === 'correct'
-    } else if (question.type === 'fill') {
-      isCorrect = typeof answer === 'string' && content.answer.trim().toLowerCase() === answer.trim().toLowerCase()
-    } else {
-      isCorrect = content.answer === answer
-    }
-    const comboCount = isCorrect ? session.comboCount + 1 : 0
-    let points = isCorrect ? POINTS.CORRECT_ANSWER : 0
-    if (isCorrect && comboCount >= 2) {
-      const bonusIndex = Math.min(comboCount - 2, 2)
-      points += POINTS.COMBO_BONUS[bonusIndex]
-    }
+    const isCorrect = isAnswerCorrect(question.type, question.content, answer)
+    const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
     const record: QuizRecord = { question_id: questionId, subject: question.subject, is_correct: isCorrect, points_earned: points }
     set(state => ({
       challengeSession: state.challengeSession ? {
@@ -243,8 +242,9 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   getTodayChallengeDone: async () => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) return false
-    const today = new Date().toISOString().slice(0, 10)
-    const { data } = await supabase.from('check_ins').select('challenge_done').eq('user_id', userId).eq('date', today).maybeSingle()
+    const today = formatLocalDate(new Date())
+    const { data, error } = await supabase.from('check_ins').select('challenge_done').eq('user_id', userId).eq('date', today).maybeSingle()
+    if (error) throw error
     return data?.challenge_done ?? false
   },
 
@@ -253,13 +253,15 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().sessions[subject]
     if (!session || !session.isComplete) return
-    for (const r of session.records) {
-      if (r.question_id.startsWith('gen_')) continue // Skip generated questions (not in DB)
-      await supabase.from('quiz_records').insert({
+    const records = session.records
+      .filter(r => !r.question_id.startsWith('gen_'))
+      .map(r => ({
         user_id: userId, question_id: r.question_id, subject: r.subject,
         is_correct: r.is_correct, points_earned: r.points_earned,
-      })
-    }
+      }))
+    if (records.length === 0) return
+    const { error } = await supabase.from('quiz_records').insert(records)
+    if (error) throw error
   },
 
   saveChallengeRecords: async () => {
@@ -267,12 +269,14 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().challengeSession
     if (!session || !session.isComplete) return
-    for (const r of session.records) {
-      if (r.question_id.startsWith('gen_')) continue // Skip generated questions
-      await supabase.from('quiz_records').insert({
+    const records = session.records
+      .filter(r => !r.question_id.startsWith('gen_'))
+      .map(r => ({
         user_id: userId, question_id: r.question_id, subject: r.subject,
         is_correct: r.is_correct, points_earned: r.points_earned,
-      })
-    }
+      }))
+    if (records.length === 0) return
+    const { error } = await supabase.from('quiz_records').insert(records)
+    if (error) throw error
   },
 }))

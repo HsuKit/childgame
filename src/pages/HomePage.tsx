@@ -14,22 +14,35 @@ import type { Subject } from '../lib/constants'
 
 export default function HomePage() {
   const navigate = useNavigate()
-  const { companion, fetchCompanion } = useCompanionStore()
+  const fetchCompanion = useCompanionStore(s => s.fetchCompanion)
   const { today, fetchToday } = useCheckinStore()
   const { balance, fetchBalance } = usePointsStore()
-  const { getTodayQuizCount, getTodayChallengeDone } = useQuizStore()
+  const { getTodayStats } = useQuizStore()
   const profile = useAuthStore(s => s.profile)
+  const userId = useAuthStore(s => s.user?.id)
   const [quizCounts, setQuizCounts] = useState<Record<Subject, number>>({ chinese: 0, math: 0, english: 0 })
   const [challengeDone, setChallengeDone] = useState(false)
 
-  useEffect(() => { fetchCompanion(); fetchToday(); fetchBalance() }, [fetchCompanion, fetchToday, fetchBalance])
+  useEffect(() => {
+    void Promise.all([fetchCompanion(), fetchToday(), fetchBalance()]).catch(() => {
+      // Individual sections keep their safe initial state when a request fails.
+    })
+  }, [fetchCompanion, fetchToday, fetchBalance])
 
   useEffect(() => {
-    if (companion) {
-      SUBJECTS.forEach(async (s) => { const count = await getTodayQuizCount(s); setQuizCounts(prev => ({ ...prev, [s]: count })) })
-      getTodayChallengeDone().then(setChallengeDone)
-    }
-  }, [companion, getTodayQuizCount, getTodayChallengeDone])
+    if (!userId) return
+    let active = true
+    getTodayStats()
+      .then(stats => {
+        if (!active) return
+        setQuizCounts({ chinese: stats.chinese, math: stats.math, english: stats.english })
+        setChallengeDone(stats.challengeDone)
+      })
+      .catch(() => {
+        // Keep the zero-value fallback so the home page remains usable offline.
+      })
+    return () => { active = false }
+  }, [userId, getTodayStats])
 
   return (
     <div className="p-4 space-y-5 pb-2">
@@ -67,7 +80,7 @@ export default function HomePage() {
             <span className="text-4xl">⚔️</span>
             <div>
               <p className="font-extrabold text-lg">每日挑战</p>
-              <p className="text-sm text-white/80">30题混合闯关 · 通关+100积分</p>
+              <p className="text-sm text-white/80">30题混合闯关 · 通关+200积分</p>
             </div>
             <span className="ml-auto text-2xl">→</span>
           </div>
