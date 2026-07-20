@@ -2,6 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { authorGrade3Subject } from '../author-grade3.mjs'
+import { authorGrade3Chinese } from '../author-grade3-chinese.mjs'
 import { validateQuestion } from '../lib/question-schema.mjs'
 import { auditQuestionSet } from '../lib/question-audit.mjs'
 
@@ -18,3 +19,12 @@ for (const subject of ['math']) {
     assert.equal(questions.every(question => question.reviewStatus === 'reviewed'), true)
   })
 }
+
+test('authors a clean grade-3 chinese collection', () => {
+  const questions = authorGrade3Chinese()
+  const blueprint = { ...config.defaults, knowledgePoints: config.grades['3'].chinese }
+  assert.deepEqual(questions.flatMap(validateQuestion), [])
+  const audit = auditQuestionSet(questions, blueprint)
+  assert.deepEqual(audit.errors, [])
+  assert.deepEqual(audit.warnings, [])
+})

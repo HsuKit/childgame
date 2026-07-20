@@ -1,6 +1,7 @@
 import { writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { authorGrade3Chinese } from './author-grade3-chinese.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const points = ['较大数认识', '乘法', '除法', '分数初步', '质量与时间', '周长与面积', '数据表达', '两步问题', '规律发现']
@@ -177,6 +178,7 @@ function mathMatch(point, i) {
 }
 
 export function authorGrade3Subject(subject) {
+  if (subject === 'chinese') return authorGrade3Chinese()
   if (subject !== 'math') throw new Error(`Grade-3 authoring is not implemented for ${subject} yet.`)
   const questions = []
   let serial = 0
@@ -194,8 +196,10 @@ export function authorGrade3Subject(subject) {
 }
 
 export function main() {
-  const questions = authorGrade3Subject('math')
-  writeFileSync(join(root, 'data/questions/grade3-math.json'), `${JSON.stringify(questions, null, 2)}\n`, 'utf8')
+  for (const subject of ['chinese', 'math']) {
+    const questions = authorGrade3Subject(subject)
+    writeFileSync(join(root, `data/questions/grade3-${subject}.json`), `${JSON.stringify(questions, null, 2)}\n`, 'utf8')
+  }
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main()
