@@ -23,7 +23,7 @@
       "answer": 0,
       "explanation": "12=10+2，所以有1个十和2个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -50,7 +50,7 @@
       "answer": 1,
       "explanation": "8排在7后面，所以8大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -77,7 +77,7 @@
       "answer": 2,
       "explanation": "把5和4合起来是9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -104,7 +104,7 @@
       "answer": 3,
       "explanation": "从14里去掉5，还剩9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -131,7 +131,7 @@
       "answer": 0,
       "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -158,7 +158,7 @@
       "answer": 1,
       "explanation": "钟面的外圈像圆。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -185,7 +185,7 @@
       "answer": 2,
       "explanation": "分针指12表示整时，时针指8就是8时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -212,7 +212,7 @@
       "answer": 3,
       "explanation": "梨有7个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -239,7 +239,7 @@
       "answer": 0,
       "explanation": "求现在一共有多少，用加法：7+4=11个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -266,7 +266,7 @@
       "answer": 1,
       "explanation": "13=10+3，所以有1个十和3个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -293,7 +293,7 @@
       "answer": 2,
       "explanation": "9排在8后面，所以9大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -320,7 +320,7 @@
       "answer": 3,
       "explanation": "把6和5合起来是11。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -347,7 +347,7 @@
       "answer": 0,
       "explanation": "从15里去掉6，还剩9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -374,7 +374,7 @@
       "answer": 1,
       "explanation": "书包在椅子下面，椅子就在书包上面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -401,7 +401,7 @@
       "answer": 2,
       "explanation": "三角形有3条边和3个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -428,7 +428,7 @@
       "answer": 3,
       "explanation": "分针指12表示整时，时针指9就是9时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -455,7 +455,7 @@
       "answer": 0,
       "explanation": "梨有8个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -482,7 +482,7 @@
       "answer": 1,
       "explanation": "求现在一共有多少，用加法：8+5=13个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -509,7 +509,7 @@
       "answer": 2,
       "explanation": "14=10+4，所以有1个十和4个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -536,7 +536,7 @@
       "answer": 3,
       "explanation": "10排在9后面，所以10大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -563,7 +563,7 @@
       "answer": 0,
       "explanation": "把7和6合起来是13。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -590,7 +590,7 @@
       "answer": 1,
       "explanation": "从16里去掉7，还剩9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -617,7 +617,7 @@
       "answer": 2,
       "explanation": "两个物体左右位置相反，小狗在小猫右边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -644,7 +644,7 @@
       "answer": 3,
       "explanation": "书本封面通常像长方形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -671,7 +671,7 @@
       "answer": 0,
       "explanation": "分针指12表示整时，时针指10就是10时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 1,
       "explanation": "梨有5个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -725,7 +725,7 @@
       "answer": 2,
       "explanation": "求现在一共有多少，用加法：9+6=15个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -752,7 +752,7 @@
       "answer": 3,
       "explanation": "15=10+5，所以有1个十和5个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -779,7 +779,7 @@
       "answer": 0,
       "explanation": "11排在10后面，所以11大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -806,7 +806,7 @@
       "answer": 1,
       "explanation": "把8和2合起来是10。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -833,7 +833,7 @@
       "answer": 2,
       "explanation": "从17里去掉3，还剩14。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -860,7 +860,7 @@
       "answer": 3,
       "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -887,7 +887,7 @@
       "answer": 0,
       "explanation": "正方形的4条边一样长。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -914,7 +914,7 @@
       "answer": 1,
       "explanation": "分针指12表示整时，时针指11就是11时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -941,7 +941,7 @@
       "answer": 2,
       "explanation": "梨有6个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -968,7 +968,7 @@
       "answer": 3,
       "explanation": "求现在一共有多少，用加法：10+2=12个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -995,7 +995,7 @@
       "answer": 0,
       "explanation": "16=10+6，所以有1个十和6个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1022,7 +1022,7 @@
       "answer": 1,
       "explanation": "12排在11后面，所以12大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1049,7 +1049,7 @@
       "answer": 2,
       "explanation": "把3和3合起来是6。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1076,7 +1076,7 @@
       "answer": 3,
       "explanation": "从18里去掉4，还剩14。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1103,7 +1103,7 @@
       "answer": 0,
       "explanation": "书包在椅子下面，椅子就在书包上面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1130,7 +1130,7 @@
       "answer": 1,
       "explanation": "硬币的平面外形像圆。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1157,7 +1157,7 @@
       "answer": 2,
       "explanation": "分针指12表示整时，时针指6就是6时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1184,7 +1184,7 @@
       "answer": 3,
       "explanation": "梨有7个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1211,7 +1211,7 @@
       "answer": 0,
       "explanation": "求现在一共有多少，用加法：11+3=14个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1238,7 +1238,7 @@
       "answer": 1,
       "explanation": "17=10+7，所以有1个十和7个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1265,7 +1265,7 @@
       "answer": 2,
       "explanation": "13排在12后面，所以13大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1292,7 +1292,7 @@
       "answer": 3,
       "explanation": "把4和4合起来是8。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1319,7 +1319,7 @@
       "answer": 0,
       "explanation": "从12里去掉5，还剩7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1346,7 +1346,7 @@
       "answer": 1,
       "explanation": "两个物体左右位置相反，小狗在小猫右边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1373,7 +1373,7 @@
       "answer": 2,
       "explanation": "尖屋顶的轮廓常像三角形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 3,
       "explanation": "分针指12表示整时，时针指7就是7时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1427,7 +1427,7 @@
       "answer": 0,
       "explanation": "梨有8个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1454,7 +1454,7 @@
       "answer": 1,
       "explanation": "求现在一共有多少，用加法：5+4=9个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1481,7 +1481,7 @@
       "answer": 2,
       "explanation": "18=10+8，所以有1个十和8个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1508,7 +1508,7 @@
       "answer": 3,
       "explanation": "14排在13后面，所以14大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1535,7 +1535,7 @@
       "answer": 0,
       "explanation": "把5和5合起来是10。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1562,7 +1562,7 @@
       "answer": 1,
       "explanation": "从13里去掉6，还剩7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1589,7 +1589,7 @@
       "answer": 2,
       "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1616,7 +1616,7 @@
       "answer": 3,
       "explanation": "门的正面通常像长方形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1643,7 +1643,7 @@
       "answer": 0,
       "explanation": "分针指12表示整时，时针指8就是8时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1670,7 +1670,7 @@
       "answer": 1,
       "explanation": "梨有5个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1697,7 +1697,7 @@
       "answer": 2,
       "explanation": "求现在一共有多少，用加法：6+5=11个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1724,7 +1724,7 @@
       "answer": 3,
       "explanation": "19=10+9，所以有1个十和9个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1751,7 +1751,7 @@
       "answer": 0,
       "explanation": "15排在14后面，所以15大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1778,7 +1778,7 @@
       "answer": 1,
       "explanation": "把6和6合起来是12。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1805,7 +1805,7 @@
       "answer": 2,
       "explanation": "从14里去掉7，还剩7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1832,7 +1832,7 @@
       "answer": 3,
       "explanation": "书包在椅子下面，椅子就在书包上面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1859,7 +1859,7 @@
       "answer": 0,
       "explanation": "小方格是正方形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1886,7 +1886,7 @@
       "answer": 1,
       "explanation": "分针指12表示整时，时针指9就是9时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1913,7 +1913,7 @@
       "answer": 2,
       "explanation": "梨有6个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1940,7 +1940,7 @@
       "answer": 3,
       "explanation": "求现在一共有多少，用加法：7+6=13个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1967,7 +1967,7 @@
       "answer": 0,
       "explanation": "10=10+0，所以有1个十和0个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1994,7 +1994,7 @@
       "answer": 1,
       "explanation": "16排在15后面，所以16大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2021,7 +2021,7 @@
       "answer": 2,
       "explanation": "把7和2合起来是9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2048,7 +2048,7 @@
       "answer": 3,
       "explanation": "从15里去掉3，还剩12。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2075,7 +2075,7 @@
       "answer": 0,
       "explanation": "两个物体左右位置相反，小狗在小猫右边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 1,
       "explanation": "边弯曲且没有角的平面图形是圆。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2129,7 +2129,7 @@
       "answer": 2,
       "explanation": "分针指12表示整时，时针指10就是10时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2156,7 +2156,7 @@
       "answer": 3,
       "explanation": "梨有7个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2183,7 +2183,7 @@
       "answer": 0,
       "explanation": "求现在一共有多少，用加法：8+2=10个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2210,7 +2210,7 @@
       "answer": 1,
       "explanation": "11=10+1，所以有1个十和1个一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2237,7 +2237,7 @@
       "answer": 2,
       "explanation": "17排在16后面，所以17大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2264,7 +2264,7 @@
       "answer": 3,
       "explanation": "把8和3合起来是11。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2291,7 +2291,7 @@
       "answer": 0,
       "explanation": "从16里去掉4，还剩12。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2318,7 +2318,7 @@
       "answer": 1,
       "explanation": "小鸟在树枝上面，树枝就在小鸟下面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2345,7 +2345,7 @@
       "answer": 2,
       "explanation": "3根直小棒首尾相连能围成三角形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2372,7 +2372,7 @@
       "answer": 3,
       "explanation": "分针指12表示整时，时针指11就是11时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2399,7 +2399,7 @@
       "answer": 0,
       "explanation": "梨有8个，数量最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2426,7 +2426,7 @@
       "answer": 1,
       "explanation": "只需一次加法：9+3=12，12比20小，没有超过限坐人数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2453,7 +2453,7 @@
       "answer": 2,
       "explanation": "同时符合两个条件的数是13。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2480,7 +2480,7 @@
       "answer": 3,
       "explanation": "小明有17+2=19颗，比17颗多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2507,7 +2507,7 @@
       "answer": 0,
       "explanation": "用总数减原有数：9-3=6支。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2534,7 +2534,7 @@
       "answer": 1,
       "explanation": "用原有数减剩下数：17-11=6个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2561,7 +2561,7 @@
       "answer": 2,
       "explanation": "排第5，前面也就是左边有4个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2588,7 +2588,7 @@
       "answer": 3,
       "explanation": "正方形有4条一样长的直边和4个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2615,7 +2615,7 @@
       "answer": 0,
       "explanation": "6时过1小时是7时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2642,7 +2642,7 @@
       "answer": 1,
       "explanation": "5-3=2个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2669,7 +2669,7 @@
       "answer": 2,
       "explanation": "只需一次加法：10+4=14，14比20小，没有超过限坐人数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2696,7 +2696,7 @@
       "answer": 3,
       "explanation": "同时符合两个条件的数是14。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2723,7 +2723,7 @@
       "answer": 0,
       "explanation": "小明有18+2=20颗，比18颗多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2750,7 +2750,7 @@
       "answer": 1,
       "explanation": "用总数减原有数：11-4=7支。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2777,7 +2777,7 @@
       "answer": 2,
       "explanation": "用原有数减剩下数：18-11=7个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2804,7 +2804,7 @@
       "answer": 3,
       "explanation": "排第6，前面也就是左边有5个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2831,7 +2831,7 @@
       "answer": 0,
       "explanation": "三角形有3条直边和3个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2852,7 +2852,7 @@
       "answer": "8",
       "explanation": "分针指12表示整时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2873,7 +2873,7 @@
       "answer": "红",
       "explanation": "5比3大，所以红球多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2894,7 +2894,7 @@
       "answer": "10",
       "explanation": "求一共用加法。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2915,7 +2915,7 @@
       "answer": "5",
       "explanation": "15由1个十和5个一组成。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2936,7 +2936,7 @@
       "answer": "大",
       "explanation": "后一个数比前一个数大1。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2957,7 +2957,7 @@
       "answer": "7",
       "explanation": "把两个数合起来。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2978,7 +2978,7 @@
       "answer": "10",
       "explanation": "从总数中去掉3。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2999,7 +2999,7 @@
       "answer": "左",
       "explanation": "从左开始数，第1个在最左边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3020,7 +3020,7 @@
       "answer": "3",
       "explanation": "三角形有3条边和3个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3041,7 +3041,7 @@
       "answer": "8",
       "explanation": "分针指12表示整时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3062,7 +3062,7 @@
       "answer": "红",
       "explanation": "5比3大，所以红球多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3083,7 +3083,7 @@
       "answer": "19",
       "explanation": "求一共用加法。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3104,7 +3104,7 @@
       "answer": "5",
       "explanation": "15由1个十和5个一组成。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3125,7 +3125,7 @@
       "answer": "大",
       "explanation": "后一个数比前一个数大1。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "11",
       "explanation": "把两个数合起来。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3167,7 +3167,7 @@
       "answer": "9",
       "explanation": "从总数中去掉3。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3188,7 +3188,7 @@
       "answer": "左",
       "explanation": "从左开始数，第1个在最左边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3209,7 +3209,7 @@
       "answer": "3",
       "explanation": "三角形有3条边和3个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3230,7 +3230,7 @@
       "answer": "8",
       "explanation": "分针指12表示整时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3251,7 +3251,7 @@
       "answer": "红",
       "explanation": "5比3大，所以红球多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3272,7 +3272,7 @@
       "answer": "28",
       "explanation": "求一共用加法。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3322,7 +3322,7 @@
       ],
       "explanation": "根据数的认识的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3372,7 +3372,7 @@
       ],
       "explanation": "根据数的比较的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3422,7 +3422,7 @@
       ],
       "explanation": "根据基本加法的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3472,7 +3472,7 @@
       ],
       "explanation": "根据基本减法的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3522,7 +3522,7 @@
       ],
       "explanation": "根据位置与顺序的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3572,7 +3572,7 @@
       ],
       "explanation": "根据常见图形的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3622,7 +3622,7 @@
       ],
       "explanation": "根据钟表初步的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3672,7 +3672,7 @@
       ],
       "explanation": "根据分类统计的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3722,7 +3722,7 @@
       ],
       "explanation": "根据一步问题的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3772,7 +3772,7 @@
       ],
       "explanation": "根据数的认识的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3822,7 +3822,7 @@
       ],
       "explanation": "根据数的比较的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3872,7 +3872,7 @@
       ],
       "explanation": "根据基本加法的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3922,7 +3922,7 @@
       ],
       "explanation": "根据基本减法的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3972,7 +3972,7 @@
       ],
       "explanation": "根据位置与顺序的基础知识逐项配对。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

@@ -23,7 +23,7 @@
       "answer": 0,
       "explanation": "“cat” begins with c."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -50,7 +50,7 @@
       "answer": 1,
       "explanation": "“Good morning!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -77,7 +77,7 @@
       "answer": 2,
       "explanation": "“three” means 3."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -104,7 +104,7 @@
       "answer": 3,
       "explanation": "“red” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -131,7 +131,7 @@
       "answer": 0,
       "explanation": "“mother” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -158,7 +158,7 @@
       "answer": 1,
       "explanation": "“classroom” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -185,7 +185,7 @@
       "answer": 2,
       "explanation": "“Open your book.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -212,7 +212,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -239,7 +239,7 @@
       "answer": 0,
       "explanation": "“dog” begins with d."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -266,7 +266,7 @@
       "answer": 1,
       "explanation": "“Hello!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -293,7 +293,7 @@
       "answer": 2,
       "explanation": "“five” means 5."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -320,7 +320,7 @@
       "answer": 3,
       "explanation": "“blue” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -347,7 +347,7 @@
       "answer": 0,
       "explanation": "“father” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -374,7 +374,7 @@
       "answer": 1,
       "explanation": "“library” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -401,7 +401,7 @@
       "answer": 2,
       "explanation": "“Put down your ruler.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -428,7 +428,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -455,7 +455,7 @@
       "answer": 0,
       "explanation": "“fish” begins with f."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -482,7 +482,7 @@
       "answer": 1,
       "explanation": "“I am fine, thank you.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -509,7 +509,7 @@
       "answer": 2,
       "explanation": "“two” means 2."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -536,7 +536,7 @@
       "answer": 3,
       "explanation": "“green” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -563,7 +563,7 @@
       "answer": 0,
       "explanation": "“sister” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -590,7 +590,7 @@
       "answer": 1,
       "explanation": "“playground” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -617,7 +617,7 @@
       "answer": 2,
       "explanation": "“Touch the ball.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -644,7 +644,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -671,7 +671,7 @@
       "answer": 0,
       "explanation": "“bag” begins with b."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -698,7 +698,7 @@
       "answer": 1,
       "explanation": "“Good afternoon!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -725,7 +725,7 @@
       "answer": 2,
       "explanation": "“six” means 6."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -752,7 +752,7 @@
       "answer": 3,
       "explanation": "“yellow” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -779,7 +779,7 @@
       "answer": 0,
       "explanation": "“brother” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -806,7 +806,7 @@
       "answer": 1,
       "explanation": "“art room” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -833,7 +833,7 @@
       "answer": 2,
       "explanation": "“Pick up your pencil.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -860,7 +860,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -887,7 +887,7 @@
       "answer": 0,
       "explanation": "“pen” begins with p."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -914,7 +914,7 @@
       "answer": 1,
       "explanation": "“My name is Amy.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -941,7 +941,7 @@
       "answer": 2,
       "explanation": "“four” means 4."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -968,7 +968,7 @@
       "answer": 3,
       "explanation": "“black” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -995,7 +995,7 @@
       "answer": 0,
       "explanation": "“grandmother” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1022,7 +1022,7 @@
       "answer": 1,
       "explanation": "“music room” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1049,7 +1049,7 @@
       "answer": 2,
       "explanation": "“Stand by the desk.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1076,7 +1076,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1103,7 +1103,7 @@
       "answer": 0,
       "explanation": "“sun” begins with s."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1130,7 +1130,7 @@
       "answer": 1,
       "explanation": "“Nice to meet you, too.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1157,7 +1157,7 @@
       "answer": 2,
       "explanation": "“eight” means 8."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1184,7 +1184,7 @@
       "answer": 3,
       "explanation": "“orange” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1211,7 +1211,7 @@
       "answer": 0,
       "explanation": "“grandfather” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1238,7 +1238,7 @@
       "answer": 1,
       "explanation": "“school gate” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1265,7 +1265,7 @@
       "answer": 2,
       "explanation": "“Sit on the chair.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1292,7 +1292,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1319,7 +1319,7 @@
       "answer": 0,
       "explanation": "“map” begins with m."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1346,7 +1346,7 @@
       "answer": 1,
       "explanation": "“Goodbye!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1373,7 +1373,7 @@
       "answer": 2,
       "explanation": "“seven” means 7."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1400,7 +1400,7 @@
       "answer": 3,
       "explanation": "“white” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1427,7 +1427,7 @@
       "answer": 0,
       "explanation": "“baby” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1454,7 +1454,7 @@
       "answer": 1,
       "explanation": "“reading corner” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1481,7 +1481,7 @@
       "answer": 2,
       "explanation": "“Look at the map.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1508,7 +1508,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1535,7 +1535,7 @@
       "answer": 0,
       "explanation": "“red” begins with r."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1562,7 +1562,7 @@
       "answer": 1,
       "explanation": "“Good evening!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1589,7 +1589,7 @@
       "answer": 2,
       "explanation": "“nine” means 9."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1616,7 +1616,7 @@
       "answer": 3,
       "explanation": "“purple” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1643,7 +1643,7 @@
       "answer": 0,
       "explanation": "“uncle” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1670,7 +1670,7 @@
       "answer": 1,
       "explanation": "“computer room” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1697,7 +1697,7 @@
       "answer": 2,
       "explanation": "“Point to the computer.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1724,7 +1724,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1751,7 +1751,7 @@
       "answer": 0,
       "explanation": "“kite” begins with k."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1778,7 +1778,7 @@
       "answer": 1,
       "explanation": "“You are welcome.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1805,7 +1805,7 @@
       "answer": 2,
       "explanation": "“ten” means 10."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1832,7 +1832,7 @@
       "answer": 3,
       "explanation": "“pink” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1859,7 +1859,7 @@
       "answer": 0,
       "explanation": "“aunt” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1886,7 +1886,7 @@
       "answer": 1,
       "explanation": "“school hall” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1913,7 +1913,7 @@
       "answer": 2,
       "explanation": "“Show me the kite.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1940,7 +1940,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1967,7 +1967,7 @@
       "answer": 0,
       "explanation": "“hat” begins with h."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1994,7 +1994,7 @@
       "answer": 1,
       "explanation": "“That’s OK.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2021,7 +2021,7 @@
       "answer": 2,
       "explanation": "“one” means 1."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2048,7 +2048,7 @@
       "answer": 3,
       "explanation": "“brown” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2075,7 +2075,7 @@
       "answer": 0,
       "explanation": "“cousin” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2102,7 +2102,7 @@
       "answer": 1,
       "explanation": "“garden” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2129,7 +2129,7 @@
       "answer": 2,
       "explanation": "“Put on your hat.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2156,7 +2156,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2183,7 +2183,7 @@
       "answer": 0,
       "explanation": "“leg” begins with l."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2210,7 +2210,7 @@
       "answer": 1,
       "explanation": "“Yes, please.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2237,7 +2237,7 @@
       "answer": 2,
       "explanation": "“eleven” means 11."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2264,7 +2264,7 @@
       "answer": 3,
       "explanation": "“grey” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2291,7 +2291,7 @@
       "answer": 0,
       "explanation": "“parents” is a family word."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2318,7 +2318,7 @@
       "answer": 1,
       "explanation": "“dining room” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2345,7 +2345,7 @@
       "answer": 2,
       "explanation": "“Hold the cup.” tells someone what to do."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2372,7 +2372,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2399,7 +2399,7 @@
       "answer": 0,
       "explanation": "“nose” begins with n."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2426,7 +2426,7 @@
       "answer": 1,
       "explanation": "“Yes, come in.” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2453,7 +2453,7 @@
       "answer": 2,
       "explanation": "12 is written “twelve”."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2480,7 +2480,7 @@
       "answer": 3,
       "explanation": "“gold” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2507,7 +2507,7 @@
       "answer": 0,
       "explanation": "“family” matches the family clue “people at home who care for one another”."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2534,7 +2534,7 @@
       "answer": 1,
       "explanation": "“teachers’ office” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2561,7 +2561,7 @@
       "answer": 2,
       "explanation": "The instruction names the notebook."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2588,7 +2588,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2615,7 +2615,7 @@
       "answer": 0,
       "explanation": "“van” begins with the letter v and the sound /v/."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2642,7 +2642,7 @@
       "answer": 1,
       "explanation": "“See you!” is a natural reply in this situation."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2669,7 +2669,7 @@
       "answer": 2,
       "explanation": "13 is written “thirteen”."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2696,7 +2696,7 @@
       "answer": 3,
       "explanation": "“silver” is the colour word in the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2723,7 +2723,7 @@
       "answer": 0,
       "explanation": "“son” matches the family clue “a boy in a family”."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2750,7 +2750,7 @@
       "answer": 1,
       "explanation": "“sports field” names the school place for this activity."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2777,7 +2777,7 @@
       "answer": 2,
       "explanation": "The instruction names the flag."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2804,7 +2804,7 @@
       "answer": 3,
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2831,7 +2831,7 @@
       "answer": 0,
       "explanation": "“zoo” begins with the letter z and the sound /z/."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2852,7 +2852,7 @@
       "answer": "b",
       "explanation": "The word “b” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2873,7 +2873,7 @@
       "answer": "hello",
       "explanation": "The word “hello” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2894,7 +2894,7 @@
       "answer": "five",
       "explanation": "The word “five” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2915,7 +2915,7 @@
       "answer": "green",
       "explanation": "The word “green” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2936,7 +2936,7 @@
       "answer": "parents",
       "explanation": "The word “parents” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2957,7 +2957,7 @@
       "answer": "library",
       "explanation": "The word “library” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2978,7 +2978,7 @@
       "answer": "open",
       "explanation": "The word “open” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2999,7 +2999,7 @@
       "answer": "red",
       "explanation": "The word “red” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3020,7 +3020,7 @@
       "answer": "d",
       "explanation": "The word “d” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3041,7 +3041,7 @@
       "answer": "welcome",
       "explanation": "The word “welcome” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3062,7 +3062,7 @@
       "answer": "eleven",
       "explanation": "The word “eleven” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3083,7 +3083,7 @@
       "answer": "blue",
       "explanation": "The word “blue” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3104,7 +3104,7 @@
       "answer": "grandmother",
       "explanation": "The word “grandmother” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3125,7 +3125,7 @@
       "answer": "playground",
       "explanation": "The word “playground” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3146,7 +3146,7 @@
       "answer": "sit",
       "explanation": "The word “sit” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3167,7 +3167,7 @@
       "answer": "three",
       "explanation": "The word “three” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3188,7 +3188,7 @@
       "answer": "s",
       "explanation": "The word “s” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3209,7 +3209,7 @@
       "answer": "fine",
       "explanation": "The word “fine” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3230,7 +3230,7 @@
       "answer": "eleven",
       "explanation": "The word “eleven” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3251,7 +3251,7 @@
       "answer": "look",
       "explanation": "The word “look” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3272,7 +3272,7 @@
       "answer": "bag",
       "explanation": "The word “bag” completes the sentence correctly."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3322,7 +3322,7 @@
       ],
       "explanation": "Compare the meaning of all four 字母与声音 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3372,7 +3372,7 @@
       ],
       "explanation": "Compare the meaning of all four 日常问候 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3422,7 +3422,7 @@
       ],
       "explanation": "Compare the meaning of all four 数字 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3472,7 +3472,7 @@
       ],
       "explanation": "Compare the meaning of all four 颜色 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3522,7 +3522,7 @@
       ],
       "explanation": "Compare the meaning of all four 家庭 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3572,7 +3572,7 @@
       ],
       "explanation": "Compare the meaning of all four 学校 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3622,7 +3622,7 @@
       ],
       "explanation": "Compare the meaning of all four 课堂指令 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3672,7 +3672,7 @@
       ],
       "explanation": "Compare the meaning of all four 图文匹配 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3722,7 +3722,7 @@
       ],
       "explanation": "Compare the meaning of all four 字母与声音 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3772,7 +3772,7 @@
       ],
       "explanation": "Compare the meaning of all four 日常问候 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3822,7 +3822,7 @@
       ],
       "explanation": "Compare the meaning of all four 数字 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3872,7 +3872,7 @@
       ],
       "explanation": "Compare the meaning of all four 颜色 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3922,7 +3922,7 @@
       ],
       "explanation": "Compare the meaning of all four 家庭 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3972,7 +3972,7 @@
       ],
       "explanation": "Compare the meaning of all four 学校 items."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]
