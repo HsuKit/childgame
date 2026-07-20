@@ -1,22 +1,3838 @@
 [
-  {"stem":"2.5 × 3.2 = ?","options":["7.5","8.0","8.5","9.0"],"answer":1},
-  {"stem":"圆的直径10cm，半径是多少？","options":["2.5cm","5cm","10cm","20cm"],"answer":1},
-  {"stem":"1/5 = ?%","options":["5%","15%","20%","25%"],"answer":2},
-  {"stem":"3.14 × 10 = ?","options":["31.4","30.4","32.4","33.4"],"answer":0},
-  {"stem":"一个数既是2的倍数又是5的倍数，个位一定是？","options":["0","2","5","任意数"],"answer":0},
-  {"stem":"把3/5化成小数是？","options":["0.3","0.5","0.6","0.35"],"answer":2},
-  {"stem":"梯形的面积公式是？","options":["底×高","底×高÷2","(上底+下底)×高÷2","长×宽"],"answer":2},
-  {"stem":"45和30的最大公因数是？","options":["5","10","15","30"],"answer":2},
-  {"stem":"一个长方体长5cm宽4cm高3cm，体积是？","options":["50cm³","55cm³","60cm³","65cm³"],"answer":2,"explanation":"5×4×3=60"},
-  {"stem":"2.5小时是多少分钟？","options":["120","130","150","160"],"answer":2},
-  {"stem":"等腰三角形的一个底角是40°，顶角是？","options":["80°","90°","100°","110°"],"answer":2,"explanation":"180-40×2=100°"},
-  {"stem":"既是质数又是偶数的数是？","options":["1","2","3","4"],"answer":1},
-  {"stem":"5/6的分子加上10，要使分数值不变，分母应？","options":["加10","乘2","加12","乘3"],"answer":2,"explanation":"分子5+10=15=5×3，分母也×3→18=6+12"},
-  {"stem":"2000年第一季度有多少天？","options":["89天","90天","91天","92天"],"answer":2,"explanation":"2000是闰年，31+29+31=91"},
-  {"stem":"x+3=10，x=？","options":["5","6","7","8"],"answer":2},
-  {"stem":"一个数的小数点向右移一位后比原数大12.6，原数是？","options":["1.2","1.4","1.6","1.26"],"answer":1,"explanation":"10x-x=12.6,x=1.4"},
-  {"stem":"用12个相同小正方体拼长方体，有几种拼法？","options":["2","3","4","5"],"answer":1,"explanation":"1×12,2×6,3×4三种"},
-  {"stem":"小明从1楼爬到5楼用了80秒，每层用时相同，爬一层要多久？","options":["16秒","20秒","25秒","40秒"],"answer":1,"explanation":"爬了4层,80÷4=20"},
-  {"stem":"a=2×3×5，a的因数有几个？","options":["5","6","7","8"],"answer":3,"explanation":"(1+1)×(1+1)×(1+1)=8个"},
-  {"stem":"把10克盐溶入100克水中，盐水浓度是？","options":["10%","约9.1%","约11%","约8.3%"],"answer":1,"explanation":"10÷110≈9.1%"}
+  {
+    "id": "g5-math-authored-001",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：9.0+2.6=？",
+      "options": [
+        "11.6元",
+        "20.6元",
+        "9.0元",
+        "12.6元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是11.6元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-002",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：同分母分数3/16+4/16=？",
+      "options": [
+        "1/16",
+        "7/16",
+        "7/17",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：3/16+4/16=7/16。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-003",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：32是16的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "32=16×2，所以32是16的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-004",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：解方程x+10=17，x=？",
+      "options": [
+        "17",
+        "10",
+        "-3",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减10，得到x=7。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-005",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：三角形标志底10厘米、高7厘米，面积是多少？",
+      "options": [
+        "35平方厘米",
+        "70平方厘米",
+        "17平方厘米",
+        "42平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=10×7÷2=35平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-006",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：长方体盒子长6厘米、宽5厘米、高7厘米，体积是多少？",
+      "options": [
+        "30立方厘米",
+        "210立方厘米",
+        "18立方厘米",
+        "217立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=210立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-007",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：四天记录为14、17、20、13，平均数是多少？",
+      "options": [
+        "64",
+        "18",
+        "16",
+        "17"
+      ],
+      "answer": 2,
+      "explanation": "总数64除以4，平均数是16。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-008",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园劳动周：每件作品8元，买6件共多少元？",
+      "options": [
+        "14元",
+        "40元",
+        "54元",
+        "48元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=8×6=48元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-009",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：9.3+2.6=？",
+      "options": [
+        "11.9元",
+        "21.2元",
+        "9.3元",
+        "12.9元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是11.9元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-010",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：同分母分数1/8+5/8=？",
+      "options": [
+        "1/2",
+        "3/4",
+        "6/9",
+        "7/8"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：1/8+5/8=3/4。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-011",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：36是18的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "36=18×2，所以36是18的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-012",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：解方程x+11=19，x=？",
+      "options": [
+        "19",
+        "11",
+        "-3",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减11，得到x=8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-013",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：三角形标志底11厘米、高8厘米，面积是多少？",
+      "options": [
+        "44平方厘米",
+        "88平方厘米",
+        "19平方厘米",
+        "52平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=11×8÷2=44平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-014",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：长方体盒子长7厘米、宽3厘米、高8厘米，体积是多少？",
+      "options": [
+        "21立方厘米",
+        "168立方厘米",
+        "18立方厘米",
+        "176立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=168立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-015",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：四天记录为15、18、21、14，平均数是多少？",
+      "options": [
+        "68",
+        "19",
+        "17",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "总数68除以4，平均数是17。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-016",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区图书角：每件作品9元，买4件共多少元？",
+      "options": [
+        "13元",
+        "27元",
+        "40元",
+        "36元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=9×4=36元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-017",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：9.6+2.6=？",
+      "options": [
+        "12.2元",
+        "21.8元",
+        "9.6元",
+        "13.2元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是12.2元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-018",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：同分母分数2/12+2/12=？",
+      "options": [
+        "0/1",
+        "1/3",
+        "4/13",
+        "5/12"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：2/12+2/12=1/3。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-019",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：40是20的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "40=20×2，所以40是20的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-020",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：解方程x+12=21，x=？",
+      "options": [
+        "21",
+        "12",
+        "-3",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减12，得到x=9。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-021",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：三角形标志底12厘米、高5厘米，面积是多少？",
+      "options": [
+        "30平方厘米",
+        "60平方厘米",
+        "17平方厘米",
+        "35平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=12×5÷2=30平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-022",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：长方体盒子长4厘米、宽4厘米、高9厘米，体积是多少？",
+      "options": [
+        "16立方厘米",
+        "144立方厘米",
+        "17立方厘米",
+        "153立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=144立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-023",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：四天记录为16、19、22、15，平均数是多少？",
+      "options": [
+        "72",
+        "20",
+        "18",
+        "19"
+      ],
+      "answer": 2,
+      "explanation": "总数72除以4，平均数是18。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-024",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技节展台：每件作品10元，买5件共多少元？",
+      "options": [
+        "15元",
+        "40元",
+        "55元",
+        "50元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=10×5=50元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-025",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：9.9+2.6=？",
+      "options": [
+        "12.5元",
+        "22.4元",
+        "9.9元",
+        "13.5元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是12.5元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-026",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：同分母分数3/16+3/16=？",
+      "options": [
+        "0/1",
+        "3/8",
+        "6/17",
+        "7/16"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：3/16+3/16=3/8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-027",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：44是22的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "44=22×2，所以44是22的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-028",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：解方程x+8=18，x=？",
+      "options": [
+        "18",
+        "8",
+        "2",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减8，得到x=10。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-029",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：三角形标志底13厘米、高6厘米，面积是多少？",
+      "options": [
+        "39平方厘米",
+        "78平方厘米",
+        "19平方厘米",
+        "45平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=13×6÷2=39平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-030",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：长方体盒子长5厘米、宽5厘米、高5厘米，体积是多少？",
+      "options": [
+        "25立方厘米",
+        "125立方厘米",
+        "15立方厘米",
+        "130立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=125立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-031",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：四天记录为17、20、23、16，平均数是多少？",
+      "options": [
+        "76",
+        "21",
+        "19",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "总数76除以4，平均数是19。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-032",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节水调查：每件作品11元，买6件共多少元？",
+      "options": [
+        "17元",
+        "55元",
+        "72元",
+        "66元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=11×6=66元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-033",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：10.2+2.6=？",
+      "options": [
+        "12.8元",
+        "23.0元",
+        "10.2元",
+        "13.8元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是12.8元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-034",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：同分母分数1/8+4/8=？",
+      "options": [
+        "3/8",
+        "5/8",
+        "5/9",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：1/8+4/8=5/8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-035",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：48是24的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "48=24×2，所以48是24的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-036",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：解方程x+9=20，x=？",
+      "options": [
+        "20",
+        "9",
+        "2",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减9，得到x=11。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-037",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：三角形标志底14厘米、高7厘米，面积是多少？",
+      "options": [
+        "49平方厘米",
+        "98平方厘米",
+        "21平方厘米",
+        "56平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=14×7÷2=49平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-038",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：长方体盒子长6厘米、宽3厘米、高6厘米，体积是多少？",
+      "options": [
+        "18立方厘米",
+        "108立方厘米",
+        "15立方厘米",
+        "114立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=108立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-039",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：四天记录为18、21、24、17，平均数是多少？",
+      "options": [
+        "80",
+        "22",
+        "20",
+        "21"
+      ],
+      "answer": 2,
+      "explanation": "总数80除以4，平均数是20。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-040",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级种植园：每件作品12元，买4件共多少元？",
+      "options": [
+        "16元",
+        "36元",
+        "52元",
+        "48元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=12×4=48元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-041",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：10.5+2.6=？",
+      "options": [
+        "13.1元",
+        "23.6元",
+        "10.5元",
+        "14.1元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是13.1元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-042",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：同分母分数2/12+5/12=？",
+      "options": [
+        "1/4",
+        "7/12",
+        "7/13",
+        "2/3"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：2/12+5/12=7/12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-043",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：52是26的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "52=26×2，所以52是26的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-044",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：解方程x+10=22，x=？",
+      "options": [
+        "22",
+        "10",
+        "2",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减10，得到x=12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-045",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：三角形标志底15厘米、高8厘米，面积是多少？",
+      "options": [
+        "60平方厘米",
+        "120平方厘米",
+        "23平方厘米",
+        "68平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=15×8÷2=60平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-046",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：长方体盒子长7厘米、宽4厘米、高7厘米，体积是多少？",
+      "options": [
+        "28立方厘米",
+        "196立方厘米",
+        "18立方厘米",
+        "203立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=196立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-047",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：四天记录为19、22、25、18，平均数是多少？",
+      "options": [
+        "84",
+        "23",
+        "21",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "总数84除以4，平均数是21。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-048",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "城市规划馆：每件作品13元，买5件共多少元？",
+      "options": [
+        "18元",
+        "52元",
+        "70元",
+        "65元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=13×5=65元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-049",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康运动营：10.8+2.6=？",
+      "options": [
+        "13.4元",
+        "24.2元",
+        "10.8元",
+        "14.4元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是13.4元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-050",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康运动营：同分母分数3/16+2/16=？",
+      "options": [
+        "1/16",
+        "5/16",
+        "5/17",
+        "3/8"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：3/16+2/16=5/16。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-051",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康运动营：56是28的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "56=28×2，所以56是28的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-052",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "健康运动营：解方程x+11=24，x=？",
+      "options": [
+        "24",
+        "11",
+        "2",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减11，得到x=13。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-053",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康运动营：三角形标志底16厘米、高5厘米，面积是多少？",
+      "options": [
+        "40平方厘米",
+        "80平方厘米",
+        "21平方厘米",
+        "45平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=16×5÷2=40平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-054",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康运动营：长方体盒子长4厘米、宽5厘米、高8厘米，体积是多少？",
+      "options": [
+        "20立方厘米",
+        "160立方厘米",
+        "17立方厘米",
+        "168立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=160立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-055",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康运动营：四天记录为20、23、26、19，平均数是多少？",
+      "options": [
+        "88",
+        "24",
+        "22",
+        "23"
+      ],
+      "answer": 2,
+      "explanation": "总数88除以4，平均数是22。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-056",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康运动营：每件作品14元，买6件共多少元？",
+      "options": [
+        "20元",
+        "70元",
+        "90元",
+        "84元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=14×6=84元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-057",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：每本笔记本11.1元，买3本共多少元？",
+      "options": [
+        "33.3元",
+        "44.4元",
+        "30.7元",
+        "34.3元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是33.3元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-058",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：同分母分数1/8+3/8=？",
+      "options": [
+        "1/4",
+        "1/2",
+        "4/9",
+        "5/8"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：1/8+3/8=1/2。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-059",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：90是30的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "90=30×3，所以90是30的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-060",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：解方程x+12=26，x=？",
+      "options": [
+        "26",
+        "12",
+        "2",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减12，得到x=14。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-061",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：三角形标志底17厘米、高6厘米，面积是多少？",
+      "options": [
+        "51平方厘米",
+        "102平方厘米",
+        "23平方厘米",
+        "57平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=17×6÷2=51平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-062",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：长方体盒子长5厘米、宽3厘米、高9厘米，体积是多少？",
+      "options": [
+        "15立方厘米",
+        "135立方厘米",
+        "17立方厘米",
+        "144立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=135立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-063",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：四天记录为21、24、27、20，平均数是多少？",
+      "options": [
+        "92",
+        "25",
+        "23",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "总数92除以4，平均数是23。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-064",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "传统文化展：每件作品15元，买4件共多少元？",
+      "options": [
+        "19元",
+        "45元",
+        "64元",
+        "60元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=15×4=60元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-065",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：每本笔记本11.4元，买4本共多少元？",
+      "options": [
+        "45.6元",
+        "57.0元",
+        "43.0元",
+        "46.6元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是45.6元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-066",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：同分母分数2/12+4/12=？",
+      "options": [
+        "1/6",
+        "1/2",
+        "6/13",
+        "7/12"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：2/12+4/12=1/2。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-067",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：96是32的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "96=32×3，所以96是32的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-068",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：解方程x+8=23，x=？",
+      "options": [
+        "23",
+        "8",
+        "7",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减8，得到x=15。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-069",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：三角形标志底18厘米、高7厘米，面积是多少？",
+      "options": [
+        "63平方厘米",
+        "126平方厘米",
+        "25平方厘米",
+        "70平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=18×7÷2=63平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-070",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：长方体盒子长6厘米、宽4厘米、高5厘米，体积是多少？",
+      "options": [
+        "24立方厘米",
+        "120立方厘米",
+        "15立方厘米",
+        "125立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=120立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-071",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：四天记录为22、25、28、21，平均数是多少？",
+      "options": [
+        "96",
+        "26",
+        "24",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "总数96除以4，平均数是24。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-072",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭购物单：每件作品16元，买5件共多少元？",
+      "options": [
+        "21元",
+        "64元",
+        "85元",
+        "80元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=16×5=80元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-073",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：每本笔记本11.7元，买5本共多少元？",
+      "options": [
+        "58.5元",
+        "70.2元",
+        "55.9元",
+        "59.5元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是58.5元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-074",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：同分母分数3/16+5/16=？",
+      "options": [
+        "1/8",
+        "1/2",
+        "8/17",
+        "9/16"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：3/16+5/16=1/2。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-075",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：102是34的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "102=34×3，所以102是34的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-076",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：解方程x+9=25，x=？",
+      "options": [
+        "25",
+        "9",
+        "7",
+        "16"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减9，得到x=16。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-077",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：三角形标志底19厘米、高8厘米，面积是多少？",
+      "options": [
+        "76平方厘米",
+        "152平方厘米",
+        "27平方厘米",
+        "84平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=19×8÷2=76平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-078",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：长方体盒子长7厘米、宽5厘米、高6厘米，体积是多少？",
+      "options": [
+        "35立方厘米",
+        "210立方厘米",
+        "18立方厘米",
+        "216立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=210立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-079",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：四天记录为23、26、29、22，平均数是多少？",
+      "options": [
+        "100",
+        "27",
+        "25",
+        "26"
+      ],
+      "answer": 2,
+      "explanation": "总数100除以4，平均数是25。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-080",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "湿地观察站：每件作品17元，买6件共多少元？",
+      "options": [
+        "23元",
+        "85元",
+        "108元",
+        "102元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=17×6=102元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-081",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：每本笔记本12.0元，买3本共多少元？",
+      "options": [
+        "36.0元",
+        "48.0元",
+        "33.4元",
+        "37.0元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是36.0元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-082",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：同分母分数1/8+2/8=？",
+      "options": [
+        "1/8",
+        "3/8",
+        "3/9",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "分母不变，分子相加并约分：1/8+2/8=3/8。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-083",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：108是36的什么数？",
+      "options": [
+        "质数",
+        "小数",
+        "倍数",
+        "分数"
+      ],
+      "answer": 2,
+      "explanation": "108=36×3，所以108是36的倍数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-084",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：解方程x+10=27，x=？",
+      "options": [
+        "27",
+        "10",
+        "7",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "等式两边同时减10，得到x=17。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-085",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：三角形标志底20厘米、高5厘米，面积是多少？",
+      "options": [
+        "50平方厘米",
+        "100平方厘米",
+        "25平方厘米",
+        "55平方厘米"
+      ],
+      "answer": 0,
+      "explanation": "三角形面积=底×高÷2=20×5÷2=50平方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-086",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：长方体盒子长4厘米、宽3厘米、高7厘米，体积是多少？",
+      "options": [
+        "12立方厘米",
+        "84立方厘米",
+        "14立方厘米",
+        "91立方厘米"
+      ],
+      "answer": 1,
+      "explanation": "长方体体积=长×宽×高=84立方厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-087",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：四天记录为24、27、30、23，平均数是多少？",
+      "options": [
+        "104",
+        "28",
+        "26",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "总数104除以4，平均数是26。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-088",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "校车调度表：每件作品18元，买4件共多少元？",
+      "options": [
+        "22元",
+        "54元",
+        "76元",
+        "72元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量=18×4=72元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-089",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：每本笔记本12.3元，买4本共多少元？",
+      "options": [
+        "49.2元",
+        "61.5元",
+        "46.6元",
+        "50.2元"
+      ],
+      "answer": 0,
+      "explanation": "按小数加法或乘法计算，结果是49.2元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-090",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：一块试验田上午完成2/12，下午完成3/12，未完成部分占全田几分之几？",
+      "options": [
+        "5/12",
+        "7/12",
+        "5/6",
+        "2/3"
+      ],
+      "answer": 1,
+      "explanation": "先算完成2/12+3/12=5/12，再用1减，未完成7/12。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-091",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：7盒彩笔和11本册子要分别平均分给若干组且都无剩余，组数必须同时是什么？",
+      "options": [
+        "77的所有倍数",
+        "18的因数",
+        "7和11的公因数",
+        "只能是77"
+      ],
+      "answer": 2,
+      "explanation": "能同时整除两种数量的组数，必须是两个数的公因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-092",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：方程3x+11=65中，x等于多少？",
+      "options": [
+        "29",
+        "54",
+        "17",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "先减11，再除以3，得到x=18。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-093",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：梯形花坛上底18米、下底21米、高6米，面积是多少？",
+      "options": [
+        "117平方米",
+        "126平方米",
+        "234平方米",
+        "45平方米"
+      ],
+      "answer": 0,
+      "explanation": "梯形面积=（上底+下底）×高÷2，得117平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-094",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：长方体水箱长5分米、宽4分米、高8分米，已装水140升，还能装多少升？",
+      "options": [
+        "160升",
+        "20升",
+        "140升",
+        "17升"
+      ],
+      "answer": 1,
+      "explanation": "容量5×4×8=160升，减去已有水量，还能装20升。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-095",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：四组回收量为25、28、31、24千克。若第五组加入后平均数变为28千克，第五组回收多少千克？",
+      "options": [
+        "28千克",
+        "108千克",
+        "32千克",
+        "31千克"
+      ],
+      "answer": 2,
+      "explanation": "五组总量应为28×5=140，减原四组108，第五组是32千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-096",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工作品展：义卖品每件19元，买5件后优惠6元；用100元付款，还剩多少元？",
+      "options": [
+        "5元",
+        "89元",
+        "94元",
+        "11元"
+      ],
+      "answer": 3,
+      "explanation": "先算19×5-6=89元，再算100-89=11元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-097",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：每本笔记本12.6元，买5本，付90元，应找回多少元？",
+      "options": [
+        "27.0元",
+        "39.6元",
+        "24.4元",
+        "28.0元"
+      ],
+      "answer": 0,
+      "explanation": "先算总价12.6×5=63.0元，再用90减总价，找回27.0元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-098",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "分数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：一块试验田上午完成3/16，下午完成4/16，未完成部分占全田几分之几？",
+      "options": [
+        "7/16",
+        "9/16",
+        "13/16",
+        "5/8"
+      ],
+      "answer": 1,
+      "explanation": "先算完成3/16+4/16=7/16，再用1减，未完成9/16。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-099",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "因数与倍数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：8盒彩笔和12本册子要分别平均分给若干组且都无剩余，组数必须同时是什么？",
+      "options": [
+        "96的所有倍数",
+        "20的因数",
+        "8和12的公因数",
+        "只能是96"
+      ],
+      "answer": 2,
+      "explanation": "能同时整除两种数量的组数，必须是两个数的公因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-100",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简易方程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：方程4x+12=88中，x等于多少？",
+      "options": [
+        "31",
+        "76",
+        "18",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "先减12，再除以4，得到x=19。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-101",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "平面图形面积",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：梯形花坛上底19米、下底22米、高7米，面积是多少？",
+      "options": [
+        "143.5平方米",
+        "154平方米",
+        "287平方米",
+        "48平方米"
+      ],
+      "answer": 0,
+      "explanation": "梯形面积=（上底+下底）×高÷2，得143.5平方米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-102",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "体积初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：长方体水箱长6分米、宽5分米、高9分米，已装水240升，还能装多少升？",
+      "options": [
+        "270升",
+        "30升",
+        "240升",
+        "20升"
+      ],
+      "answer": 1,
+      "explanation": "容量6×5×9=270升，减去已有水量，还能装30升。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-103",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "统计",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：四组回收量为26、29、32、25千克。若第五组加入后平均数变为29千克，第五组回收多少千克？",
+      "options": [
+        "29千克",
+        "112千克",
+        "33千克",
+        "32千克"
+      ],
+      "answer": 2,
+      "explanation": "五组总量应为29×5=145，减原四组112，第五组是33千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-104",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "综合应用",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象记录组：义卖品每件20元，买6件后优惠7元；用150元付款，还剩多少元？",
+      "options": [
+        "30元",
+        "113元",
+        "143元",
+        "37元"
+      ],
+      "answer": 3,
+      "explanation": "先算20×6-7=113元，再算150-113=37元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-105",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "小数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "爱心义卖场：每本笔记本12.9元，买3本，付60元，应找回多少元？",
+      "options": [
+        "21.3元",
+        "34.2元",
+        "18.7元",
+        "22.3元"
+      ],
+      "answer": 0,
+      "explanation": "先算总价12.9×3=38.7元，再用60减总价，找回21.3元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-106",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：1/8+2/8=___",
+      "answer": "3/8",
+      "explanation": "同分母分数分子相加并约分。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-107",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：13的最小倍数是___。",
+      "answer": "13",
+      "explanation": "一个非零自然数的最小倍数是它本身。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-108",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：x+8=17，x=___。",
+      "answer": "9",
+      "explanation": "等式两边同时减去同一个数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-109",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：平行四边形底11厘米、高4厘米，面积是___平方厘米。",
+      "answer": "44",
+      "explanation": "平行四边形面积=底×高。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-110",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "体积初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：棱长2厘米的正方体体积是___立方厘米。",
+      "answer": "8",
+      "explanation": "正方体体积=棱长×棱长×棱长。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-111",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：数据15、17、19的平均数是___。",
+      "answer": "17",
+      "explanation": "三个等距数的平均数是中间数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-112",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "爱心义卖场：每盒彩笔14支，买3盒用去5支，还剩___支。",
+      "answer": "37",
+      "explanation": "先乘求总数，再减用去的。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-113",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "研学路线图：3.9+1.8=___",
+      "answer": "5.7",
+      "explanation": "小数点对齐相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-114",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "研学路线图：1/8+4/8=___",
+      "answer": "5/8",
+      "explanation": "同分母分数分子相加并约分。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-115",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "研学路线图：21的最小倍数是___。",
+      "answer": "21",
+      "explanation": "一个非零自然数的最小倍数是它本身。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-116",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "研学路线图：x+16=25，x=___。",
+      "answer": "9",
+      "explanation": "等式两边同时减去同一个数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-117",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "平面图形面积",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "研学路线图：平行四边形底19厘米、高4厘米，面积是___平方厘米。",
+      "answer": "76",
+      "explanation": "平行四边形面积=底×高。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-118",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "研学路线图：棱长2厘米的正方体体积是___立方厘米。",
+      "answer": "8",
+      "explanation": "正方体体积=棱长×棱长×棱长。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-119",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "研学路线图：数据23、25、27的平均数是___。",
+      "answer": "25",
+      "explanation": "三个等距数的平均数是中间数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-120",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "研学路线图：每盒彩笔22支，买3盒用去5支，还剩___支。",
+      "answer": "61",
+      "explanation": "先乘求总数，再减用去的。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-121",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：4.7+1.8=___",
+      "answer": "6.5",
+      "explanation": "小数点对齐相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-122",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：1/8+3/8=___",
+      "answer": "1/2",
+      "explanation": "同分母分数分子相加并约分。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-123",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "因数与倍数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：29的最小倍数是___。",
+      "answer": "29",
+      "explanation": "一个非零自然数的最小倍数是它本身。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-124",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "简易方程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：x+24=33，x=___。",
+      "answer": "9",
+      "explanation": "等式两边同时减去同一个数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-125",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "平面图形面积",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：平行四边形底27厘米、高4厘米，面积是___平方厘米。",
+      "answer": "108",
+      "explanation": "平行四边形面积=底×高。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-126",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "体积初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "食堂营养周：棱长2厘米的正方体体积是___立方厘米。",
+      "answer": "8",
+      "explanation": "正方体体积=棱长×棱长×棱长。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-127",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "统计",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "食堂营养周：把统计量与求法或含义配对。",
+      "left": [
+        "总数",
+        "平均数",
+        "最大值",
+        "变化趋势"
+      ],
+      "right": [
+        "最大的数",
+        "全部相加",
+        "观察增减",
+        "总数÷份数"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用统计的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-128",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "综合应用",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "食堂营养周：把实际问题中的数量与对应关系式配对。",
+      "left": [
+        "总价",
+        "路程",
+        "工作总量",
+        "剩余量"
+      ],
+      "right": [
+        "效率×时间",
+        "单价×数量",
+        "原有-用去+增加",
+        "速度×时间"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用综合应用的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-129",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "小数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把每个小数算式与计算结果配对。",
+      "left": [
+        "2.5+1.5",
+        "6.4-2.4",
+        "1.2×5",
+        "8.4÷2"
+      ],
+      "right": [
+        "6",
+        "4",
+        "4.2",
+        "4"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用小数运算的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-130",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "分数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把每个分数算式与最简结果配对。",
+      "left": [
+        "1/4+1/4",
+        "3/5-1/5",
+        "2/3+1/3",
+        "7/8-3/8"
+      ],
+      "right": [
+        "1",
+        "1/2",
+        "1/2",
+        "2/5"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用分数运算的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-131",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "因数与倍数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园志愿岗：判断左边各数符合右边哪种整除关系。",
+      "left": [
+        "2",
+        "3",
+        "5",
+        "12"
+      ],
+      "right": [
+        "25的因数",
+        "12的因数",
+        "6的倍数",
+        "18的因数"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用因数与倍数的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-132",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "简易方程",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把每个方程与它的解配对。",
+      "left": [
+        "x+3=8",
+        "2x=12",
+        "x-4=7",
+        "3x+1=10"
+      ],
+      "right": [
+        "x=11",
+        "x=5",
+        "x=3",
+        "x=6"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用简易方程的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-133",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "平面图形面积",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把图形名称与面积公式配对。",
+      "left": [
+        "长方形",
+        "平行四边形",
+        "三角形",
+        "梯形"
+      ],
+      "right": [
+        "底×高÷2",
+        "长×宽",
+        "（上底+下底）×高÷2",
+        "底×高"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用平面图形面积的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-134",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "体积初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把体积或容积单位与生活实例配对。",
+      "left": [
+        "立方厘米",
+        "立方分米",
+        "升",
+        "毫升"
+      ],
+      "right": [
+        "水桶容量",
+        "小方块体积",
+        "滴管容量",
+        "纸箱体积"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用体积初步的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-135",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "统计",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把统计量与求法或含义配对。",
+      "left": [
+        "总数",
+        "平均数",
+        "最大值",
+        "变化趋势"
+      ],
+      "right": [
+        "最大的数",
+        "全部相加",
+        "观察增减",
+        "总数÷份数"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用统计的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-136",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "综合应用",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园志愿岗：把实际问题中的数量与对应关系式配对。",
+      "left": [
+        "总价",
+        "路程",
+        "工作总量",
+        "剩余量"
+      ],
+      "right": [
+        "效率×时间",
+        "单价×数量",
+        "原有-用去+增加",
+        "速度×时间"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用综合应用的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-137",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "小数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "学校广播站：把每个小数算式与计算结果配对。",
+      "left": [
+        "2.5+1.5",
+        "6.4-2.4",
+        "1.2×5",
+        "8.4÷2"
+      ],
+      "right": [
+        "6",
+        "4",
+        "4.2",
+        "4"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用小数运算的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-138",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "分数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "学校广播站：把每个分数算式与最简结果配对。",
+      "left": [
+        "1/4+1/4",
+        "3/5-1/5",
+        "2/3+1/3",
+        "7/8-3/8"
+      ],
+      "right": [
+        "1",
+        "1/2",
+        "1/2",
+        "2/5"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用分数运算的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-139",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "因数与倍数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "学校广播站：判断左边各数符合右边哪种整除关系。",
+      "left": [
+        "2",
+        "3",
+        "5",
+        "12"
+      ],
+      "right": [
+        "25的因数",
+        "12的因数",
+        "6的倍数",
+        "18的因数"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用因数与倍数的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-math-authored-140",
+    "subject": "math",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "简易方程",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "学校广播站：把每个方程与它的解配对。",
+      "left": [
+        "x+3=8",
+        "2x=12",
+        "x-4=7",
+        "3x+1=10"
+      ],
+      "right": [
+        "x=11",
+        "x=5",
+        "x=3",
+        "x=6"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "逐项运用简易方程的定义和计算规则完成配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

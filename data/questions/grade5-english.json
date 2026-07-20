@@ -1,22 +1,3838 @@
 [
-  {"stem":"If it rains tomorrow, I ___ stay home.","options":["will","would","am","was"],"answer":0},
-  {"stem":"The book ___ by Mark Twain.","options":["wrote","was written","written","writing"],"answer":1},
-  {"stem":"\"I have ___ been to London.\" (曾经)","options":["ever","never","yet","already"],"answer":0},
-  {"stem":"Which word is a noun?","options":["quickly","happiness","run","beautiful"],"answer":1},
-  {"stem":"\"Neither he nor I ___ a teacher.\"","options":["is","am","are","be"],"answer":1,"explanation":"neither nor就近, I用am"},
-  {"stem":"What does \"environment\" mean?","options":["娱乐","环境","教育","经济"],"answer":1},
-  {"stem":"\"The teacher asked us ___ in class.\"","options":["not talk","not to talk","don't talk","no talking"],"answer":1},
-  {"stem":"Which tense is \"have been studying\"?","options":["Simple Present","Past","Present Perfect","Present Perfect Continuous"],"answer":3},
-  {"stem":"\"I'm looking forward ___ you.\"","options":["meet","to meet","to meeting","meeting"],"answer":2,"explanation":"look forward to + doing"},
-  {"stem":"What is the synonym of \"difficult\"?","options":["easy","hard","soft","simple"],"answer":1},
-  {"stem":"\"A number of students ___ in the library.\"","options":["is","am","are","be"],"answer":2},
-  {"stem":"Which country is London the capital of?","options":["USA","UK","France","Germany"],"answer":1},
-  {"stem":"\"He suggested ___ a picnic.\"","options":["have","to have","having","had"],"answer":2},
-  {"stem":"What is the passive voice of \"They make cars\"?","options":["Cars made by them","Cars are made by them","Cars were made by them","Cars is made by them"],"answer":1},
-  {"stem":"\"By the time I arrived, the film ___.\"","options":["started","has started","had started","was starting"],"answer":2},
-  {"stem":"Which is the odd one out?","options":["Happy","Sad","Angry","Run"],"answer":3,"explanation":"Run是动词，其他是形容词"},
-  {"stem":"\"Would you mind ___ the window?\"","options":["open","to open","opening","opened"],"answer":2,"explanation":"mind+doing"},
-  {"stem":"What does \"Congratulations!\" mean?","options":["I am sorry","Well done!","Goodbye","Never mind"],"answer":1},
-  {"stem":"\"Not only the students but also the teacher ___ excited.\"","options":["is","am","are","be"],"answer":0,"explanation":"就近原则,the teacher用is"},
-  {"stem":"\"I wish I ___ fly like a bird.\"","options":["can","could","will","am"],"answer":1,"explanation":"wish后用虚拟语气could"}
+  {
+    "id": "g5-english-authored-001",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Last Friday, Mia measured the bean plants at the school garden to learn how sunlight changes plant growth. The sunny group grew more leaves. Mia will compare the new leaves tomorrow.” What is the paragraph mainly about?",
+      "options": [
+        "Mia's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-002",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “Last Friday, Mia measured the bean plants.” Which phrase shows a completed past action?",
+      "options": [
+        "will compare the new leaves tomorrow",
+        "measured the bean plants",
+        "to learn how sunlight changes plant growth",
+        "complete a growth chart"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “measured the bean plants” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-003",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Mia needs help with the task “complete a growth chart”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me complete a growth chart?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-004",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Mia checked the tallest plant and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Mia",
+        "school garden",
+        "to learn how sunlight changes plant growth",
+        "the tallest plant"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the tallest plant”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-005",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Mia worked to learn how sunlight changes plant growth. Fact 2: the sunny group grew more leaves. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-006",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Mia; where: school garden; result: the sunny group grew more leaves.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Mia — school garden — the sunny group grew more leaves",
+        "Mia — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-007",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Mia reports, “the sunny group grew more leaves.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, the sunny group grew more leaves.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-008",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Mia must complete a growth chart. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that the sunny group grew more leaves"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-009",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Yesterday afternoon, Leo sorted returned books at the community library to help younger readers find books. Readers found the story area faster. Leo will design shelf labels next week.” What is the paragraph mainly about?",
+      "options": [
+        "Leo's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-010",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “Yesterday afternoon, Leo sorted returned books.” Which phrase shows a completed past action?",
+      "options": [
+        "will design shelf labels next week",
+        "sorted returned books",
+        "to help younger readers find books",
+        "make a clear library map"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “sorted returned books” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-011",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Leo needs help with the task “make a clear library map”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me make a clear library map?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-012",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Leo checked the history shelf and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Leo",
+        "community library",
+        "to help younger readers find books",
+        "the history shelf"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the history shelf”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-013",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Leo worked to help younger readers find books. Fact 2: readers found the story area faster. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-014",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Leo; where: community library; result: readers found the story area faster.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Leo — community library — readers found the story area faster",
+        "Leo — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-015",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Leo reports, “readers found the story area faster.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, readers found the story area faster.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-016",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Leo must make a clear library map. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that readers found the story area faster"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-017",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “On Tuesday, Emma tested three paper bridges at the science room to discover which shape holds more coins. The folded bridge held the most coins. Emma will strengthen the best design tomorrow.” What is the paragraph mainly about?",
+      "options": [
+        "Emma's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-018",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “On Tuesday, Emma tested three paper bridges.” Which phrase shows a completed past action?",
+      "options": [
+        "will strengthen the best design tomorrow",
+        "tested three paper bridges",
+        "to discover which shape holds more coins",
+        "write a fair-test report"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “tested three paper bridges” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-019",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Emma needs help with the task “write a fair-test report”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me write a fair-test report?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-020",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Emma checked the folded bridge and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Emma",
+        "science room",
+        "to discover which shape holds more coins",
+        "the folded bridge"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the folded bridge”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-021",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Emma worked to discover which shape holds more coins. Fact 2: the folded bridge held the most coins. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-022",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Emma; where: science room; result: the folded bridge held the most coins.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Emma — science room — the folded bridge held the most coins",
+        "Emma — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-023",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Emma reports, “the folded bridge held the most coins.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, the folded bridge held the most coins.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-024",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Emma must write a fair-test report. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that the folded bridge held the most coins"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-025",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Last Monday, Noah recorded four running times at the sports field to improve his pacing plan. His final two laps were more even. Noah will practise a steady pace this weekend.” What is the paragraph mainly about?",
+      "options": [
+        "Noah's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-026",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “Last Monday, Noah recorded four running times.” Which phrase shows a completed past action?",
+      "options": [
+        "will practise a steady pace this weekend",
+        "recorded four running times",
+        "to improve his pacing plan",
+        "prepare a training timetable"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “recorded four running times” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-027",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Noah needs help with the task “prepare a training timetable”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me prepare a training timetable?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-028",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Noah checked the second lap and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Noah",
+        "sports field",
+        "to improve his pacing plan",
+        "the second lap"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the second lap”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-029",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Noah worked to improve his pacing plan. Fact 2: his final two laps were more even. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-030",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Noah; where: sports field; result: his final two laps were more even.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Noah — sports field — his final two laps were more even",
+        "Noah — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-031",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Noah reports, “his final two laps were more even.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, his final two laps were more even.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-032",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Noah must prepare a training timetable. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that his final two laps were more even"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-033",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “After lunch yesterday, Sophie weighed food waste at the school kitchen to reduce unfinished meals. The soup group left the least food. Sophie will share smaller-serving advice on Friday.” What is the paragraph mainly about?",
+      "options": [
+        "Sophie's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-034",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “After lunch yesterday, Sophie weighed food waste.” Which phrase shows a completed past action?",
+      "options": [
+        "will share smaller-serving advice on Friday",
+        "weighed food waste",
+        "to reduce unfinished meals",
+        "create a food-saving notice"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “weighed food waste” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-035",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Sophie needs help with the task “create a food-saving notice”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me create a food-saving notice?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-036",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Sophie checked the waste box and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Sophie",
+        "school kitchen",
+        "to reduce unfinished meals",
+        "the waste box"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the waste box”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-037",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Sophie worked to reduce unfinished meals. Fact 2: the soup group left the least food. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-038",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Sophie; where: school kitchen; result: the soup group left the least food.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Sophie — school kitchen — the soup group left the least food",
+        "Sophie — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-039",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Sophie reports, “the soup group left the least food.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, the soup group left the least food.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-040",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Sophie must create a food-saving notice. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that the soup group left the least food"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-041",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “During Saturday’s visit, Ethan sketched an old wooden window at the local museum to explain a traditional building style. His group noticed repeated flower shapes. Ethan will add notes about its patterns tonight.” What is the paragraph mainly about?",
+      "options": [
+        "Ethan's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-042",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “During Saturday’s visit, Ethan sketched an old wooden window.” Which phrase shows a completed past action?",
+      "options": [
+        "will add notes about its patterns tonight",
+        "sketched an old wooden window",
+        "to explain a traditional building style",
+        "give a two-minute exhibit talk"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “sketched an old wooden window” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-043",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Ethan needs help with the task “give a two-minute exhibit talk”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me give a two-minute exhibit talk?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-044",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Ethan checked the window sketch and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Ethan",
+        "local museum",
+        "to explain a traditional building style",
+        "the window sketch"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the window sketch”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-045",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Fact 1: Ethan worked to explain a traditional building style. Fact 2: his group noticed repeated flower shapes. What can we reasonably infer?",
+      "options": [
+        "The task produced information useful for its purpose.",
+        "The result proves every future case.",
+        "No observation was made.",
+        "The place must close forever."
+      ],
+      "answer": 0,
+      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-046",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Project card: “Who: Ethan; where: local museum; result: his group noticed repeated flower shapes.” Which note keeps all three fields?",
+      "options": [
+        "another pupil — airport — no result",
+        "Ethan — local museum — his group noticed repeated flower shapes",
+        "Ethan — wrong place — no record",
+        "nobody — nowhere — nothing"
+      ],
+      "answer": 1,
+      "explanation": "The correct note preserves the person, place and result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-047",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Ethan reports, “his group noticed repeated flower shapes.” Which sentence best introduces this evidence?",
+      "options": [
+        "I have no evidence, but I am always right.",
+        "Please forget every result.",
+        "According to our record, his group noticed repeated flower shapes.",
+        "This number is a colour."
+      ],
+      "answer": 2,
+      "explanation": "“According to our record” clearly introduces evidence from collected information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-048",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Ethan must give a two-minute exhibit talk. Which first step is most useful?",
+      "options": [
+        "Remove the purpose and all evidence",
+        "Copy an unrelated story",
+        "Choose a design before reading the information",
+        "Select key facts from the activity record, including that his group noticed repeated flower shapes"
+      ],
+      "answer": 3,
+      "explanation": "A real task should begin by selecting information that supports its purpose."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-049",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Early Sunday morning, Ava counted birds from a quiet path at the wetland centre to avoid disturbing the animals. More birds appeared after the group became quiet. Ava will check another observation record later.” What is the paragraph mainly about?",
+      "options": [
+        "Ava's study task and what the record showed",
+        "a fictional trip with no plan",
+        "a meal with no information",
+        "a list of unrelated colours"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-050",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "The note says, “Early Sunday morning, Ava counted birds from a quiet path.” Which phrase shows a completed past action?",
+      "options": [
+        "will check another observation record later",
+        "counted birds from a quiet path",
+        "to avoid disturbing the animals",
+        "organise an observation table"
+      ],
+      "answer": 1,
+      "explanation": "The past-time phrase and “counted birds from a quiet path” show a completed action."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-051",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Ava needs help with the task “organise an observation table”. Which request is clear and polite?",
+      "options": [
+        "Do it now because I say so!",
+        "What colour is yesterday?",
+        "Could you please help me organise an observation table?",
+        "I will not explain the task."
+      ],
+      "answer": 2,
+      "explanation": "“Could you please...?” makes a polite request and names the needed task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-052",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Read: “Ava checked the bird list and then wrote about it in the project folder.” What does “it” refer to?",
+      "options": [
+        "Ava",
+        "wetland centre",
+        "to avoid disturbing the animals",
+        "the bird list"
+      ],
+      "answer": 3,
+      "explanation": "The pronoun refers back to the singular noun phrase “the bird list”."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-053",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The log records “more birds appeared after the group became quiet”. Ava will check another observation record later. Which inference is best supported?",
+      "options": [
+        "The next step will use or check information from the earlier result.",
+        "The result can never change with more evidence.",
+        "The project has no purpose.",
+        "The next step happened many years ago."
+      ],
+      "answer": 0,
+      "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-054",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Two notes must be merged. A: “Ava; counted birds from a quiet path; early Sunday morning.” B: “Result: more birds appeared after the group became quiet; next: will check another observation record later.” Which summary loses no key field?",
+      "options": [
+        "Only the pupil’s name is known.",
+        "Ava completed the activity early Sunday morning, recorded that more birds appeared after the group became quiet, and will check another observation record later",
+        "The activity had no time, result or next step.",
+        "A different person did an opposite task."
+      ],
+      "answer": 1,
+      "explanation": "The correct summary preserves actor, completed action, time, result and next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-055",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Ava's record says “more birds appeared after the group became quiet” and the project task is to organise an observation table. Which sentence clearly separates evidence from a suggestion?",
+      "options": [
+        "The suggestion is a fact because I like it.",
+        "There is no difference between data and opinion.",
+        "Our record shows that more birds appeared after the group became quiet; therefore, we suggest using it to organise an observation table.",
+        "Delete the result before making a suggestion."
+      ],
+      "answer": 2,
+      "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-056",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "For the task “organise an observation table”, which plan follows a useful order?",
+      "options": [
+        "decorate first → remove evidence → ignore the audience → stop",
+        "copy everything → mix the order → hide the purpose → guess",
+        "choose an answer → avoid reading → change the task → delete",
+        "identify the audience → select evidence → organise it → check whether the task is clear"
+      ],
+      "answer": 3,
+      "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-057",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read the project log: “Before school today, Daniel recorded the class rhythm practice at the music room to help the group practise accurately. The third part needed a slower beat. Daniel will mark the difficult bars this evening.” Which title includes both the investigation and its value?",
+      "options": [
+        "Daniel's evidence for the task “send useful practice feedback”",
+        "A day with no action or result",
+        "A guide to an unrelated airport",
+        "Why records should always be deleted"
+      ],
+      "answer": 0,
+      "explanation": "A strong title represents both what was done and how the result will be used."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-058",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Log: “Daniel recorded the class rhythm practice before school today. Daniel will mark the difficult bars this evening.” Which description of time is correct?",
+      "options": [
+        "Both actions happen every minute.",
+        "The first action is completed; the second is planned.",
+        "Both actions finished before the past record.",
+        "The second sentence has no future meaning."
+      ],
+      "answer": 1,
+      "explanation": "The past form reports completed work; “will” reports a future plan."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-059",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Daniel presents “the third part needed a slower beat”, but a classmate does not understand how it supports the task. Which reply is most helpful?",
+      "options": [
+        "You must agree without a reason.",
+        "The result has nothing to do with our work.",
+        "Let me explain how this result helps us send useful practice feedback.",
+        "I will hide the record."
+      ],
+      "answer": 2,
+      "explanation": "The reply offers a clear explanation linking evidence to the shared task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-060",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “Daniel described the sound file in the report because it was important to the project.” Which noun does “it” replace, and why?",
+      "options": [
+        "Daniel, because a person is a folder",
+        "music room, because every place is paper",
+        "to help the group practise accurately, because a purpose is an object",
+        "the sound file, because it is the item described as important"
+      ],
+      "answer": 3,
+      "explanation": "Grammar and meaning both point to the singular item immediately discussed."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-061",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The log records “the third part needed a slower beat”. Daniel will mark the difficult bars this evening. Which inference is best supported?",
+      "options": [
+        "The next step will use or check information from the earlier result.",
+        "The result can never change with more evidence.",
+        "The project has no purpose.",
+        "The next step happened many years ago."
+      ],
+      "answer": 0,
+      "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-062",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Two notes must be merged. A: “Daniel; recorded the class rhythm practice; before school today.” B: “Result: the third part needed a slower beat; next: will mark the difficult bars this evening.” Which summary loses no key field?",
+      "options": [
+        "Only the pupil’s name is known.",
+        "Daniel completed the activity before school today, recorded that the third part needed a slower beat, and will mark the difficult bars this evening",
+        "The activity had no time, result or next step.",
+        "A different person did an opposite task."
+      ],
+      "answer": 1,
+      "explanation": "The correct summary preserves actor, completed action, time, result and next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-063",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Daniel's record says “the third part needed a slower beat” and the project task is to send useful practice feedback. Which sentence clearly separates evidence from a suggestion?",
+      "options": [
+        "The suggestion is a fact because I like it.",
+        "There is no difference between data and opinion.",
+        "Our record shows that the third part needed a slower beat; therefore, we suggest using it to send useful practice feedback.",
+        "Delete the result before making a suggestion."
+      ],
+      "answer": 2,
+      "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-064",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "For the task “send useful practice feedback”, which plan follows a useful order?",
+      "options": [
+        "decorate first → remove evidence → ignore the audience → stop",
+        "copy everything → mix the order → hide the purpose → guess",
+        "choose an answer → avoid reading → change the task → delete",
+        "identify the audience → select evidence → organise it → check whether the task is clear"
+      ],
+      "answer": 3,
+      "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-065",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read the project log: “On Wednesday evening, Chloe checked two weekend routes at the bus station to plan a museum trip. Route 6 required one fewer change. Chloe will confirm the first-bus time tomorrow.” Which title includes both the investigation and its value?",
+      "options": [
+        "Chloe's evidence for the task “choose a route for the group”",
+        "A day with no action or result",
+        "A guide to an unrelated airport",
+        "Why records should always be deleted"
+      ],
+      "answer": 0,
+      "explanation": "A strong title represents both what was done and how the result will be used."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-066",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Log: “Chloe checked two weekend routes on Wednesday evening. Chloe will confirm the first-bus time tomorrow.” Which description of time is correct?",
+      "options": [
+        "Both actions happen every minute.",
+        "The first action is completed; the second is planned.",
+        "Both actions finished before the past record.",
+        "The second sentence has no future meaning."
+      ],
+      "answer": 1,
+      "explanation": "The past form reports completed work; “will” reports a future plan."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-067",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Chloe presents “Route 6 required one fewer change”, but a classmate does not understand how it supports the task. Which reply is most helpful?",
+      "options": [
+        "You must agree without a reason.",
+        "The result has nothing to do with our work.",
+        "Let me explain how this result helps us choose a route for the group.",
+        "I will hide the record."
+      ],
+      "answer": 2,
+      "explanation": "The reply offers a clear explanation linking evidence to the shared task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-068",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “Chloe described the route card in the report because it was important to the project.” Which noun does “it” replace, and why?",
+      "options": [
+        "Chloe, because a person is a folder",
+        "bus station, because every place is paper",
+        "to plan a museum trip, because a purpose is an object",
+        "the route card, because it is the item described as important"
+      ],
+      "answer": 3,
+      "explanation": "Grammar and meaning both point to the singular item immediately discussed."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-069",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The log records “Route 6 required one fewer change”. Chloe will confirm the first-bus time tomorrow. Which inference is best supported?",
+      "options": [
+        "The next step will use or check information from the earlier result.",
+        "The result can never change with more evidence.",
+        "The project has no purpose.",
+        "The next step happened many years ago."
+      ],
+      "answer": 0,
+      "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-070",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Two notes must be merged. A: “Chloe; checked two weekend routes; on Wednesday evening.” B: “Result: Route 6 required one fewer change; next: will confirm the first-bus time tomorrow.” Which summary loses no key field?",
+      "options": [
+        "Only the pupil’s name is known.",
+        "Chloe completed the activity on Wednesday evening, recorded that Route 6 required one fewer change, and will confirm the first-bus time tomorrow",
+        "The activity had no time, result or next step.",
+        "A different person did an opposite task."
+      ],
+      "answer": 1,
+      "explanation": "The correct summary preserves actor, completed action, time, result and next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-071",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Chloe's record says “Route 6 required one fewer change” and the project task is to choose a route for the group. Which sentence clearly separates evidence from a suggestion?",
+      "options": [
+        "The suggestion is a fact because I like it.",
+        "There is no difference between data and opinion.",
+        "Our record shows that Route 6 required one fewer change; therefore, we suggest using it to choose a route for the group.",
+        "Delete the result before making a suggestion."
+      ],
+      "answer": 2,
+      "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-072",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "For the task “choose a route for the group”, which plan follows a useful order?",
+      "options": [
+        "decorate first → remove evidence → ignore the audience → stop",
+        "copy everything → mix the order → hide the purpose → guess",
+        "choose an answer → avoid reading → change the task → delete",
+        "identify the audience → select evidence → organise it → check whether the task is clear"
+      ],
+      "answer": 3,
+      "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-073",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read the project log: “Last Thursday, Jack interviewed a volunteer at the recycling centre to explain correct waste sorting. Many mistakes involved dirty containers. Jack will turn the notes into a poster next week.” Which title includes both the investigation and its value?",
+      "options": [
+        "Jack's evidence for the task “make a sorting guide”",
+        "A day with no action or result",
+        "A guide to an unrelated airport",
+        "Why records should always be deleted"
+      ],
+      "answer": 0,
+      "explanation": "A strong title represents both what was done and how the result will be used."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-074",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Log: “Jack interviewed a volunteer last Thursday. Jack will turn the notes into a poster next week.” Which description of time is correct?",
+      "options": [
+        "Both actions happen every minute.",
+        "The first action is completed; the second is planned.",
+        "Both actions finished before the past record.",
+        "The second sentence has no future meaning."
+      ],
+      "answer": 1,
+      "explanation": "The past form reports completed work; “will” reports a future plan."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-075",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Jack presents “many mistakes involved dirty containers”, but a classmate does not understand how it supports the task. Which reply is most helpful?",
+      "options": [
+        "You must agree without a reason.",
+        "The result has nothing to do with our work.",
+        "Let me explain how this result helps us make a sorting guide.",
+        "I will hide the record."
+      ],
+      "answer": 2,
+      "explanation": "The reply offers a clear explanation linking evidence to the shared task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-076",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “Jack described the interview note in the report because it was important to the project.” Which noun does “it” replace, and why?",
+      "options": [
+        "Jack, because a person is a folder",
+        "recycling centre, because every place is paper",
+        "to explain correct waste sorting, because a purpose is an object",
+        "the interview note, because it is the item described as important"
+      ],
+      "answer": 3,
+      "explanation": "Grammar and meaning both point to the singular item immediately discussed."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-077",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The log records “many mistakes involved dirty containers”. Jack will turn the notes into a poster next week. Which inference is best supported?",
+      "options": [
+        "The next step will use or check information from the earlier result.",
+        "The result can never change with more evidence.",
+        "The project has no purpose.",
+        "The next step happened many years ago."
+      ],
+      "answer": 0,
+      "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-078",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Two notes must be merged. A: “Jack; interviewed a volunteer; last Thursday.” B: “Result: many mistakes involved dirty containers; next: will turn the notes into a poster next week.” Which summary loses no key field?",
+      "options": [
+        "Only the pupil’s name is known.",
+        "Jack completed the activity last Thursday, recorded that many mistakes involved dirty containers, and will turn the notes into a poster next week",
+        "The activity had no time, result or next step.",
+        "A different person did an opposite task."
+      ],
+      "answer": 1,
+      "explanation": "The correct summary preserves actor, completed action, time, result and next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-079",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Jack's record says “many mistakes involved dirty containers” and the project task is to make a sorting guide. Which sentence clearly separates evidence from a suggestion?",
+      "options": [
+        "The suggestion is a fact because I like it.",
+        "There is no difference between data and opinion.",
+        "Our record shows that many mistakes involved dirty containers; therefore, we suggest using it to make a sorting guide.",
+        "Delete the result before making a suggestion."
+      ],
+      "answer": 2,
+      "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-080",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "For the task “make a sorting guide”, which plan follows a useful order?",
+      "options": [
+        "decorate first → remove evidence → ignore the audience → stop",
+        "copy everything → mix the order → hide the purpose → guess",
+        "choose an answer → avoid reading → change the task → delete",
+        "identify the audience → select evidence → organise it → check whether the task is clear"
+      ],
+      "answer": 3,
+      "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-081",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read the project log: “At eight this morning, Lily read the rain gauge at the weather station to report changes in local rainfall. Wednesday had the highest reading. Lily will compare the weekly totals on Sunday.” Which title includes both the investigation and its value?",
+      "options": [
+        "Lily's evidence for the task “present a weekly weather summary”",
+        "A day with no action or result",
+        "A guide to an unrelated airport",
+        "Why records should always be deleted"
+      ],
+      "answer": 0,
+      "explanation": "A strong title represents both what was done and how the result will be used."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-082",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Log: “Lily read the rain gauge at eight this morning. Lily will compare the weekly totals on Sunday.” Which description of time is correct?",
+      "options": [
+        "Both actions happen every minute.",
+        "The first action is completed; the second is planned.",
+        "Both actions finished before the past record.",
+        "The second sentence has no future meaning."
+      ],
+      "answer": 1,
+      "explanation": "The past form reports completed work; “will” reports a future plan."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-083",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Lily presents “Wednesday had the highest reading”, but a classmate does not understand how it supports the task. Which reply is most helpful?",
+      "options": [
+        "You must agree without a reason.",
+        "The result has nothing to do with our work.",
+        "Let me explain how this result helps us present a weekly weather summary.",
+        "I will hide the record."
+      ],
+      "answer": 2,
+      "explanation": "The reply offers a clear explanation linking evidence to the shared task."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-084",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “Lily described the rainfall table in the report because it was important to the project.” Which noun does “it” replace, and why?",
+      "options": [
+        "Lily, because a person is a folder",
+        "weather station, because every place is paper",
+        "to report changes in local rainfall, because a purpose is an object",
+        "the rainfall table, because it is the item described as important"
+      ],
+      "answer": 3,
+      "explanation": "Grammar and meaning both point to the singular item immediately discussed."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-085",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The log records “Wednesday had the highest reading”. Lily will compare the weekly totals on Sunday. Which inference is best supported?",
+      "options": [
+        "The next step will use or check information from the earlier result.",
+        "The result can never change with more evidence.",
+        "The project has no purpose.",
+        "The next step happened many years ago."
+      ],
+      "answer": 0,
+      "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-086",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Two notes must be merged. A: “Lily; read the rain gauge; at eight this morning.” B: “Result: Wednesday had the highest reading; next: will compare the weekly totals on Sunday.” Which summary loses no key field?",
+      "options": [
+        "Only the pupil’s name is known.",
+        "Lily completed the activity at eight this morning, recorded that Wednesday had the highest reading, and will compare the weekly totals on Sunday",
+        "The activity had no time, result or next step.",
+        "A different person did an opposite task."
+      ],
+      "answer": 1,
+      "explanation": "The correct summary preserves actor, completed action, time, result and next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-087",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Lily's record says “Wednesday had the highest reading” and the project task is to present a weekly weather summary. Which sentence clearly separates evidence from a suggestion?",
+      "options": [
+        "The suggestion is a fact because I like it.",
+        "There is no difference between data and opinion.",
+        "Our record shows that Wednesday had the highest reading; therefore, we suggest using it to present a weekly weather summary.",
+        "Delete the result before making a suggestion."
+      ],
+      "answer": 2,
+      "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-088",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "For the task “present a weekly weather summary”, which plan follows a useful order?",
+      "options": [
+        "decorate first → remove evidence → ignore the audience → stop",
+        "copy everything → mix the order → hide the purpose → guess",
+        "choose an answer → avoid reading → change the task → delete",
+        "identify the audience → select evidence → organise it → check whether the task is clear"
+      ],
+      "answer": 3,
+      "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-089",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read the project log: “After class yesterday, Owen tested the microphone positions at the school hall to make every speaker easy to hear. The centre position produced the clearest sound. Owen will place floor marks before the show.” Which title includes both the investigation and its value?",
+      "options": [
+        "Owen's evidence for the task “write instructions for speakers”",
+        "A day with no action or result",
+        "A guide to an unrelated airport",
+        "Why records should always be deleted"
+      ],
+      "answer": 0,
+      "explanation": "A strong title represents both what was done and how the result will be used."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-090",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Which rewrite keeps the time order in this log: “Owen tested the microphone positions after class yesterday and will place floor marks before the show”?",
+      "options": [
+        "The future step caused an action that never happened.",
+        "After completing the recorded work, Owen plans the stated next step.",
+        "Both actions are permanent facts with no time.",
+        "The past action will begin after the future step is finished yesterday."
+      ],
+      "answer": 1,
+      "explanation": "The completed action comes first and the future plan follows it."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-091",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "While Owen is working on the task “write instructions for speakers”, a listener hears “the centre position produced the clearest sound” and says, “One result may not be enough.” Which reply is polite and evidence-aware?",
+      "options": [
+        "Be quiet; one result proves everything.",
+        "Evidence is not needed in a project.",
+        "That is a fair point. We can check more records before making a stronger claim.",
+        "I will change the numbers to win."
+      ],
+      "answer": 2,
+      "explanation": "The reply respects the concern and proposes gathering more evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-092",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "In “Owen described the centre position after checking the report because it was needed to write instructions for speakers,” what evidence resolves the pronoun?",
+      "options": [
+        "the person’s name alone",
+        "the place is always the nearest word",
+        "all nouns must have the same meaning",
+        "singular grammar and the meaning that the centre position can support the task"
+      ],
+      "answer": 3,
+      "explanation": "Reliable reference uses both grammatical agreement and sentence meaning."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-093",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Evidence: “the centre position produced the clearest sound.” Purpose: “to make every speaker easy to hear.” Which conclusion is careful enough for the evidence?",
+      "options": [
+        "The result supports a useful possibility, but more records may strengthen the conclusion.",
+        "The result proves the same outcome everywhere forever.",
+        "The evidence should be ignored because it is not perfect.",
+        "The purpose automatically makes every claim true."
+      ],
+      "answer": 0,
+      "explanation": "A careful inference uses the evidence without claiming more certainty than it provides."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-094",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "To build the task “write instructions for speakers”, which field order makes the evidence easiest to check?",
+      "options": [
+        "answer → hidden method → no result → decoration",
+        "question or purpose → method and time → result → next action",
+        "name only → unrelated joke → repeated title → blank",
+        "future action → changed numbers → unknown source → guess"
+      ],
+      "answer": 1,
+      "explanation": "This order shows why information was collected, how it was collected, what it showed and what follows."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-095",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Which wording reports “the centre position produced the clearest sound” without presenting it as an unlimited fact?",
+      "options": [
+        "This proves that the centre position produced the clearest sound in every place and time.",
+        "Everyone knows it, so no source is needed.",
+        "In this record, the centre position produced the clearest sound.",
+        "The opposite result is true because we prefer it."
+      ],
+      "answer": 2,
+      "explanation": "“In this record” correctly limits the claim to the available evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-096",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Before Owen finishes “write instructions for speakers”, which check best tests whether the product is trustworthy and usable?",
+      "options": [
+        "Is every fact hidden behind decoration?",
+        "Does it avoid naming any source or purpose?",
+        "Is it long even when the order is unclear?",
+        "Can the audience trace each main claim to the record and follow the intended action?"
+      ],
+      "answer": 3,
+      "explanation": "A trustworthy product makes claims traceable and gives its audience a clear path to use the information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-097",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “On a warm afternoon, Ruby surveyed visitors about shade at the neighbourhood park to suggest better resting areas. Families preferred seats near trees. Ruby will group the answers by age tomorrow.” Which outline best represents the paragraph’s reasoning?",
+      "options": [
+        "completed action → observed result → future use or check",
+        "future claim → no action → unrelated ending",
+        "place name → colour list → imaginary meal",
+        "answer first → remove evidence → change the subject"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph moves from completed work to evidence and then to a planned next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-098",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "常见时态",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Which rewrite keeps the time order in this log: “Ruby surveyed visitors about shade on a warm afternoon and will group the answers by age tomorrow”?",
+      "options": [
+        "The future step caused an action that never happened.",
+        "After completing the recorded work, Ruby plans the stated next step.",
+        "Both actions are permanent facts with no time.",
+        "The past action will begin after the future step is finished yesterday."
+      ],
+      "answer": 1,
+      "explanation": "The completed action comes first and the future plan follows it."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-099",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "情境交际",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "While Ruby is working on the task “prepare an evidence-based suggestion”, a listener hears “families preferred seats near trees” and says, “One result may not be enough.” Which reply is polite and evidence-aware?",
+      "options": [
+        "Be quiet; one result proves everything.",
+        "Evidence is not needed in a project.",
+        "That is a fair point. We can check more records before making a stronger claim.",
+        "I will change the numbers to win."
+      ],
+      "answer": 2,
+      "explanation": "The reply respects the concern and proposes gathering more evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-100",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "指代理解",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "In “Ruby described the survey form after checking the report because it was needed to prepare an evidence-based suggestion,” what evidence resolves the pronoun?",
+      "options": [
+        "the person’s name alone",
+        "the place is always the nearest word",
+        "all nouns must have the same meaning",
+        "singular grammar and the meaning that the survey form can support the task"
+      ],
+      "answer": 3,
+      "explanation": "Reliable reference uses both grammatical agreement and sentence meaning."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-101",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "简单推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Evidence: “families preferred seats near trees.” Purpose: “to suggest better resting areas.” Which conclusion is careful enough for the evidence?",
+      "options": [
+        "The result supports a useful possibility, but more records may strengthen the conclusion.",
+        "The result proves the same outcome everywhere forever.",
+        "The evidence should be ignored because it is not perfect.",
+        "The purpose automatically makes every claim true."
+      ],
+      "answer": 0,
+      "explanation": "A careful inference uses the evidence without claiming more certainty than it provides."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-102",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "信息整理",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "To build the task “prepare an evidence-based suggestion”, which field order makes the evidence easiest to check?",
+      "options": [
+        "answer → hidden method → no result → decoration",
+        "question or purpose → method and time → result → next action",
+        "name only → unrelated joke → repeated title → blank",
+        "future action → changed numbers → unknown source → guess"
+      ],
+      "answer": 1,
+      "explanation": "This order shows why information was collected, how it was collected, what it showed and what follows."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-103",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "功能表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Which wording reports “families preferred seats near trees” without presenting it as an unlimited fact?",
+      "options": [
+        "This proves that families preferred seats near trees in every place and time.",
+        "Everyone knows it, so no source is needed.",
+        "In this record, families preferred seats near trees.",
+        "The opposite result is true because we prefer it."
+      ],
+      "answer": 2,
+      "explanation": "“In this record” correctly limits the claim to the available evidence."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-104",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "真实任务",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Before Ruby finishes “prepare an evidence-based suggestion”, which check best tests whether the product is trustworthy and usable?",
+      "options": [
+        "Is every fact hidden behind decoration?",
+        "Does it avoid naming any source or purpose?",
+        "Is it long even when the order is unclear?",
+        "Can the audience trace each main claim to the record and follow the intended action?"
+      ],
+      "answer": 3,
+      "explanation": "A trustworthy product makes claims traceable and gives its audience a clear path to use the information."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-105",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "段落阅读",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Read: “During Friday’s workshop, Henry photographed each stage of printmaking at the art classroom to teach another class the process. Careful alignment made the colours clearer. Henry will arrange the photos in order tonight.” Which outline best represents the paragraph’s reasoning?",
+      "options": [
+        "completed action → observed result → future use or check",
+        "future claim → no action → unrelated ending",
+        "place name → colour list → imaginary meal",
+        "answer first → remove evidence → change the subject"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph moves from completed work to evidence and then to a planned next step."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-106",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "A paragraph’s main idea connects its important details, not just one small ___.",
+      "answer": "detail",
+      "explanation": "The word “detail” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-107",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Yesterday we ___ the results.（填 record 的过去式）",
+      "answer": "recorded",
+      "explanation": "The word “recorded” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-108",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "To disagree politely, say “I understand, ___ I see it differently.”",
+      "answer": "but",
+      "explanation": "The word “but” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-109",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "In “The map is useful, so keep it,” “it” refers to the ___.",
+      "answer": "map",
+      "explanation": "The word “map” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-110",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "A careful inference is based on evidence, not a wild ___.",
+      "answer": "guess",
+      "explanation": "The word “guess” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-111",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "A table can organise time, method and ___.",
+      "answer": "result",
+      "explanation": "The word “result” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-112",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "“According to the survey” introduces collected ___.",
+      "answer": "evidence",
+      "explanation": "The word “evidence” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-113",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "真实任务",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Before writing a notice, think about its audience and ___.",
+      "answer": "purpose",
+      "explanation": "The word “purpose” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-114",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Words such as “however” may signal a change or ___.",
+      "answer": "contrast",
+      "explanation": "The word “contrast” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-115",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Tomorrow we ___ check the second record.",
+      "answer": "will",
+      "explanation": "The word “will” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-116",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "“Could you explain that again, ___?” completes a polite request.",
+      "answer": "please",
+      "explanation": "The word “please” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-117",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "A pronoun must agree in meaning and number with the noun it ___.",
+      "answer": "replaces",
+      "explanation": "The word “replaces” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-118",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "简单推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "One example may support an idea but may not ___ it for every case.",
+      "answer": "prove",
+      "explanation": "The word “prove” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-119",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "信息整理",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "A useful summary keeps key facts and removes ___ details.",
+      "answer": "unrelated",
+      "explanation": "The word “unrelated” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-120",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "功能表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Use “therefore” to introduce a result or ___.",
+      "answer": "conclusion",
+      "explanation": "The word “conclusion” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-121",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "A report should let readers trace a claim back to its ___.",
+      "answer": "source",
+      "explanation": "The word “source” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-122",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "The relationship among sentences forms the paragraph’s ___.",
+      "answer": "logic",
+      "explanation": "The word “logic” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-123",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "She has ___ the chart already.（填 finish 的过去分词）",
+      "answer": "finished",
+      "explanation": "The word “finished” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-124",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "简单推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "When evidence is limited, use careful words such as “may” or “___”.",
+      "answer": "might",
+      "explanation": "The word “might” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-125",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "信息整理",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "To compare records fairly, keep the same categories and ___.",
+      "answer": "units",
+      "explanation": "The word “units” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-126",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "真实任务",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "After drafting a guide, test whether another reader can ___ it.",
+      "answer": "use",
+      "explanation": "The word “use” completes the sentence accurately."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-127",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "段落阅读",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each paragraph-reading term with its job.",
+      "left": [
+        "main idea",
+        "supporting detail",
+        "title",
+        "paragraph order"
+      ],
+      "right": [
+        "short topic label",
+        "central message",
+        "logic between sentences",
+        "specific evidence"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 段落阅读 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-128",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "常见时态",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each verb form with its time meaning.",
+      "left": [
+        "worked",
+        "works",
+        "is working",
+        "will work"
+      ],
+      "right": [
+        "happening now",
+        "completed past",
+        "future plan",
+        "regular present"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 常见时态 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-129",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "情境交际",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each polite sentence with its purpose.",
+      "left": [
+        "Could you help?",
+        "I see your point.",
+        "Could you repeat that?",
+        "Thank you."
+      ],
+      "right": [
+        "ask for clarification",
+        "request help",
+        "show thanks",
+        "acknowledge an idea"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 情境交际 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-130",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "指代理解",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each pronoun with what it can replace.",
+      "left": [
+        "he",
+        "she",
+        "it",
+        "they"
+      ],
+      "right": [
+        "one thing",
+        "one male person",
+        "several people or things",
+        "one female person"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 指代理解 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-131",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "简单推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each reasoning term with its meaning.",
+      "left": [
+        "fact",
+        "clue",
+        "inference",
+        "overclaim"
+      ],
+      "right": [
+        "reasoned conclusion",
+        "direct information",
+        "claim beyond evidence",
+        "supporting sign"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 简单推断 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-132",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "信息整理",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each record field with the information it stores.",
+      "left": [
+        "who",
+        "when",
+        "method",
+        "result"
+      ],
+      "right": [
+        "how work was done",
+        "person",
+        "what the record showed",
+        "time"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 信息整理 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-133",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "功能表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "project English"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each linking expression with its function.",
+      "left": [
+        "according to",
+        "however",
+        "therefore",
+        "for example"
+      ],
+      "right": [
+        "show conclusion",
+        "introduce source",
+        "give an instance",
+        "show contrast"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 功能表达 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-134",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "真实任务",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Use the project language chart. Match each project element with the question it answers.",
+      "left": [
+        "audience",
+        "purpose",
+        "evidence",
+        "review"
+      ],
+      "right": [
+        "supporting information",
+        "intended reader",
+        "final check",
+        "reason for creating"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 真实任务 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-135",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "段落阅读",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each paragraph-reading term with its job.",
+      "left": [
+        "main idea",
+        "supporting detail",
+        "title",
+        "paragraph order"
+      ],
+      "right": [
+        "short topic label",
+        "central message",
+        "logic between sentences",
+        "specific evidence"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 段落阅读 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-136",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "常见时态",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each verb form with its time meaning.",
+      "left": [
+        "worked",
+        "works",
+        "is working",
+        "will work"
+      ],
+      "right": [
+        "happening now",
+        "completed past",
+        "future plan",
+        "regular present"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 常见时态 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-137",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "情境交际",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each polite sentence with its purpose.",
+      "left": [
+        "Could you help?",
+        "I see your point.",
+        "Could you repeat that?",
+        "Thank you."
+      ],
+      "right": [
+        "ask for clarification",
+        "request help",
+        "show thanks",
+        "acknowledge an idea"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 情境交际 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-138",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "指代理解",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each pronoun with what it can replace.",
+      "left": [
+        "he",
+        "she",
+        "it",
+        "they"
+      ],
+      "right": [
+        "one thing",
+        "one male person",
+        "several people or things",
+        "one female person"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 指代理解 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-139",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "简单推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each reasoning term with its meaning.",
+      "left": [
+        "fact",
+        "clue",
+        "inference",
+        "overclaim"
+      ],
+      "right": [
+        "reasoned conclusion",
+        "direct information",
+        "claim beyond evidence",
+        "supporting sign"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 简单推断 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-english-authored-140",
+    "subject": "english",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "信息整理",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "evidence-based reading"
+    ],
+    "content": {
+      "stem": "Review the communication checklist. Match each record field with the information it stores.",
+      "left": [
+        "who",
+        "when",
+        "method",
+        "result"
+      ],
+      "right": [
+        "how work was done",
+        "person",
+        "what the record showed",
+        "time"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Compare the meaning and function of all four 信息整理 items."
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]

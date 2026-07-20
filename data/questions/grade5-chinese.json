@@ -1,22 +1,3838 @@
 [
-  {"stem":"\"完璧归赵\"的主人公是谁？","options":["诸葛亮","蔺相如","廉颇","曹操"],"answer":1},
-  {"stem":"\"床前明月光\"出自李白的哪首诗？","options":["静夜思","望庐山瀑布","赠汪伦","早发白帝城"],"answer":0},
-  {"stem":"\"三人行，必有我__焉\"","options":["师","长","友","人"],"answer":0},
-  {"stem":"《水浒传》的作者是？","options":["罗贯中","吴承恩","施耐庵","曹雪芹"],"answer":2},
-  {"stem":"\"春风又绿江南岸\"中\"绿\"字是什么用法？","options":["名词","动词","形容词","副词"],"answer":1,"explanation":"\"绿\"在此作动词，表示\"使...变绿\""},
-  {"stem":"下列哪个不是四大名著？","options":["红楼梦","西游记","聊斋志异","三国演义"],"answer":2},
-  {"stem":"\"学而时习之\"的\"之\"指代什么？","options":["学习","知识","时间","书本"],"answer":1},
-  {"stem":"\"天行健，__以自强不息\"","options":["君子","小人","凡人","圣人"],"answer":0},
-  {"stem":"\"醉翁之意不在酒\"的下一句？","options":["在乎山水之间也","在乎名利之间也","在乎天地之间也","在于人心之间"],"answer":0},
-  {"stem":"下面哪个是反问句？","options":["你去学校","难道你不去吗","你去不去","你去吧"],"answer":1},
-  {"stem":"\"纸上得来终觉浅\"下一句？","options":["绝知此事要躬行","书到用时方恨少","一寸光阴一寸金","少壮不努力"],"answer":0},
-  {"stem":"杜甫被称为？","options":["诗仙","诗圣","诗鬼","诗佛"],"answer":1},
-  {"stem":"下面哪个成语来自《三国演义》？","options":["精卫填海","三顾茅庐","亡羊补牢","守株待兔"],"answer":1},
-  {"stem":"对联\"爆竹一声除旧岁\"下联选哪个？","options":["桃符万户换新春","春风送暖入屠苏","总把新桃换旧符","千门万户曈曈日"],"answer":0},
-  {"stem":"\"略\"字的部首是？","options":["田","各","口","田字旁"],"answer":3},
-  {"stem":"哪个句子是递进关系？","options":["因为下雨所以没去","他不仅学习好而且体育也好","虽然下雨但他去了","如果你去我也去"],"answer":1},
-  {"stem":"\"书山有路勤为径\"下一句？","options":["学海无涯苦作舟","学而不思则罔","思而不学则殆","三人行必有我师"],"answer":0},
-  {"stem":"\"红\"在\"红军\"中的意思是？","options":["颜色","革命的","喜庆的","吉祥的"],"answer":1},
-  {"stem":"《草房子》的作者是？","options":["曹文轩","杨红樱","郑渊洁","沈石溪"],"answer":0},
-  {"stem":"哪个字是多音字？","options":["一","二","长","人"],"answer":2,"explanation":"长可读cháng和zhǎng"}
+  {
+    "id": "g5-chinese-authored-001",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“可靠的生态判断需要长期而细致的观察”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "只有掌握充分证据，才能作出可靠判断",
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 0,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-002",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“清晨，护林员老周沿着湿滑的山路巡查。他不时停下，拨开灌木查看土壤，又把新发现的鸟巢位置标在图上。雾渐渐散去，阳光越过山脊，林间的露珠一颗颗亮起来。回站后，他立即整理记录，因为连续的数据能帮助判断动物活动范围。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "按巡查过程和回站整理的先后展开",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 1,
+      "explanation": "全文按巡查过程和回站整理的先后展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-003",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“清晨，护林员老周沿着湿滑的山路巡查。他不时停下，拨开灌木查看土壤，又把新发现的鸟巢位置标在图上。雾渐渐散去，阳光越过山脊，林间的露珠一颗颗亮起来。回站后，他立即整理记录，因为连续的数据能帮助判断动物活动范围。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "护林员细致巡查并用连续记录保护森林",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 2,
+      "explanation": "概括保留了主要对象、做法和结果：护林员细致巡查并用连续记录保护森林。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-004",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“停下查看、标注位置、立即整理记录”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错",
+        "用可观察的行动支撑人物特点"
+      ],
+      "answer": 3,
+      "explanation": "具体细节“停下查看、标注位置、立即整理记录”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-005",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“雾散、阳光越过山脊、露珠发亮”。这组景物描写最直接的作用是？",
+      "options": [
+        "形成鲜明场景并配合主题内容",
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 0,
+      "explanation": "具体景物构成画面，并与“护林员细致巡查并用连续记录保护森林”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-006",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“用具体行动和环境变化呈现工作过程”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "用明确的过程或证据把特点说清楚",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息"
+      ],
+      "answer": 1,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-007",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“停下查看、标注位置、立即整理记录”。线索二：“护林员细致巡查并用连续记录保护森林”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "可靠的生态判断需要长期而细致的观察",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 2,
+      "explanation": "两条线索共同支持“可靠的生态判断需要长期而细致的观察”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-008",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“敬业负责”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造",
+        "先了解背景和事实，再以负责的态度付诸实践"
+      ],
+      "answer": 3,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“敬业负责”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-009",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "现在要围绕“护林员细致巡查并用连续记录保护森林”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "记录应包含时间、地点、发现和后续处理",
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 0,
+      "explanation": "“记录应包含时间、地点、发现和后续处理”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-010",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“文化遗存修复不能只追求外表崭新”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "只有掌握充分证据，才能作出可靠判断",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 1,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-011",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“学校准备修复一面旧砖墙。建筑师先查阅老照片，发现墙上的菱形花纹与当地传统民居相似；随后测量每块砖的尺寸，让新砖保持原有比例。完工后，新墙既安全牢固，又保留了校园过去的样子。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "从查资料、测量到修复结果逐步推进",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 2,
+      "explanation": "全文从查资料、测量到修复结果逐步推进。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-012",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“学校准备修复一面旧砖墙。建筑师先查阅老照片，发现墙上的菱形花纹与当地传统民居相似；随后测量每块砖的尺寸，让新砖保持原有比例。完工后，新墙既安全牢固，又保留了校园过去的样子。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳",
+        "修复旧墙时兼顾安全与历史风貌"
+      ],
+      "answer": 3,
+      "explanation": "概括保留了主要对象、做法和结果：修复旧墙时兼顾安全与历史风貌。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-013",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“查阅照片并精确测量砖块”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "用可观察的行动支撑人物特点",
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 0,
+      "explanation": "具体细节“查阅照片并精确测量砖块”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-014",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“菱形花纹与新旧砖墙协调相接”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "形成鲜明场景并配合主题内容",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 1,
+      "explanation": "具体景物构成画面，并与“修复旧墙时兼顾安全与历史风貌”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-015",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“通过修复前后的做法说明保护原则”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "用明确的过程或证据把特点说清楚",
+        "让读者无法验证信息"
+      ],
+      "answer": 2,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-016",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“查阅照片并精确测量砖块”。线索二：“修复旧墙时兼顾安全与历史风貌”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据",
+        "文化遗存修复不能只追求外表崭新"
+      ],
+      "answer": 3,
+      "explanation": "两条线索共同支持“文化遗存修复不能只追求外表崭新”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-017",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“尊重并延续地方建筑文化”。哪项做法与这种价值最一致？",
+      "options": [
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 0,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“尊重并延续地方建筑文化”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-018",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "现在要围绕“修复旧墙时兼顾安全与历史风貌”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "方案说明要交代依据、做法与预期效果",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 1,
+      "explanation": "“方案说明要交代依据、做法与预期效果”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-019",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“采访者既要准备问题，也要照顾受访者的表达感受”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "只有掌握充分证据，才能作出可靠判断",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 2,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-020",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“小岚第一次采访社区老人时，问题又长又多，老人常常记不清她问到了哪里。她回去删去重复问题，按“童年生活—街巷变化—未来愿望”重新排序。第二次采访，老人讲得从容，许多细节也自然地串联起来。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程",
+        "先写问题，再写调整办法和改进效果"
+      ],
+      "answer": 3,
+      "explanation": "全文先写问题，再写调整办法和改进效果。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-021",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“小岚第一次采访社区老人时，问题又长又多，老人常常记不清她问到了哪里。她回去删去重复问题，按“童年生活—街巷变化—未来愿望”重新排序。第二次采访，老人讲得从容，许多细节也自然地串联起来。”最全面而简洁的概括是？",
+      "options": [
+        "合理设计采访提纲能获得更清楚的信息",
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 0,
+      "explanation": "概括保留了主要对象、做法和结果：合理设计采访提纲能获得更清楚的信息。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-022",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“发现问题后主动删减并重排问题”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "用可观察的行动支撑人物特点",
+        "只让句子字数变多",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 1,
+      "explanation": "具体细节“发现问题后主动删减并重排问题”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-023",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“老人从容讲述，往事逐渐清晰”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "形成鲜明场景并配合主题内容",
+        "说明景物与文章无关"
+      ],
+      "answer": 2,
+      "explanation": "具体景物构成画面，并与“合理设计采访提纲能获得更清楚的信息”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-024",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“运用前后对比突出提纲调整的作用”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息",
+        "用明确的过程或证据把特点说清楚"
+      ],
+      "answer": 3,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-025",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“发现问题后主动删减并重排问题”。线索二：“合理设计采访提纲能获得更清楚的信息”。合并两处信息，最合理的推断是？",
+      "options": [
+        "采访者既要准备问题，也要照顾受访者的表达感受",
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 0,
+      "explanation": "两条线索共同支持“采访者既要准备问题，也要照顾受访者的表达感受”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-026",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“倾听长者并保存社区记忆”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 1,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“倾听长者并保存社区记忆”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-027",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "现在要围绕“合理设计采访提纲能获得更清楚的信息”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "采访提纲应主题集中、顺序清楚、问题简洁",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 2,
+      "explanation": "“采访提纲应主题集中、顺序清楚、问题简洁”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-028",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“自然观察要尽量减少观察者对对象的影响”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证",
+        "只有掌握充分证据，才能作出可靠判断"
+      ],
+      "answer": 3,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-029",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“潮水退去，滩涂上留下弯弯曲曲的水纹。几只白鹭缓慢踱步，忽然把尖嘴探入浅水。远处的芦苇被风压低，又一层层抬起。观察组没有靠近，只用望远镜记录，因为过度惊扰会改变鸟类原本的行为。”文章是怎样组织内容的？",
+      "options": [
+        "先描写滩涂景象，再说明观察方式及原因",
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 0,
+      "explanation": "全文先描写滩涂景象，再说明观察方式及原因。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-030",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“潮水退去，滩涂上留下弯弯曲曲的水纹。几只白鹭缓慢踱步，忽然把尖嘴探入浅水。远处的芦苇被风压低，又一层层抬起。观察组没有靠近，只用望远镜记录，因为过度惊扰会改变鸟类原本的行为。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "观察组在不惊扰白鹭的前提下开展记录",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 1,
+      "explanation": "概括保留了主要对象、做法和结果：观察组在不惊扰白鹭的前提下开展记录。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-031",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“保持距离并使用望远镜观察”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "用可观察的行动支撑人物特点",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 2,
+      "explanation": "具体细节“保持距离并使用望远镜观察”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-032",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“水纹、白鹭与随风起伏的芦苇构成动态画面”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "说明景物与文章无关",
+        "形成鲜明场景并配合主题内容"
+      ],
+      "answer": 3,
+      "explanation": "具体景物构成画面，并与“观察组在不惊扰白鹭的前提下开展记录”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-033",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“细致描写与因果说明结合”。这样处理的目的是？",
+      "options": [
+        "用明确的过程或证据把特点说清楚",
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息"
+      ],
+      "answer": 0,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-034",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“保持距离并使用望远镜观察”。线索二：“观察组在不惊扰白鹭的前提下开展记录”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "自然观察要尽量减少观察者对对象的影响",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 1,
+      "explanation": "两条线索共同支持“自然观察要尽量减少观察者对对象的影响”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-035",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“顺应自然、珍爱生灵”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 2,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“顺应自然、珍爱生灵”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-036",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "现在要围绕“观察组在不惊扰白鹭的前提下开展记录”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景",
+        "观察报告应区分看到的现象和作出的解释"
+      ],
+      "answer": 3,
+      "explanation": "“观察报告应区分看到的现象和作出的解释”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-037",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“评价设施效果要尽量控制雨量等条件”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "只有掌握充分证据，才能作出可靠判断",
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 0,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-038",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“一座小型雨水花园通常比周围地面略低，里面种着耐湿植物。下雨时，屋顶和道路上的部分雨水流入花园，先被土壤和植物根系滞留，再缓慢下渗。研究记录显示，同等雨量下，设置雨水花园的区域地表积水时间更短。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "先介绍结构和过程，再用记录说明效果",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 1,
+      "explanation": "全文先介绍结构和过程，再用记录说明效果。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-039",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“一座小型雨水花园通常比周围地面略低，里面种着耐湿植物。下雨时，屋顶和道路上的部分雨水流入花园，先被土壤和植物根系滞留，再缓慢下渗。研究记录显示，同等雨量下，设置雨水花园的区域地表积水时间更短。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "雨水花园通过滞留和下渗减轻地面积水",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 2,
+      "explanation": "概括保留了主要对象、做法和结果：雨水花园通过滞留和下渗减轻地面积水。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-040",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“研究人员在同等雨量条件下进行记录”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错",
+        "用可观察的行动支撑人物特点"
+      ],
+      "answer": 3,
+      "explanation": "具体细节“研究人员在同等雨量条件下进行记录”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-041",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“低处花园里的耐湿植物承接雨水”。这组景物描写最直接的作用是？",
+      "options": [
+        "形成鲜明场景并配合主题内容",
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 0,
+      "explanation": "具体景物构成画面，并与“雨水花园通过滞留和下渗减轻地面积水”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-042",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“作诠释并用对比记录说明效果”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "用明确的过程或证据把特点说清楚",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息"
+      ],
+      "answer": 1,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-043",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“研究人员在同等雨量条件下进行记录”。线索二：“雨水花园通过滞留和下渗减轻地面积水”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "评价设施效果要尽量控制雨量等条件",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 2,
+      "explanation": "两条线索共同支持“评价设施效果要尽量控制雨量等条件”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-044",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“因地制宜利用自然力量”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造",
+        "先了解背景和事实，再以负责的态度付诸实践"
+      ],
+      "answer": 3,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“因地制宜利用自然力量”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-045",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "现在要围绕“雨水花园通过滞留和下渗减轻地面积水”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "科普说明应把结构、原理和效果写清楚",
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 0,
+      "explanation": "“科普说明应把结构、原理和效果写清楚”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-046",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "材料得出“传统手艺的稳定质量依靠长期训练和严格步骤”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "只有掌握充分证据，才能作出可靠判断",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 1,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-047",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“木版年画要经过画稿、刻版、调色、套印等多道工序。套印时，每一块版对应一种颜色，位置稍有偏差，画面就会错位。老师傅落版前总要反复对准标记，手腕稳稳落下，鲜亮的颜色便一层层叠在纸上。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先总说工序，再重点说明套印要求和操作",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 2,
+      "explanation": "全文先总说工序，再重点说明套印要求和操作。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-048",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "阅读短文：“木版年画要经过画稿、刻版、调色、套印等多道工序。套印时，每一块版对应一种颜色，位置稍有偏差，画面就会错位。老师傅落版前总要反复对准标记，手腕稳稳落下，鲜亮的颜色便一层层叠在纸上。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳",
+        "木版年画的制作工序精细，套印尤其讲究准确"
+      ],
+      "answer": 3,
+      "explanation": "概括保留了主要对象、做法和结果：木版年画的制作工序精细，套印尤其讲究准确。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-049",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物细节是“老师傅反复对准并稳定落版”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "用可观察的行动支撑人物特点",
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 0,
+      "explanation": "具体细节“老师傅反复对准并稳定落版”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-050",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "画面中出现“多层鲜亮颜色在纸上逐渐形成画面”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "形成鲜明场景并配合主题内容",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 1,
+      "explanation": "具体景物构成画面，并与“木版年画的制作工序精细，套印尤其讲究准确”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-051",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "某一说明片段“列举工序并举例说明套印难点”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "用明确的过程或证据把特点说清楚",
+        "让读者无法验证信息"
+      ],
+      "answer": 2,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-052",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "线索一：“老师傅反复对准并稳定落版”。线索二：“木版年画的制作工序精细，套印尤其讲究准确”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据",
+        "传统手艺的稳定质量依靠长期训练和严格步骤"
+      ],
+      "answer": 3,
+      "explanation": "两条线索共同支持“传统手艺的稳定质量依靠长期训练和严格步骤”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-053",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“木版年画体现传统工艺智慧”。哪项做法与这种价值最一致？",
+      "options": [
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 0,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“木版年画体现传统工艺智慧”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-054",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "现在要围绕“木版年画的制作工序精细，套印尤其讲究准确”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "介绍工艺时可按步骤写并突出关键环节",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 1,
+      "explanation": "“介绍工艺时可按步骤写并突出关键环节”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-055",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料得出“解决集体问题要兼顾效率与不同人的需要”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "只有掌握充分证据，才能作出可靠判断",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 2,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-056",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“午休后的教室有些闷热，窗玻璃蒙着薄薄的水汽。班长没有马上把所有窗户推到底，而是先询问靠窗同学的感受，再打开两侧上方的窗，并提醒大家添衣。几分钟后，空气清新了，靠窗同学也没有觉得太冷。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程",
+        "从发现问题到权衡需求、采取措施和验证效果"
+      ],
+      "answer": 3,
+      "explanation": "全文从发现问题到权衡需求、采取措施和验证效果。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-057",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“午休后的教室有些闷热，窗玻璃蒙着薄薄的水汽。班长没有马上把所有窗户推到底，而是先询问靠窗同学的感受，再打开两侧上方的窗，并提醒大家添衣。几分钟后，空气清新了，靠窗同学也没有觉得太冷。”最全面而简洁的概括是？",
+      "options": [
+        "班长通过周到安排改善通风并照顾同学感受",
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 0,
+      "explanation": "概括保留了主要对象、做法和结果：班长通过周到安排改善通风并照顾同学感受。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-058",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "人物细节是“先询问、再适度开窗并提醒添衣”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "用可观察的行动支撑人物特点",
+        "只让句子字数变多",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 1,
+      "explanation": "具体细节“先询问、再适度开窗并提醒添衣”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-059",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "画面中出现“闷热教室、玻璃水汽与清新空气形成变化”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "形成鲜明场景并配合主题内容",
+        "说明景物与文章无关"
+      ],
+      "answer": 2,
+      "explanation": "具体景物构成画面，并与“班长通过周到安排改善通风并照顾同学感受”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-060",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "某一说明片段“用行动细节和结果表现人物特点”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息",
+        "用明确的过程或证据把特点说清楚"
+      ],
+      "answer": 3,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-061",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "线索一：“先询问、再适度开窗并提醒添衣”。线索二：“班长通过周到安排改善通风并照顾同学感受”。合并两处信息，最合理的推断是？",
+      "options": [
+        "解决集体问题要兼顾效率与不同人的需要",
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 0,
+      "explanation": "两条线索共同支持“解决集体问题要兼顾效率与不同人的需要”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-062",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“体谅他人、和谐相处”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 1,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“体谅他人、和谐相处”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-063",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "现在要围绕“班长通过周到安排改善通风并照顾同学感受”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "提出班级建议时应说明影响和照顾措施",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 2,
+      "explanation": "“提出班级建议时应说明影响和照顾措施”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-064",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料得出“研究历史建筑需要实物与文献相互印证”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证",
+        "只有掌握充分证据，才能作出可靠判断"
+      ],
+      "answer": 3,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-065",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“古桥的石栏上没有完全相同的纹样：有的是卷云，有的是莲花，还有的是首尾相接的鱼。研究者把纹样拓印下来，与地方旧志中的图样比较，发现不同时期修缮留下了各自的特点。古桥因此像一本可以阅读的石头史书。”文章是怎样组织内容的？",
+      "options": [
+        "从观察纹样到比较资料并形成认识",
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 0,
+      "explanation": "全文从观察纹样到比较资料并形成认识。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-066",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“古桥的石栏上没有完全相同的纹样：有的是卷云，有的是莲花，还有的是首尾相接的鱼。研究者把纹样拓印下来，与地方旧志中的图样比较，发现不同时期修缮留下了各自的特点。古桥因此像一本可以阅读的石头史书。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "古桥纹样保存了不同时期的修缮信息",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 1,
+      "explanation": "概括保留了主要对象、做法和结果：古桥纹样保存了不同时期的修缮信息。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-067",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "人物细节是“研究者拓印纹样并查阅旧志比较”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "用可观察的行动支撑人物特点",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 2,
+      "explanation": "具体细节“研究者拓印纹样并查阅旧志比较”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-068",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "画面中出现“卷云、莲花和游鱼纹样铺展在石栏上”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "说明景物与文章无关",
+        "形成鲜明场景并配合主题内容"
+      ],
+      "answer": 3,
+      "explanation": "具体景物构成画面，并与“古桥纹样保存了不同时期的修缮信息”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-069",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "某一说明片段“分类举例、作比较并使用比喻”。这样处理的目的是？",
+      "options": [
+        "用明确的过程或证据把特点说清楚",
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息"
+      ],
+      "answer": 0,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-070",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "线索一：“研究者拓印纹样并查阅旧志比较”。线索二：“古桥纹样保存了不同时期的修缮信息”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "研究历史建筑需要实物与文献相互印证",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 1,
+      "explanation": "两条线索共同支持“研究历史建筑需要实物与文献相互印证”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-071",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“古桥承载地方历史和审美传统”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 2,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“古桥承载地方历史和审美传统”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-072",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "现在要围绕“古桥纹样保存了不同时期的修缮信息”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景",
+        "文化讲解应把具体细节与历史意义联系起来"
+      ],
+      "answer": 3,
+      "explanation": "“文化讲解应把具体细节与历史意义联系起来”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-073",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料得出“一次小样本实验不足以得到十分确定的结论”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "只有掌握充分证据，才能作出可靠判断",
+        "虽然没有证据，但结论一定可靠",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 0,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-074",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“科学小组想知道遮光是否影响薄荷生长。他们选取长势相近的两盆薄荷，浇相同的水，一盆正常见光，另一盆每天遮光六小时。两周后，遮光组茎更细长、叶色更浅。大家没有马上断言，而是计划增加样本再验证。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "按提出问题、控制实验、观察结果和继续验证展开",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 1,
+      "explanation": "全文按提出问题、控制实验、观察结果和继续验证展开。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-075",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“科学小组想知道遮光是否影响薄荷生长。他们选取长势相近的两盆薄荷，浇相同的水，一盆正常见光，另一盆每天遮光六小时。两周后，遮光组茎更细长、叶色更浅。大家没有马上断言，而是计划增加样本再验证。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "小组用对照实验研究光照对薄荷生长的影响",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 2,
+      "explanation": "概括保留了主要对象、做法和结果：小组用对照实验研究光照对薄荷生长的影响。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-076",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "人物细节是“得到结果后仍计划增加样本验证”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错",
+        "用可观察的行动支撑人物特点"
+      ],
+      "answer": 3,
+      "explanation": "具体细节“得到结果后仍计划增加样本验证”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-077",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "画面中出现“遮光组细长的茎和较浅的叶色形成可见差异”。这组景物描写最直接的作用是？",
+      "options": [
+        "形成鲜明场景并配合主题内容",
+        "代替全部人物行动",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 0,
+      "explanation": "具体景物构成画面，并与“小组用对照实验研究光照对薄荷生长的影响”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-078",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "某一说明片段“列数字、作比较并呈现实验变量”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "用明确的过程或证据把特点说清楚",
+        "只表达情绪而不介绍对象",
+        "让读者无法验证信息"
+      ],
+      "answer": 1,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-079",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "线索一：“得到结果后仍计划增加样本验证”。线索二：“小组用对照实验研究光照对薄荷生长的影响”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "一次小样本实验不足以得到十分确定的结论",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 2,
+      "explanation": "两条线索共同支持“一次小样本实验不足以得到十分确定的结论”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-080",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“求真务实、谨慎验证”。哪项做法与这种价值最一致？",
+      "options": [
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造",
+        "先了解背景和事实，再以负责的态度付诸实践"
+      ],
+      "answer": 3,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“求真务实、谨慎验证”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-081",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "现在要围绕“小组用对照实验研究光照对薄荷生长的影响”完成真实写作任务。哪项要求最能帮助读者理解并行动？",
+      "options": [
+        "实验报告要写清变量、现象与结论限度",
+        "只写口号，不写对象与办法",
+        "删除所有关键数据和事实",
+        "不考虑读者需要与使用场景"
+      ],
+      "answer": 0,
+      "explanation": "“实验报告要写清变量、现象与结论限度”能使表达清楚、可信并便于使用。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-082",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料得出“快递员把物品安全和收件人需要放在心上”的认识。哪个复句能准确表达“依据充分才能得出结论”？",
+      "options": [
+        "虽然没有证据，但结论一定可靠",
+        "只有掌握充分证据，才能作出可靠判断",
+        "一边删除事实，一边随意猜测",
+        "不但不看材料，而且拒绝验证"
+      ],
+      "answer": 1,
+      "explanation": "“只有……才……”准确表达必要条件关系。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-083",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“雨夜里，快递员把车停在屋檐下，将几个纸箱重新套上防水袋。他低头核对地址时，雨水顺着帽檐往下滴；确认无误后，他把箱子抱在胸前，绕开积水送到老人家门口。老人连声道谢，他只是摆摆手，又转身走进雨幕。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "围绕雨中护送包裹的动作依次叙述",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 2,
+      "explanation": "全文围绕雨中护送包裹的动作依次叙述。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-084",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合短文中的相关信息：“雨夜里，快递员把车停在屋檐下，将几个纸箱重新套上防水袋。他低头核对地址时，雨水顺着帽檐往下滴；确认无误后，他把箱子抱在胸前，绕开积水送到老人家门口。老人连声道谢，他只是摆摆手，又转身走进雨幕。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳",
+        "快递员在雨夜认真保护并送达包裹"
+      ],
+      "answer": 3,
+      "explanation": "概括保留了主要对象、做法和结果：快递员在雨夜认真保护并送达包裹。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-085",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "人物细节是“套防水袋、核对地址、抱紧纸箱并绕开积水”。这样写比直接说“他很好”好在哪里？",
+      "options": [
+        "用可观察的行动支撑人物特点",
+        "隐去人物所有行动",
+        "只让句子字数变多",
+        "证明人物永远不会犯错"
+      ],
+      "answer": 0,
+      "explanation": "具体细节“套防水袋、核对地址、抱紧纸箱并绕开积水”能让读者自己判断人物特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-086",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "画面中出现“雨水沿帽檐滴落，人物转身走入雨幕”。这组景物描写最直接的作用是？",
+      "options": [
+        "代替全部人物行动",
+        "形成鲜明场景并配合主题内容",
+        "删去时间和空间线索",
+        "说明景物与文章无关"
+      ],
+      "answer": 1,
+      "explanation": "具体景物构成画面，并与“快递员在雨夜认真保护并送达包裹”相配合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-087",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "某一说明片段“用动作和环境描写共同突出人物品质”。这样处理的目的是？",
+      "options": [
+        "用无关句子混淆重点",
+        "只表达情绪而不介绍对象",
+        "用明确的过程或证据把特点说清楚",
+        "让读者无法验证信息"
+      ],
+      "answer": 2,
+      "explanation": "说明方法要服务于特点和事理的清晰呈现。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-088",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "线索一：“套防水袋、核对地址、抱紧纸箱并绕开积水”。线索二：“快递员在雨夜认真保护并送达包裹”。合并两处信息，最合理的推断是？",
+      "options": [
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据",
+        "快递员把物品安全和收件人需要放在心上"
+      ],
+      "answer": 3,
+      "explanation": "两条线索共同支持“快递员把物品安全和收件人需要放在心上”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-089",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "材料中的行动或资料指向“尽职守信、尊重劳动”。哪项做法与这种价值最一致？",
+      "options": [
+        "先了解背景和事实，再以负责的态度付诸实践",
+        "只追求新奇而歪曲原意",
+        "把浪费当作值得夸耀的事",
+        "不查证任何资料就随意编造"
+      ],
+      "answer": 0,
+      "explanation": "理解背景、尊重事实并负责实践，能体现“尽职守信、尊重劳动”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-090",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "为“快递员在雨夜认真保护并送达包裹”制作面向真实读者的作品，交付前哪项检查最有价值？",
+      "options": [
+        "版面是否占满所有空白",
+        "读者能否根据事实理解重点，并按明确步骤采取行动",
+        "是否把证据和来源全部删掉",
+        "是否使用大量与任务无关的口号"
+      ],
+      "answer": 1,
+      "explanation": "真实表达要同时检查可信度、可理解性和可操作性。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-091",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "文章的证据支持“减少浪费需要同时改进供给和取餐方式”，但不能说明所有情况。哪个复句表达最严谨？",
+      "options": [
+        "只要有一个例子，就能证明永远正确",
+        "因为已经有结论，所以可以删掉所有证据",
+        "虽然已有证据支持，但仍需在更多情况中验证",
+        "不但不需要查证，而且可以随意扩大范围"
+      ],
+      "answer": 2,
+      "explanation": "转折复句同时承认已有支持和证据范围的局限。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-092",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "联系全文并判断证据是否充分：“为了减少食堂剩饭，学生会先连续五天称量各年级剩余饭菜，再调查大家不爱吃和取量过多的原因。根据数据，食堂调整了部分菜品，窗口也增加“小份可添”的选择。两周后，人均剩余量下降了近三成。”文章是怎样组织内容的？",
+      "options": [
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程",
+        "按调查、分析、改进和效果评估组织材料"
+      ],
+      "answer": 3,
+      "explanation": "全文按调查、分析、改进和效果评估组织材料。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-093",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "联系全文并判断证据是否充分：“为了减少食堂剩饭，学生会先连续五天称量各年级剩余饭菜，再调查大家不爱吃和取量过多的原因。根据数据，食堂调整了部分菜品，窗口也增加“小份可添”的选择。两周后，人均剩余量下降了近三成。”最全面而简洁的概括是？",
+      "options": [
+        "学校依据调查数据采取措施减少食物浪费",
+        "只写了天气，没有人物或事件",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 0,
+      "explanation": "概括保留了主要对象、做法和结果：学校依据调查数据采取措施减少食物浪费。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-094",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "细节“学生会持续称量并调查原因”和主要内容“学校依据调查数据采取措施减少食物浪费”之间是什么关系？",
+      "options": [
+        "细节只负责增加字数",
+        "具体行动为人物品质和主题提供可验证的证据",
+        "两者相互矛盾且无法理解",
+        "主题可以完全不需要文本证据"
+      ],
+      "answer": 1,
+      "explanation": "人物特点不是空泛标签，要由可观察的行动细节支撑。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-095",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "如果删去“窗口新增小份餐，餐盘里的剩饭明显减少”这组画面，文章最可能失去什么？",
+      "options": [
+        "所有事件的起因和结果",
+        "全部人物姓名和语言",
+        "与主题相配合的具体环境感和画面感",
+        "文章中每一个说明数据"
+      ],
+      "answer": 2,
+      "explanation": "景物细节主要贡献场景、氛围及与主题的呼应。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-096",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "片段采用“列数字并以前后数据作比较”。若要检查这种说明是否有效，最关键的标准是？",
+      "options": [
+        "是否使用了最多形容词",
+        "句子是否越长越好",
+        "是否可以不考虑说明对象",
+        "方法所呈现的过程或证据是否真正支持被说明的特点"
+      ],
+      "answer": 3,
+      "explanation": "说明方法的价值取决于它能否有效说清对象特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-097",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "跨段推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "线索一：“学生会持续称量并调查原因”。线索二：“学校依据调查数据采取措施减少食物浪费”。合并两处信息，最合理的推断是？",
+      "options": [
+        "减少浪费需要同时改进供给和取餐方式",
+        "一个细节可以证明任何事情",
+        "文中行动和结果之间完全无关",
+        "只要猜测就不需要文本依据"
+      ],
+      "answer": 0,
+      "explanation": "两条线索共同支持“减少浪费需要同时改进供给和取餐方式”。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-098",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "传统文化",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "面对“珍惜粮食、反对浪费”这一主题，哪种学习方式既尊重文化又保持求证意识？",
+      "options": [
+        "为了吸引人随意改写历史",
+        "对照实物与可靠资料，区分事实、解释和个人感受",
+        "认为传说和实证资料完全一样",
+        "只记结论而不查阅来源"
+      ],
+      "answer": 1,
+      "explanation": "尊重传统不等于放弃求证，两者应在可靠资料上结合。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-099",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "实际表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "为“学校依据调查数据采取措施减少食物浪费”制作面向真实读者的作品，交付前哪项检查最有价值？",
+      "options": [
+        "版面是否占满所有空白",
+        "是否把证据和来源全部删掉",
+        "读者能否根据事实理解重点，并按明确步骤采取行动",
+        "是否使用大量与任务无关的口号"
+      ],
+      "answer": 2,
+      "explanation": "真实表达要同时检查可信度、可理解性和可操作性。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-100",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "复杂句",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "文章的证据支持“合适的观测条件会影响能够收集的信息”，但不能说明所有情况。哪个复句表达最严谨？",
+      "options": [
+        "只要有一个例子，就能证明永远正确",
+        "因为已经有结论，所以可以删掉所有证据",
+        "不但不需要查证，而且可以随意扩大范围",
+        "虽然已有证据支持，但仍需在更多情况中验证"
+      ],
+      "answer": 3,
+      "explanation": "转折复句同时承认已有支持和证据范围的局限。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-101",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "联系全文并判断证据是否充分：“夜空观测活动开始前，老师让大家先关闭白光手电，改用蒙着红纸的弱光。最初几分钟，大家只看见几颗亮星；眼睛适应黑暗后，更多星星渐渐显现。老师解释，强光会使眼睛重新适应明亮环境，影响观察暗弱天体。”文章是怎样组织内容的？",
+      "options": [
+        "先写操作和现象变化，再解释科学原因",
+        "按词语笔画多少排列",
+        "反复写同一个无关细节",
+        "先给结论却完全不提供过程"
+      ],
+      "answer": 0,
+      "explanation": "全文先写操作和现象变化，再解释科学原因。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-102",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "内容概括",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "联系全文并判断证据是否充分：“夜空观测活动开始前，老师让大家先关闭白光手电，改用蒙着红纸的弱光。最初几分钟，大家只看见几颗亮星；眼睛适应黑暗后，更多星星渐渐显现。老师解释，强光会使眼睛重新适应明亮环境，影响观察暗弱天体。”最全面而简洁的概括是？",
+      "options": [
+        "只写了天气，没有人物或事件",
+        "控制照明并等待暗适应有助于观察星空",
+        "主要介绍一种电子游戏规则",
+        "全文只是赞美颜色鲜艳"
+      ],
+      "answer": 1,
+      "explanation": "概括保留了主要对象、做法和结果：控制照明并等待暗适应有助于观察星空。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-103",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "人物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "细节“老师提前规定照明方式并解释原因”和主要内容“控制照明并等待暗适应有助于观察星空”之间是什么关系？",
+      "options": [
+        "细节只负责增加字数",
+        "两者相互矛盾且无法理解",
+        "具体行动为人物品质和主题提供可验证的证据",
+        "主题可以完全不需要文本证据"
+      ],
+      "answer": 2,
+      "explanation": "人物特点不是空泛标签，要由可观察的行动细节支撑。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-104",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "景物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "如果删去“黑暗中越来越多星星逐渐显现”这组画面，文章最可能失去什么？",
+      "options": [
+        "所有事件的起因和结果",
+        "全部人物姓名和语言",
+        "文章中每一个说明数据",
+        "与主题相配合的具体环境感和画面感"
+      ],
+      "answer": 3,
+      "explanation": "景物细节主要贡献场景、氛围及与主题的呼应。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-105",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "说明方法",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "片段采用“描述现象并作科学解释”。若要检查这种说明是否有效，最关键的标准是？",
+      "options": [
+        "方法所呈现的过程或证据是否真正支持被说明的特点",
+        "是否使用了最多形容词",
+        "句子是否越长越好",
+        "是否可以不考虑说明对象"
+      ],
+      "answer": 0,
+      "explanation": "说明方法的价值取决于它能否有效说清对象特点。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-106",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“虽然实验出现偏差，___大家没有立刻放弃。”应填转折词。",
+      "answer": "但是",
+      "explanation": "结合五年级语文知识，填“但是”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-107",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "先提出问题，再分析原因，最后给出办法，文章层次会更___。",
+      "answer": "清楚",
+      "explanation": "结合五年级语文知识，填“清楚”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-108",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "概括一件事通常要抓住主要人物、事件和___。",
+      "answer": "结果",
+      "explanation": "结合五年级语文知识，填“结果”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-109",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "人物的语言、动作、神态和心理都属于___描写。",
+      "answer": "人物",
+      "explanation": "结合五年级语文知识，填“人物”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-110",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "景物描写不仅形成画面，也常能烘托气氛和人物___。",
+      "answer": "心情",
+      "explanation": "结合五年级语文知识，填“心情”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-111",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "用准确数量说明特点的方法叫列___。",
+      "answer": "数字",
+      "explanation": "结合五年级语文知识，填“数字”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-112",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "跨段推断要整合多处信息，并指出结论的___。",
+      "answer": "依据",
+      "explanation": "结合五年级语文知识，填“依据”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-113",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "传统文化",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "介绍非遗项目时，既要说明技艺，也要尊重文化___。",
+      "answer": "内涵",
+      "explanation": "结合五年级语文知识，填“内涵”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-114",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "实际表达",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "调查报告应写明对象、方法、数据和___。",
+      "answer": "结论",
+      "explanation": "结合五年级语文知识，填“结论”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-115",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "“不仅认真记录，___反复验证”表示递进关系。",
+      "answer": "还",
+      "explanation": "结合五年级语文知识，填“还”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-116",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "过渡句可以承接上文并引出___。",
+      "answer": "下文",
+      "explanation": "结合五年级语文知识，填“下文”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-117",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "概括不能照抄全部内容，要分清主要和___。",
+      "answer": "次要",
+      "explanation": "结合五年级语文知识，填“次要”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-118",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "人物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "用“攥紧拳头、深吸一口气”可以表现人物的紧张或___。",
+      "answer": "坚定",
+      "explanation": "结合五年级语文知识，填“坚定”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-119",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "景物描写",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "“云层裂开，阳光洒向水面”属于___描写。",
+      "answer": "景物",
+      "explanation": "结合五年级语文知识，填“景物”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-120",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "说明方法",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "把两种事物放在一起比较叫作___比较。",
+      "answer": "作",
+      "explanation": "结合五年级语文知识，填“作”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-121",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "跨段推断",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "推断不能超出文本证据允许的合理___。",
+      "answer": "范围",
+      "explanation": "结合五年级语文知识，填“范围”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-122",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "古建筑、传统节日和民间工艺都是文化___的重要内容。",
+      "answer": "传承",
+      "explanation": "结合五年级语文知识，填“传承”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-123",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "建议书除了说明问题，还应提出具体可行的___。",
+      "answer": "建议",
+      "explanation": "结合五年级语文知识，填“建议”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-124",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "照应开头可以使文章结构更加___。",
+      "answer": "完整",
+      "explanation": "结合五年级语文知识，填“完整”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-125",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "跨段推断",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "多个证据指向同一结论时，推断通常更有___力。",
+      "answer": "说服",
+      "explanation": "结合五年级语文知识，填“说服”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-126",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "实际表达",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "发通知要写清时间、地点、参加对象和注意___。",
+      "answer": "事项",
+      "explanation": "结合五年级语文知识，填“事项”能使表达准确完整。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-127",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "复杂句",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配关联词所表示的逻辑关系。",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "如果……就……",
+        "不仅……还……"
+      ],
+      "right": [
+        "假设",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据复杂句的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-128",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配篇章结构与它的展开方式。",
+      "left": [
+        "总—分",
+        "问题—分析—解决",
+        "时间顺序",
+        "对比结构"
+      ],
+      "right": [
+        "按先后推进",
+        "先概括再展开",
+        "突出前后差异",
+        "逐层解决问题"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据篇章逻辑的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-129",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "内容概括",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配概括要素与需要回答的问题。",
+      "left": [
+        "人物",
+        "事件",
+        "结果",
+        "中心"
+      ],
+      "right": [
+        "最后怎样",
+        "谁",
+        "主要说明什么",
+        "做什么"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据内容概括的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-130",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "人物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配人物描写类型与对应内容。",
+      "left": [
+        "语言",
+        "动作",
+        "神态",
+        "心理"
+      ],
+      "right": [
+        "面部表情",
+        "说的话",
+        "内心想法",
+        "做的事"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据人物描写的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-131",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "景物描写",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配景物观察角度与感知内容。",
+      "left": [
+        "颜色",
+        "声音",
+        "形态",
+        "变化"
+      ],
+      "right": [
+        "外形姿态",
+        "视觉色彩",
+        "动态过程",
+        "听觉感受"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据景物描写的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-132",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "说明方法",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配说明方法与它的做法。",
+      "left": [
+        "列数字",
+        "作比较",
+        "举例子",
+        "打比方"
+      ],
+      "right": [
+        "举实例",
+        "用数量",
+        "作形象比喻",
+        "比异同"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据说明方法的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-133",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "跨段推断",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "阅读理解"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配推断步骤中的概念与作用。",
+      "left": [
+        "事实",
+        "证据",
+        "联系",
+        "结论"
+      ],
+      "right": [
+        "信息关系",
+        "原文信息",
+        "合理判断",
+        "支持材料"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据跨段推断的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-134",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "传统文化",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配传统文化类别与具体内容。",
+      "left": [
+        "节气",
+        "非遗",
+        "古建筑",
+        "传统节日"
+      ],
+      "right": [
+        "历史空间",
+        "时令知识",
+        "民俗活动",
+        "传承技艺"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据传统文化的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-135",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "实际表达",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "五年级阅读方法图谱：匹配实用文体与它的主要任务。",
+      "left": [
+        "通知",
+        "建议书",
+        "调查报告",
+        "讲解词"
+      ],
+      "right": [
+        "呈现研究",
+        "告知事项",
+        "介绍对象",
+        "提出办法"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据实际表达的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-136",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "复杂句",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合语文实践清单：匹配关联词所表示的逻辑关系。",
+      "left": [
+        "因为……所以……",
+        "虽然……但是……",
+        "如果……就……",
+        "不仅……还……"
+      ],
+      "right": [
+        "假设",
+        "因果",
+        "递进",
+        "转折"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据复杂句的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-137",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "篇章逻辑",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合语文实践清单：匹配篇章结构与它的展开方式。",
+      "left": [
+        "总—分",
+        "问题—分析—解决",
+        "时间顺序",
+        "对比结构"
+      ],
+      "right": [
+        "按先后推进",
+        "先概括再展开",
+        "突出前后差异",
+        "逐层解决问题"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据篇章逻辑的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-138",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "内容概括",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合语文实践清单：匹配概括要素与需要回答的问题。",
+      "left": [
+        "人物",
+        "事件",
+        "结果",
+        "中心"
+      ],
+      "right": [
+        "最后怎样",
+        "谁",
+        "主要说明什么",
+        "做什么"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据内容概括的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-139",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "人物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合语文实践清单：匹配人物描写类型与对应内容。",
+      "left": [
+        "语言",
+        "动作",
+        "神态",
+        "心理"
+      ],
+      "right": [
+        "面部表情",
+        "说的话",
+        "内心想法",
+        "做的事"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据人物描写的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g5-chinese-authored-140",
+    "subject": "chinese",
+    "grade": 5,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "景物描写",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "跨段整合"
+    ],
+    "content": {
+      "stem": "综合语文实践清单：匹配景物观察角度与感知内容。",
+      "left": [
+        "颜色",
+        "声音",
+        "形态",
+        "变化"
+      ],
+      "right": [
+        "外形姿态",
+        "视觉色彩",
+        "动态过程",
+        "听觉感受"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据景物描写的定义和使用场景逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
