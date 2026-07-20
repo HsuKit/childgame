@@ -22,7 +22,7 @@
       "answer": 0,
       "explanation": "比较8、12和6，12最大，所以喜欢踢球的人最多。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -41,7 +41,7 @@
       "answer": "63",
       "explanation": "七九六十三。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -89,7 +89,7 @@
       ],
       "explanation": "5×7=35，6×8=48，4×9=36，7×7=49。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -114,7 +114,7 @@
       ],
       "explanation": "9时整时针指9，分针指12，成直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -162,7 +162,7 @@
       ],
       "explanation": "起床7点，午饭12点，放学4:30，睡觉9点。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -187,7 +187,7 @@
       ],
       "explanation": "56+4=60，60+4=64，所以56+8=64。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -212,7 +212,7 @@
       ],
       "explanation": "雨伞长约60厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -237,7 +237,7 @@
       ],
       "explanation": "角的大小与两条边张开的大小有关。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -262,7 +262,7 @@
       ],
       "explanation": "☆=6，□=15-6=9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -287,7 +287,7 @@
       ],
       "explanation": "对折后18米，原来18×2=36米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -306,7 +306,7 @@
       "answer": "厘米",
       "explanation": "短物体用厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -325,7 +325,7 @@
       "answer": "厘米",
       "explanation": "学生尺长20厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -344,7 +344,7 @@
       "answer": "米",
       "explanation": "桥的长度用米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -369,7 +369,7 @@
       ],
       "explanation": "时针走一大格是1小时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -394,7 +394,7 @@
       ],
       "explanation": "小明比小红多5张，小红就比小明少5张，20-5=15张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -419,7 +419,7 @@
       ],
       "explanation": "四七二十八。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -444,7 +444,7 @@
       ],
       "explanation": "第二排5×3=15棵，一共5+15=20棵。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -469,7 +469,7 @@
       ],
       "explanation": "七七四十九。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -484,18 +484,18 @@
       "空间观念"
     ],
     "content": {
-      "stem": "一个正方形剪去一个角，还剩几个角？",
+      "stem": "两个完全相同的正方形拼成一个长方形，拼成的长方形有几个直角？",
       "answer": 0,
       "options": [
-        "3个或5个",
-        "3个",
         "4个",
-        "5个"
+        "3个",
+        "5个",
+        "6个"
       ],
-      "explanation": "剪法不同，可能剩3个或5个角。"
+      "explanation": "两个正方形拼成长方形，长方形仍有4个直角。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
+    "reviewStatus": "approved",
+    "version": 2
   },
   {
     "id": "g2-math-legacy-1ff298333086",
@@ -513,7 +513,7 @@
       "answer": "30",
       "explanation": "8:30到9:00是半小时，即30分钟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -561,7 +561,7 @@
       ],
       "explanation": "一一对应。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -580,7 +580,7 @@
       "answer": "米",
       "explanation": "跑道长度用米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -605,7 +605,7 @@
       ],
       "explanation": "没有圆角这种说法，圆形没有角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -624,7 +624,7 @@
       "answer": "1 30",
       "explanation": "12:00到1:30是1小时30分。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -649,7 +649,7 @@
       ],
       "explanation": "25÷5=5米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -697,7 +697,7 @@
       ],
       "explanation": "上午上学，中午吃饭，下午放学，晚上看电视。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -722,7 +722,7 @@
       ],
       "explanation": "时是时间单位。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -741,7 +741,7 @@
       "answer": "4 00",
       "explanation": "3:45+15分=4:00。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -766,7 +766,7 @@
       ],
       "explanation": "3×4、4×3、12÷3、12÷4，共4道。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -791,7 +791,7 @@
       ],
       "explanation": "60-35=25厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -839,7 +839,7 @@
       ],
       "explanation": "直接根据口诀连线。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -864,7 +864,7 @@
       ],
       "explanation": "8×3=24元，30-24=6元。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -912,7 +912,7 @@
       ],
       "explanation": "28÷4用四七二十八，42÷6用六七四十二，72÷9用八九七十二，32÷8用四八三十二。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -937,7 +937,7 @@
       ],
       "explanation": "小丽12+3=15张，一共12+15=27张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -962,7 +962,7 @@
       ],
       "explanation": "课桌高度大约70厘米，也就是7分米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -987,7 +987,7 @@
       ],
       "explanation": "63-20=43，43-9=34。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1012,7 +1012,7 @@
       ],
       "explanation": "七八五十六。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1037,7 +1037,7 @@
       ],
       "explanation": "25÷6=4……1。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1056,7 +1056,7 @@
       "answer": "24",
       "explanation": "三八二十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1081,7 +1081,7 @@
       ],
       "explanation": "长方形有4个直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1106,7 +1106,7 @@
       ],
       "explanation": "15+9=24个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1131,7 +1131,7 @@
       ],
       "explanation": "五六三十，所以是5。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1179,7 +1179,7 @@
       ],
       "explanation": "一一对应。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1204,7 +1204,7 @@
       ],
       "explanation": "红领巾是三角形，有3个角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1229,7 +1229,7 @@
       ],
       "explanation": "56+20=76，76+9=85。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1248,7 +1248,7 @@
       "answer": "1",
       "explanation": "10+90=100厘米=1米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1273,7 +1273,7 @@
       ],
       "explanation": "对折两次分成4份，每份是四分之一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1298,7 +1298,7 @@
       ],
       "explanation": "汽车长约4米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1323,7 +1323,7 @@
       ],
       "explanation": "47+30=77，77+5=82。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1348,7 +1348,7 @@
       ],
       "explanation": "3个相同的数相加得15，三五十五，△=5。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1373,7 +1373,7 @@
       ],
       "explanation": "锐角比直角小。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1398,7 +1398,7 @@
       ],
       "explanation": "六九五十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1417,7 +1417,7 @@
       "answer": "24",
       "explanation": "三八二十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1442,7 +1442,7 @@
       ],
       "explanation": "对折一次变成两段，原来长4×2=8米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1467,7 +1467,7 @@
       ],
       "explanation": "二班28+4=32人，28+32=60人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1492,7 +1492,7 @@
       ],
       "explanation": "硬币厚约2毫米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1517,7 +1517,7 @@
       ],
       "explanation": "手掌宽约6厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1536,7 +1536,7 @@
       "answer": "21",
       "explanation": "三七二十一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1561,7 +1561,7 @@
       ],
       "explanation": "八八六十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1586,7 +1586,7 @@
       ],
       "explanation": "看剪法，可能变成三角形或五边形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1611,7 +1611,7 @@
       ],
       "explanation": "28+15=43页。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1636,7 +1636,7 @@
       ],
       "explanation": "7+8-1=14人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1655,7 +1655,7 @@
       "answer": "40",
       "explanation": "五八四十。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1680,7 +1680,7 @@
       ],
       "explanation": "分给4个人，16÷4=4颗。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1705,7 +1705,7 @@
       ],
       "explanation": "七九六十三。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1730,7 +1730,7 @@
       ],
       "explanation": "47+20=67，67+6=73。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1755,7 +1755,7 @@
       ],
       "explanation": "黄瓜长约20厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1774,7 +1774,7 @@
       "answer": "45",
       "explanation": "五九四十五。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1799,7 +1799,7 @@
       ],
       "explanation": "跳绳长2米左右。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1824,7 +1824,7 @@
       ],
       "explanation": "18÷3=6袋。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1849,7 +1849,7 @@
       ],
       "explanation": "“五七三十五”只能算5×7、7×5、35÷5、35÷7。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1874,7 +1874,7 @@
       ],
       "explanation": "三六十八，18除以3等于6。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1899,7 +1899,7 @@
       ],
       "explanation": "身高用厘米，163厘米即1.63米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1924,7 +1924,7 @@
       ],
       "explanation": "45+30=75，75+7=82。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1949,7 +1949,7 @@
       ],
       "explanation": "△=6，☆=20-6=14。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1974,7 +1974,7 @@
       ],
       "explanation": "1米=100厘米，100-30=70厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1999,7 +1999,7 @@
       ],
       "explanation": "一半就是12÷2=6块。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2024,7 +2024,7 @@
       ],
       "explanation": "六七四十二。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2043,7 +2043,7 @@
       "answer": "45",
       "explanation": "五九四十五。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2068,7 +2068,7 @@
       ],
       "explanation": "三八二十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2093,7 +2093,7 @@
       ],
       "explanation": "钝角比直角大。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2118,7 +2118,7 @@
       ],
       "explanation": "作业本厚度用毫米，3毫米比较合理。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2143,7 +2143,7 @@
       ],
       "explanation": "0除以任何非0数都得0。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2191,7 +2191,7 @@
       ],
       "explanation": "整时的时候，分针指向12，时针指向几就是几时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2216,7 +2216,7 @@
       ],
       "explanation": "七七四十九。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2241,7 +2241,7 @@
       ],
       "explanation": "68+20=88，88+4=92。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2266,7 +2266,7 @@
       ],
       "explanation": "黑板长度约几米，用米做单位。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2285,7 +2285,7 @@
       "answer": "42",
       "explanation": "六七四十二。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2310,7 +2310,7 @@
       ],
       "explanation": "教室长度用米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2335,7 +2335,7 @@
       ],
       "explanation": "73-40=33，33-5=28。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2360,7 +2360,7 @@
       ],
       "explanation": "加法不能用此口诀。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2385,7 +2385,7 @@
       ],
       "explanation": "81-10=71，71-6=65。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2410,7 +2410,7 @@
       ],
       "explanation": "六八四十八。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2435,7 +2435,7 @@
       ],
       "explanation": "一般的平行四边形不是轴对称。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2460,7 +2460,7 @@
       ],
       "explanation": "8+5-1=12人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2485,7 +2485,7 @@
       ],
       "explanation": "14÷2=7件。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2510,7 +2510,7 @@
       ],
       "explanation": "七八五十六。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2535,7 +2535,7 @@
       ],
       "explanation": "蝴蝶、房屋、树木常见图案多是对称图形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2560,7 +2560,7 @@
       ],
       "explanation": "分针指向6是半时，时针刚过8就是8:30。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2585,7 +2585,7 @@
       ],
       "explanation": "裤子长90厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2633,7 +2633,7 @@
       ],
       "explanation": "9×3=27，6×7=42，8×5=40，4×4=16。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2652,7 +2652,7 @@
       "answer": "72",
       "explanation": "八九七十二。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2677,7 +2677,7 @@
       ],
       "explanation": "5+3=8角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2702,7 +2702,7 @@
       ],
       "explanation": "大树高度通常用米，约10米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2727,7 +2727,7 @@
       ],
       "explanation": "门高约2米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2752,7 +2752,7 @@
       ],
       "explanation": "文具盒长约20厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2777,7 +2777,7 @@
       ],
       "explanation": "三角形有3条边，不是四边形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2802,7 +2802,7 @@
       ],
       "explanation": "锯成2段锯1次，锯成4段锯3次，3×3=9分钟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2827,7 +2827,7 @@
       ],
       "explanation": "水杯高度大约10厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2852,7 +2852,7 @@
       ],
       "explanation": "四九三十六。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2877,7 +2877,7 @@
       ],
       "explanation": "7×4=28人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2896,7 +2896,7 @@
       "answer": "24",
       "explanation": "四六二十四。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2921,7 +2921,7 @@
       ],
       "explanation": "橡皮厚约1厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2946,7 +2946,7 @@
       ],
       "explanation": "8-3=5，妹妹5岁。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2971,7 +2971,7 @@
       ],
       "explanation": "长方形有4条边和4个直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2996,7 +2996,7 @@
       ],
       "explanation": "一个角有1个顶点和2条边。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3021,7 +3021,7 @@
       ],
       "explanation": "18-6=12，12÷3=4个。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3046,7 +3046,7 @@
       ],
       "explanation": "五九四十五。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3071,7 +3071,7 @@
       ],
       "explanation": "五七三十五。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3119,7 +3119,7 @@
       ],
       "explanation": "4个3是4×3，4个5是4×5，2个6是6×2，5个3是3×5。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3144,7 +3144,7 @@
       ],
       "explanation": "小草高度约10厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3169,7 +3169,7 @@
       ],
       "explanation": "锐角比直角小。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3194,7 +3194,7 @@
       ],
       "explanation": "大树的高度用米，8米大约三层楼高。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3213,7 +3213,7 @@
       "answer": "48",
       "explanation": "六八四十八。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3238,7 +3238,7 @@
       ],
       "explanation": "教室黑板通常是长方形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3263,7 +3263,7 @@
       ],
       "explanation": "剪成5段需剪4次，2×4=8分钟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3288,7 +3288,7 @@
       ],
       "explanation": "女生18-3=15人，全班18+15=33人。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3336,7 +3336,7 @@
       ],
       "explanation": "2:15分针指3，10:30分针指6，5:00分针指12，9:45分针指9。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3384,7 +3384,7 @@
       ],
       "explanation": "6×7六七四十二，8×3三八二十四，9×4四九三十六，5×7五七三十五。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3409,7 +3409,7 @@
       ],
       "explanation": "姐姐给妹妹3张后相等，原来多3+3=6张。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3428,7 +3428,7 @@
       "answer": "21",
       "explanation": "三七二十一。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3447,7 +3447,7 @@
       "answer": "56",
       "explanation": "七八五十六。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3472,7 +3472,7 @@
       ],
       "explanation": "时针走一大格是1小时，3大格是3小时。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3520,7 +3520,7 @@
       ],
       "explanation": "7×8=56，9×5=45，6×6=36，8×4=32。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3545,7 +3545,7 @@
       ],
       "explanation": "1米=100厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3570,7 +3570,7 @@
       ],
       "explanation": "食指宽约1厘米。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3595,7 +3595,7 @@
       ],
       "explanation": "45÷9=5，减5次。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3620,7 +3620,7 @@
       ],
       "explanation": "角由一个顶点和两条边组成。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3645,7 +3645,7 @@
       ],
       "explanation": "数学书的封面有直角。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3693,7 +3693,7 @@
       ],
       "explanation": "直接对应。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

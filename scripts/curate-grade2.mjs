@@ -12,6 +12,17 @@ function deduplicateStems(candidates) {
   const unique = []
   const rejected = []
   for (const question of candidates.sort((a, b) => a.id.localeCompare(b.id))) {
+    const stem = normalizeText(question.content.stem)
+    const lacksVisibleContext = question.subject === 'english' && (
+      /^how many [a-z ]+\?\s*回答[:：]?$/.test(stem)
+      || /^what do you see\?\s*回答[:：]?$/.test(stem)
+      || /^where is the (cat|dog|book)\?\s*回答[:：]?$/.test(stem)
+      || /^what color is the (banana|apple|sky)\?\s*回答[:：]?$/.test(stem)
+    )
+    if (lacksVisibleContext) {
+      rejected.push({ id: question.id, reason: 'missing-visible-context' })
+      continue
+    }
     const content = question.content
     const options = content.options?.map(normalizeText)
     const signature = JSON.stringify({
@@ -98,6 +109,25 @@ function rewriteKnownNearDuplicates(questions) {
       question.content.stem = stems[question.id]
       question.version += 1
       question.tags = [...new Set([...question.tags, '去相似修订'])]
+    }
+    if (question.id === 'g2-chinese-legacy-00cfb845de4d') {
+      question.content.stem = '___天到了，湖面结冰了。'
+      question.content.answer = '冬'
+      question.content.explanation = '冬天气温低，湖面可能结冰，所以填“冬”。'
+      question.version += 1
+    }
+    if (question.id === 'g2-chinese-legacy-01f21617cb30') {
+      question.content.right = ['鱼', '萝卜', '狗粮', '米粒']
+      question.content.matches = [[0, 0], [1, 1], [2, 2], [3, 3]]
+      question.content.explanation = '根据这些动物常吃的食物配对：小猫—鱼、小兔—萝卜、小狗—狗粮、小鸡—米粒。'
+      question.version += 1
+    }
+    if (question.id === 'g2-math-legacy-1e1b744e5238') {
+      question.content.stem = '两个完全相同的正方形拼成一个长方形，拼成的长方形有几个直角？'
+      question.content.options = ['3个', '4个', '5个', '6个']
+      question.content.answer = 1
+      question.content.explanation = '两个正方形拼成长方形，长方形仍有4个直角。'
+      question.version += 1
     }
   }
 }

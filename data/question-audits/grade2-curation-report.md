@@ -17,6 +17,6 @@
 ## english
 
 - Selected: 140
-- Exact-stem candidates rejected: 5
+- Exact-stem candidates rejected: 12
 - Allocation: `{"choice:1":48,"choice:2":36,"choice:3":21,"fill:1":13,"fill:2":8,"fill:3":0,"match:1":9,"match:2":5,"match:3":0}`
-- Knowledge points: `{"短文信息":2,"生活对话":7,"can的表达":9,"单数与复数":23,"like与have":23,"常用动作":28,"简单问答":20,"日常名词":28}`
+- Knowledge points: `{"短文信息":2,"can的表达":8,"生活对话":7,"单数与复数":20,"like与have":27,"常用动作":28,"简单问答":20,"日常名词":28}`

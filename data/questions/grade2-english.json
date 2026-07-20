@@ -44,7 +44,7 @@
       ],
       "explanation": "sunny晴天，rainy下雨，snowy下雪，windy刮风。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -69,7 +69,7 @@
       ],
       "explanation": "book是书，其它是身体部位。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -117,32 +117,7 @@
       ],
       "explanation": "milk牛奶，water水，juice果汁，tea茶。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
-  },
-  {
-    "id": "g2-english-legacy-0144fd6eace4",
-    "subject": "english",
-    "grade": 2,
-    "difficulty": 2,
-    "type": "choice",
-    "knowledgePoint": "like与have",
-    "skill": "apply",
-    "tags": [
-      "功能表达"
-    ],
-    "content": {
-      "stem": "What color is the banana? 回答：",
-      "answer": 0,
-      "options": [
-        "It's yellow.",
-        "It's a banana.",
-        "Yes, it is.",
-        "I like yellow."
-      ],
-      "explanation": "香蕉是黄色的。"
-    },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -190,7 +165,7 @@
       ],
       "explanation": "sunny晴，rainy雨，windy风，cloudy多云。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -215,32 +190,7 @@
       ],
       "explanation": "draw a picture是画一幅画的意思。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
-  },
-  {
-    "id": "g2-english-legacy-082708639972",
-    "subject": "english",
-    "grade": 2,
-    "difficulty": 2,
-    "type": "choice",
-    "knowledgePoint": "can的表达",
-    "skill": "apply",
-    "tags": [
-      "功能表达"
-    ],
-    "content": {
-      "stem": "What do you see? 回答：",
-      "answer": 0,
-      "options": [
-        "I see a bird.",
-        "I can see.",
-        "Yes, I do.",
-        "It's a bird."
-      ],
-      "explanation": "问看见什么，回答I see ..."
-    },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -265,7 +215,7 @@
       ],
       "explanation": "How many问数量。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -274,7 +224,7 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "can的表达",
+    "knowledgePoint": "like与have",
     "skill": "apply",
     "tags": [
       "功能表达"
@@ -290,7 +240,7 @@
       ],
       "explanation": "问喜欢什么，回答喜欢的东西。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -315,7 +265,7 @@
       ],
       "explanation": "形容词在名词前，且要有a。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -334,7 +284,7 @@
       "answer": "are",
       "explanation": "You are ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -353,7 +303,7 @@
       "answer": "right",
       "explanation": "bright明亮的，缺right。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -401,7 +351,7 @@
       ],
       "explanation": "Hello/Hi，How are you?/I'm fine.，Goodbye/Bye，Thank you/You're welcome."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -449,7 +399,7 @@
       ],
       "explanation": "问颜色答It's red.，问身体答I'm fine.，问物品答It's a book.，再见答Bye。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -468,32 +418,7 @@
       "answer": "are",
       "explanation": "They are复数。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
-  },
-  {
-    "id": "g2-english-legacy-1258bcde1356",
-    "subject": "english",
-    "grade": 2,
-    "difficulty": 2,
-    "type": "choice",
-    "knowledgePoint": "单数与复数",
-    "skill": "apply",
-    "tags": [
-      "词形运用"
-    ],
-    "content": {
-      "stem": "How many books? 回答：",
-      "answer": 0,
-      "options": [
-        "Ten.",
-        "It's a book.",
-        "I'm ten.",
-        "Yes."
-      ],
-      "explanation": "问数量回答数字。"
-    },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -518,7 +443,7 @@
       ],
       "explanation": "orange元音开头，用an。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -537,32 +462,7 @@
       "answer": "duck",
       "explanation": "鸭子duck。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
-  },
-  {
-    "id": "g2-english-legacy-15a377382f76",
-    "subject": "english",
-    "grade": 2,
-    "difficulty": 2,
-    "type": "choice",
-    "knowledgePoint": "单数与复数",
-    "skill": "apply",
-    "tags": [
-      "词形运用"
-    ],
-    "content": {
-      "stem": "How many bananas? 回答：",
-      "answer": 0,
-      "options": [
-        "Six.",
-        "It's a banana.",
-        "I like bananas.",
-        "Yes, please."
-      ],
-      "explanation": "问数量直接回答数字。"
-    },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -571,7 +471,7 @@
     "grade": 2,
     "difficulty": 2,
     "type": "choice",
-    "knowledgePoint": "can的表达",
+    "knowledgePoint": "like与have",
     "skill": "apply",
     "tags": [
       "功能表达"
@@ -587,7 +487,32 @@
       ],
       "explanation": "What do you like? 你喜欢什么？"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-18958dd32af0",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Can you dance? 回答：",
+      "answer": 0,
+      "options": [
+        "Yes, I can.",
+        "Yes, I do.",
+        "Yes, I am.",
+        "No, I can."
+      ],
+      "explanation": "can问can答，肯定Yes, I can."
+    },
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -612,7 +537,7 @@
       ],
       "explanation": "问动物，回答It's a ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -637,7 +562,7 @@
       ],
       "explanation": "G的小写是g。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -662,7 +587,7 @@
       ],
       "explanation": "purple紫色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -688,7 +613,7 @@
       ],
       "explanation": "face脸。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -707,7 +632,7 @@
       "answer": "ee",
       "explanation": "see看见，缺ee。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -726,7 +651,7 @@
       "answer": "seven",
       "explanation": "七岁用seven，数字7的英文。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -751,7 +676,7 @@
       ],
       "explanation": "There is + 单数物品。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -776,7 +701,7 @@
       ],
       "explanation": "请喝果汁，回答谢谢。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -801,7 +726,7 @@
       ],
       "explanation": "sheep绵羊。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -826,7 +751,7 @@
       ],
       "explanation": "monkey猴子。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -874,7 +799,7 @@
       ],
       "explanation": "open开，close关，sit坐，stand站。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -899,7 +824,7 @@
       ],
       "explanation": "她是女性，用She，我的老师my teacher。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -924,7 +849,7 @@
       ],
       "explanation": "panda熊猫。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -949,7 +874,7 @@
       ],
       "explanation": "I like blue."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -968,7 +893,7 @@
       "answer": "is",
       "explanation": "It is ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -993,7 +918,7 @@
       ],
       "explanation": "pink粉色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1018,7 +943,7 @@
       ],
       "explanation": "N小写n。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1043,7 +968,7 @@
       ],
       "explanation": "Q小写q。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1091,7 +1016,7 @@
       ],
       "explanation": "Happy birthday生日快乐，New Year新年，Christmas圣诞，Have some cake吃蛋糕。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1116,7 +1041,7 @@
       ],
       "explanation": "hello是招呼，其它是时间。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1135,7 +1060,7 @@
       "answer": "is",
       "explanation": "This is ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1154,7 +1079,7 @@
       "answer": "lose",
       "explanation": "Close关，缺lose。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1180,7 +1105,7 @@
       ],
       "explanation": "nose鼻子。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -1196,16 +1121,16 @@
     ],
     "content": {
       "stem": "晚上睡觉前，你应该对妈妈说：",
-      "answer": 1,
+      "answer": 0,
       "options": [
-        "Good morning.",
         "Good night.",
+        "Good morning.",
         "Goodbye.",
         "Hello."
       ],
       "explanation": "Good night.晚安。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1221,16 +1146,16 @@
     ],
     "content": {
       "stem": "你想知道别人叫什么名字，应该问：",
-      "answer": 1,
+      "answer": 0,
       "options": [
-        "How are you?",
         "What's your name?",
+        "How are you?",
         "How old are you?",
         "Where are you?"
       ],
       "explanation": "What's your name?问名字。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1249,7 +1174,7 @@
       "answer": "are",
       "explanation": "We are复数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1265,16 +1190,16 @@
     ],
     "content": {
       "stem": "This ___ my dog.",
-      "answer": 1,
+      "answer": 0,
       "options": [
-        "am",
         "is",
+        "am",
         "are",
         "be"
       ],
       "explanation": "This is ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1299,7 +1224,7 @@
       ],
       "explanation": "draw画画。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1324,7 +1249,7 @@
       ],
       "explanation": "I have 我有。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1349,7 +1274,7 @@
       ],
       "explanation": "bread面包，其他是饮品。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1374,7 +1299,7 @@
       ],
       "explanation": "It is 固定搭配。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1399,32 +1324,7 @@
       ],
       "explanation": "teacher职业，其他是家庭成员。"
     },
-    "reviewStatus": "reviewed",
-    "version": 1
-  },
-  {
-    "id": "g2-english-legacy-3e2833582c3c",
-    "subject": "english",
-    "grade": 2,
-    "difficulty": 2,
-    "type": "choice",
-    "knowledgePoint": "单数与复数",
-    "skill": "apply",
-    "tags": [
-      "词形运用"
-    ],
-    "content": {
-      "stem": "How many pencils? 回答：",
-      "answer": 1,
-      "options": [
-        "I'm five.",
-        "Five",
-        "It's a pencil.",
-        "Red."
-      ],
-      "explanation": "问数量，答Five."
-    },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1449,7 +1349,7 @@
       ],
       "explanation": "Look at ... 看……。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1474,7 +1374,32 @@
       ],
       "explanation": "have是有，book是书，I have a book.我有一本书。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-41388f6807a9",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "I can ___ a song.",
+      "answer": 1,
+      "options": [
+        "drink",
+        "sing",
+        "eat",
+        "run"
+      ],
+      "explanation": "sing a song 唱歌。"
+    },
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1493,7 +1418,7 @@
       "answer": "are",
       "explanation": "We are复数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1518,7 +1443,7 @@
       ],
       "explanation": "on在...上面。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1543,7 +1468,7 @@
       ],
       "explanation": "fish是鱼。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1563,7 +1488,7 @@
       "answer": "bird",
       "explanation": "鸟bird。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -1588,7 +1513,7 @@
       ],
       "explanation": "arms手臂。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1613,7 +1538,7 @@
       ],
       "explanation": "I am 我是。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1639,7 +1564,7 @@
       ],
       "explanation": "mouth嘴。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -1664,7 +1589,7 @@
       ],
       "explanation": "Nice to meet you.回答Nice to meet you, too."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1689,7 +1614,7 @@
       ],
       "explanation": "pink粉色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1737,7 +1662,7 @@
       ],
       "explanation": "mother母亲，father父亲，sister姐妹，brother兄弟。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1762,7 +1687,7 @@
       ],
       "explanation": "black是黑色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1787,7 +1712,7 @@
       ],
       "explanation": "blue是蓝色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1812,7 +1737,7 @@
       ],
       "explanation": "cat是猫，dog是狗，bird是鸟，fish是鱼。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1860,7 +1785,7 @@
       ],
       "explanation": "morning早上，afternoon下午，evening傍晚，night夜晚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1885,7 +1810,7 @@
       ],
       "explanation": "rabbit兔子。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1910,7 +1835,7 @@
       ],
       "explanation": "brown棕色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1935,7 +1860,7 @@
       ],
       "explanation": "R小写r。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -1983,7 +1908,7 @@
       ],
       "explanation": "apple苹果，banana香蕉，orange橙子，pear梨。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2008,7 +1933,7 @@
       ],
       "explanation": "雪是白色的。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2033,7 +1958,7 @@
       ],
       "explanation": "Hello是你好，Goodbye是再见。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2049,16 +1974,16 @@
     ],
     "content": {
       "stem": "字母T的小写是？",
-      "answer": 2,
+      "answer": 1,
       "options": [
         "l",
-        "i",
         "t",
+        "i",
         "f"
       ],
       "explanation": "T小写t。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2074,16 +1999,16 @@
     ],
     "content": {
       "stem": "There ___ three books on the desk.",
-      "answer": 2,
+      "answer": 1,
       "options": [
         "is",
-        "am",
         "are",
+        "am",
         "be"
       ],
       "explanation": "复数books用are。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2099,16 +2024,16 @@
     ],
     "content": {
       "stem": "当你想说“再见”时，可以说：",
-      "answer": 2,
+      "answer": 1,
       "options": [
         "Hello",
-        "Hi",
         "Bye",
+        "Hi",
         "Sorry"
       ],
       "explanation": "Bye或Goodbye是再见。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2156,7 +2081,7 @@
       ],
       "explanation": "一一对应。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2181,7 +2106,7 @@
       ],
       "explanation": "Let's play! 让我们一起玩！"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2201,7 +2126,7 @@
       "answer": "cat",
       "explanation": "猫cat。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -2226,7 +2151,7 @@
       ],
       "explanation": "mouth嘴。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2251,7 +2176,7 @@
       ],
       "explanation": "Thank you.谢谢。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2276,7 +2201,7 @@
       ],
       "explanation": "Are you ...? 回答Yes, I am."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2301,7 +2226,7 @@
       ],
       "explanation": "look at看。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2320,7 +2245,7 @@
       "answer": "are",
       "explanation": "These are复数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2345,7 +2270,7 @@
       ],
       "explanation": "早上好回答早上好。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2354,7 +2279,7 @@
     "grade": 2,
     "difficulty": 1,
     "type": "choice",
-    "knowledgePoint": "can的表达",
+    "knowledgePoint": "like与have",
     "skill": "understand",
     "tags": [
       "功能表达"
@@ -2370,7 +2295,7 @@
       ],
       "explanation": "can+动词原形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2395,7 +2320,7 @@
       ],
       "explanation": "run跑、jump跳、swim游泳都是动作，red红色是颜色。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2414,7 +2339,7 @@
       "answer": "apples",
       "explanation": "苹果apples，喜欢复数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2434,7 +2359,7 @@
       "answer": "dog",
       "explanation": "狗dog。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -2453,7 +2378,7 @@
       "answer": "at",
       "explanation": "eat吃，缺at。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2478,7 +2403,7 @@
       ],
       "explanation": "Sit down.坐下。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2503,7 +2428,7 @@
       ],
       "explanation": "第三人称单数用likes。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2551,7 +2476,7 @@
       ],
       "explanation": "read读，write写，draw画，sing唱。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2599,7 +2524,7 @@
       ],
       "explanation": "rice米饭，noodles面条，bread面包，cake蛋糕。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2624,7 +2549,7 @@
       ],
       "explanation": "问位置，答方位。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2649,7 +2574,7 @@
       ],
       "explanation": "建议，回答Great/OK。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2669,7 +2594,7 @@
       "answer": "pig",
       "explanation": "猪pig。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -2688,7 +2613,7 @@
       "answer": "ump",
       "explanation": "jump跳，缺ump。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2713,7 +2638,7 @@
       ],
       "explanation": "run跑是动作，其它是形容词。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2738,7 +2663,7 @@
       ],
       "explanation": "问数量直接数字回答。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2763,7 +2688,32 @@
       ],
       "explanation": "问这是什么，回答It's a ..."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-b6777db856b5",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Do you like cats? 肯定回答：",
+      "answer": 2,
+      "options": [
+        "No, I don't.",
+        "Yes, I am.",
+        "Yes, I do.",
+        "No, I can't."
+      ],
+      "explanation": "Do问do答，肯定Yes, I do."
+    },
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2788,7 +2738,7 @@
       ],
       "explanation": "run跑是动作，其他是交通工具。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2836,7 +2786,32 @@
       ],
       "explanation": "walk走，run跑，jump跳，swim游泳。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-bb3bc099b0cd",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "can的表达",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "Can you swim? 否定回答：",
+      "answer": 2,
+      "options": [
+        "No, I don't.",
+        "No, I am not.",
+        "No, I can't.",
+        "Yes, I can."
+      ],
+      "explanation": "can问can答，否定No, I can't."
+    },
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2861,7 +2836,7 @@
       ],
       "explanation": "复数用are。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2886,7 +2861,7 @@
       ],
       "explanation": "Let's ... 建议，一般回答OK/Great。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2911,7 +2886,7 @@
       ],
       "explanation": "two后面用复数birds。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2936,7 +2911,7 @@
       ],
       "explanation": "两只猫要用复数cats。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2961,7 +2936,7 @@
       ],
       "explanation": "ducks复数用are。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -2986,7 +2961,7 @@
       ],
       "explanation": "Here you are.给你，回答谢谢。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3012,7 +2987,7 @@
       ],
       "explanation": "eyes眼睛。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -3031,7 +3006,7 @@
       "answer": "are",
       "explanation": "They are复数。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3047,16 +3022,16 @@
     ],
     "content": {
       "stem": "Do you like milk? 否定回答：",
-      "answer": 3,
+      "answer": 2,
       "options": [
         "No, I do.",
         "Yes, I don't.",
-        "No, I am not.",
-        "No, I don't."
+        "No, I don't.",
+        "No, I am not."
       ],
       "explanation": "Do问do答，否定No, I don't."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3081,7 +3056,7 @@
       ],
       "explanation": "feet脚。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3106,7 +3081,7 @@
       ],
       "explanation": "hands手。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3131,7 +3106,7 @@
       ],
       "explanation": "apple是苹果，其它是动作。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3150,7 +3125,7 @@
       "answer": "ink",
       "explanation": "drink喝，缺ink。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3175,7 +3150,7 @@
       ],
       "explanation": "This is 用于介绍近处的东西。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3200,7 +3175,7 @@
       ],
       "explanation": "look at看。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3225,7 +3200,7 @@
       ],
       "explanation": "请求看东西，同意说Sure。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3250,7 +3225,7 @@
       ],
       "explanation": "That表示远指。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3275,7 +3250,7 @@
       ],
       "explanation": "喜欢狗用复数dogs。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3300,7 +3275,7 @@
       ],
       "explanation": "Are you...?"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3325,7 +3300,7 @@
       ],
       "explanation": "别人问How are you?，通常回答I'm fine, thank you."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3350,7 +3325,7 @@
       ],
       "explanation": "pencil铅笔，have有。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3375,7 +3350,32 @@
       ],
       "explanation": "can后面动词原形。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
+    "version": 1
+  },
+  {
+    "id": "g2-english-legacy-e9fd8b8f26f6",
+    "subject": "english",
+    "grade": 2,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "like与have",
+    "skill": "apply",
+    "tags": [
+      "功能表达"
+    ],
+    "content": {
+      "stem": "___ you like pears? Yes, I do.",
+      "answer": 3,
+      "options": [
+        "Are",
+        "Is",
+        "Can",
+        "Do"
+      ],
+      "explanation": "Do you like... 问喜欢。"
+    },
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3400,7 +3400,7 @@
       ],
       "explanation": "apple元音开头用an。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3425,7 +3425,7 @@
       ],
       "explanation": "表达年龄：I am eight."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3451,7 +3451,7 @@
       ],
       "explanation": "head是头，foot是脚，hand是手，nose是鼻子。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 2
   },
   {
@@ -3476,7 +3476,7 @@
       ],
       "explanation": "Let's建议，应答Great/OK。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3501,7 +3501,7 @@
       ],
       "explanation": "foot的复数是feet。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3526,7 +3526,7 @@
       ],
       "explanation": "milk饮品，其他是食物。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3551,7 +3551,7 @@
       ],
       "explanation": "eraser元音开头，用an。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3576,7 +3576,7 @@
       ],
       "explanation": "第三人称单数用has。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3601,7 +3601,7 @@
       ],
       "explanation": "This is ... 这是固定句型，表示“这是……”。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3626,7 +3626,7 @@
       ],
       "explanation": "单数用is。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3651,7 +3651,7 @@
       ],
       "explanation": "apple是以元音音素开头的单词，用an。"
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3676,7 +3676,7 @@
       ],
       "explanation": "完整回答I'm eight."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   },
   {
@@ -3702,7 +3702,7 @@
       "answer": 3,
       "explanation": "The text says “a blue pencil”, so the pencil is blue."
     },
-    "reviewStatus": "reviewed",
+    "reviewStatus": "approved",
     "version": 1
   }
 ]

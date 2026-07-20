@@ -47,8 +47,8 @@ function classifyMath(question) {
 function classifyEnglish(question) {
   const text = textOf(question)
   if (/复数|单数|many|two |three |four |these|those/.test(text)) return classification('单数与复数', question, '词形运用')
-  if (/\bcan\b|会做|能力/.test(text)) return classification('can的表达', question, '功能表达')
   if (/\blike\b|\bhave\b|喜欢|拥有/.test(text)) return classification('like与have', question, '功能表达')
+  if (/\bcan\b|会做|能力/.test(text)) return classification('can的表达', question, '功能表达')
   if (/阅读|短文|passage|根据.*回答|read and|句子和意思|图片描述/.test(text)) return classification('短文信息', question, '阅读理解')
   if (/指令|stand up|sit down|open|close|clap|touch|stamp|wave/.test(text)) return classification('常用动作', question, '动作表达')
   if (/\bi ___|\bshe ___|\bhe ___|\byou ___|\bthis ___|\bit ___/.test(text)) return classification('简单问答', question, '句型运用')
