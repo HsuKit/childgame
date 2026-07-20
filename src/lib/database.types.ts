@@ -23,9 +23,9 @@ export interface Database {
         Update: { name?: string; category?: string; base_image_url?: string; image_gen_prompt?: string | null; rarity?: string; unlock_cost?: number; is_active?: boolean }
       }
       questions: {
-        Row: { id: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source: 'builtin' | 'ai_generated'; created_at: string }
-        Insert: { id?: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source?: 'builtin' | 'ai_generated' }
-        Update: { content?: Json; source?: 'builtin' | 'ai_generated' }
+        Row: { id: string; external_id: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source: 'builtin' | 'ai_generated'; knowledge_point: string; skill: 'recall' | 'understand' | 'apply' | 'reason'; tags: string[]; content_hash: string; review_status: 'draft' | 'reviewed' | 'approved'; version: number; created_at: string }
+        Insert: { id?: string; external_id: string; subject: 'chinese' | 'math' | 'english'; grade: number; difficulty: number; type: 'choice' | 'fill' | 'match' | 'grid'; content: Json; source?: 'builtin' | 'ai_generated'; knowledge_point: string; skill: 'recall' | 'understand' | 'apply' | 'reason'; tags?: string[]; content_hash: string; review_status?: 'draft' | 'reviewed' | 'approved'; version?: number }
+        Update: { external_id?: string; subject?: 'chinese' | 'math' | 'english'; grade?: number; difficulty?: number; type?: 'choice' | 'fill' | 'match' | 'grid'; content?: Json; source?: 'builtin' | 'ai_generated'; knowledge_point?: string; skill?: 'recall' | 'understand' | 'apply' | 'reason'; tags?: string[]; content_hash?: string; review_status?: 'draft' | 'reviewed' | 'approved'; version?: number }
       }
       quiz_records: {
         Row: { id: string; user_id: string; question_id: string; subject: string; is_correct: boolean; points_earned: number; answered_at: string }

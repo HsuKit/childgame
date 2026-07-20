@@ -78,11 +78,15 @@ export const useQuizStore = create<QuizState>((set, get) => ({
         // Mix 8 choice from DB + 2 generated Sudoku
         const { generateSudoku } = await import('../lib/sudokuGenerator')
         const choiceQs = shuffle(all || []).slice(0, 8)
-        const gridQs = Array.from({ length: 2 }, (_, i) => ({
-          id: `gen_sudoku_${Date.now()}_${i}`,
+        const gridQs = Array.from({ length: 2 }, (_, i) => {
+          const generatedId = `gen_sudoku_${Date.now()}_${i}`
+          return {
+          id: generatedId, external_id: generatedId,
           subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-          content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
-        }))
+          content: generateSudoku() as any, source: 'builtin' as const, knowledge_point: '思维拓展',
+          skill: 'reason' as const, tags: ['数独'], content_hash: generatedId,
+          review_status: 'approved' as const, version: 1, created_at: new Date().toISOString(),
+        }})
         const questions = shuffle([...choiceQs, ...gridQs])
         if (questions.length === 0) return
         const session = createEmptySession(subject, questions)
@@ -188,11 +192,15 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (chineseQ.error) throw chineseQ.error
       if (englishQ.error) throw englishQ.error
       const pick = (arr: Question[], count: number) => shuffle(arr).slice(0, count)
-      const gridQs = Array.from({ length: 3 }, (_, i) => ({
-        id: `gen_ch_sudoku_${Date.now()}_${i}`,
+      const gridQs = Array.from({ length: 3 }, (_, i) => {
+        const generatedId = `gen_ch_sudoku_${Date.now()}_${i}`
+        return {
+        id: generatedId, external_id: generatedId,
         subject: 'math' as const, grade: profile.grade, difficulty: 2, type: 'grid' as const,
-        content: generateSudoku() as any, source: 'builtin' as const, created_at: new Date().toISOString(),
-      }))
+        content: generateSudoku() as any, source: 'builtin' as const, knowledge_point: '思维拓展',
+        skill: 'reason' as const, tags: ['数独'], content_hash: generatedId,
+        review_status: 'approved' as const, version: 1, created_at: new Date().toISOString(),
+      }})
       const allQuestions = shuffle([...pick(mathQ.data || [], 7), ...gridQs, ...pick(chineseQ.data || [], 10), ...pick(englishQ.data || [], 10)])
       if (allQuestions.length === 0) return
       set({
