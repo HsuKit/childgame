@@ -1,22 +1,3838 @@
 [
-  {"stem":"0.5 + 0.25 = ?","options":["0.65","0.7","0.75","0.8"],"answer":2},
-  {"stem":"三角形内角和是多少？","options":["90°","120°","180°","360°"],"answer":2},
-  {"stem":"3/4 + 1/2 = ?","options":["1","1 1/4","1 1/2","2"],"answer":1,"explanation":"3/4+2/4=5/4=1又1/4"},
-  {"stem":"125 ÷ 5 = ?","options":["20","25","30","35"],"answer":1},
-  {"stem":"2.6 × 10 = ?","options":["2.6","26","260","0.26"],"answer":1},
-  {"stem":"一个长方形的长是12cm宽是5cm，周长是多少？","options":["34cm","30cm","17cm","60cm"],"answer":0,"explanation":"(12+5)×2=34"},
-  {"stem":"两位数乘两位数，积最少是几位数？","options":["两位数","三位数","四位数","五位数"],"answer":1},
-  {"stem":"8.4 ÷ 4 = ?","options":["2.1","1.9","2.4","2.2"],"answer":0},
-  {"stem":"五亿零三百万写作？","options":["503000000","500030000","530000000","500003000"],"answer":0},
-  {"stem":"25 × 36 = ?","options":["800","900","1000","1100"],"answer":1},
-  {"stem":"把3.14、3.41、3.04从大到小排列，中间的是？","options":["3.14","3.41","3.04","一样大"],"answer":0},
-  {"stem":"一个数的5倍是420，这个数是多少？","options":["80","82","84","86"],"answer":2,"explanation":"420÷5=84"},
-  {"stem":"平行四边形的对边是什么关系？","options":["相等且平行","垂直","不相等","相交"],"answer":0},
-  {"stem":"360 ÷ 15 = ?","options":["20","22","24","26"],"answer":2},
-  {"stem":"下面的角最大是多少度？","options":["锐角","直角","钝角","平角"],"answer":3,"explanation":"平角=180°最大"},
-  {"stem":"在a÷b=c中(a,b均不为0)，如果b>1，那么c和a谁大？","options":["c大","a大","一样大","无法确定"],"answer":1},
-  {"stem":"360 × 25 = ?","options":["8000","8500","9000","9500"],"answer":2},
-  {"stem":"一栋楼高30米，与一栋高300米的楼相比，矮了多少？","options":["200m","250m","270m","280m"],"answer":2},
-  {"stem":"32 × 125 的简便运算用到了哪个规律？","options":["交换律","结合律","分配律","结合律和分配律"],"answer":1,"explanation":"32×125=4×(8×125)=4×1000"},
-  {"stem":"960本书放在书架上，每个书架4层，每层30本，需要几个书架？","options":["6","7","8","9"],"answer":2,"explanation":"960÷(4×30)=8"}
+  {
+    "id": "g4-math-authored-001",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：计算总数：2481+617=？",
+      "options": [
+        "3098",
+        "2998",
+        "3108",
+        "3099"
+      ],
+      "answer": 0,
+      "explanation": "列竖式计算得到3098。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-002",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：怎样简便计算25×15×4？结果是多少？",
+      "options": [
+        "475",
+        "1500",
+        "1400",
+        "1504"
+      ],
+      "answer": 1,
+      "explanation": "先交换并结合25和4，25×4×15=100×15=1500。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-003",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：两段彩带长3.3米和2.5米，一共多长？",
+      "options": [
+        "0.8米",
+        "6.8米",
+        "5.8米",
+        "6米"
+      ],
+      "answer": 2,
+      "explanation": "小数点对齐相加，3.3+2.5=5.8米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-004",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：一个角是30°，它是什么角？",
+      "options": [
+        "平角",
+        "钝角",
+        "周角",
+        "锐角"
+      ],
+      "answer": 3,
+      "explanation": "30°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-005",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相垂直",
+        "互相平行",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 0,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-006",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：三次测量结果是66、72、69厘米，平均是多少厘米？",
+      "options": [
+        "72厘米",
+        "69厘米",
+        "207厘米",
+        "75厘米"
+      ],
+      "answer": 1,
+      "explanation": "总数除以3：（66+72+69）÷3=69厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-007",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：统计表记录甲15票、乙20票、丙12票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "乙",
+        "一样多"
+      ],
+      "answer": 2,
+      "explanation": "20最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-008",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：原有135盒彩笔，发出33盒，又运来48盒，现在有多少盒？",
+      "options": [
+        "102盒",
+        "183盒",
+        "186盒",
+        "150盒"
+      ],
+      "answer": 3,
+      "explanation": "先减发出的，再加运来的：135-33+48=150盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-009",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "校园读书节：每本练习册11元，买4本需要多少元？",
+      "options": [
+        "44元",
+        "15元",
+        "33元",
+        "48元"
+      ],
+      "answer": 0,
+      "explanation": "总价=单价×数量，11×4=44元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-010",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：计算总数：2528+636=？",
+      "options": [
+        "3064",
+        "3164",
+        "3174",
+        "3165"
+      ],
+      "answer": 1,
+      "explanation": "列竖式计算得到3164。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-011",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：怎样简便计算25×16×4？结果是多少？",
+      "options": [
+        "500",
+        "1500",
+        "1600",
+        "1604"
+      ],
+      "answer": 2,
+      "explanation": "先交换并结合25和4，25×4×16=100×16=1600。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-012",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：两段彩带长3.4米和2.6米，一共多长？",
+      "options": [
+        "0.8米",
+        "7.0米",
+        "6米",
+        "6.0米"
+      ],
+      "answer": 3,
+      "explanation": "小数点对齐相加，3.4+2.6=6.0米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-013",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：一个角是35°，它是什么角？",
+      "options": [
+        "锐角",
+        "平角",
+        "钝角",
+        "周角"
+      ],
+      "answer": 0,
+      "explanation": "35°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-014",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "互相垂直",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 1,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-015",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：三次测量结果是68、74、71厘米，平均是多少厘米？",
+      "options": [
+        "74厘米",
+        "213厘米",
+        "71厘米",
+        "77厘米"
+      ],
+      "answer": 2,
+      "explanation": "总数除以3：（68+74+71）÷3=71厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-016",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：统计表记录甲16票、乙21票、丙13票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "一样多",
+        "乙"
+      ],
+      "answer": 3,
+      "explanation": "21最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-017",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：原有140盒彩笔，发出34盒，又运来49盒，现在有多少盒？",
+      "options": [
+        "155盒",
+        "106盒",
+        "189盒",
+        "192盒"
+      ],
+      "answer": 0,
+      "explanation": "先减发出的，再加运来的：140-34+49=155盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-018",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "社区运动会：每本练习册12元，买5本需要多少元？",
+      "options": [
+        "17元",
+        "60元",
+        "48元",
+        "65元"
+      ],
+      "answer": 1,
+      "explanation": "总价=单价×数量，12×5=60元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-019",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：计算总数：2575+655=？",
+      "options": [
+        "3130",
+        "3240",
+        "3230",
+        "3231"
+      ],
+      "answer": 2,
+      "explanation": "列竖式计算得到3230。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-020",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：怎样简便计算25×17×4？结果是多少？",
+      "options": [
+        "525",
+        "1600",
+        "1704",
+        "1700"
+      ],
+      "answer": 3,
+      "explanation": "先交换并结合25和4，25×4×17=100×17=1700。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-021",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：两段彩带长3.5米和2.7米，一共多长？",
+      "options": [
+        "6.2米",
+        "0.8米",
+        "7.2米",
+        "6米"
+      ],
+      "answer": 0,
+      "explanation": "小数点对齐相加，3.5+2.7=6.2米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-022",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：一个角是40°，它是什么角？",
+      "options": [
+        "平角",
+        "锐角",
+        "钝角",
+        "周角"
+      ],
+      "answer": 1,
+      "explanation": "40°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-023",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "完全重合",
+        "互相垂直",
+        "没有关系"
+      ],
+      "answer": 2,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-024",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：三次测量结果是70、76、73厘米，平均是多少厘米？",
+      "options": [
+        "76厘米",
+        "219厘米",
+        "79厘米",
+        "73厘米"
+      ],
+      "answer": 3,
+      "explanation": "总数除以3：（70+76+73）÷3=73厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-025",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：统计表记录甲17票、乙22票、丙14票，谁最多？",
+      "options": [
+        "乙",
+        "甲",
+        "丙",
+        "一样多"
+      ],
+      "answer": 0,
+      "explanation": "22最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-026",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：原有145盒彩笔，发出35盒，又运来50盒，现在有多少盒？",
+      "options": [
+        "110盒",
+        "160盒",
+        "195盒",
+        "198盒"
+      ],
+      "answer": 1,
+      "explanation": "先减发出的，再加运来的：145-35+50=160盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-027",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "科技体验日：每本练习册13元，买6本需要多少元？",
+      "options": [
+        "19元",
+        "65元",
+        "78元",
+        "84元"
+      ],
+      "answer": 2,
+      "explanation": "总价=单价×数量，13×6=78元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-028",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：计算总数：2622+674=？",
+      "options": [
+        "3196",
+        "3306",
+        "3297",
+        "3296"
+      ],
+      "answer": 3,
+      "explanation": "列竖式计算得到3296。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-029",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：怎样简便计算25×18×4？结果是多少？",
+      "options": [
+        "1800",
+        "550",
+        "1700",
+        "1804"
+      ],
+      "answer": 0,
+      "explanation": "先交换并结合25和4，25×4×18=100×18=1800。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-030",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：两段彩带长3.6米和2.8米，一共多长？",
+      "options": [
+        "0.8米",
+        "6.4米",
+        "7.4米",
+        "6米"
+      ],
+      "answer": 1,
+      "explanation": "小数点对齐相加，3.6+2.8=6.4米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-031",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：一个角是45°，它是什么角？",
+      "options": [
+        "平角",
+        "钝角",
+        "锐角",
+        "周角"
+      ],
+      "answer": 2,
+      "explanation": "45°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-032",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "完全重合",
+        "没有关系",
+        "互相垂直"
+      ],
+      "answer": 3,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-033",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：三次测量结果是72、78、75厘米，平均是多少厘米？",
+      "options": [
+        "75厘米",
+        "78厘米",
+        "225厘米",
+        "81厘米"
+      ],
+      "answer": 0,
+      "explanation": "总数除以3：（72+78+75）÷3=75厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-034",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：统计表记录甲18票、乙23票、丙15票，谁最多？",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "一样多"
+      ],
+      "answer": 1,
+      "explanation": "23最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-035",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：原有150盒彩笔，发出36盒，又运来51盒，现在有多少盒？",
+      "options": [
+        "114盒",
+        "201盒",
+        "165盒",
+        "204盒"
+      ],
+      "answer": 2,
+      "explanation": "先减发出的，再加运来的：150-36+51=165盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-036",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "环保调查：每本练习册14元，买4本需要多少元？",
+      "options": [
+        "18元",
+        "42元",
+        "60元",
+        "56元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量，14×4=56元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-037",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：计算总数：2669+693=？",
+      "options": [
+        "3362",
+        "3262",
+        "3372",
+        "3363"
+      ],
+      "answer": 0,
+      "explanation": "列竖式计算得到3362。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-038",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：怎样简便计算25×19×4？结果是多少？",
+      "options": [
+        "575",
+        "1900",
+        "1800",
+        "1904"
+      ],
+      "answer": 1,
+      "explanation": "先交换并结合25和4，25×4×19=100×19=1900。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-039",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：两段彩带长3.7米和2.9米，一共多长？",
+      "options": [
+        "0.8米",
+        "7.6米",
+        "6.6米",
+        "7米"
+      ],
+      "answer": 2,
+      "explanation": "小数点对齐相加，3.7+2.9=6.6米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-040",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：一个角是50°，它是什么角？",
+      "options": [
+        "平角",
+        "钝角",
+        "周角",
+        "锐角"
+      ],
+      "answer": 3,
+      "explanation": "50°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-041",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相垂直",
+        "互相平行",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 0,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-042",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：三次测量结果是74、80、77厘米，平均是多少厘米？",
+      "options": [
+        "80厘米",
+        "77厘米",
+        "231厘米",
+        "83厘米"
+      ],
+      "answer": 1,
+      "explanation": "总数除以3：（74+80+77）÷3=77厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-043",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：统计表记录甲19票、乙24票、丙16票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "乙",
+        "一样多"
+      ],
+      "answer": 2,
+      "explanation": "24最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-044",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：原有155盒彩笔，发出37盒，又运来52盒，现在有多少盒？",
+      "options": [
+        "118盒",
+        "207盒",
+        "210盒",
+        "170盒"
+      ],
+      "answer": 3,
+      "explanation": "先减发出的，再加运来的：155-37+52=170盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-045",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "班级义卖：每本练习册15元，买5本需要多少元？",
+      "options": [
+        "75元",
+        "20元",
+        "60元",
+        "80元"
+      ],
+      "answer": 0,
+      "explanation": "总价=单价×数量，15×5=75元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-046",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：计算总数：2716+712=？",
+      "options": [
+        "3328",
+        "3428",
+        "3438",
+        "3429"
+      ],
+      "answer": 1,
+      "explanation": "列竖式计算得到3428。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-047",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：怎样简便计算25×20×4？结果是多少？",
+      "options": [
+        "600",
+        "1900",
+        "2000",
+        "2004"
+      ],
+      "answer": 2,
+      "explanation": "先交换并结合25和4，25×4×20=100×20=2000。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-048",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：两段彩带长3.8米和3.0米，一共多长？",
+      "options": [
+        "0.8米",
+        "7.8米",
+        "7米",
+        "6.8米"
+      ],
+      "answer": 3,
+      "explanation": "小数点对齐相加，3.8+3.0=6.8米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-049",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：一个角是55°，它是什么角？",
+      "options": [
+        "锐角",
+        "平角",
+        "钝角",
+        "周角"
+      ],
+      "answer": 0,
+      "explanation": "55°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-050",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "互相垂直",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 1,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-051",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：三次测量结果是76、82、79厘米，平均是多少厘米？",
+      "options": [
+        "82厘米",
+        "237厘米",
+        "79厘米",
+        "85厘米"
+      ],
+      "answer": 2,
+      "explanation": "总数除以3：（76+82+79）÷3=79厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-052",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "农场实践：统计表记录甲20票、乙25票、丙17票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "一样多",
+        "乙"
+      ],
+      "answer": 3,
+      "explanation": "25最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-053",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "农场实践：原有160盒彩笔，发出38盒，又运来53盒，现在有多少盒？",
+      "options": [
+        "175盒",
+        "122盒",
+        "213盒",
+        "216盒"
+      ],
+      "answer": 0,
+      "explanation": "先减发出的，再加运来的：160-38+53=175盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-054",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "农场实践：每本练习册16元，买6本需要多少元？",
+      "options": [
+        "22元",
+        "96元",
+        "80元",
+        "102元"
+      ],
+      "answer": 1,
+      "explanation": "总价=单价×数量，16×6=96元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-055",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：比较差值：2763-731=？",
+      "options": [
+        "1932",
+        "2042",
+        "2032",
+        "3495"
+      ],
+      "answer": 2,
+      "explanation": "列竖式计算得到2032。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-056",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：怎样简便计算25×21×4？结果是多少？",
+      "options": [
+        "625",
+        "2000",
+        "2104",
+        "2100"
+      ],
+      "answer": 3,
+      "explanation": "先交换并结合25和4，25×4×21=100×21=2100。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-057",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：两段彩带长3.9米和3.1米，一共多长？",
+      "options": [
+        "7.0米",
+        "0.8米",
+        "8.0米",
+        "7米"
+      ],
+      "answer": 0,
+      "explanation": "小数点对齐相加，3.9+3.1=7.0米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-058",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：一个角是60°，它是什么角？",
+      "options": [
+        "平角",
+        "锐角",
+        "钝角",
+        "周角"
+      ],
+      "answer": 1,
+      "explanation": "60°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-059",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "完全重合",
+        "互相垂直",
+        "没有关系"
+      ],
+      "answer": 2,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-060",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：三次测量结果是78、84、81厘米，平均是多少厘米？",
+      "options": [
+        "84厘米",
+        "243厘米",
+        "87厘米",
+        "81厘米"
+      ],
+      "answer": 3,
+      "explanation": "总数除以3：（78+84+81）÷3=81厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-061",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：统计表记录甲21票、乙26票、丙18票，谁最多？",
+      "options": [
+        "乙",
+        "甲",
+        "丙",
+        "一样多"
+      ],
+      "answer": 0,
+      "explanation": "26最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-062",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：原有165盒彩笔，发出39盒，又运来54盒，现在有多少盒？",
+      "options": [
+        "126盒",
+        "180盒",
+        "219盒",
+        "222盒"
+      ],
+      "answer": 1,
+      "explanation": "先减发出的，再加运来的：165-39+54=180盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-063",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "博物馆研学：每本练习册17元，买4本需要多少元？",
+      "options": [
+        "21元",
+        "51元",
+        "68元",
+        "72元"
+      ],
+      "answer": 2,
+      "explanation": "总价=单价×数量，17×4=68元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-064",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：比较差值：2810-750=？",
+      "options": [
+        "1960",
+        "2070",
+        "3561",
+        "2060"
+      ],
+      "answer": 3,
+      "explanation": "列竖式计算得到2060。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-065",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：怎样简便计算25×22×4？结果是多少？",
+      "options": [
+        "2200",
+        "650",
+        "2100",
+        "2204"
+      ],
+      "answer": 0,
+      "explanation": "先交换并结合25和4，25×4×22=100×22=2200。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-066",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：两段彩带长4.0米和3.2米，一共多长？",
+      "options": [
+        "0.8米",
+        "7.2米",
+        "8.2米",
+        "7米"
+      ],
+      "answer": 1,
+      "explanation": "小数点对齐相加，4.0+3.2=7.2米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-067",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：一个角是65°，它是什么角？",
+      "options": [
+        "平角",
+        "钝角",
+        "锐角",
+        "周角"
+      ],
+      "answer": 2,
+      "explanation": "65°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-068",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "完全重合",
+        "没有关系",
+        "互相垂直"
+      ],
+      "answer": 3,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-069",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：三次测量结果是80、86、83厘米，平均是多少厘米？",
+      "options": [
+        "83厘米",
+        "86厘米",
+        "249厘米",
+        "89厘米"
+      ],
+      "answer": 0,
+      "explanation": "总数除以3：（80+86+83）÷3=83厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-070",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：统计表记录甲22票、乙27票、丙19票，谁最多？",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "一样多"
+      ],
+      "answer": 1,
+      "explanation": "27最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-071",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：原有170盒彩笔，发出40盒，又运来55盒，现在有多少盒？",
+      "options": [
+        "130盒",
+        "225盒",
+        "185盒",
+        "228盒"
+      ],
+      "answer": 2,
+      "explanation": "先减发出的，再加运来的：170-40+55=185盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-072",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "图书馆服务：每本练习册18元，买5本需要多少元？",
+      "options": [
+        "23元",
+        "72元",
+        "95元",
+        "90元"
+      ],
+      "answer": 3,
+      "explanation": "总价=单价×数量，18×5=90元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-073",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：比较差值：2857-769=？",
+      "options": [
+        "2088",
+        "1988",
+        "2098",
+        "3627"
+      ],
+      "answer": 0,
+      "explanation": "列竖式计算得到2088。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-074",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：怎样简便计算25×23×4？结果是多少？",
+      "options": [
+        "675",
+        "2300",
+        "2200",
+        "2304"
+      ],
+      "answer": 1,
+      "explanation": "先交换并结合25和4，25×4×23=100×23=2300。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-075",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：两段彩带长4.1米和3.3米，一共多长？",
+      "options": [
+        "0.8米",
+        "8.4米",
+        "7.4米",
+        "7米"
+      ],
+      "answer": 2,
+      "explanation": "小数点对齐相加，4.1+3.3=7.4米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-076",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：一个角是70°，它是什么角？",
+      "options": [
+        "平角",
+        "钝角",
+        "周角",
+        "锐角"
+      ],
+      "answer": 3,
+      "explanation": "70°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-077",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相垂直",
+        "互相平行",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 0,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-078",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：三次测量结果是82、88、85厘米，平均是多少厘米？",
+      "options": [
+        "88厘米",
+        "85厘米",
+        "255厘米",
+        "91厘米"
+      ],
+      "answer": 1,
+      "explanation": "总数除以3：（82+88+85）÷3=85厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-079",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：统计表记录甲23票、乙28票、丙20票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "乙",
+        "一样多"
+      ],
+      "answer": 2,
+      "explanation": "28最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-080",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：原有175盒彩笔，发出41盒，又运来56盒，现在有多少盒？",
+      "options": [
+        "134盒",
+        "231盒",
+        "234盒",
+        "190盒"
+      ],
+      "answer": 3,
+      "explanation": "先减发出的，再加运来的：175-41+56=190盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-081",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "城市交通：每本练习册19元，买6本需要多少元？",
+      "options": [
+        "114元",
+        "25元",
+        "95元",
+        "120元"
+      ],
+      "answer": 0,
+      "explanation": "总价=单价×数量，19×6=114元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-082",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：比较差值：2904-788=？",
+      "options": [
+        "2016",
+        "2116",
+        "2126",
+        "3693"
+      ],
+      "answer": 1,
+      "explanation": "列竖式计算得到2116。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-083",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：怎样简便计算25×24×4？结果是多少？",
+      "options": [
+        "700",
+        "2300",
+        "2400",
+        "2404"
+      ],
+      "answer": 2,
+      "explanation": "先交换并结合25和4，25×4×24=100×24=2400。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-084",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：两段彩带长4.2米和3.4米，一共多长？",
+      "options": [
+        "0.8米",
+        "8.6米",
+        "8米",
+        "7.6米"
+      ],
+      "answer": 3,
+      "explanation": "小数点对齐相加，4.2+3.4=7.6米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-085",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：一个角是75°，它是什么角？",
+      "options": [
+        "锐角",
+        "平角",
+        "钝角",
+        "周角"
+      ],
+      "answer": 0,
+      "explanation": "75°小于90°，所以是锐角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-086",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：长方形相邻两条边的位置关系是什么？",
+      "options": [
+        "互相平行",
+        "互相垂直",
+        "完全重合",
+        "没有关系"
+      ],
+      "answer": 1,
+      "explanation": "长方形相邻两边相交成直角，所以互相垂直。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-087",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：三次测量结果是84、90、87厘米，平均是多少厘米？",
+      "options": [
+        "90厘米",
+        "261厘米",
+        "87厘米",
+        "93厘米"
+      ],
+      "answer": 2,
+      "explanation": "总数除以3：（84+90+87）÷3=87厘米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-088",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：统计表记录甲24票、乙29票、丙21票，谁最多？",
+      "options": [
+        "甲",
+        "丙",
+        "一样多",
+        "乙"
+      ],
+      "answer": 3,
+      "explanation": "29最大，所以乙最多。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-089",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：原有180盒彩笔，发出42盒，又运来57盒，现在有多少盒？",
+      "options": [
+        "195盒",
+        "138盒",
+        "237盒",
+        "240盒"
+      ],
+      "answer": 0,
+      "explanation": "先减发出的，再加运来的：180-42+57=195盒。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-090",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "健康监测：汽车前3小时每小时行67千米，之后又行52千米，全程多少千米？",
+      "options": [
+        "122千米",
+        "253千米",
+        "201千米",
+        "250千米"
+      ],
+      "answer": 1,
+      "explanation": "前3小时行67×3=201千米，再加52千米，共253千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-091",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：仓库原有1718本练习册，新到636本，发出429本后还剩多少本？",
+      "options": [
+        "2354本",
+        "2356本",
+        "1925本",
+        "1289本"
+      ],
+      "answer": 2,
+      "explanation": "先加新到的，再减发出的：1718+636-429=1925本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-092",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：计算25×29×4，选择最简便的结果。",
+      "options": [
+        "2800",
+        "2925",
+        "841",
+        "2900"
+      ],
+      "answer": 3,
+      "explanation": "利用乘法交换律和结合律，先算25×4=100，再算100×29=2900。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-093",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：买文具分别花25.5元和9.9元，付43元，应找回多少元？",
+      "options": [
+        "7.6元",
+        "17.5元",
+        "35.4元",
+        "8.6元"
+      ],
+      "answer": 0,
+      "explanation": "先求总价25.5+9.9=35.4元，再用43减总价，找回7.6元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-094",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：两个相邻角分别是48°和42°，合成的角是多少度，属于哪类角？",
+      "options": [
+        "90°，锐角",
+        "90°，直角",
+        "6°，锐角",
+        "180°，平角"
+      ],
+      "answer": 1,
+      "explanation": "两个角相加是48+42=90°，90°的角是直角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-095",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：长方形纸上画出两条对边并向两端延长，这两条直线的位置关系是什么？",
+      "options": [
+        "互相垂直",
+        "相交成锐角",
+        "互相平行",
+        "完全重合"
+      ],
+      "answer": 2,
+      "explanation": "长方形的两条对边互相平行，延长后也不会相交。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-096",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：四次跳绳成绩是85、89、93、97下，平均每次多少下？",
+      "options": [
+        "89下",
+        "364下",
+        "95下",
+        "91下"
+      ],
+      "answer": 3,
+      "explanation": "总数364除以4，平均数是91下。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-097",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数据分析",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：四周回收量为31、37、34、40千克。偶数周合计比奇数周合计多多少千克？",
+      "options": [
+        "12千克",
+        "9千克",
+        "77千克",
+        "65千克"
+      ],
+      "answer": 0,
+      "explanation": "偶数周是37+40，奇数周是31+34，相差12千克。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-098",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：礼堂有7排座位，每排37个，其中21个维修中。可用座位有多少个？",
+      "options": [
+        "259个",
+        "238个",
+        "245个",
+        "16个"
+      ],
+      "answer": 1,
+      "explanation": "总座位7×37=259个，减去维修的21个，得238个。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-099",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "数量关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "手工设计：汽车前3小时每小时行68千米，之后又行53千米，全程多少千米？",
+      "options": [
+        "124千米",
+        "204千米",
+        "257千米",
+        "254千米"
+      ],
+      "answer": 2,
+      "explanation": "前3小时行68×3=204千米，再加53千米，共257千米。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-100",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "多位数运算",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：仓库原有1754本练习册，新到648本，发出437本后还剩多少本？",
+      "options": [
+        "2402本",
+        "2404本",
+        "1317本",
+        "1965本"
+      ],
+      "answer": 3,
+      "explanation": "先加新到的，再减发出的：1754+648-437=1965本。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-101",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "运算律",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：计算25×30×4，选择最简便的结果。",
+      "options": [
+        "3000",
+        "2900",
+        "3025",
+        "870"
+      ],
+      "answer": 0,
+      "explanation": "利用乘法交换律和结合律，先算25×4=100，再算100×30=3000。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-102",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "小数初步",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：买文具分别花26.5元和10.0元，付44元，应找回多少元？",
+      "options": [
+        "17.5元",
+        "7.5元",
+        "36.5元",
+        "8.5元"
+      ],
+      "answer": 1,
+      "explanation": "先求总价26.5+10.0=36.5元，再用44减总价，找回7.5元。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-103",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "角",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：两个相邻角分别是49°和41°，合成的角是多少度，属于哪类角？",
+      "options": [
+        "90°，锐角",
+        "8°，锐角",
+        "90°，直角",
+        "180°，平角"
+      ],
+      "answer": 2,
+      "explanation": "两个角相加是49+41=90°，90°的角是直角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-104",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "几何关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：方格纸上两条道路分别沿横线和竖线修建，它们相交形成的四个角是什么角？",
+      "options": [
+        "都是锐角",
+        "都是钝角",
+        "两个锐角两个钝角",
+        "都是直角"
+      ],
+      "answer": 3,
+      "explanation": "横线和竖线互相垂直，相交形成四个直角。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-105",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "choice",
+    "knowledgePoint": "平均数",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "气象观察：四次跳绳成绩是86、90、94、98下，平均每次多少下？",
+      "options": [
+        "92下",
+        "90下",
+        "368下",
+        "96下"
+      ],
+      "answer": 0,
+      "explanation": "总数368除以4，平均数是92下。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-106",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "气象观察：四天读书页数为109、111、113、115页，共读___页。",
+      "answer": "448",
+      "explanation": "把四天的数据相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-107",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "气象观察：每箱16瓶，4箱喝掉7瓶，还剩___瓶。",
+      "answer": "57",
+      "explanation": "先算总瓶数，再减喝掉的。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-108",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数量关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "气象观察：一辆车每小时行61千米，3小时行___千米。",
+      "answer": "183",
+      "explanation": "路程=速度×时间。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-109",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：4520+712=___",
+      "answer": "5232",
+      "explanation": "按相同数位相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-110",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：125×8×5=___",
+      "answer": "5000",
+      "explanation": "先算125×8=1000，再乘另一个因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-111",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：16.4+1.2=___",
+      "answer": "17.6",
+      "explanation": "小数点对齐后相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-112",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：一个平角是___度。",
+      "answer": "180",
+      "explanation": "平角的两条边在一条直线上，是180°。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-113",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：同一平面内永不相交的两条直线互相___。",
+      "answer": "平行",
+      "explanation": "同一平面内不相交的两条直线互相平行。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-114",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：三个数117、120、123的平均数是___。",
+      "answer": "120",
+      "explanation": "三个等距数的平均数是中间数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-115",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：四天读书页数为118、120、122、124页，共读___页。",
+      "answer": "484",
+      "explanation": "把四天的数据相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-116",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "fill",
+    "knowledgePoint": "多步问题",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "节能行动：每箱17瓶，4箱喝掉8瓶，还剩___瓶。",
+      "answer": "60",
+      "explanation": "先算总瓶数，再减喝掉的。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-117",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "节能行动：一辆车每小时行50千米，3小时行___千米。",
+      "answer": "150",
+      "explanation": "路程=速度×时间。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-118",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：4610+721=___",
+      "answer": "5331",
+      "explanation": "按相同数位相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-119",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：125×8×4=___",
+      "answer": "4000",
+      "explanation": "先算125×8=1000，再乘另一个因数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-120",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：17.3+1.2=___",
+      "answer": "18.5",
+      "explanation": "小数点对齐后相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-121",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "角",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：一个平角是___度。",
+      "answer": "180",
+      "explanation": "平角的两条边在一条直线上，是180°。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-122",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "几何关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：同一平面内永不相交的两条直线互相___。",
+      "answer": "平行",
+      "explanation": "同一平面内不相交的两条直线互相平行。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-123",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "fill",
+    "knowledgePoint": "平均数",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：三个数126、129、132的平均数是___。",
+      "answer": "129",
+      "explanation": "三个等距数的平均数是中间数。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-124",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "数据分析",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：四天读书页数为127、129、131、133页，共读___页。",
+      "answer": "520",
+      "explanation": "把四天的数据相加。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-125",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "多步问题",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：每箱10瓶，4箱喝掉5瓶，还剩___瓶。",
+      "answer": "35",
+      "explanation": "先算总瓶数，再减喝掉的。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-126",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "fill",
+    "knowledgePoint": "数量关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "社团成果展：一辆车每小时行59千米，3小时行___千米。",
+      "answer": "177",
+      "explanation": "路程=速度×时间。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-127",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "多位数运算",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把多位数运算内容与正确结果或含义连起来",
+      "left": [
+        "2300+700",
+        "5600-600",
+        "125×8",
+        "3600÷9"
+      ],
+      "right": [
+        "1000",
+        "3000",
+        "400",
+        "5000"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据多位数运算的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-128",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "运算律",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把运算律内容与正确结果或含义连起来",
+      "left": [
+        "a+b=b+a",
+        "a×b=b×a",
+        "(a+b)+c=a+(b+c)",
+        "a×(b+c)=a×b+a×c"
+      ],
+      "right": [
+        "加法结合",
+        "加法交换",
+        "乘法分配",
+        "乘法交换"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据运算律的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-129",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "小数初步",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把小数初步内容与正确结果或含义连起来",
+      "left": [
+        "0.5",
+        "1.2",
+        "2.05",
+        "3.8"
+      ],
+      "right": [
+        "二点零五",
+        "五个十分之一",
+        "三点八",
+        "一点二"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据小数初步的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-130",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "角",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把角内容与正确结果或含义连起来",
+      "left": [
+        "45°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "right": [
+        "钝角",
+        "锐角",
+        "平角",
+        "直角"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据角的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-131",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "几何关系",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把几何关系内容与正确结果或含义连起来",
+      "left": [
+        "长方形对边",
+        "长方形邻边",
+        "两条平行线",
+        "两条垂线"
+      ],
+      "right": [
+        "永不相交",
+        "互相平行",
+        "相交成直角",
+        "互相垂直"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据几何关系的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-132",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "平均数",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把平均数内容与正确结果或含义连起来",
+      "left": [
+        "2,4,6",
+        "5,5,5",
+        "10,20,30",
+        "3,6,9"
+      ],
+      "right": [
+        "平均20",
+        "平均4",
+        "平均6",
+        "平均5"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据平均数的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-133",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 1,
+    "type": "match",
+    "knowledgePoint": "数据分析",
+    "skill": "understand",
+    "tags": [
+      "全国通用",
+      "基础巩固"
+    ],
+    "content": {
+      "stem": "家庭预算：把数据分析内容与正确结果或含义连起来",
+      "left": [
+        "最大值",
+        "最小值",
+        "总数",
+        "平均数"
+      ],
+      "right": [
+        "全部相加",
+        "找最大数据",
+        "总数除以份数",
+        "找最小数据"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数据分析的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-134",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "多步问题",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭预算：把多步问题内容与正确结果或含义连起来",
+      "left": [
+        "先加后减",
+        "先乘后加",
+        "先除后减",
+        "先乘后除"
+      ],
+      "right": [
+        "平均分后用去",
+        "库存变化",
+        "总量再平均",
+        "总量再增加"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据多步问题的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-135",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "数量关系",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "家庭预算：把数量关系内容与正确结果或含义连起来",
+      "left": [
+        "单价×数量",
+        "路程÷时间",
+        "路程÷速度",
+        "工作总量÷时间"
+      ],
+      "right": [
+        "时间",
+        "总价",
+        "工作效率",
+        "速度"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据数量关系的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-136",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "多位数运算",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园测绘：把多位数运算内容与正确结果或含义连起来",
+      "left": [
+        "2300+700",
+        "5600-600",
+        "125×8",
+        "3600÷9"
+      ],
+      "right": [
+        "1000",
+        "3000",
+        "400",
+        "5000"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据多位数运算的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-137",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "运算律",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园测绘：把运算律内容与正确结果或含义连起来",
+      "left": [
+        "a+b=b+a",
+        "a×b=b×a",
+        "(a+b)+c=a+(b+c)",
+        "a×(b+c)=a×b+a×c"
+      ],
+      "right": [
+        "加法结合",
+        "加法交换",
+        "乘法分配",
+        "乘法交换"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据运算律的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-138",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 2,
+    "type": "match",
+    "knowledgePoint": "小数初步",
+    "skill": "apply",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园测绘：把小数初步内容与正确结果或含义连起来",
+      "left": [
+        "0.5",
+        "1.2",
+        "2.05",
+        "3.8"
+      ],
+      "right": [
+        "二点零五",
+        "五个十分之一",
+        "三点八",
+        "一点二"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据小数初步的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-139",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "角",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园测绘：把角内容与正确结果或含义连起来",
+      "left": [
+        "45°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "right": [
+        "钝角",
+        "锐角",
+        "平角",
+        "直角"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据角的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  },
+  {
+    "id": "g4-math-authored-140",
+    "subject": "math",
+    "grade": 4,
+    "difficulty": 3,
+    "type": "match",
+    "knowledgePoint": "几何关系",
+    "skill": "reason",
+    "tags": [
+      "全国通用",
+      "综合应用"
+    ],
+    "content": {
+      "stem": "公园测绘：把几何关系内容与正确结果或含义连起来",
+      "left": [
+        "长方形对边",
+        "长方形邻边",
+        "两条平行线",
+        "两条垂线"
+      ],
+      "right": [
+        "永不相交",
+        "互相平行",
+        "相交成直角",
+        "互相垂直"
+      ],
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "根据几何关系的定义、运算或数量关系逐项配对。"
+    },
+    "reviewStatus": "reviewed",
+    "version": 1
+  }
 ]
