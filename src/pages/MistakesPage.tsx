@@ -18,7 +18,7 @@ function getStem(content: Json) {
 export default function MistakesPage() {
   const navigate = useNavigate()
   const { mistakes, isLoading, error, fetchMistakes } = useMistakeStore()
-  const [status, setStatus] = useState<'all' | MistakeStatus>('all')
+  const [status, setStatus] = useState<'all' | MistakeStatus>('needs_correction')
 
   useEffect(() => { fetchMistakes().catch(() => undefined) }, [fetchMistakes])
 
@@ -36,7 +36,7 @@ export default function MistakesPage() {
       </div>
 
       <div className="grid grid-cols-4 gap-2">
-        {(['all', 'needs_correction', 'reinforcing', 'mastered'] as const).map(value => (
+        {(['needs_correction', 'reinforcing', 'mastered', 'all'] as const).map(value => (
           <button key={value} onClick={() => setStatus(value)}
             className={`rounded-2xl px-2 py-2 text-xs font-bold ${status === value ? 'bg-kid-primary text-white' : 'bg-gray-100 text-gray-500'}`}>
             {value === 'all' ? '全部' : statusLabels[value]}

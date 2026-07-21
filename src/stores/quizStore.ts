@@ -5,7 +5,7 @@ import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
 import type { Subject } from '../lib/constants'
 import type { Database } from '../lib/database.types'
 import { formatLocalDate, getLocalDayRange } from '../lib/dateUtils'
-import { calculateAnswerReward, countSubjects, isAnswerCorrect, shuffle } from '../lib/quizUtils'
+import { calculateAnswerReward, isAnswerCorrect, shuffle } from '../lib/quizUtils'
 import { composeQuestions } from '../lib/questionComposer'
 import { loadCompositionInputs } from '../lib/questionRepository'
 import { applyWrongAnswer } from '../lib/mistakeStatus'
@@ -113,6 +113,8 @@ interface QuizSession {
   pointsEarned: number
   isComplete: boolean
   records: QuizRecord[]
+  recordsSaving: boolean
+  recordsSaved: boolean
 }
 
 interface ChallengeSession {
@@ -124,6 +126,8 @@ interface ChallengeSession {
   isComplete: boolean
   passed: boolean
   records: QuizRecord[]
+  recordsSaving: boolean
+  recordsSaved: boolean
 }
 
 interface QuizState {
@@ -146,7 +150,20 @@ interface QuizState {
 }
 
 function createEmptySession(subject: Subject, questions: Question[]): QuizSession {
-  return { subject, questions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, records: [] }
+  return { subject, questions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, records: [], recordsSaving: false, recordsSaved: false }
+}
+
+export function countUniqueSubjectQuestions(rows: Array<{ subject: string; question_id?: string | null }>) {
+  const questionIdsBySubject: Record<Subject, Set<string>> = { chinese: new Set(), math: new Set(), english: new Set() }
+  rows.forEach((row, index) => {
+    if (!SUBJECTS.includes(row.subject as Subject)) return
+    const subject = row.subject as Subject
+    questionIdsBySubject[subject].add(row.question_id || `row-${index}`)
+  })
+  return SUBJECTS.reduce((counts, subject) => ({
+    ...counts,
+    [subject]: Math.min(questionIdsBySubject[subject].size, DAILY_QUESTIONS_PER_SUBJECT),
+  }), { chinese: 0, math: 0, english: 0 } as Record<Subject, number>)
 }
 
 export const useQuizStore = create<QuizState>((set, get) => ({
@@ -224,10 +241,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const userId = useAuthStore.getState().user?.id
     if (!userId) return 0
     const { start, end } = getLocalDayRange()
-    const { count, error } = await supabase.from('quiz_records').select('*', { count: 'exact', head: true })
+    const { data, error } = await supabase.from('quiz_records').select('subject,question_id')
       .eq('user_id', userId).eq('subject', subject).gte('answered_at', start).lt('answered_at', end)
     if (error) throw error
-    return count ?? 0
+    return countUniqueSubjectQuestions(data || [])[subject]
   },
 
   getTodayStats: async () => {
@@ -236,12 +253,12 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const { start, end } = getLocalDayRange()
     const today = formatLocalDate(new Date())
     const [quizRes, checkinRes] = await Promise.all([
-      supabase.from('quiz_records').select('subject').eq('user_id', userId).gte('answered_at', start).lt('answered_at', end),
+      supabase.from('quiz_records').select('subject,question_id').eq('user_id', userId).gte('answered_at', start).lt('answered_at', end),
       supabase.from('check_ins').select('challenge_done').eq('user_id', userId).eq('date', today).maybeSingle(),
     ])
     if (quizRes.error) throw quizRes.error
     if (checkinRes.error) throw checkinRes.error
-    const counts = countSubjects(quizRes.data || [])
+    const counts = countUniqueSubjectQuestions(quizRes.data || [])
     return { ...counts, challengeDone: checkinRes.data?.challenge_done ?? false }
   },
 
@@ -253,7 +270,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (!profile || !userId) throw new Error('用户信息尚未准备好')
       const allQuestions = await buildChallengeQuestions(userId, profile.grade)
       set({
-        challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [] },
+        challengeSession: { questions: allQuestions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, passed: false, records: [], recordsSaving: false, recordsSaved: false },
       })
     } catch (error) {
       set({ sessionError: error instanceof Error ? error.message : '挑战题目加载失败' })
@@ -312,21 +329,69 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     const userId = useAuthStore.getState().user?.id
     if (!userId) return
     const session = get().sessions[subject]
-    if (!session || !session.isComplete) return
+    if (!session || !session.isComplete || session.recordsSaving || session.recordsSaved) return
     if (session.records.length === 0) return
+    set(state => ({
+      sessions: {
+        ...state.sessions,
+        [subject]: state.sessions[subject] ? { ...state.sessions[subject]!, recordsSaving: true } : null,
+      },
+    }))
     const { error } = await supabase.from('quiz_records').insert(prepareQuizRecordInserts(userId, session.records))
-    if (error) throw error
-    await syncMistakeRecords(userId, session.records)
+    if (error) {
+      set(state => ({
+        sessions: {
+          ...state.sessions,
+          [subject]: state.sessions[subject] ? { ...state.sessions[subject]!, recordsSaving: false } : null,
+        },
+      }))
+      throw error
+    }
+    try {
+      await syncMistakeRecords(userId, session.records)
+      set(state => ({
+        sessions: {
+          ...state.sessions,
+          [subject]: state.sessions[subject] ? { ...state.sessions[subject]!, recordsSaving: false, recordsSaved: true } : null,
+        },
+      }))
+    } catch (error) {
+      set(state => ({
+        sessions: {
+          ...state.sessions,
+          [subject]: state.sessions[subject] ? { ...state.sessions[subject]!, recordsSaving: false } : null,
+        },
+      }))
+      throw error
+    }
   },
 
   saveChallengeRecords: async () => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) return
     const session = get().challengeSession
-    if (!session || !session.isComplete) return
+    if (!session || !session.isComplete || session.recordsSaving || session.recordsSaved) return
     if (session.records.length === 0) return
+    set(state => ({
+      challengeSession: state.challengeSession ? { ...state.challengeSession, recordsSaving: true } : null,
+    }))
     const { error } = await supabase.from('quiz_records').insert(prepareQuizRecordInserts(userId, session.records))
-    if (error) throw error
-    await syncMistakeRecords(userId, session.records)
+    if (error) {
+      set(state => ({
+        challengeSession: state.challengeSession ? { ...state.challengeSession, recordsSaving: false } : null,
+      }))
+      throw error
+    }
+    try {
+      await syncMistakeRecords(userId, session.records)
+      set(state => ({
+        challengeSession: state.challengeSession ? { ...state.challengeSession, recordsSaving: false, recordsSaved: true } : null,
+      }))
+    } catch (error) {
+      set(state => ({
+        challengeSession: state.challengeSession ? { ...state.challengeSession, recordsSaving: false } : null,
+      }))
+      throw error
+    }
   },
 }))

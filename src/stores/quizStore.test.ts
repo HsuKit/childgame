@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest'
-import { buildChallengeQuestions, buildSubjectQuestions, prepareQuizRecordInserts, prepareWrongQuestionIds } from './quizStore'
+import { buildChallengeQuestions, buildSubjectQuestions, countUniqueSubjectQuestions, prepareQuizRecordInserts, prepareWrongQuestionIds } from './quizStore'
 import type { Database } from '../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
@@ -67,5 +67,17 @@ describe('prepareQuizRecordInserts', () => {
       { question_id: 'q-1', subject: 'math', is_correct: true, points_earned: 10, selected_answer: 1 },
       { question_id: 'q-2', subject: 'math', is_correct: false, points_earned: 0, selected_answer: 0 },
     ])).toEqual(['q-2'])
+  })
+})
+
+describe('countUniqueSubjectQuestions', () => {
+  it('deduplicates repeated saved rows and caps each subject at daily total', () => {
+    const tenRepeatedFourTimes = Array.from({ length: 4 }).flatMap(() =>
+      Array.from({ length: 10 }, (_, index) => ({ subject: 'chinese', question_id: `q-${index}` })),
+    )
+    expect(countUniqueSubjectQuestions([
+      ...tenRepeatedFourTimes,
+      { subject: 'math', question_id: 'm-1' },
+    ])).toEqual({ chinese: 10, math: 1, english: 0 })
   })
 })

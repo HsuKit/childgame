@@ -4,13 +4,14 @@ import { useAuthStore } from './authStore'
 import { getLocalDayRange } from '../lib/dateUtils'
 import { countSubjects } from '../lib/quizUtils'
 import { applyMistakeReview } from '../lib/mistakeStatus'
+import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
 import type { Database, MistakeStatus } from '../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
 type MistakeRecord = Database['public']['Tables']['mistake_records']['Row']
 type MistakeWithQuestion = MistakeRecord & { question: Question | null }
 
-type ReportQuizRow = { subject: string; is_correct: boolean }
+type ReportQuizRow = { subject: string; is_correct: boolean; question_id?: string | null }
 type ReportMistakeRow = {
   status: MistakeStatus
   wrong_count: number
@@ -18,8 +19,14 @@ type ReportMistakeRow = {
 }
 
 export function summarizeParentReport(quizRows: ReportQuizRow[], mistakeRows: ReportMistakeRow[]) {
-  const totalAnswered = quizRows.length
-  const correctAnswered = quizRows.filter(row => row.is_correct).length
+  const uniqueQuizRows = dedupeQuizRows(quizRows)
+  const rawSubjectCounts = countSubjects(uniqueQuizRows)
+  const subjectCounts = SUBJECTS.reduce((counts, subject) => ({
+    ...counts,
+    [subject]: Math.min(rawSubjectCounts[subject], DAILY_QUESTIONS_PER_SUBJECT),
+  }), rawSubjectCounts)
+  const totalAnswered = SUBJECTS.reduce((sum, subject) => sum + subjectCounts[subject], 0)
+  const correctAnswered = Math.min(uniqueQuizRows.filter(row => row.is_correct).length, totalAnswered)
   const activeMistakes = mistakeRows.filter(row => row.status !== 'mastered')
   const weakMap = new Map<string, { knowledgePoint: string; activeCount: number; wrongCount: number }>()
   activeMistakes.forEach(row => {
@@ -34,7 +41,7 @@ export function summarizeParentReport(quizRows: ReportQuizRow[], mistakeRows: Re
     totalAnswered,
     correctAnswered,
     accuracy: totalAnswered === 0 ? 0 : Math.round((correctAnswered / totalAnswered) * 100),
-    subjectCounts: countSubjects(quizRows),
+    subjectCounts,
     reviewProgress: {
       needsCorrection: mistakeRows.filter(row => row.status === 'needs_correction').length,
       reinforcing: mistakeRows.filter(row => row.status === 'reinforcing').length,
@@ -44,6 +51,16 @@ export function summarizeParentReport(quizRows: ReportQuizRow[], mistakeRows: Re
       .sort((left, right) => right.activeCount - left.activeCount || right.wrongCount - left.wrongCount)
       .slice(0, 5),
   }
+}
+
+function dedupeQuizRows(quizRows: ReportQuizRow[]) {
+  const seen = new Set<string>()
+  return quizRows.filter((row, index) => {
+    const key = row.question_id ? `${row.subject}:${row.question_id}` : `${row.subject}:row-${index}`
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
 }
 
 interface MistakeState {
@@ -84,7 +101,7 @@ export const useMistakeStore = create<MistakeState>((set, get) => ({
     set({ isLoading: true, error: null })
     const { start, end } = getLocalDayRange()
     const [quizRes, mistakeRes] = await Promise.all([
-      supabase.from('quiz_records').select('subject,is_correct').eq('user_id', userId).gte('answered_at', start).lt('answered_at', end),
+      supabase.from('quiz_records').select('subject,is_correct,question_id').eq('user_id', userId).gte('answered_at', start).lt('answered_at', end),
       supabase.from('mistake_records').select('status,wrong_count,question:questions(knowledge_point)').eq('user_id', userId),
     ])
     if (quizRes.error || mistakeRes.error) {

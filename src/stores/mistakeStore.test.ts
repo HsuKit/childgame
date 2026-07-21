@@ -15,6 +15,22 @@ describe('summarizeParentReport', () => {
     })
   })
 
+  it('deduplicates repeated quiz records before computing parent totals', () => {
+    const rows = Array.from({ length: 4 }).flatMap(() =>
+      Array.from({ length: 10 }, (_, index) => ({
+        subject: 'chinese',
+        question_id: `q-${index}`,
+        is_correct: index === 0,
+      })),
+    )
+    expect(summarizeParentReport(rows, [])).toMatchObject({
+      totalAnswered: 10,
+      correctAnswered: 1,
+      accuracy: 10,
+      subjectCounts: { chinese: 10, math: 0, english: 0 },
+    })
+  })
+
   it('groups active mistakes by knowledge point', () => {
     const report = summarizeParentReport([], [
       { status: 'needs_correction', wrong_count: 3, question: { knowledge_point: '退位减法' } },
