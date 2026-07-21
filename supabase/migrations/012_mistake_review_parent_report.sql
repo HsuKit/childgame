@@ -2,7 +2,7 @@ alter table public.quiz_records
   add column if not exists selected_answer jsonb;
 
 create table if not exists public.mistake_records (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid not null references public.profiles(id) on delete cascade,
   question_id uuid not null references public.questions(id),
   subject text not null check (subject in ('chinese', 'math', 'english')),
@@ -19,7 +19,7 @@ create table if not exists public.mistake_records (
 );
 
 create table if not exists public.mistake_reviews (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid not null references public.profiles(id) on delete cascade,
   mistake_id uuid not null references public.mistake_records(id) on delete cascade,
   question_id uuid not null references public.questions(id),
