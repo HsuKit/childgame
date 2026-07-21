@@ -6,6 +6,7 @@ import { useCheckinStore } from '../stores/checkinStore'
 import { usePointsStore } from '../stores/pointsStore'
 import { useQuizStore } from '../stores/quizStore'
 import { useAuthStore } from '../stores/authStore'
+import { useMistakeStore } from '../stores/mistakeStore'
 import { CompanionDisplay } from '../components/companion/CompanionDisplay'
 import { DailyTaskCard } from '../components/quiz/DailyTaskCard'
 import { StreakBadge } from '../components/checkin/StreakBadge'
@@ -18,6 +19,7 @@ export default function HomePage() {
   const { today, fetchToday } = useCheckinStore()
   const { balance, fetchBalance } = usePointsStore()
   const { getTodayStats } = useQuizStore()
+  const { mistakes, fetchMistakes } = useMistakeStore()
   const profile = useAuthStore(s => s.profile)
   const userId = useAuthStore(s => s.user?.id)
   const [quizCounts, setQuizCounts] = useState<Record<Subject, number>>({ chinese: 0, math: 0, english: 0 })
@@ -43,6 +45,14 @@ export default function HomePage() {
       })
     return () => { active = false }
   }, [userId, getTodayStats])
+
+  useEffect(() => {
+    if (!userId) return
+    fetchMistakes().catch(() => undefined)
+  }, [userId, fetchMistakes])
+
+  const needsCorrectionCount = mistakes.filter(item => item.status === 'needs_correction').length
+  const reinforcingCount = mistakes.filter(item => item.status === 'reinforcing').length
 
   return (
     <div className="p-4 space-y-5 pb-2">
@@ -114,6 +124,21 @@ export default function HomePage() {
           {SUBJECTS.map(subject => (
             <DailyTaskCard key={subject} subject={subject} completed={quizCounts[subject]} total={DAILY_QUESTIONS_PER_SUBJECT} />
           ))}
+          <motion.button
+            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+            onClick={() => navigate('/mistakes')}
+            className="w-full bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-200 rounded-3xl p-4 text-left shadow-sm">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl">📝</span>
+              <div className="flex-1">
+                <p className="font-extrabold text-kid-text">错题复习</p>
+                <p className="text-xs text-amber-600 mt-1">
+                  待订正 {needsCorrectionCount} 道 · 巩固中 {reinforcingCount} 道
+                </p>
+              </div>
+              <span className="text-amber-500 font-bold">→</span>
+            </div>
+          </motion.button>
         </div>
       </div>
     </div>
