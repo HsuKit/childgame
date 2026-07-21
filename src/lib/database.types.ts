@@ -1,4 +1,5 @@
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[]
+export type MistakeStatus = 'needs_correction' | 'reinforcing' | 'mastered'
 
 export interface Database {
   public: {
@@ -28,8 +29,72 @@ export interface Database {
         Update: { external_id?: string; subject?: 'chinese' | 'math' | 'english'; grade?: number; difficulty?: number; type?: 'choice' | 'fill' | 'match' | 'grid'; content?: Json; source?: 'builtin' | 'ai_generated'; knowledge_point?: string; skill?: 'recall' | 'understand' | 'apply' | 'reason'; tags?: string[]; content_hash?: string; review_status?: 'draft' | 'reviewed' | 'approved'; version?: number }
       }
       quiz_records: {
-        Row: { id: string; user_id: string; question_id: string; subject: string; is_correct: boolean; points_earned: number; answered_at: string }
-        Insert: { id?: string; user_id: string; question_id: string; subject: string; is_correct: boolean; points_earned: number }
+        Row: { id: string; user_id: string; question_id: string; subject: string; is_correct: boolean; points_earned: number; selected_answer: Json | null; answered_at: string }
+        Insert: { id?: string; user_id: string; question_id: string; subject: string; is_correct: boolean; points_earned: number; selected_answer?: Json | null }
+        Update: Record<string, never>
+      }
+      mistake_records: {
+        Row: {
+          id: string
+          user_id: string
+          question_id: string
+          subject: 'chinese' | 'math' | 'english'
+          status: MistakeStatus
+          wrong_count: number
+          correct_review_count: number
+          last_wrong_at: string
+          last_reviewed_at: string | null
+          mastered_at: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          question_id: string
+          subject: 'chinese' | 'math' | 'english'
+          status?: MistakeStatus
+          wrong_count?: number
+          correct_review_count?: number
+          last_wrong_at?: string
+          last_reviewed_at?: string | null
+          mastered_at?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          status?: MistakeStatus
+          wrong_count?: number
+          correct_review_count?: number
+          last_wrong_at?: string
+          last_reviewed_at?: string | null
+          mastered_at?: string | null
+          updated_at?: string
+        }
+      }
+      mistake_reviews: {
+        Row: {
+          id: string
+          user_id: string
+          mistake_id: string
+          question_id: string
+          selected_answer: Json | null
+          is_correct: boolean
+          status_before: MistakeStatus
+          status_after: MistakeStatus
+          reviewed_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          mistake_id: string
+          question_id: string
+          selected_answer?: Json | null
+          is_correct: boolean
+          status_before: MistakeStatus
+          status_after: MistakeStatus
+          reviewed_at?: string
+        }
         Update: Record<string, never>
       }
       check_ins: {
