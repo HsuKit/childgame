@@ -27,6 +27,21 @@ describe('applyWrongAnswer', () => {
       mastered_at: null,
     })
   })
+
+  it('does not increment an existing mistake for a duplicate same-day save', () => {
+    expect(applyWrongAnswer({
+      status: 'needs_correction',
+      wrong_count: 2,
+      correct_review_count: 0,
+      last_wrong_at: '2026-07-21T09:00:00.000Z',
+      last_reviewed_at: null,
+      mastered_at: null,
+    }, '2026-07-21T10:00:00.000Z', { incrementWrongCount: false })).toMatchObject({
+      status: 'needs_correction',
+      wrong_count: 2,
+      last_wrong_at: '2026-07-21T10:00:00.000Z',
+    })
+  })
 })
 
 describe('applyMistakeReview', () => {

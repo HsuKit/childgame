@@ -12,10 +12,12 @@ export interface MistakeStatusState {
 export function applyWrongAnswer(
   current: MistakeStatusState | null,
   nowIso: string,
+  options: { incrementWrongCount?: boolean } = {},
 ): MistakeStatusState {
+  const incrementWrongCount = options.incrementWrongCount ?? true
   return {
     status: 'needs_correction',
-    wrong_count: (current?.wrong_count ?? 0) + 1,
+    wrong_count: current ? current.wrong_count + (incrementWrongCount ? 1 : 0) : 1,
     correct_review_count: current?.correct_review_count ?? 0,
     last_wrong_at: nowIso,
     last_reviewed_at: current?.last_reviewed_at ?? null,

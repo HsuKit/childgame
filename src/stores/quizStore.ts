@@ -81,17 +81,39 @@ async function syncMistakeRecords(userId: string, records: QuizRecord[]) {
   if (wrongRecords.length === 0) return
 
   const nowIso = new Date().toISOString()
-  const questionIds = prepareWrongQuestionIds(records)
-  const { data: existing, error: existingError } = await supabase.from('mistake_records')
-    .select('question_id,status,wrong_count,correct_review_count,last_wrong_at,last_reviewed_at,mastered_at')
-    .eq('user_id', userId)
-    .in('question_id', questionIds)
-  if (existingError) throw existingError
+  const { start, end } = getLocalDayRange()
+  const wrongByQuestion = new Map<string, QuizRecord>()
+  wrongRecords.forEach(record => {
+    if (!wrongByQuestion.has(record.question_id)) wrongByQuestion.set(record.question_id, record)
+  })
+  const uniqueWrongRecords = Array.from(wrongByQuestion.values())
+  const questionIds = uniqueWrongRecords.map(record => record.question_id)
+  const [existingRes, todayWrongRes] = await Promise.all([
+    supabase.from('mistake_records')
+      .select('question_id,status,wrong_count,correct_review_count,last_wrong_at,last_reviewed_at,mastered_at')
+      .eq('user_id', userId)
+      .in('question_id', questionIds),
+    supabase.from('quiz_records')
+      .select('question_id')
+      .eq('user_id', userId)
+      .eq('is_correct', false)
+      .gte('answered_at', start)
+      .lt('answered_at', end)
+      .in('question_id', questionIds),
+  ])
+  if (existingRes.error) throw existingRes.error
+  if (todayWrongRes.error) throw todayWrongRes.error
 
-  const existingByQuestion = new Map((existing || []).map(row => [row.question_id, row]))
-  const rows = wrongRecords.map(record => {
+  const existingByQuestion = new Map((existingRes.data || []).map(row => [row.question_id, row]))
+  const todayWrongCountByQuestion = new Map<string, number>()
+  ;(todayWrongRes.data || []).forEach(row => {
+    todayWrongCountByQuestion.set(row.question_id, (todayWrongCountByQuestion.get(row.question_id) || 0) + 1)
+  })
+  const rows = uniqueWrongRecords.map(record => {
     const current = existingByQuestion.get(record.question_id) || null
-    const next = applyWrongAnswer(current, nowIso)
+    const next = applyWrongAnswer(current, nowIso, {
+      incrementWrongCount: (todayWrongCountByQuestion.get(record.question_id) || 0) <= 1,
+    })
     return {
       user_id: userId,
       question_id: record.question_id,
