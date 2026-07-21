@@ -31,6 +31,32 @@ export function calculateAnswerReward(
   return { comboCount, points: POINTS.CORRECT_ANSWER + bonus }
 }
 
+export function getQuizResultAwardState({
+  pointsEarned,
+  subjectWasAlreadyDone,
+  awardSettled,
+  wasAlreadyDoneAtResult,
+}: {
+  pointsEarned: number
+  subjectWasAlreadyDone: boolean
+  awardSettled: boolean
+  wasAlreadyDoneAtResult: boolean
+}): {
+  displayPoints: number
+  shouldAwardPoints: boolean
+  shouldShowAlreadyDoneNotice: boolean
+  wasAlreadyDoneAtResult: boolean
+} {
+  const alreadyDoneAtResult = awardSettled ? wasAlreadyDoneAtResult : subjectWasAlreadyDone
+
+  return {
+    displayPoints: alreadyDoneAtResult ? 0 : pointsEarned,
+    shouldAwardPoints: !awardSettled && !alreadyDoneAtResult && pointsEarned > 0,
+    shouldShowAlreadyDoneNotice: alreadyDoneAtResult,
+    wasAlreadyDoneAtResult: alreadyDoneAtResult,
+  }
+}
+
 export function shuffle<T>(items: readonly T[], random = Math.random): T[] {
   const result = [...items]
   for (let index = result.length - 1; index > 0; index--) {

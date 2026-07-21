@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useQuizStore } from '../stores/quizStore'
 import { usePointsStore } from '../stores/pointsStore'
@@ -7,6 +7,7 @@ import { useCheckinStore } from '../stores/checkinStore'
 import { QuizResultPanel } from '../components/quiz/QuizResultPanel'
 import { PointsFlyAnimation } from '../components/common/PointsFlyAnimation'
 import { SUBJECT_LABELS } from '../lib/constants'
+import { getQuizResultAwardState } from '../lib/quizUtils'
 import type { Subject } from '../lib/constants'
 
 export default function QuizResultPage() {
@@ -19,24 +20,34 @@ export default function QuizResultPage() {
   const addExp = useCompanionStore(s => s.addExp)
   const saveQuizRecords = useQuizStore(s => s.saveQuizRecords)
   const [alreadyDone, setAlreadyDone] = useState(false)
+  const awardSettledRef = useRef(false)
+  const wasAlreadyDoneAtResultRef = useRef(false)
 
   useEffect(() => { fetchToday() }, [fetchToday])
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
+    if (!today || awardSettledRef.current) return
+
     saveQuizRecords(subject)
     const subjDone = subject === 'chinese' ? today?.chinese_done : subject === 'math' ? today?.math_done : today?.english_done
-    if (subjDone) {
-      setAlreadyDone(true)
-      // Still mark and save, but no points
-    } else {
-      if (session.pointsEarned > 0) {
-        addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
-        addExp(session.pointsEarned)
-      }
+    const awardState = getQuizResultAwardState({
+      pointsEarned: session.pointsEarned,
+      subjectWasAlreadyDone: Boolean(subjDone),
+      awardSettled: awardSettledRef.current,
+      wasAlreadyDoneAtResult: wasAlreadyDoneAtResultRef.current,
+    })
+
+    awardSettledRef.current = true
+    wasAlreadyDoneAtResultRef.current = awardState.wasAlreadyDoneAtResult
+    setAlreadyDone(awardState.shouldShowAlreadyDoneNotice)
+
+    if (awardState.shouldAwardPoints) {
+      addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
+      addExp(session.pointsEarned)
       markSubjectDone(subject)
     }
-  }, [today])
+  }, [addExp, addPoints, markSubjectDone, navigate, saveQuizRecords, session, subject, today])
 
   if (!session) return null
 

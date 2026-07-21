@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { calculateAnswerReward, countSubjects, isAnswerCorrect, shuffle } from './quizUtils'
+import { calculateAnswerReward, countSubjects, getQuizResultAwardState, isAnswerCorrect, shuffle } from './quizUtils'
 
 describe('isAnswerCorrect', () => {
   it('compares choice answers by value', () => {
@@ -29,6 +29,45 @@ describe('calculateAnswerReward', () => {
     expect(calculateAnswerReward(true, 2)).toEqual({ comboCount: 3, points: 20 })
     expect(calculateAnswerReward(true, 3)).toEqual({ comboCount: 4, points: 25 })
     expect(calculateAnswerReward(true, 8)).toEqual({ comboCount: 9, points: 25 })
+  })
+})
+
+describe('getQuizResultAwardState', () => {
+  it('keeps showing the earned points after check-in state updates for this completion', () => {
+    const firstRender = getQuizResultAwardState({
+      pointsEarned: 80,
+      subjectWasAlreadyDone: false,
+      awardSettled: false,
+      wasAlreadyDoneAtResult: false,
+    })
+
+    const afterMarkDoneRefresh = getQuizResultAwardState({
+      pointsEarned: 80,
+      subjectWasAlreadyDone: true,
+      awardSettled: true,
+      wasAlreadyDoneAtResult: firstRender.wasAlreadyDoneAtResult,
+    })
+
+    expect(afterMarkDoneRefresh).toEqual({
+      displayPoints: 80,
+      shouldAwardPoints: false,
+      shouldShowAlreadyDoneNotice: false,
+      wasAlreadyDoneAtResult: false,
+    })
+  })
+
+  it('shows zero points when the subject was already done before reaching the result page', () => {
+    expect(getQuizResultAwardState({
+      pointsEarned: 80,
+      subjectWasAlreadyDone: true,
+      awardSettled: false,
+      wasAlreadyDoneAtResult: false,
+    })).toEqual({
+      displayPoints: 0,
+      shouldAwardPoints: false,
+      shouldShowAlreadyDoneNotice: true,
+      wasAlreadyDoneAtResult: true,
+    })
   })
 })
 
