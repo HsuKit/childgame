@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest'
-import { buildChallengeQuestions, buildSubjectQuestions, prepareQuizRecordInserts } from './quizStore'
+import { buildChallengeQuestions, buildSubjectQuestions, prepareQuizRecordInserts, prepareWrongQuestionIds } from './quizStore'
 import type { Database } from '../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
@@ -46,10 +46,26 @@ describe('quiz session builders', () => {
 })
 
 describe('prepareQuizRecordInserts', () => {
-  it('keeps all ten completed math records', () => {
+  it('keeps completed records with selected answers', () => {
     const records = Array.from({ length: 10 }, (_, index) => ({
-      question_id: `q-${index}`, subject: 'math', is_correct: true, points_earned: 10,
+      question_id: `q-${index}`,
+      subject: 'math' as const,
+      is_correct: index !== 0,
+      points_earned: index === 0 ? 0 : 10,
+      selected_answer: index,
     }))
-    expect(prepareQuizRecordInserts('user-1', records)).toHaveLength(10)
+    expect(prepareQuizRecordInserts('user-1', records)[0]).toMatchObject({
+      user_id: 'user-1',
+      question_id: 'q-0',
+      selected_answer: 0,
+      is_correct: false,
+    })
+  })
+
+  it('extracts only wrong question ids for mistake sync', () => {
+    expect(prepareWrongQuestionIds([
+      { question_id: 'q-1', subject: 'math', is_correct: true, points_earned: 10, selected_answer: 1 },
+      { question_id: 'q-2', subject: 'math', is_correct: false, points_earned: 0, selected_answer: 0 },
+    ])).toEqual(['q-2'])
   })
 })

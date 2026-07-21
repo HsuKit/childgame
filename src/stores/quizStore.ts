@@ -8,14 +8,16 @@ import { formatLocalDate, getLocalDayRange } from '../lib/dateUtils'
 import { calculateAnswerReward, countSubjects, isAnswerCorrect, shuffle } from '../lib/quizUtils'
 import { composeQuestions } from '../lib/questionComposer'
 import { loadCompositionInputs } from '../lib/questionRepository'
+import { applyWrongAnswer } from '../lib/mistakeStatus'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
 interface QuizRecord {
   question_id: string
-  subject: string
+  subject: Subject
   is_correct: boolean
   points_earned: number
+  selected_answer: string | number
 }
 
 interface QuizDependencies {
@@ -66,7 +68,40 @@ export function prepareQuizRecordInserts(userId: string, records: QuizRecord[]) 
     subject: record.subject,
     is_correct: record.is_correct,
     points_earned: record.points_earned,
+    selected_answer: record.selected_answer,
   }))
+}
+
+export function prepareWrongQuestionIds(records: QuizRecord[]) {
+  return records.filter(record => !record.is_correct).map(record => record.question_id)
+}
+
+async function syncMistakeRecords(userId: string, records: QuizRecord[]) {
+  const wrongRecords = records.filter(record => !record.is_correct)
+  if (wrongRecords.length === 0) return
+
+  const nowIso = new Date().toISOString()
+  const questionIds = prepareWrongQuestionIds(records)
+  const { data: existing, error: existingError } = await supabase.from('mistake_records')
+    .select('question_id,status,wrong_count,correct_review_count,last_wrong_at,last_reviewed_at,mastered_at')
+    .eq('user_id', userId)
+    .in('question_id', questionIds)
+  if (existingError) throw existingError
+
+  const existingByQuestion = new Map((existing || []).map(row => [row.question_id, row]))
+  const rows = wrongRecords.map(record => {
+    const current = existingByQuestion.get(record.question_id) || null
+    const next = applyWrongAnswer(current, nowIso)
+    return {
+      user_id: userId,
+      question_id: record.question_id,
+      subject: record.subject,
+      ...next,
+      updated_at: nowIso,
+    }
+  })
+  const { error } = await supabase.from('mistake_records').upsert(rows, { onConflict: 'user_id,question_id' })
+  if (error) throw error
 }
 
 interface QuizSession {
@@ -147,7 +182,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (!question || question.id !== questionId) continue
       const isCorrect = isAnswerCorrect(question.type, question.content, answer)
       const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
-      const record: QuizRecord = { question_id: questionId, subject, is_correct: isCorrect, points_earned: points }
+      const record: QuizRecord = { question_id: questionId, subject, is_correct: isCorrect, points_earned: points, selected_answer: answer }
       set(state => ({
         sessions: {
           ...state.sessions,
@@ -235,7 +270,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!question || question.id !== questionId) return false
     const isCorrect = isAnswerCorrect(question.type, question.content, answer)
     const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
-    const record: QuizRecord = { question_id: questionId, subject: question.subject, is_correct: isCorrect, points_earned: points }
+    const record: QuizRecord = { question_id: questionId, subject: question.subject, is_correct: isCorrect, points_earned: points, selected_answer: answer }
     set(state => ({
       challengeSession: state.challengeSession ? {
         ...state.challengeSession,
@@ -278,10 +313,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().sessions[subject]
     if (!session || !session.isComplete) return
-    const records = prepareQuizRecordInserts(userId, session.records)
-    if (records.length === 0) return
-    const { error } = await supabase.from('quiz_records').insert(records)
+    if (session.records.length === 0) return
+    const { error } = await supabase.from('quiz_records').insert(prepareQuizRecordInserts(userId, session.records))
     if (error) throw error
+    await syncMistakeRecords(userId, session.records)
   },
 
   saveChallengeRecords: async () => {
@@ -289,9 +324,9 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!userId) return
     const session = get().challengeSession
     if (!session || !session.isComplete) return
-    const records = prepareQuizRecordInserts(userId, session.records)
-    if (records.length === 0) return
-    const { error } = await supabase.from('quiz_records').insert(records)
+    if (session.records.length === 0) return
+    const { error } = await supabase.from('quiz_records').insert(prepareQuizRecordInserts(userId, session.records))
     if (error) throw error
+    await syncMistakeRecords(userId, session.records)
   },
 }))
