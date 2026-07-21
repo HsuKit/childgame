@@ -64,6 +64,9 @@ export default function HomePage() {
           </h1>
           <div className="flex items-center gap-2 mt-1">
             {today && <StreakBadge count={today.streak_count} />}
+            <button onClick={() => navigate('/parent-report')} className="text-xs font-bold text-gray-400">
+              家长报告
+            </button>
           </div>
         </div>
         <motion.div

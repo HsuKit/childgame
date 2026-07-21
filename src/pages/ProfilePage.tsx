@@ -17,6 +17,7 @@ export default function ProfilePage() {
     { icon: '🐾', label: '切换伙伴', to: '/companion/select', color: 'from-purple-50 to-violet-50' },
     { icon: '📅', label: '打卡日历', to: '/checkin', color: 'from-orange-50 to-amber-50' },
     { icon: '📝', label: '错题复习', to: '/mistakes', color: 'from-amber-50 to-yellow-50' },
+    { icon: '📊', label: '家长报告', to: '/parent-report', color: 'from-blue-50 to-cyan-50' },
   ]
 
   return (
