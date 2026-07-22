@@ -13,7 +13,6 @@ export const emptyBalance: WishBalance = { totalEarned: 0, frozen: 0, spent: 0, 
 
 export interface WishActionDependencies {
   getUserId: () => string | undefined
-  getAvailable: () => number
   callSubmitRedemption: (rewardId: string, childNote: string | null) => Promise<WishRedemption>
   callApproveRedemption: (redemptionId: string, parentNote: string | null) => Promise<WishRedemption>
   callRejectRedemption: (redemptionId: string, parentNote: string | null) => Promise<WishRedemption>
@@ -22,7 +21,13 @@ export interface WishActionDependencies {
   setMessage?: (message: string) => void
 }
 
-export function createWishActionsForTest(deps: WishActionDependencies) {
+function isInsufficientWishBalanceError(error: unknown) {
+  if (!(error instanceof Error)) return false
+  const message = error.message.toLowerCase()
+  return message.includes('insufficient') || error.message.includes('不够')
+}
+
+export function createWishActions(deps: WishActionDependencies) {
   const requireUserId = () => {
     const userId = deps.getUserId()
     if (!userId) throw new Error('Not authenticated')
@@ -32,14 +37,18 @@ export function createWishActionsForTest(deps: WishActionDependencies) {
   return {
     submitRedemption: async (reward: WishReward, childNote: string | null = null) => {
       requireUserId()
-      if (deps.getAvailable() < reward.cost) {
-        deps.setMessage?.('愿望币还不够哦')
-        return null
+      try {
+        const redemption = await deps.callSubmitRedemption(reward.id, childNote || null)
+        deps.setMessage?.('愿望已提交，等待爸妈确认')
+        await deps.refresh?.()
+        return redemption
+      } catch (error) {
+        if (isInsufficientWishBalanceError(error)) {
+          deps.setMessage?.('愿望币还不够哦')
+          return null
+        }
+        throw error
       }
-      const redemption = await deps.callSubmitRedemption(reward.id, childNote || null)
-      deps.setMessage?.('愿望已提交，等待爸妈确认')
-      await deps.refresh?.()
-      return redemption
     },
 
     approveRedemption: async (redemption: WishRedemption, parentNote: string | null = null) => {
@@ -67,6 +76,8 @@ export function createWishActionsForTest(deps: WishActionDependencies) {
     },
   }
 }
+
+export const createWishActionsForTest = createWishActions
 
 type CreateRewardInput = Omit<WishRewardInsert, 'id' | 'user_id' | 'is_preset' | 'is_active' | 'created_at'> & {
   is_active?: boolean
@@ -103,7 +114,6 @@ function readQueryData<T>(result: { data: T | null; error: unknown }, fallback: 
 export const useWishStore = create<WishState>((set, get) => {
   const actionDeps: WishActionDependencies = {
     getUserId: () => useAuthStore.getState().user?.id,
-    getAvailable: () => get().balance.available,
     callSubmitRedemption: async (rewardId, childNote) => readRpcData(await supabase.rpc('submit_wish_redemption', {
       reward_id: rewardId,
       child_note: childNote,
@@ -122,7 +132,7 @@ export const useWishStore = create<WishState>((set, get) => {
     refresh: () => get().fetchWishData(),
     setMessage: (message) => set({ message }),
   }
-  const actions = createWishActionsForTest(actionDeps)
+  const actions = createWishActions(actionDeps)
 
   return {
     balance: emptyBalance,
@@ -134,7 +144,17 @@ export const useWishStore = create<WishState>((set, get) => {
 
     fetchWishData: async () => {
       const userId = useAuthStore.getState().user?.id
-      if (!userId) return
+      if (!userId) {
+        set({
+          balance: emptyBalance,
+          rewards: [],
+          redemptions: [],
+          diaryEntries: [],
+          message: null,
+          isLoading: false,
+        })
+        return
+      }
 
       set({ isLoading: true })
       try {
