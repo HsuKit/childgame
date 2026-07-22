@@ -23,42 +23,45 @@ export default function QuizResultPage() {
   const [wishCoinsAwarded, setWishCoinsAwarded] = useState(0)
   const awardSettledRef = useRef(false)
   const wasAlreadyDoneAtResultRef = useRef(false)
+  const mountedRef = useRef(true)
 
   useEffect(() => { fetchToday() }, [fetchToday])
+
+  useEffect(() => () => { mountedRef.current = false }, [])
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
     if (!today || awardSettledRef.current) return
 
-    let cancelled = false
+    awardSettledRef.current = true
 
     const settleAward = async () => {
       const subjDone = subject === 'chinese' ? today.chinese_done : subject === 'math' ? today.math_done : today.english_done
       const awardState = getQuizResultAwardState({
         pointsEarned: session.pointsEarned,
         subjectWasAlreadyDone: Boolean(subjDone),
-        awardSettled: awardSettledRef.current,
+        awardSettled: false,
         wasAlreadyDoneAtResult: wasAlreadyDoneAtResultRef.current,
       })
-
-      await saveQuizRecords(subject)
-      if (cancelled) return
-
-      awardSettledRef.current = true
       wasAlreadyDoneAtResultRef.current = awardState.wasAlreadyDoneAtResult
-      setAlreadyDone(awardState.shouldShowAlreadyDoneNotice)
 
-      if (awardState.shouldAwardPoints) {
-        addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
-        addExp(session.pointsEarned)
-        const awarded = await markSubjectDone(subject)
-        if (!cancelled) setWishCoinsAwarded(awarded)
+      try {
+        await saveQuizRecords(subject)
+
+        if (mountedRef.current) setAlreadyDone(awardState.shouldShowAlreadyDoneNotice)
+        if (awardState.shouldAwardPoints) {
+          addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
+          addExp(session.pointsEarned)
+          const awarded = await markSubjectDone(subject)
+          if (mountedRef.current) setWishCoinsAwarded(awarded)
+        }
+      } catch (error) {
+        awardSettledRef.current = false
+        console.error(error)
       }
     }
 
     void settleAward()
-
-    return () => { cancelled = true }
   }, [addExp, addPoints, markSubjectDone, navigate, saveQuizRecords, session, subject, today])
 
   if (!session) return null
