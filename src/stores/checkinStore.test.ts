@@ -63,6 +63,45 @@ beforeEach(() => {
 })
 
 describe('markSubjectDone', () => {
+  it('returns 0 and skips wish coin awarding for a non-final subject', async () => {
+    const partialCheckIn = {
+      id: 'check-1',
+      chinese_done: true,
+      math_done: false,
+      english_done: false,
+      streak_count: 4,
+      bonus_points: 0,
+    }
+    const subjectUpdate = makeUpdateQuery(partialCheckIn)
+    mocks.from.mockReturnValueOnce({ update: vi.fn(() => subjectUpdate) })
+
+    const amount = await useCheckinStore.getState().markSubjectDone('chinese')
+
+    expect(amount).toBe(0)
+    expect(mocks.addPoints).not.toHaveBeenCalled()
+    expect(mocks.awardDailyWishCoins).not.toHaveBeenCalled()
+    expect(useCheckinStore.getState().today).toMatchObject({ chinese_done: true })
+  })
+
+  it('returns 0 and skips wish coin awarding when final completion was already bonused', async () => {
+    const alreadyBonusedCheckIn = {
+      id: 'check-1',
+      chinese_done: true,
+      math_done: true,
+      english_done: true,
+      streak_count: 5,
+      bonus_points: POINTS.DAILY_ALL_COMPLETE,
+    }
+    const subjectUpdate = makeUpdateQuery(alreadyBonusedCheckIn)
+    mocks.from.mockReturnValueOnce({ update: vi.fn(() => subjectUpdate) })
+
+    const amount = await useCheckinStore.getState().markSubjectDone('english')
+
+    expect(amount).toBe(0)
+    expect(mocks.addPoints).not.toHaveBeenCalled()
+    expect(mocks.awardDailyWishCoins).not.toHaveBeenCalled()
+  })
+
   it('returns wish coins awarded by the daily completion RPC on the final subject', async () => {
     const completedCheckIn = {
       id: 'check-1',

@@ -50,13 +50,12 @@ export default function QuizResultPage() {
 
         if (mountedRef.current) setAlreadyDone(awardState.shouldShowAlreadyDoneNotice)
         if (awardState.shouldAwardPoints) {
-          addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
-          addExp(session.pointsEarned)
+          await addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
+          await addExp(session.pointsEarned)
           const awarded = await markSubjectDone(subject)
           if (mountedRef.current) setWishCoinsAwarded(awarded)
         }
       } catch (error) {
-        awardSettledRef.current = false
         console.error(error)
       }
     }
