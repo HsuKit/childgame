@@ -112,6 +112,7 @@ function readQueryData<T>(result: { data: T | null; error: unknown }, fallback: 
 }
 
 export const useWishStore = create<WishState>((set, get) => {
+  let fetchRequestId = 0
   const actionDeps: WishActionDependencies = {
     getUserId: () => useAuthStore.getState().user?.id,
     callSubmitRedemption: async (rewardId, childNote) => readRpcData(await supabase.rpc('submit_wish_redemption', {
@@ -143,6 +144,8 @@ export const useWishStore = create<WishState>((set, get) => {
     message: null,
 
     fetchWishData: async () => {
+      const requestId = fetchRequestId + 1
+      fetchRequestId = requestId
       const userId = useAuthStore.getState().user?.id
       if (!userId) {
         set({
@@ -176,6 +179,8 @@ export const useWishStore = create<WishState>((set, get) => {
             }
           : emptyBalance
 
+        if (requestId !== fetchRequestId || useAuthStore.getState().user?.id !== userId) return
+
         set({
           balance,
           rewards: readQueryData(rewardsResult, []),
@@ -183,7 +188,7 @@ export const useWishStore = create<WishState>((set, get) => {
           diaryEntries: readQueryData(diaryResult, []),
         })
       } finally {
-        set({ isLoading: false })
+        if (requestId === fetchRequestId) set({ isLoading: false })
       }
     },
 

@@ -120,6 +120,15 @@ function setupFetchMocks() {
   vi.mocked(supabase.from as unknown as ReturnType<typeof vi.fn>).mockImplementation((table: string) => tableMocks[table])
 }
 
+function deferred<T>() {
+  let resolve!: (value: T) => void
+  const promise = new Promise<T>((innerResolve) => {
+    resolve = innerResolve
+  })
+
+  return { promise, resolve }
+}
+
 beforeEach(() => {
   vi.clearAllMocks()
   mockSignedInUser()
@@ -319,5 +328,39 @@ describe('useWishStore Supabase wiring', () => {
       message: null,
       isLoading: false,
     })
+  })
+
+  it('keeps newer wish data when an older fetch resolves later', async () => {
+    const firstBalance = deferred<{ data: unknown[]; error: null }>()
+    const secondBalance = deferred<{ data: unknown[]; error: null }>()
+    vi.mocked(supabase.rpc as unknown as ReturnType<typeof vi.fn>).mockImplementationOnce(() => firstBalance.promise)
+      .mockImplementationOnce(() => secondBalance.promise)
+
+    tableMocks.wish_rewards = makeTableMock([reward({ id: 'reward-latest', name: '最新奖励' })])
+    tableMocks.wish_redemptions = makeTableMock([redemption({ id: 'redemption-latest', reward_name: '最新愿望' })])
+    tableMocks.reward_diary_entries = makeTableMock([diaryEntry({ id: 'diary-latest', title: '最新日记' })])
+
+    const firstFetch = useWishStore.getState().fetchWishData()
+    const secondFetch = useWishStore.getState().fetchWishData()
+
+    secondBalance.resolve({
+      data: [{ total_earned: 10, frozen: 6, spent: 0, available: 4 }],
+      error: null,
+    })
+    await secondFetch
+
+    expect(useWishStore.getState().balance.available).toBe(4)
+
+    tableMocks.wish_rewards = makeTableMock([reward({ id: 'reward-stale', name: '旧奖励' })])
+    tableMocks.wish_redemptions = makeTableMock([redemption({ id: 'redemption-stale', reward_name: '旧愿望' })])
+    tableMocks.reward_diary_entries = makeTableMock([diaryEntry({ id: 'diary-stale', title: '旧日记' })])
+    firstBalance.resolve({
+      data: [{ total_earned: 10, frozen: 0, spent: 0, available: 10 }],
+      error: null,
+    })
+    await firstFetch
+
+    expect(useWishStore.getState().balance.available).toBe(4)
+    expect(useWishStore.getState().redemptions[0].id).toBe('redemption-latest')
   })
 })
