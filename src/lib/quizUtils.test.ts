@@ -1,10 +1,23 @@
 import { describe, expect, it } from 'vitest'
+import { normalizeQuestionContent } from './questionContent'
 import { calculateAnswerReward, countSubjects, formatChallengeScore, getQuizResultAwardState, isAnswerCorrect, shuffle } from './quizUtils'
 
 describe('isAnswerCorrect', () => {
   it('compares choice answers by value', () => {
     expect(isAnswerCorrect('choice', { answer: 2 }, 2)).toBe(true)
     expect(isAnswerCorrect('choice', { answer: 2 }, 1)).toBe(false)
+  })
+
+  it('accepts the screenshot rhetorical question after answer normalization', () => {
+    const content = normalizeQuestionContent('choice', {
+      stem: '“雨点像珍珠一样落下来。”主要使用了哪种修辞手法?',
+      options: ['排比', '反问', '拟人', '比喻'],
+      answer: '比喻',
+      explanation: '句子把一种事物比作另一种事物，是比喻。',
+    })
+
+    expect(content).not.toBeNull()
+    expect(isAnswerCorrect('choice', content, 3)).toBe(true)
   })
 
   it('normalizes fill answers', () => {

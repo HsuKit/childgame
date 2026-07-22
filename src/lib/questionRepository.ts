@@ -2,6 +2,7 @@ import { supabase } from './supabase'
 import type { Database } from './database.types'
 import type { Subject } from './constants'
 import type { QuestionHistory } from './questionComposer'
+import { normalizeQuestion } from './questionContent'
 
 type Question = Database['public']['Tables']['questions']['Row']
 type HistoryRow = Pick<Database['public']['Tables']['quiz_records']['Row'], 'question_id' | 'answered_at'>
@@ -65,7 +66,10 @@ async function loadQuestionPoolByStatus(
   const questions: Question[] = []
   for (let from = 0; ; from += pageSize) {
     const page = await client.queryQuestions({ subject, grade, reviewStatus, from, to: from + pageSize - 1 })
-    questions.push(...page)
+    questions.push(...page.flatMap(question => {
+      const normalized = normalizeQuestion(question)
+      return normalized ? [normalized] : []
+    }))
     if (page.length < pageSize) break
   }
   return questions

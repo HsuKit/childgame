@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useMistakeStore } from '../stores/mistakeStore'
+import { normalizeQuestionContent } from '../lib/questionContent'
 import { isAnswerCorrect } from '../lib/quizUtils'
 import type { Json } from '../lib/database.types'
 
@@ -34,7 +35,8 @@ export default function MistakeDetailPage() {
   useEffect(() => { fetchMistakes().catch(() => undefined) }, [fetchMistakes])
   const mistake = useMemo(() => mistakes.find(item => item.id === id), [mistakes, id])
   const question = mistake?.question
-  const content = question ? parseContent(question.content) : null
+  const normalizedContent = question ? normalizeQuestionContent(question.type, question.content) : null
+  const content = question ? parseContent((normalizedContent ?? question.content) as Json) : null
 
   if (!mistake || !question || !content) {
     return <div className="p-6 text-center"><p>正在加载错题...</p></div>
@@ -43,7 +45,7 @@ export default function MistakeDetailPage() {
   const submit = async (selected: string | number) => {
     if (isSubmitting) return
     setIsSubmitting(true)
-    const correct = isAnswerCorrect(question.type, question.content, selected)
+    const correct = isAnswerCorrect(question.type, normalizedContent ?? question.content, selected)
     setAnswer(selected)
     setResult(correct ? 'correct' : 'wrong')
     try {

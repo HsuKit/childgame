@@ -1,7 +1,11 @@
 import type { Database } from '../../lib/database.types'
+import { normalizeQuestionContent } from '../../lib/questionContent'
+import { useState } from 'react'
+import { motion } from 'framer-motion'
 import { FillInCard } from './FillInCard'
 import { MatchCard } from './MatchCard'
 import { GridPuzzleCard } from './GridPuzzleCard'
+import { QuizProgressBar } from './QuizProgressBar'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -23,13 +27,8 @@ export function QuizCard({ question, questionNumber, totalQuestions, onAnswer }:
     return <GridPuzzleCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
   }
 
-  // Default: choice type
   return <ChoiceCard question={question} questionNumber={questionNumber} totalQuestions={totalQuestions} onAnswer={onAnswer} />
 }
-
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { QuizProgressBar } from './QuizProgressBar'
 
 function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
   question: Question; questionNumber: number; totalQuestions: number
@@ -37,7 +36,18 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
 }) {
   const [selected, setSelected] = useState<number | null>(null)
   const [result, setResult] = useState<'correct' | 'wrong' | null>(null)
-  const content = question.content as { stem: string; options: string[]; answer: number; explanation: string }
+  const content = normalizeQuestionContent('choice', question.content) as { stem?: string; options: string[]; answer: number; explanation?: string } | null
+
+  if (!content) {
+    return (
+      <div className="px-4 py-6">
+        <QuizProgressBar current={questionNumber} total={totalQuestions} />
+        <div className="card mt-4">
+          <p className="text-lg font-bold text-red-600">这道题暂时不可作答，请进入下一题。</p>
+        </div>
+      </div>
+    )
+  }
 
   const handleSelect = (index: number) => {
     if (selected !== null) return
@@ -75,7 +85,7 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
             className={`mt-4 p-3 rounded-xl text-sm ${result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
             {result === 'correct' ? '太棒了!' : '没关系，记住答案哦!'}
-            <p className="mt-1">{content.explanation}</p>
+            <p className="mt-1">{content.explanation || '这道题暂时没有解析。'}</p>
           </motion.div>
         )}
       </motion.div>

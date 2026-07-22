@@ -8,7 +8,7 @@ type Question = Database['public']['Tables']['questions']['Row']
 function question(index: number): Question {
   return {
     id: `q-${index}`, external_id: `g2-math-item-${index}`, subject: 'math', grade: 2,
-    difficulty: 1, type: 'choice', content: {}, source: 'builtin', knowledge_point: '加法与减法',
+    difficulty: 1, type: 'choice', content: { stem: '1 + 1 = ?', options: ['1', '2', '3', '4'], answer: 1 }, source: 'builtin', knowledge_point: '加法与减法',
     skill: 'apply', tags: [], content_hash: `hash-${index}`, review_status: 'approved',
     version: 1, created_at: '2026-01-01T00:00:00.000Z',
   }
@@ -47,6 +47,34 @@ describe('questionRepository', () => {
     expect(calls).toEqual([
       { subject: 'math', grade: 3, reviewStatus: 'approved', from: 0, to: 999 },
       { subject: 'math', grade: 3, reviewStatus: 'reviewed', from: 0, to: 999 },
+    ])
+  })
+
+  it('normalizes valid legacy choice answers and excludes invalid choice rows', async () => {
+    const textAnswer = {
+      ...question(1),
+      content: {
+        stem: '“雨点像珍珠一样落下来。”主要使用了哪种修辞手法?',
+        options: ['排比', '反问', '拟人', '比喻'],
+        answer: '比喻',
+        explanation: '句子把一种事物比作另一种事物，是比喻。',
+      },
+    }
+    const invalidAnswer = {
+      ...question(2),
+      content: {
+        stem: '2 + 2 = ?',
+        options: ['2', '3', '4', '5'],
+        answer: '不存在',
+      },
+    }
+    const client: QuestionDataClient = {
+      queryQuestions: async () => [textAnswer, invalidAnswer],
+      queryHistory: async () => [],
+    }
+
+    await expect(loadQuestionPool('math', 2, client)).resolves.toEqual([
+      { ...textAnswer, content: { ...textAnswer.content, answer: 3 } },
     ])
   })
 
