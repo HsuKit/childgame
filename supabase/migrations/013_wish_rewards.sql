@@ -65,6 +65,9 @@ create unique index idx_wish_coin_transactions_once_per_reference
 create unique index idx_reward_diary_entries_once_per_reference
   on public.reward_diary_entries(user_id, entry_type, reference_id)
   where reference_id is not null;
+create unique index idx_points_transactions_once_per_reference
+  on public.points_transactions(user_id, reason, reference_id)
+  where reference_id is not null and reason = 'checkin_bonus';
 
 alter table public.wish_coin_transactions enable row level security;
 alter table public.wish_rewards enable row level security;
@@ -152,22 +155,19 @@ begin
     from public.quiz_records
     where user_id = v_check_in.user_id
       and subject = 'chinese'
-      and answered_at >= v_check_in.date::timestamptz
-      and answered_at < (v_check_in.date + 1)::timestamptz;
+      and timezone('Asia/Shanghai', answered_at)::date = v_check_in.date;
 
   select count(distinct question_id) into v_math_count
     from public.quiz_records
     where user_id = v_check_in.user_id
       and subject = 'math'
-      and answered_at >= v_check_in.date::timestamptz
-      and answered_at < (v_check_in.date + 1)::timestamptz;
+      and timezone('Asia/Shanghai', answered_at)::date = v_check_in.date;
 
   select count(distinct question_id) into v_english_count
     from public.quiz_records
     where user_id = v_check_in.user_id
       and subject = 'english'
-      and answered_at >= v_check_in.date::timestamptz
-      and answered_at < (v_check_in.date + 1)::timestamptz;
+      and timezone('Asia/Shanghai', answered_at)::date = v_check_in.date;
 
   if v_chinese_count < 10 or v_math_count < 10 or v_english_count < 10 then
     return 0;

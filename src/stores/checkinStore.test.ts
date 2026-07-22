@@ -45,6 +45,12 @@ function makeUpdateQuery(data: unknown) {
   return query
 }
 
+function makeUpdateQueryWithError(data: unknown, error: unknown = null) {
+  const query = makeUpdateQuery(data)
+  query.single.mockResolvedValue({ data, error })
+  return query
+}
+
 beforeEach(() => {
   vi.clearAllMocks()
   mocks.getAuthState.mockReturnValue({ user: { id: 'user-1' } })
@@ -112,7 +118,11 @@ describe('markSubjectDone', () => {
       bonus_points: 0,
     }
     const subjectUpdate = makeUpdateQuery(completedCheckIn)
-    const bonusUpdate = makeUpdateQuery(null)
+    const bonusUpdate = makeUpdateQuery({
+      ...completedCheckIn,
+      streak_count: 5,
+      bonus_points: POINTS.DAILY_ALL_COMPLETE,
+    })
     mocks.from
       .mockReturnValueOnce({ update: vi.fn(() => subjectUpdate) })
       .mockReturnValueOnce({ update: vi.fn(() => bonusUpdate) })
@@ -120,12 +130,34 @@ describe('markSubjectDone', () => {
     const amount = await useCheckinStore.getState().markSubjectDone('english')
 
     expect(amount).toBe(3)
-    expect(mocks.addPoints).toHaveBeenCalledWith(POINTS.DAILY_ALL_COMPLETE, 'checkin_bonus')
+    expect(mocks.addPoints).toHaveBeenCalledWith(POINTS.DAILY_ALL_COMPLETE, 'checkin_bonus', 'check-1')
     expect(mocks.awardDailyWishCoins).toHaveBeenCalledWith('check-1')
     expect(useCheckinStore.getState().today).toMatchObject({
       english_done: true,
       streak_count: 5,
       bonus_points: POINTS.DAILY_ALL_COMPLETE,
     })
+  })
+
+  it('skips bonus side effects when another request already claimed the completion bonus', async () => {
+    const completedCheckIn = {
+      id: 'check-1',
+      chinese_done: true,
+      math_done: true,
+      english_done: true,
+      streak_count: 4,
+      bonus_points: 0,
+    }
+    const subjectUpdate = makeUpdateQuery(completedCheckIn)
+    const bonusUpdate = makeUpdateQueryWithError(null)
+    mocks.from
+      .mockReturnValueOnce({ update: vi.fn(() => subjectUpdate) })
+      .mockReturnValueOnce({ update: vi.fn(() => bonusUpdate) })
+
+    const amount = await useCheckinStore.getState().markSubjectDone('english')
+
+    expect(amount).toBe(0)
+    expect(mocks.addPoints).not.toHaveBeenCalled()
+    expect(mocks.awardDailyWishCoins).not.toHaveBeenCalled()
   })
 })

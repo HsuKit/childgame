@@ -330,6 +330,10 @@ Goal:
 
 The real-world reward loop works end to end with lightweight same-account approval.
 
+Boundary:
+
+This phase does not provide a hard parent/child security boundary. Because the app still uses one account identity, the parent area is a lightweight family workflow. Real enforcement against a child intentionally bypassing the UI should be designed later with a parent passcode, separate parent account, or another server-verifiable parent action.
+
 ### Phase 3: Companion Feedback Upgrade
 
 Scope:
@@ -378,4 +382,3 @@ These decisions should be made during implementation planning:
 - Exact first set of preset rewards.
 - Whether reward diary appears as a standalone page or inside the parent/profile area first.
 - Whether Phase 1 and Phase 2 ship together or behind separate feature flags.
-

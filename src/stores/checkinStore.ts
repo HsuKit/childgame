@@ -4,6 +4,7 @@ import { useAuthStore } from './authStore'
 import { usePointsStore } from './pointsStore'
 import { useWishStore } from './wishStore'
 import { POINTS } from '../lib/constants'
+import { formatLocalDate } from '../lib/dateUtils'
 import type { Subject } from '../lib/constants'
 
 interface CheckInState {
@@ -27,10 +28,10 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
     const userId = useAuthStore.getState().user?.id
     if (!userId) return
     set({ isLoading: true })
-    const todayStr = new Date().toISOString().slice(0, 10)
+    const todayStr = formatLocalDate(new Date())
     let { data } = await supabase.from('check_ins').select('*').eq('user_id', userId).eq('date', todayStr).maybeSingle()
     if (!data) {
-      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
+      const yesterday = formatLocalDate(new Date(Date.now() - 86400000))
       const { data: yesterdayData } = await supabase.from('check_ins').select('streak_count').eq('user_id', userId).eq('date', yesterday).maybeSingle()
       const streakCount = yesterdayData ? yesterdayData.streak_count : 0
       const { data: newRecord } = await supabase.from('check_ins').insert({ user_id: userId, date: todayStr, streak_count: streakCount }).select().single()
@@ -45,7 +46,7 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
   markSubjectDone: async (subject: Subject) => {
     const userId = useAuthStore.getState().user?.id
     if (!userId) return 0
-    const todayStr = new Date().toISOString().slice(0, 10)
+    const todayStr = formatLocalDate(new Date())
     const field = `${subject}_done` as 'chinese_done' | 'math_done' | 'english_done'
     const { data } = await supabase.from('check_ins').update({ [field]: true }).eq('user_id', userId).eq('date', todayStr).select().single()
     if (!data) return 0
@@ -55,11 +56,19 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
       let bonus = POINTS.DAILY_ALL_COMPLETE
       if (newStreak % 30 === 0) bonus += POINTS.STREAK_30_DAY
       else if (newStreak % 7 === 0) bonus += POINTS.STREAK_7_DAY
-      await supabase.from('check_ins').update({ bonus_points: bonus, streak_count: newStreak }).eq('id', data.id)
-      usePointsStore.getState().addPoints(bonus, 'checkin_bonus')
+      const { data: bonusData } = await supabase
+        .from('check_ins')
+        .update({ bonus_points: bonus, streak_count: newStreak })
+        .eq('id', data.id)
+        .eq('bonus_points', 0)
+        .select()
+        .single()
+      if (!bonusData) return 0
+
+      await usePointsStore.getState().addPoints(bonus, 'checkin_bonus', data.id)
       const wishCoinsAwarded = await useWishStore.getState().awardDailyWishCoins(data.id)
       set(state => ({
-        today: state.today ? { ...data, bonus_points: bonus, streak_count: newStreak } : null,
+        today: state.today ? { ...bonusData, bonus_points: bonus, streak_count: newStreak } : null,
       }))
       return wishCoinsAwarded
     } else {
