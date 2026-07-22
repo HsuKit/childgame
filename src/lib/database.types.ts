@@ -5,7 +5,12 @@ export interface Database {
   public: {
     Tables: {
     Views: Record<string, never>
-    Functions: Record<string, never>
+    Functions: {
+      get_wish_coin_balance: {
+        Args: { user_id: string }
+        Returns: Array<{ total_earned: number; frozen: number; spent: number; available: number }>
+      }
+    }
     Enums: Record<string, never>
     CompositeTypes: Record<string, never>
       profiles: {
@@ -105,6 +110,26 @@ export interface Database {
       points_transactions: {
         Row: { id: string; user_id: string; amount: number; reason: string; reference_id: string | null; created_at: string }
         Insert: { id?: string; user_id: string; amount: number; reason: string; reference_id?: string | null }
+        Update: Record<string, never>
+      }
+      wish_coin_transactions: {
+        Row: { id: string; user_id: string; amount: number; type: 'earn' | 'freeze' | 'release' | 'spend'; reason: string; reference_id: string | null; created_at: string }
+        Insert: { id?: string; user_id: string; amount: number; type: 'earn' | 'freeze' | 'release' | 'spend'; reason: string; reference_id?: string | null; created_at?: string }
+        Update: Record<string, never>
+      }
+      wish_rewards: {
+        Row: { id: string; user_id: string | null; name: string; description: string; type: 'item' | 'companionship' | 'experience' | 'open_wish'; cost: number; is_preset: boolean; is_active: boolean; availability_note: string | null; created_at: string }
+        Insert: { id?: string; user_id?: string | null; name: string; description?: string; type: 'item' | 'companionship' | 'experience' | 'open_wish'; cost: number; is_preset?: boolean; is_active?: boolean; availability_note?: string | null; created_at?: string }
+        Update: { user_id?: string | null; name?: string; description?: string; type?: 'item' | 'companionship' | 'experience' | 'open_wish'; cost?: number; is_preset?: boolean; is_active?: boolean; availability_note?: string | null }
+      }
+      wish_redemptions: {
+        Row: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
+        Insert: { id?: string; user_id: string; reward_id?: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status?: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note?: string | null; parent_note?: string | null; requested_at?: string; reviewed_at?: string | null; fulfilled_at?: string | null }
+        Update: { reward_id?: string | null; reward_name?: string; reward_cost?: number; reward_type?: 'item' | 'companionship' | 'experience' | 'open_wish'; status?: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note?: string | null; parent_note?: string | null; reviewed_at?: string | null; fulfilled_at?: string | null }
+      }
+      reward_diary_entries: {
+        Row: { id: string; user_id: string; entry_type: 'wish_fulfilled' | 'streak_keepsake' | 'companion_milestone'; title: string; description: string; reference_id: string | null; created_at: string }
+        Insert: { id?: string; user_id: string; entry_type: 'wish_fulfilled' | 'streak_keepsake' | 'companion_milestone'; title: string; description?: string; reference_id?: string | null; created_at?: string }
         Update: Record<string, never>
       }
       shop_items: {
