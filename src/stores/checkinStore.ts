@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from './authStore'
 import { usePointsStore } from './pointsStore'
+import { useWishStore } from './wishStore'
 import { POINTS } from '../lib/constants'
 import type { Subject } from '../lib/constants'
 
@@ -15,7 +16,7 @@ interface CheckInState {
   } | null
   isLoading: boolean
   fetchToday: () => Promise<void>
-  markSubjectDone: (subject: Subject) => Promise<void>
+  markSubjectDone: (subject: Subject) => Promise<number>
 }
 
 export const useCheckinStore = create<CheckInState>((set, get) => ({
@@ -43,11 +44,11 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
 
   markSubjectDone: async (subject: Subject) => {
     const userId = useAuthStore.getState().user?.id
-    if (!userId) return
+    if (!userId) return 0
     const todayStr = new Date().toISOString().slice(0, 10)
     const field = `${subject}_done` as 'chinese_done' | 'math_done' | 'english_done'
     const { data } = await supabase.from('check_ins').update({ [field]: true }).eq('user_id', userId).eq('date', todayStr).select().single()
-    if (!data) return
+    if (!data) return 0
     const allDone = data.chinese_done && data.math_done && data.english_done
     if (allDone && data.bonus_points === 0) {
       const newStreak = data.streak_count + 1
@@ -56,11 +57,14 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
       else if (newStreak % 7 === 0) bonus += POINTS.STREAK_7_DAY
       await supabase.from('check_ins').update({ bonus_points: bonus, streak_count: newStreak }).eq('id', data.id)
       usePointsStore.getState().addPoints(bonus, 'checkin_bonus')
+      const wishCoinsAwarded = await useWishStore.getState().awardDailyWishCoins(data.id)
       set(state => ({
         today: state.today ? { ...data, bonus_points: bonus, streak_count: newStreak } : null,
       }))
+      return wishCoinsAwarded
     } else {
       set(state => ({ today: state.today ? { ...state.today, [field]: true } : null }))
     }
+    return 0
   },
 }))
