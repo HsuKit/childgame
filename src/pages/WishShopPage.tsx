@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { WISH_REWARD_GROUPS, groupWishRewards, type WishRedemptionStatus as RedemptionStatus } from '../lib/wishRewards'
+import { WISH_REWARD_GROUPS, groupWishRewards, resolveVisibleWishRewards, type WishRedemptionStatus as RedemptionStatus } from '../lib/wishRewards'
 import { useWishStore, type WishReward } from '../stores/wishStore'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { WishRedemptionStatus } from '../components/wish/WishRedemptionStatus'
@@ -43,7 +43,8 @@ export default function WishShopPage() {
     return () => window.clearTimeout(timer)
   }, [message, clearMessage])
 
-  const groupedRewards = useMemo(() => groupWishRewards(rewards), [rewards])
+  const visibleRewards = useMemo(() => resolveVisibleWishRewards(rewards) as WishReward[], [rewards])
+  const groupedRewards = useMemo(() => groupWishRewards(visibleRewards), [visibleRewards])
   const activeRedemptions = redemptions.filter(redemption => isActiveRedemptionStatus(redemption.status))
   const recentDiaryEntries = diaryEntries.slice(0, 4)
 
@@ -179,9 +180,9 @@ export default function WishShopPage() {
         })}
 
         {!isLoading && rewards.length === 0 && (
-          <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-            这里还没有愿望奖励，先完成练习攒愿望币吧
-          </div>
+          <p className="px-1 text-center text-xs font-bold leading-relaxed text-gray-400">
+            这是默认愿望清单，爸妈还可以在家长愿望管理里添加专属奖励。
+          </p>
         )}
       </section>
 

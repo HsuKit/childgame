@@ -1,10 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import {
   WISH_REWARD_GROUPS,
+  DEFAULT_WISH_REWARDS,
   calculateDailyWishAward,
   calculateWishBalance,
   getRedemptionStatusLabel,
   groupWishRewards,
+  resolveVisibleWishRewards,
   groupParentWishRedemptions,
 } from './wishRewards'
 
@@ -77,6 +79,42 @@ describe('groupWishRewards', () => {
     expect(groups[WISH_REWARD_GROUPS[1].id].map((item) => item.id)).toEqual(['medium-reward'])
     expect(groups[WISH_REWARD_GROUPS[2].id].map((item) => item.id)).toEqual(['large-reward'])
     expect(groups[WISH_REWARD_GROUPS[3].id].map((item) => item.id)).toEqual(['dream-reward'])
+  })
+})
+
+describe('DEFAULT_WISH_REWARDS', () => {
+  it('contains the approved standard reward list across all difficulty tiers', () => {
+    expect(DEFAULT_WISH_REWARDS.map((reward) => [reward.name, reward.cost])).toEqual([
+      ['一张喜欢的贴纸', 3],
+      ['一支新铅笔或橡皮', 5],
+      ['选择今天的水果或小点心', 6],
+      ['睡前多讲一个故事', 6],
+      ['15 分钟亲子小游戏', 8],
+      ['选择一次晚餐菜品', 10],
+      ['一本喜欢的课外书', 15],
+      ['30 分钟桌游时间', 16],
+      ['一个预算内小玩具', 20],
+      ['周末去书店或图书馆', 20],
+      ['公园或博物馆小出行', 25],
+      ['一套彩笔或文具盒', 30],
+      ['一次亲子电影夜', 35],
+      ['一个小愿望申请', 40],
+      ['周末半日家庭活动', 45],
+      ['一次城市探索或近郊游', 55],
+      ['一个较大玩具或模型', 60],
+      ['一次短途旅行计划', 80],
+      ['家庭愿望日', 100],
+    ])
+  })
+
+  it('uses standard rewards when the loaded reward list is empty', () => {
+    expect(resolveVisibleWishRewards([])).toEqual(DEFAULT_WISH_REWARDS)
+  })
+
+  it('keeps loaded rewards when the database returns active rewards', () => {
+    const loadedRewards = [{ id: 'reward-1', name: '家长自定义', cost: 12 }]
+
+    expect(resolveVisibleWishRewards(loadedRewards)).toBe(loadedRewards)
   })
 })
 
