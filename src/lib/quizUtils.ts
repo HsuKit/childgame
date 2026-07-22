@@ -57,6 +57,10 @@ export function getQuizResultAwardState({
   }
 }
 
+export function formatChallengeScore(correctCount: number, totalQuestions: number): string {
+  return `${correctCount}/${totalQuestions}`
+}
+
 export function shuffle<T>(items: readonly T[], random = Math.random): T[] {
   const result = [...items]
   for (let index = result.length - 1; index > 0; index--) {

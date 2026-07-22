@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { calculateAnswerReward, countSubjects, getQuizResultAwardState, isAnswerCorrect, shuffle } from './quizUtils'
+import { calculateAnswerReward, countSubjects, formatChallengeScore, getQuizResultAwardState, isAnswerCorrect, shuffle } from './quizUtils'
 
 describe('isAnswerCorrect', () => {
   it('compares choice answers by value', () => {
@@ -89,5 +89,11 @@ describe('countSubjects', () => {
       { subject: 'chinese' },
       { subject: 'science' },
     ])).toEqual({ chinese: 1, math: 2, english: 0 })
+  })
+})
+
+describe('formatChallengeScore', () => {
+  it('uses the actual challenge question count instead of the daily quiz count', () => {
+    expect(formatChallengeScore(18, 30)).toBe('18/30')
   })
 })

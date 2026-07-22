@@ -175,6 +175,11 @@ function createEmptySession(subject: Subject, questions: Question[]): QuizSessio
   return { subject, questions, currentIndex: 0, correctCount: 0, comboCount: 0, pointsEarned: 0, isComplete: false, records: [], recordsSaving: false, recordsSaved: false }
 }
 
+function hasAnsweredCurrentQuestion(session: Pick<QuizSession | ChallengeSession, 'questions' | 'currentIndex' | 'records'>) {
+  const question = session.questions[session.currentIndex]
+  return Boolean(question && session.records.some(record => record.question_id === question.id))
+}
+
 export function countUniqueSubjectQuestions(rows: Array<{ subject: string; question_id?: string | null }>) {
   const questionIdsBySubject: Record<Subject, Set<string>> = { chinese: new Set(), math: new Set(), english: new Set() }
   rows.forEach((row, index) => {
@@ -219,6 +224,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (!session) continue
       const question = session.questions[session.currentIndex]
       if (!question || question.id !== questionId) continue
+      if (session.records.some(record => record.question_id === questionId)) return result
       const isCorrect = isAnswerCorrect(question.type, question.content, answer)
       const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
       const record: QuizRecord = { question_id: questionId, subject, is_correct: isCorrect, points_earned: points, selected_answer: answer }
@@ -245,6 +251,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     for (const subject of SUBJECTS) {
       const session = state.sessions[subject]
       if (!session || session.isComplete) continue
+      if (!hasAnsweredCurrentQuestion(session)) continue
       const nextIndex = session.currentIndex + 1
       const isComplete = nextIndex >= session.questions.length
       set(state => ({
@@ -307,6 +314,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     if (!session) return false
     const question = session.questions[session.currentIndex]
     if (!question || question.id !== questionId) return false
+    if (session.records.some(record => record.question_id === questionId)) return false
     const isCorrect = isAnswerCorrect(question.type, question.content, answer)
     const { comboCount, points } = calculateAnswerReward(isCorrect, session.comboCount)
     const record: QuizRecord = { question_id: questionId, subject: question.subject, is_correct: isCorrect, points_earned: points, selected_answer: answer }
@@ -325,6 +333,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   nextChallengeQuestion: () => {
     const session = get().challengeSession
     if (!session || session.isComplete) return
+    if (!hasAnsweredCurrentQuestion(session)) return
     const nextIndex = session.currentIndex + 1
     const isComplete = nextIndex >= session.questions.length
     const passed = session.correctCount >= 24

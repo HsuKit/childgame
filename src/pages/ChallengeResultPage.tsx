@@ -5,6 +5,7 @@ import { useQuizStore } from '../stores/quizStore'
 import { usePointsStore } from '../stores/pointsStore'
 import { useCompanionStore } from '../stores/companionStore'
 import { PointsFlyAnimation } from '../components/common/PointsFlyAnimation'
+import { formatChallengeScore } from '../lib/quizUtils'
 
 export default function ChallengeResultPage() {
   const navigate = useNavigate()
@@ -53,7 +54,9 @@ export default function ChallengeResultPage() {
         <h2 className="text-2xl font-bold mt-2">{passed ? '恭喜通关!' : '继续加油!'}</h2>
 
         <div className="my-4">
-          <span className="text-5xl font-bold text-kid-primary">{session.correctCount}/10</span>
+          <span className="text-5xl font-bold text-kid-primary">
+            {formatChallengeScore(session.correctCount, session.questions.length)}
+          </span>
         </div>
 
         <div className="grid grid-cols-2 gap-3 text-sm">

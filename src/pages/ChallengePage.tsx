@@ -34,6 +34,8 @@ export default function ChallengePage() {
   if (challengeSession.isComplete) return null
 
   const q = challengeSession.questions[challengeSession.currentIndex]
+  const answeredCount = challengeSession.records.length
+  const hasAnsweredCurrentQuestion = challengeSession.records.some(record => record.question_id === q.id)
 
   return (
     <div>
@@ -43,7 +45,7 @@ export default function ChallengePage() {
         <div className="w-12" />
       </div>
       <div className="px-4 py-2 bg-yellow-50 text-center text-sm text-yellow-700">
-        答对 24/30 题即通关，获得额外奖励! | 当前: {challengeSession.correctCount}/{challengeSession.currentIndex + 1}
+        答对 24/30 题即通关，获得额外奖励! | 已答 {answeredCount}/30 · 正确 {challengeSession.correctCount}
       </div>
       <QuizCard
         key={q.id}
@@ -53,10 +55,26 @@ export default function ChallengePage() {
         onAnswer={answerChallengeQuestion}
       />
       {challengeSession.currentIndex < challengeSession.questions.length - 1 && (
-        <div className="px-4"><button onClick={nextChallengeQuestion} className="btn-primary w-full">下一题 →</button></div>
+        <div className="px-4">
+          <button
+            onClick={nextChallengeQuestion}
+            disabled={!hasAnsweredCurrentQuestion}
+            className={`btn-primary w-full ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
+          >
+            {hasAnsweredCurrentQuestion ? '下一题 →' : '先选一个答案'}
+          </button>
+        </div>
       )}
       {challengeSession.currentIndex === challengeSession.questions.length - 1 && (
-        <div className="px-4"><button onClick={() => { nextChallengeQuestion(); navigate('/challenge/result') }} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
+        <div className="px-4">
+          <button
+            onClick={() => { nextChallengeQuestion(); navigate('/challenge/result') }}
+            disabled={!hasAnsweredCurrentQuestion}
+            className={`btn-primary w-full bg-kid-success ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
+          >
+            {hasAnsweredCurrentQuestion ? '查看结果! 🎉' : '先选一个答案'}
+          </button>
+        </div>
       )}
     </div>
   )

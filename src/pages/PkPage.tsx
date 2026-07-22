@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from '../stores/authStore'
 import { SUBJECT_LABELS, SUBJECT_EMOJIS } from '../lib/constants'
+import { buildCreatorPkQuizPath } from '../lib/pkUtils'
 import type { Subject } from '../lib/constants'
 
 function genCode(): string { return String(Math.floor(100000 + Math.random() * 900000)) }
@@ -15,6 +16,7 @@ export default function PkPage() {
   const [subject, setSubject] = useState<Subject>('math')
   const [code, setCode] = useState('')
   const [created, setCreated] = useState('')
+  const [createdChallengeId, setCreatedChallengeId] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
@@ -22,12 +24,14 @@ export default function PkPage() {
     if (!userId) return
     setLoading(true)
     const newCode = genCode()
-    const { error: err } = await supabase.from('pk_challenges').insert({
-      creator_id: userId, code: newCode, subject,
-    })
+    const { data, error: err } = await supabase.from('pk_challenges')
+      .insert({ creator_id: userId, code: newCode, subject })
+      .select('id')
+      .single()
     setLoading(false)
-    if (err) { setError('创建失败'); return }
+    if (err || !data) { setError('创建失败'); return }
     setCreated(newCode)
+    setCreatedChallengeId(data.id)
   }
 
   const handleJoin = async () => {
@@ -43,7 +47,11 @@ export default function PkPage() {
   }
 
   const startCreatorQuiz = () => {
-    navigate(`/pk/quiz?code=${created}&subject=${subject}`)
+    if (!createdChallengeId) {
+      setError('挑战还没有准备好，请重新生成')
+      return
+    }
+    navigate(buildCreatorPkQuizPath({ challengeId: createdChallengeId, subject }))
   }
 
   return (

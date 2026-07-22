@@ -45,6 +45,8 @@ export default function QuizPage() {
     return <div className="p-6 text-center"><p className="text-4xl mb-4">❓</p><p>题目数据异常</p>
       <button onClick={() => navigate('/')} className="btn-primary mt-4">返回首页</button></div>
   }
+  const hasAnsweredCurrentQuestion = session.records.some(record => record.question_id === q.id)
+  const nextButtonClass = `btn-primary w-full ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`
 
   return (
     <div>
@@ -56,10 +58,22 @@ export default function QuizPage() {
       <QuizCard key={q.id} question={q} questionNumber={session.currentIndex + 1}
         totalQuestions={session.questions.length} onAnswer={answerQuestion} />
       {session.currentIndex < session.questions.length - 1 && (
-        <div className="px-4"><button onClick={nextQuestion} className="btn-primary w-full">下一题 →</button></div>
+        <div className="px-4">
+          <button onClick={nextQuestion} disabled={!hasAnsweredCurrentQuestion} className={nextButtonClass}>
+            {hasAnsweredCurrentQuestion ? '下一题 →' : '先选一个答案'}
+          </button>
+        </div>
       )}
       {session.currentIndex === session.questions.length - 1 && (
-        <div className="px-4"><button onClick={() => { nextQuestion(); navigate(`/quiz/result?subject=${subject}`) }} className="btn-primary w-full bg-kid-success">查看结果! 🎉</button></div>
+        <div className="px-4">
+          <button
+            onClick={() => { nextQuestion(); navigate(`/quiz/result?subject=${subject}`) }}
+            disabled={!hasAnsweredCurrentQuestion}
+            className={`btn-primary w-full bg-kid-success ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
+          >
+            {hasAnsweredCurrentQuestion ? '查看结果! 🎉' : '先选一个答案'}
+          </button>
+        </div>
       )}
     </div>
   )
