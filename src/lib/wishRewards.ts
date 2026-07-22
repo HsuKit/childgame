@@ -3,7 +3,7 @@ export const STREAK_7_WISH_BONUS = 2
 export const STREAK_30_WISH_BONUS = 8
 
 export type WishTransactionType = 'earn' | 'freeze' | 'release' | 'spend'
-export type WishRewardType = 'small' | 'medium' | 'large' | 'dream'
+export type WishRewardType = 'item' | 'companionship' | 'experience' | 'open_wish'
 export type WishRedemptionStatus =
   | 'pending_parent_review'
   | 'approved_pending_fulfillment'
@@ -30,21 +30,17 @@ export interface WishAward {
 }
 
 export interface WishRewardGroup {
-  id: WishRewardType
+  id: 'small' | 'medium' | 'large' | 'dream'
   label: string
-  minCost: number
-  maxCost: number
-}
-
-export interface GroupedWishRewards<T extends { cost: number }> extends WishRewardGroup {
-  rewards: T[]
+  min: number
+  max: number
 }
 
 export const WISH_REWARD_GROUPS: WishRewardGroup[] = [
-  { id: 'small', label: '小小愿望', minCost: 0, maxCost: 8 },
-  { id: 'medium', label: '中等愿望', minCost: 9, maxCost: 20 },
-  { id: 'large', label: '大愿望', minCost: 21, maxCost: 45 },
-  { id: 'dream', label: '梦想愿望', minCost: 46, maxCost: Infinity },
+  { id: 'small', label: '小小愿望', min: 0, max: 8 },
+  { id: 'medium', label: '中等愿望', min: 9, max: 20 },
+  { id: 'large', label: '大愿望', min: 21, max: 45 },
+  { id: 'dream', label: '梦想愿望', min: 46, max: Infinity },
 ]
 
 const REDEMPTION_STATUS_LABELS: Record<WishRedemptionStatus, string> = {
@@ -56,9 +52,9 @@ const REDEMPTION_STATUS_LABELS: Record<WishRedemptionStatus, string> = {
 }
 
 export function calculateDailyWishAward(streakCount: number): WishAward {
-  const streakBonus = streakCount % 30 === 0
+  const streakBonus = streakCount > 0 && streakCount % 30 === 0
     ? STREAK_30_WISH_BONUS
-    : streakCount % 7 === 0
+    : streakCount > 0 && streakCount % 7 === 0
       ? STREAK_7_WISH_BONUS
       : 0
 
@@ -98,9 +94,9 @@ export function getRedemptionStatusLabel(status: WishRedemptionStatus): string {
   return REDEMPTION_STATUS_LABELS[status]
 }
 
-export function groupWishRewards<T extends { cost: number }>(rewards: T[]): GroupedWishRewards<T>[] {
-  return WISH_REWARD_GROUPS.map((group) => ({
-    ...group,
-    rewards: rewards.filter((reward) => reward.cost >= group.minCost && reward.cost <= group.maxCost),
-  }))
+export function groupWishRewards<T extends { cost: number }>(rewards: T[]): Record<WishRewardGroup['id'], T[]> {
+  return WISH_REWARD_GROUPS.reduce<Record<WishRewardGroup['id'], T[]>>((groups, group) => {
+    groups[group.id] = rewards.filter((reward) => reward.cost >= group.min && reward.cost <= group.max)
+    return groups
+  }, { small: [], medium: [], large: [], dream: [] })
 }

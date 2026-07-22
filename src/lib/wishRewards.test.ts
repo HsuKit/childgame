@@ -8,6 +8,10 @@ import {
 } from './wishRewards'
 
 describe('calculateDailyWishAward', () => {
+  it('does not award a streak bonus for a zero-day streak', () => {
+    expect(calculateDailyWishAward(0)).toEqual({ base: 1, streakBonus: 0, total: 1 })
+  })
+
   it('awards the daily coin without a streak bonus before day 7', () => {
     expect(calculateDailyWishAward(6)).toEqual({ base: 1, streakBonus: 0, total: 1 })
   })
@@ -45,18 +49,16 @@ describe('getRedemptionStatusLabel', () => {
 describe('groupWishRewards', () => {
   it('groups rewards by cost using the configured group ids', () => {
     const rewards = [
-      { name: 'small reward', cost: 6 },
-      { name: 'medium reward', cost: 15 },
-      { name: 'large reward', cost: 35 },
-      { name: 'dream reward', cost: 80 },
+      { id: 'small-reward', cost: 6 },
+      { id: 'medium-reward', cost: 15 },
+      { id: 'large-reward', cost: 35 },
+      { id: 'dream-reward', cost: 80 },
     ]
+    const groups = groupWishRewards(rewards)
 
-    expect(groupWishRewards(rewards).map((group) => ({
-      id: group.id,
-      costs: group.rewards.map((reward) => reward.cost),
-    }))).toEqual(WISH_REWARD_GROUPS.map((group) => ({
-      id: group.id,
-      costs: [6, 15, 35, 80].filter((cost) => cost >= group.minCost && cost <= group.maxCost),
-    })))
+    expect(groups[WISH_REWARD_GROUPS[0].id].map((item) => item.id)).toEqual(['small-reward'])
+    expect(groups[WISH_REWARD_GROUPS[1].id].map((item) => item.id)).toEqual(['medium-reward'])
+    expect(groups[WISH_REWARD_GROUPS[2].id].map((item) => item.id)).toEqual(['large-reward'])
+    expect(groups[WISH_REWARD_GROUPS[3].id].map((item) => item.id)).toEqual(['dream-reward'])
   })
 })
