@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { WISH_REWARD_GROUPS, groupWishRewards, resolveVisibleWishRewards, type WishRedemptionStatus as RedemptionStatus } from '../lib/wishRewards'
+import { WISH_DIALOG_OVERLAY_CLASS, WISH_DIALOG_PANEL_CLASS } from '../lib/wishDialogLayout'
 import { useWishStore, type WishReward } from '../stores/wishStore'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { WishRedemptionStatus } from '../components/wish/WishRedemptionStatus'
@@ -212,14 +213,14 @@ export default function WishShopPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-end justify-center bg-black/45 p-4"
+            className={WISH_DIALOG_OVERLAY_CLASS}
             onClick={closeRequestDialog}
           >
             <motion.div
               initial={{ y: 40, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 40, opacity: 0 }}
-              className="w-full max-w-md rounded-3xl bg-white p-5 shadow-2xl"
+              className={WISH_DIALOG_PANEL_CLASS}
               onClick={event => event.stopPropagation()}
               role="dialog"
               aria-modal="true"
