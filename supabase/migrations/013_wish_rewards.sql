@@ -5,7 +5,11 @@ create table public.wish_coin_transactions (
   type text not null check (type in ('earn', 'freeze', 'release', 'spend')),
   reason text not null,
   reference_id uuid,
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  constraint wish_coin_transaction_amount_sign check (
+    (type in ('earn', 'release') and amount > 0)
+    or (type in ('freeze', 'spend') and amount < 0)
+  )
 );
 
 create table public.wish_rewards (
@@ -18,7 +22,11 @@ create table public.wish_rewards (
   is_preset boolean not null default false,
   is_active boolean not null default true,
   availability_note text,
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  constraint wish_rewards_preset_owner check (
+    (is_preset = true and user_id is null)
+    or (is_preset = false and user_id is not null)
+  )
 );
 
 create table public.wish_redemptions (
@@ -51,6 +59,12 @@ create index idx_wish_rewards_user_active on public.wish_rewards(user_id, is_act
 create index idx_wish_rewards_presets on public.wish_rewards(is_preset, is_active);
 create index idx_wish_redemptions_user_status on public.wish_redemptions(user_id, status, requested_at);
 create index idx_reward_diary_entries_user on public.reward_diary_entries(user_id, created_at);
+create unique index idx_wish_coin_transactions_once_per_reference
+  on public.wish_coin_transactions(user_id, reason, reference_id)
+  where reference_id is not null;
+create unique index idx_reward_diary_entries_once_per_reference
+  on public.reward_diary_entries(user_id, entry_type, reference_id)
+  where reference_id is not null;
 
 alter table public.wish_coin_transactions enable row level security;
 alter table public.wish_rewards enable row level security;
@@ -58,18 +72,14 @@ alter table public.wish_redemptions enable row level security;
 alter table public.reward_diary_entries enable row level security;
 
 create policy "Users can view own wish coin transactions" on public.wish_coin_transactions for select using (auth.uid() = user_id);
-create policy "Users can insert own wish coin transactions" on public.wish_coin_transactions for insert with check (auth.uid() = user_id);
 
 create policy "Users can view preset or own wish rewards" on public.wish_rewards for select using (is_preset = true or auth.uid() = user_id);
 create policy "Users can insert own wish rewards" on public.wish_rewards for insert with check (auth.uid() = user_id and is_preset = false);
-create policy "Users can update own wish rewards" on public.wish_rewards for update using (auth.uid() = user_id and is_preset = false);
+create policy "Users can update own wish rewards" on public.wish_rewards for update using (auth.uid() = user_id and is_preset = false) with check (auth.uid() = user_id and is_preset = false);
 
 create policy "Users can view own wish redemptions" on public.wish_redemptions for select using (auth.uid() = user_id);
-create policy "Users can insert own wish redemptions" on public.wish_redemptions for insert with check (auth.uid() = user_id);
-create policy "Users can update own wish redemptions" on public.wish_redemptions for update using (auth.uid() = user_id);
 
 create policy "Users can view own reward diary" on public.reward_diary_entries for select using (auth.uid() = user_id);
-create policy "Users can insert own reward diary" on public.reward_diary_entries for insert with check (auth.uid() = user_id);
 
 create or replace function public.get_wish_coin_balance(user_id uuid)
 returns table (total_earned bigint, frozen bigint, spent bigint, available bigint)
@@ -92,6 +102,265 @@ as $$
     (total_earned - greatest(frozen_amount - released_amount - spent, 0) - spent)::bigint as available
   from totals;
 $$;
+
+create or replace function public.award_daily_wish_coins(check_in_id uuid)
+returns int
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  p_check_in_id alias for $1;
+  v_check_in public.check_ins%rowtype;
+  v_amount int;
+  v_inserted_amount int;
+begin
+  select *
+    into v_check_in
+    from public.check_ins
+    where id = p_check_in_id;
+
+  if not found then
+    raise exception 'Check-in not found';
+  end if;
+
+  if auth.uid() is null or auth.uid() <> v_check_in.user_id then
+    raise exception 'Not allowed';
+  end if;
+
+  if not (v_check_in.chinese_done and v_check_in.math_done and v_check_in.english_done) then
+    return 0;
+  end if;
+
+  v_amount := 1
+    + case
+      when v_check_in.streak_count > 0 and v_check_in.streak_count % 30 = 0 then 8
+      when v_check_in.streak_count > 0 and v_check_in.streak_count % 7 = 0 then 2
+      else 0
+    end;
+
+  insert into public.wish_coin_transactions (user_id, amount, type, reason, reference_id)
+  values (v_check_in.user_id, v_amount, 'earn', 'daily_core_complete', p_check_in_id)
+  on conflict (user_id, reason, reference_id) where reference_id is not null do nothing
+  returning amount into v_inserted_amount;
+
+  return coalesce(v_inserted_amount, 0);
+end;
+$$;
+
+create or replace function public.submit_wish_redemption(reward_id uuid, child_note text default null)
+returns public.wish_redemptions
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  p_reward_id alias for $1;
+  p_child_note alias for $2;
+  v_user_id uuid;
+  v_reward public.wish_rewards%rowtype;
+  v_balance record;
+  v_redemption_id uuid := uuid_generate_v4();
+  v_redemption public.wish_redemptions%rowtype;
+begin
+  v_user_id := auth.uid();
+
+  if v_user_id is null then
+    raise exception 'Not authenticated';
+  end if;
+
+  select *
+    into v_reward
+    from public.wish_rewards
+    where id = p_reward_id
+      and is_active = true
+      and (is_preset = true or user_id = v_user_id);
+
+  if not found then
+    raise exception 'Reward not found';
+  end if;
+
+  select *
+    into v_balance
+    from public.get_wish_coin_balance(v_user_id);
+
+  if coalesce(v_balance.available, 0) < v_reward.cost then
+    raise exception 'Insufficient wish coin balance';
+  end if;
+
+  insert into public.wish_redemptions (
+    id,
+    user_id,
+    reward_id,
+    reward_name,
+    reward_cost,
+    reward_type,
+    status,
+    child_note
+  )
+  values (
+    v_redemption_id,
+    v_user_id,
+    v_reward.id,
+    v_reward.name,
+    v_reward.cost,
+    v_reward.type,
+    'pending_parent_review',
+    p_child_note
+  )
+  returning * into v_redemption;
+
+  insert into public.wish_coin_transactions (user_id, amount, type, reason, reference_id)
+  values (v_user_id, -v_reward.cost, 'freeze', 'wish_redemption_freeze', v_redemption_id);
+
+  return v_redemption;
+end;
+$$;
+
+create or replace function public.approve_wish_redemption(redemption_id uuid, parent_note text default null)
+returns public.wish_redemptions
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  p_redemption_id alias for $1;
+  p_parent_note alias for $2;
+  v_user_id uuid;
+  v_redemption public.wish_redemptions%rowtype;
+begin
+  v_user_id := auth.uid();
+
+  if v_user_id is null then
+    raise exception 'Not authenticated';
+  end if;
+
+  select *
+    into v_redemption
+    from public.wish_redemptions
+    where id = p_redemption_id
+      and user_id = v_user_id
+      and status = 'pending_parent_review'
+    for update;
+
+  if not found then
+    raise exception 'Redemption not found';
+  end if;
+
+  insert into public.wish_coin_transactions (user_id, amount, type, reason, reference_id)
+  values (v_user_id, -v_redemption.reward_cost, 'spend', 'wish_redemption_approved', p_redemption_id)
+  on conflict (user_id, reason, reference_id) where reference_id is not null do nothing;
+
+  update public.wish_redemptions
+    set status = 'approved_pending_fulfillment',
+        parent_note = p_parent_note,
+        reviewed_at = now()
+    where id = p_redemption_id
+    returning * into v_redemption;
+
+  return v_redemption;
+end;
+$$;
+
+create or replace function public.reject_wish_redemption(redemption_id uuid, parent_note text default null)
+returns public.wish_redemptions
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  p_redemption_id alias for $1;
+  p_parent_note alias for $2;
+  v_user_id uuid;
+  v_redemption public.wish_redemptions%rowtype;
+begin
+  v_user_id := auth.uid();
+
+  if v_user_id is null then
+    raise exception 'Not authenticated';
+  end if;
+
+  select *
+    into v_redemption
+    from public.wish_redemptions
+    where id = p_redemption_id
+      and user_id = v_user_id
+      and status = 'pending_parent_review'
+    for update;
+
+  if not found then
+    raise exception 'Redemption not found';
+  end if;
+
+  insert into public.wish_coin_transactions (user_id, amount, type, reason, reference_id)
+  values (v_user_id, v_redemption.reward_cost, 'release', 'wish_redemption_rejected', p_redemption_id)
+  on conflict (user_id, reason, reference_id) where reference_id is not null do nothing;
+
+  update public.wish_redemptions
+    set status = 'rejected',
+        parent_note = p_parent_note,
+        reviewed_at = now()
+    where id = p_redemption_id
+    returning * into v_redemption;
+
+  return v_redemption;
+end;
+$$;
+
+create or replace function public.fulfill_wish_redemption(redemption_id uuid)
+returns public.wish_redemptions
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  p_redemption_id alias for $1;
+  v_user_id uuid;
+  v_redemption public.wish_redemptions%rowtype;
+begin
+  v_user_id := auth.uid();
+
+  if v_user_id is null then
+    raise exception 'Not authenticated';
+  end if;
+
+  select *
+    into v_redemption
+    from public.wish_redemptions
+    where id = p_redemption_id
+      and user_id = v_user_id
+      and status = 'approved_pending_fulfillment'
+    for update;
+
+  if not found then
+    raise exception 'Redemption not found';
+  end if;
+
+  update public.wish_redemptions
+    set status = 'fulfilled',
+        fulfilled_at = now()
+    where id = p_redemption_id
+    returning * into v_redemption;
+
+  insert into public.reward_diary_entries (user_id, entry_type, title, description, reference_id)
+  values (
+    v_user_id,
+    'wish_fulfilled',
+    '愿望实现：' || v_redemption.reward_name,
+    '这是坚持练习换来的真实奖励。',
+    p_redemption_id
+  )
+  on conflict (user_id, entry_type, reference_id) where reference_id is not null do nothing;
+
+  return v_redemption;
+end;
+$$;
+
+grant execute on function public.award_daily_wish_coins(uuid) to authenticated;
+grant execute on function public.submit_wish_redemption(uuid, text) to authenticated;
+grant execute on function public.approve_wish_redemption(uuid, text) to authenticated;
+grant execute on function public.reject_wish_redemption(uuid, text) to authenticated;
+grant execute on function public.fulfill_wish_redemption(uuid) to authenticated;
 
 insert into public.wish_rewards (name, description, type, cost, is_preset, is_active, availability_note) values
   ('一盒彩色贴纸', '选一盒彩色贴纸，贴在自己的本子或奖励册里。', 'item', 5, true, true, '适合周末兑现'),

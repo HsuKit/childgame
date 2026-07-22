@@ -111,12 +111,12 @@ export interface Database {
       wish_rewards: {
         Row: { id: string; user_id: string | null; name: string; description: string; type: 'item' | 'companionship' | 'experience' | 'open_wish'; cost: number; is_preset: boolean; is_active: boolean; availability_note: string | null; created_at: string }
         Insert: { id?: string; user_id?: string | null; name: string; description?: string; type: 'item' | 'companionship' | 'experience' | 'open_wish'; cost: number; is_preset?: boolean; is_active?: boolean; availability_note?: string | null; created_at?: string }
-        Update: { user_id?: string | null; name?: string; description?: string; type?: 'item' | 'companionship' | 'experience' | 'open_wish'; cost?: number; is_preset?: boolean; is_active?: boolean; availability_note?: string | null }
+        Update: { name?: string; description?: string; type?: 'item' | 'companionship' | 'experience' | 'open_wish'; cost?: number; is_active?: boolean; availability_note?: string | null }
       }
       wish_redemptions: {
         Row: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
         Insert: { id?: string; user_id: string; reward_id?: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status?: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note?: string | null; parent_note?: string | null; requested_at?: string; reviewed_at?: string | null; fulfilled_at?: string | null }
-        Update: { reward_id?: string | null; reward_name?: string; reward_cost?: number; reward_type?: 'item' | 'companionship' | 'experience' | 'open_wish'; status?: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note?: string | null; parent_note?: string | null; reviewed_at?: string | null; fulfilled_at?: string | null }
+        Update: { status?: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; parent_note?: string | null; reviewed_at?: string | null; fulfilled_at?: string | null }
       }
       reward_diary_entries: {
         Row: { id: string; user_id: string; entry_type: 'wish_fulfilled' | 'streak_keepsake' | 'companion_milestone'; title: string; description: string; reference_id: string | null; created_at: string }
@@ -134,6 +134,26 @@ export interface Database {
       get_wish_coin_balance: {
         Args: { user_id: string }
         Returns: Array<{ total_earned: number; frozen: number; spent: number; available: number }>
+      }
+      award_daily_wish_coins: {
+        Args: { check_in_id: string }
+        Returns: number
+      }
+      submit_wish_redemption: {
+        Args: { reward_id: string; child_note?: string | null }
+        Returns: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
+      }
+      approve_wish_redemption: {
+        Args: { redemption_id: string; parent_note?: string | null }
+        Returns: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
+      }
+      reject_wish_redemption: {
+        Args: { redemption_id: string; parent_note?: string | null }
+        Returns: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
+      }
+      fulfill_wish_redemption: {
+        Args: { redemption_id: string }
+        Returns: { id: string; user_id: string; reward_id: string | null; reward_name: string; reward_cost: number; reward_type: 'item' | 'companionship' | 'experience' | 'open_wish'; status: 'pending_parent_review' | 'approved_pending_fulfillment' | 'fulfilled' | 'rejected' | 'cancelled'; child_note: string | null; parent_note: string | null; requested_at: string; reviewed_at: string | null; fulfilled_at: string | null }
       }
     }
     Enums: Record<string, never>
