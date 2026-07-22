@@ -4,15 +4,6 @@ export type MistakeStatus = 'needs_correction' | 'reinforcing' | 'mastered'
 export interface Database {
   public: {
     Tables: {
-    Views: Record<string, never>
-    Functions: {
-      get_wish_coin_balance: {
-        Args: { user_id: string }
-        Returns: Array<{ total_earned: number; frozen: number; spent: number; available: number }>
-      }
-    }
-    Enums: Record<string, never>
-    CompositeTypes: Record<string, never>
       profiles: {
         Row: { id: string; nickname: string; avatar_url: string | null; grade: number; phone: string | null; created_at: string }
         Insert: { id: string; nickname: string; avatar_url?: string | null; grade: number; phone?: string | null }
@@ -138,5 +129,14 @@ export interface Database {
         Update: { name?: string; cost?: number; effect?: Json; is_active?: boolean }
       }
     }
+    Views: Record<string, never>
+    Functions: {
+      get_wish_coin_balance: {
+        Args: { user_id: string }
+        Returns: Array<{ total_earned: number; frozen: number; spent: number; available: number }>
+      }
+    }
+    Enums: Record<string, never>
+    CompositeTypes: Record<string, never>
   }
 }
