@@ -19,6 +19,7 @@ import PkResultPage from './pages/PkResultPage'
 import MistakesPage from './pages/MistakesPage'
 import MistakeDetailPage from './pages/MistakeDetailPage'
 import ParentReportPage from './pages/ParentReportPage'
+import ParentWishPage from './pages/ParentWishPage'
 
 export default function App() {
   return (
@@ -44,6 +45,7 @@ export default function App() {
             <Route path="/mistakes" element={<MistakesPage />} />
             <Route path="/mistakes/:id" element={<MistakeDetailPage />} />
             <Route path="/parent-report" element={<ParentReportPage />} />
+            <Route path="/parent-wishes" element={<ParentWishPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

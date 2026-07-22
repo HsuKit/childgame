@@ -18,6 +18,23 @@ export default function ParentReportPage() {
 
       {isLoading && <p className="text-center text-gray-400 py-8">正在生成今日报告...</p>}
       {error && <p className="text-center text-red-400 py-8">{error}</p>}
+      <button
+        type="button"
+        onClick={() => navigate('/parent-wishes')}
+        className="card w-full text-left border border-purple-100 bg-gradient-to-r from-purple-50 to-pink-50"
+      >
+        <div className="flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            <p className="break-words font-extrabold text-kid-text">家长愿望管理</p>
+            <p className="mt-1 break-words text-xs font-bold leading-relaxed text-gray-500">
+              确认孩子提交的愿望，创建专属奖励，记录已兑现的小目标。
+            </p>
+          </div>
+          <span className="shrink-0 rounded-full bg-white px-3 py-2 text-sm font-extrabold text-kid-primary shadow-sm">
+            进入
+          </span>
+        </div>
+      </button>
       {!isLoading && !error && !report && (
         <div className="card text-center py-8">
           <p className="font-bold text-kid-text">暂无报告数据</p>

@@ -104,3 +104,10 @@ export function groupWishRewards<T extends { cost: number }>(rewards: T[]): Reco
     return groups
   }, { small: [], medium: [], large: [], dream: [] })
 }
+
+export function groupParentWishRedemptions<T extends { status: WishRedemptionStatus }>(redemptions: readonly T[]) {
+  return {
+    pendingReview: redemptions.filter((redemption) => redemption.status === 'pending_parent_review'),
+    pendingFulfillment: redemptions.filter((redemption) => redemption.status === 'approved_pending_fulfillment'),
+  }
+}

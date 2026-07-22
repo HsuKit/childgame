@@ -5,6 +5,7 @@ import {
   calculateWishBalance,
   getRedemptionStatusLabel,
   groupWishRewards,
+  groupParentWishRedemptions,
 } from './wishRewards'
 
 describe('calculateDailyWishAward', () => {
@@ -76,5 +77,22 @@ describe('groupWishRewards', () => {
     expect(groups[WISH_REWARD_GROUPS[1].id].map((item) => item.id)).toEqual(['medium-reward'])
     expect(groups[WISH_REWARD_GROUPS[2].id].map((item) => item.id)).toEqual(['large-reward'])
     expect(groups[WISH_REWARD_GROUPS[3].id].map((item) => item.id)).toEqual(['dream-reward'])
+  })
+})
+
+describe('groupParentWishRedemptions', () => {
+  it('separates parent review and fulfillment queues by status', () => {
+    const redemptions = [
+      { id: 'pending', status: 'pending_parent_review' },
+      { id: 'approved', status: 'approved_pending_fulfillment' },
+      { id: 'fulfilled', status: 'fulfilled' },
+      { id: 'rejected', status: 'rejected' },
+      { id: 'cancelled', status: 'cancelled' },
+    ] as const
+
+    const groups = groupParentWishRedemptions(redemptions)
+
+    expect(groups.pendingReview.map((item) => item.id)).toEqual(['pending'])
+    expect(groups.pendingFulfillment.map((item) => item.id)).toEqual(['approved'])
   })
 })
