@@ -208,6 +208,7 @@ export default function ParentWishPage() {
     redemption: WishRedemption,
     action: (note: string) => Promise<void>,
   ) => {
+    if (busyId) return
     setBusyId(redemption.id)
     setActionError(null)
     try {
@@ -341,7 +342,7 @@ export default function ParentWishPage() {
               redemption={redemption}
               mode="review"
               note={parentNotes[redemption.id] ?? ''}
-              isBusy={busyId === redemption.id}
+              isBusy={busyId !== null}
               onNoteChange={(value) => updateParentNote(redemption.id, value)}
               onApprove={() => runRedemptionAction(redemption, (note) => approveRedemption(redemption, note))}
               onReject={() => runRedemptionAction(redemption, (note) => rejectRedemption(redemption, note))}
@@ -370,7 +371,7 @@ export default function ParentWishPage() {
               redemption={redemption}
               mode="fulfill"
               note=""
-              isBusy={busyId === redemption.id}
+              isBusy={busyId !== null}
               onNoteChange={() => undefined}
               onApprove={() => undefined}
               onReject={() => undefined}
