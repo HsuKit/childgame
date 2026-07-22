@@ -81,7 +81,11 @@ export function calculateWishBalance(transactions: WishTransactionLike[]): WishB
       return { ...current, frozen: Math.max(0, current.frozen - amount) }
     }
 
-    return { ...current, spent: current.spent + amount }
+    return {
+      ...current,
+      frozen: Math.max(0, current.frozen - amount),
+      spent: current.spent + amount,
+    }
   }, { totalEarned: 0, frozen: 0, spent: 0 })
 
   return {

@@ -26,6 +26,22 @@ describe('calculateDailyWishAward', () => {
 })
 
 describe('calculateWishBalance', () => {
+  it('consumes frozen coins when a wish is spent after approval', () => {
+    expect(calculateWishBalance([
+      { type: 'earn', amount: 10 },
+      { type: 'freeze', amount: -4 },
+      { type: 'spend', amount: -4 },
+    ])).toEqual({ totalEarned: 10, frozen: 0, spent: 4, available: 6 })
+  })
+
+  it('restores available coins when a frozen wish is released', () => {
+    expect(calculateWishBalance([
+      { type: 'earn', amount: 10 },
+      { type: 'freeze', amount: -4 },
+      { type: 'release', amount: 4 },
+    ])).toEqual({ totalEarned: 10, frozen: 0, spent: 0, available: 10 })
+  })
+
   it('separates earned, frozen, spent, and available coins', () => {
     expect(calculateWishBalance([
       { type: 'earn', amount: 10 },
