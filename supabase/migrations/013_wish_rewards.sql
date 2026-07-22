@@ -83,9 +83,19 @@ create policy "Users can view own reward diary" on public.reward_diary_entries f
 
 create or replace function public.get_wish_coin_balance(user_id uuid)
 returns table (total_earned bigint, frozen bigint, spent bigint, available bigint)
-language sql
+language plpgsql
+security definer
 stable
+set search_path = public
 as $$
+declare
+  p_user_id alias for $1;
+begin
+  if auth.uid() is null or auth.uid() <> p_user_id then
+    raise exception 'Not allowed';
+  end if;
+
+  return query
   with totals as (
     select
       coalesce(sum(case when type = 'earn' then amount else 0 end), 0)::bigint as total_earned,
@@ -93,7 +103,7 @@ as $$
       coalesce(sum(case when type = 'release' then abs(amount) else 0 end), 0)::bigint as released_amount,
       coalesce(sum(case when type = 'spend' then abs(amount) else 0 end), 0)::bigint as spent
     from public.wish_coin_transactions
-    where wish_coin_transactions.user_id = get_wish_coin_balance.user_id
+    where wish_coin_transactions.user_id = p_user_id
   )
   select
     total_earned,
@@ -101,6 +111,7 @@ as $$
     spent,
     (total_earned - greatest(frozen_amount - released_amount - spent, 0) - spent)::bigint as available
   from totals;
+end;
 $$;
 
 create or replace function public.award_daily_wish_coins(check_in_id uuid)
@@ -114,6 +125,9 @@ declare
   v_check_in public.check_ins%rowtype;
   v_amount int;
   v_inserted_amount int;
+  v_chinese_count int;
+  v_math_count int;
+  v_english_count int;
 begin
   select *
     into v_check_in
@@ -128,7 +142,34 @@ begin
     raise exception 'Not allowed';
   end if;
 
+  perform pg_advisory_xact_lock(hashtext(v_check_in.user_id::text));
+
   if not (v_check_in.chinese_done and v_check_in.math_done and v_check_in.english_done) then
+    return 0;
+  end if;
+
+  select count(distinct question_id) into v_chinese_count
+    from public.quiz_records
+    where user_id = v_check_in.user_id
+      and subject = 'chinese'
+      and answered_at >= v_check_in.date::timestamptz
+      and answered_at < (v_check_in.date + 1)::timestamptz;
+
+  select count(distinct question_id) into v_math_count
+    from public.quiz_records
+    where user_id = v_check_in.user_id
+      and subject = 'math'
+      and answered_at >= v_check_in.date::timestamptz
+      and answered_at < (v_check_in.date + 1)::timestamptz;
+
+  select count(distinct question_id) into v_english_count
+    from public.quiz_records
+    where user_id = v_check_in.user_id
+      and subject = 'english'
+      and answered_at >= v_check_in.date::timestamptz
+      and answered_at < (v_check_in.date + 1)::timestamptz;
+
+  if v_chinese_count < 10 or v_math_count < 10 or v_english_count < 10 then
     return 0;
   end if;
 
@@ -168,6 +209,8 @@ begin
   if v_user_id is null then
     raise exception 'Not authenticated';
   end if;
+
+  perform pg_advisory_xact_lock(hashtext(v_user_id::text));
 
   select *
     into v_reward
@@ -235,6 +278,8 @@ begin
     raise exception 'Not authenticated';
   end if;
 
+  perform pg_advisory_xact_lock(hashtext(v_user_id::text));
+
   select *
     into v_redemption
     from public.wish_redemptions
@@ -280,6 +325,8 @@ begin
     raise exception 'Not authenticated';
   end if;
 
+  perform pg_advisory_xact_lock(hashtext(v_user_id::text));
+
   select *
     into v_redemption
     from public.wish_redemptions
@@ -324,6 +371,8 @@ begin
     raise exception 'Not authenticated';
   end if;
 
+  perform pg_advisory_xact_lock(hashtext(v_user_id::text));
+
   select *
     into v_redemption
     from public.wish_redemptions
@@ -356,6 +405,14 @@ begin
 end;
 $$;
 
+revoke execute on function public.get_wish_coin_balance(uuid) from public, anon;
+revoke execute on function public.award_daily_wish_coins(uuid) from public, anon;
+revoke execute on function public.submit_wish_redemption(uuid, text) from public, anon;
+revoke execute on function public.approve_wish_redemption(uuid, text) from public, anon;
+revoke execute on function public.reject_wish_redemption(uuid, text) from public, anon;
+revoke execute on function public.fulfill_wish_redemption(uuid) from public, anon;
+
+grant execute on function public.get_wish_coin_balance(uuid) to authenticated;
 grant execute on function public.award_daily_wish_coins(uuid) to authenticated;
 grant execute on function public.submit_wish_redemption(uuid, text) to authenticated;
 grant execute on function public.approve_wish_redemption(uuid, text) to authenticated;
