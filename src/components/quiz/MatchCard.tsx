@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { QuizProgressBar } from './QuizProgressBar'
+import { ExplanationPanel } from './ExplanationPanel'
+import type { Subject } from '../../lib/constants'
 import type { Database } from '../../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
@@ -76,9 +78,13 @@ export function MatchCard({ question, questionNumber, totalQuestions, onAnswer }
         </div>
         {allDone && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
-            className={`mt-4 p-3 rounded-xl text-sm ${pairs.every(p => p.correct) ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-            {pairs.every(p => p.correct) ? '全部配对正确! 太棒了!' : '有些配对不正确哦，看看答案吧!'}
-            <p className="mt-1">{content.explanation}</p>
+            className="overflow-hidden">
+            <ExplanationPanel
+              result={pairs.every(p => p.correct) ? 'correct' : 'wrong'}
+              questionType="match"
+              subject={question.subject as Subject}
+              content={content}
+            />
           </motion.div>
         )}
       </motion.div>

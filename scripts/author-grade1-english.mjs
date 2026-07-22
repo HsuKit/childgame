@@ -1,3 +1,5 @@
+import { explainEnglishFill, explainEnglishMatch } from './lib/explanation-copy.mjs'
+
 const points = ['字母与声音', '日常问候', '数字', '颜色', '家庭', '学校', '课堂指令', '图文匹配']
 const distribution = [
   ['choice', 1, 52], ['choice', 2, 37], ['choice', 3, 16],
@@ -75,7 +77,7 @@ const matchSets = [
 function englishMatch(serial) {
   const [point, left, answers] = matchSets[(serial - 126) % matchSets.length], order = [2, 0, 3, 1], right = order.map(i => answers[i]), lookup = Object.fromEntries(order.map((x, i) => [x, i]))
   const prompts = { 字母与声音: 'Match the letters b, c, d and f with words that begin with them.', 日常问候: 'Match Hello, How are you, Thank you and Goodbye with their replies.', 数字: 'Match the number words one, three, five and ten with digits.', 颜色: 'Match red, blue, green and yellow with their Chinese colour meanings.', 家庭: 'Match mother, father, sister and brother with their Chinese family meanings.', 学校: 'Match each school place with the activity done there.', 课堂指令: 'Match each classroom instruction with its action in Chinese.', 图文匹配: 'Match each colour-and-number word card with its full Chinese note.' }
-  return { point, content: { stem: `${serial < 134 ? 'Use the first-grade English card set.' : 'Review the classroom word cards.'} ${prompts[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: `Compare the meaning of all four ${point} items.` } }
+  return { point, content: { stem: `${serial < 134 ? 'Use the first-grade English card set.' : 'Review the classroom word cards.'} ${prompts[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: explainEnglishMatch(point) } }
 }
 
 export function authorGrade1English() {
@@ -83,7 +85,7 @@ export function authorGrade1English() {
   for (const [type, difficulty, count] of distribution) for (let index = 0; index < count; index += 1) {
     let point = points[serial % points.length], content
     if (type === 'choice') content = englishChoice(point, serial, difficulty, serial % 4)
-    else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: `The word “${answer}” completes the sentence correctly.` } }
+    else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: explainEnglishFill(stem, answer) } }
     else { const item = englishMatch(serial); point = item.point; content = item.content }
     questions.push({ id: `g1-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 1, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '低龄短句', '文字可作答'], content, reviewStatus: 'reviewed', version: 1 }); serial += 1
   }

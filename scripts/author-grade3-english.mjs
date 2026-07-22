@@ -1,3 +1,5 @@
+import { explainEnglishFill, explainEnglishMatch, explainEnglishPoliteRequest } from './lib/explanation-copy.mjs'
+
 const points = ['句子阅读', '短对话', '一般现在时', '疑问词', '时间表达', '日常活动', '显性信息', '情境交际']
 const distribution = [
   ['choice', 1, 52], ['choice', 2, 37], ['choice', 3, 16],
@@ -81,7 +83,7 @@ function englishHardChoice(point, s, position, { context, thingPhrase, placePhra
   }
   if (point === '日常活动') return choice(`Read the plan: “First ${s.name} packs the bag. Then ${s.name} ${s.activity}. After that, ${s.name} reads.” What happens second?`, s.activity, ['packs the bag', 'reads', 'goes to sleep before everything'], position, `The order word “Then” introduces the second activity: ${s.activity}.`)
   if (point === '显性信息') return choice(`Read: “${context} At ${s.time}, ${s.name} ${s.activity}.” Which two facts are both true?`, `${s.name} likes ${s.like} and has ${thingPhrase}.`, [`${s.name} is on a train and has a bike.`, `${s.name} dislikes ${s.like} and loses everything.`, `${s.name} is at the zoo at midnight.`], position, 'Both facts are directly stated in the text.')
-  return choice(`On ${s.day}, ${s.name} is ${placePhrase} before ${s.activity}. ${s.name} needs the ${s.thing}, but a classmate is using it. What is the most polite request?`, `May I use the ${s.thing} after you?`, [`Give me the ${s.thing} now!`, `I never need the ${s.thing}.`, `What colour is Monday?`], position, '“May I...?” is a polite request and “after you” respects the classmate who is using it.')
+  return choice(`On ${s.day}, ${s.name} is ${placePhrase} before ${s.activity}. ${s.name} needs the ${s.thing}, but a classmate is using it. What is the most polite request?`, `May I use the ${s.thing} after you?`, [`Give me the ${s.thing} now!`, `I never need the ${s.thing}.`, `What colour is Monday?`], position, explainEnglishPoliteRequest(`May I use the ${s.thing} after you?`))
 }
 
 const fills = [
@@ -125,7 +127,7 @@ function englishMatch(serial) {
   const lookup = Object.fromEntries(order.map((original, index) => [original, index]))
   const stems = { 句子阅读: 'Match each sentence with its meaning.', 短对话: 'Match each question with the best answer.', 一般现在时: 'Match each subject and verb with the rest of its sentence.', 疑问词: 'Match each question word with what it asks about.', 时间表达: 'Match each clock time with its English expression.', 日常活动: 'Match each daily activity with its Chinese meaning.', 显性信息: 'Match each sentence with the information it gives.', 情境交际: 'Match each expression with the polite reply.' }
   const prefix = serial < 134 ? 'Use the classroom language chart.' : 'Use the weekend reading card and compare all four examples.'
-  return { point, content: { stem: `${prefix} ${stems[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: 'Read each item carefully and connect the pair with the same meaning or function.' } }
+  return { point, content: { stem: `${prefix} ${stems[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: explainEnglishMatch(point) } }
 }
 
 export function authorGrade3English() {
@@ -138,7 +140,7 @@ export function authorGrade3English() {
       if (type === 'choice') content = englishChoice(point, serial, serial % 4)
       else if (type === 'fill') {
         const [fillPoint, stem, answer] = fills[serial - 105]; point = fillPoint
-        content = { stem, answer, explanation: `The word “${answer}” completes the sentence correctly.` }
+        content = { stem, answer, explanation: explainEnglishFill(stem, answer) }
       } else { const match = englishMatch(serial); point = match.point; content = match.content }
       questions.push({ id: `g3-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '文字可作答'], content, reviewStatus: 'reviewed', version: 1 })
       serial += 1

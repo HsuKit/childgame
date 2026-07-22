@@ -6,6 +6,8 @@ import { FillInCard } from './FillInCard'
 import { MatchCard } from './MatchCard'
 import { GridPuzzleCard } from './GridPuzzleCard'
 import { QuizProgressBar } from './QuizProgressBar'
+import { ExplanationPanel } from './ExplanationPanel'
+import type { Subject } from '../../lib/constants'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -83,9 +85,14 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
         </div>
         {result && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
-            className={`mt-4 p-3 rounded-xl text-sm ${result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-            {result === 'correct' ? '太棒了!' : '没关系，记住答案哦!'}
-            <p className="mt-1">{content.explanation || '这道题暂时没有解析。'}</p>
+            className="overflow-hidden">
+            <ExplanationPanel
+              result={result}
+              questionType="choice"
+              subject={question.subject as Subject}
+              content={content}
+              selectedAnswer={selected ?? undefined}
+            />
           </motion.div>
         )}
       </motion.div>

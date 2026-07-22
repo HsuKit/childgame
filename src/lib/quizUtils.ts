@@ -1,4 +1,4 @@
-import { POINTS, SUBJECTS } from './constants'
+import { DAILY_QUESTIONS_PER_SUBJECT, POINTS, SUBJECTS } from './constants'
 import type { Subject } from './constants'
 
 type QuestionType = 'choice' | 'fill' | 'match' | 'grid'
@@ -44,6 +44,7 @@ export function getQuizResultAwardState({
 }): {
   displayPoints: number
   shouldAwardPoints: boolean
+  shouldSettleSubjectCompletion: boolean
   shouldShowAlreadyDoneNotice: boolean
   wasAlreadyDoneAtResult: boolean
 } {
@@ -52,6 +53,7 @@ export function getQuizResultAwardState({
   return {
     displayPoints: alreadyDoneAtResult ? 0 : pointsEarned,
     shouldAwardPoints: !awardSettled && !alreadyDoneAtResult && pointsEarned > 0,
+    shouldSettleSubjectCompletion: !awardSettled && !alreadyDoneAtResult,
     shouldShowAlreadyDoneNotice: alreadyDoneAtResult,
     wasAlreadyDoneAtResult: alreadyDoneAtResult,
   }
@@ -76,4 +78,15 @@ export function countSubjects(rows: Array<{ subject: string }>): Record<Subject,
     if (SUBJECTS.includes(subject as Subject)) counts[subject as Subject] += 1
   })
   return counts
+}
+
+export function getSubjectsNeedingCompletionSync(
+  today: { chinese_done: boolean; math_done: boolean; english_done: boolean } | null,
+  quizCounts: Record<Subject, number>,
+): Subject[] {
+  if (!today) return []
+  return SUBJECTS.filter(subject => {
+    const field = `${subject}_done` as 'chinese_done' | 'math_done' | 'english_done'
+    return !today[field] && quizCounts[subject] >= DAILY_QUESTIONS_PER_SUBJECT
+  })
 }

@@ -2490,7 +2490,7 @@
         "May I use the storybook after you?"
       ],
       "answer": 3,
-      "explanation": "“May I...?” is a polite request and “after you” respects the classmate who is using it."
+      "explanation": "“May I use the storybook after you?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2698,7 +2698,7 @@
         "May I use the notebook after you?"
       ],
       "answer": 3,
-      "explanation": "“May I...?” is a polite request and “after you” respects the classmate who is using it."
+      "explanation": "“May I use the notebook after you?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2744,7 +2744,7 @@
     "content": {
       "stem": "I have a ___. I use it to read stories.（填 book）",
       "answer": "book",
-      "explanation": "The word “book” completes the sentence correctly."
+      "explanation": "The answer “book” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2764,7 +2764,7 @@
     "content": {
       "stem": "—How are you? —I am ___.（填“很好”）",
       "answer": "fine",
-      "explanation": "The word “fine” completes the sentence correctly."
+      "explanation": "The clue is “很好”. The answer “fine” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2784,7 +2784,7 @@
     "content": {
       "stem": "Tom ___ to school every day.（填 go 的正确形式）",
       "answer": "goes",
-      "explanation": "The word “goes” completes the sentence correctly."
+      "explanation": "The answer “goes” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2804,7 +2804,7 @@
     "content": {
       "stem": "___ is your name? My name is Lily.",
       "answer": "what",
-      "explanation": "The word “what” completes the sentence correctly."
+      "explanation": "The answer “what” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2824,7 +2824,7 @@
     "content": {
       "stem": "Class starts at eight ___.（填“整点”）",
       "answer": "o'clock",
-      "explanation": "The word “o'clock” completes the sentence correctly."
+      "explanation": "The clue is “整点”. The answer “o'clock” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2844,7 +2844,7 @@
     "content": {
       "stem": "I ___ my teeth every morning.（填 brush）",
       "answer": "brush",
-      "explanation": "The word “brush” completes the sentence correctly."
+      "explanation": "The answer “brush” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2864,7 +2864,7 @@
     "content": {
       "stem": "Read: “The bag is blue.” The bag is ___.",
       "answer": "blue",
-      "explanation": "The word “blue” completes the sentence correctly."
+      "explanation": "The clue is “The bag is blue.”. The answer “blue” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2884,7 +2884,7 @@
     "content": {
       "stem": "When someone says “Thank you”, you can say “You are ___.”",
       "answer": "welcome",
-      "explanation": "The word “welcome” completes the sentence correctly."
+      "explanation": "The clue is “Thank you”. The answer “welcome” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2904,7 +2904,7 @@
     "content": {
       "stem": "The cat is under the desk. It is ___ the desk.",
       "answer": "under",
-      "explanation": "The word “under” completes the sentence correctly."
+      "explanation": "The answer “under” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2924,7 +2924,7 @@
     "content": {
       "stem": "—Can you swim? —Yes, I ___.",
       "answer": "can",
-      "explanation": "The word “can” completes the sentence correctly."
+      "explanation": "The answer “can” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2944,7 +2944,7 @@
     "content": {
       "stem": "Amy ___ English on Mondays.（填 study 的正确形式）",
       "answer": "studies",
-      "explanation": "The word “studies” completes the sentence correctly."
+      "explanation": "The answer “studies” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2964,7 +2964,7 @@
     "content": {
       "stem": "___ is my ruler? It is in the bag.",
       "answer": "where",
-      "explanation": "The word “where” completes the sentence correctly."
+      "explanation": "The answer “where” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -2984,7 +2984,7 @@
     "content": {
       "stem": "7:30 can be read as half past ___.",
       "answer": "seven",
-      "explanation": "The word “seven” completes the sentence correctly."
+      "explanation": "The answer “seven” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3004,7 +3004,7 @@
     "content": {
       "stem": "We have ___ at twelve o’clock.（填 lunch）",
       "answer": "lunch",
-      "explanation": "The word “lunch” completes the sentence correctly."
+      "explanation": "The answer “lunch” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3024,7 +3024,7 @@
     "content": {
       "stem": "Read: “Ben has two dogs.” Ben has ___ dogs.",
       "answer": "two",
-      "explanation": "The word “two” completes the sentence correctly."
+      "explanation": "The clue is “Ben has two dogs.”. The answer “two” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3044,7 +3044,7 @@
     "content": {
       "stem": "Before going to bed, we can say “Good ___.”",
       "answer": "night",
-      "explanation": "The word “night” completes the sentence correctly."
+      "explanation": "The clue is “Good ___.”. The answer “night” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3064,7 +3064,7 @@
     "content": {
       "stem": "The children are in the library. They are reading ___.",
       "answer": "books",
-      "explanation": "The word “books” completes the sentence correctly."
+      "explanation": "The answer “books” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3084,7 +3084,7 @@
     "content": {
       "stem": "—What time is it? —It is nine ___.",
       "answer": "o'clock",
-      "explanation": "The word “o'clock” completes the sentence correctly."
+      "explanation": "The answer “o'clock” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3104,7 +3104,7 @@
     "content": {
       "stem": "My father ___ breakfast at seven every day.（填 have 的正确形式）",
       "answer": "has",
-      "explanation": "The word “has” completes the sentence correctly."
+      "explanation": "The answer “has” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3124,7 +3124,7 @@
     "content": {
       "stem": "___ is that girl? She is my sister.",
       "answer": "who",
-      "explanation": "The word “who” completes the sentence correctly."
+      "explanation": "The answer “who” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3144,7 +3144,7 @@
     "content": {
       "stem": "Read: “Lucy goes to the park after lunch.” Lucy goes there ___ lunch.",
       "answer": "after",
-      "explanation": "The word “after” completes the sentence correctly."
+      "explanation": "The clue is “Lucy goes to the park after lunch.”. The answer “after” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3193,7 +3193,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 句子阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3242,7 +3242,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 短对话, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3291,7 +3291,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 一般现在时, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3340,7 +3340,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 疑问词, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3389,7 +3389,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 时间表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3438,7 +3438,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常活动, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3487,7 +3487,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 显性信息, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3536,7 +3536,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3585,7 +3585,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 句子阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3634,7 +3634,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 短对话, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3683,7 +3683,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 一般现在时, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3732,7 +3732,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 疑问词, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3781,7 +3781,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 时间表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1
@@ -3830,7 +3830,7 @@
           2
         ]
       ],
-      "explanation": "Read each item carefully and connect the pair with the same meaning or function."
+      "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常活动, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
     "version": 1

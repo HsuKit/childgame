@@ -1,3 +1,5 @@
+import { explainChineseFill } from './lib/explanation-copy.mjs'
+
 const points = ['语境词义', '病句初步', '段落结构', '修辞初步', '人物与事件', '中心信息', '应用文常识', '传统文化']
 const distribution = [
   ['choice', 1, 52], ['choice', 2, 37], ['choice', 3, 16],
@@ -118,7 +120,7 @@ const fills = [
 
 function chineseFill(serial) {
   const [knowledgePoint, stem, answer] = fills[serial - 105]
-  return { knowledgePoint, content: { stem, answer, explanation: `结合题意，填“${answer}”后语意完整、表达准确。` } }
+  return { knowledgePoint, content: { stem, answer, explanation: explainChineseFill(stem, answer) } }
 }
 
 const matchSets = [

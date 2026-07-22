@@ -3,6 +3,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useMistakeStore } from '../stores/mistakeStore'
 import { normalizeQuestionContent } from '../lib/questionContent'
 import { isAnswerCorrect } from '../lib/quizUtils'
+import { ExplanationPanel } from '../components/quiz/ExplanationPanel'
+import type { Subject } from '../lib/constants'
 import type { Json } from '../lib/database.types'
 
 interface QuestionContent {
@@ -92,10 +94,13 @@ export default function MistakeDetailPage() {
         )}
 
         {result && (
-          <div className={`mt-4 rounded-2xl p-4 text-sm ${result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-            <p className="font-bold">{result === 'correct' ? '订正成功' : '再看一遍解析吧'}</p>
-            <p className="mt-1">{content.explanation || '这道题暂时没有解析。'}</p>
-          </div>
+          <ExplanationPanel
+            result={result}
+            questionType={question.type}
+            subject={question.subject as Subject}
+            content={content}
+            selectedAnswer={answer}
+          />
         )}
       </div>
     </div>

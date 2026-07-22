@@ -52,6 +52,9 @@ export default function QuizResultPage() {
         if (awardState.shouldAwardPoints) {
           await addPoints(session.pointsEarned, 'quiz_reward', session.questions[0]?.id ?? null)
           await addExp(session.pointsEarned)
+        }
+
+        if (awardState.shouldSettleSubjectCompletion) {
           const awarded = await markSubjectDone(subject)
           if (mountedRef.current) setWishCoinsAwarded(awarded)
         }

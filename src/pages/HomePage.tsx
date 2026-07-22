@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useCompanionStore } from '../stores/companionStore'
@@ -13,12 +13,13 @@ import { DailyTaskCard } from '../components/quiz/DailyTaskCard'
 import { StreakBadge } from '../components/checkin/StreakBadge'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
+import { getSubjectsNeedingCompletionSync } from '../lib/quizUtils'
 import type { Subject } from '../lib/constants'
 
 export default function HomePage() {
   const navigate = useNavigate()
   const fetchCompanion = useCompanionStore(s => s.fetchCompanion)
-  const { today, fetchToday } = useCheckinStore()
+  const { today, fetchToday, markSubjectDone } = useCheckinStore()
   const { balance, fetchBalance } = usePointsStore()
   const { balance: wishBalance, rewards: wishRewards, redemptions: wishRedemptions, fetchWishData } = useWishStore()
   const { getTodayStats } = useQuizStore()
@@ -27,6 +28,7 @@ export default function HomePage() {
   const userId = useAuthStore(s => s.user?.id)
   const [quizCounts, setQuizCounts] = useState<Record<Subject, number>>({ chinese: 0, math: 0, english: 0 })
   const [challengeDone, setChallengeDone] = useState(false)
+  const isSyncingCompletionRef = useRef(false)
 
   useEffect(() => {
     void Promise.all([fetchCompanion(), fetchToday(), fetchBalance(), fetchWishData()]).catch(() => {
@@ -53,6 +55,24 @@ export default function HomePage() {
     if (!userId) return
     fetchMistakes().catch(() => undefined)
   }, [userId, fetchMistakes])
+
+  useEffect(() => {
+    if (!userId || isSyncingCompletionRef.current) return
+    const subjects = getSubjectsNeedingCompletionSync(today, quizCounts)
+    if (subjects.length === 0) return
+
+    isSyncingCompletionRef.current = true
+    ;(async () => {
+      try {
+        for (const subject of subjects) await markSubjectDone(subject)
+        await fetchToday()
+      } catch (error) {
+        console.error(error)
+      } finally {
+        isSyncingCompletionRef.current = false
+      }
+    })()
+  }, [fetchToday, markSubjectDone, quizCounts, today, userId])
 
   const needsCorrectionCount = mistakes.filter(item => item.status === 'needs_correction').length
   const reinforcingCount = mistakes.filter(item => item.status === 'reinforcing').length

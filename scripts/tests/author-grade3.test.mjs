@@ -38,3 +38,20 @@ test('authors a clean grade-3 english collection', () => {
   assert.deepEqual(audit.errors, [])
   assert.deepEqual(audit.warnings, [])
 })
+
+test('grade-3 chinese fill explanations teach the thinking path', () => {
+  const questions = authorGrade3Chinese()
+  const fill = questions.find(question => question.id === 'g3-chinese-authored-110')
+  assert.equal(fill?.content.answer, '把钱包交给老师')
+  assert.match(fill.content.explanation, /先找人物|动作/)
+  assert.match(fill.content.explanation, /下次/)
+})
+
+test('grade-3 english polite request explanations teach the polite pattern', () => {
+  const questions = authorGrade3English()
+  const politeRequest = questions.find(question => question.content.stem.includes('most polite request'))
+  assert.ok(politeRequest)
+  assert.match(politeRequest.content.explanation, /May I/)
+  assert.match(politeRequest.content.explanation, /after you/)
+  assert.match(politeRequest.content.explanation, /Tip|Next time/)
+})

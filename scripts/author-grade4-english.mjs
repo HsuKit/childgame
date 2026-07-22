@@ -1,3 +1,5 @@
+import { explainEnglishFill, explainEnglishMatch } from './lib/explanation-copy.mjs'
+
 const points = ['连贯短文', '方位表达', '频率表达', '进行中的动作', '比较与描述', '跨句信息', '情境交际', '信息匹配']
 const distribution = [
   ['choice', 1, 52], ['choice', 2, 37], ['choice', 3, 16],
@@ -110,7 +112,7 @@ function englishMatch(serial) {
     '信息匹配': 'Match each timetable entry with the activity at that place.',
   }
   const prefix = serial < 134 ? 'Read the school language chart.' : 'Use the weekend practice card.'
-  return { point, content: { stem: `${prefix} ${stems[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: `Compare the meaning and function of all four ${point} items before connecting them.` } }
+  return { point, content: { stem: `${prefix} ${stems[point]}`, left, right, matches: left.map((_, i) => [i, lookup[i]]), explanation: explainEnglishMatch(point) } }
 }
 
 export function authorGrade4English() {
@@ -118,7 +120,7 @@ export function authorGrade4English() {
   for (const [type, difficulty, count] of distribution) for (let index = 0; index < count; index += 1) {
     let point = points[serial % points.length], content
     if (type === 'choice') content = englishChoice(point, serial, serial % 4)
-    else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: `The word “${answer}” completes the sentence with the correct meaning and form.` } }
+    else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: explainEnglishFill(stem, answer) } }
     else { const item = englishMatch(serial); point = item.point; content = item.content }
     questions.push({ id: `g4-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 4, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '文字可作答', difficulty > 1 ? '跨句理解' : '日常表达'], content, reviewStatus: 'reviewed', version: 1 }); serial += 1
   }

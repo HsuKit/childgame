@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { normalizeQuestionContent } from './questionContent'
-import { calculateAnswerReward, countSubjects, formatChallengeScore, getQuizResultAwardState, isAnswerCorrect, shuffle } from './quizUtils'
+import { calculateAnswerReward, countSubjects, formatChallengeScore, getQuizResultAwardState, getSubjectsNeedingCompletionSync, isAnswerCorrect, shuffle } from './quizUtils'
 
 describe('isAnswerCorrect', () => {
   it('compares choice answers by value', () => {
@@ -64,6 +64,7 @@ describe('getQuizResultAwardState', () => {
     expect(afterMarkDoneRefresh).toEqual({
       displayPoints: 80,
       shouldAwardPoints: false,
+      shouldSettleSubjectCompletion: false,
       shouldShowAlreadyDoneNotice: false,
       wasAlreadyDoneAtResult: false,
     })
@@ -78,8 +79,24 @@ describe('getQuizResultAwardState', () => {
     })).toEqual({
       displayPoints: 0,
       shouldAwardPoints: false,
+      shouldSettleSubjectCompletion: false,
       shouldShowAlreadyDoneNotice: true,
       wasAlreadyDoneAtResult: true,
+    })
+  })
+
+  it('settles first-time subject completion even when no answer points were earned', () => {
+    expect(getQuizResultAwardState({
+      pointsEarned: 0,
+      subjectWasAlreadyDone: false,
+      awardSettled: false,
+      wasAlreadyDoneAtResult: false,
+    })).toMatchObject({
+      displayPoints: 0,
+      shouldAwardPoints: false,
+      shouldSettleSubjectCompletion: true,
+      shouldShowAlreadyDoneNotice: false,
+      wasAlreadyDoneAtResult: false,
     })
   })
 })
@@ -102,6 +119,19 @@ describe('countSubjects', () => {
       { subject: 'chinese' },
       { subject: 'science' },
     ])).toEqual({ chinese: 1, math: 2, english: 0 })
+  })
+})
+
+describe('getSubjectsNeedingCompletionSync', () => {
+  it('finds subjects with enough answered questions but missing check-in completion', () => {
+    expect(getSubjectsNeedingCompletionSync(
+      { chinese_done: false, math_done: true, english_done: false },
+      { chinese: 10, math: 10, english: 9 },
+    )).toEqual(['chinese'])
+  })
+
+  it('does not request sync before today check-in exists', () => {
+    expect(getSubjectsNeedingCompletionSync(null, { chinese: 10, math: 10, english: 10 })).toEqual([])
   })
 })
 

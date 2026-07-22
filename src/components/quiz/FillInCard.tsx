@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { QuizProgressBar } from './QuizProgressBar'
+import { ExplanationPanel } from './ExplanationPanel'
+import type { Subject } from '../../lib/constants'
 import type { Database } from '../../lib/database.types'
 
 type Question = Database['public']['Tables']['questions']['Row']
@@ -49,9 +51,14 @@ export function FillInCard({ question, questionNumber, totalQuestions, onAnswer 
         )}
         {result && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
-            className={`mt-4 p-3 rounded-xl text-sm ${result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-            {result === 'correct' ? '太棒了!' : <>正确答案是: <strong>{content.answer}</strong></>}
-            <p className="mt-1">{content.explanation}</p>
+            className="overflow-hidden">
+            <ExplanationPanel
+              result={result}
+              questionType="fill"
+              subject={question.subject as Subject}
+              content={content}
+              selectedAnswer={input.trim()}
+            />
           </motion.div>
         )}
       </motion.div>
