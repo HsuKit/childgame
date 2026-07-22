@@ -3,6 +3,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from '../stores/authStore'
+import { getPkResultState } from '../lib/pkUtils'
 
 export default function PkResultPage() {
   const [params] = useSearchParams()
@@ -13,18 +14,33 @@ export default function PkResultPage() {
 
   useEffect(() => {
     if (!challengeId) { navigate('/pk'); return }
-    supabase.from('pk_challenges').select('*').eq('id', challengeId).single()
-      .then(({ data }) => setData(data))
+    let active = true
+    let timer: ReturnType<typeof setTimeout> | undefined
+
+    const load = async () => {
+      const { data } = await supabase.from('pk_challenges').select('*').eq('id', challengeId).single()
+      if (!active) return
+      setData(data)
+      if (data?.creator_score === null || data?.opponent_score === null) {
+        timer = setTimeout(load, 2000)
+      }
+    }
+
+    load()
+    return () => {
+      active = false
+      if (timer) clearTimeout(timer)
+    }
   }, [challengeId, navigate])
 
   if (!data) return <div className="p-6 text-center animate-pulse text-4xl">⚔️</div>
 
-  const isCreator = data.creator_id === userId
-  const myScore = isCreator ? data.creator_score : data.opponent_score
-  const oppScore = isCreator ? data.opponent_score : data.creator_score
-  const oppDone = data.opponent_score !== null
-  const iWon = oppDone && myScore !== null && oppScore !== null && myScore > oppScore
-  const tie = oppDone && myScore === oppScore
+  const { myScore, oppScore, oppDone, iWon, tie } = getPkResultState({
+    creatorId: data.creator_id,
+    currentUserId: userId,
+    creatorScore: data.creator_score,
+    opponentScore: data.opponent_score,
+  })
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6">
