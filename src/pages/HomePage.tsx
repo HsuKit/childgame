@@ -7,9 +7,11 @@ import { usePointsStore } from '../stores/pointsStore'
 import { useQuizStore } from '../stores/quizStore'
 import { useAuthStore } from '../stores/authStore'
 import { useMistakeStore } from '../stores/mistakeStore'
+import { useWishStore } from '../stores/wishStore'
 import { CompanionDisplay } from '../components/companion/CompanionDisplay'
 import { DailyTaskCard } from '../components/quiz/DailyTaskCard'
 import { StreakBadge } from '../components/checkin/StreakBadge'
+import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
 import type { Subject } from '../lib/constants'
 
@@ -18,6 +20,7 @@ export default function HomePage() {
   const fetchCompanion = useCompanionStore(s => s.fetchCompanion)
   const { today, fetchToday } = useCheckinStore()
   const { balance, fetchBalance } = usePointsStore()
+  const { balance: wishBalance, rewards: wishRewards, redemptions: wishRedemptions, fetchWishData } = useWishStore()
   const { getTodayStats } = useQuizStore()
   const { mistakes, fetchMistakes } = useMistakeStore()
   const profile = useAuthStore(s => s.profile)
@@ -26,10 +29,10 @@ export default function HomePage() {
   const [challengeDone, setChallengeDone] = useState(false)
 
   useEffect(() => {
-    void Promise.all([fetchCompanion(), fetchToday(), fetchBalance()]).catch(() => {
+    void Promise.all([fetchCompanion(), fetchToday(), fetchBalance(), fetchWishData()]).catch(() => {
       // Individual sections keep their safe initial state when a request fails.
     })
-  }, [fetchCompanion, fetchToday, fetchBalance])
+  }, [fetchCompanion, fetchToday, fetchBalance, fetchWishData])
 
   useEffect(() => {
     if (!userId) return
@@ -53,6 +56,17 @@ export default function HomePage() {
 
   const needsCorrectionCount = mistakes.filter(item => item.status === 'needs_correction').length
   const reinforcingCount = mistakes.filter(item => item.status === 'reinforcing').length
+  const hasActiveWish = wishRedemptions.some(item => (
+    item.status === 'pending_parent_review' || item.status === 'approved_pending_fulfillment'
+  ))
+  const lowestWishCost = wishRewards.reduce<number | null>((lowest, reward) => (
+    lowest === null ? reward.cost : Math.min(lowest, reward.cost)
+  ), null)
+  const wishProgressText = hasActiveWish
+    ? '有愿望正在等待爸妈确认'
+    : lowestWishCost !== null
+      ? `最近的小愿望需要 ${Math.max(0, lowestWishCost - wishBalance.available)} 枚`
+      : '完成三科练习获得愿望币'
 
   return (
     <div className="p-4 space-y-5 pb-2">
@@ -81,6 +95,21 @@ export default function HomePage() {
 
       {/* Companion */}
       <CompanionDisplay />
+
+      <motion.button
+        whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+        onClick={() => navigate('/wish-shop')}
+        className="w-full rounded-3xl bg-gradient-to-r from-purple-50 via-pink-50 to-amber-50 p-4 text-left shadow-sm shadow-purple-100/50 border border-purple-100"
+      >
+        <div className="flex min-w-0 items-center gap-3">
+          <span className="shrink-0 text-3xl">🎁</span>
+          <div className="min-w-0 flex-1">
+            <p className="font-extrabold text-kid-text">愿望商店</p>
+            <p className="mt-1 break-words text-xs font-bold text-purple-500">{wishProgressText}</p>
+          </div>
+          <WishBalanceBadge available={wishBalance.available} frozen={wishBalance.frozen} />
+        </div>
+      </motion.button>
 
       {/* Challenge */}
       {!challengeDone && (

@@ -9,6 +9,7 @@ import QuizResultPage from './pages/QuizResultPage'
 import ChallengePage from './pages/ChallengePage'
 import ChallengeResultPage from './pages/ChallengeResultPage'
 import ShopPage from './pages/ShopPage'
+import WishShopPage from './pages/WishShopPage'
 import CheckInPage from './pages/CheckInPage'
 import ProfilePage from './pages/ProfilePage'
 import LeaderboardPage from './pages/LeaderboardPage'
@@ -33,6 +34,7 @@ export default function App() {
             <Route path="/challenge" element={<ChallengePage />} />
             <Route path="/challenge/result" element={<ChallengeResultPage />} />
             <Route path="/shop" element={<ShopPage />} />
+            <Route path="/wish-shop" element={<WishShopPage />} />
             <Route path="/checkin" element={<CheckInPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/leaderboard" element={<LeaderboardPage />} />
