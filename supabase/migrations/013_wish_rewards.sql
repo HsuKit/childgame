@@ -1,5 +1,5 @@
 create table public.wish_coin_transactions (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid not null references public.profiles(id) on delete cascade,
   amount int not null,
   type text not null check (type in ('earn', 'freeze', 'release', 'spend')),
@@ -13,7 +13,7 @@ create table public.wish_coin_transactions (
 );
 
 create table public.wish_rewards (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid references public.profiles(id) on delete cascade,
   name text not null,
   description text not null default '',
@@ -30,7 +30,7 @@ create table public.wish_rewards (
 );
 
 create table public.wish_redemptions (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid not null references public.profiles(id) on delete cascade,
   reward_id uuid references public.wish_rewards(id) on delete set null,
   reward_name text not null,
@@ -45,7 +45,7 @@ create table public.wish_redemptions (
 );
 
 create table public.reward_diary_entries (
-  id uuid primary key default uuid_generate_v4(),
+  id uuid primary key default gen_random_uuid(),
   user_id uuid not null references public.profiles(id) on delete cascade,
   entry_type text not null check (entry_type in ('wish_fulfilled', 'streak_keepsake', 'companion_milestone')),
   title text not null,
@@ -201,7 +201,7 @@ declare
   v_user_id uuid;
   v_reward public.wish_rewards%rowtype;
   v_balance record;
-  v_redemption_id uuid := uuid_generate_v4();
+  v_redemption_id uuid := gen_random_uuid();
   v_redemption public.wish_redemptions%rowtype;
 begin
   v_user_id := auth.uid();
