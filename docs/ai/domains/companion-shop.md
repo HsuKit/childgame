@@ -19,8 +19,8 @@
 7. 稀有/传奇伙伴还受前端 unlock chain 约束：minotaur → valkyrie → golem → reaper → angel，后一项要求前一伙伴三套外观都已购买。
 8. 商城页按当前伙伴的三套 `outfitVariants` 展示外观；默认免费，第二、三套分别按 200、300 积分购买。
 9. 武器首次购买扣 200 积分并写 `weapon_purchased`、`weapon_sword`；之后可免费装备/卸下。
-10. 答题结果通过 `addExp()` 增加经验；等级阈值来自前端常量，5/10/20 级跨越时提升进化阶段并显示庆祝。
-11. 点击或键盘激活伙伴只产生心形/星星交互和 sprite 动画，不写心情、经验或积分。
+10. 答题结果通过 `addExp()` 增加经验；`LEVEL_THRESHOLDS` 只有索引 0–19，循环把等级上限限制为 19，因此 5/10 级进化可达，`getEvolutionStage()` 定义的 `level >= 20` 第四阶段当前不可达。
+11. 指针点击会产生心形/星星并触发 sprite 的 throw/attack 动画；Enter/Space 键盘激活只产生心形/星星，不触发 sprite action。两种交互都不写心情、经验或积分。
 
 ## 代码与数据定位
 
@@ -79,7 +79,7 @@ COMPANION_TYPES + public/assets/companions
 - `companions.user_id` 必须归属当前 `auth.uid()`；伙伴类型必须同时存在于前端配置和 `companion_types`，否则插入会触发外键或 UI 缺定义。
 - 新增伙伴至少要同步 `src/data/companionTypes.ts`、对应 `public/assets/companions/` variant/动画路径，以及新的有序 `companion_types` 迁移；还要决定是否加入 chain。
 - `owned_<type>` 是当前“永久拥有”的唯一前端标记，存放在 `equipped_items` JSON，不是独立数据库关系或约束。
-- 已拥有伙伴免费切换；未拥有伙伴在 `CompanionPage` 固定扣 500，不使用目标 `unlockCost` 作为实际扣款额。`unlockCost` 只参与展示、余额可见性和 chain 解锁。
+- 已拥有伙伴免费切换；未拥有伙伴在 `CompanionPage` 固定扣 500，不使用目标 `unlockCost` 作为实际扣款额。`unlockCost` 用于识别免费 starter、按余额筛选可见的可切换伙伴和展示所需积分；unlock chain 是随后独立计算的前置伙伴外观条件，`unlockCost` 不参与 chain 判定。
 - `/companion/select` 对已有伙伴直接走 `createCompanion()` update，可在三个 starter 间切换且重置成长；`CompanionPage` 对未拥有 starter 却会要求 500。两个入口的切换规则不一致。
 - `createCompanion()` 的 existing 分支不写 `owned_<newType>`，也不清理旧装备/hunger/mood；“选择页切换后是否永久拥有”没有一致保证。
 - `companions.user_id` 没有唯一约束；store 只取最新一行。若通过其他路径产生多行，更新仅作用于当前内存行。
@@ -106,7 +106,7 @@ npm run build
 - 已拥有伙伴免费切回、未拥有伙伴扣款、chain 与余额边界；
 - 购买外观前后 owned/weapon/outfit 标记不丢失；
 - 武器首次购买、卸下、免费重新装备；
-- 经验跨 5/10/20 级、进化庆祝只触发一次；
+- 经验跨 5/10 级和进化庆祝，并确认当前等级上限 19、第四阶段不可达；
 - 每个 variant 的 idle/throw/attack 和缩略图资源无 404；
 - 服务端写失败时本地余额和伙伴状态不会误报成功。
 
