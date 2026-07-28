@@ -61,6 +61,7 @@ updated: 2026-07-28
 
 ## Git 关联
 
+- `codex/ai-project-knowledge-system` 是本次 AI 项目知识体系的隔离实施分支。
 - validator 与 21 个测试：`290069c`–`073a7ad`（含链接、ledger、日期和覆盖修正）。
 - 单一入口、索引与当前记录骨架：`3e143b7`、`cc0f6aa`。
 - 核心文档和部署/结算边界：`9f2b2ea`、`9fde1d7`。
