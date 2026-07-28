@@ -130,6 +130,18 @@ function localLinks(markdown) {
 
   for (const match of markdown.matchAll(linkPattern)) {
     let target = match[1].trim()
+    if (target.startsWith('<')) {
+      const closingBracket = target.indexOf('>')
+      if (closingBracket !== -1) {
+        target = target.slice(1, closingBracket)
+      }
+    } else {
+      target = target.replace(
+        /\s+(?:"[^"]*"|'[^']*'|\([^)]*\))\s*$/,
+        '',
+      )
+    }
+
     if (
       !target ||
       target.startsWith('#') ||
@@ -141,9 +153,6 @@ function localLinks(markdown) {
     }
 
     target = target.split('#', 1)[0].trim()
-    if (target.startsWith('<') && target.endsWith('>')) {
-      target = target.slice(1, -1)
-    }
     if (target) {
       targets.push(target)
     }

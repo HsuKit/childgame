@@ -110,6 +110,24 @@ test('complete indexed documentation fixture is valid', (t) => {
   assert.deepEqual(validateDocs(root), [])
 })
 
+test('accepts angle-bracket and titled local Markdown links', (t) => {
+  const root = createFixture(t)
+  writeFixtureFile(root, 'docs/ai/existing.md', '# Existing\n')
+  writeFixtureFile(
+    root,
+    'docs/ai/project-overview.md',
+    [
+      '# Project overview',
+      '',
+      '[Angle bracket](<./existing.md#existing>)',
+      '[Optional title](./existing.md "Existing document")',
+      '',
+    ].join('\n'),
+  )
+
+  assert.deepEqual(validateDocs(root), [])
+})
+
 test('reports an iteration missing from the ledger', (t) => {
   const root = createFixture(t)
   writeFixtureFile(root, 'docs/ai/iterations/README.md', '# Iterations\n')
