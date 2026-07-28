@@ -10,11 +10,12 @@ import {
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { main } from '../generate-seed-sql.mjs'
+import * as generator from '../generate-seed-sql.mjs'
 
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../..')
 const migrationDirectory = join(repositoryRoot, 'supabase/migrations')
 const legacyDefault = join(migrationDirectory, '006_seed_validated_questions.sql')
+const { assertSafeOutput, main } = generator
 
 function caughtError(run) {
   try {
@@ -70,6 +71,24 @@ test('refuses to overwrite an existing numbered migration even with --force', ()
     const error = caughtError(() => main(['--output', output, '--force']))
 
     assert.match(error?.message ?? '', /create a new migration/i)
+    assert.equal(readFileSync(output, 'utf8'), sentinel)
+  } finally {
+    rmSync(output, { force: true })
+  }
+})
+
+test('atomically refuses a migration created after the preflight check', () => {
+  const output = join(migrationDirectory, '999_test_racing_question_migration.sql')
+  const sentinel = '-- concurrently created migration must remain unchanged\n'
+  assert.equal(existsSync(output), false, 'migration fixture must not already exist')
+
+  try {
+    assertSafeOutput(output)
+    writeFileSync(output, sentinel, 'utf8')
+
+    const error = caughtError(() => generator.writeGeneratedSql(output, '-- generated sql\n', false))
+
+    assert.match(error?.message ?? '', /create a new migration|EEXIST/i)
     assert.equal(readFileSync(output, 'utf8'), sentinel)
   } finally {
     rmSync(output, { force: true })

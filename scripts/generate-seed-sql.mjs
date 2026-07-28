@@ -6,6 +6,7 @@ import { auditQuestionSet } from './lib/question-audit.mjs'
 import { renderQuestionMigration } from './lib/question-sql.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const migrationDirectory = join(root, 'supabase/migrations')
 
 export function argumentsFrom(argv) {
   const outputIndex = argv.indexOf('--output')
@@ -20,18 +21,38 @@ export function argumentsFrom(argv) {
   }
 }
 
+export function isMigrationPath(output) {
+  const relativePath = relative(migrationDirectory, resolve(output))
+  return relativePath === ''
+    || (!isAbsolute(relativePath) && relativePath !== '..' && !relativePath.startsWith(`..${sep}`))
+}
+
+function existingMigrationError(output) {
+  return new Error(`Refusing to overwrite existing migration ${output}; create a new migration with the next available number.`)
+}
+
 export function assertSafeOutput(output, force = false) {
   if (!existsSync(output)) return
 
-  const migrationDirectory = join(root, 'supabase/migrations')
-  const relativePath = relative(migrationDirectory, output)
-  const isMigrationPath = relativePath === ''
-    || (!isAbsolute(relativePath) && relativePath !== '..' && !relativePath.startsWith(`..${sep}`))
-  if (isMigrationPath) {
-    throw new Error(`Refusing to overwrite existing migration ${output}; create a new migration with the next available number.`)
+  if (isMigrationPath(output)) {
+    throw existingMigrationError(output)
   }
   if (!force) {
     throw new Error(`Refusing to overwrite ${output}; pass --force to replace it.`)
+  }
+}
+
+export function writeGeneratedSql(output, contents, force = false) {
+  const migration = isMigrationPath(output)
+  const flag = force && !migration ? 'w' : 'wx'
+  try {
+    writeFileSync(output, contents, { encoding: 'utf8', flag })
+  } catch (error) {
+    if (error && typeof error === 'object' && error.code === 'EEXIST') {
+      if (migration) throw existingMigrationError(output)
+      throw new Error(`Refusing to overwrite ${output}; pass --force to replace it.`)
+    }
+    throw error
   }
 }
 
@@ -84,7 +105,7 @@ export function main(argv = process.argv.slice(2)) {
   if (manifest?.expectedApproved !== undefined && approvedCount !== manifest.expectedApproved) {
     throw new Error(`Release ${manifest.name ?? options.manifest} expected ${manifest.expectedApproved} approved questions, found ${approvedCount}.`)
   }
-  writeFileSync(options.output, renderQuestionMigration(result.questions), 'utf8')
+  writeGeneratedSql(options.output, renderQuestionMigration(result.questions), options.force)
   return { output: options.output, count: approvedCount }
 }
 

@@ -50,7 +50,7 @@ Supabase 承担认证、数据库、RLS、数据库函数和 Edge Function。仓
 
 ## 题库
 
-- [`data/questions/` canonical JSON](./docs/ai/domains/quiz-question-bank.md#题库内容流) 是唯一内容源，当前共有 2,520 题，覆盖 1–6 年级语文、数学、英语 18 个年级-学科组合。
+- [`data/questions/` canonical JSON](./docs/ai/domains/quiz-question-bank.md#数据与状态流) 是唯一内容源，当前共有 2,520 题，覆盖 1–6 年级语文、数学、英语 18 个年级-学科组合。
 - 本地审核、校验、发布迁移和下架步骤见[题库维护与发布手册](./docs/question-bank-workflow.md)。
 - 运行时答题从 Supabase 静态题库读取。仓库存在 AI 出题 Edge Function 源码，但当前答题流程不依赖运行时 AI 出题。
 
