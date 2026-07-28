@@ -45,7 +45,7 @@ migration 文件和 release manifest 只能证明发布材料存在，不能证�
 
 ## Git 关联
 
-- 设计、基础设施与运行时：`187678f^..2865a47`；关键提交为 `8ed1e48`（schema）、`b0c594a`（audit）、`6c8e11c`（幂等 SQL）、`b2e9ef8`（metadata）、`aec1d2b`（非破坏发布）、`e0c861e`（组卷）、`5db3dce`（repository）、`ddfd342`（练习与挑战接入）。
+- 设计、基础设施与运行时：`187678f^..2865a47`；关键提交为 `8ed1e48`（schema）、`b0c594a`（audit）、`6c8e11c`（幂等 SQL）、`299069b`（validation report CLI）、`b2e9ef8`（metadata）、`aec1d2b`（非破坏发布）、`e0c861e`（组卷）、`5db3dce`（repository）、`ddfd342`（练习与挑战接入）、`2865a47`（offline workflow 文档）。
 - 二年级：`6d5607a^..6750ab6`，另含阶段兼容修复 `7027933`；依次对应盘点、规范化、策划、批准、migration 和 staged migration 保护。
 - 其余年级：`c4560af^..f5616f4`；关键发布提交为 `3a4aee8`（三年级）、`f963ff0`（四年级）、`8f03142`（五年级）、`78ed40f`（六年级）、`f5616f4`（一年级）。
 - 上述仅按能力分组定位本记录依据的提交：范围表达式可能包含区间内的无关 chore，关键提交列表也不声称枚举连续历史中的每个提交；任务指定的能力相关提交均可由这些分组定位。本记录不关联 2026-07-28 的临时工作分支。

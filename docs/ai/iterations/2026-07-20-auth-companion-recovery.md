@@ -25,7 +25,7 @@ Supabase 不可用时，旧认证守卫可能在匿名登录尚未成功时放�
 - `initAuth` 成为单一启动入口：先读取 session；没有 session 时等待匿名登录；得到用户后以 `maybeSingle` 读取 profile；根据 profile 是否存在进入应用或建档。任一步错误都会关闭业务 gate、保存安全的中文错误，并在 `finally` 恢复加载状态。
 - `GuestGate` 移除第二个匿名登录 effect，仅按 loading、error、已认证新用户和“用户加 profile”状态渲染；错误面板允许重新执行 `initAuth`，避免重复登录请求和未认证放行。
 - 年级建档与伙伴取名在提交期间禁用重复操作，用 `try/catch/finally` 展示可重试错误并恢复按钮。profile 插入后会检查回读错误；伙伴读取会在 `finally` 结束 loading 并传播查询错误。
-- 伙伴创建会拒绝未知类型；已加载到 store 的伙伴采用更新而非再次插入，降低普通重试产生重复伙伴的风险。migration `004_sync_companion_types.sql` 以 `on conflict (id) do update` 同步八个前端伙伴类型。
+- 伙伴创建在本阶段新增未知类型校验。已加载到 store 的伙伴采用更新而非再次插入，是 `b45590e` 父提交中已经存在的部分防重复上下文，不是本阶段引入的成果。migration `004_sync_companion_types.sql` 以 `on conflict (id) do update` 同步八个前端伙伴类型。
 
 ## 决策与原因
 
@@ -37,7 +37,7 @@ Supabase 不可用时，旧认证守卫可能在匿名登录尚未成功时放�
 
 ## 风险与遗留
 
-实现没有增加 `onAuthStateChange` 订阅，也没有完成手机号认证。profile 或伙伴写入若已在远端成功、但客户端在响应或回读阶段失败，当前提交没有幂等键或事务来完整消除再次提交的重复/冲突风险；重新启动后可通过 session/profile 或最新伙伴读取恢复，但同一界面内的所有部分成功情形并未被证明。migration 文件存在不等于已在 Supabase 执行，且没有保留当时远端执行日志。
+实现没有增加 `onAuthStateChange` 订阅，也没有完成手机号认证。profile 或伙伴写入若已在远端成功、但客户端在响应或回读阶段失败，当前提交没有幂等键或事务来完整消除再次提交的重复/冲突风险；重新启动后可通过 session/profile 或最新伙伴读取恢复，但同一界面内的所有部分成功情形并未被证明。父提交中既有的伙伴 update 路径会同时把 `level`、`exp`、`evolution_stage` 重置为 `1`、`0`、`1`，在已有伙伴上再次走创建流程可能覆盖进度，本阶段未修复该风险。migration 文件存在不等于已在 Supabase 执行，且没有保留当时远端执行日志。
 
 ## Git 关联
 
