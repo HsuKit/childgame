@@ -66,6 +66,29 @@ function displayPath(root, path) {
   return relative(root, path).split('\\').join('/')
 }
 
+function isValidDate(value) {
+  const match =
+    typeof value === 'string'
+      ? value.match(/^(\d{4})-(\d{2})-(\d{2})$/)
+      : null
+  if (!match) {
+    return false
+  }
+
+  const [, yearText, monthText, dayText] = match
+  const year = Number(yearText)
+  const month = Number(monthText)
+  const day = Number(dayText)
+  const date = new Date(0)
+  date.setUTCFullYear(year, month - 1, day)
+
+  return (
+    date.getUTCFullYear() === year &&
+    date.getUTCMonth() === month - 1 &&
+    date.getUTCDate() === day
+  )
+}
+
 function parseFrontMatter(markdown) {
   const lines = markdown.split(/\r?\n/)
   if (lines[0]?.trim() !== '---') {
@@ -286,6 +309,11 @@ function validateIterations(root, errors) {
       errors.push(`${prefix}: invalid iteration filename`)
     } else {
       const [, year, month, day, slug] = filenameMatch
+      if (!isValidDate(`${year}-${month}-${day}`)) {
+        errors.push(
+          `${prefix}: filename date must be YYYY-MM-DD and a valid calendar date`,
+        )
+      }
       const expectedId = `ITER-${year}${month}${day}-${slug.toUpperCase()}`
       if (frontMatter.id !== expectedId) {
         errors.push(`${prefix}: id must be ${expectedId}`)
@@ -327,11 +355,10 @@ function validateIterations(root, errors) {
     }
 
     for (const field of ['created', 'updated']) {
-      if (
-        typeof frontMatter[field] !== 'string' ||
-        !/^\d{4}-\d{2}-\d{2}$/.test(frontMatter[field])
-      ) {
-        errors.push(`${prefix}: ${field} must be YYYY-MM-DD`)
+      if (!isValidDate(frontMatter[field])) {
+        errors.push(
+          `${prefix}: ${field} must be YYYY-MM-DD and a valid calendar date`,
+        )
       }
     }
 

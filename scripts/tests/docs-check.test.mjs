@@ -32,14 +32,22 @@ const REQUIRED_FILES = [
   'docs/ai/iterations/_template.md',
 ]
 
-function iterationMarkdown({ validation = 'node 测试通过' } = {}) {
+function iterationMarkdown({
+  id = 'ITER-20260728-DOCS-SYSTEM',
+  title = 'AI 项目知识体系',
+  status = 'completed',
+  domains = '[documentation]',
+  created = '2026-07-28',
+  updated = '2026-07-28',
+  validation = 'node 测试通过',
+} = {}) {
   return `---
-id: ITER-20260728-DOCS-SYSTEM
-title: AI 项目知识体系
-status: completed
-domains: [documentation]
-created: 2026-07-28
-updated: 2026-07-28
+id: ${id}
+title: ${title}
+status: ${status}
+domains: ${domains}
+created: ${created}
+updated: ${updated}
 ---
 
 ## 背景与目标
@@ -102,6 +110,18 @@ function createFixture(t) {
   )
 
   return root
+}
+
+function replaceFixtureIteration(root, filename, markdown) {
+  if (filename !== ITERATION_FILE) {
+    rmSync(join(root, 'docs/ai/iterations', ITERATION_FILE))
+  }
+  writeFixtureFile(root, `docs/ai/iterations/${filename}`, markdown)
+  writeFixtureFile(
+    root,
+    'docs/ai/iterations/README.md',
+    `# Iterations\n\n- [Current](./${filename})\n`,
+  )
 }
 
 test('complete indexed documentation fixture is valid', (t) => {
@@ -237,6 +257,42 @@ test('reports duplicate iteration ids', (t) => {
       error.includes('duplicate iteration id'),
     ),
   )
+})
+
+test('accepts valid leap-day dates', (t) => {
+  const root = createFixture(t)
+  const filename = '2024-02-29-leap-day.md'
+  replaceFixtureIteration(
+    root,
+    filename,
+    iterationMarkdown({
+      id: 'ITER-20240229-LEAP-DAY',
+      created: '2024-02-29',
+      updated: '2024-02-29',
+    }),
+  )
+
+  assert.deepEqual(validateDocs(root), [])
+})
+
+test('reports impossible filename and front matter dates', (t) => {
+  const root = createFixture(t)
+  const filename = '2026-13-40-docs-system.md'
+  replaceFixtureIteration(
+    root,
+    filename,
+    iterationMarkdown({
+      id: 'ITER-20261340-DOCS-SYSTEM',
+      created: '2026-13-40',
+      updated: '2023-02-29',
+    }),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${filename}: created must be YYYY-MM-DD and a valid calendar date`,
+    `docs/ai/iterations/${filename}: filename date must be YYYY-MM-DD and a valid calendar date`,
+    `docs/ai/iterations/${filename}: updated must be YYYY-MM-DD and a valid calendar date`,
+  ])
 })
 
 test('reports missing targets for every supported inline link syntax', (t) => {
