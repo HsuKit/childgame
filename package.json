@@ -10,7 +10,8 @@
     "test": "vitest run --exclude 'scripts/tests/**/*'",
     "test:questions": "node --test scripts/tests/*.test.mjs",
     "questions:validate": "node scripts/validate-questions.mjs",
-    "questions:sql": "node scripts/generate-seed-sql.mjs"
+    "questions:sql": "node scripts/generate-seed-sql.mjs",
+    "docs:check": "node scripts/check-docs.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",

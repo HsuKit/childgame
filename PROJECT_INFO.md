@@ -1,12 +1,14 @@
 # 知识冒险 · 项目手册
 
+> AI 开发上下文、完整架构、目录职责和迭代历史统一维护在 [docs/ai/README.md](./docs/ai/README.md)。本文件只保留面向人的快速操作手册。
+
 ## 项目信息
 
 | 项目 | 链接 |
 |------|------|
-| 🔗 线上地址 | https://dulcet-snickerdoodle-840189.netlify.app |
-| 📦 GitHub | https://github.com/HsuKit/childgame |
-| 🗄️ Supabase | https://supabase.com/dashboard/project/mykculgjrlmwfsyrcroe |
+| 🔗 Netlify 记录地址 | [dulcet-snickerdoodle-840189.netlify.app](https://dulcet-snickerdoodle-840189.netlify.app) |
+| 📦 GitHub | [HsuKit/childgame](https://github.com/HsuKit/childgame) |
+| 🗄️ Supabase 控制台 | [supabase.com/dashboard](https://supabase.com/dashboard) |
 
 ## 技术栈
 
@@ -22,81 +24,44 @@ npm run dev        # 开发服务器 http://localhost:5173
 ```
 
 环境变量在 `.env` 文件（不上传 git）：
-```
-VITE_SUPABASE_URL=https://mykculgjrlmwfsyrcroe.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOi...
+
+```dotenv
+VITE_SUPABASE_URL=<Supabase project URL>
+VITE_SUPABASE_ANON_KEY=<Supabase anon key>
 ```
 
 ## 上线流程
 
-改完代码后：
-```bash
-git add -A
-git commit -m "fix: 描述修改内容"
-git push
-```
-Netlify 自动检测 GitHub 推送 → 自动构建 → 自动上线。**不需要手动部署**。
+当前手册记录的前端发布路径是 Git push 触发 Netlify 构建；仓库中的 [`netlify.toml`](./netlify.toml) 规定执行 `npm run build`、发布 `dist` 并支持 SPA 路由。仓库无法独立验证远端 Git 连接和自动发布仍然有效，推送前后都应在 Netlify 项目中核对连接、环境变量和最近构建状态。
+
+Supabase 承担认证、数据库、RLS、数据库函数和 Edge Function。仓库也有 [`vercel.json`](./vercel.json)，但配置存在不代表 Vercel 是当前生产平台。更完整的运行边界见[项目概览](./docs/ai/project-overview.md#部署)。
 
 ## 数据库变更
 
-题库更新、表结构修改等直接在 Supabase SQL Editor 执行 SQL，不需要重新部署前端。
+表结构、RLS、RPC 和题库运行副本的变更都应在 `supabase/migrations/` 新增下一个有序 migration。先审查并在测试环境按顺序执行、验证可重放性与业务行为，再依发布流程应用到目标环境；不要修改已应用的迁移，也不要把临时 SQL 或 AI 生成 SQL 直接粘贴到生产。
 
-```
-Supabase 后台 → SQL Editor → 粘贴 SQL → Run
-```
+若发布流程需要使用 Supabase SQL Editor，只执行已经审查的 migration，并保留执行目标、时间、版本和结果记录。
 
 ## Supabase 配置
 
-- **Authentication → Settings**: Anonymous Sign-ins 必须开启
-- **Authentication → Settings → Site URL**: `https://dulcet-snickerdoodle-840189.netlify.app`
-- **Database → Tables**: 所有表已配置 RLS（行级安全策略）
+- 托管环境需要配置 `VITE_SUPABASE_URL` 和 `VITE_SUPABASE_ANON_KEY`。
+- 匿名认证、Site URL、RLS 与函数权限需要在目标 Supabase 项目中按发布清单核对；不要仅凭仓库文档推断远端状态。
+- 数据层的当前边界和已知风险见[架构文档](./docs/ai/architecture.md#数据层)。
 
 ## 题库
 
-- 语数英各年级共 360+ 道选择题，支持填空、连线、数独题型
-- 数学使用数据库随机抽题（不再使用前端生成器）
-- 题库 SQL 在 `supabase/migrations/` 目录
-- AI 出题 Edge Function 已部署但暂未启用
+- [`data/questions/` canonical JSON](./docs/ai/domains/quiz-question-bank.md#题库内容流) 是唯一内容源，当前共有 2,520 题，覆盖 1–6 年级语文、数学、英语 18 个年级-学科组合。
+- 本地审核、校验、发布迁移和下架步骤见[题库维护与发布手册](./docs/question-bank-workflow.md)。
+- 运行时答题从 Supabase 静态题库读取。仓库存在 AI 出题 Edge Function 源码，但当前答题流程不依赖运行时 AI 出题。
 
 ## 伙伴系统
 
-- 基于 Craftpix.net 免费 Chibi 角色素材
-- 3 种初始伙伴：小游侠 / 小战士 / 小法师（免费切换）
-- 每种有 3 套外观（默认/进阶/传说），积分购买
-- 武器系统（200 积分解锁），点击伙伴触发攻击/投掷动画
-- 所有素材在 `public/assets/companions/`
-- 角色新增时更新 `src/data/companionTypes.ts` + Supabase `companion_types` 表
-
-## 项目结构
-
-```
-src/
-  components/   # 可复用组件
-    companion/  # 伙伴相关（ChibiComposer, InteractiveCompanion等）
-    quiz/       # 答题相关（QuizCard, MatchCard, GridPuzzleCard等）
-    auth/       # 登录相关
-    shop/       # 商城相关
-    layout/     # 布局（BottomNav, AppLayout）
-  pages/        # 页面
-  stores/       # Zustand 状态管理
-  lib/          # 工具函数和常量
-  data/         # 配置数据
-public/
-  assets/companions/  # Craftpix 角色素材（15角色 × 动画帧）
-```
-
-## 部署平台
-
-| 平台 | 用途 |
-|------|------|
-| Netlify | 前端部署（自动从 GitHub 构建） |
-| Supabase | 后端（数据库 + 认证 + RLS） |
-| GitHub | 代码仓库 |
+伙伴的当前角色、资产、切换、购买与持久化边界见[伙伴与商城业务域](./docs/ai/domains/companion-shop.md)。新增或修改伙伴时按该文档定位前端配置、素材和数据库影响，不在本快速手册重复易漂移的角色清单。
 
 ## 日常维护 checklist
 
-- [ ] 更新题库：SQL Editor 直接 INSERT
-- [ ] 改代码：本地 `npm run dev` 测试 → commit → push → 自动上线
-- [ ] 改数据库：SQL Editor 执行 SQL 或 migration
-- [ ] 新增伙伴素材：放入 `public/assets/companions/` + 更新 `companionTypes.ts`
-- [ ] 改环境变量：在 Netlify 后台 Site settings → Environment variables
+- [ ] 数据库变更：新增有序 migration，完成审查、测试库验证和发布记录。
+- [ ] 题库变更：更新 canonical JSON，运行 `npm run test:questions` 与 `npm run questions:validate`，再审查生成的新 migration。
+- [ ] 代码变更：运行 `npm test` 和 `npm run build`；按改动风险补充目标流程验证。
+- [ ] 文档变更：运行 `npm run docs:check`。
+- [ ] 推送前：检查 diff、敏感信息和托管环境变量；推送后在实际平台确认构建与发布状态。

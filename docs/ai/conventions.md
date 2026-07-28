@@ -65,7 +65,7 @@ node --test scripts/tests/question-sql.test.mjs
 | 题库内容/schema/audit/release | `npm run test:questions`、`npm run questions:validate` | `npm run questions:sql -- --output <新迁移>` 后审查 diff |
 | migration / RLS / RPC | 相关 Node/Vitest、`npm run build` | 测试数据库按序执行、重复执行、own/other-user 权限与并发测试 |
 | 部署配置 | `npm run build` | 平台预览、SPA 深链和公开环境变量检查 |
-| AI 文档体系 | `node --test scripts/tests/docs-check.test.mjs` | `npm run docs:check`（知识体系完成并加入 `package.json` 后启用；当前不可用） |
+| AI 文档体系 | `node --test scripts/tests/docs-check.test.mjs` | `npm run docs:check` |
 
 验证应与风险成比例；奖励、认证、RLS、迁移和题库发布不能只靠 build。
 

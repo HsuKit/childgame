@@ -39,6 +39,7 @@ npm test
 npm run test:questions
 npm run questions:validate
 npm run questions:sql
+npm run docs:check
 npm run build
 ```
 
@@ -46,7 +47,7 @@ npm run build
 - `npm run test:questions` 运行 `scripts/tests/*.test.mjs`。
 - `questions:validate` 校验 canonical 题库的结构、配额、重复和发布状态。
 - `questions:sql` 只输出审核通过的题目，且默认拒绝覆盖既有文件；实际发布时用 `--output` 指定新的、经审查的有序迁移路径。
-- `npm run docs:check` 将在本知识体系完成并把脚本加入 `package.json` 后启用；当前 `package.json` 尚无该命令，不能把它当作现有命令。
+- `npm run docs:check` 执行确定性文档校验，检查 AI 文档结构、元数据、索引和 inline Markdown 链接。
 
 本地和托管环境需要以下变量名：
 
