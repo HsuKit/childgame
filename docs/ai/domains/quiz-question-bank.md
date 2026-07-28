@@ -54,7 +54,7 @@ data/questions canonical JSON
 
 普通 10 题默认槽位是 7 choice、2 fill、1 match，难度为 5 道 1、3 道 2、2 道 3。选择顺序优先未覆盖知识点，再按未做、30 天前做过、最近 30 天做过分层；同层中较久未做优先。
 
-精确“题型 + 难度”格不足时依次降级到同题型近似难度、同难度、任意剩余题，并标记 `quota-fallback`。候选唯一题不足 10 道时返回 `insufficient-total`，store 不创建残缺会话。
+精确“题型 + 难度”格不足时，候选池依次降级为同题型、同难度、任意剩余题，并标记 `quota-fallback`。同题型候选最初会按难度距离排序，但随后 `orderedCandidates()` 会按知识点覆盖、作答历史和随机值重新排序，因此最终选题不保证是难度最接近的题。候选唯一题不足 10 道时返回 `insufficient-total`，store 不创建残缺会话。
 
 repository 每页读取 1000 行；approved 池只要有一行就不会混入 reviewed 补足，因此“approved 有但不足 10”会失败，而不是跨状态补题。
 

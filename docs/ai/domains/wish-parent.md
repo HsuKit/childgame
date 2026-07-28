@@ -88,11 +88,13 @@ pending_parent_review
 ## 不变量与已知风险
 
 - 愿望币余额只能由账本派生；不得把 Zustand 的显示余额当作写入真相。
-- 带 reference 的 `(user_id, reason, reference_id)` 唯一索引表达同一业务账本动作 exactly-once 意图；日记也有 `(user_id, entry_type, reference_id)` 唯一索引。
+- 带 reference 的 `(user_id, reason, reference_id)` 唯一索引表达同一已生成 reference 的账本动作 exactly-once 意图；日记也有 `(user_id, entry_type, reference_id)` 唯一索引。提交兑换每次生成新的 redemption UUID，因此该约束不对多次提交去重。
 - 每日奖励和兑换 RPC 使用事务级 advisory lock，按当前用户串行化余额相关动作。
 - 所有愿望 RPC 都是 `security definer`、固定 `search_path = public`、验证 `auth.uid()`/资源归属，并撤销 public/anon 后只授予 authenticated。
 - 账本金额符号由数据库约束：earn/release 为正，freeze/spend 为负。
-- 提交、批准、拒绝、兑现只接受预期前置状态并 `for update` 锁行；重复或越序调用返回“not found”类错误，而不是再次结算。
+- 提交兑换用 advisory lock 串行化当前用户的余额检查，但不读取或 `for update` 锁定既有兑换；每次调用都会生成新的 redemption UUID。只要可用余额仍足够，重复提交会创建新的待审核兑换并再次 freeze。
+- 批准和拒绝会 `for update` 锁定属于当前用户且状态为 `pending_parent_review` 的目标兑换；批准写 spend，拒绝写 release。重复调用或其他状态不会再次命中该目标。
+- 兑现会 `for update` 锁定属于当前用户且状态为 `approved_pending_fulfillment` 的目标兑换；重复调用或其他状态不会再次命中，日记唯一索引防止同一 redemption 重复写入兑现日记。
 - `cancelled` 目前只是可显示/可存储状态，没有受控迁移路径，也没有 release 逻辑；不能描述为已实现的取消流程。
 - 家长与孩子共用同一身份，孩子理论上也能打开家长路由并执行 approve/reject/fulfill；当前系统不能提供家长授权保证。
 - `wishStore.createReward()` 是 RLS 下的直接 insert，不经过 RPC；它只允许当前用户创建非 preset，但没有家长身份门禁。

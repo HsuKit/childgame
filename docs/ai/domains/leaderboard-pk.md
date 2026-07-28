@@ -18,7 +18,7 @@ PK 目前不保存自己的 `quiz_records`、不结算积分或奖励，也不�
 6. `PkQuizPage` 复用 `quizStore.startSession(subject)` 生成 10 题，并复用 `QuizCard`、`answerQuestion()`、`nextQuestion()`。
 7. 完成后页面重新读取 challenge：创建者写 `creator_score`；加入者尝试同时写 `opponent_score`、`opponent_id` 并把状态设为 `completed`。
 8. 创建者先完成且尚无 opponent 时，页面把状态保持为 `waiting`；如果当时已有 opponent，则设为 `completed`。
-9. `/pk/result` 每 2 秒读取 challenge；任一比分仍为 null 就继续轮询，双方比分都有值后显示输、赢或平局。
+9. `/pk/result` 首次读到 challenge 行就立即渲染；任一数据库比分仍为 null 时每 2 秒继续轮询。页面展示由 `getPkResultState()` 的当前用户视角决定，并不等待数据库 `status` 或双方比分都完成后才首次显示。
 
 ## 代码与数据定位
 
@@ -79,17 +79,18 @@ PK 组卷仍会查询 `questions` 和当前用户的 `quiz_records` 历史，因
 
 - 排行榜来源是正数积分收入总和，不是 `get_total_points` 的净余额；消费不会降低榜单分数。
 - 周榜是滚动 7 天，且 `since` 由客户端时钟产生。客户端时间偏差会改变查询窗口。
+- 两个排行榜函数是普通 SQL 函数，未声明 `security definer`，因此默认以调用者权限执行。仓库迁移又把 `points_transactions`、`profiles` 和 `companions` 的 SELECT RLS 限制为当前用户自己的行；在仅有这些迁移的环境中，RPC 可能只能看到调用者自己的数据，不能保证生成跨用户 Top 50。远端环境是否另有策略或函数定义未知。
 - 排行榜 RPC 的 companion 子查询没有 order；若同一用户有多行 companions，展示哪一条未定义。
 - `LeaderboardPage` 忽略两个 RPC 的 error，并使用 `any` 映射；失败会表现为空榜，无法区分真实无数据。
 - 6 位 code 由 `Math.random()` 生成，数据库唯一约束可阻止碰撞，但客户端不重试冲突，也没有过期/清理机制。
 - status 虽允许 `ongoing`，当前页面从未写入它；实际流转只有 waiting → completed，创建者先完成时仍保持 waiting。
 - 加入页面只查询 challenge，不在答题前占位或写 `opponent_id`。两个用户可以同时通过同一码进入。
-- 更严重的是，加入者完成时才尝试设置 `opponent_id`；UPDATE RLS 根据旧行检查，而旧行 `opponent_id` 仍为 null，所以加入者不在允许更新者集合中。按迁移 003，比分/对手回写会被拒绝；页面又不检查 update error，仍会跳转并无限等待。
+- 更严重的是，加入者完成时才尝试设置 `opponent_id`；UPDATE RLS 根据旧行检查，而旧行 `opponent_id` 仍为 null，所以加入者不在允许更新者集合中。按迁移 003，比分/对手回写会被拒绝；页面又不检查 update error，仍会跳转结果页。结果页读到 challenge 行后会立即渲染：若创建者分数已经存在，加入者视角可能显示“继续加油”、自己的 `?/10` 和创建者分数，同时因为数据库仍有空比分而继续轮询；若创建者分数也为空，则显示等待状态。远端策略是否已修正未知。
 - UPDATE policy 没有 `with check`，且代码没有服务端状态机函数；允许更新者能写哪些分数/状态主要靠客户端约定，数据库未限制“只能写自己的比分”。
 - `PkQuizPage` 不检查 startSession、challenge 查询和比分更新错误，也没有用户可见重试。
 - PK 复用按学科的现有 `quizStore.sessions`。如果该学科已有完成会话，页面可能直接把旧会话分数写入当前挑战；没有 challenge 级 session 隔离。
 - 双方没有共享题目快照，公平性只依赖同年级/学科组卷规则；双方年级也未校验相同。
-- 结果轮询每 2 秒持续到双方分数非空，没有超时、取消按钮、错误状态或页面可见“刷新”动作；组件卸载时才清理 timer。
+- 结果页会在 challenge 行读到后展示当前派生状态，但后台轮询仍每 2 秒持续到双方分数非空；没有超时、取消按钮、错误状态或页面可见“刷新”动作，组件卸载时才清理 timer。
 - PK 不调用 `saveQuizRecords()`、`pointsStore` 或奖励 RPC；当前不存在重复奖励风险，因为没有奖励。若未来加奖励，必须先提供 challenge/reference 唯一性和数据库原子结算。
 - `src/lib/database.types.ts` 当前未声明 `pk_challenges`、`get_weekly_leaderboard` 或 `get_total_leaderboard`；页面因此没有数据库类型契约。
 
