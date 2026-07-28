@@ -37,7 +37,7 @@ updated: 2026-07-28
 
 `40246d6` 用 `InteractiveCompanion` 和 `SpeechBubble` 加入点击反馈与状态/随机对话；`7a7d1ce` 增加阶段检测和进化庆祝；`da3d9aa` 补充空闲动画。随后 `8481339` 将 SVG 表现替换为 Craftpix chibi 分层角色，`23ebb05` 扩展角色切换、外观和配饰，`438a7e2` 改为 18 帧全身 idle sprite。`0799e60`、`f69405a`、`91d65e7` 依次尝试下一帧预加载、双帧交叉淡入和 8fps Canvas 绘制，以处理逐帧切换闪烁。
 
-`2d8150e` 把点击扩展为投掷/武器攻击，并加入武器系统和商城动作预览；`d595dc9` 增加三类伙伴及九套 variant。`11336fd` 将外观和武器改为首次购买、之后免费切换；`d2cc822` 增加锁定剪影和积分提示；`543800e` 建立 `minotaur → valkyrie → golem → reaper → angel` 解锁链，并要求前一伙伴外观齐全；`c92c1d3` 引入 `owned_*` 标记以避免切回时重复付费；`cbe1c07` 最终明确只有最初三选一免费，后续未拥有伙伴切换收取 500 积分。
+`2d8150e` 把点击扩展为投掷/武器攻击，并加入武器系统和商城动作预览；`d595dc9` 增加三类伙伴及九套 variant。`11336fd` 将外观和武器改为首次购买、之后免费切换；`d2cc822` 增加锁定剪影和积分提示。`b90d50d` 新增 `SwitchConfirmDialog`：当时对 `unlockCost > 0` 的切换目标显示 500 积分确认，并在确认后调用 `spendPoints(500, 'switch_companion')`，扣款成功才切换伙伴。`543800e` 随后建立 `minotaur → valkyrie → golem → reaper → angel` 解锁链，并要求前一伙伴外观齐全；`c92c1d3` 引入 `owned_*` 标记，使已拥有伙伴可以免费切回；`cbe1c07` 再删除 `unlockCost === 0` 的后续免费切换分支，并在首次创建伙伴时写入拥有标记，最终形成“首次三选一免费、已拥有伙伴免费切回、其他未拥有伙伴进入 500 积分确认”的实现规则。
 
 当前 `004_sync_companion_types.sql` 可证明数据库伙伴类型目录与后续前端角色 key 的同步，但它不包含 `evolution_stage` 或 `equipped_outfit` 列变更，不能作为这些字段已经完成数据库迁移的证据。
 
@@ -46,7 +46,7 @@ updated: 2026-07-28
 - 先用点击、对话、空闲动画和升级庆祝建立即时情感反馈，再逐步替换角色渲染资产，避免把交互价值绑死在单一美术方案上。
 - 在 sprite 闪帧问题上连续试验预加载、双图交叉淡入和 Canvas；提交序列表明 Canvas 8fps 是该轮最终采用的渲染方向，但不能由此推断所有设备上的视觉问题都已验证消失。
 - 用 `equipped_items` 中的 `outfit_*`、`weapon_*`、`owned_*` 标记承载购买和拥有状态，并以解锁链引导长期收集。
-- 将 2026-05-20 至 2026-05-26 的 17 个紧密提交合并记录，因为它们围绕同一伙伴互动、资产和所有权模型持续迭代；其中后续修复也反映规则是在实现过程中逐步收敛，而非规格一次性完整落地。
+- 将 2026-05-20 至 2026-05-26 的 18 个紧密提交合并记录，因为它们围绕同一伙伴互动、资产和所有权模型持续迭代；其中后续修复也反映规则是在实现过程中逐步收敛，而非规格一次性完整落地。
 
 ## 验证结果
 
@@ -76,8 +76,9 @@ updated: 2026-07-28
 - `d595dc9` — `feat: add 3 new companions — Valkyrie, Golem, Fallen Angel (9 variants)`
 - `11336fd` — `fix: outfits and weapons unlocked once, free to switch`
 - `d2cc822` — `feat: show locked companions as dark silhouettes with point costs`
+- `b90d50d` — `fix: daily points limit, challenge 200 bonus, switch confirm`
 - `543800e` — `feat: companion unlock chain — minotaur→valkyrie→golem→reaper→angel, requires prev all outfits`
 - `c92c1d3` — `fix: owned companions permanently unlocked, no re-pay on switch back`
 - `cbe1c07` — `fix: only initial 3-choose-1 is free, all later switches cost 500 points`
 
-本次历史回填位于 `codex/ai-project-knowledge-system` 分支；原始资料未提供独立 PR 或发布记录，未能确认对应关联。
+原始资料未提供独立 PR 或发布记录，未能确认对应关联。

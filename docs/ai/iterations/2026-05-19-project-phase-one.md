@@ -74,4 +74,4 @@ updated: 2026-07-28
 - `4174606` — `fix: disable auto AI question generation, rely on built-in questions`
 - `8f5e0d6` — `feat: comprehensive question bank with random selection`
 
-本次历史回填位于 `codex/ai-project-knowledge-system` 分支；原始资料未提供独立 PR 或发布记录，未能确认对应关联。
+原始资料未提供独立 PR 或发布记录，未能确认对应关联。
