@@ -12,18 +12,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “Last Friday, Mia measured the bean plants at the school garden to learn how sunlight changes plant growth. The sunny group grew more leaves. Mia will compare the new leaves tomorrow.” What is the paragraph mainly about?",
+      "stem": "Read: “Mia worked at the school garden. The sunny group grew more leaves.” What is it about?",
       "options": [
-        "Mia's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Mia's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-002",
@@ -38,7 +38,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “Last Friday, Mia measured the bean plants.” Which phrase shows a completed past action?",
+      "stem": "Read: “Mia measured the bean plants last Friday.” Which phrase shows a past action?",
       "options": [
         "will compare the new leaves tomorrow",
         "measured the bean plants",
@@ -49,7 +49,7 @@
       "explanation": "The past-time phrase and “measured the bean plants” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-003",
@@ -75,7 +75,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-004",
@@ -101,7 +101,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the tallest plant”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-005",
@@ -116,18 +116,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Mia worked to learn how sunlight changes plant growth. Fact 2: the sunny group grew more leaves. What can we reasonably infer?",
+      "stem": "Facts: Mia worked to learn how sunlight changes plant growth. The sunny group grew more leaves. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-006",
@@ -153,7 +153,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-007",
@@ -179,7 +179,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-008",
@@ -194,18 +194,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Mia must complete a growth chart. Which first step is most useful?",
+      "stem": "Mia must complete a growth chart. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that the sunny group grew more leaves"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-009",
@@ -220,18 +220,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “Yesterday afternoon, Leo sorted returned books at the community library to help younger readers find books. Readers found the story area faster. Leo will design shelf labels next week.” What is the paragraph mainly about?",
+      "stem": "Read: “Leo worked at the community library. Readers found the story area faster.” What is it about?",
       "options": [
-        "Leo's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Leo's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-010",
@@ -246,7 +246,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “Yesterday afternoon, Leo sorted returned books.” Which phrase shows a completed past action?",
+      "stem": "Read: “Leo sorted returned books yesterday afternoon.” Which phrase shows a past action?",
       "options": [
         "will design shelf labels next week",
         "sorted returned books",
@@ -257,7 +257,7 @@
       "explanation": "The past-time phrase and “sorted returned books” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-011",
@@ -283,7 +283,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-012",
@@ -309,7 +309,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the history shelf”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-013",
@@ -324,18 +324,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Leo worked to help younger readers find books. Fact 2: readers found the story area faster. What can we reasonably infer?",
+      "stem": "Facts: Leo worked to help younger readers find books. Readers found the story area faster. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-014",
@@ -361,7 +361,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-015",
@@ -387,7 +387,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-016",
@@ -402,18 +402,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Leo must make a clear library map. Which first step is most useful?",
+      "stem": "Leo must make a clear library map. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that readers found the story area faster"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-017",
@@ -428,18 +428,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “On Tuesday, Emma tested three paper bridges at the science room to discover which shape holds more coins. The folded bridge held the most coins. Emma will strengthen the best design tomorrow.” What is the paragraph mainly about?",
+      "stem": "Read: “Emma worked at the science room. The folded bridge held the most coins.” What is it about?",
       "options": [
-        "Emma's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Emma's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-018",
@@ -454,7 +454,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “On Tuesday, Emma tested three paper bridges.” Which phrase shows a completed past action?",
+      "stem": "Read: “Emma tested three paper bridges on Tuesday.” Which phrase shows a past action?",
       "options": [
         "will strengthen the best design tomorrow",
         "tested three paper bridges",
@@ -465,7 +465,7 @@
       "explanation": "The past-time phrase and “tested three paper bridges” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-019",
@@ -491,7 +491,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-020",
@@ -517,7 +517,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the folded bridge”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-021",
@@ -532,18 +532,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Emma worked to discover which shape holds more coins. Fact 2: the folded bridge held the most coins. What can we reasonably infer?",
+      "stem": "Facts: Emma worked to discover which shape holds more coins. The folded bridge held the most coins. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-022",
@@ -569,7 +569,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-023",
@@ -595,7 +595,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-024",
@@ -610,18 +610,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Emma must write a fair-test report. Which first step is most useful?",
+      "stem": "Emma must write a fair-test report. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that the folded bridge held the most coins"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-025",
@@ -636,18 +636,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “Last Monday, Noah recorded four running times at the sports field to improve his pacing plan. His final two laps were more even. Noah will practise a steady pace this weekend.” What is the paragraph mainly about?",
+      "stem": "Read: “Noah worked at the sports field. His final two laps were more even.” What is it about?",
       "options": [
-        "Noah's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Noah's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-026",
@@ -662,7 +662,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “Last Monday, Noah recorded four running times.” Which phrase shows a completed past action?",
+      "stem": "Read: “Noah recorded four running times last Monday.” Which phrase shows a past action?",
       "options": [
         "will practise a steady pace this weekend",
         "recorded four running times",
@@ -673,7 +673,7 @@
       "explanation": "The past-time phrase and “recorded four running times” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-027",
@@ -699,7 +699,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-028",
@@ -725,7 +725,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the second lap”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-029",
@@ -740,18 +740,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Noah worked to improve his pacing plan. Fact 2: his final two laps were more even. What can we reasonably infer?",
+      "stem": "Facts: Noah worked to improve his pacing plan. His final two laps were more even. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-030",
@@ -777,7 +777,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-031",
@@ -803,7 +803,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-032",
@@ -818,18 +818,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Noah must prepare a training timetable. Which first step is most useful?",
+      "stem": "Noah must prepare a training timetable. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that his final two laps were more even"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-033",
@@ -844,18 +844,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “After lunch yesterday, Sophie weighed food waste at the school kitchen to reduce unfinished meals. The soup group left the least food. Sophie will share smaller-serving advice on Friday.” What is the paragraph mainly about?",
+      "stem": "Read: “Sophie worked at the school kitchen. The soup group left the least food.” What is it about?",
       "options": [
-        "Sophie's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Sophie's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-034",
@@ -870,7 +870,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “After lunch yesterday, Sophie weighed food waste.” Which phrase shows a completed past action?",
+      "stem": "Read: “Sophie weighed food waste after lunch yesterday.” Which phrase shows a past action?",
       "options": [
         "will share smaller-serving advice on Friday",
         "weighed food waste",
@@ -881,7 +881,7 @@
       "explanation": "The past-time phrase and “weighed food waste” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-035",
@@ -907,7 +907,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-036",
@@ -933,7 +933,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the waste box”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-037",
@@ -948,18 +948,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Sophie worked to reduce unfinished meals. Fact 2: the soup group left the least food. What can we reasonably infer?",
+      "stem": "Facts: Sophie worked to reduce unfinished meals. The soup group left the least food. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-038",
@@ -985,7 +985,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-039",
@@ -1011,7 +1011,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-040",
@@ -1026,18 +1026,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Sophie must create a food-saving notice. Which first step is most useful?",
+      "stem": "Sophie must create a food-saving notice. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that the soup group left the least food"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-041",
@@ -1052,18 +1052,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “During Saturday’s visit, Ethan sketched an old wooden window at the local museum to explain a traditional building style. His group noticed repeated flower shapes. Ethan will add notes about its patterns tonight.” What is the paragraph mainly about?",
+      "stem": "Read: “Ethan worked at the local museum. His group noticed repeated flower shapes.” What is it about?",
       "options": [
-        "Ethan's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Ethan's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-042",
@@ -1078,7 +1078,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “During Saturday’s visit, Ethan sketched an old wooden window.” Which phrase shows a completed past action?",
+      "stem": "Read: “Ethan sketched an old wooden window during Saturday’s visit.” Which phrase shows a past action?",
       "options": [
         "will add notes about its patterns tonight",
         "sketched an old wooden window",
@@ -1089,7 +1089,7 @@
       "explanation": "The past-time phrase and “sketched an old wooden window” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-043",
@@ -1115,7 +1115,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-044",
@@ -1141,7 +1141,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the window sketch”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-045",
@@ -1156,18 +1156,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Fact 1: Ethan worked to explain a traditional building style. Fact 2: his group noticed repeated flower shapes. What can we reasonably infer?",
+      "stem": "Facts: Ethan worked to explain a traditional building style. His group noticed repeated flower shapes. What can we infer?",
       "options": [
-        "The task produced information useful for its purpose.",
+        "The task produced useful information.",
         "The result proves every future case.",
         "No observation was made.",
         "The place must close forever."
       ],
       "answer": 0,
-      "explanation": "The purpose and recorded result are connected, but the evidence does not prove every possible case."
+      "explanation": "The purpose and recorded result are connected."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-046",
@@ -1193,7 +1193,7 @@
       "explanation": "The correct note preserves the person, place and result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-047",
@@ -1219,7 +1219,7 @@
       "explanation": "“According to our record” clearly introduces evidence from collected information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-048",
@@ -1234,18 +1234,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Ethan must give a two-minute exhibit talk. Which first step is most useful?",
+      "stem": "Ethan must give a two-minute exhibit talk. Which first step is useful?",
       "options": [
         "Remove the purpose and all evidence",
         "Copy an unrelated story",
-        "Choose a design before reading the information",
-        "Select key facts from the activity record, including that his group noticed repeated flower shapes"
+        "Choose a design before reading",
+        "Select key facts from the record."
       ],
       "answer": 3,
-      "explanation": "A real task should begin by selecting information that supports its purpose."
+      "explanation": "A real task should begin by selecting useful information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-049",
@@ -1260,18 +1260,18 @@
       "project English"
     ],
     "content": {
-      "stem": "Read: “Early Sunday morning, Ava counted birds from a quiet path at the wetland centre to avoid disturbing the animals. More birds appeared after the group became quiet. Ava will check another observation record later.” What is the paragraph mainly about?",
+      "stem": "Read: “Ava worked at the wetland centre. More birds appeared after the group became quiet.” What is it about?",
       "options": [
-        "Ava's study task and what the record showed",
-        "a fictional trip with no plan",
+        "Ava's task and result",
+        "a trip with no plan",
         "a meal with no information",
-        "a list of unrelated colours"
+        "unrelated colours"
       ],
       "answer": 0,
-      "explanation": "The paragraph connects a task, its purpose, a result and a next step."
+      "explanation": "The short text connects a task place and a result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-050",
@@ -1286,7 +1286,7 @@
       "project English"
     ],
     "content": {
-      "stem": "The note says, “Early Sunday morning, Ava counted birds from a quiet path.” Which phrase shows a completed past action?",
+      "stem": "Read: “Ava counted birds from a quiet path early Sunday morning.” Which phrase shows a past action?",
       "options": [
         "will check another observation record later",
         "counted birds from a quiet path",
@@ -1297,7 +1297,7 @@
       "explanation": "The past-time phrase and “counted birds from a quiet path” show a completed action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-051",
@@ -1323,7 +1323,7 @@
       "explanation": "“Could you please...?” makes a polite request and names the needed task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-052",
@@ -1349,7 +1349,7 @@
       "explanation": "The pronoun refers back to the singular noun phrase “the bird list”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-053",
@@ -1375,7 +1375,7 @@
       "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-054",
@@ -1401,7 +1401,7 @@
       "explanation": "The correct summary preserves actor, completed action, time, result and next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-055",
@@ -1427,7 +1427,7 @@
       "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-056",
@@ -1453,7 +1453,7 @@
       "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-057",
@@ -1479,7 +1479,7 @@
       "explanation": "A strong title represents both what was done and how the result will be used."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-058",
@@ -1505,7 +1505,7 @@
       "explanation": "The past form reports completed work; “will” reports a future plan."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-059",
@@ -1531,7 +1531,7 @@
       "explanation": "The reply offers a clear explanation linking evidence to the shared task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-060",
@@ -1557,7 +1557,7 @@
       "explanation": "Grammar and meaning both point to the singular item immediately discussed."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-061",
@@ -1583,7 +1583,7 @@
       "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-062",
@@ -1609,7 +1609,7 @@
       "explanation": "The correct summary preserves actor, completed action, time, result and next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-063",
@@ -1635,7 +1635,7 @@
       "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-064",
@@ -1661,7 +1661,7 @@
       "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-065",
@@ -1687,7 +1687,7 @@
       "explanation": "A strong title represents both what was done and how the result will be used."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-066",
@@ -1713,7 +1713,7 @@
       "explanation": "The past form reports completed work; “will” reports a future plan."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-067",
@@ -1739,7 +1739,7 @@
       "explanation": "The reply offers a clear explanation linking evidence to the shared task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-068",
@@ -1765,7 +1765,7 @@
       "explanation": "Grammar and meaning both point to the singular item immediately discussed."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-069",
@@ -1791,7 +1791,7 @@
       "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-070",
@@ -1817,7 +1817,7 @@
       "explanation": "The correct summary preserves actor, completed action, time, result and next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-071",
@@ -1843,7 +1843,7 @@
       "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-072",
@@ -1869,7 +1869,7 @@
       "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-073",
@@ -1895,7 +1895,7 @@
       "explanation": "A strong title represents both what was done and how the result will be used."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-074",
@@ -1921,7 +1921,7 @@
       "explanation": "The past form reports completed work; “will” reports a future plan."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-075",
@@ -1947,7 +1947,7 @@
       "explanation": "The reply offers a clear explanation linking evidence to the shared task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-076",
@@ -1973,7 +1973,7 @@
       "explanation": "Grammar and meaning both point to the singular item immediately discussed."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-077",
@@ -1999,7 +1999,7 @@
       "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-078",
@@ -2025,7 +2025,7 @@
       "explanation": "The correct summary preserves actor, completed action, time, result and next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-079",
@@ -2051,7 +2051,7 @@
       "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-080",
@@ -2077,7 +2077,7 @@
       "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-081",
@@ -2103,7 +2103,7 @@
       "explanation": "A strong title represents both what was done and how the result will be used."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-082",
@@ -2129,7 +2129,7 @@
       "explanation": "The past form reports completed work; “will” reports a future plan."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-083",
@@ -2155,7 +2155,7 @@
       "explanation": "The reply offers a clear explanation linking evidence to the shared task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-084",
@@ -2181,7 +2181,7 @@
       "explanation": "Grammar and meaning both point to the singular item immediately discussed."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-085",
@@ -2207,7 +2207,7 @@
       "explanation": "The future step logically follows the collected result, while certainty beyond the evidence is not justified."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-086",
@@ -2233,7 +2233,7 @@
       "explanation": "The correct summary preserves actor, completed action, time, result and next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-087",
@@ -2259,7 +2259,7 @@
       "explanation": "“Our record shows” introduces evidence; “therefore, we suggest” introduces a recommendation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-088",
@@ -2285,7 +2285,7 @@
       "explanation": "A real communication task begins with audience and evidence, then organises and checks the result."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-089",
@@ -2311,7 +2311,7 @@
       "explanation": "A strong title represents both what was done and how the result will be used."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-090",
@@ -2337,7 +2337,7 @@
       "explanation": "The completed action comes first and the future plan follows it."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-091",
@@ -2363,7 +2363,7 @@
       "explanation": "The reply respects the concern and proposes gathering more evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-092",
@@ -2389,7 +2389,7 @@
       "explanation": "Reliable reference uses both grammatical agreement and sentence meaning."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-093",
@@ -2415,7 +2415,7 @@
       "explanation": "A careful inference uses the evidence without claiming more certainty than it provides."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-094",
@@ -2441,7 +2441,7 @@
       "explanation": "This order shows why information was collected, how it was collected, what it showed and what follows."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-095",
@@ -2467,7 +2467,7 @@
       "explanation": "“In this record” correctly limits the claim to the available evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-096",
@@ -2493,7 +2493,7 @@
       "explanation": "A trustworthy product makes claims traceable and gives its audience a clear path to use the information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-097",
@@ -2519,7 +2519,7 @@
       "explanation": "The paragraph moves from completed work to evidence and then to a planned next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-098",
@@ -2545,7 +2545,7 @@
       "explanation": "The completed action comes first and the future plan follows it."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-099",
@@ -2571,7 +2571,7 @@
       "explanation": "The reply respects the concern and proposes gathering more evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-100",
@@ -2597,7 +2597,7 @@
       "explanation": "Reliable reference uses both grammatical agreement and sentence meaning."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-101",
@@ -2623,7 +2623,7 @@
       "explanation": "A careful inference uses the evidence without claiming more certainty than it provides."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-102",
@@ -2649,7 +2649,7 @@
       "explanation": "This order shows why information was collected, how it was collected, what it showed and what follows."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-103",
@@ -2675,7 +2675,7 @@
       "explanation": "“In this record” correctly limits the claim to the available evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-104",
@@ -2701,7 +2701,7 @@
       "explanation": "A trustworthy product makes claims traceable and gives its audience a clear path to use the information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-105",
@@ -2727,7 +2727,7 @@
       "explanation": "The paragraph moves from completed work to evidence and then to a planned next step."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-106",
@@ -2747,7 +2747,7 @@
       "explanation": "The answer “detail” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-107",
@@ -2767,7 +2767,7 @@
       "explanation": "The answer “recorded” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-108",
@@ -2787,7 +2787,7 @@
       "explanation": "The clue is “I understand, ___ I see it differently.”. The answer “but” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-109",
@@ -2807,7 +2807,7 @@
       "explanation": "The clue is “The map is useful, so keep it,”. The answer “map” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-110",
@@ -2827,7 +2827,7 @@
       "explanation": "The answer “guess” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-111",
@@ -2847,7 +2847,7 @@
       "explanation": "The answer “result” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-112",
@@ -2867,7 +2867,7 @@
       "explanation": "The clue is “According to the survey”. The answer “evidence” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-113",
@@ -2887,7 +2887,7 @@
       "explanation": "The answer “purpose” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-114",
@@ -2907,7 +2907,7 @@
       "explanation": "The clue is “however”. The answer “contrast” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-115",
@@ -2927,7 +2927,7 @@
       "explanation": "The answer “will” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-116",
@@ -2947,7 +2947,7 @@
       "explanation": "The clue is “Could you explain that again, ___?”. The answer “please” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-117",
@@ -2967,7 +2967,7 @@
       "explanation": "The answer “replaces” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-118",
@@ -2987,7 +2987,7 @@
       "explanation": "The answer “prove” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-119",
@@ -3007,7 +3007,7 @@
       "explanation": "The answer “unrelated” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-120",
@@ -3027,7 +3027,7 @@
       "explanation": "The clue is “therefore”. The answer “conclusion” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-121",
@@ -3047,7 +3047,7 @@
       "explanation": "The answer “source” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-122",
@@ -3067,7 +3067,7 @@
       "explanation": "The answer “logic” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-123",
@@ -3087,7 +3087,7 @@
       "explanation": "The answer “finished” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-124",
@@ -3107,7 +3107,7 @@
       "explanation": "The clue is “may”. The answer “might” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-125",
@@ -3127,7 +3127,7 @@
       "explanation": "The answer “units” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-126",
@@ -3147,7 +3147,7 @@
       "explanation": "The answer “use” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-127",
@@ -3196,7 +3196,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 段落阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-128",
@@ -3245,7 +3245,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 常见时态, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-129",
@@ -3294,7 +3294,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-130",
@@ -3343,7 +3343,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 指代理解, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-131",
@@ -3392,7 +3392,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 简单推断, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-132",
@@ -3441,7 +3441,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 信息整理, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-133",
@@ -3490,7 +3490,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 功能表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-134",
@@ -3539,7 +3539,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 真实任务, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-135",
@@ -3588,7 +3588,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 段落阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-136",
@@ -3637,7 +3637,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 常见时态, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-137",
@@ -3686,7 +3686,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-138",
@@ -3735,7 +3735,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 指代理解, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-139",
@@ -3784,7 +3784,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 简单推断, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g5-english-authored-140",
@@ -3833,6 +3833,6 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 信息整理, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   }
 ]

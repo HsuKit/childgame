@@ -38,34 +38,47 @@ function englishChoice(point, serial, position) {
   const placePhrase = s.place === 'home' ? 'at home' : s.place === 'school' ? 'at school' : `in the ${s.place}`
   const context = `On ${s.day}, ${s.name} is ${placePhrase} with ${thingPhrase}. ${s.name} likes ${s.like}.`
   if (serial >= 89) return englishHardChoice(point, s, position, { context, thingPhrase, placePhrase })
+  if (serial >= 52) return englishAppliedChoice(point, s, position, { thingPhrase, placePhrase })
+  const verb = s.activity.split(' ')[0]
+  const rest = s.activity.split(' ').slice(1).join(' ')
+  const base = s.activity.replace(/^has /, 'have ').replace(/^goes /, 'go ').replace(/^does /, 'do ').replace(/^flies /, 'fly ').replace(/^walks /, 'walk ').replace(/^waters /, 'water ').replace(/^helps /, 'help ').replace(/^reads /, 'read ').replace(/^packs /, 'pack ').replace(/^gets /, 'get ').replace(/^plays /, 'play ')
   if (point === '句子阅读') {
-    return choice(`${context} Choose the sentence that correctly adds the activity at ${s.time}.`, `${s.name} ${s.activity} at ${s.time}.`, [`${s.name} does not have a daily plan.`, `${s.name} is asking the time.`, `${s.name} has no activity today.`], position, `The sentence tells us who does the activity and when: ${s.name} ${s.activity} at ${s.time}.`)
+    return choice(`Read: “${s.name} has ${thingPhrase}.” What does ${s.name} have?`, thingPhrase, ['a train', 'a computer game', 'a red bike'], position, `The sentence says ${s.name} has ${thingPhrase}.`)
   }
   if (point === '短对话') {
-    return choice(`${context} Complete the dialogue: —What does ${s.name} like? —___`, `${s.name} likes ${s.like}.`, [`It is ${s.time}.`, `${s.name} is in the ${s.place}.`, `Today is ${s.day}.`], position, `The question asks about a preference, so the answer is “${s.name} likes ${s.like}.”`)
+    return choice(`Mini talk: ${s.name} is ${placePhrase}. —What do you like? —I like ${s.like}.`, s.like, [s.thing, s.place, s.day], position, `“I like ${s.like}” tells the thing or activity liked.`)
   }
   if (point === '一般现在时') {
-    const base = s.activity.replace(/^has /, 'have ').replace(/^goes /, 'go ').replace(/^does /, 'do ').replace(/^flies /, 'fly ').replace(/^walks /, 'walk ').replace(/^waters /, 'water ').replace(/^helps /, 'help ').replace(/^reads /, 'read ').replace(/^packs /, 'pack ').replace(/^gets /, 'get ').replace(/^plays /, 'play ')
-    const verb = s.activity.split(' ')[0]
-    const rest = s.activity.split(' ').slice(1).join(' ')
-    return choice(`${context} Choose the correct verb: ${s.name} ___ ${rest} at ${s.time} every week.`, verb, [base.split(' ')[0], `${verb}ing`, 'can'], position, `${s.name} is one person, so the verb in this daily routine is “${verb}”.`)
+    return choice(`${s.name} ___ ${rest}. Choose the verb.`, verb, [base.split(' ')[0], `${verb}ing`, 'can'], position, `${s.name} is one person, so the verb is “${verb}”.`)
   }
   if (point === '疑问词') {
-    return choice(`${context} Complete the question about the timetable: ___ does ${s.name} do this activity? At ${s.time}.`, 'When', ['Where', 'Who', 'What colour'], position, `The answer gives a time, so the question word is “When”.`)
+    return choice(`${s.day} plan: ${s.name} ${s.activity} at ${s.time}. Which word asks the time?`, 'When', ['Where', 'Who', 'What colour'], position, 'A time answer uses the question word “When”.')
   }
   if (point === '时间表达') {
     const [hour, minute] = s.time.split(':')
     const words = minute === '00' ? `${hour} o'clock` : minute === '30' ? `half past ${hour}` : `${hour} ${minute}`
-    return choice(`${context} The activity starts at ${s.time}. Which expression matches this start time?`, words, [`${Number(hour) + 1} o'clock`, `half past ${Number(hour) + 1}`, `${hour} fifteen`], position, `${s.time} can be read as “${words}”.`)
+    return choice(`${s.name} ${s.activity} at ${s.time}. Choose the English time words.`, words, [`${Number(hour) + 1} o'clock`, `half past ${Number(hour) + 1}`, `${hour} fifteen`], position, `${s.time} can be read as “${words}”.`)
   }
   if (point === '日常活动') {
-    return choice(`${context} The plan says, “${s.name} ${s.activity} at ${s.time}.” Which words name the daily activity?`, s.activity, [`buys a spaceship`, `finds a dinosaur`, `visits the moon`], position, `“${s.activity}” is the activity stated in the sentence.`)
+    return choice(`Read: “${s.name} ${s.activity}.” Which words show the activity?`, s.activity, [`buys a spaceship`, `finds a dinosaur`, `visits the moon`], position, `“${s.activity}” is the activity in the sentence.`)
   }
   if (point === '显性信息') {
-    const text = `${s.name} is ${placePhrase}. It is ${s.time}. ${s.name} has ${thingPhrase} and ${s.activity}.`
-    return choice(`${context} Read the added note: “${text}” What does ${s.name} have?`, thingPhrase, [`a train`, `a computer game`, `a red bike`], position, `The text directly says that ${s.name} has ${thingPhrase}.`)
+    return choice(`Read: “${s.name} is ${placePhrase}.” Where is ${s.name}?`, placePhrase, ['on a train', 'at the zoo', 'on the moon'], position, `The sentence says ${s.name} is ${placePhrase}.`)
   }
-  return choice(`${placePhrase[0].toUpperCase()}${placePhrase.slice(1)}, a friend helps ${s.name} find the ${s.thing}. ${s.name} says, “Thank you.” What is the best reply?`, 'You are welcome.', ['Good night.', 'Here you are?', 'I am ten.'], position, `“You are welcome.” is a polite reply to “Thank you.”`)
+  return choice(`${placePhrase}, a friend gives ${s.name} ${thingPhrase}. ${s.name} says “Thank you.”`, 'You are welcome.', ['Good night.', 'Here you are?', 'I am ten.'], position, `“You are welcome.” is a polite reply to “Thank you.”`)
+}
+
+function englishAppliedChoice(point, s, position, { thingPhrase, placePhrase }) {
+  const verb = s.activity.split(' ')[0], rest = s.activity.split(' ').slice(1).join(' ')
+  const base = ({ has: 'have', goes: 'go', does: 'do', flies: 'fly' })[verb] ?? verb.replace(/s$/, '')
+  if (point === '句子阅读') return choice(`Read: “${s.name} is ${placePhrase}. ${s.name} ${s.activity}.” What is true?`, `${s.name} ${s.activity}.`, [`${s.name} is on a train.`, `${s.name} has no plan.`, `${s.name} dislikes ${s.like}.`], position, `The second sentence says ${s.name} ${s.activity}.`)
+  if (point === '短对话') return choice(`—What does ${s.name} like? —___`, `${s.name} likes ${s.like}.`, [`It is ${s.time}.`, `${s.name} has ${thingPhrase}.`, `Today is ${s.day}.`], position, `The question asks what ${s.name} likes.`)
+  if (point === '一般现在时') return choice(`${s.name} ___ ${rest} every week.`, verb, [base, `${base}ing`, 'are'], position, `One person needs the verb “${verb}”.`)
+  if (point === '疑问词') return choice(`___ is ${s.name}? ${placePhrase}.`, 'Where', ['When', 'Who', 'What colour'], position, 'A place answer uses “Where”.')
+  if (point === '时间表达') return choice(`Schedule card: ${s.name} ${s.activity} at ${s.time}. Which time matches?`, s.time, [`${Number(s.time.split(':')[0]) + 1}:00`, '1:15', '12:30'], position, `The sentence gives the time ${s.time}.`)
+  if (point === '日常活动') return choice(`Plan: “${s.name} ${s.activity} at ${s.time}.” What happens?`, s.activity, ['asks the time', 'loses the bag', 'changes the day'], position, `The activity is ${s.activity}.`)
+  if (point === '显性信息') return choice(`Read: “${s.name} has ${thingPhrase} and likes ${s.like}.” Which fact is stated?`, `${s.name} likes ${s.like}.`, [`${s.name} has a train.`, `${s.name} is sleeping.`, `${s.name} is at the zoo.`], position, `The sentence directly says ${s.name} likes ${s.like}.`)
+  return choice(`${s.name} needs the ${s.thing}. Which request is polite?`, `May I use the ${s.thing}?`, [`Give me the ${s.thing} now!`, `I never need it.`, `What colour is Monday?`], position, explainEnglishPoliteRequest(`May I use the ${s.thing}?`))
 }
 
 function englishHardChoice(point, s, position, { context, thingPhrase, placePhrase }) {
@@ -142,7 +155,9 @@ export function authorGrade3English() {
         const [fillPoint, stem, answer] = fills[serial - 105]; point = fillPoint
         content = { stem, answer, explanation: explainEnglishFill(stem, answer) }
       } else { const match = englishMatch(serial); point = match.point; content = match.content }
-      questions.push({ id: `g3-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '文字可作答'], content, reviewStatus: 'reviewed', version: 1 })
+      const tags = ['全国通用', '文字可作答']
+      if (difficulty === 1) tags.push('听读入门')
+      questions.push({ id: `g3-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags, content, reviewStatus: 'reviewed', version: 2 })
       serial += 1
     }
   }

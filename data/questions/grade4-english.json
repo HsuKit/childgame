@@ -13,18 +13,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Tom often visits the library. It is next to the art room. Today Tom is reading a science book to find facts about space.” What is its main idea?",
+      "stem": "Read: “Tom is reading a science book at the library.” What is it about?",
       "options": [
         "Tom's activity in the library",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Tom, the library, the present activity and its purpose."
+      "explanation": "The sentence connects Tom, the library and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-002",
@@ -40,7 +40,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The library is next to the art room.” Which location should Tom follow?",
+      "stem": "The library is next to the art room. Which phrase tells the location?",
       "options": [
         "under the sea",
         "next to the art room",
@@ -48,10 +48,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the library next to the art room."
+      "explanation": "The location phrase is “next to the art room”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-003",
@@ -67,7 +67,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Tom often goes to the library to find facts about space. In this activity record, which word tells how often the visit happens?",
+      "stem": "Tom often visits the library. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -75,10 +75,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“often” is a frequency word, not a date, clock time or distance."
+      "explanation": "“often” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-004",
@@ -94,7 +94,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's library report: “Tom is reading a science book.” What is happening now?",
+      "stem": "Now Tom is reading a science book. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -105,7 +105,7 @@
       "explanation": "The form “is reading a science book” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-005",
@@ -132,7 +132,7 @@
       "explanation": "“taller” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-006",
@@ -148,7 +148,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Tom's destination is the library.” “The plan is to find facts about space.” Which record includes both facts?",
+      "stem": "Clues: place library; purpose find facts about space. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the library; to find facts about space",
@@ -156,10 +156,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the library; the other gives the purpose “to find facts about space”."
+      "explanation": "One clue gives the library; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-007",
@@ -175,7 +175,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Tom wants to reach the library to find facts about space. A sign says it is next to the art room. Which question asks for directions politely?",
+      "stem": "Tom needs directions to the library. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -186,7 +186,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-008",
@@ -202,7 +202,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Tom; place: library; activity: reading a science book.” Which note copies all three fields correctly?",
+      "stem": "Card: “Tom; library; reading a science book.” Which note matches?",
       "options": [
         "Tom — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -213,7 +213,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-009",
@@ -229,18 +229,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Lucy usually visits the garden. It is behind the classroom. Today Lucy is watering the flowers to care for the class plants.” What is its main idea?",
+      "stem": "Read: “Lucy is watering the flowers at the garden.” What is it about?",
       "options": [
         "Lucy's activity in the garden",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Lucy, the garden, the present activity and its purpose."
+      "explanation": "The sentence connects Lucy, the garden and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-010",
@@ -256,7 +256,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The garden is behind the classroom.” Which location should Lucy follow?",
+      "stem": "The garden is behind the classroom. Which phrase tells the location?",
       "options": [
         "under the sea",
         "behind the classroom",
@@ -264,10 +264,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the garden behind the classroom."
+      "explanation": "The location phrase is “behind the classroom”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-011",
@@ -283,7 +283,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Lucy usually goes to the garden to care for the class plants. In this activity record, which word tells how often the visit happens?",
+      "stem": "Lucy usually visits the garden. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -291,10 +291,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“usually” is a frequency word, not a date, clock time or distance."
+      "explanation": "“usually” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-012",
@@ -310,7 +310,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's garden report: “Lucy is watering the flowers.” What is happening now?",
+      "stem": "Now Lucy is watering the flowers. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -321,7 +321,7 @@
       "explanation": "The form “is watering the flowers” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-013",
@@ -348,7 +348,7 @@
       "explanation": "“taller” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-014",
@@ -364,7 +364,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Lucy's destination is the garden.” “The plan is to care for the class plants.” Which record includes both facts?",
+      "stem": "Clues: place garden; purpose care for the class plants. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the garden; to care for the class plants",
@@ -372,10 +372,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the garden; the other gives the purpose “to care for the class plants”."
+      "explanation": "One clue gives the garden; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-015",
@@ -391,7 +391,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Lucy wants to reach the garden to care for the class plants. A sign says it is behind the classroom. Which question asks for directions politely?",
+      "stem": "Lucy needs directions to the garden. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -402,7 +402,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-016",
@@ -418,7 +418,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Lucy; place: garden; activity: watering the flowers.” Which note copies all three fields correctly?",
+      "stem": "Card: “Lucy; garden; watering the flowers.” Which note matches?",
       "options": [
         "Lucy — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -429,7 +429,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-017",
@@ -445,18 +445,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Mike sometimes visits the playground. It is in front of the gym. Today Mike is playing basketball to prepare for a class game.” What is its main idea?",
+      "stem": "Read: “Mike is playing basketball at the playground.” What is it about?",
       "options": [
         "Mike's activity in the playground",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Mike, the playground, the present activity and its purpose."
+      "explanation": "The sentence connects Mike, the playground and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-018",
@@ -472,7 +472,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The playground is in front of the gym.” Which location should Mike follow?",
+      "stem": "The playground is in front of the gym. Which phrase tells the location?",
       "options": [
         "under the sea",
         "in front of the gym",
@@ -480,10 +480,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the playground in front of the gym."
+      "explanation": "The location phrase is “in front of the gym”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-019",
@@ -499,7 +499,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Mike sometimes goes to the playground to prepare for a class game. In this activity record, which word tells how often the visit happens?",
+      "stem": "Mike sometimes visits the playground. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -507,10 +507,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“sometimes” is a frequency word, not a date, clock time or distance."
+      "explanation": "“sometimes” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-020",
@@ -526,7 +526,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's playground report: “Mike is playing basketball.” What is happening now?",
+      "stem": "Now Mike is playing basketball. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -537,7 +537,7 @@
       "explanation": "The form “is playing basketball” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-021",
@@ -564,7 +564,7 @@
       "explanation": "“faster” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-022",
@@ -580,7 +580,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Mike's destination is the playground.” “The plan is to prepare for a class game.” Which record includes both facts?",
+      "stem": "Clues: place playground; purpose prepare for a class game. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the playground; to prepare for a class game",
@@ -588,10 +588,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the playground; the other gives the purpose “to prepare for a class game”."
+      "explanation": "One clue gives the playground; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-023",
@@ -607,7 +607,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Mike wants to reach the playground to prepare for a class game. A sign says it is in front of the gym. Which question asks for directions politely?",
+      "stem": "Mike needs directions to the playground. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -618,7 +618,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-024",
@@ -634,7 +634,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Mike; place: playground; activity: playing basketball.” Which note copies all three fields correctly?",
+      "stem": "Card: “Mike; playground; playing basketball.” Which note matches?",
       "options": [
         "Mike — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -645,7 +645,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-025",
@@ -661,18 +661,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Amy always visits the music room. It is between the lab and the hall. Today Amy is playing the piano to practise for the school show.” What is its main idea?",
+      "stem": "Read: “Amy is playing the piano at the music room.” What is it about?",
       "options": [
         "Amy's activity in the music room",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Amy, the music room, the present activity and its purpose."
+      "explanation": "The sentence connects Amy, the music room and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-026",
@@ -688,7 +688,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The music room is between the lab and the hall.” Which location should Amy follow?",
+      "stem": "The music room is between the lab and the hall. Which phrase tells the location?",
       "options": [
         "under the sea",
         "between the lab and the hall",
@@ -696,10 +696,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the music room between the lab and the hall."
+      "explanation": "The location phrase is “between the lab and the hall”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-027",
@@ -715,7 +715,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Amy always goes to the music room to practise for the school show. In this activity record, which word tells how often the visit happens?",
+      "stem": "Amy always visits the music room. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -723,10 +723,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“always” is a frequency word, not a date, clock time or distance."
+      "explanation": "“always” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-028",
@@ -742,7 +742,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's music room report: “Amy is playing the piano.” What is happening now?",
+      "stem": "Now Amy is playing the piano. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -753,7 +753,7 @@
       "explanation": "The form “is playing the piano” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-029",
@@ -780,7 +780,7 @@
       "explanation": "“longer” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-030",
@@ -796,7 +796,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Amy's destination is the music room.” “The plan is to practise for the school show.” Which record includes both facts?",
+      "stem": "Clues: place music room; purpose practise for the school show. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the music room; to practise for the school show",
@@ -804,10 +804,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the music room; the other gives the purpose “to practise for the school show”."
+      "explanation": "One clue gives the music room; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-031",
@@ -823,7 +823,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Amy wants to reach the music room to practise for the school show. A sign says it is between the lab and the hall. Which question asks for directions politely?",
+      "stem": "Amy needs directions to the music room. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -834,7 +834,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-032",
@@ -850,7 +850,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Amy; place: music room; activity: playing the piano.” Which note copies all three fields correctly?",
+      "stem": "Card: “Amy; music room; playing the piano.” Which note matches?",
       "options": [
         "Amy — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -861,7 +861,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-033",
@@ -877,18 +877,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Jack often visits the kitchen. It is beside the dining room. Today Jack is making sandwiches to make lunch for his family.” What is its main idea?",
+      "stem": "Read: “Jack is making sandwiches at the kitchen.” What is it about?",
       "options": [
         "Jack's activity in the kitchen",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Jack, the kitchen, the present activity and its purpose."
+      "explanation": "The sentence connects Jack, the kitchen and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-034",
@@ -904,7 +904,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The kitchen is beside the dining room.” Which location should Jack follow?",
+      "stem": "The kitchen is beside the dining room. Which phrase tells the location?",
       "options": [
         "under the sea",
         "beside the dining room",
@@ -912,10 +912,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the kitchen beside the dining room."
+      "explanation": "The location phrase is “beside the dining room”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-035",
@@ -931,7 +931,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Jack often goes to the kitchen to make lunch for his family. In this activity record, which word tells how often the visit happens?",
+      "stem": "Jack often visits the kitchen. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -939,10 +939,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“often” is a frequency word, not a date, clock time or distance."
+      "explanation": "“often” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-036",
@@ -958,7 +958,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's kitchen report: “Jack is making sandwiches.” What is happening now?",
+      "stem": "Now Jack is making sandwiches. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -969,7 +969,7 @@
       "explanation": "The form “is making sandwiches” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-037",
@@ -996,7 +996,7 @@
       "explanation": "“heavier” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-038",
@@ -1012,7 +1012,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Jack's destination is the kitchen.” “The plan is to make lunch for his family.” Which record includes both facts?",
+      "stem": "Clues: place kitchen; purpose make lunch for his family. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the kitchen; to make lunch for his family",
@@ -1020,10 +1020,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the kitchen; the other gives the purpose “to make lunch for his family”."
+      "explanation": "One clue gives the kitchen; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-039",
@@ -1039,7 +1039,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Jack wants to reach the kitchen to make lunch for his family. A sign says it is beside the dining room. Which question asks for directions politely?",
+      "stem": "Jack needs directions to the kitchen. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -1050,7 +1050,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-040",
@@ -1066,7 +1066,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Jack; place: kitchen; activity: making sandwiches.” Which note copies all three fields correctly?",
+      "stem": "Card: “Jack; kitchen; making sandwiches.” Which note matches?",
       "options": [
         "Jack — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -1077,7 +1077,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-041",
@@ -1093,18 +1093,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Lily usually visits the park. It is across from the museum. Today Lily is flying a kite to enjoy the windy afternoon.” What is its main idea?",
+      "stem": "Read: “Lily is flying a kite at the park.” What is it about?",
       "options": [
         "Lily's activity in the park",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Lily, the park, the present activity and its purpose."
+      "explanation": "The sentence connects Lily, the park and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-042",
@@ -1120,7 +1120,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The park is across from the museum.” Which location should Lily follow?",
+      "stem": "The park is across from the museum. Which phrase tells the location?",
       "options": [
         "under the sea",
         "across from the museum",
@@ -1128,10 +1128,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the park across from the museum."
+      "explanation": "The location phrase is “across from the museum”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-043",
@@ -1147,7 +1147,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Lily usually goes to the park to enjoy the windy afternoon. In this activity record, which word tells how often the visit happens?",
+      "stem": "Lily usually visits the park. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -1155,10 +1155,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“usually” is a frequency word, not a date, clock time or distance."
+      "explanation": "“usually” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-044",
@@ -1174,7 +1174,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's park report: “Lily is flying a kite.” What is happening now?",
+      "stem": "Now Lily is flying a kite. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -1185,7 +1185,7 @@
       "explanation": "The form “is flying a kite” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-045",
@@ -1212,7 +1212,7 @@
       "explanation": "“higher” is the comparative word in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-046",
@@ -1228,7 +1228,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Combine two clues: “Lily's destination is the park.” “The plan is to enjoy the windy afternoon.” Which record includes both facts?",
+      "stem": "Clues: place park; purpose enjoy the windy afternoon. Which record keeps both?",
       "options": [
         "the playground; to miss the lesson",
         "the park; to enjoy the windy afternoon",
@@ -1236,10 +1236,10 @@
         "the station; to wait until midnight"
       ],
       "answer": 1,
-      "explanation": "One clue gives the park; the other gives the purpose “to enjoy the windy afternoon”."
+      "explanation": "One clue gives the park; the other gives the purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-047",
@@ -1255,7 +1255,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Lily wants to reach the park to enjoy the windy afternoon. A sign says it is across from the museum. Which question asks for directions politely?",
+      "stem": "Lily needs directions to the park. Which question is polite?",
       "options": [
         "Give me that book now.",
         "How old is the colour blue?",
@@ -1266,7 +1266,7 @@
       "explanation": "“Excuse me” is polite, and “how can I get to...” asks for directions clearly."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-048",
@@ -1282,7 +1282,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Information card: “Visitor: Lily; place: park; activity: flying a kite.” Which note copies all three fields correctly?",
+      "stem": "Card: “Lily; park; flying a kite.” Which note matches?",
       "options": [
         "Lily — airport — sleeping",
         "Nobody — nowhere — nothing",
@@ -1293,7 +1293,7 @@
       "explanation": "The matching note keeps the same person, place and activity as the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-049",
@@ -1309,18 +1309,18 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Read this activity note: “Peter sometimes visits the computer room. It is on the second floor. Today Peter is making a class poster to share recycling tips.” What is its main idea?",
+      "stem": "Read: “Peter is making a class poster at the computer room.” What is it about?",
       "options": [
         "Peter's activity in the computer room",
-        "a map of a different town",
+        "a map of another town",
         "a meal with no people",
-        "a story about yesterday's storm"
+        "yesterday's storm"
       ],
       "answer": 0,
-      "explanation": "The note connects Peter, the computer room, the present activity and its purpose."
+      "explanation": "The sentence connects Peter, the computer room and the activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-050",
@@ -1336,7 +1336,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "A school guide says, “The computer room is on the second floor.” Which location should Peter follow?",
+      "stem": "The computer room is on the second floor. Which phrase tells the location?",
       "options": [
         "under the sea",
         "on the second floor",
@@ -1344,10 +1344,10 @@
         "far beyond the moon"
       ],
       "answer": 1,
-      "explanation": "The guide directly locates the computer room on the second floor."
+      "explanation": "The location phrase is “on the second floor”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-051",
@@ -1363,7 +1363,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Peter sometimes goes to the computer room to share recycling tips. In this activity record, which word tells how often the visit happens?",
+      "stem": "Peter sometimes visits the computer room. Which word tells how often?",
       "options": [
         "yesterday",
         "at five o’clock",
@@ -1371,10 +1371,10 @@
         "for two metres"
       ],
       "answer": 2,
-      "explanation": "“sometimes” is a frequency word, not a date, clock time or distance."
+      "explanation": "“sometimes” is a frequency word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-052",
@@ -1390,7 +1390,7 @@
       "日常表达"
     ],
     "content": {
-      "stem": "Look at today's computer room report: “Peter is making a class poster.” What is happening now?",
+      "stem": "Now Peter is making a class poster. What is happening now?",
       "options": [
         "sleeping at home",
         "buying a train",
@@ -1401,7 +1401,7 @@
       "explanation": "The form “is making a class poster” names the action happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-053",
@@ -1428,7 +1428,7 @@
       "explanation": "The comparative sentence gives Peter’s picture, rather than the title, the stated quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-054",
@@ -1455,7 +1455,7 @@
       "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-055",
@@ -1482,7 +1482,7 @@
       "explanation": "The correct request is polite and asks specifically for the way to the destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-056",
@@ -1509,7 +1509,7 @@
       "explanation": "The matching note keeps the person, place, present activity and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-057",
@@ -1536,7 +1536,7 @@
       "explanation": "A complete title should include the visit and its purpose, not just one small detail."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-058",
@@ -1563,7 +1563,7 @@
       "explanation": "The location phrase “near the back door” connects the destination with the landmark."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-059",
@@ -1590,7 +1590,7 @@
       "explanation": "“often” describes how regularly the visits happen."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-060",
@@ -1617,7 +1617,7 @@
       "explanation": "The present continuous phrase after “is” reports what is happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-061",
@@ -1644,7 +1644,7 @@
       "explanation": "The comparative sentence gives this story, rather than the last story, the stated quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-062",
@@ -1671,7 +1671,7 @@
       "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-063",
@@ -1698,7 +1698,7 @@
       "explanation": "The correct request is polite and asks specifically for the way to the destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-064",
@@ -1725,7 +1725,7 @@
       "explanation": "The matching note keeps the person, place, present activity and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-065",
@@ -1752,7 +1752,7 @@
       "explanation": "A complete title should include the visit and its purpose, not just one small detail."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-066",
@@ -1779,7 +1779,7 @@
       "explanation": "The location phrase “opposite the post office” connects the destination with the landmark."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-067",
@@ -1806,7 +1806,7 @@
       "explanation": "“usually” describes how regularly the visits happen."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-068",
@@ -1833,7 +1833,7 @@
       "explanation": "The present continuous phrase after “is” reports what is happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-069",
@@ -1860,7 +1860,7 @@
       "explanation": "The comparative sentence gives Bus 12, rather than Bus 8, the stated quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-070",
@@ -1887,7 +1887,7 @@
       "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-071",
@@ -1914,7 +1914,7 @@
       "explanation": "The correct request is polite and asks specifically for the way to the destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-072",
@@ -1941,7 +1941,7 @@
       "explanation": "The matching note keeps the person, place, present activity and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-073",
@@ -1968,7 +1968,7 @@
       "explanation": "A complete title should include the visit and its purpose, not just one small detail."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-074",
@@ -1995,7 +1995,7 @@
       "explanation": "The location phrase “to the east of the park” connects the destination with the landmark."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-075",
@@ -2022,7 +2022,7 @@
       "explanation": "“always” describes how regularly the visits happen."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-076",
@@ -2049,7 +2049,7 @@
       "explanation": "The present continuous phrase after “is” reports what is happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-077",
@@ -2076,7 +2076,7 @@
       "explanation": "The comparative sentence gives lane three, rather than lane two, the stated quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-078",
@@ -2103,7 +2103,7 @@
       "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-079",
@@ -2130,7 +2130,7 @@
       "explanation": "The correct request is polite and asks specifically for the way to the destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-080",
@@ -2157,7 +2157,7 @@
       "explanation": "The matching note keeps the person, place, present activity and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-081",
@@ -2184,7 +2184,7 @@
       "explanation": "A complete title should include the visit and its purpose, not just one small detail."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-082",
@@ -2211,7 +2211,7 @@
       "explanation": "The location phrase “at the end of Green Street” connects the destination with the landmark."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-083",
@@ -2238,7 +2238,7 @@
       "explanation": "“often” describes how regularly the visits happen."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-084",
@@ -2265,7 +2265,7 @@
       "explanation": "The present continuous phrase after “is” reports what is happening now."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-085",
@@ -2292,7 +2292,7 @@
       "explanation": "The comparative sentence gives the history box, rather than the story box, the stated quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-086",
@@ -2319,7 +2319,7 @@
       "explanation": "The summary preserves the location from the first sentence and the purpose from the second."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-087",
@@ -2346,7 +2346,7 @@
       "explanation": "The correct request is polite and asks specifically for the way to the destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-088",
@@ -2373,7 +2373,7 @@
       "explanation": "The matching note keeps the person, place, present activity and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-089",
@@ -2400,7 +2400,7 @@
       "explanation": "A complete title should include the visit and its purpose, not just one small detail."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-090",
@@ -2427,7 +2427,7 @@
       "explanation": "Only the location phrase describes the spatial relation between the landmark and destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-091",
@@ -2454,7 +2454,7 @@
       "explanation": "A frequency adverb summarizes a repeated pattern without naming one exact date."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-092",
@@ -2481,7 +2481,7 @@
       "explanation": "The simple present reports a habit, while “is ...ing” reports the current action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-093",
@@ -2508,7 +2508,7 @@
       "explanation": "The rewrite keeps ${s.first} as the item with more of the compared quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-094",
@@ -2535,7 +2535,7 @@
       "explanation": "The correct answer combines location, action and purpose, so no single sentence is enough."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-095",
@@ -2562,7 +2562,7 @@
       "explanation": "The reply thanks the helper and checks the location information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-096",
@@ -2589,7 +2589,7 @@
       "explanation": "Every field in the correct record agrees with one of the two cards."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-097",
@@ -2616,7 +2616,7 @@
       "explanation": "The four sentences move from location and habit to the present action and its reason."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-098",
@@ -2643,7 +2643,7 @@
       "explanation": "Only the location phrase describes the spatial relation between the landmark and destination."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-099",
@@ -2670,7 +2670,7 @@
       "explanation": "A frequency adverb summarizes a repeated pattern without naming one exact date."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-100",
@@ -2697,7 +2697,7 @@
       "explanation": "The simple present reports a habit, while “is ...ing” reports the current action."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-101",
@@ -2724,7 +2724,7 @@
       "explanation": "The rewrite keeps ${s.first} as the item with more of the compared quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-102",
@@ -2751,7 +2751,7 @@
       "explanation": "The correct answer combines location, action and purpose, so no single sentence is enough."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-103",
@@ -2778,7 +2778,7 @@
       "explanation": "The reply thanks the helper and checks the location information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-104",
@@ -2805,7 +2805,7 @@
       "explanation": "Every field in the correct record agrees with one of the two cards."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-105",
@@ -2832,7 +2832,7 @@
       "explanation": "The four sentences move from location and habit to the present action and its reason."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-106",
@@ -2853,7 +2853,7 @@
       "explanation": "The clue is “Then”. The answer “second” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-107",
@@ -2874,7 +2874,7 @@
       "explanation": "The answer “between” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-108",
@@ -2895,7 +2895,7 @@
       "explanation": "The answer “always” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-109",
@@ -2916,7 +2916,7 @@
       "explanation": "The answer “playing” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-110",
@@ -2937,7 +2937,7 @@
       "explanation": "The answer “taller” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-111",
@@ -2958,7 +2958,7 @@
       "explanation": "The clue is “Mia has a map. She is looking for the museum.”. The answer “museum” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-112",
@@ -2979,7 +2979,7 @@
       "explanation": "The clue is “___ me”. The answer “excuse” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-113",
@@ -3000,7 +3000,7 @@
       "explanation": "The clue is “Friday—art room—drawing”. The answer “art” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-114",
@@ -3021,7 +3021,7 @@
       "explanation": "The clue is “first, next, finally”. The answer “order” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-115",
@@ -3042,7 +3042,7 @@
       "explanation": "The answer “under” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-116",
@@ -3063,7 +3063,7 @@
       "explanation": "The answer “never” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-117",
@@ -3084,7 +3084,7 @@
       "explanation": "The answer “cooking” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-118",
@@ -3105,7 +3105,7 @@
       "explanation": "The answer “heavier” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-119",
@@ -3126,7 +3126,7 @@
       "explanation": "The clue is “Leo is at the pool. He is learning to swim.”. The answer “pool” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-120",
@@ -3147,7 +3147,7 @@
       "explanation": "The clue is “Could you say that ___?”. The answer “again” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-121",
@@ -3168,7 +3168,7 @@
       "explanation": "The clue is “8:00—English—Room 2”. The answer “place” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-122",
@@ -3189,7 +3189,7 @@
       "explanation": "The answer “ending” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-123",
@@ -3210,7 +3210,7 @@
       "explanation": "The answer “opposite” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-124",
@@ -3231,7 +3231,7 @@
       "explanation": "The answer “singing” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-125",
@@ -3252,7 +3252,7 @@
       "explanation": "The answer “sentence” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-126",
@@ -3273,7 +3273,7 @@
       "explanation": "The answer “activity” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-127",
@@ -3323,7 +3323,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 连贯短文, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-128",
@@ -3373,7 +3373,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 方位表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-129",
@@ -3423,7 +3423,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 频率表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-130",
@@ -3473,7 +3473,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 进行中的动作, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-131",
@@ -3523,7 +3523,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 比较与描述, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-132",
@@ -3573,7 +3573,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 跨句信息, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-133",
@@ -3623,7 +3623,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-134",
@@ -3673,7 +3673,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 信息匹配, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-135",
@@ -3723,7 +3723,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 连贯短文, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-136",
@@ -3773,7 +3773,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 方位表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-137",
@@ -3823,7 +3823,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 频率表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-138",
@@ -3873,7 +3873,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 进行中的动作, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-139",
@@ -3923,7 +3923,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 比较与描述, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g4-english-authored-140",
@@ -3973,6 +3973,6 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 跨句信息, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   }
 ]

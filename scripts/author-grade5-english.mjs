@@ -29,14 +29,14 @@ function sentence(text) { return `${text[0].toUpperCase()}${text.slice(1)}` }
 function paragraph(r) { return `${sentence(r.time)}, ${r.name} ${r.activity} at the ${r.place} ${r.reason}. ${sentence(r.result)}. ${r.name} ${r.next}.` }
 
 function basicChoice(point, r, position) {
-  if (point === '段落阅读') return choice(`Read: “${paragraph(r)}” What is the paragraph mainly about?`, `${r.name}'s study task and what the record showed`, ['a fictional trip with no plan', 'a meal with no information', 'a list of unrelated colours'], position, 'The paragraph connects a task, its purpose, a result and a next step.')
-  if (point === '常见时态') return choice(`The note says, “${sentence(r.time)}, ${r.name} ${r.activity}.” Which phrase shows a completed past action?`, r.activity, [r.next, r.reason, r.task], position, `The past-time phrase and “${r.activity}” show a completed action.`)
+  if (point === '段落阅读') return choice(`Read: “${r.name} worked at the ${r.place}. ${sentence(r.result)}.” What is it about?`, `${r.name}'s task and result`, ['a trip with no plan', 'a meal with no information', 'unrelated colours'], position, 'The short text connects a task place and a result.')
+  if (point === '常见时态') return choice(`Read: “${r.name} ${r.activity} ${r.time}.” Which phrase shows a past action?`, r.activity, [r.next, r.reason, r.task], position, `The past-time phrase and “${r.activity}” show a completed action.`)
   if (point === '情境交际') return choice(`${r.name} needs help with the task “${r.task}”. Which request is clear and polite?`, `Could you please help me ${r.task}?`, ['Do it now because I say so!', 'What colour is yesterday?', 'I will not explain the task.'], position, '“Could you please...?” makes a polite request and names the needed task.')
   if (point === '指代理解') return choice(`Read: “${r.name} checked ${r.object} and then wrote about ${r.pronoun} in the project folder.” What does “${r.pronoun}” refer to?`, r.object, [r.name, r.place, r.reason], position, `The pronoun refers back to the singular noun phrase “${r.object}”.`)
-  if (point === '简单推断') return choice(`Fact 1: ${r.name} worked ${r.reason}. Fact 2: ${r.result}. What can we reasonably infer?`, `The task produced information useful for its purpose.`, ['The result proves every future case.', 'No observation was made.', 'The place must close forever.'], position, 'The purpose and recorded result are connected, but the evidence does not prove every possible case.')
+  if (point === '简单推断') return choice(`Facts: ${r.name} worked ${r.reason}. ${sentence(r.result)}. What can we infer?`, `The task produced useful information.`, ['The result proves every future case.', 'No observation was made.', 'The place must close forever.'], position, 'The purpose and recorded result are connected.')
   if (point === '信息整理') return choice(`Project card: “Who: ${r.name}; where: ${r.place}; result: ${r.result}.” Which note keeps all three fields?`, `${r.name} — ${r.place} — ${r.result}`, [`another pupil — airport — no result`, `${r.name} — wrong place — no record`, `nobody — nowhere — nothing`], position, 'The correct note preserves the person, place and result.')
   if (point === '功能表达') return choice(`${r.name} reports, “${r.result}.” Which sentence best introduces this evidence?`, `According to our record, ${r.result}.`, ['I have no evidence, but I am always right.', 'Please forget every result.', 'This number is a colour.'], position, '“According to our record” clearly introduces evidence from collected information.')
-  return choice(`${r.name} must ${r.task}. Which first step is most useful?`, `Select key facts from the activity record, including that ${r.result}`, ['Remove the purpose and all evidence', 'Copy an unrelated story', 'Choose a design before reading the information'], position, 'A real task should begin by selecting information that supports its purpose.')
+  return choice(`${r.name} must ${r.task}. Which first step is useful?`, `Select key facts from the record.`, ['Remove the purpose and all evidence', 'Copy an unrelated story', 'Choose a design before reading'], position, 'A real task should begin by selecting useful information.')
 }
 
 function appliedChoice(point, r, position) {
@@ -99,7 +99,7 @@ export function authorGrade5English() {
     if (type === 'choice') { const r = records[Math.floor(serial / points.length)]; content = difficulty === 1 ? basicChoice(point, r, serial % 4) : difficulty === 2 ? appliedChoice(point, r, serial % 4) : hardChoice(point, r, serial % 4) }
     else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: explainEnglishFill(stem, answer) } }
     else { const item = englishMatch(serial); point = item.point; content = item.content }
-    questions.push({ id: `g5-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 5, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', difficulty > 1 ? 'evidence-based reading' : 'project English'], content, reviewStatus: 'reviewed', version: 1 }); serial += 1
+    questions.push({ id: `g5-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 5, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', difficulty > 1 ? 'evidence-based reading' : 'project English'], content, reviewStatus: 'reviewed', version: 2 }); serial += 1
   }
   return questions
 }

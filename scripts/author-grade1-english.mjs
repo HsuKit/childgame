@@ -33,20 +33,20 @@ function englishChoice(point, serial, difficulty, position) {
   const s = scenes[Math.floor(serial / points.length)], hard = difficulty === 3
   if (point === '字母与声音') return hard
     ? choice(`The word “${s.word}” begins with ${s.letter}. Which pair is correct?`, `${s.letter} — ${s.sound}`, [`a — /m/`, `t — /s/`, `o — /b/`], position, `“${s.word}” begins with the letter ${s.letter} and the sound ${s.sound}.`)
-    : choice(`Word card: “${s.card}.” Look at the word “${s.word}”. Which letter comes first?`, s.letter, ['a', 't', 'o'], position, `“${s.word}” begins with ${s.letter}.`)
+    : choice(`Word card: “${s.card}.” Look at “${s.word}”. Which letter comes first?`, s.letter, ['a', 't', 'o'], position, `“${s.word}” begins with ${s.letter}.`)
   if (point === '日常问候') return choice(`—${s.greet} —___`, s.reply, ['I am a colour.', 'Three books.', 'Open the window yesterday.'], position, `“${s.reply}” is a natural reply in this situation.`)
   if (point === '数字') return hard
     ? choice(`There are ${s.number} ${plural(s.item, s.number)}. Which word matches the number?`, numberWord(s.number), numberDistractors(s.number), position, `${s.number} is written “${numberWord(s.number)}”.`)
-    : choice(`Number card: “${s.card}.” Which number is written as “${numberWord(s.number)}”?`, s.number, numberDistractors(s.number).map(word => ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen'].indexOf(word)), position, `“${numberWord(s.number)}” means ${s.number}.`)
-  if (point === '颜色') return choice(`Which word is a colour in this card: “${s.card}”?`, s.color, [s.item, s.school, numberWord(s.number)], position, `“${s.color}” is the colour word in the card.`)
+    : choice(`Number card: “${s.card}.” Which number is “${numberWord(s.number)}”?`, s.number, numberDistractors(s.number).map(word => ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen'].indexOf(word)), position, `“${numberWord(s.number)}” means ${s.number}.`)
+  if (point === '颜色') return choice(`Card: “${s.card}”. Which word is a colour?`, s.color, [s.item, s.school, numberWord(s.number)], position, `“${s.color}” is the colour word in the card.`)
   if (point === '家庭') return hard
     ? choice(`The clue says “${s.familyRole}”. Who is it?`, s.family, ['teacher', 'classroom', 'pencil'], position, `“${s.family}” matches the family clue “${s.familyRole}”.`)
     : choice(`Which word names a family member or family group?`, s.family, [s.school, s.item, s.color], position, `“${s.family}” is a family word.`)
-  if (point === '学校') return choice(`School map clue: “We ${schoolActivity(s.school)} in the ${s.school}.” Which option names this place?`, s.school, [s.family, s.color, numberWord(s.number)], position, `“${s.school}” names the school place for this activity.`)
+  if (point === '学校') return choice(`Where do we ${schoolActivity(s.school)}?`, s.school, [s.family, s.color, numberWord(s.number)], position, `“${s.school}” names the school place for this activity.`)
   if (point === '课堂指令') return hard
     ? choice(`The teacher says, “${s.instruction}” What should you use or move toward?`, s.item, [s.family, s.color, numberWord(s.number)], position, `The instruction names the ${s.item}.`)
     : choice(`Which sentence is a clear classroom instruction?`, s.instruction, [`The ${s.color} is ${s.number}.`, `${s.family} is at home.`, 'Good night, Monday.'], position, `“${s.instruction}” tells someone what to do.`)
-  return choice(`Read the picture card in words: “${s.card}”. Which note matches its colour, number and school item?`, `${s.color} — ${numberWord(s.number)} — ${s.item}`, [`blue — one — train`, `no colour — zero — nothing`, `${s.family} — ${s.school} — yesterday`], position, 'The matching note keeps the colour, number and school item from the card.')
+  return choice(`Card: “${s.card}”. Choose the matching note.`, `${s.color} — ${numberWord(s.number)} — ${s.item}`, [`blue — one — train`, `no colour — zero — nothing`, `${s.family} — ${s.school} — yesterday`], position, 'The matching note keeps the colour, number and school item from the card.')
 }
 
 const fills = [
@@ -87,7 +87,7 @@ export function authorGrade1English() {
     if (type === 'choice') content = englishChoice(point, serial, difficulty, serial % 4)
     else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: explainEnglishFill(stem, answer) } }
     else { const item = englishMatch(serial); point = item.point; content = item.content }
-    questions.push({ id: `g1-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 1, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '低龄短句', '文字可作答'], content, reviewStatus: 'reviewed', version: 1 }); serial += 1
+    questions.push({ id: `g1-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 1, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '低龄短句', '文字可作答'], content, reviewStatus: 'reviewed', version: 2 }); serial += 1
   }
   return questions
 }

@@ -53,15 +53,14 @@ function englishChoice(point, serial, position) {
   const index = Math.floor(serial / points.length), s = scenes[index]
   if (serial >= 89) return englishHardChoice(point, s, position)
   if (serial >= 52) return englishAppliedChoice(point, s, position)
-  const context = `${s.name} ${s.frequency} visits the ${s.place}. It is ${s.location}. Today ${s.name} is ${s.action} to ${s.purpose}.`
-  if (point === '连贯短文') return choice(`Read this activity note: “${context}” What is its main idea?`, `${s.name}'s activity in the ${s.place}`, [`a map of a different town`, `a meal with no people`, `a story about yesterday's storm`], position, `The note connects ${s.name}, the ${s.place}, the present activity and its purpose.`)
-  if (point === '方位表达') return choice(`A school guide says, “The ${s.place} is ${s.location}.” Which location should ${s.name} follow?`, s.location, ['under the sea', 'inside a bus', 'far beyond the moon'], position, `The guide directly locates the ${s.place} ${s.location}.`)
-  if (point === '频率表达') return choice(`${s.name} ${s.frequency} goes to the ${s.place} to ${s.purpose}. In this activity record, which word tells how often the visit happens?`, s.frequency, ['yesterday', 'at five o’clock', 'for two metres'], position, `“${s.frequency}” is a frequency word, not a date, clock time or distance.`)
-  if (point === '进行中的动作') return choice(`Look at today's ${s.place} report: “${s.name} is ${s.action}.” What is happening now?`, s.action, [`sleeping at home`, `buying a train`, `climbing on the roof`], position, `The form “is ${s.action}” names the action happening now.`)
+  if (point === '连贯短文') return choice(`Read: “${s.name} is ${s.action} at the ${s.place}.” What is it about?`, `${s.name}'s activity in the ${s.place}`, [`a map of another town`, `a meal with no people`, `yesterday's storm`], position, `The sentence connects ${s.name}, the ${s.place} and the activity.`)
+  if (point === '方位表达') return choice(`The ${s.place} is ${s.location}. Which phrase tells the location?`, s.location, ['under the sea', 'inside a bus', 'far beyond the moon'], position, `The location phrase is “${s.location}”.`)
+  if (point === '频率表达') return choice(`${s.name} ${s.frequency} visits the ${s.place}. Which word tells how often?`, s.frequency, ['yesterday', 'at five o’clock', 'for two metres'], position, `“${s.frequency}” is a frequency word.`)
+  if (point === '进行中的动作') return choice(`Now ${s.name} is ${s.action}. What is happening now?`, s.action, [`sleeping at home`, `buying a train`, `climbing on the roof`], position, `The form “is ${s.action}” names the action happening now.`)
   if (point === '比较与描述') return choice(`Compare: ${s.first} is ${s.compare} than ${s.second}. Which word describes the comparison?`, s.compare, ['yesterday', 'carefully', 'between'], position, `“${s.compare}” is the comparative word in the sentence.`)
-  if (point === '跨句信息') return choice(`Combine two clues: “${s.name}'s destination is the ${s.place}.” “The plan is to ${s.purpose}.” Which record includes both facts?`, `the ${s.place}; to ${s.purpose}`, [`the playground; to miss the lesson`, `the kitchen; to lose all the books`, `the station; to wait until midnight`], position, `One clue gives the ${s.place}; the other gives the purpose “to ${s.purpose}”.`)
-  if (point === '情境交际') return choice(`${s.name} wants to reach the ${s.place} to ${s.purpose}. A sign says it is ${s.location}. Which question asks for directions politely?`, `Excuse me, how can I get to the ${s.place}?`, [`Give me that book now.`, `How old is the colour blue?`, `I never go anywhere.`], position, '“Excuse me” is polite, and “how can I get to...” asks for directions clearly.')
-  return choice(`Information card: “Visitor: ${s.name}; place: ${s.place}; activity: ${s.action}.” Which note copies all three fields correctly?`, `${s.name} — ${s.place} — ${s.action}`, [`${s.name} — airport — sleeping`, `Nobody — nowhere — nothing`, `${s.name} — hospital — buying a plane`], position, 'The matching note keeps the same person, place and activity as the card.')
+  if (point === '跨句信息') return choice(`Clues: place ${s.place}; purpose ${s.purpose}. Which record keeps both?`, `the ${s.place}; to ${s.purpose}`, [`the playground; to miss the lesson`, `the kitchen; to lose all the books`, `the station; to wait until midnight`], position, `One clue gives the ${s.place}; the other gives the purpose.`)
+  if (point === '情境交际') return choice(`${s.name} needs directions to the ${s.place}. Which question is polite?`, `Excuse me, how can I get to the ${s.place}?`, [`Give me that book now.`, `How old is the colour blue?`, `I never go anywhere.`], position, '“Excuse me” is polite, and “how can I get to...” asks for directions clearly.')
+  return choice(`Card: “${s.name}; ${s.place}; ${s.action}.” Which note matches?`, `${s.name} — ${s.place} — ${s.action}`, [`${s.name} — airport — sleeping`, `Nobody — nowhere — nothing`, `${s.name} — hospital — buying a plane`], position, 'The matching note keeps the same person, place and activity as the card.')
 }
 
 const fills = [
@@ -122,7 +121,7 @@ export function authorGrade4English() {
     if (type === 'choice') content = englishChoice(point, serial, serial % 4)
     else if (type === 'fill') { const [p, stem, answer] = fills[serial - 105]; point = p; content = { stem, answer, explanation: explainEnglishFill(stem, answer) } }
     else { const item = englishMatch(serial); point = item.point; content = item.content }
-    questions.push({ id: `g4-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 4, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '文字可作答', difficulty > 1 ? '跨句理解' : '日常表达'], content, reviewStatus: 'reviewed', version: 1 }); serial += 1
+    questions.push({ id: `g4-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 4, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', '文字可作答', difficulty > 1 ? '跨句理解' : '日常表达'], content, reviewStatus: 'reviewed', version: 2 }); serial += 1
   }
   return questions
 }

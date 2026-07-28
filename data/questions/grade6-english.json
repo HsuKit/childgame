@@ -12,7 +12,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Tree-Shade Rest Area”: Text A — Survey: 70% of pupils want seats close to the sports field. Text B — Site note: keep seats away from large roots and leave a wide path for wheelchairs. What issue do both texts help the team understand?",
+      "stem": "Project: “Tree-Shade Rest Area”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "choose a convenient site without harming roots or blocking access",
         "a topic unrelated to either text",
@@ -20,10 +20,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-002",
@@ -49,7 +49,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-003",
@@ -64,18 +64,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Survey: 70% of pupils want seats close to the sports field. Text B — Site note: keep seats away from large roots and leave a wide path for wheelchairs. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Tree-Shade Rest Area”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "choose a convenient site without harming roots or blocking access",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: choose a convenient site without harming roots or blocking access."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-004",
@@ -90,7 +90,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Tree-Shade Rest Area”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Tree-Shade Rest Area”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -98,10 +98,10 @@
         "popularity alone cannot decide the exact location"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: popularity alone cannot decide the exact location."
+      "explanation": "The inference stays within the evidence: popularity alone cannot decide the exact location."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-005",
@@ -127,7 +127,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-006",
@@ -153,7 +153,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-007",
@@ -168,7 +168,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to choose a convenient site without harming roots or blocking access, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Tree-Shade Rest Area”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -179,7 +179,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-008",
@@ -205,7 +205,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-009",
@@ -220,7 +220,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Old Bridge Lighting”: Text A — Visitor note: the bridge feels too dark after sunset. Text B — Heritage note: strong lights may hide stone details and change the historic atmosphere. What issue do both texts help the team understand?",
+      "stem": "Project: “Old Bridge Lighting”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "improve night safety while protecting the bridge’s character",
         "a topic unrelated to either text",
@@ -228,10 +228,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-010",
@@ -257,7 +257,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-011",
@@ -272,18 +272,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Visitor note: the bridge feels too dark after sunset. Text B — Heritage note: strong lights may hide stone details and change the historic atmosphere. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Old Bridge Lighting”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "improve night safety while protecting the bridge’s character",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: improve night safety while protecting the bridge’s character."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-012",
@@ -298,7 +298,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Old Bridge Lighting”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Old Bridge Lighting”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -306,10 +306,10 @@
         "light level and position need testing before installation"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: light level and position need testing before installation."
+      "explanation": "The inference stays within the evidence: light level and position need testing before installation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-013",
@@ -335,7 +335,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-014",
@@ -361,7 +361,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-015",
@@ -376,7 +376,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to improve night safety while protecting the bridge’s character, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Old Bridge Lighting”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -387,7 +387,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-016",
@@ -413,7 +413,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-017",
@@ -428,7 +428,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Paper Bridge Test”: Text A — Trial 1: the folded bridge held 42 coins, the highest result. Text B — Trial 2: a different fold position lowered the same design to 29 coins. What issue do both texts help the team understand?",
+      "stem": "Project: “Paper Bridge Test”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "report both structural strength and the effect of consistent construction",
         "a topic unrelated to either text",
@@ -436,10 +436,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-018",
@@ -465,7 +465,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-019",
@@ -480,18 +480,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Trial 1: the folded bridge held 42 coins, the highest result. Text B — Trial 2: a different fold position lowered the same design to 29 coins. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Paper Bridge Test”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "report both structural strength and the effect of consistent construction",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: report both structural strength and the effect of consistent construction."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-020",
@@ -506,7 +506,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Paper Bridge Test”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Paper Bridge Test”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -514,10 +514,10 @@
         "one high result does not prove the design always works best"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: one high result does not prove the design always works best."
+      "explanation": "The inference stays within the evidence: one high result does not prove the design always works best."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-021",
@@ -543,7 +543,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-022",
@@ -569,7 +569,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-023",
@@ -584,7 +584,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to report both structural strength and the effect of consistent construction, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Paper Bridge Test”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -595,7 +595,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-024",
@@ -621,7 +621,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-025",
@@ -636,7 +636,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Library Labels”: Text A — Borrowing data: books near the entrance were found more quickly. Text B — Observation: younger children still misunderstood labels with abstract topic words. What issue do both texts help the team understand?",
+      "stem": "Project: “Library Labels”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "combine efficient shelf placement with child-friendly labels",
         "a topic unrelated to either text",
@@ -644,10 +644,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-026",
@@ -673,7 +673,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-027",
@@ -688,18 +688,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Borrowing data: books near the entrance were found more quickly. Text B — Observation: younger children still misunderstood labels with abstract topic words. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Library Labels”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "combine efficient shelf placement with child-friendly labels",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: combine efficient shelf placement with child-friendly labels."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-028",
@@ -714,7 +714,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Library Labels”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Library Labels”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -722,10 +722,10 @@
         "colour labels may need pictures and examples"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: colour labels may need pictures and examples."
+      "explanation": "The inference stays within the evidence: colour labels may need pictures and examples."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-029",
@@ -751,7 +751,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-030",
@@ -777,7 +777,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-031",
@@ -792,7 +792,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to combine efficient shelf placement with child-friendly labels, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Library Labels”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -803,7 +803,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-032",
@@ -829,7 +829,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-033",
@@ -844,7 +844,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Wetland Bird Count”: Text A — Team A watched at the same place and time without making noise. Text B — Team B changed routes and sometimes played bird sounds. What issue do both texts help the team understand?",
+      "stem": "Project: “Wetland Bird Count”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "standardise observation conditions before comparing bird counts",
         "a topic unrelated to either text",
@@ -852,10 +852,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-034",
@@ -881,7 +881,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-035",
@@ -896,18 +896,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Team A watched at the same place and time without making noise. Text B — Team B changed routes and sometimes played bird sounds. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Wetland Bird Count”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "standardise observation conditions before comparing bird counts",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: standardise observation conditions before comparing bird counts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-036",
@@ -922,7 +922,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Wetland Bird Count”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Wetland Bird Count”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -930,10 +930,10 @@
         "the two teams’ totals are not directly comparable yet"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: the two teams’ totals are not directly comparable yet."
+      "explanation": "The inference stays within the evidence: the two teams’ totals are not directly comparable yet."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-037",
@@ -959,7 +959,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-038",
@@ -985,7 +985,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-039",
@@ -1000,7 +1000,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to standardise observation conditions before comparing bird counts, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Wetland Bird Count”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -1011,7 +1011,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-040",
@@ -1037,7 +1037,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-041",
@@ -1052,7 +1052,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “Food-Waste Plan”: Text A — Data: average leftovers fell after small servings were offered. Text B — Interview: some pupils avoided second servings because the queue was slow. What issue do both texts help the team understand?",
+      "stem": "Project: “Food-Waste Plan”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "keep small servings and improve the refill process",
         "a topic unrelated to either text",
@@ -1060,10 +1060,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-042",
@@ -1089,7 +1089,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-043",
@@ -1104,18 +1104,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Data: average leftovers fell after small servings were offered. Text B — Interview: some pupils avoided second servings because the queue was slow. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “Food-Waste Plan”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "keep small servings and improve the refill process",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: keep small servings and improve the refill process."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-044",
@@ -1130,7 +1130,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “Food-Waste Plan”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “Food-Waste Plan”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -1138,10 +1138,10 @@
         "convenience can affect whether a saving plan succeeds"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: convenience can affect whether a saving plan succeeds."
+      "explanation": "The inference stays within the evidence: convenience can affect whether a saving plan succeeds."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-045",
@@ -1167,7 +1167,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-046",
@@ -1193,7 +1193,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-047",
@@ -1208,7 +1208,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to keep small servings and improve the refill process, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Food-Waste Plan”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -1219,7 +1219,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-048",
@@ -1245,7 +1245,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-049",
@@ -1260,7 +1260,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Read two short texts for “School Bus Routes”: Text A — Route A reaches more neighbourhoods but has more stops. Text B — Route B is faster, while some younger pupils must walk farther. What issue do both texts help the team understand?",
+      "stem": "Project: “School Bus Routes”. Text A gives a need; Text B gives a condition. What should the team do?",
       "options": [
         "compare coverage, travel time and walking distance",
         "a topic unrelated to either text",
@@ -1268,10 +1268,10 @@
         "a plan with no audience or evidence"
       ],
       "answer": 0,
-      "explanation": "The answer combines the key contribution of both texts."
+      "explanation": "The answer combines the need and the condition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-050",
@@ -1297,7 +1297,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-051",
@@ -1312,18 +1312,18 @@
       "real-task English"
     ],
     "content": {
-      "stem": "Project notes: Text A — Route A reaches more neighbourhoods but has more stops. Text B — Route B is faster, while some younger pupils must walk farther. Which summary keeps the main point without losing an important condition?",
+      "stem": "Project: “School Bus Routes”. Which summary keeps the main point and condition?",
       "options": [
         "copy only the first number",
-        "keep one attractive detail and delete the issue",
+        "delete the issue",
         "compare coverage, travel time and walking distance",
-        "combine two unrelated actions"
+        "combine unrelated actions"
       ],
       "answer": 2,
       "explanation": "The summary represents both sources: compare coverage, travel time and walking distance."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-052",
@@ -1338,7 +1338,7 @@
       "real-task English"
     ],
     "content": {
-      "stem": "From the two sources in “School Bus Routes”, what can we infer without going beyond the evidence?",
+      "stem": "Project: “School Bus Routes”. Which inference stays careful?",
       "options": [
         "the same result is certain everywhere forever",
         "no further checking can ever be useful",
@@ -1346,10 +1346,10 @@
         "the fastest route is not automatically best for every pupil"
       ],
       "answer": 3,
-      "explanation": "The inference follows both sources and stays within their evidence: the fastest route is not automatically best for every pupil."
+      "explanation": "The inference stays within the evidence: the fastest route is not automatically best for every pupil."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-053",
@@ -1375,7 +1375,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-054",
@@ -1401,7 +1401,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-055",
@@ -1416,7 +1416,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to compare coverage, travel time and walking distance, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “School Bus Routes”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -1427,7 +1427,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-056",
@@ -1453,7 +1453,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-057",
@@ -1479,7 +1479,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-058",
@@ -1505,7 +1505,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-059",
@@ -1531,7 +1531,7 @@
       "explanation": "The summary represents both sources: make the activity accessible without misrepresenting the key technique."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-060",
@@ -1557,7 +1557,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: simplifying tools is different from removing the main principle."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-061",
@@ -1583,7 +1583,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-062",
@@ -1609,7 +1609,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-063",
@@ -1624,7 +1624,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to make the activity accessible without misrepresenting the key technique, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Printmaking Workshop”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -1635,7 +1635,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-064",
@@ -1661,7 +1661,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-065",
@@ -1687,7 +1687,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-066",
@@ -1713,7 +1713,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-067",
@@ -1739,7 +1739,7 @@
       "explanation": "The summary represents both sources: use different lighting plans for busy paths and sensitive habitats."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-068",
@@ -1765,7 +1765,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: a benefit in one area may create a problem in another."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-069",
@@ -1791,7 +1791,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-070",
@@ -1817,7 +1817,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-071",
@@ -1832,7 +1832,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to use different lighting plans for busy paths and sensitive habitats, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Park Night Lights”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -1843,7 +1843,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-072",
@@ -1869,7 +1869,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-073",
@@ -1895,7 +1895,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-074",
@@ -1921,7 +1921,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-075",
@@ -1947,7 +1947,7 @@
       "explanation": "The summary represents both sources: evaluate income, cost, environmental choices and record quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-076",
@@ -1973,7 +1973,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: sales alone do not show the full value of a project."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-077",
@@ -1999,7 +1999,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-078",
@@ -2025,7 +2025,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-079",
@@ -2040,7 +2040,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to evaluate income, cost, environmental choices and record quality, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Charity Sale Review”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -2051,7 +2051,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-080",
@@ -2077,7 +2077,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-081",
@@ -2103,7 +2103,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-082",
@@ -2129,7 +2129,7 @@
       "explanation": "“While” clearly expresses how two useful sources contribute different information."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-083",
@@ -2155,7 +2155,7 @@
       "explanation": "The summary represents both sources: report the difference together with limits in the data."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-084",
@@ -2181,7 +2181,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: more consistent records are needed before claiming a long-term change."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-085",
@@ -2207,7 +2207,7 @@
       "explanation": "A complete schedule entry includes the stated date or time and place."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-086",
@@ -2233,7 +2233,7 @@
       "explanation": "The product must fit its named audience and purpose."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-087",
@@ -2248,7 +2248,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to report the difference together with limits in the data, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Temperature Report”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -2259,7 +2259,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-088",
@@ -2285,7 +2285,7 @@
       "explanation": "The sequence moves from understanding the task to evidence selection, organisation and checking."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-089",
@@ -2311,7 +2311,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-090",
@@ -2337,7 +2337,7 @@
       "explanation": "“However” introduces a reasonable limit after acknowledging the evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-091",
@@ -2363,7 +2363,7 @@
       "explanation": "The summary represents both sources: keep digital resources accessible and connected to object viewing."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-092",
@@ -2389,7 +2389,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: digital content should support rather than replace the exhibition."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-093",
@@ -2415,7 +2415,7 @@
       "explanation": "The complete note combines time, place and the material required for the named task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-094",
@@ -2441,7 +2441,7 @@
       "explanation": "A strong review checks whether claims are traceable and whether the intended audience can use the product."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-095",
@@ -2456,7 +2456,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to keep digital resources accessible and connected to object viewing, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Digital Museum Labels”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -2467,7 +2467,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-096",
@@ -2493,7 +2493,7 @@
       "explanation": "The full process integrates audience, evidence, reasoning limits and revision."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-097",
@@ -2519,7 +2519,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-098",
@@ -2545,7 +2545,7 @@
       "explanation": "“However” introduces a reasonable limit after acknowledging the evidence."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-099",
@@ -2571,7 +2571,7 @@
       "explanation": "The summary represents both sources: check facts and image permission as well as writing quality."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-100",
@@ -2597,7 +2597,7 @@
       "explanation": "The inference follows both sources and stays within their evidence: beautiful language cannot repair false or unlicensed content."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-101",
@@ -2623,7 +2623,7 @@
       "explanation": "The complete note combines time, place and the material required for the named task."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-102",
@@ -2649,7 +2649,7 @@
       "explanation": "A strong review checks whether claims are traceable and whether the intended audience can use the product."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-103",
@@ -2664,7 +2664,7 @@
       "cross-text reasoning"
     ],
     "content": {
-      "stem": "A teammate says, “I think our goal should be to check facts and image permission as well as writing quality, but I may have missed a condition.” Which reply is most constructive?",
+      "stem": "In “Graduation Album”, a teammate may have missed a condition. Which reply is constructive?",
       "options": [
         "There is no need to read the sources.",
         "Your idea is wrong because I said so.",
@@ -2675,7 +2675,7 @@
       "explanation": "The reply is polite and proposes an evidence-based way to resolve uncertainty."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-104",
@@ -2701,7 +2701,7 @@
       "explanation": "The full process integrates audience, evidence, reasoning limits and revision."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-105",
@@ -2727,7 +2727,7 @@
       "explanation": "The answer combines the key contribution of both texts."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-106",
@@ -2747,7 +2747,7 @@
       "explanation": "The answer “angles” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-107",
@@ -2767,7 +2767,7 @@
       "explanation": "The clue is “however”. The answer “limit” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-108",
@@ -2787,7 +2787,7 @@
       "explanation": "The answer “unrelated” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-109",
@@ -2807,7 +2807,7 @@
       "explanation": "The answer “evidence” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-110",
@@ -2827,7 +2827,7 @@
       "explanation": "The answer “activity” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-111",
@@ -2847,7 +2847,7 @@
       "explanation": "The answer “audience” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-112",
@@ -2867,7 +2867,7 @@
       "explanation": "The clue is “Could you explain that ___?”. The answer “again” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-113",
@@ -2887,7 +2887,7 @@
       "explanation": "The answer “usefulness” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-114",
@@ -2907,7 +2907,7 @@
       "explanation": "The answer “view” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-115",
@@ -2927,7 +2927,7 @@
       "explanation": "The clue is “According to the survey”. The answer “source” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-116",
@@ -2947,7 +2947,7 @@
       "explanation": "The answer “order” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-117",
@@ -2967,7 +2967,7 @@
       "explanation": "The clue is “may”. The answer “claim” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-118",
@@ -2987,7 +2987,7 @@
       "explanation": "The answer “conflict” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-119",
@@ -3007,7 +3007,7 @@
       "explanation": "The answer “task” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-120",
@@ -3027,7 +3027,7 @@
       "explanation": "The answer “point” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-121",
@@ -3047,7 +3047,7 @@
       "explanation": "The answer “evidence” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-122",
@@ -3067,7 +3067,7 @@
       "explanation": "The answer “context” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-123",
@@ -3087,7 +3087,7 @@
       "explanation": "The answer “facts” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-124",
@@ -3107,7 +3107,7 @@
       "explanation": "The answer “certainty” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-125",
@@ -3127,7 +3127,7 @@
       "explanation": "The answer “reader” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-126",
@@ -3147,7 +3147,7 @@
       "explanation": "The answer “effectiveness” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-127",
@@ -3196,7 +3196,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 多段文本, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-128",
@@ -3245,7 +3245,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 综合语言功能, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-129",
@@ -3294,7 +3294,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 信息归纳, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-130",
@@ -3343,7 +3343,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 语境推断, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-131",
@@ -3392,7 +3392,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 通知与日程, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-132",
@@ -3441,7 +3441,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 真实任务阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-133",
@@ -3490,7 +3490,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-134",
@@ -3539,7 +3539,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 综合运用, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-135",
@@ -3588,7 +3588,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 多段文本, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-136",
@@ -3637,7 +3637,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 综合语言功能, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-137",
@@ -3686,7 +3686,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 信息归纳, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-138",
@@ -3735,7 +3735,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 语境推断, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-139",
@@ -3784,7 +3784,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 通知与日程, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g6-english-authored-140",
@@ -3833,6 +3833,6 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 真实任务阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   }
 ]

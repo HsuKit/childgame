@@ -13,7 +13,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “a red cat beside three books.” Look at the word “cat”. Which letter comes first?",
+      "stem": "Word card: “a red cat beside three books.” Look at “cat”. Which letter comes first?",
       "options": [
         "c",
         "a",
@@ -24,7 +24,7 @@
       "explanation": "“cat” begins with c."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-002",
@@ -51,7 +51,7 @@
       "explanation": "“Good morning!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-003",
@@ -67,7 +67,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “a red cat beside three books.” Which number is written as “three”?",
+      "stem": "Number card: “a red cat beside three books.” Which number is “three”?",
       "options": [
         "7",
         "8",
@@ -78,7 +78,7 @@
       "explanation": "“three” means 3."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-004",
@@ -94,7 +94,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a red cat beside three books”?",
+      "stem": "Card: “a red cat beside three books”. Which word is a colour?",
       "options": [
         "book",
         "classroom",
@@ -105,7 +105,7 @@
       "explanation": "“red” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-005",
@@ -132,7 +132,7 @@
       "explanation": "“mother” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-006",
@@ -148,7 +148,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We learn with the class in the classroom.” Which option names this place?",
+      "stem": "Where do we learn with the class?",
       "options": [
         "mother",
         "classroom",
@@ -159,7 +159,7 @@
       "explanation": "“classroom” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-007",
@@ -186,7 +186,7 @@
       "explanation": "“Open your book.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-008",
@@ -202,7 +202,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a red cat beside three books”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a red cat beside three books”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -213,7 +213,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-009",
@@ -229,7 +229,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “a blue dog beside five rulers.” Look at the word “dog”. Which letter comes first?",
+      "stem": "Word card: “a blue dog beside five rulers.” Look at “dog”. Which letter comes first?",
       "options": [
         "d",
         "a",
@@ -240,7 +240,7 @@
       "explanation": "“dog” begins with d."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-010",
@@ -267,7 +267,7 @@
       "explanation": "“Hello!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-011",
@@ -283,7 +283,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “a blue dog beside five rulers.” Which number is written as “five”?",
+      "stem": "Number card: “a blue dog beside five rulers.” Which number is “five”?",
       "options": [
         "2",
         "3",
@@ -294,7 +294,7 @@
       "explanation": "“five” means 5."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-012",
@@ -310,7 +310,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a blue dog beside five rulers”?",
+      "stem": "Card: “a blue dog beside five rulers”. Which word is a colour?",
       "options": [
         "ruler",
         "library",
@@ -321,7 +321,7 @@
       "explanation": "“blue” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-013",
@@ -348,7 +348,7 @@
       "explanation": "“father” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-014",
@@ -364,7 +364,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We read and borrow books in the library.” Which option names this place?",
+      "stem": "Where do we read and borrow books?",
       "options": [
         "father",
         "library",
@@ -375,7 +375,7 @@
       "explanation": "“library” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-015",
@@ -402,7 +402,7 @@
       "explanation": "“Put down your ruler.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-016",
@@ -418,7 +418,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a blue dog beside five rulers”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a blue dog beside five rulers”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -429,7 +429,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-017",
@@ -445,7 +445,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “two green fish near a ball.” Look at the word “fish”. Which letter comes first?",
+      "stem": "Word card: “two green fish near a ball.” Look at “fish”. Which letter comes first?",
       "options": [
         "f",
         "a",
@@ -456,7 +456,7 @@
       "explanation": "“fish” begins with f."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-018",
@@ -483,7 +483,7 @@
       "explanation": "“I am fine, thank you.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-019",
@@ -499,7 +499,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “two green fish near a ball.” Which number is written as “two”?",
+      "stem": "Number card: “two green fish near a ball.” Which number is “two”?",
       "options": [
         "5",
         "6",
@@ -510,7 +510,7 @@
       "explanation": "“two” means 2."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-020",
@@ -526,7 +526,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “two green fish near a ball”?",
+      "stem": "Card: “two green fish near a ball”. Which word is a colour?",
       "options": [
         "ball",
         "playground",
@@ -537,7 +537,7 @@
       "explanation": "“green” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-021",
@@ -564,7 +564,7 @@
       "explanation": "“sister” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-022",
@@ -580,7 +580,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We run and play safely in the playground.” Which option names this place?",
+      "stem": "Where do we run and play safely?",
       "options": [
         "sister",
         "playground",
@@ -591,7 +591,7 @@
       "explanation": "“playground” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-023",
@@ -618,7 +618,7 @@
       "explanation": "“Touch the ball.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-024",
@@ -634,7 +634,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “two green fish near a ball”. Which note matches its colour, number and school item?",
+      "stem": "Card: “two green fish near a ball”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -645,7 +645,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-025",
@@ -661,7 +661,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “a yellow bag with six pencils.” Look at the word “bag”. Which letter comes first?",
+      "stem": "Word card: “a yellow bag with six pencils.” Look at “bag”. Which letter comes first?",
       "options": [
         "b",
         "a",
@@ -672,7 +672,7 @@
       "explanation": "“bag” begins with b."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-026",
@@ -699,7 +699,7 @@
       "explanation": "“Good afternoon!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-027",
@@ -715,7 +715,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “a yellow bag with six pencils.” Which number is written as “six”?",
+      "stem": "Number card: “a yellow bag with six pencils.” Which number is “six”?",
       "options": [
         "4",
         "5",
@@ -726,7 +726,7 @@
       "explanation": "“six” means 6."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-028",
@@ -742,7 +742,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a yellow bag with six pencils”?",
+      "stem": "Card: “a yellow bag with six pencils”. Which word is a colour?",
       "options": [
         "pencil",
         "art room",
@@ -753,7 +753,7 @@
       "explanation": "“yellow” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-029",
@@ -780,7 +780,7 @@
       "explanation": "“brother” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-030",
@@ -796,7 +796,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We draw and make things in the art room.” Which option names this place?",
+      "stem": "Where do we draw and make things?",
       "options": [
         "brother",
         "art room",
@@ -807,7 +807,7 @@
       "explanation": "“art room” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-031",
@@ -834,7 +834,7 @@
       "explanation": "“Pick up your pencil.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-032",
@@ -850,7 +850,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a yellow bag with six pencils”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a yellow bag with six pencils”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -861,7 +861,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-033",
@@ -877,7 +877,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “four black pens on a desk.” Look at the word “pen”. Which letter comes first?",
+      "stem": "Word card: “four black pens on a desk.” Look at “pen”. Which letter comes first?",
       "options": [
         "p",
         "a",
@@ -888,7 +888,7 @@
       "explanation": "“pen” begins with p."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-034",
@@ -915,7 +915,7 @@
       "explanation": "“My name is Amy.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-035",
@@ -931,7 +931,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “four black pens on a desk.” Which number is written as “four”?",
+      "stem": "Number card: “four black pens on a desk.” Which number is “four”?",
       "options": [
         "0",
         "1",
@@ -942,7 +942,7 @@
       "explanation": "“four” means 4."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-036",
@@ -958,7 +958,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “four black pens on a desk”?",
+      "stem": "Card: “four black pens on a desk”. Which word is a colour?",
       "options": [
         "desk",
         "music room",
@@ -969,7 +969,7 @@
       "explanation": "“black” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-037",
@@ -996,7 +996,7 @@
       "explanation": "“grandmother” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-038",
@@ -1012,7 +1012,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We sing and play music in the music room.” Which option names this place?",
+      "stem": "Where do we sing and play music?",
       "options": [
         "grandmother",
         "music room",
@@ -1023,7 +1023,7 @@
       "explanation": "“music room” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-039",
@@ -1050,7 +1050,7 @@
       "explanation": "“Stand by the desk.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-040",
@@ -1066,7 +1066,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “four black pens on a desk”. Which note matches its colour, number and school item?",
+      "stem": "Card: “four black pens on a desk”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -1077,7 +1077,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-041",
@@ -1093,7 +1093,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “an orange sun above eight chairs.” Look at the word “sun”. Which letter comes first?",
+      "stem": "Word card: “an orange sun above eight chairs.” Look at “sun”. Which letter comes first?",
       "options": [
         "s",
         "a",
@@ -1104,7 +1104,7 @@
       "explanation": "“sun” begins with s."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-042",
@@ -1131,7 +1131,7 @@
       "explanation": "“Nice to meet you, too.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-043",
@@ -1147,7 +1147,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “an orange sun above eight chairs.” Which number is written as “eight”?",
+      "stem": "Number card: “an orange sun above eight chairs.” Which number is “eight”?",
       "options": [
         "0",
         "1",
@@ -1158,7 +1158,7 @@
       "explanation": "“eight” means 8."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-044",
@@ -1174,7 +1174,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “an orange sun above eight chairs”?",
+      "stem": "Card: “an orange sun above eight chairs”. Which word is a colour?",
       "options": [
         "chair",
         "school gate",
@@ -1185,7 +1185,7 @@
       "explanation": "“orange” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-045",
@@ -1212,7 +1212,7 @@
       "explanation": "“grandfather” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-046",
@@ -1228,7 +1228,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We enter or leave school in the school gate.” Which option names this place?",
+      "stem": "Where do we enter or leave school?",
       "options": [
         "grandfather",
         "school gate",
@@ -1239,7 +1239,7 @@
       "explanation": "“school gate” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-047",
@@ -1266,7 +1266,7 @@
       "explanation": "“Sit on the chair.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-048",
@@ -1282,7 +1282,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “an orange sun above eight chairs”. Which note matches its colour, number and school item?",
+      "stem": "Card: “an orange sun above eight chairs”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -1293,7 +1293,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-049",
@@ -1309,7 +1309,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “a white map with seven stars.” Look at the word “map”. Which letter comes first?",
+      "stem": "Word card: “a white map with seven stars.” Look at “map”. Which letter comes first?",
       "options": [
         "m",
         "a",
@@ -1320,7 +1320,7 @@
       "explanation": "“map” begins with m."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-050",
@@ -1347,7 +1347,7 @@
       "explanation": "“Goodbye!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-051",
@@ -1363,7 +1363,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “a white map with seven stars.” Which number is written as “seven”?",
+      "stem": "Number card: “a white map with seven stars.” Which number is “seven”?",
       "options": [
         "6",
         "8",
@@ -1374,7 +1374,7 @@
       "explanation": "“seven” means 7."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-052",
@@ -1390,7 +1390,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a white map with seven stars”?",
+      "stem": "Card: “a white map with seven stars”. Which word is a colour?",
       "options": [
         "map",
         "reading corner",
@@ -1401,7 +1401,7 @@
       "explanation": "“white” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-053",
@@ -1428,7 +1428,7 @@
       "explanation": "“baby” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-054",
@@ -1444,7 +1444,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We sit and read quietly in the reading corner.” Which option names this place?",
+      "stem": "Where do we sit and read quietly?",
       "options": [
         "baby",
         "reading corner",
@@ -1455,7 +1455,7 @@
       "explanation": "“reading corner” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-055",
@@ -1482,7 +1482,7 @@
       "explanation": "“Look at the map.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-056",
@@ -1498,7 +1498,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a white map with seven stars”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a white map with seven stars”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -1509,7 +1509,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-057",
@@ -1525,7 +1525,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “nine purple dots on a computer card.” Look at the word “red”. Which letter comes first?",
+      "stem": "Word card: “nine purple dots on a computer card.” Look at “red”. Which letter comes first?",
       "options": [
         "r",
         "a",
@@ -1536,7 +1536,7 @@
       "explanation": "“red” begins with r."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-058",
@@ -1563,7 +1563,7 @@
       "explanation": "“Good evening!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-059",
@@ -1579,7 +1579,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “nine purple dots on a computer card.” Which number is written as “nine”?",
+      "stem": "Number card: “nine purple dots on a computer card.” Which number is “nine”?",
       "options": [
         "2",
         "3",
@@ -1590,7 +1590,7 @@
       "explanation": "“nine” means 9."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-060",
@@ -1606,7 +1606,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “nine purple dots on a computer card”?",
+      "stem": "Card: “nine purple dots on a computer card”. Which word is a colour?",
       "options": [
         "computer",
         "computer room",
@@ -1617,7 +1617,7 @@
       "explanation": "“purple” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-061",
@@ -1644,7 +1644,7 @@
       "explanation": "“uncle” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-062",
@@ -1660,7 +1660,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We learn with computers in the computer room.” Which option names this place?",
+      "stem": "Where do we learn with computers?",
       "options": [
         "uncle",
         "computer room",
@@ -1671,7 +1671,7 @@
       "explanation": "“computer room” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-063",
@@ -1698,7 +1698,7 @@
       "explanation": "“Point to the computer.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-064",
@@ -1714,7 +1714,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “nine purple dots on a computer card”. Which note matches its colour, number and school item?",
+      "stem": "Card: “nine purple dots on a computer card”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -1725,7 +1725,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-065",
@@ -1741,7 +1741,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “a pink kite with ten small circles.” Look at the word “kite”. Which letter comes first?",
+      "stem": "Word card: “a pink kite with ten small circles.” Look at “kite”. Which letter comes first?",
       "options": [
         "k",
         "a",
@@ -1752,7 +1752,7 @@
       "explanation": "“kite” begins with k."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-066",
@@ -1779,7 +1779,7 @@
       "explanation": "“You are welcome.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-067",
@@ -1795,7 +1795,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “a pink kite with ten small circles.” Which number is written as “ten”?",
+      "stem": "Number card: “a pink kite with ten small circles.” Which number is “ten”?",
       "options": [
         "4",
         "5",
@@ -1806,7 +1806,7 @@
       "explanation": "“ten” means 10."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-068",
@@ -1822,7 +1822,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a pink kite with ten small circles”?",
+      "stem": "Card: “a pink kite with ten small circles”. Which word is a colour?",
       "options": [
         "kite",
         "school hall",
@@ -1833,7 +1833,7 @@
       "explanation": "“pink” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-069",
@@ -1860,7 +1860,7 @@
       "explanation": "“aunt” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-070",
@@ -1876,7 +1876,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We meet for school events in the school hall.” Which option names this place?",
+      "stem": "Where do we meet for school events?",
       "options": [
         "aunt",
         "school hall",
@@ -1887,7 +1887,7 @@
       "explanation": "“school hall” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-071",
@@ -1914,7 +1914,7 @@
       "explanation": "“Show me the kite.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-072",
@@ -1930,7 +1930,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a pink kite with ten small circles”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a pink kite with ten small circles”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -1941,7 +1941,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-073",
@@ -1957,7 +1957,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “one brown hat in the garden.” Look at the word “hat”. Which letter comes first?",
+      "stem": "Word card: “one brown hat in the garden.” Look at “hat”. Which letter comes first?",
       "options": [
         "h",
         "a",
@@ -1968,7 +1968,7 @@
       "explanation": "“hat” begins with h."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-074",
@@ -1995,7 +1995,7 @@
       "explanation": "“That’s OK.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-075",
@@ -2011,7 +2011,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “one brown hat in the garden.” Which number is written as “one”?",
+      "stem": "Number card: “one brown hat in the garden.” Which number is “one”?",
       "options": [
         "3",
         "4",
@@ -2022,7 +2022,7 @@
       "explanation": "“one” means 1."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-076",
@@ -2038,7 +2038,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “one brown hat in the garden”?",
+      "stem": "Card: “one brown hat in the garden”. Which word is a colour?",
       "options": [
         "hat",
         "garden",
@@ -2049,7 +2049,7 @@
       "explanation": "“brown” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-077",
@@ -2076,7 +2076,7 @@
       "explanation": "“cousin” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-078",
@@ -2092,7 +2092,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We care for plants in the garden.” Which option names this place?",
+      "stem": "Where do we care for plants?",
       "options": [
         "cousin",
         "garden",
@@ -2103,7 +2103,7 @@
       "explanation": "“garden” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-079",
@@ -2130,7 +2130,7 @@
       "explanation": "“Put on your hat.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-080",
@@ -2146,7 +2146,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “one brown hat in the garden”. Which note matches its colour, number and school item?",
+      "stem": "Card: “one brown hat in the garden”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -2157,7 +2157,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-081",
@@ -2173,7 +2173,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “eleven grey cups in two rows.” Look at the word “leg”. Which letter comes first?",
+      "stem": "Word card: “eleven grey cups in two rows.” Look at “leg”. Which letter comes first?",
       "options": [
         "l",
         "a",
@@ -2184,7 +2184,7 @@
       "explanation": "“leg” begins with l."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-082",
@@ -2211,7 +2211,7 @@
       "explanation": "“Yes, please.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-083",
@@ -2227,7 +2227,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Number card: “eleven grey cups in two rows.” Which number is written as “eleven”?",
+      "stem": "Number card: “eleven grey cups in two rows.” Which number is “eleven”?",
       "options": [
         "6",
         "7",
@@ -2238,7 +2238,7 @@
       "explanation": "“eleven” means 11."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-084",
@@ -2254,7 +2254,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “eleven grey cups in two rows”?",
+      "stem": "Card: “eleven grey cups in two rows”. Which word is a colour?",
       "options": [
         "cup",
         "dining room",
@@ -2265,7 +2265,7 @@
       "explanation": "“grey” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-085",
@@ -2292,7 +2292,7 @@
       "explanation": "“parents” is a family word."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-086",
@@ -2308,7 +2308,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We eat lunch in the dining room.” Which option names this place?",
+      "stem": "Where do we eat lunch?",
       "options": [
         "parents",
         "dining room",
@@ -2319,7 +2319,7 @@
       "explanation": "“dining room” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-087",
@@ -2346,7 +2346,7 @@
       "explanation": "“Hold the cup.” tells someone what to do."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-088",
@@ -2362,7 +2362,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “eleven grey cups in two rows”. Which note matches its colour, number and school item?",
+      "stem": "Card: “eleven grey cups in two rows”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -2373,7 +2373,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-089",
@@ -2389,7 +2389,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Word card: “twelve gold stars on a notebook.” Look at the word “nose”. Which letter comes first?",
+      "stem": "Word card: “twelve gold stars on a notebook.” Look at “nose”. Which letter comes first?",
       "options": [
         "n",
         "a",
@@ -2400,7 +2400,7 @@
       "explanation": "“nose” begins with n."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-090",
@@ -2427,7 +2427,7 @@
       "explanation": "“Yes, come in.” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-091",
@@ -2454,7 +2454,7 @@
       "explanation": "12 is written “twelve”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-092",
@@ -2470,7 +2470,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “twelve gold stars on a notebook”?",
+      "stem": "Card: “twelve gold stars on a notebook”. Which word is a colour?",
       "options": [
         "notebook",
         "teachers’ office",
@@ -2481,7 +2481,7 @@
       "explanation": "“gold” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-093",
@@ -2508,7 +2508,7 @@
       "explanation": "“family” matches the family clue “people at home who care for one another”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-094",
@@ -2524,7 +2524,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We speak with a teacher in the teachers’ office.” Which option names this place?",
+      "stem": "Where do we speak with a teacher?",
       "options": [
         "family",
         "teachers’ office",
@@ -2535,7 +2535,7 @@
       "explanation": "“teachers’ office” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-095",
@@ -2562,7 +2562,7 @@
       "explanation": "The instruction names the notebook."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-096",
@@ -2578,7 +2578,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “twelve gold stars on a notebook”. Which note matches its colour, number and school item?",
+      "stem": "Card: “twelve gold stars on a notebook”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -2589,7 +2589,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-097",
@@ -2616,7 +2616,7 @@
       "explanation": "“van” begins with the letter v and the sound /v/."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-098",
@@ -2643,7 +2643,7 @@
       "explanation": "“See you!” is a natural reply in this situation."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-099",
@@ -2670,7 +2670,7 @@
       "explanation": "13 is written “thirteen”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-100",
@@ -2686,7 +2686,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Which word is a colour in this card: “a silver van near thirteen flags”?",
+      "stem": "Card: “a silver van near thirteen flags”. Which word is a colour?",
       "options": [
         "flag",
         "sports field",
@@ -2697,7 +2697,7 @@
       "explanation": "“silver” is the colour word in the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-101",
@@ -2724,7 +2724,7 @@
       "explanation": "“son” matches the family clue “a boy in a family”."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-102",
@@ -2740,7 +2740,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "School map clue: “We practise sports in the sports field.” Which option names this place?",
+      "stem": "Where do we practise sports?",
       "options": [
         "son",
         "sports field",
@@ -2751,7 +2751,7 @@
       "explanation": "“sports field” names the school place for this activity."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-103",
@@ -2778,7 +2778,7 @@
       "explanation": "The instruction names the flag."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-104",
@@ -2794,7 +2794,7 @@
       "文字可作答"
     ],
     "content": {
-      "stem": "Read the picture card in words: “a silver van near thirteen flags”. Which note matches its colour, number and school item?",
+      "stem": "Card: “a silver van near thirteen flags”. Choose the matching note.",
       "options": [
         "blue — one — train",
         "no colour — zero — nothing",
@@ -2805,7 +2805,7 @@
       "explanation": "The matching note keeps the colour, number and school item from the card."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-105",
@@ -2832,7 +2832,7 @@
       "explanation": "“zoo” begins with the letter z and the sound /z/."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-106",
@@ -2853,7 +2853,7 @@
       "explanation": "The clue is “book”. The answer “b” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-107",
@@ -2874,7 +2874,7 @@
       "explanation": "The clue is “Hello!”. The answer “hello” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-108",
@@ -2895,7 +2895,7 @@
       "explanation": "The answer “five” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-109",
@@ -2916,7 +2916,7 @@
       "explanation": "The answer “green” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-110",
@@ -2937,7 +2937,7 @@
       "explanation": "The answer “parents” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-111",
@@ -2958,7 +2958,7 @@
       "explanation": "The answer “library” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-112",
@@ -2979,7 +2979,7 @@
       "explanation": "The clue is “___ your book”. The answer “open” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-113",
@@ -3000,7 +3000,7 @@
       "explanation": "The clue is “one red apple”. The answer “red” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-114",
@@ -3021,7 +3021,7 @@
       "explanation": "The clue is “dog”. The answer “d” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-115",
@@ -3042,7 +3042,7 @@
       "explanation": "The answer “welcome” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-116",
@@ -3063,7 +3063,7 @@
       "explanation": "The answer “eleven” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-117",
@@ -3084,7 +3084,7 @@
       "explanation": "The answer “blue” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-118",
@@ -3105,7 +3105,7 @@
       "explanation": "The answer “grandmother” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-119",
@@ -3126,7 +3126,7 @@
       "explanation": "The answer “playground” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-120",
@@ -3147,7 +3147,7 @@
       "explanation": "The clue is “___ down”. The answer “sit” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-121",
@@ -3168,7 +3168,7 @@
       "explanation": "The clue is “three blue pens”. The answer “three” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-122",
@@ -3189,7 +3189,7 @@
       "explanation": "The clue is “sun”. The answer “s” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-123",
@@ -3210,7 +3210,7 @@
       "explanation": "The answer “fine” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-124",
@@ -3231,7 +3231,7 @@
       "explanation": "The answer “eleven” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-125",
@@ -3252,7 +3252,7 @@
       "explanation": "The clue is “___ at the map”. The answer “look” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-126",
@@ -3273,7 +3273,7 @@
       "explanation": "The clue is “a yellow bag”. The answer “bag” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-127",
@@ -3323,7 +3323,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 字母与声音, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-128",
@@ -3373,7 +3373,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常问候, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-129",
@@ -3423,7 +3423,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 数字, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-130",
@@ -3473,7 +3473,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 颜色, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-131",
@@ -3523,7 +3523,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 家庭, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-132",
@@ -3573,7 +3573,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 学校, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-133",
@@ -3623,7 +3623,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 课堂指令, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-134",
@@ -3673,7 +3673,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 图文匹配, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-135",
@@ -3723,7 +3723,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 字母与声音, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-136",
@@ -3773,7 +3773,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常问候, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-137",
@@ -3823,7 +3823,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 数字, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-138",
@@ -3873,7 +3873,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 颜色, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-139",
@@ -3923,7 +3923,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 家庭, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   },
   {
     "id": "g1-english-authored-140",
@@ -3973,6 +3973,6 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 学校, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 1
+    "version": 2
   }
 ]
