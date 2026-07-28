@@ -16,7 +16,7 @@
 - Supabase `questions` 表是由 canonical 内容经校验、审核和幂等迁移发布得到的运行副本，不反向成为内容编辑入口。
 - AI 只能离线生成 `draft` 候选。运行时答题链路不得调用 AI，也不得把未经确定性校验和人工审核的 AI 输出直接发布。
 - 内容或关键元数据变化时保留稳定 `external_id`、递增 `version`，并依次通过 validate、audit、review 和 release 门禁。
-- `reviewed` 只表示已经初审，尚未达到发布门槛。只有 `approved` 内容可以生成新迁移，并通过基于 `external_id` 的非破坏性 upsert 进入运行副本。
+- `reviewed` 只表示已经初审，尚未达到发布门槛。发布生成器只把 `approved` 内容写入其产生的发布/upsert 新迁移。安全下架不走该生成发布路径；可以通过明确、经审查的定向新迁移把目标题更新为 `reviewed` 或 `draft`，但不得物理删除被 `quiz_records` 引用的题目。
 
 当前运行时行为是兼容状态而非最终发布规则：`questionRepository` 优先读取 `approved`；只有某年级、学科的 approved 池完全为空时才回退 `reviewed`。approved 池非空但不足组卷数量时不会混入 reviewed 补足，而会因总量不足拒绝创建残缺会话。该回退是旧数据兼容和已知差距，发布目标仍是为运行时提供足量的 approved 内容。
 
@@ -27,7 +27,7 @@
 ## 影响
 
 - 直接在数据库中新增或修改题目会造成漂移；发现此类变更时必须先回填并审核 canonical JSON，再由新迁移重新发布。
-- 题库迁移必须新增、有序、非破坏，并按 `external_id` 幂等 upsert；不得全量删除或改写已应用的迁移历史。
+- 发布生成器产生的内容迁移必须新增、有序、非破坏，并按 `external_id` 幂等 upsert；下架的定向迁移也必须新增、有序、经审查且可重复执行。两类迁移都不得全量删除或改写已应用的迁移历史，下架不得物理删除被 `quiz_records` 引用的题目。
 - 每次发布都需要通过题目测试、schema validation、audit、人工 review 和 release 校验，并保留相应证据。
 - 运行时读取仍需保留并测试当前 approved 优先、空池回退 reviewed 的兼容行为，直到另一个经过记录的变更安全移除该差距。
 - 领域文档负责描述当前流程和风险；本 ADR 只固定长期权威边界与取舍。
