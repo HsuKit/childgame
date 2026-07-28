@@ -32,7 +32,7 @@ updated: 2026-07-28
 ## 实施摘要
 
 - `013_wish_rewards.sql` 建立追加式 `wish_coin_transactions` 账本、预设/自定义 `wish_rewards`、状态化 `wish_redemptions` 和 `reward_diary_entries`；余额由 earn、freeze、release、spend 派生。reference 唯一索引、金额符号约束、own-row RLS 和兑现日记唯一约束固定了基础一致性边界。
-- 愿望 RPC 位于 `public`，使用 `security definer`、固定 `search_path`、`auth.uid()`/资源归属校验、权限 revoke/grant 和事务级 advisory lock。提交兑换在一个 RPC 中创建待审核记录并 freeze；批准写 spend，退回写 release，兑现推进状态并幂等写入 `wish_fulfilled` 日记。
+- 愿望 RPC 位于 `public`，使用 `security definer`、固定 `search_path`、`auth.uid()`/资源归属校验和权限 revoke/grant；发奖与兑换状态变更 RPC 使用事务级 advisory lock，`get_wish_coin_balance` 是不获取该锁的 stable 读取。提交兑换在一个 RPC 中创建待审核记录并 freeze；批准写 spend，退回写 release，兑现推进状态并幂等写入 `wish_fulfilled` 日记。
 - 每日三科完成后由 check-in 流程调用 RPC；数据库按上海日期核对每科至少 10 个不同题目。基础奖励为 1 枚，7 天倍数额外 2 枚，30 天倍数额外 8 枚且优先于 7 天规则。客户端随后补了结算串行化、失败处理、回到首页后的完成状态对账和零答题积分时仍结算科目完成。
 - 儿童商城展示余额、按成本分组的奖励、兑换备注、待处理状态和最近日记；家长页在同一账号内完成审核、退回、兑现和自定义奖励管理。`015_standard_wish_rewards.sql` 维护标准目录，兑换对话框又补了底部导航避让。
 - `0f0488e` 是共享提交：本记录只归属其中 Home/QuizResult 的愿望完成对账修复；同一提交的共享解析组件、题库文案和解析测试归入“儿童友好解析与共享展示”迭代。
