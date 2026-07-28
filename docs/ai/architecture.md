@@ -117,13 +117,13 @@ data/questions canonical JSON
 
 1. `saveQuizRecords` 批量插入 `quiz_records`；
 2. 查询既有错题和当日错误，再 upsert `mistake_records`；
-3. 若该科当日首次结算，追加答题 `points_transactions`；
+3. 若页面读取的当日 `today` 快照显示该科尚未完成，追加答题 `points_transactions`；这是客户端快照判断，不提供数据库级“首次结算”保证；
 4. 增加伙伴经验；
 5. `markSubjectDone` 更新 `check_ins`；三科全完成时先条件更新连续天数和打卡积分，再追加打卡积分，最后调用每日愿望币 RPC。
 
 页面用一次性 ref 防止同一次挂载重复进入结算，异常只记录到控制台。上述写入是客户端串行步骤，不是一个数据库事务：任一步失败都可能留下此前成功的写入。尤其 `quiz_records` 已插入而错题同步失败时，store 不会标记 `recordsSaved`，再次尝试可能重复作答行；不能把当前实现描述为端到端原子或完全幂等。
 
-挑战结果先检查当日完成状态，但保存记录、答题积分、伙伴经验、通关积分和 `challenge_done` 更新没有统一 `await` 或事务，失败只形成未处理/局部副作用风险。修改挑战结算时必须把这一现状作为正确性重点。
+挑战结果先检查当日完成状态，但保存记录、答题积分、伙伴经验、通关积分和 `challenge_done` 更新没有统一 `await` 或事务，失败只形成未处理/局部副作用风险。日期键也不一致：`getTodayChallengeDone` 用 `formatLocalDate(new Date())` 生成本地日期，`ChallengeResultPage` 写入时却用 `new Date().toISOString().slice(0, 10)` 生成 UTC 日期；本地日与 UTC 日不同时，读取和更新可能命中不同的 `check_ins` 行，进而影响完成状态与奖励判断。修改挑战结算时应统一使用同一日期函数，并把这些风险作为正确性重点。
 
 ## 奖励一致性
 
@@ -145,6 +145,6 @@ data/questions canonical JSON
 
 ## 部署与运行边界
 
-Netlify 构建静态前端并以 rewrite 承接 React Router SPA 路由；浏览器运行 React、Zustand 和 Supabase public client。Supabase 是认证、数据库、RLS 和 RPC 的运行后端。`vercel.json` 只是保留的另一份 SPA rewrite 配置，不是当前生产承载证据。
+`PROJECT_INFO.md` 把 Netlify 记录为当前 Git 触发的前端发布路径，`netlify.toml` 确认静态构建产物与 React Router SPA rewrite；仓库无法独立确认远端 Git 连线仍有效。浏览器运行 React、Zustand 和 Supabase public client，Supabase 是认证、数据库、RLS 和 RPC 的运行后端。`vercel.json` 只证明仓库保留了另一份 SPA rewrite 配置，不是当前生产承载证据。
 
 部署现状和环境变量见[项目概览的部署说明](./project-overview.md#部署)，部署文件见 [`netlify.toml`](../../netlify.toml)。

@@ -57,7 +57,7 @@ npm run build
 
 ## 部署
 
-当前前端生产路径是 Git push 触发 Netlify 自动构建和发布：[`PROJECT_INFO.md`](../../PROJECT_INFO.md) 记录了该流程，[`netlify.toml`](../../netlify.toml) 使用 `npm run build`、发布 `dist`，并把所有路径重写到 `index.html` 以支持 SPA 路由。
+[`PROJECT_INFO.md`](../../PROJECT_INFO.md) 把 Git push 触发 Netlify 自动构建和发布记录为当前前端路径。[`netlify.toml`](../../netlify.toml) 只能独立确认 Netlify 构建契约：运行 `npm run build`、发布 `dist`，并把所有路径重写到 `index.html` 以支持 SPA 路由。仓库本身无法确认 Netlify 与远端 Git 的连接目前仍然有效；依赖自动发布前应在 Netlify 项目中核对连接和最近构建状态。
 
 Supabase 承担匿名认证、PostgreSQL 数据库、RLS 和数据库函数；仓库还保留 Edge Function 源码。数据库变更应新增有序、经审查的 `supabase/migrations/` 迁移，在测试环境验证后再发布，不能以修改已应用迁移或直接粘贴未经审核内容改写生产历史。
 
