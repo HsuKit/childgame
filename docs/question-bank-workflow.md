@@ -3,7 +3,7 @@
 ## 基本原则
 
 - `data/questions` 中的规范 JSON 是唯一内容源，Supabase 只是运行副本。
-- 用户答题时只读取 `review_status = 'approved'` 的静态题目。
+- 发布目标和正常运行时读取都只使用 `approved`。当前 `questionRepository` 仅在某年级、学科的 approved 池完全为空时兼容回退 `reviewed`；approved 池非空但数量不足时不会混入 reviewed 补足。`reviewed` 仍未达到发布门槛，不能生成新迁移。
 - AI 可以离线帮助起草，但输出永远从 `draft` 开始，不能直接发布。
 - 不执行全量删除；新增和修订都按 `external_id` 幂等 upsert。
 - 题库内容、数据库结构和运行时代码分别提交，便于审阅和回滚。

@@ -13,7 +13,7 @@ Codex、Claude 和 Gemini 识别的项目入口文件不同。如果在 `AGENTS.
 - 根目录 [AGENTS.md](../../../AGENTS.md) 是项目 AI 规则的唯一权威来源，负责强规则、上下文路由和维护要求。
 - [CLAUDE.md](../../../CLAUDE.md) 与 [GEMINI.md](../../../GEMINI.md) 只保留指向 `AGENTS.md` 的 delegate，不复制、改写或追加项目规则。
 - `docs/ai/` 按“索引 → core/domain → iterations/ADR → 按需 specs”的层级提供上下文；入口只负责路由，不要求启动时全量加载文档。
-- 修改通用项目规则时只修改 `AGENTS.md`，再由文档 checker 验证 delegate 链接和所需文档。
+- 修改通用项目规则时只修改 `AGENTS.md`，并在完成清单中复核两个 delegate 仍然只承担跳转职责。
 
 当前两个工具入口必须保持纯 delegate。若未来确有无法由 `AGENTS.md` 表达、且某工具运行所必需的特有行为，应先新增或 supersede ADR 重新讨论本决策；在此之前不得向 `CLAUDE.md` 或 `GEMINI.md` 追加规则，任何未来例外也不得与权威规则冲突。
 
@@ -26,7 +26,8 @@ Codex、Claude 和 Gemini 识别的项目入口文件不同。如果在 `AGENTS.
 - 项目规则变更只落在 `AGENTS.md`；不得在任何 tool-specific 入口复制一份“方便读取”的规则。
 - `CLAUDE.md` 和 `GEMINI.md` 保持短小，只承担跳转职责。
 - 领域事实、迭代过程和长期决策分别进入对应文档层，不堆入入口文件。
-- 文档 checker 必须持续验证入口 delegate 的本地链接、知识库必需文件和索引完整性。
+- 就本决策相关保证而言，当前文档 checker 只确定性检查 delegate 中写出的本地链接目标存在、知识库必需文件存在，以及 ADR/iteration 文件已被各自 index 链接。
+- checker 当前不验证 `CLAUDE.md` 和 `GEMINI.md` 是否仍为 pure delegate，也不核对 ADR 的 ID、日期、状态、影响域是否与索引字段一致；这些约束依赖完成清单与人工审查，是已知治理缺口。未来若增强自动检查，必须同时增加对应的失败用例和 checker 测试。
 - 新增 AI 工具时优先创建最短 delegate，使其汇入同一权威入口；若做不到，应通过新的 ADR 明确权衡。
 
 ## 替代方案

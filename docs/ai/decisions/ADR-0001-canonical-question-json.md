@@ -12,11 +12,11 @@
 
 ## 决策
 
-- `data/questions/*.json` 中经过人工 reviewed 的 canonical JSON 是题库内容的唯一权威源。其他示例、生成结果、SQL 或数据库行都不是并列的 authoring 来源。
+- `data/questions/*.json` canonical JSON 是题库内容的唯一 authoring source。`draft`、`reviewed` 和 `approved` 是该内容源内的审核生命周期状态，不构成不同的内容源；其他示例、生成结果、SQL 或数据库行也不是并列的 authoring 来源。
 - Supabase `questions` 表是由 canonical 内容经校验、审核和幂等迁移发布得到的运行副本，不反向成为内容编辑入口。
 - AI 只能离线生成 `draft` 候选。运行时答题链路不得调用 AI，也不得把未经确定性校验和人工审核的 AI 输出直接发布。
 - 内容或关键元数据变化时保留稳定 `external_id`、递增 `version`，并依次通过 validate、audit、review 和 release 门禁。
-- 发布目标只包含 `approved` 内容，并通过基于 `external_id` 的非破坏性 upsert 新迁移进入运行副本。
+- `reviewed` 只表示已经初审，尚未达到发布门槛。只有 `approved` 内容可以生成新迁移，并通过基于 `external_id` 的非破坏性 upsert 进入运行副本。
 
 当前运行时行为是兼容状态而非最终发布规则：`questionRepository` 优先读取 `approved`；只有某年级、学科的 approved 池完全为空时才回退 `reviewed`。approved 池非空但不足组卷数量时不会混入 reviewed 补足，而会因总量不足拒绝创建残缺会话。该回退是旧数据兼容和已知差距，发布目标仍是为运行时提供足量的 approved 内容。
 
