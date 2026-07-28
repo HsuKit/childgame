@@ -121,6 +121,7 @@ test('accepts angle-bracket and titled local Markdown links', (t) => {
       '',
       '[Angle bracket](<./existing.md#existing>)',
       '[Optional title](./existing.md "Existing document")',
+      '[Parenthesized title](./existing.md (Existing document))',
       '',
     ].join('\n'),
   )

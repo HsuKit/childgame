@@ -126,7 +126,7 @@ function sectionBody(markdown, heading) {
 
 function localLinks(markdown) {
   const targets = []
-  const linkPattern = /\[[^\]]*]\(([^)]+)\)/g
+  const linkPattern = /\[[^\]]*]\(([^()]*(?:\([^()]*\)[^()]*)?)\)/g
 
   for (const match of markdown.matchAll(linkPattern)) {
     let target = match[1].trim()
