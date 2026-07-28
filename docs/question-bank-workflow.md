@@ -33,11 +33,15 @@ npm run build
 
 ## 生成迁移
 
+每次生成前先查看 `supabase/migrations/`，选择尚未使用的下一个有序编号。当前仓库最新编号是 `016`，因此下面的 `017` 仅是当前仓库示例；后续必须按当时目录重新确定编号。
+
 ```bash
-npm run questions:sql -- --output supabase/migrations/006_seed_validated_questions.sql
+npm run questions:sql -- --output supabase/migrations/017_<description>.sql
 ```
 
-如果目标文件已存在，命令会拒绝覆盖。确认确实要重新生成时才增加 `--force`。生成器只包含 `approved` 题目，并使用 `on conflict (external_id) do update`。
+`--output <path>` 是必填参数。`supabase/migrations/` 中已存在的文件永远不能覆盖，即使传入 `--force` 也会失败；目标已存在时应检查目录并选择新的 migration 编号。生成器只包含 `approved` 题目，并使用 `on conflict (external_id) do update`。
+
+`--force` 只保留给仓库 migration 目录之外的临时审阅输出；即使是临时文件，也应先确认覆盖不会丢失仍需保留的审阅结果。
 
 ## 数据库发布清单
 
@@ -49,10 +53,10 @@ npm run questions:sql -- --output supabase/migrations/006_seed_validated_questio
 6. 使用测试账号完成 30 题挑战，确认三科各保存 10 条记录。
 7. 生产发布后再次核对统计，并保留迁移日志。
 
-远程发布脚本只接受环境变量：
+使用远程发布脚本前，从批准的 secret manager 或受保护 session 预先加载 `SUPABASE_URL` 与 `SUPABASE_SERVICE_ROLE_KEY`，再单独运行：
 
 ```bash
-SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-all-questions.mjs
+node scripts/seed-all-questions.mjs
 ```
 
 服务角色密钥不得写入仓库、浏览器代码或命令输出。常规发布优先使用经过审阅的 SQL 迁移。

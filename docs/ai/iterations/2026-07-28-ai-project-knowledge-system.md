@@ -33,6 +33,8 @@ updated: 2026-07-28
 
 迭代账本现有 10 条历史记录与本记录，共 11 条可筛选记录；历史回填覆盖项目第一阶段、伙伴演进、核心可靠性、认证恢复、题库体系、错题与家长报告、选择题答案规范化、儿童友好解析、愿望奖励和英语难度优化。仓库还提供确定性 validator、21 个 Node 回归测试、`npm run docs:check` 命令，并把 `PROJECT_INFO.md` 收窄为面向人的快速操作手册和 AI 知识库入口。
 
+质量审查进一步修复题库 migration 生成器的输出安全边界：移除已过时的默认 `006` 路径，强制显式 `--output <path>`，拒绝缺值或把后续 flag 当作路径，并使用相对路径边界识别 `supabase/migrations/`。该目录内任何已存在文件即使传入 `--force` 也不能覆盖；仓库外临时审阅输出仍保留明确 `--force` 后覆盖的能力。6 个直接调用真实 `main` 与文件系统的测试覆盖了这些门禁。
+
 ## 决策与原因
 
 - 用单一权威入口承载项目级 AI 规则，其他代理入口只做代理，避免多份规则互相漂移。
@@ -44,19 +46,21 @@ updated: 2026-07-28
 ## 验证结果
 
 - `node --test scripts/tests/docs-check.test.mjs`：21/21 通过，0 失败。
+- `node --test scripts/tests/question-migration-output.test.mjs` TDD RED：6 个测试中 2 个通过、4 个按预期失败，分别暴露默认 `006` 生成、缺值底层 path 错误、flag 被当作路径和 `--force` 覆盖既有 migration；实现后 GREEN 为 6/6 通过。
 - `npm run docs:check`：输出 `Documentation check passed.`。
 - `VITE_SUPABASE_URL=http://localhost VITE_SUPABASE_ANON_KEY=test npm test`：16 个测试文件、93 个测试通过。
-- `npm run test:questions`：79/79 个 Node 测试通过，0 失败。
+- `npm run test:questions`：85/85 个 Node 测试通过，0 失败。
 - `npm run questions:validate`：18 个年级-学科组合各 140 题，共 2,520 题，输出 `Question bank is publishable.`。
 - `VITE_SUPABASE_URL=http://localhost VITE_SUPABASE_ANON_KEY=test npm run build`：TypeScript 与 Vite 构建成功，543 个模块完成转换；保留动态/静态 import 和大于 500 kB chunk 的非阻断警告。
 - `git diff --check`：无输出，exit 0。
-- 敏感扫描覆盖 6 个本次修改的 Markdown 文件，未发现 JWT、真实 Supabase project URL、service-role/anon key 值或常见 secret key 前缀；变量名称和明确 placeholder 被允许。
+- 敏感扫描覆盖本次 5 个修改或新增文件，未发现 JWT、真实 Supabase project URL、service-role/anon key 值或常见 secret key 前缀；变量名称、明确 placeholder 和测试用 `test` 值被允许。
 
 ## 风险与遗留
 
 - checker 当前只解析 inline Markdown links，不验证 reference-style links。
 - 代理入口是否保持纯 delegate，以及 ADR 元数据与索引字段的语义一致性，仍需要人工 review。
 - 确定性检查不能完全识别文档与实现之间的语义漂移；业务事实仍需结合代码、测试、迁移和配置核验。
+- migration 生成器不会自动挑选或验证下一个编号；它阻止改写已存在文件，但新路径的编号顺序、内容 diff 和发布目标仍需人工检查。
 - 已发现的具体产品与数据一致性风险不在本记录重复展开，见[业务域文档](../README.md#业务域)和[系统架构](../architecture.md)。
 
 ## Git 关联
@@ -69,3 +73,4 @@ updated: 2026-07-28
 - 3 个 ADR 及运行时事实对齐：`e9effd0`、`c7192e4`、`d5a8dbb`。
 - 10 条历史迭代及归属修正：`e5fcd00`–`8617e73`。
 - 本记录随 `docs: complete AI project knowledge system` 收尾提交落盘，精确 hash 由 `git log -- docs/ai/iterations/2026-07-28-ai-project-knowledge-system.md` 定位。
+- 题库 migration 输出安全修复随 `fix: require safe question migration output` 提交落盘，精确 hash 由同一文件的 `git log` 定位。

@@ -38,7 +38,6 @@ npm run dev
 npm test
 npm run test:questions
 npm run questions:validate
-npm run questions:sql
 npm run docs:check
 npm run build
 ```
@@ -46,8 +45,15 @@ npm run build
 - `npm test` 运行 `src/` 下的 Vitest 测试。
 - `npm run test:questions` 运行 `scripts/tests/*.test.mjs`。
 - `questions:validate` 校验 canonical 题库的结构、配额、重复和发布状态。
-- `questions:sql` 只输出审核通过的题目，且默认拒绝覆盖既有文件；实际发布时用 `--output` 指定新的、经审查的有序迁移路径。
 - `npm run docs:check` 执行确定性文档校验，检查 AI 文档结构、元数据、索引和 inline Markdown 链接。
+
+生成题库发布 migration 不属于常规本地检查。发布前先查看 `supabase/migrations/` 并选择新的有序编号，再显式指定输出：
+
+```bash
+npm run questions:sql -- --output supabase/migrations/<next_number>_<description>.sql
+```
+
+生成器只输出审核通过的题目；不提供 `--output` 会失败，且已存在的 migration 不能用 `--force` 覆盖。完整发布步骤见[题库维护与发布手册](../question-bank-workflow.md#生成迁移)。
 
 本地和托管环境需要以下变量名：
 

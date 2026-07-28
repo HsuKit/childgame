@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { dirname, join, resolve } from 'node:path'
+import { dirname, isAbsolute, join, relative, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { validateQuestion } from './lib/question-schema.mjs'
 import { auditQuestionSet } from './lib/question-audit.mjs'
@@ -7,13 +7,31 @@ import { renderQuestionMigration } from './lib/question-sql.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 
-function argumentsFrom(argv) {
+export function argumentsFrom(argv) {
   const outputIndex = argv.indexOf('--output')
   const manifestIndex = argv.indexOf('--manifest')
+  if (outputIndex < 0) throw new Error('--output is required; pass --output <path>.')
+  const outputValue = argv[outputIndex + 1]
+  if (!outputValue || outputValue.startsWith('--')) throw new Error('--output requires a path.')
   return {
     force: argv.includes('--force'),
-    output: outputIndex >= 0 ? resolve(argv[outputIndex + 1]) : join(root, 'supabase/migrations/006_seed_validated_questions.sql'),
+    output: resolve(outputValue),
     manifest: manifestIndex >= 0 ? resolve(argv[manifestIndex + 1]) : undefined,
+  }
+}
+
+export function assertSafeOutput(output, force = false) {
+  if (!existsSync(output)) return
+
+  const migrationDirectory = join(root, 'supabase/migrations')
+  const relativePath = relative(migrationDirectory, output)
+  const isMigrationPath = relativePath === ''
+    || (!isAbsolute(relativePath) && relativePath !== '..' && !relativePath.startsWith(`..${sep}`))
+  if (isMigrationPath) {
+    throw new Error(`Refusing to overwrite existing migration ${output}; create a new migration with the next available number.`)
+  }
+  if (!force) {
+    throw new Error(`Refusing to overwrite ${output}; pass --force to replace it.`)
   }
 }
 
@@ -53,10 +71,7 @@ export function loadAndValidateQuestions(questionDirectory = join(root, 'data/qu
 
 export function main(argv = process.argv.slice(2)) {
   const options = argumentsFrom(argv)
-  if (!options.output) throw new Error('--output requires a path')
-  if (existsSync(options.output) && !options.force) {
-    throw new Error(`Refusing to overwrite ${options.output}; pass --force to replace it.`)
-  }
+  assertSafeOutput(options.output, options.force)
   const manifest = options.manifest
     ? JSON.parse(readFileSync(options.manifest, 'utf8'))
     : undefined
