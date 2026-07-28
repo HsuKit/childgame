@@ -7,3 +7,5 @@
 | ID | 日期 | 状态 | 业务域 | 标题 | 记录 | 关联规格/计划 |
 | --- | --- | --- | --- | --- | --- | --- |
 | ITER-20260728-AI-PROJECT-KNOWLEDGE-SYSTEM | 2026-07-28 | in-progress | documentation | AI 项目知识与迭代追踪体系 | [迭代记录](./2026-07-28-ai-project-knowledge-system.md) | [规格](../../superpowers/specs/2026-07-28-ai-project-knowledge-system-design.md) / [计划](../../superpowers/plans/2026-07-28-ai-project-knowledge-system.md) |
+| ITER-20260520-COMPANION-EVOLUTION | 2026-05-20 | completed | companion-shop | 伙伴互动、进化与角色资产演进 | [迭代记录](./2026-05-20-companion-evolution.md) | [规格](../../superpowers/specs/2026-05-20-companion-upgrade-design.md) / 无独立实施计划 |
+| ITER-20260519-PROJECT-PHASE-ONE | 2026-05-19 | completed | auth-profile, quiz-question-bank, companion-shop, platform | 项目第一阶段与核心学习闭环 | [迭代记录](./2026-05-19-project-phase-one.md) | [规格](../../superpowers/specs/2026-05-19-childgame-design.md) / [计划](../../superpowers/plans/2026-05-19-childgame-phase1.md) |
