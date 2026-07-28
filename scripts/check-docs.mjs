@@ -124,11 +124,47 @@ function sectionBody(markdown, heading) {
   return lines.slice(headingIndex + 1, endIndex).join('\n').trim()
 }
 
+function markdownOutsideCodeAndComments(markdown) {
+  const withoutComments = markdown.replace(/<!--[\s\S]*?-->/g, '')
+  const visibleLines = []
+  let fence = null
+
+  for (const line of withoutComments.split(/\r?\n/)) {
+    const trimmed = line.trimStart()
+    const indentation = line.length - trimmed.length
+    const marker = indentation <= 3 ? trimmed.match(/^(`{3,}|~{3,})/)?.[1] : null
+
+    if (fence) {
+      if (
+        marker &&
+        marker[0] === fence.character &&
+        marker.length >= fence.length
+      ) {
+        fence = null
+      }
+      visibleLines.push('')
+      continue
+    }
+
+    if (marker) {
+      fence = { character: marker[0], length: marker.length }
+      visibleLines.push('')
+      continue
+    }
+
+    visibleLines.push(line.replace(/(`+).*?\1/g, ''))
+  }
+
+  return visibleLines.join('\n')
+}
+
 function localLinks(markdown) {
   const targets = []
   const linkPattern = /\[[^\]]*]\(([^()]*(?:\([^()]*\)[^()]*)?)\)/g
 
-  for (const match of markdown.matchAll(linkPattern)) {
+  for (const match of markdownOutsideCodeAndComments(markdown).matchAll(
+    linkPattern,
+  )) {
     let target = match[1].trim()
     if (target.startsWith('<')) {
       const closingBracket = target.indexOf('>')
@@ -159,6 +195,12 @@ function localLinks(markdown) {
   }
 
   return targets
+}
+
+function resolvedLocalLinks(markdown, sourcePath) {
+  return new Set(
+    localLinks(markdown).map((target) => resolve(dirname(sourcePath), target)),
+  )
 }
 
 function markdownFiles(root) {
@@ -228,6 +270,7 @@ function validateIterations(root, errors) {
   const directory = join(root, 'docs/ai/iterations')
   const ledgerPath = join(directory, 'README.md')
   const ledger = isFile(ledgerPath) ? readFileSync(ledgerPath, 'utf8') : ''
+  const ledgerTargets = resolvedLocalLinks(ledger, ledgerPath)
   const ids = new Map()
 
   for (const filename of iterationFiles(root)) {
@@ -309,7 +352,7 @@ function validateIterations(root, errors) {
       }
     }
 
-    if (!ledger.includes(`](./${filename})`)) {
+    if (!ledgerTargets.has(path)) {
       errors.push(`${prefix}: missing from iteration ledger`)
     }
   }
@@ -323,6 +366,7 @@ function validateDecisionLedger(root, errors) {
 
   const ledgerPath = join(directory, 'README.md')
   const ledger = isFile(ledgerPath) ? readFileSync(ledgerPath, 'utf8') : ''
+  const ledgerTargets = resolvedLocalLinks(ledger, ledgerPath)
   const decisionPattern =
     /^ADR-\d{4}-[a-z0-9]+(?:-[a-z0-9]+)*\.md$/
 
@@ -330,7 +374,7 @@ function validateDecisionLedger(root, errors) {
     if (
       entry.isFile() &&
       decisionPattern.test(entry.name) &&
-      !ledger.includes(`](./${entry.name})`)
+      !ledgerTargets.has(join(directory, entry.name))
     ) {
       errors.push(
         `docs/ai/decisions/${entry.name}: missing from decision ledger`,

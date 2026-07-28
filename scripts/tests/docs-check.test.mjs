@@ -129,6 +129,69 @@ test('accepts angle-bracket and titled local Markdown links', (t) => {
   assert.deepEqual(validateDocs(root), [])
 })
 
+test('accepts normalized iteration and ADR ledger links', (t) => {
+  const root = createFixture(t)
+  const decisionFile = 'ADR-0001-documentation-validator.md'
+  writeFixtureFile(
+    root,
+    `docs/ai/decisions/${decisionFile}`,
+    '# Documentation validator\n',
+  )
+  writeFixtureFile(
+    root,
+    'docs/ai/iterations/README.md',
+    `# Iterations\n\n- [Current](<./${ITERATION_FILE}#git-关联> "Current iteration")\n`,
+  )
+  writeFixtureFile(
+    root,
+    'docs/ai/decisions/README.md',
+    `# Decisions\n\n- [Validator](./${decisionFile} (Accepted))\n`,
+  )
+
+  assert.deepEqual(validateDocs(root), [])
+})
+
+test('ignores ledger-like links inside code blocks and comments', (t) => {
+  const root = createFixture(t)
+  const decisionFile = 'ADR-0001-documentation-validator.md'
+  writeFixtureFile(
+    root,
+    `docs/ai/decisions/${decisionFile}`,
+    '# Documentation validator\n',
+  )
+  writeFixtureFile(
+    root,
+    'docs/ai/iterations/README.md',
+    [
+      '# Iterations',
+      '',
+      '```markdown',
+      `- [Hidden](./${ITERATION_FILE})`,
+      '```',
+      `<!-- - [Hidden](./${ITERATION_FILE}) -->`,
+      '',
+    ].join('\n'),
+  )
+  writeFixtureFile(
+    root,
+    'docs/ai/decisions/README.md',
+    [
+      '# Decisions',
+      '',
+      '```markdown',
+      `- [Hidden](./${decisionFile})`,
+      '```',
+      `<!-- - [Hidden](./${decisionFile}) -->`,
+      '',
+    ].join('\n'),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/decisions/${decisionFile}: missing from decision ledger`,
+    `docs/ai/iterations/${ITERATION_FILE}: missing from iteration ledger`,
+  ])
+})
+
 test('reports an iteration missing from the ledger', (t) => {
   const root = createFixture(t)
   writeFixtureFile(root, 'docs/ai/iterations/README.md', '# Iterations\n')
@@ -176,15 +239,28 @@ test('reports duplicate iteration ids', (t) => {
   )
 })
 
-test('reports broken local Markdown links', (t) => {
+test('reports missing targets for every supported inline link syntax', (t) => {
   const root = createFixture(t)
   writeFixtureFile(
     root,
     'docs/ai/project-overview.md',
-    '# Project overview\n\n[Missing](./missing.md)\n',
+    [
+      '# Project overview',
+      '',
+      '[Plain](./missing-plain.md)',
+      '[Angle](<./missing-angle.md#heading>)',
+      '[Double title](./missing-double.md "Missing")',
+      "[Single title](./missing-single.md 'Missing')",
+      '[Parenthesized title](./missing-parenthesized.md (Missing))',
+      '',
+    ].join('\n'),
   )
 
-  assert.ok(
-    validateDocs(root).some((error) => error.includes('broken local link')),
-  )
+  assert.deepEqual(validateDocs(root), [
+    'docs/ai/project-overview.md: broken local link "./missing-angle.md"',
+    'docs/ai/project-overview.md: broken local link "./missing-double.md"',
+    'docs/ai/project-overview.md: broken local link "./missing-parenthesized.md"',
+    'docs/ai/project-overview.md: broken local link "./missing-plain.md"',
+    'docs/ai/project-overview.md: broken local link "./missing-single.md"',
+  ])
 })
