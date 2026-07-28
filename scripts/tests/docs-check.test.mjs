@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { spawnSync } from 'node:child_process'
 import {
   mkdirSync,
   mkdtempSync,
@@ -9,9 +10,13 @@ import {
 import { tmpdir } from 'node:os'
 import { dirname, join } from 'node:path'
 import test from 'node:test'
+import { fileURLToPath } from 'node:url'
 
 import { validateDocs } from '../check-docs.mjs'
 
+const CHECK_DOCS_SCRIPT = fileURLToPath(
+  new URL('../check-docs.mjs', import.meta.url),
+)
 const ITERATION_FILE = '2026-07-28-docs-system.md'
 const REQUIRED_FILES = [
   'AGENTS.md',
@@ -130,6 +135,15 @@ test('complete indexed documentation fixture is valid', (t) => {
   assert.deepEqual(validateDocs(root), [])
 })
 
+test('reports a missing required file', (t) => {
+  const root = createFixture(t)
+  rmSync(join(root, 'CLAUDE.md'))
+
+  assert.deepEqual(validateDocs(root), [
+    'missing required file: CLAUDE.md',
+  ])
+})
+
 test('accepts angle-bracket and titled local Markdown links', (t) => {
   const root = createFixture(t)
   writeFixtureFile(root, 'docs/ai/existing.md', '# Existing\n')
@@ -238,6 +252,102 @@ test('reports an empty completed iteration validation section', (t) => {
   )
 })
 
+test('reports malformed iteration front matter explicitly', (t) => {
+  const root = createFixture(t)
+  const malformed = iterationMarkdown().replace(
+    'updated: 2026-07-28\n---',
+    'updated: 2026-07-28',
+  )
+  replaceFixtureIteration(root, ITERATION_FILE, malformed)
+
+  assert.deepEqual(
+    validateDocs(root).filter((error) => error.includes('front matter')),
+    [
+      `docs/ai/iterations/${ITERATION_FILE}: invalid front matter`,
+    ],
+  )
+})
+
+test('accepts paired quotes in front matter scalars', (t) => {
+  const root = createFixture(t)
+  replaceFixtureIteration(
+    root,
+    ITERATION_FILE,
+    iterationMarkdown({
+      id: '"ITER-20260728-DOCS-SYSTEM"',
+      title: "'AI 项目知识体系'",
+      status: '"completed"',
+      domains: '["documentation"]',
+      created: "'2026-07-28'",
+      updated: '"2026-07-28"',
+    }),
+  )
+
+  assert.deepEqual(validateDocs(root), [])
+})
+
+test('reports an invalid iteration filename', (t) => {
+  const root = createFixture(t)
+  const filename = 'Docs-System.md'
+  replaceFixtureIteration(root, filename, iterationMarkdown())
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${filename}: invalid iteration filename`,
+  ])
+})
+
+test('reports an empty iteration title', (t) => {
+  const root = createFixture(t)
+  replaceFixtureIteration(
+    root,
+    ITERATION_FILE,
+    iterationMarkdown({ title: '' }),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${ITERATION_FILE}: title must not be empty`,
+  ])
+})
+
+test('reports an invalid iteration status', (t) => {
+  const root = createFixture(t)
+  replaceFixtureIteration(
+    root,
+    ITERATION_FILE,
+    iterationMarkdown({ status: 'done' }),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${ITERATION_FILE}: invalid status "done"`,
+  ])
+})
+
+test('reports an invalid iteration domain', (t) => {
+  const root = createFixture(t)
+  replaceFixtureIteration(
+    root,
+    ITERATION_FILE,
+    iterationMarkdown({ domains: '[documentation, unknown]' }),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${ITERATION_FILE}: invalid domain "unknown"`,
+  ])
+})
+
+test('reports a missing required iteration section', (t) => {
+  const root = createFixture(t)
+  replaceFixtureIteration(
+    root,
+    ITERATION_FILE,
+    iterationMarkdown().replace('## Git 关联', '### Git 关联'),
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/iterations/${ITERATION_FILE}: missing required section "Git 关联"`,
+  ])
+})
+
 test('reports duplicate iteration ids', (t) => {
   const root = createFixture(t)
   const duplicateFile = '2026-07-28-docs-system-copy.md'
@@ -257,6 +367,20 @@ test('reports duplicate iteration ids', (t) => {
       error.includes('duplicate iteration id'),
     ),
   )
+})
+
+test('reports an ADR missing from the decision ledger', (t) => {
+  const root = createFixture(t)
+  const filename = 'ADR-0001-documentation-validator.md'
+  writeFixtureFile(
+    root,
+    `docs/ai/decisions/${filename}`,
+    '# Documentation validator\n',
+  )
+
+  assert.deepEqual(validateDocs(root), [
+    `docs/ai/decisions/${filename}: missing from decision ledger`,
+  ])
 })
 
 test('accepts valid leap-day dates', (t) => {
@@ -319,4 +443,38 @@ test('reports missing targets for every supported inline link syntax', (t) => {
     'docs/ai/project-overview.md: broken local link "./missing-plain.md"',
     'docs/ai/project-overview.md: broken local link "./missing-single.md"',
   ])
+})
+
+test('CLI reports success on stdout with exit code zero', (t) => {
+  const root = createFixture(t)
+
+  const result = spawnSync(process.execPath, [CHECK_DOCS_SCRIPT], {
+    cwd: root,
+    encoding: 'utf8',
+  })
+
+  assert.equal(result.status, 0)
+  assert.equal(result.stdout, 'Documentation check passed.\n')
+  assert.equal(result.stderr, '')
+})
+
+test('CLI reports failures on stderr with exit code one', (t) => {
+  const root = createFixture(t)
+  rmSync(join(root, 'CLAUDE.md'))
+
+  const result = spawnSync(process.execPath, [CHECK_DOCS_SCRIPT], {
+    cwd: root,
+    encoding: 'utf8',
+  })
+
+  assert.equal(result.status, 1)
+  assert.equal(result.stdout, '')
+  assert.equal(
+    result.stderr,
+    [
+      'Documentation check failed (1):',
+      '- missing required file: CLAUDE.md',
+      '',
+    ].join('\n'),
+  )
 })

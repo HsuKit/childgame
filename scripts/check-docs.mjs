@@ -89,17 +89,30 @@ function isValidDate(value) {
   )
 }
 
+function unquoteScalar(value) {
+  if (value.length < 2) {
+    return value
+  }
+
+  const first = value[0]
+  const last = value.at(-1)
+  return (first === '"' && last === '"') ||
+    (first === "'" && last === "'")
+    ? value.slice(1, -1)
+    : value
+}
+
 function parseFrontMatter(markdown) {
   const lines = markdown.split(/\r?\n/)
   if (lines[0]?.trim() !== '---') {
-    return {}
+    return null
   }
 
   const closingIndex = lines.findIndex(
     (line, index) => index > 0 && line.trim() === '---',
   )
   if (closingIndex === -1) {
-    return {}
+    return null
   }
 
   const frontMatter = {}
@@ -115,10 +128,10 @@ function parseFrontMatter(markdown) {
       frontMatter[key] = value
         .slice(1, -1)
         .split(',')
-        .map((item) => item.trim())
+        .map((item) => unquoteScalar(item.trim()))
         .filter(Boolean)
     } else {
-      frontMatter[key] = value
+      frontMatter[key] = unquoteScalar(value)
     }
   }
 
@@ -299,8 +312,12 @@ function validateIterations(root, errors) {
   for (const filename of iterationFiles(root)) {
     const path = join(directory, filename)
     const markdown = readFileSync(path, 'utf8')
-    const frontMatter = parseFrontMatter(markdown)
     const prefix = `docs/ai/iterations/${filename}`
+    const parsedFrontMatter = parseFrontMatter(markdown)
+    const frontMatter = parsedFrontMatter ?? {}
+    if (parsedFrontMatter === null) {
+      errors.push(`${prefix}: invalid front matter`)
+    }
     const filenameMatch = filename.match(
       /^(\d{4})-(\d{2})-(\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$/,
     )
