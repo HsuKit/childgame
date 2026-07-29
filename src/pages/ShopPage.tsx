@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useCompanionStore } from '../stores/companionStore'
 import { usePointsStore } from '../stores/pointsStore'
 import { COMPANION_TYPES } from '../data/companionTypes'
+import { Hand, Shirt, Star, Sword, X } from 'lucide-react'
+import { PageHeader } from '../components/ui/PageHeader'
+import { StatePanel } from '../components/ui/StatePanel'
 
 export default function ShopPage() {
   const { companion, equipOutfit, equipWeapon, unequipWeapon } = useCompanionStore()
@@ -10,7 +13,7 @@ export default function ShopPage() {
   const [message, setMessage] = useState<string | null>(null)
   const [previewAnim, setPreviewAnim] = useState<string | null>(null)
 
-  if (!companion) return <div className="p-6 text-center text-gray-400 font-bold">请先选择伙伴!</div>
+  if (!companion) return <StatePanel tone="empty" title="请先选择伙伴" message="有伙伴之后，才能为它挑选外观和装备。" />
 
   const currentType = COMPANION_TYPES.find(t => t.id === companion.companion_type)
   const outfits = currentType?.outfitVariants || []
@@ -25,13 +28,13 @@ export default function ShopPage() {
     const alreadyBought = purchasedOutfits.includes(`outfit_${variant}`)
     if (alreadyBought) {
       await equipOutfit(variant)
-      setMessage('外观已更换!')
+      setMessage('外观已更换')
     } else {
       const ok = await spendPoints(cost, 'buy_outfit')
       if (ok) {
         await equipOutfit(variant, `outfit_${variant}`)
-        setMessage('外观已解锁并更换!')
-      } else setMessage('积分不足!')
+        setMessage('外观已解锁并更换')
+      } else setMessage('积分不足')
     }
     setTimeout(() => setMessage(null), 2000)
   }
@@ -41,30 +44,28 @@ export default function ShopPage() {
     if (hasWeapon) {
       await unequipWeapon(); setMessage('已卸下武器')
     } else if (weaponBought) {
-      await equipWeapon(); setMessage('已装备武器! ⚔️')
+      await equipWeapon(); setMessage('已装备武器')
     } else {
       const ok = await spendPoints(200, 'buy_weapon')
-      if (ok) { await equipWeapon(true); setMessage('已装备武器! ⚔️') }
-      else { setMessage('积分不足!'); setPreviewAnim(null); return }
+      if (ok) { await equipWeapon(true); setMessage('已装备武器') }
+      else { setMessage('积分不足'); setPreviewAnim(null); return }
     }
     setTimeout(() => { setMessage(null); setPreviewAnim(null) }, 2500)
   }
 
   return (
-    <div className="p-4 space-y-5 pb-6">
-      <div className="text-center">
-        <h1 className="text-2xl font-extrabold bg-gradient-to-r from-kid-warning to-kid-secondary bg-clip-text text-transparent">
-          🛍️ {currentType?.name}的衣柜
-        </h1>
-        <div className="inline-flex items-center gap-2 glass px-5 py-2 rounded-full mt-2">
-          <span>⭐</span>
-          <span className="font-extrabold text-kid-warning text-lg">{balance}</span>
-        </div>
-      </div>
+    <div className="page-stack">
+      <PageHeader
+        eyebrow="伙伴装备"
+        title={`${currentType?.name}的衣柜`}
+        subtitle="解锁外观与武器，打造独一无二的冒险伙伴。"
+        trailing={<span className="inline-flex min-h-11 items-center gap-1.5 rounded-[14px] bg-adventure-warning-soft px-3 font-extrabold text-amber-700"><Star aria-hidden="true" className="h-4 w-4 fill-current" />{balance}</span>}
+      />
 
       {message && (
         <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}
-          className="p-4 rounded-2xl text-center font-extrabold bg-gradient-to-r from-purple-50 to-pink-50 text-kid-primary border border-purple-200">
+          role="status"
+          className="rounded-[16px] border border-indigo-200 bg-adventure-primary-soft p-4 text-center font-extrabold text-adventure-primary">
           {message}
         </motion.div>
       )}
@@ -73,13 +74,16 @@ export default function ShopPage() {
       <AnimatePresence>
         {previewAnim && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-4"
             onClick={() => setPreviewAnim(null)}>
             <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }}
-              className="bg-white rounded-3xl p-6 text-center mx-4"
+              role="dialog" aria-modal="true" aria-label="武器动作预览"
+              className="relative rounded-[22px] bg-white p-6 text-center shadow-2xl"
               onClick={e => e.stopPropagation()}>
-              <p className="text-xl font-extrabold mb-4">
-                {previewAnim === 'attack' ? '⚔️ 武器攻击!' : '👐 空手投掷!'}
+              <button type="button" onClick={() => setPreviewAnim(null)} aria-label="关闭预览" className="absolute right-3 top-3 grid h-11 w-11 place-items-center rounded-[14px] text-adventure-muted"><X aria-hidden="true" className="h-5 w-5" /></button>
+              <p className="mb-4 flex items-center justify-center gap-2 text-xl font-extrabold text-adventure-text">
+                {previewAnim === 'attack' ? <Sword aria-hidden="true" className="h-5 w-5" /> : <Hand aria-hidden="true" className="h-5 w-5" />}
+                {previewAnim === 'attack' ? '武器攻击' : '空手投掷'}
               </p>
               <div className="w-40 h-40 mx-auto">
                 <ActionPreview variant={companion.equipped_outfit || currentType?.baseVariant || 'Forest_Ranger_1'}
@@ -92,8 +96,8 @@ export default function ShopPage() {
 
       {/* Outfits */}
       <div>
-        <h2 className="font-extrabold text-lg mb-3">👗 外观套装</h2>
-        <div className="grid grid-cols-3 gap-3">
+        <h2 className="section-title mb-3 flex items-center gap-2"><Shirt aria-hidden="true" className="h-5 w-5 text-adventure-primary" />外观套装</h2>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {outfits.map((variant, i) => {
             const cost = i === 0 ? 0 : 100 * (i + 1)
             const isActive = variant === currentOutfit
@@ -102,16 +106,17 @@ export default function ShopPage() {
             return (
               <motion.button key={variant} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
                 onClick={() => buyOutfit(variant, cost)}
-                className={`rounded-2xl p-3 text-center transition-all bg-gradient-to-br ${bg} ${
-                  isActive ? 'border-2 border-purple-400 shadow-lg scale-105' : 'border border-gray-200'
+                aria-pressed={isActive}
+                className={`rounded-[18px] border-2 bg-gradient-to-br p-3 text-center transition-all ${bg} ${
+                  isActive ? 'border-adventure-primary shadow-lg shadow-indigo-100' : 'border-adventure-border'
                 }`}>
                 <div className="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
                   <img src={`/assets/companions/${variant}/Body.png`} alt={label} className="w-full h-full object-contain opacity-70" />
                 </div>
                 <p className="text-xs font-bold">{label}外观</p>
                 {isActive
-                  ? <span className="text-xs text-purple-600 font-bold">使用中</span>
-                  : <span className="text-xs text-orange-600 font-bold">{cost === 0 ? '免费' : `⭐${cost}`}</span>}
+                  ? <span className="text-xs font-bold text-adventure-primary">使用中</span>
+                  : <span className="text-xs font-bold text-amber-700">{cost === 0 ? '免费' : `${cost} 积分`}</span>}
               </motion.button>
             )
           })}
@@ -120,27 +125,28 @@ export default function ShopPage() {
 
       {/* Weapon */}
       <div>
-        <h2 className="font-extrabold text-lg mb-3">⚔️ 武器</h2>
+        <h2 className="section-title mb-3 flex items-center gap-2"><Sword aria-hidden="true" className="h-5 w-5 text-adventure-primary" />武器</h2>
         <motion.button
           whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
           onClick={toggleWeapon}
-          className={`w-full rounded-2xl p-5 text-left transition-all ${
-            hasWeapon ? 'bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-400'
-                      : 'bg-white border-2 border-gray-200'
+          aria-pressed={hasWeapon}
+          className={`w-full rounded-[18px] border-2 p-5 text-left transition-all ${
+            hasWeapon ? 'border-amber-400 bg-adventure-warning-soft'
+                      : 'border-adventure-border bg-white'
           }`}>
           <div className="flex items-center gap-4">
-            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-gray-50 to-amber-50 flex items-center justify-center text-2xl">
-              {hasWeapon ? '⚔️' : '👐'}
+            <div className="flex h-14 w-14 items-center justify-center rounded-[16px] bg-white text-adventure-primary shadow-sm">
+              {hasWeapon ? <Sword aria-hidden="true" className="h-7 w-7" /> : <Hand aria-hidden="true" className="h-7 w-7" />}
             </div>
             <div className="flex-1">
-              <p className="font-extrabold text-base">{hasWeapon ? '已装备武器' : '空手'}</p>
-              <p className="text-xs text-gray-400 mt-1">
+              <p className="text-base font-extrabold text-adventure-text">{hasWeapon ? '已装备武器' : '空手'}</p>
+              <p className="mt-1 text-xs leading-5 text-adventure-muted">
                 {hasWeapon ? '点击卸下武器，恢复空手攻击' : '解锁武器，装备后点击伙伴可发动攻击'}
               </p>
             </div>
             <div className="text-right">
-              {!hasWeapon && <span className="text-sm font-extrabold text-kid-warning">⭐200</span>}
-              {hasWeapon && <span className="text-xs text-gray-400">点击卸下</span>}
+              {!hasWeapon && <span className="text-sm font-extrabold text-amber-700">200 积分</span>}
+              {hasWeapon && <span className="text-xs text-adventure-muted">点击卸下</span>}
             </div>
           </div>
         </motion.button>

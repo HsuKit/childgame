@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getErrorMessage } from '../../lib/errorMessage'
+import { Button } from '../ui/Button'
 
 interface Props {
   onConfirm: (name: string) => Promise<void>
@@ -26,19 +27,24 @@ export function CompanionNameInput({ onConfirm, onBack }: Props) {
   }
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-center gap-6">
-      <input type="text" placeholder="叫它什么名字呢？" value={name}
+    <div className="flex flex-1 flex-col items-center justify-center gap-5">
+      <div className="w-full max-w-sm">
+      <label htmlFor="companion-name" className="mb-2 block text-sm font-extrabold text-adventure-text">伙伴名字</label>
+      <input id="companion-name" type="text" placeholder="例如：小勇士" value={name}
         onChange={e => setName(e.target.value)} maxLength={10} autoFocus
         disabled={saving}
-        className="text-2xl text-center border-b-2 border-purple-300 pb-2 outline-none focus:border-kid-primary w-56 bg-transparent"
+        aria-describedby={error ? 'companion-name-error' : 'companion-name-help'}
+        className="min-h-14 w-full rounded-[16px] border-2 border-adventure-border bg-white px-4 text-lg font-bold outline-none transition focus:border-adventure-primary"
         onKeyDown={e => e.key === 'Enter' && handleSubmit()} />
-      <div className="flex gap-4">
-        <button onClick={onBack} disabled={saving} className="px-8 py-3 rounded-2xl bg-gray-100 font-bold disabled:opacity-50">返回</button>
-        <button onClick={handleSubmit} disabled={!name.trim() || saving} className="btn-primary px-8">
-          {saving ? '创建中...' : '确定!'}
-        </button>
+      {!error && <p id="companion-name-help" className="mt-2 text-xs font-semibold text-adventure-muted">最多 10 个字，之后也可以继续陪它成长。</p>}
+      {error && <p id="companion-name-error" className="mt-2 text-sm font-bold text-red-600" role="alert">{error}</p>}
       </div>
-      {error && <p className="text-sm text-red-500 text-center" role="alert">{error}</p>}
+      <div className="grid w-full max-w-sm grid-cols-2 gap-3">
+        <Button variant="ghost" onClick={onBack} disabled={saving}>返回选择</Button>
+        <Button onClick={handleSubmit} disabled={!name.trim() || saving} loading={saving}>
+          {saving ? '创建中' : '开始冒险'}
+        </Button>
+      </div>
     </div>
   )
 }

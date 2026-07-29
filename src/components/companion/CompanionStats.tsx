@@ -1,11 +1,13 @@
 import { LEVEL_THRESHOLDS } from '../../lib/constants'
+import { Heart, Smile, Sparkles } from 'lucide-react'
+import { ProgressBar } from '../ui/ProgressBar'
 
 interface Props { hunger: number; mood: number; exp: number; level: number }
 
 const bars = [
-  { key: 'hunger', label: '饱腹', emoji: '🍖', color: 'from-orange-400 to-amber-400', bg: 'bg-orange-100' },
-  { key: 'mood', label: '心情', emoji: '💖', color: 'from-pink-400 to-rose-400', bg: 'bg-pink-100' },
-  { key: 'exp', label: '经验', emoji: '✨', color: 'from-purple-400 to-violet-400', bg: 'bg-purple-100' },
+  { key: 'hunger', label: '饱腹', ariaLabel: '饱腹状态', icon: Heart, color: 'bg-gradient-to-r from-orange-400 to-amber-400', iconClass: 'text-orange-500' },
+  { key: 'mood', label: '心情', ariaLabel: '心情状态', icon: Smile, color: 'bg-gradient-to-r from-pink-400 to-rose-400', iconClass: 'text-pink-500' },
+  { key: 'exp', label: '经验', ariaLabel: '经验进度', icon: Sparkles, color: 'bg-gradient-to-r from-adventure-primary to-violet-400', iconClass: 'text-adventure-primary' },
 ] as const
 
 export function CompanionStats({ hunger, mood, exp, level }: Props) {
@@ -15,20 +17,17 @@ export function CompanionStats({ hunger, mood, exp, level }: Props) {
   const values = { hunger, mood, exp: expPct }
 
   return (
-    <div className="space-y-2 mt-3">
-      {bars.map(({ key, label, emoji, color, bg }) => (
-        <div key={key} className="flex items-center gap-2 text-xs">
-          <span className="w-4">{emoji}</span>
-          <span className="w-8 text-gray-500 font-medium">{label}</span>
-          <div className={`flex-1 h-3 ${bg} rounded-full overflow-hidden`}>
-            <div
-              className={`h-full bg-gradient-to-r ${color} rounded-full transition-all duration-700 ease-out`}
-              style={{ width: `${Math.min(100, values[key])}%` }}
-            />
-          </div>
-          <span className="w-10 text-right font-bold text-gray-400">
+    <div className="mt-3 space-y-4">
+      {bars.map(({ key, label, ariaLabel, icon: Icon, color, iconClass }) => (
+        <div key={key}>
+          <div className="mb-1.5 flex items-center gap-2 text-xs">
+            <Icon aria-hidden="true" className={`h-4 w-4 ${iconClass}`} />
+            <span className="font-bold text-adventure-muted">{label}</span>
+            <span className="ml-auto font-extrabold text-adventure-text">
             {key === 'exp' ? `${Math.round(values[key])}%` : values[key]}
           </span>
+          </div>
+          <ProgressBar value={values[key]} max={100} label={ariaLabel} className="h-2.5" barClassName={color} />
         </div>
       ))}
     </div>

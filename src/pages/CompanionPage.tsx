@@ -7,6 +7,12 @@ import { InteractiveCompanion } from '../components/companion/InteractiveCompani
 import { SpeechBubble } from '../components/companion/SpeechBubble'
 import { SwitchConfirmDialog } from '../components/companion/SwitchConfirmDialog'
 import { COMPANION_TYPES } from '../data/companionTypes'
+import { Link } from 'react-router-dom'
+import { CheckCircle2, LockKeyhole, RefreshCw, Shirt, Star } from 'lucide-react'
+import { PageHeader } from '../components/ui/PageHeader'
+import { Surface } from '../components/ui/Surface'
+import { StatePanel } from '../components/ui/StatePanel'
+import { Button } from '../components/ui/Button'
 
 const SWITCH_COST = 500
 
@@ -16,7 +22,7 @@ export default function CompanionPage() {
   const [switchTarget, setSwitchTarget] = useState<string | null>(null)
 
   if (!companion) {
-    return <div className="p-6 text-center"><p className="text-5xl mb-4">🥚</p><p className="text-gray-400 font-bold">还没有伙伴</p></div>
+    return <StatePanel tone="empty" title="还没有伙伴" message="先选择一位伙伴，一起开始冒险。" />
   }
 
   const handleSwitch = async (typeId: string) => {
@@ -75,22 +81,28 @@ export default function CompanionPage() {
   const lockedTypes = COMPANION_TYPES.filter(t => t.unlockCost > 0 && !unlockedTypes.find(u => u.id === t.id))
 
   return (
-    <div className="p-4 space-y-5 pb-6">
+    <div className="page-stack">
+      <PageHeader
+        eyebrow="伙伴营地"
+        title="我的冒险伙伴"
+        subtitle="陪伴、成长、收集外观，一起解锁更多冒险。"
+        trailing={<span className="inline-flex min-h-11 items-center gap-1.5 rounded-[14px] bg-adventure-warning-soft px-3 font-extrabold text-amber-700"><Star aria-hidden="true" className="h-4 w-4 fill-current" />{balance}</span>}
+      />
       {/* Current Companion */}
-      <div className="card-gradient text-center">
+      <Surface tone="soft" className="overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-rose-50 text-center">
         <SpeechBubble />
         <InteractiveCompanion size="large" />
-        <h1 className="text-2xl font-extrabold mt-3 text-kid-text">{companion.name}</h1>
-        <span className="text-xs bg-gradient-to-r from-kid-primary to-kid-primary-light text-white px-2.5 py-0.5 rounded-full font-bold">
+        <h2 className="mt-3 text-2xl font-extrabold text-adventure-text">{companion.name}</h2>
+        <span className="mt-1 inline-flex rounded-full bg-adventure-primary px-3 py-1 text-xs font-bold text-white">
           Lv.{companion.level}
         </span>
-      </div>
+      </Surface>
 
       {/* Stats */}
-      <div className="card">
-        <h2 className="font-bold mb-3">📊 状态</h2>
+      <Surface>
+        <h2 className="section-title">成长状态</h2>
         <CompanionStats hunger={companion.hunger} mood={companion.mood} exp={companion.exp} level={companion.level} />
-      </div>
+      </Surface>
 
       {/* Equipped */}
       {(() => {
@@ -108,23 +120,26 @@ export default function CompanionPage() {
           }).filter(Boolean) as string[]
         if (displayItems.length === 0) return null
         return (
-          <div className="card">
-            <h2 className="font-bold mb-3">🎒 已装备</h2>
+          <Surface>
+            <h2 className="section-title">当前装备</h2>
             <div className="flex gap-2 flex-wrap">
               {displayItems.map((label, i) => (
-                <span key={i} className="bg-purple-50 text-purple-600 px-3 py-1 rounded-full text-sm font-bold">
+                <span key={i} className="rounded-full bg-adventure-primary-soft px-3 py-1 text-sm font-bold text-adventure-primary">
                   {label}
                 </span>
               ))}
             </div>
-          </div>
+          </Surface>
         )
       })()}
 
       {/* Switch Companion */}
-      <div>
-        <h2 className="font-extrabold text-lg mb-3 px-1">🔄 我的伙伴</h2>
-        <div className="grid grid-cols-3 gap-3">
+      <section>
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <h2 className="section-title flex items-center gap-2"><RefreshCw aria-hidden="true" className="h-5 w-5 text-adventure-primary" />伙伴收藏</h2>
+          <Link to="/shop"><Button variant="secondary" icon={<Shirt aria-hidden="true" className="h-4 w-4" />}>打开衣柜</Button></Link>
+        </div>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {unlockedTypes.map(type => {
             const isActive = type.id === currentType
             return (
@@ -132,20 +147,21 @@ export default function CompanionPage() {
                 key={type.id}
                 whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
                 onClick={() => !isActive && handleSwitch(type.id)}
-                className={`rounded-2xl p-3 text-center transition-all ${
+                aria-pressed={isActive}
+                className={`relative rounded-[18px] border-2 p-3 text-center transition-all ${
                   isActive
-                    ? 'bg-gradient-to-br from-purple-100 to-pink-100 border-2 border-purple-400 shadow-md'
-                    : 'bg-white border-2 border-gray-100 hover:border-gray-300'
+                    ? 'border-adventure-primary bg-adventure-primary-soft shadow-lg shadow-indigo-100'
+                    : 'border-adventure-border bg-white hover:border-adventure-primary/40'
                 }`}
               >
                 <div className="w-16 h-16 mx-auto mb-1">
                   <img src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\d+$/, '')}_Idle_Blinking_000.png`}
                     alt={type.name} className="w-full h-full object-contain" />
                 </div>
-                <p className="text-xs font-bold text-kid-text">{type.name}</p>
+                <p className="text-xs font-bold text-adventure-text">{type.name}</p>
                 {isActive && (
-                  <span className="text-xs bg-purple-500 text-white px-2 py-0.5 rounded-full mt-1 inline-block">
-                    当前
+                  <span className="mt-1 inline-flex items-center gap-1 rounded-full bg-adventure-primary px-2 py-0.5 text-xs font-bold text-white">
+                    <CheckCircle2 aria-hidden="true" className="h-3 w-3" />当前
                   </span>
                 )}
                 {!isActive && type.unlockCost > balance && (
@@ -158,9 +174,9 @@ export default function CompanionPage() {
 
         {/* Locked companions teaser */}
         {lockedTypes.length > 0 && (
-          <div className="mt-4 bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 rounded-2xl p-4 border border-amber-200">
-            <p className="text-sm font-extrabold text-amber-700 mb-3 text-center">
-              🔒 获取更多积分解锁隐藏款伙伴!
+          <div className="mt-4 rounded-[18px] border border-amber-200 bg-adventure-warning-soft p-4">
+            <p className="mb-3 flex items-center justify-center gap-2 text-center text-sm font-extrabold text-amber-800">
+              <LockKeyhole aria-hidden="true" className="h-4 w-4" />继续积累积分，解锁隐藏伙伴
             </p>
             <div className="flex gap-3 justify-center">
               {lockedTypes.map(type => (
@@ -172,7 +188,7 @@ export default function CompanionPage() {
                       className="w-full h-full object-contain opacity-20"
                     />
                   </div>
-                  <p className="text-xs font-bold text-gray-500 mt-1">{type.name}</p>
+                  <p className="mt-1 text-xs font-bold text-adventure-muted">{type.name}</p>
                   {(UNLOCK_CHAIN.indexOf(type.id) > 0 && !hasAllOutfits(UNLOCK_CHAIN[UNLOCK_CHAIN.indexOf(type.id) - 1]))
                     ? <p className="text-xs text-red-400 font-bold">需解锁上一伙伴所有外观</p>
                     : <p className="text-xs text-amber-600 font-bold">⭐{type.unlockCost}</p>
@@ -182,7 +198,7 @@ export default function CompanionPage() {
             </div>
           </div>
         )}
-      </div>
+      </section>
 
       {switchTarget && (
         <SwitchConfirmDialog
