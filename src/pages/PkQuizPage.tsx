@@ -6,6 +6,9 @@ import { supabase } from '../lib/supabase'
 import { useAuthStore } from '../stores/authStore'
 import { SUBJECT_LABELS } from '../lib/constants'
 import type { Subject } from '../lib/constants'
+import { FocusQuizHeader } from '../components/quiz/FocusQuizHeader'
+import { Button } from '../components/ui/Button'
+import { StatePanel } from '../components/ui/StatePanel'
 
 export default function PkQuizPage() {
   const [params] = useSearchParams()
@@ -40,7 +43,7 @@ export default function PkQuizPage() {
   }, [session?.isComplete, finished])
 
   if (!session || session.questions.length === 0) {
-    return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">⚔️</div><p>准备对战题目...</p></div>
+    return <div className="mx-auto max-w-2xl px-4 py-10"><StatePanel tone="loading" title="正在准备对战题目" message="保持专注，发挥你的最佳水平。" /></div>
   }
 
   if (session.isComplete) return null
@@ -49,36 +52,23 @@ export default function PkQuizPage() {
   const hasAnsweredCurrentQuestion = session.records.some(record => record.question_id === q.id)
 
   return (
-    <div>
-      <div className="px-4 py-3 bg-gradient-to-r from-red-100 to-orange-100 border-b flex items-center justify-between">
-        <button onClick={() => navigate('/pk')} className="text-kid-primary font-bold">← 退出</button>
-        <h1 className="font-bold">⚔️ {SUBJECT_LABELS[subject]}对战</h1>
-        <div className="w-12" />
-      </div>
-      <QuizCard key={q.id} question={q} questionNumber={session.currentIndex + 1}
-        totalQuestions={session.questions.length} onAnswer={answerQuestion} />
-      {session.currentIndex < session.questions.length - 1 && (
+    <div className="min-h-dvh bg-adventure-bg">
+      <FocusQuizHeader title={`${SUBJECT_LABELS[subject]}对战`} current={session.currentIndex + 1} total={session.questions.length} onExit={() => navigate('/pk')} detail="对战成绩将在完成后自动结算" />
+      <main className="mx-auto max-w-2xl pb-8">
+        <QuizCard key={q.id} question={q} questionNumber={session.currentIndex + 1}
+          totalQuestions={session.questions.length} onAnswer={answerQuestion} />
         <div className="px-4">
-          <button
-            onClick={nextQuestion}
+          <Button
+            onClick={() => nextQuestion()}
             disabled={!hasAnsweredCurrentQuestion}
-            className={`btn-primary w-full ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
+            className="w-full"
           >
-            {hasAnsweredCurrentQuestion ? '下一题 →' : '先选一个答案'}
-          </button>
+            {!hasAnsweredCurrentQuestion
+              ? '先完成这道题'
+              : session.currentIndex < session.questions.length - 1 ? '继续下一题' : '提交对战成绩'}
+          </Button>
         </div>
-      )}
-      {session.currentIndex === session.questions.length - 1 && (
-        <div className="px-4">
-          <button
-            onClick={() => { nextQuestion() }}
-            disabled={!hasAnsweredCurrentQuestion}
-            className={`btn-primary w-full bg-kid-success ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
-          >
-            {hasAnsweredCurrentQuestion ? '查看结果! 🎉' : '先选一个答案'}
-          </button>
-        </div>
-      )}
+      </main>
     </div>
   )
 }

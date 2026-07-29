@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { QuizProgressBar } from './QuizProgressBar'
 import type { Database } from '../../lib/database.types'
+import { Button } from '../ui/Button'
+import { CheckCircle2, XCircle } from 'lucide-react'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -78,11 +80,11 @@ export function GridPuzzleCard({ question, questionNumber, totalQuestions, onAns
   }
 
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-5">
       <QuizProgressBar current={questionNumber} total={totalQuestions} />
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="card mt-4">
-        <p className="text-lg font-bold mb-2">{content.stem}</p>
-        <p className="text-xs text-gray-400 mb-4">每行、每列、每个2×2宫格都要有1-4各一个！点击空格填入数字</p>
+      <div className="mt-4 rounded-[20px] border border-adventure-border bg-white p-5 shadow-xl shadow-slate-200/40 sm:p-6">
+        <p className="mb-2 text-xl font-black leading-8 text-adventure-text">{content.stem}</p>
+        <p className="mb-4 text-sm font-semibold leading-6 text-adventure-muted">每行、每列、每个 2×2 宫格都要有 1–4 各一个。点击空格切换数字。</p>
 
         <div className="grid grid-cols-4 gap-0.5 bg-gray-300 rounded-xl overflow-hidden w-64 h-64 mx-auto">
           {userGrid.map((row, r) =>
@@ -110,18 +112,20 @@ export function GridPuzzleCard({ question, questionNumber, totalQuestions, onAns
         </div>
 
         {!submitted && (
-          <button onClick={handleSubmit} disabled={!checkAllFilled()}
-            className="btn-primary w-full mt-4">提交答案</button>
+          <Button onClick={handleSubmit} disabled={!checkAllFilled()} className="mt-4 w-full">提交答案</Button>
         )}
 
         {result && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
-            className={`mt-4 p-3 rounded-xl text-sm ${result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-            {result === 'correct' ? '全部填对了! 太厉害了!' : '有些格子不对哦，看看答案吧!'}
+            className={`mt-4 rounded-[16px] border p-4 text-sm ${result === 'correct' ? 'border-emerald-200 bg-adventure-success-soft text-emerald-800' : 'border-red-200 bg-adventure-danger-soft text-red-800'}`}>
+            <p className="flex items-center gap-2 font-extrabold">
+              {result === 'correct' ? <CheckCircle2 aria-hidden="true" className="h-5 w-5" /> : <XCircle aria-hidden="true" className="h-5 w-5" />}
+              {result === 'correct' ? '全部填对了，太厉害了！' : '有些格子不对，看看答案吧。'}
+            </p>
             <p className="mt-1">{content.explanation}</p>
           </motion.div>
         )}
-      </motion.div>
+      </div>
     </div>
   )
 }

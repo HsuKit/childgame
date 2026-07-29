@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useQuizStore } from '../stores/quizStore'
 import { QuizCard } from '../components/quiz/QuizCard'
+import { FocusQuizHeader } from '../components/quiz/FocusQuizHeader'
+import { Button } from '../components/ui/Button'
+import { StatePanel } from '../components/ui/StatePanel'
 
 export default function ChallengePage() {
   const navigate = useNavigate()
@@ -18,17 +21,14 @@ export default function ChallengePage() {
 
   if (error) {
     return (
-      <div className="p-6 text-center">
-        <p className="text-4xl mb-4">😵</p>
-        <p className="font-bold mb-2">挑战题目加载失败</p>
-        <p className="text-sm text-gray-500 mb-4">{sessionError || '请检查网络后重试'}</p>
-        <button onClick={() => navigate('/')} className="btn-primary">返回首页</button>
+      <div className="mx-auto max-w-2xl px-4 py-10">
+        <StatePanel tone="error" title="挑战题目加载失败" message={sessionError || '请检查网络后重试'} actionLabel="返回冒险地图" onAction={() => navigate('/')} />
       </div>
     )
   }
 
   if (!challengeSession || challengeSession.questions.length === 0) {
-    return <div className="p-6 text-center"><div className="animate-bounce text-4xl mb-4">⚔️</div><p>正在准备挑战关卡...</p></div>
+    return <div className="mx-auto max-w-2xl px-4 py-10"><StatePanel tone="loading" title="正在准备挑战关卡" message="30 道混合题正在集结。" /></div>
   }
 
   if (challengeSession.isComplete) return null
@@ -38,44 +38,31 @@ export default function ChallengePage() {
   const hasAnsweredCurrentQuestion = challengeSession.records.some(record => record.question_id === q.id)
 
   return (
-    <div>
-      <div className="px-4 py-3 bg-gradient-to-r from-orange-100 to-red-100 border-b flex items-center justify-between">
-        <button onClick={() => navigate('/')} className="text-kid-primary font-bold">← 退出</button>
-        <h1 className="font-bold">⚔️ 每日挑战</h1>
-        <div className="w-12" />
-      </div>
-      <div className="px-4 py-2 bg-yellow-50 text-center text-sm text-yellow-700">
-        答对 24/30 题即通关，获得额外奖励! | 已答 {answeredCount}/30 · 正确 {challengeSession.correctCount}
-      </div>
-      <QuizCard
-        key={q.id}
-        question={q}
-        questionNumber={challengeSession.currentIndex + 1}
-        totalQuestions={challengeSession.questions.length}
-        onAnswer={answerChallengeQuestion}
+    <div className="min-h-dvh bg-adventure-bg">
+      <FocusQuizHeader
+        title="每日挑战"
+        current={challengeSession.currentIndex + 1}
+        total={challengeSession.questions.length}
+        onExit={() => navigate('/')}
+        detail={`通关目标 24 题 · 已答 ${answeredCount} 题 · 答对 ${challengeSession.correctCount} 题`}
       />
-      {challengeSession.currentIndex < challengeSession.questions.length - 1 && (
+      <main className="mx-auto max-w-2xl pb-8">
+        <QuizCard key={q.id} question={q} questionNumber={challengeSession.currentIndex + 1}
+          totalQuestions={challengeSession.questions.length} onAnswer={answerChallengeQuestion} />
         <div className="px-4">
-          <button
-            onClick={nextChallengeQuestion}
+          <Button
+            onClick={challengeSession.currentIndex < challengeSession.questions.length - 1
+              ? nextChallengeQuestion
+              : () => { nextChallengeQuestion(); navigate('/challenge/result') }}
             disabled={!hasAnsweredCurrentQuestion}
-            className={`btn-primary w-full ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
+            className="w-full"
           >
-            {hasAnsweredCurrentQuestion ? '下一题 →' : '先选一个答案'}
-          </button>
+            {!hasAnsweredCurrentQuestion
+              ? '先完成这道题'
+              : challengeSession.currentIndex < challengeSession.questions.length - 1 ? '继续下一题' : '查看挑战结果'}
+          </Button>
         </div>
-      )}
-      {challengeSession.currentIndex === challengeSession.questions.length - 1 && (
-        <div className="px-4">
-          <button
-            onClick={() => { nextChallengeQuestion(); navigate('/challenge/result') }}
-            disabled={!hasAnsweredCurrentQuestion}
-            className={`btn-primary w-full bg-kid-success ${hasAnsweredCurrentQuestion ? '' : 'opacity-50 cursor-not-allowed'}`}
-          >
-            {hasAnsweredCurrentQuestion ? '查看结果! 🎉' : '先选一个答案'}
-          </button>
-        </div>
-      )}
+      </main>
     </div>
   )
 }

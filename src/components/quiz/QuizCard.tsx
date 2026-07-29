@@ -8,6 +8,7 @@ import { GridPuzzleCard } from './GridPuzzleCard'
 import { QuizProgressBar } from './QuizProgressBar'
 import { ExplanationPanel } from './ExplanationPanel'
 import type { Subject } from '../../lib/constants'
+import { CheckCircle2, XCircle } from 'lucide-react'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -42,9 +43,9 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
 
   if (!content) {
     return (
-      <div className="px-4 py-6">
+      <div className="px-4 py-5">
         <QuizProgressBar current={questionNumber} total={totalQuestions} />
-        <div className="card mt-4">
+        <div className="mt-4 rounded-[20px] border border-adventure-border bg-white p-5 shadow-xl shadow-slate-200/40">
           <p className="text-lg font-bold text-red-600">这道题暂时不可作答，请进入下一题。</p>
         </div>
       </div>
@@ -59,26 +60,30 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
   }
 
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-5">
       <QuizProgressBar current={questionNumber} total={totalQuestions} />
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="card mt-4">
-        <p className="text-lg font-bold mb-6">{content.stem}</p>
+      <div className="mt-4 rounded-[20px] border border-adventure-border bg-white p-5 shadow-xl shadow-slate-200/40 sm:p-6">
+        <p className="mb-6 text-xl font-black leading-8 text-adventure-text">{content.stem}</p>
         <div className="grid gap-3">
           {content.options.map((option, i) => {
-            let bg = 'bg-gray-50 hover:bg-purple-50'
+            let stateClass = 'border-adventure-border bg-white hover:border-adventure-primary/40 hover:bg-adventure-primary-soft/30'
             if (selected === i) {
-              bg = result === 'correct' ? 'bg-green-100 border-green-400' : 'bg-red-100 border-red-400'
+              stateClass = result === 'correct' ? 'border-emerald-400 bg-adventure-success-soft text-emerald-900' : 'border-red-400 bg-adventure-danger-soft text-red-900'
             } else if (selected !== null && i === content.answer) {
-              bg = 'bg-green-100 border-green-400'
+              stateClass = 'border-emerald-400 bg-adventure-success-soft text-emerald-900'
             }
+            const isCorrectAnswer = selected !== null && i === content.answer
+            const isWrongAnswer = selected === i && result === 'wrong'
             return (
               <motion.button key={i} whileTap={selected === null ? { scale: 0.97 } : {}}
                 onClick={() => handleSelect(i)} disabled={selected !== null}
-                className={`p-4 rounded-2xl border-2 text-left font-medium transition-colors ${bg}`}>
-                <span className="inline-block w-8 h-8 rounded-full bg-white text-center leading-8 mr-3 text-sm font-bold">
+                className={`flex min-h-14 w-full items-center rounded-[16px] border-2 px-4 py-3 text-left font-bold transition disabled:cursor-not-allowed ${stateClass}`}>
+                <span className="mr-3 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-white text-sm font-black shadow-sm">
                   {String.fromCharCode(65 + i)}
                 </span>
-                {option}
+                <span className="flex-1">{option}</span>
+                {isCorrectAnswer && <><CheckCircle2 aria-hidden="true" className="ml-2 h-5 w-5 shrink-0 text-emerald-600" /><span className="sr-only">正确答案</span></>}
+                {isWrongAnswer && <><XCircle aria-hidden="true" className="ml-2 h-5 w-5 shrink-0 text-red-600" /><span className="sr-only">你的答案错误</span></>}
               </motion.button>
             )
           })}
@@ -95,7 +100,7 @@ function ChoiceCard({ question, questionNumber, totalQuestions, onAnswer }: {
             />
           </motion.div>
         )}
-      </motion.div>
+      </div>
     </div>
   )
 }

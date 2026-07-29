@@ -4,6 +4,7 @@ import { QuizProgressBar } from './QuizProgressBar'
 import { ExplanationPanel } from './ExplanationPanel'
 import type { Subject } from '../../lib/constants'
 import type { Database } from '../../lib/database.types'
+import { CheckCircle2 } from 'lucide-react'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -41,28 +42,29 @@ export function MatchCard({ question, questionNumber, totalQuestions, onAnswer }
   const allDone = pairs.length === content.left.length
   const getRightBg = (index: number) => {
     const pair = pairs.find(p => p.right === index)
-    if (!pair) return 'bg-gray-50 hover:bg-purple-50'
-    return pair.correct ? 'bg-green-100 border-green-400' : 'bg-red-100 border-red-400'
+    if (!pair) return 'border-adventure-border bg-white hover:border-adventure-primary/40'
+    return pair.correct ? 'border-emerald-400 bg-adventure-success-soft' : 'border-red-400 bg-adventure-danger-soft'
   }
   const getLeftBg = (index: number) => {
-    if (selectedLeft === index) return 'bg-purple-100 border-purple-400'
+    if (selectedLeft === index) return 'border-adventure-primary bg-adventure-primary-soft'
     const pair = pairs.find(p => p.left === index)
-    if (!pair) return 'bg-gray-50 hover:bg-purple-50'
-    return pair.correct ? 'bg-green-100 border-green-400' : 'bg-red-100 border-red-400'
+    if (!pair) return 'border-adventure-border bg-white hover:border-adventure-primary/40'
+    return pair.correct ? 'border-emerald-400 bg-adventure-success-soft' : 'border-red-400 bg-adventure-danger-soft'
   }
 
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-5">
       <QuizProgressBar current={questionNumber} total={totalQuestions} />
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="card mt-4">
-        <p className="text-lg font-bold mb-4">{content.stem}</p>
-        <div className="grid grid-cols-2 gap-4">
+      <div className="mt-4 rounded-[20px] border border-adventure-border bg-white p-5 shadow-xl shadow-slate-200/40 sm:p-6">
+        <p className="mb-4 text-xl font-black leading-8 text-adventure-text">{content.stem}</p>
+        <p className="mb-4 text-sm font-semibold text-adventure-muted">先选择左侧项目，再选择右侧对应答案。</p>
+        <div className="grid grid-cols-2 gap-3 sm:gap-4">
           <div className="space-y-2">
             {content.left.map((item, i) => (
               <button key={`l-${i}`} onClick={() => handleLeftClick(i)}
                 disabled={pairs.some(p => p.left === i)}
-                className={`w-full p-3 rounded-xl border-2 text-sm font-medium transition-colors text-left ${getLeftBg(i)}`}>
-                {pairs.some(p => p.left === i) ? '✅ ' : ''}{item}
+                className={`min-h-14 w-full rounded-[14px] border-2 p-3 text-left text-sm font-bold transition ${getLeftBg(i)}`}>
+                <span className="flex items-center gap-2">{pairs.some(p => p.left === i) && <CheckCircle2 aria-hidden="true" className="h-4 w-4 shrink-0 text-emerald-600" />}{item}</span>
               </button>
             ))}
           </div>
@@ -70,8 +72,8 @@ export function MatchCard({ question, questionNumber, totalQuestions, onAnswer }
             {content.right.map((item, i) => (
               <button key={`r-${i}`} onClick={() => handleRightClick(i)}
                 disabled={pairs.some(p => p.right === i)}
-                className={`w-full p-3 rounded-xl border-2 text-sm font-medium transition-colors text-left ${getRightBg(i)}`}>
-                {pairs.some(p => p.right === i) ? '✅ ' : ''}{item}
+                className={`min-h-14 w-full rounded-[14px] border-2 p-3 text-left text-sm font-bold transition ${getRightBg(i)}`}>
+                <span className="flex items-center gap-2">{pairs.some(p => p.right === i) && <CheckCircle2 aria-hidden="true" className="h-4 w-4 shrink-0 text-emerald-600" />}{item}</span>
               </button>
             ))}
           </div>
@@ -87,7 +89,7 @@ export function MatchCard({ question, questionNumber, totalQuestions, onAnswer }
             />
           </motion.div>
         )}
-      </motion.div>
+      </div>
     </div>
   )
 }

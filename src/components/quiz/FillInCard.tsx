@@ -4,6 +4,7 @@ import { QuizProgressBar } from './QuizProgressBar'
 import { ExplanationPanel } from './ExplanationPanel'
 import type { Subject } from '../../lib/constants'
 import type { Database } from '../../lib/database.types'
+import { Button } from '../ui/Button'
 
 type Question = Database['public']['Tables']['questions']['Row']
 
@@ -28,10 +29,10 @@ export function FillInCard({ question, questionNumber, totalQuestions, onAnswer 
   }
 
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-5">
       <QuizProgressBar current={questionNumber} total={totalQuestions} />
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="card mt-4">
-        <p className="text-lg font-bold mb-6">{content.stem}</p>
+      <div className="mt-4 rounded-[20px] border border-adventure-border bg-white p-5 shadow-xl shadow-slate-200/40 sm:p-6">
+        <p className="mb-6 text-xl font-black leading-8 text-adventure-text">{content.stem}</p>
         <input
           type="text"
           placeholder="输入你的答案..."
@@ -39,15 +40,14 @@ export function FillInCard({ question, questionNumber, totalQuestions, onAnswer 
           onChange={e => !submitted && setInput(e.target.value)}
           disabled={submitted}
           onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-          className={`w-full px-4 py-4 rounded-2xl border-2 text-lg text-center outline-none
+          className={`min-h-14 w-full rounded-[16px] border-2 px-4 py-4 text-center text-lg font-bold outline-none transition
             ${submitted
-              ? result === 'correct' ? 'border-green-400 bg-green-50' : 'border-red-400 bg-red-50'
-              : 'border-purple-200 focus:border-kid-primary'}`}
+              ? result === 'correct' ? 'border-emerald-400 bg-adventure-success-soft' : 'border-red-400 bg-adventure-danger-soft'
+              : 'border-adventure-border bg-white focus:border-adventure-primary'}`}
           autoFocus
         />
         {!submitted && (
-          <button onClick={handleSubmit} disabled={!input.trim()}
-            className="btn-primary w-full mt-4">确认答案</button>
+          <Button onClick={handleSubmit} disabled={!input.trim()} className="mt-4 w-full">确认答案</Button>
         )}
         {result && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
@@ -61,7 +61,7 @@ export function FillInCard({ question, questionNumber, totalQuestions, onAnswer 
             />
           </motion.div>
         )}
-      </motion.div>
+      </div>
     </div>
   )
 }
