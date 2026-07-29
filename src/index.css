@@ -1,53 +1,130 @@
 @import "tailwindcss";
 
 @theme {
-  --color-kid-primary: #7C3AED;
-  --color-kid-primary-light: #A78BFA;
-  --color-kid-secondary: #F97316;
-  --color-kid-success: #10B981;
-  --color-kid-warning: #F59E0B;
-  --color-kid-bg: #FFF7ED;
-  --color-kid-text: #1E293B;
-  --color-kid-pink: #EC4899;
-  --color-kid-sky: #0EA5E9;
-  --color-kid-mint: #34D399;
+  --color-adventure-primary: #5B50D6;
+  --color-adventure-primary-strong: #453BB7;
+  --color-adventure-primary-soft: #EEECFF;
+  --color-adventure-sky: #56B6E9;
+  --color-adventure-sky-soft: #EAF7FD;
+  --color-adventure-success: #42A878;
+  --color-adventure-success-soft: #E8F7EF;
+  --color-adventure-reward: #F2B94B;
+  --color-adventure-reward-soft: #FFF5DC;
+  --color-adventure-danger: #EF6B6F;
+  --color-adventure-danger-soft: #FFEAEB;
+  --color-adventure-bg: #F3F6FC;
+  --color-adventure-surface: #FFFFFF;
+  --color-adventure-text: #18213A;
+  --color-adventure-muted: #687083;
+  --color-adventure-border: #DFE5F1;
+
+  /* Temporary compatibility aliases while every page migrates. */
+  --color-kid-primary: #5B50D6;
+  --color-kid-primary-light: #7D73E4;
+  --color-kid-secondary: #F2B94B;
+  --color-kid-success: #42A878;
+  --color-kid-warning: #F2B94B;
+  --color-kid-bg: #F3F6FC;
+  --color-kid-text: #18213A;
+  --color-kid-pink: #EF6B8B;
+  --color-kid-sky: #56B6E9;
+  --color-kid-mint: #42A878;
 }
 
 @layer base {
+  :root {
+    color: var(--color-adventure-text);
+    background: var(--color-adventure-bg);
+    font-family: ui-rounded, "SF Pro Rounded", "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", system-ui, sans-serif;
+    font-synthesis: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    min-width: 320px;
+    background: var(--color-adventure-bg);
+  }
+
   body {
-    @apply bg-kid-bg text-kid-text;
-    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    @apply m-0 min-h-dvh min-w-80 bg-adventure-bg text-adventure-text;
+    background-image:
+      radial-gradient(circle at 15% 0%, rgb(86 182 233 / 12%), transparent 28rem),
+      radial-gradient(circle at 95% 20%, rgb(91 80 214 / 8%), transparent 24rem);
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px solid rgb(91 80 214 / 35%);
+    outline-offset: 3px;
   }
 }
 
 @layer components {
+  .page-stack {
+    @apply mx-auto w-full max-w-5xl space-y-5 px-4 py-5 sm:px-6 sm:py-6;
+  }
+
+  .section-title {
+    @apply text-xl font-extrabold tracking-[-0.02em] text-adventure-text;
+  }
+
+  .body-copy {
+    @apply text-sm leading-6 text-adventure-muted;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-extrabold uppercase tracking-[0.12em] text-adventure-primary;
+  }
+
   .btn-primary {
-    @apply bg-gradient-to-r from-kid-primary to-kid-primary-light text-white
-           px-6 py-3.5 rounded-3xl font-bold text-lg
-           shadow-lg shadow-purple-200/50
-           hover:shadow-xl hover:shadow-purple-300/50
-           active:scale-95 transition-all duration-200
+    @apply min-h-12 rounded-[14px] bg-adventure-primary px-6 py-3
+           text-base font-extrabold text-white shadow-lg shadow-indigo-200/50
+           transition duration-200 hover:bg-adventure-primary-strong
+           active:scale-[0.97]
            disabled:opacity-40 disabled:cursor-not-allowed;
   }
+
   .btn-play {
-    @apply bg-gradient-to-r from-kid-secondary to-kid-warning text-white
-           px-6 py-3.5 rounded-3xl font-bold text-lg
-           shadow-lg shadow-orange-200/50
-           active:scale-95 transition-all duration-200;
+    @apply min-h-12 rounded-[14px] bg-adventure-reward px-6 py-3
+           text-base font-extrabold text-adventure-text shadow-lg shadow-amber-200/40
+           transition duration-200 active:scale-[0.97];
   }
+
   .card {
-    @apply bg-white rounded-3xl shadow-md shadow-gray-100/50 p-5
-           border border-white/50;
+    @apply rounded-[18px] border border-adventure-border bg-white p-5;
   }
+
   .card-gradient {
-    @apply bg-gradient-to-br from-white via-white to-purple-50/30
-           rounded-3xl shadow-lg shadow-purple-100/30 p-5
-           border border-purple-100/50;
+    @apply rounded-[18px] border border-indigo-100 bg-gradient-to-br
+           from-white via-white to-adventure-primary-soft/60 p-5;
   }
+
   .glass {
-    @apply bg-white/80 backdrop-blur-sm rounded-3xl
-           shadow-lg shadow-gray-100/30 border border-white/50;
+    @apply rounded-[18px] border border-white/70 bg-white/85
+           shadow-lg shadow-slate-200/30 backdrop-blur-md;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
