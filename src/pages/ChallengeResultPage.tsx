@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import { useQuizStore } from '../stores/quizStore'
 import { usePointsStore } from '../stores/pointsStore'
 import { useCompanionStore } from '../stores/companionStore'
 import { PointsFlyAnimation } from '../components/common/PointsFlyAnimation'
 import { formatChallengeScore } from '../lib/quizUtils'
+import { ResultHero, type SettlementStatus } from '../components/results/ResultHero'
+import { QuizResultPanel } from '../components/quiz/QuizResultPanel'
+import { Button } from '../components/ui/Button'
 
 export default function ChallengeResultPage() {
   const navigate = useNavigate()
@@ -15,30 +17,47 @@ export default function ChallengeResultPage() {
   const saveChallengeRecords = useQuizStore(s => s.saveChallengeRecords)
   const challengeDone = useQuizStore(s => s.getTodayChallengeDone)
   const [alreadyDone, setAlreadyDone] = useState(false)
+  const [settlementStatus, setSettlementStatus] = useState<SettlementStatus>('settling')
+  const [settlementAttempt, setSettlementAttempt] = useState(0)
 
   useEffect(() => {
     if (!session || !session.isComplete) { navigate('/'); return }
-    challengeDone().then(done => {
-      if (done) { setAlreadyDone(true); return }
-      saveChallengeRecords()
-      if (session.pointsEarned > 0) {
-        addPoints(session.pointsEarned, 'challenge_reward', session.questions[0]?.id ?? null)
-        addExp(session.pointsEarned * 2)
-      }
-      if (session.passed) {
-        addPoints(200, 'challenge_bonus')
-        const markChallengeDone = async () => {
+    let active = true
+    const settle = async () => {
+      setSettlementStatus('settling')
+      try {
+        const done = await challengeDone()
+        if (done) {
+          if (active) {
+            setAlreadyDone(true)
+            setSettlementStatus('success')
+          }
+          return
+        }
+        await saveChallengeRecords()
+        if (session.pointsEarned > 0) {
+          await addPoints(session.pointsEarned, 'challenge_reward', session.questions[0]?.id ?? null)
+          await addExp(session.pointsEarned * 2)
+        }
+        if (session.passed) {
+          await addPoints(200, 'challenge_bonus')
           const { supabase } = await import('../lib/supabase')
           const { useAuthStore } = await import('../stores/authStore')
           const userId = useAuthStore.getState().user?.id
-          if (!userId) return
-          const today = new Date().toISOString().slice(0, 10)
-          await supabase.from('check_ins').update({ challenge_done: true }).eq('user_id', userId).eq('date', today)
+          if (userId) {
+            const today = new Date().toISOString().slice(0, 10)
+            await supabase.from('check_ins').update({ challenge_done: true }).eq('user_id', userId).eq('date', today)
+          }
         }
-        markChallengeDone()
+        if (active) setSettlementStatus('success')
+      } catch (error) {
+        console.error(error)
+        if (active) setSettlementStatus('error')
       }
-    })
-  }, [])
+    }
+    void settle()
+    return () => { active = false }
+  }, [addExp, addPoints, challengeDone, navigate, saveChallengeRecords, session, settlementAttempt])
 
   if (!session) return null
 
@@ -46,50 +65,35 @@ export default function ChallengeResultPage() {
   const bonusPoints = passed ? 200 : 0
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6">
-      {!alreadyDone && <PointsFlyAnimation amount={session.pointsEarned + bonusPoints} />}
-
-      <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="card text-center w-full max-w-sm">
-        <span className="text-6xl">{passed ? '🏆' : '💪'}</span>
-        <h2 className="text-2xl font-bold mt-2">{passed ? '恭喜通关!' : '继续加油!'}</h2>
-
-        <div className="my-4">
-          <span className="text-5xl font-bold text-kid-primary">
-            {formatChallengeScore(session.correctCount, session.questions.length)}
-          </span>
-        </div>
-
-        <div className="grid grid-cols-2 gap-3 text-sm">
-          <div className="bg-gray-50 rounded-xl p-3">
-            <p className="text-gray-400">正确</p>
-            <p className="text-xl font-bold text-kid-success">{session.correctCount}</p>
-          </div>
-          <div className="bg-gray-50 rounded-xl p-3">
-            <p className="text-gray-400">最高连击</p>
-            <p className="text-xl font-bold text-kid-warning">{session.comboCount}🔥</p>
-          </div>
-          <div className="bg-gray-50 rounded-xl p-3">
-            <p className="text-gray-400">答题积分</p>
-            <p className="text-2xl font-bold text-kid-primary">{session.pointsEarned} ⭐</p>
-          </div>
-          <div className={`bg-gray-50 rounded-xl p-3 ${passed ? 'bg-yellow-50' : ''}`}>
-            <p className="text-gray-400">{passed ? '通关奖励' : '通关所需'}</p>
-            <p className="text-2xl font-bold text-kid-warning">
-              {passed ? `+${bonusPoints} ⭐` : `还差${24 - session.correctCount}题`}
-            </p>
-          </div>
-        </div>
-      </motion.div>
+    <div className="min-h-dvh bg-adventure-bg px-4 py-8 sm:py-12">
+      {!alreadyDone && settlementStatus === 'success' && <PointsFlyAnimation amount={session.pointsEarned + bonusPoints} />}
+      <main className="mx-auto w-full max-w-lg space-y-4">
+      <ResultHero
+        score={session.correctCount}
+        total={session.questions.length}
+        status={settlementStatus}
+        points={alreadyDone ? 0 : session.pointsEarned + bonusPoints}
+        experience={alreadyDone ? 0 : session.pointsEarned * 2}
+        title={passed ? '每日挑战通关' : '挑战完成，继续前进'}
+        subtitle={passed ? '你已达到 24 题通关目标。' : `本次还差 ${Math.max(0, 24 - session.correctCount)} 题通关。`}
+        onRetry={() => setSettlementAttempt(value => value + 1)}
+      />
+      <QuizResultPanel subject="math" subjectLabel="每日挑战" correctCount={session.correctCount}
+        totalQuestions={session.questions.length} pointsEarned={alreadyDone ? 0 : session.pointsEarned + bonusPoints}
+        maxCombo={session.comboCount} />
+      <p className="sr-only">{formatChallengeScore(session.correctCount, session.questions.length)}</p>
 
       {alreadyDone && (
-        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 mt-4 text-center max-w-sm w-full">
-          <p className="font-bold text-amber-700">📋 今天已完成挑战，不再获得积分</p>
+        <div className="rounded-[16px] border border-amber-200 bg-adventure-warning-soft p-4 text-center">
+          <p className="font-extrabold text-amber-800">今天已完成挑战，本次不重复获得积分</p>
         </div>
       )}
 
-      <div className="flex gap-4 mt-6">
-        <button onClick={() => navigate('/')} className="btn-primary">返回首页</button>
+      <div className="grid gap-3 pt-2 sm:grid-cols-2">
+        <Button onClick={() => navigate('/')}>返回冒险地图</Button>
+        <Button variant="ghost" onClick={() => navigate('/challenge')}>再次挑战</Button>
       </div>
+      </main>
     </div>
   )
 }

@@ -9,6 +9,8 @@ import { PointsFlyAnimation } from '../components/common/PointsFlyAnimation'
 import { SUBJECT_LABELS } from '../lib/constants'
 import { getQuizResultAwardState } from '../lib/quizUtils'
 import type { Subject } from '../lib/constants'
+import { ResultHero, type SettlementStatus } from '../components/results/ResultHero'
+import { Button } from '../components/ui/Button'
 
 export default function QuizResultPage() {
   const [params] = useSearchParams()
@@ -21,6 +23,8 @@ export default function QuizResultPage() {
   const saveQuizRecords = useQuizStore(s => s.saveQuizRecords)
   const [alreadyDone, setAlreadyDone] = useState(false)
   const [wishCoinsAwarded, setWishCoinsAwarded] = useState(0)
+  const [settlementStatus, setSettlementStatus] = useState<SettlementStatus>('settling')
+  const [settlementAttempt, setSettlementAttempt] = useState(0)
   const awardSettledRef = useRef(false)
   const wasAlreadyDoneAtResultRef = useRef(false)
   const mountedRef = useRef(true)
@@ -36,6 +40,7 @@ export default function QuizResultPage() {
     awardSettledRef.current = true
 
     const settleAward = async () => {
+      setSettlementStatus('settling')
       const subjDone = subject === 'chinese' ? today.chinese_done : subject === 'math' ? today.math_done : today.english_done
       const awardState = getQuizResultAwardState({
         pointsEarned: session.pointsEarned,
@@ -58,37 +63,53 @@ export default function QuizResultPage() {
           const awarded = await markSubjectDone(subject)
           if (mountedRef.current) setWishCoinsAwarded(awarded)
         }
+        if (mountedRef.current) setSettlementStatus('success')
       } catch (error) {
         console.error(error)
+        awardSettledRef.current = false
+        if (mountedRef.current) setSettlementStatus('error')
       }
     }
 
     void settleAward()
-  }, [addExp, addPoints, markSubjectDone, navigate, saveQuizRecords, session, subject, today])
+  }, [addExp, addPoints, markSubjectDone, navigate, saveQuizRecords, session, settlementAttempt, subject, today])
 
   if (!session) return null
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6">
-      {!alreadyDone && <PointsFlyAnimation amount={session.pointsEarned} />}
+    <div className="min-h-dvh bg-adventure-bg px-4 py-8 sm:py-12">
+      {!alreadyDone && settlementStatus === 'success' && <PointsFlyAnimation amount={session.pointsEarned} />}
+      <main className="mx-auto w-full max-w-lg space-y-4">
+      <ResultHero
+        score={session.correctCount}
+        total={session.questions.length}
+        status={settlementStatus}
+        points={alreadyDone ? 0 : session.pointsEarned}
+        experience={alreadyDone ? 0 : session.pointsEarned}
+        title={`${SUBJECT_LABELS[subject]}关卡完成`}
+        subtitle="每一次认真作答，都会让冒险地图更明亮。"
+        onRetry={() => setSettlementAttempt(value => value + 1)}
+      />
       <QuizResultPanel subject={subject} subjectLabel={SUBJECT_LABELS[subject]}
         correctCount={session.correctCount} totalQuestions={session.questions.length}
         pointsEarned={alreadyDone ? 0 : session.pointsEarned} maxCombo={session.comboCount} />
       {alreadyDone && (
-        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 mt-4 text-center">
-          <p className="font-bold text-amber-700">📋 今天已完成，不再获得积分</p>
-          <p className="text-xs text-amber-600 mt-1">每天每科只有第一次答题能获得积分哦</p>
+        <div className="rounded-[16px] border border-amber-200 bg-adventure-warning-soft p-4 text-center">
+          <p className="font-extrabold text-amber-800">今天已完成，本次不重复获得积分</p>
+          <p className="mt-1 text-xs font-semibold text-amber-700">每天每科第一次完成可获得奖励。</p>
         </div>
       )}
       {wishCoinsAwarded > 0 && (
-        <div className="bg-sky-50 border border-sky-200 rounded-2xl p-4 mt-4 text-center">
-          <p className="font-bold text-sky-700">今日坚持愿望币 +{wishCoinsAwarded}</p>
-          <p className="text-xs text-sky-600 mt-1">坚持每天练习，小愿望会慢慢靠近</p>
+        <div className="rounded-[16px] border border-sky-200 bg-sky-50 p-4 text-center">
+          <p className="font-extrabold text-sky-800">今日坚持愿望币 +{wishCoinsAwarded}</p>
+          <p className="mt-1 text-xs font-semibold text-sky-700">坚持每天练习，小愿望会慢慢靠近。</p>
         </div>
       )}
-      <div className="flex gap-4 mt-6">
-        <button onClick={() => navigate('/')} className="btn-primary">返回首页</button>
+      <div className="grid gap-3 pt-2 sm:grid-cols-2">
+        <Button onClick={() => navigate('/')}>返回冒险地图</Button>
+        <Button variant="ghost" onClick={() => navigate(`/quiz?subject=${subject}`)}>再练一组</Button>
       </div>
+      </main>
     </div>
   )
 }
