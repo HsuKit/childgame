@@ -7,6 +7,11 @@ import {
   type WishRewardType,
 } from '../lib/wishRewards'
 import { useWishStore, type DiaryEntry, type WishRedemption } from '../stores/wishStore'
+import { BookHeart, Gift, LockKeyhole, WalletCards } from 'lucide-react'
+import { PageHeader } from '../components/ui/PageHeader'
+import { StatePanel } from '../components/ui/StatePanel'
+import { Surface } from '../components/ui/Surface'
+import { getParentWishQueueCounts } from '../lib/parentWishView'
 
 const REWARD_TYPE_OPTIONS: Array<{ value: WishRewardType; label: string }> = [
   { value: 'companionship', label: '陪伴' },
@@ -199,6 +204,7 @@ export default function ParentWishPage() {
 
   const parentGroups = useMemo(() => groupParentWishRedemptions(redemptions), [redemptions])
   const recentDiaryEntries = diaryEntries.slice(0, 6)
+  const queueCounts = getParentWishQueueCounts(redemptions, recentDiaryEntries.length)
 
   const updateParentNote = (redemptionId: string, value: string) => {
     setParentNotes((current) => ({ ...current, [redemptionId]: value }))
@@ -257,25 +263,8 @@ export default function ParentWishPage() {
   }
 
   return (
-    <div className="p-4 space-y-5 pb-6">
-      <div className="flex items-center justify-between gap-3">
-        <motion.button
-          type="button"
-          whileTap={{ scale: 0.92 }}
-          onClick={() => navigate('/parent-report')}
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gray-100 bg-white text-lg shadow-md shadow-gray-100/70"
-          aria-label="返回家长报告"
-        >
-          ←
-        </motion.button>
-        <div className="min-w-0 flex-1 text-center">
-          <h1 className="truncate text-2xl font-extrabold bg-gradient-to-r from-kid-primary to-kid-pink bg-clip-text text-transparent">
-            家长愿望管理
-          </h1>
-          <p className="mt-1 truncate text-xs font-bold text-gray-400">确认、兑现和维护孩子的愿望奖励</p>
-        </div>
-        <div className="w-10 shrink-0" />
-      </div>
+    <div className="page-stack">
+      <PageHeader eyebrow="家长工具" title="家长愿望管理" subtitle="确认、兑现和维护孩子的愿望奖励。" onBack={() => navigate('/parent-report')} backLabel="返回家长报告" />
 
       <AnimatePresence>
         {message && (
@@ -283,7 +272,8 @@ export default function ParentWishPage() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="rounded-2xl border border-purple-200 bg-gradient-to-r from-purple-50 to-pink-50 p-4 text-center text-sm font-extrabold text-kid-primary"
+            role="status"
+            className="rounded-[16px] border border-indigo-200 bg-adventure-primary-soft p-4 text-center text-sm font-extrabold text-adventure-primary"
           >
             {message}
           </motion.div>
@@ -291,21 +281,21 @@ export default function ParentWishPage() {
       </AnimatePresence>
 
       {actionError && (
-        <div className="rounded-2xl border border-rose-100 bg-rose-50 p-3 text-sm font-bold text-rose-500">
+        <div role="alert" className="rounded-[16px] border border-rose-100 bg-rose-50 p-3 text-sm font-bold text-rose-600">
           {actionError}
         </div>
       )}
 
-      <section className="rounded-3xl border border-cyan-100 bg-gradient-to-r from-emerald-50 via-cyan-50 to-purple-50 p-4">
-        <p className="text-sm font-extrabold text-kid-text">愿望币余额</p>
+      <Surface tone="soft" className="border-cyan-100 bg-gradient-to-r from-emerald-50 via-cyan-50 to-indigo-50">
+        <p className="flex items-center gap-2 text-sm font-extrabold text-adventure-text"><WalletCards aria-hidden="true" className="h-5 w-5 text-adventure-primary" />愿望币余额</p>
         <div className="mt-3 grid grid-cols-2 gap-3">
           <div className="rounded-2xl bg-white/80 p-3">
-            <p className="text-xs font-bold text-gray-400">可用</p>
-            <p className="text-3xl font-extrabold text-kid-success">{balance.available}</p>
+            <p className="text-xs font-bold text-adventure-muted">可用</p>
+            <p className="text-3xl font-extrabold text-emerald-600">{balance.available}</p>
           </div>
           <div className="rounded-2xl bg-white/80 p-3">
-            <p className="text-xs font-bold text-gray-400">确认中冻结</p>
-            <p className="text-3xl font-extrabold text-kid-warning">{balance.frozen}</p>
+            <p className="flex items-center gap-1 text-xs font-bold text-adventure-muted"><LockKeyhole aria-hidden="true" className="h-3.5 w-3.5" />确认中冻结</p>
+            <p className="text-3xl font-extrabold text-amber-600">{balance.frozen}</p>
           </div>
           <div className="rounded-2xl bg-white/80 p-3">
             <p className="text-xs font-bold text-gray-400">累计获得</p>
@@ -316,25 +306,19 @@ export default function ParentWishPage() {
             <p className="text-2xl font-extrabold text-kid-pink">{balance.spent}</p>
           </div>
         </div>
-      </section>
+      </Surface>
 
       <section>
         <div className="mb-3 flex items-center justify-between gap-3 px-1">
-          <h2 className="text-lg font-extrabold text-kid-text">待家长确认</h2>
+          <h2 className="section-title">待家长确认</h2>
           <span className="shrink-0 rounded-full bg-amber-50 px-3 py-1 text-xs font-extrabold text-amber-600">
-            {parentGroups.pendingReview.length} 个
+            {queueCounts.pendingReview} 个
           </span>
         </div>
         <div className="space-y-3">
-          {isLoading && parentGroups.pendingReview.length === 0 && (
-            <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-              正在加载愿望...
-            </div>
-          )}
+          {isLoading && parentGroups.pendingReview.length === 0 && <StatePanel tone="loading" title="正在加载愿望" />}
           {!isLoading && parentGroups.pendingReview.length === 0 && (
-            <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-              现在没有待确认愿望
-            </div>
+            <StatePanel tone="empty" title="现在没有待确认愿望" />
           )}
           {parentGroups.pendingReview.map((redemption) => (
             <RedemptionCard
@@ -354,16 +338,14 @@ export default function ParentWishPage() {
 
       <section>
         <div className="mb-3 flex items-center justify-between gap-3 px-1">
-          <h2 className="text-lg font-extrabold text-kid-text">已同意待兑现</h2>
+          <h2 className="section-title">已同意待兑现</h2>
           <span className="shrink-0 rounded-full bg-emerald-50 px-3 py-1 text-xs font-extrabold text-emerald-600">
-            {parentGroups.pendingFulfillment.length} 个
+            {queueCounts.pendingFulfillment} 个
           </span>
         </div>
         <div className="space-y-3">
           {!isLoading && parentGroups.pendingFulfillment.length === 0 && (
-            <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-              暂时没有待兑现愿望
-            </div>
+            <StatePanel tone="empty" title="暂时没有待兑现愿望" />
           )}
           {parentGroups.pendingFulfillment.map((redemption) => (
             <RedemptionCard
@@ -381,17 +363,21 @@ export default function ParentWishPage() {
         </div>
       </section>
 
-      <section className="rounded-3xl border border-gray-100 bg-white p-4 shadow-sm shadow-gray-100">
-        <h2 className="text-lg font-extrabold text-kid-text">自定义奖励</h2>
+      <Surface>
+        <h2 className="section-title flex items-center gap-2"><Gift aria-hidden="true" className="h-5 w-5 text-adventure-primary" />自定义奖励</h2>
         <form className="mt-3 space-y-3" onSubmit={handleCreateReward}>
+          <label htmlFor="reward-name" className="text-sm font-extrabold text-adventure-text">奖励名称</label>
           <input
+            id="reward-name"
             value={form.name}
             onChange={(event) => setForm((current) => ({ ...current, name: event.target.value }))}
             maxLength={40}
             className="w-full rounded-2xl border border-gray-200 bg-gray-50 p-3 text-sm font-bold text-kid-text outline-none focus:border-kid-primary focus:bg-white"
-            placeholder="奖励名称"
+            placeholder="例如：一起去公园"
           />
+          <label htmlFor="reward-description" className="text-sm font-extrabold text-adventure-text">奖励描述</label>
           <textarea
+            id="reward-description"
             value={form.description}
             onChange={(event) => setForm((current) => ({ ...current, description: event.target.value }))}
             rows={3}
@@ -425,7 +411,7 @@ export default function ParentWishPage() {
             className="w-full rounded-2xl border border-gray-200 bg-gray-50 p-3 text-sm font-bold text-kid-text outline-none focus:border-kid-primary focus:bg-white"
             placeholder="可用说明，例如周末或假期"
           />
-          {formError && <p className="break-words text-sm font-bold text-rose-500">{formError}</p>}
+          {formError && <p className="break-words text-sm font-bold text-rose-600" role="alert">{formError}</p>}
           <button
             type="submit"
             disabled={isCreating}
@@ -434,15 +420,13 @@ export default function ParentWishPage() {
             {isCreating ? '创建中...' : '创建自定义奖励'}
           </button>
         </form>
-      </section>
+      </Surface>
 
       <section>
-        <h2 className="mb-3 px-1 text-lg font-extrabold text-kid-text">最近愿望日记</h2>
+        <h2 className="section-title mb-3 flex items-center gap-2"><BookHeart aria-hidden="true" className="h-5 w-5 text-adventure-primary" />最近愿望日记 <span className="text-xs text-adventure-muted">({queueCounts.recentDiary})</span></h2>
         <div className="space-y-2">
           {recentDiaryEntries.length === 0 && (
-            <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-              愿望实现后会记录在这里
-            </div>
+            <StatePanel tone="empty" title="愿望实现后会记录在这里" />
           )}
           {recentDiaryEntries.map((entry) => <DiaryRow key={entry.id} entry={entry} />)}
         </div>

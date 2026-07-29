@@ -1,12 +1,11 @@
-import { motion } from 'framer-motion'
+import { Flame, Star } from 'lucide-react'
 
 export function StreakBadge({ count }: { count: number }) {
-  const emoji = count >= 30 ? '🔥🔥🔥' : count >= 7 ? '🔥🔥' : count >= 3 ? '🔥' : '⭐'
+  const Icon = count >= 3 ? Flame : Star
   return (
-    <motion.div animate={{ scale: [1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 2 }}
-      className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-100 to-yellow-100 px-4 py-2 rounded-full">
-      <span>{emoji}</span>
-      <span className="font-bold text-orange-500">连续{count}天</span>
-    </motion.div>
+    <div className="inline-flex items-center gap-2 rounded-full bg-adventure-warning-soft px-4 py-2">
+      <Icon aria-hidden="true" className={`h-4 w-4 ${count >= 3 ? 'fill-orange-400 text-orange-500' : 'fill-amber-300 text-amber-500'}`} />
+      <span className="font-bold text-orange-700">连续 {count} 天</span>
+    </div>
   )
 }

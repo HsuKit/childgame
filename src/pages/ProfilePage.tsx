@@ -1,9 +1,22 @@
-import { motion } from 'framer-motion'
-import { useAuthStore } from '../stores/authStore'
-import { usePointsStore } from '../stores/pointsStore'
-import { useCheckinStore } from '../stores/checkinStore'
-import { StreakBadge } from '../components/checkin/StreakBadge'
+import { ArrowRight, BarChart3, CalendarDays, LogOut, NotebookPen, PawPrint, Phone, Shield, Sparkles, Star } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import { StreakBadge } from '../components/checkin/StreakBadge'
+import { Button } from '../components/ui/Button'
+import { PageHeader } from '../components/ui/PageHeader'
+import { StatePanel } from '../components/ui/StatePanel'
+import { Surface } from '../components/ui/Surface'
+import { useAuthStore } from '../stores/authStore'
+import { useCheckinStore } from '../stores/checkinStore'
+import { usePointsStore } from '../stores/pointsStore'
+
+interface CampLink {
+  icon: LucideIcon
+  label: string
+  description: string
+  to: string
+  tone: string
+}
 
 export default function ProfilePage() {
   const { profile, signOut } = useAuthStore()
@@ -11,69 +24,71 @@ export default function ProfilePage() {
   const { today } = useCheckinStore()
   const navigate = useNavigate()
 
-  if (!profile) return <div className="p-6 text-center animate-pulse text-4xl">👤</div>
+  if (!profile) return <StatePanel tone="loading" title="正在准备你的营地" />
 
-  const menuItems = [
-    { icon: '🐾', label: '切换伙伴', to: '/companion/select', color: 'from-purple-50 to-violet-50' },
-    { icon: '📅', label: '打卡日历', to: '/checkin', color: 'from-orange-50 to-amber-50' },
-    { icon: '📝', label: '错题复习', to: '/mistakes', color: 'from-amber-50 to-yellow-50' },
-    { icon: '📊', label: '家长报告', to: '/parent-report', color: 'from-blue-50 to-cyan-50' },
+  const campLinks: CampLink[] = [
+    { icon: CalendarDays, label: '打卡日历', description: '查看连续学习与每日完成', to: '/checkin', tone: 'bg-adventure-warning-soft text-amber-700' },
+    { icon: NotebookPen, label: '错题复习', description: '回到还没掌握的知识点', to: '/mistakes', tone: 'bg-rose-50 text-rose-600' },
+    { icon: BarChart3, label: '家长报告', description: '查看今日学习数据与薄弱点', to: '/parent-report', tone: 'bg-sky-50 text-sky-700' },
+    { icon: Sparkles, label: '家长愿望管理', description: '确认、兑现和维护奖励', to: '/parent-wishes', tone: 'bg-emerald-50 text-emerald-700' },
+    { icon: PawPrint, label: '选择伙伴', description: '创建或切换冒险伙伴', to: '/companion/select', tone: 'bg-adventure-primary-soft text-adventure-primary' },
   ]
 
   return (
-    <div className="p-4 space-y-5">
-      {/* Profile Header */}
-      <div className="text-center">
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          className="w-24 h-24 bg-gradient-to-br from-purple-200 via-pink-200 to-orange-200 rounded-full flex items-center justify-center mx-auto shadow-lg shadow-purple-200/50"
-        >
-          <span className="text-4xl">👤</span>
-        </motion.div>
-        <h1 className="text-2xl font-extrabold mt-3 text-kid-text">{profile.nickname}</h1>
-        <div className="flex items-center justify-center gap-2 mt-1">
-          <span className="bg-purple-100 text-purple-600 text-sm font-bold px-3 py-1 rounded-full">
-            {profile.grade}年级
+    <div className="page-stack">
+      <PageHeader eyebrow="我的营地" title="个人中心" subtitle="查看身份、学习连续记录和家长工具。" />
+
+      <Surface tone="soft" className="bg-gradient-to-br from-indigo-50 via-white to-rose-50">
+        <div className="flex items-center gap-4">
+          <span className="grid h-16 w-16 shrink-0 place-items-center rounded-[20px] bg-white text-adventure-primary shadow-lg shadow-indigo-100">
+            <Shield aria-hidden="true" className="h-8 w-8" />
           </span>
+          <div className="min-w-0 flex-1">
+            <h2 className="truncate text-2xl font-black text-adventure-text">{profile.nickname}</h2>
+            <p className="mt-1 text-sm font-bold text-adventure-muted">{profile.grade} 年级冒险者</p>
+          </div>
           {today && <StreakBadge count={today.streak_count} />}
         </div>
+      </Surface>
+
+      <div className="grid grid-cols-2 gap-3">
+        <Surface className="text-center">
+          <Star aria-hidden="true" className="mx-auto h-6 w-6 fill-amber-300 text-amber-500" />
+          <p className="mt-2 text-xs font-bold text-adventure-muted">当前积分</p>
+          <p className="mt-1 text-3xl font-black text-adventure-text">{balance}</p>
+        </Surface>
+        <Surface className="text-center">
+          <CalendarDays aria-hidden="true" className="mx-auto h-6 w-6 text-adventure-primary" />
+          <p className="mt-2 text-xs font-bold text-adventure-muted">连续学习</p>
+          <p className="mt-1 text-3xl font-black text-adventure-text">{today?.streak_count ?? 0}<span className="text-sm"> 天</span></p>
+        </Surface>
       </div>
 
-      {/* Points Card */}
-      <div className="bg-gradient-to-r from-kid-primary to-kid-pink rounded-3xl p-6 text-white shadow-lg shadow-purple-300/40">
-        <p className="text-sm text-white/70 font-medium">我的积分</p>
-        <div className="flex items-end gap-2 mt-1">
-          <span className="text-4xl font-extrabold">{balance}</span>
-          <span className="text-xl mb-1">⭐</span>
+      <section>
+        <h2 className="section-title mb-3">营地入口</h2>
+        <div className="grid gap-3 md:grid-cols-2">
+          {campLinks.map(({ icon: Icon, label, description, to, tone }) => (
+            <button key={to} type="button" onClick={() => navigate(to)} className="group flex min-h-20 items-center gap-3 rounded-[18px] border border-adventure-border bg-white p-4 text-left transition hover:border-adventure-primary/35 hover:shadow-lg hover:shadow-slate-200/40">
+              <span className={`grid h-11 w-11 shrink-0 place-items-center rounded-[14px] ${tone}`}><Icon aria-hidden="true" className="h-5 w-5" /></span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-extrabold text-adventure-text">{label}</span>
+                <span className="mt-0.5 block text-xs leading-5 text-adventure-muted">{description}</span>
+              </span>
+              <ArrowRight aria-hidden="true" className="h-5 w-5 shrink-0 text-adventure-muted transition group-hover:translate-x-1" />
+            </button>
+          ))}
         </div>
-      </div>
+      </section>
 
-      {/* Menu */}
-      <div className="grid gap-3">
-        {menuItems.map(({ icon, label, to, color }) => (
-          <motion.button
-            key={to}
-            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-            onClick={() => navigate(to)}
-            className={`bg-gradient-to-r ${color} rounded-2xl p-4 text-left font-bold text-kid-text flex items-center gap-3 shadow-sm`}
-          >
-            <span className="text-2xl">{icon}</span>
-            <span className="flex-1">{label}</span>
-            <span className="text-gray-400">→</span>
-          </motion.button>
-        ))}
-        {!profile?.phone && (
-          <div className="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-2xl p-4 border border-yellow-200">
-            <p className="text-sm text-yellow-700">⚠️ 游客模式 · 建议绑定手机号永久保存数据</p>
-          </div>
-        )}
-        <button
-          onClick={() => signOut()}
-          className="text-center text-gray-400 font-medium py-3 text-sm hover:text-red-400 transition-colors"
-        >
-          退出登录
-        </button>
-      </div>
+      <Surface className="flex items-start gap-3">
+        <Phone aria-hidden="true" className={`mt-0.5 h-5 w-5 shrink-0 ${profile.phone ? 'text-emerald-600' : 'text-amber-600'}`} />
+        <div>
+          <p className="font-extrabold text-adventure-text">{profile.phone ? '账号已绑定手机号' : '当前为游客模式'}</p>
+          <p className="mt-1 text-xs leading-5 text-adventure-muted">{profile.phone ? '学习数据会持续保存在账号中。' : '建议绑定手机号，避免更换设备后数据丢失。'}</p>
+        </div>
+      </Surface>
+
+      <Button variant="ghost" icon={<LogOut aria-hidden="true" className="h-4 w-4" />} onClick={() => signOut()} className="w-full">退出登录</Button>
     </div>
   )
 }
