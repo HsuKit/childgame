@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Gift, LockKeyhole } from 'lucide-react'
 
 interface WishBalanceBadgeProps {
   available: number
@@ -9,10 +10,10 @@ interface WishBalanceBadgeProps {
 export function WishBalanceBadge({ available, frozen = 0, onClick }: WishBalanceBadgeProps) {
   const content = (
     <>
-      <span className="shrink-0 text-lg leading-none">🎁</span>
-      <span className="min-w-0 truncate font-extrabold text-kid-primary">{available}</span>
+      <Gift aria-hidden="true" className="h-4 w-4 shrink-0 text-adventure-primary" />
+      <span className="min-w-0 truncate font-extrabold text-adventure-primary">{available}</span>
       {frozen > 0 && (
-        <span className="min-w-0 truncate text-[10px] font-bold text-amber-500">冻 {frozen}</span>
+        <span className="inline-flex min-w-0 items-center gap-0.5 truncate text-[10px] font-bold text-amber-600"><LockKeyhole aria-hidden="true" className="h-3 w-3" />{frozen}</span>
       )}
     </>
   )
@@ -23,7 +24,7 @@ export function WishBalanceBadge({ available, frozen = 0, onClick }: WishBalance
         type="button"
         whileTap={{ scale: 0.95 }}
         onClick={onClick}
-        className="inline-flex max-w-full items-center gap-1.5 rounded-full bg-white/90 px-3 py-2 text-sm shadow-md shadow-purple-100/60 border border-purple-100"
+        className="inline-flex min-h-11 max-w-full items-center gap-1.5 rounded-[14px] border border-indigo-100 bg-white px-3 py-2 text-sm shadow-md shadow-indigo-100/60"
         aria-label={`愿望币 ${available}${frozen > 0 ? `，冻结 ${frozen}` : ''}`}
       >
         {content}
@@ -32,7 +33,7 @@ export function WishBalanceBadge({ available, frozen = 0, onClick }: WishBalance
   }
 
   return (
-    <div className="inline-flex max-w-full items-center gap-1.5 rounded-full bg-white/90 px-3 py-2 text-sm shadow-md shadow-purple-100/60 border border-purple-100">
+    <div className="inline-flex min-h-11 max-w-full items-center gap-1.5 rounded-[14px] border border-indigo-100 bg-white px-3 py-2 text-sm shadow-md shadow-indigo-100/60">
       {content}
     </div>
   )

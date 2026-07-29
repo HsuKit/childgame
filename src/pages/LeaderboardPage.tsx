@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { supabase } from '../lib/supabase'
 import { useAuthStore } from '../stores/authStore'
+import { CalendarDays, Crown, Medal, Star, Trophy } from 'lucide-react'
+import { PageHeader } from '../components/ui/PageHeader'
+import { StatePanel } from '../components/ui/StatePanel'
 
 interface RankEntry {
   nickname: string
@@ -28,17 +31,25 @@ export default function LeaderboardPage() {
   const [total, setTotal] = useState<RankEntry[]>([])
   const [tab, setTab] = useState<'weekly' | 'total'>('weekly')
   const [loading, setLoading] = useState(true)
+  const [loadError, setLoadError] = useState<string | null>(null)
   const userId = useAuthStore(s => s.user?.id)
 
   useEffect(() => {
     const fetch = async () => {
       setLoading(true)
+      setLoadError(null)
       const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString()
 
       // Weekly: sum points in last 7 days
-      const { data: wk } = await supabase.rpc('get_weekly_leaderboard', { since: weekAgo })
+      const { data: wk, error: weeklyError } = await supabase.rpc('get_weekly_leaderboard', { since: weekAgo })
       // Total: sum all points
-      const { data: all } = await supabase.rpc('get_total_leaderboard')
+      const { data: all, error: totalError } = await supabase.rpc('get_total_leaderboard')
+
+      if (weeklyError || totalError) {
+        setLoadError('排行榜暂时无法加载，请稍后重试。')
+        setLoading(false)
+        return
+      }
 
       const map = (rows: any[] | null) => (rows || []).map((r: any) => ({
         nickname: r.nickname || '神秘冒险者',
@@ -51,73 +62,75 @@ export default function LeaderboardPage() {
       setTotal(map(all))
       setLoading(false)
     }
-    fetch()
+    void fetch()
   }, [userId])
 
   const data = tab === 'weekly' ? weekly : total
-  const medals = ['🥇', '🥈', '🥉']
+  const medalStyles = ['bg-amber-100 text-amber-700', 'bg-slate-200 text-slate-700', 'bg-orange-100 text-orange-700']
 
   return (
-    <div className="p-4 pb-6 space-y-4">
-      <h1 className="text-2xl font-extrabold text-center bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-        🏆 排行榜
-      </h1>
+    <div className="page-stack">
+      <PageHeader eyebrow="荣誉大厅" title="学习排行榜" subtitle="看看本周和累计冒险积分，找到下一次前进的目标。" trailing={<Trophy aria-hidden="true" className="h-7 w-7 text-amber-500" />} />
 
       {/* Tab toggle */}
-      <div className="flex bg-gray-100 rounded-2xl p-1">
+      <div className="flex rounded-[16px] bg-slate-100 p-1" role="tablist" aria-label="排行榜范围">
         {(['weekly', 'total'] as const).map(t => (
-          <button key={t} onClick={() => setTab(t)}
-            className={`flex-1 py-2 rounded-xl text-sm font-extrabold transition-all
-              ${tab === t ? 'bg-white shadow text-kid-primary' : 'text-gray-400'}`}>
-            {t === 'weekly' ? '📅 本周' : '👑 总榜'}
+          <button key={t} onClick={() => setTab(t)} role="tab" aria-selected={tab === t}
+            className={`flex min-h-11 flex-1 items-center justify-center gap-2 rounded-[13px] py-2 text-sm font-extrabold transition-all
+              ${tab === t ? 'bg-white text-adventure-primary shadow' : 'text-adventure-muted'}`}>
+            {t === 'weekly' ? <CalendarDays aria-hidden="true" className="h-4 w-4" /> : <Crown aria-hidden="true" className="h-4 w-4" />}
+            {t === 'weekly' ? '本周' : '总榜'}
           </button>
         ))}
       </div>
 
       {loading ? (
-        <div className="text-center py-10 animate-pulse text-4xl">🏆</div>
+        <StatePanel tone="loading" title="正在加载排行榜" />
+      ) : loadError ? (
+        <StatePanel tone="error" title="排行榜加载失败" message={loadError} />
       ) : data.length === 0 ? (
-        <div className="text-center py-10 text-gray-400">
-          <p className="text-4xl mb-3">📭</p>
-          <p>还没有数据，快去答题吧!</p>
-        </div>
+        <StatePanel tone="empty" title="还没有排行数据" message="完成一次答题后，你的冒险积分会出现在这里。" />
       ) : (
-        <div className="space-y-2">
+        <div className="space-y-2" role="list" aria-label={tab === 'weekly' ? '本周排行榜' : '总排行榜'}>
           {data.map((entry, i) => (
             <motion.div
               key={i}
+              role="listitem"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.05 }}
-              className={`rounded-2xl p-4 flex items-center gap-3 ${
-                entry.is_me ? 'bg-purple-50 border-2 border-purple-300' : 'bg-white border border-gray-100'
-              } ${i < 3 ? 'shadow-md' : 'shadow-sm'}`}>
+              className={`flex items-center gap-3 rounded-[18px] p-4 ${
+                entry.is_me ? 'border-2 border-adventure-primary bg-adventure-primary-soft' : 'border border-adventure-border bg-white'
+              } ${i < 3 ? 'shadow-lg shadow-slate-200/40' : 'shadow-sm'}`}>
               {/* Rank */}
               <div className="w-8 text-center">
                 {i < 3 ? (
-                  <span className="text-2xl">{medals[i]}</span>
+                  <span className={`mx-auto grid h-8 w-8 place-items-center rounded-full ${medalStyles[i]}`}>
+                    <Medal aria-hidden="true" className="h-4 w-4" />
+                    <span className="sr-only">第 {i + 1} 名</span>
+                  </span>
                 ) : (
                   <span className="text-gray-400 font-bold">{i + 1}</span>
                 )}
               </div>
 
               {/* Avatar */}
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center text-lg">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-purple-100 to-pink-100 text-lg" aria-hidden="true">
                 {getCompanionEmoji(entry.companion_type)}
               </div>
 
               {/* Info */}
               <div className="flex-1">
-                <p className="font-extrabold text-sm">
+                <p className="text-sm font-extrabold text-adventure-text">
                   {entry.nickname}
-                  {entry.is_me && <span className="text-xs text-purple-500 ml-2">(我)</span>}
+                  {entry.is_me && <span className="ml-2 rounded-full bg-white px-2 py-0.5 text-xs text-adventure-primary">我</span>}
                 </p>
               </div>
 
               {/* Points */}
               <div className="text-right">
-                <p className="font-extrabold text-kid-primary">{entry.points.toLocaleString()}</p>
-                <p className="text-xs text-gray-400">⭐</p>
+                <p className="font-extrabold text-adventure-primary">{entry.points.toLocaleString()}</p>
+                <p className="flex items-center justify-end gap-1 text-xs text-adventure-muted"><Star aria-hidden="true" className="h-3 w-3" />积分</p>
               </div>
             </motion.div>
           ))}

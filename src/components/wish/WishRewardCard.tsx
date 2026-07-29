@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import type { WishReward } from '../../stores/wishStore'
+import { Backpack, FerrisWheel, Gift, Sparkles, Users } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 
 interface WishRewardCardProps {
   reward: WishReward
@@ -14,15 +16,16 @@ const typeLabels: Record<WishReward['type'], string> = {
   open_wish: '小愿望',
 }
 
-const typeEmoji: Record<WishReward['type'], string> = {
-  item: '🎒',
-  companionship: '🤝',
-  experience: '🎡',
-  open_wish: '✨',
+const typeIcons: Record<WishReward['type'], LucideIcon> = {
+  item: Backpack,
+  companionship: Users,
+  experience: FerrisWheel,
+  open_wish: Sparkles,
 }
 
 export function WishRewardCard({ reward, available, onRequest }: WishRewardCardProps) {
   const canAfford = available >= reward.cost
+  const Icon = typeIcons[reward.type]
 
   return (
     <motion.button
@@ -30,24 +33,24 @@ export function WishRewardCard({ reward, available, onRequest }: WishRewardCardP
       whileHover={{ scale: 1.01 }}
       whileTap={{ scale: 0.97 }}
       onClick={() => onRequest(reward)}
-      className={`w-full rounded-3xl border p-4 text-left shadow-sm transition-all ${
+      className={`w-full rounded-[18px] border p-4 text-left shadow-sm transition-all ${
         canAfford
           ? 'bg-white border-purple-100 shadow-purple-100/50'
           : 'bg-gray-50 border-gray-200 shadow-gray-100/40'
       }`}
     >
       <div className="flex min-w-0 items-start gap-3">
-        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-2xl ${
+        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-[16px] ${
           canAfford ? 'bg-gradient-to-br from-purple-50 to-pink-50' : 'bg-white text-gray-400'
         }`}>
-          {typeEmoji[reward.type]}
+          <Icon aria-hidden="true" className="h-6 w-6 text-adventure-primary" />
         </div>
 
         <div className="min-w-0 flex-1">
           <div className="flex min-w-0 items-start justify-between gap-3">
             <div className="min-w-0">
-              <p className="break-words text-sm font-extrabold leading-snug text-kid-text">{reward.name}</p>
-              <p className="mt-1 break-words text-xs leading-relaxed text-gray-400">{reward.description}</p>
+              <p className="break-words text-sm font-extrabold leading-snug text-adventure-text">{reward.name}</p>
+              <p className="mt-1 break-words text-xs leading-relaxed text-adventure-muted">{reward.description}</p>
             </div>
             <div className={`shrink-0 rounded-full px-2 py-1 text-[10px] font-extrabold ${
               canAfford ? 'bg-purple-50 text-kid-primary' : 'bg-white text-gray-400'
@@ -62,8 +65,8 @@ export function WishRewardCard({ reward, available, onRequest }: WishRewardCardP
             }`}>
               {canAfford ? '可以提交愿望' : `还差 ${reward.cost - available} 枚`}
             </span>
-            <span className="shrink-0 rounded-full bg-gradient-to-r from-kid-warning to-kid-secondary px-3 py-1.5 text-xs font-extrabold text-white shadow-sm shadow-orange-200/50">
-              🎁 {reward.cost}
+            <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-adventure-warning-soft px-3 py-1.5 text-xs font-extrabold text-amber-700">
+              <Gift aria-hidden="true" className="h-3.5 w-3.5" />{reward.cost}
             </span>
           </div>
         </div>

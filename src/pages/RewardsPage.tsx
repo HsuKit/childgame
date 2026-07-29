@@ -25,7 +25,7 @@ export default function RewardsPage() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="REWARD CAMP"
+        eyebrow="奖励营地"
         title="奖励营地"
         subtitle="看看努力积攒的愿望、荣誉与成长回忆"
         trailing={<WishBalanceBadge available={balance.available} frozen={balance.frozen} />}

@@ -7,6 +7,10 @@ import { useWishStore, type WishReward } from '../stores/wishStore'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { WishRedemptionStatus } from '../components/wish/WishRedemptionStatus'
 import { WishRewardCard } from '../components/wish/WishRewardCard'
+import { BookHeart, Gift, Rainbow, X } from 'lucide-react'
+import { PageHeader } from '../components/ui/PageHeader'
+import { StatePanel } from '../components/ui/StatePanel'
+import { Button } from '../components/ui/Button'
 
 function isActiveRedemptionStatus(status: RedemptionStatus) {
   return status === 'pending_parent_review' || status === 'approved_pending_fulfillment'
@@ -33,9 +37,11 @@ export default function WishShopPage() {
   const [childNote, setChildNote] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitError, setSubmitError] = useState<string | null>(null)
+  const [loadError, setLoadError] = useState(false)
 
   useEffect(() => {
-    fetchWishData().catch(() => undefined)
+    setLoadError(false)
+    fetchWishData().catch(() => setLoadError(true))
   }, [fetchWishData])
 
   useEffect(() => {
@@ -82,25 +88,15 @@ export default function WishShopPage() {
   }
 
   return (
-    <div className="p-4 space-y-5 pb-6">
-      <div className="flex items-center justify-between gap-3">
-        <motion.button
-          type="button"
-          whileTap={{ scale: 0.92 }}
-          onClick={() => navigate(-1)}
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-lg shadow-md shadow-gray-100/70 border border-gray-100"
-          aria-label="返回"
-        >
-          ←
-        </motion.button>
-        <div className="min-w-0 flex-1 text-center">
-          <h1 className="truncate text-2xl font-extrabold bg-gradient-to-r from-kid-primary to-kid-pink bg-clip-text text-transparent">
-            愿望商店
-          </h1>
-          <p className="mt-1 truncate text-xs font-bold text-gray-400">用认真练习攒下的小愿望</p>
-        </div>
-        <WishBalanceBadge available={balance.available} frozen={balance.frozen} />
-      </div>
+    <div className="page-stack">
+      <PageHeader
+        eyebrow="奖励营地"
+        title="愿望商店"
+        subtitle="用认真练习攒下的愿望币，让小目标慢慢实现。"
+        onBack={() => navigate(-1)}
+        backLabel="返回奖励营地"
+        trailing={<WishBalanceBadge available={balance.available} frozen={balance.frozen} />}
+      />
 
       <AnimatePresence>
         {message && (
@@ -108,33 +104,34 @@ export default function WishShopPage() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="rounded-2xl border border-purple-200 bg-gradient-to-r from-purple-50 to-pink-50 p-4 text-center text-sm font-extrabold text-kid-primary"
+            role="status"
+            className="rounded-[16px] border border-indigo-200 bg-adventure-primary-soft p-4 text-center text-sm font-extrabold text-adventure-primary"
           >
             {message}
           </motion.div>
         )}
       </AnimatePresence>
 
-      <section className="rounded-3xl bg-gradient-to-r from-emerald-50 via-cyan-50 to-purple-50 p-4 border border-cyan-100">
+      <section className="rounded-[18px] border border-cyan-100 bg-gradient-to-r from-emerald-50 via-cyan-50 to-indigo-50 p-4">
         <div className="flex items-center gap-3">
-          <span className="text-3xl">🌈</span>
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[14px] bg-white text-cyan-600"><Rainbow aria-hidden="true" className="h-6 w-6" /></span>
           <div className="min-w-0">
-            <p className="font-extrabold text-kid-text">每天完成三科练习，就能攒一枚愿望币</p>
-            <p className="mt-1 text-xs leading-relaxed text-gray-500">小目标慢慢实现，爸妈确认后愿望币会先冻结起来。</p>
+            <p className="font-extrabold text-adventure-text">每天完成三科练习，就能攒一枚愿望币</p>
+            <p className="mt-1 text-xs leading-relaxed text-adventure-muted">提交后由家长确认，处理期间愿望币会暂时冻结。</p>
           </div>
         </div>
       </section>
 
       {activeRedemptions.length > 0 && (
         <section>
-          <h2 className="mb-3 px-1 text-lg font-extrabold text-kid-text">正在等待的愿望</h2>
+          <h2 className="section-title mb-3">正在等待的愿望</h2>
           <div className="space-y-3">
             {activeRedemptions.map(redemption => (
-              <div key={redemption.id} className="rounded-3xl border border-amber-100 bg-white p-4 shadow-sm shadow-amber-100/40">
+              <div key={redemption.id} className="rounded-[18px] border border-amber-100 bg-white p-4 shadow-sm shadow-amber-100/40">
                 <div className="flex min-w-0 items-start justify-between gap-3">
                   <div className="min-w-0 flex-1">
-                    <p className="break-words text-sm font-extrabold text-kid-text">{redemption.reward_name}</p>
-                    <p className="mt-1 text-xs font-bold text-amber-500">🎁 {redemption.reward_cost} 枚</p>
+                    <p className="break-words text-sm font-extrabold text-adventure-text">{redemption.reward_name}</p>
+                    <p className="mt-1 flex items-center gap-1 text-xs font-bold text-amber-600"><Gift aria-hidden="true" className="h-3.5 w-3.5" />{redemption.reward_cost} 枚</p>
                     {redemption.child_note && (
                       <p className="mt-2 break-words text-xs leading-relaxed text-gray-500">{redemption.child_note}</p>
                     )}
@@ -148,11 +145,8 @@ export default function WishShopPage() {
       )}
 
       <section className="space-y-5">
-        {isLoading && rewards.length === 0 && (
-          <div className="rounded-3xl border border-gray-100 bg-white p-5 text-center text-sm font-bold text-gray-400">
-            正在加载愿望...
-          </div>
-        )}
+        {isLoading && rewards.length === 0 && <StatePanel tone="loading" title="正在加载愿望" />}
+        {loadError && rewards.length === 0 && <StatePanel tone="error" title="愿望清单加载失败" message="请检查网络后再试一次。" actionLabel="重新加载" onAction={() => { setLoadError(false); void fetchWishData().catch(() => setLoadError(true)) }} />}
 
         {WISH_REWARD_GROUPS.map(group => {
           const groupRewards = groupedRewards[group.id]
@@ -161,8 +155,8 @@ export default function WishShopPage() {
           return (
             <div key={group.id}>
               <div className="mb-3 flex items-end justify-between gap-3 px-1">
-                <h2 className="text-lg font-extrabold text-kid-text">{group.label}</h2>
-                <span className="shrink-0 text-xs font-bold text-gray-400">
+                <h2 className="section-title">{group.label}</h2>
+                <span className="shrink-0 text-xs font-bold text-adventure-muted">
                   {group.max === Infinity ? `${group.min}+` : `${group.min}-${group.max}`} 枚
                 </span>
               </div>
@@ -180,8 +174,8 @@ export default function WishShopPage() {
           )
         })}
 
-        {!isLoading && rewards.length === 0 && (
-          <p className="px-1 text-center text-xs font-bold leading-relaxed text-gray-400">
+        {!isLoading && !loadError && rewards.length === 0 && (
+          <p className="px-1 text-center text-xs font-bold leading-relaxed text-adventure-muted">
             这是默认愿望清单，爸妈还可以在家长愿望管理里添加专属奖励。
           </p>
         )}
@@ -189,15 +183,15 @@ export default function WishShopPage() {
 
       {recentDiaryEntries.length > 0 && (
         <section>
-          <h2 className="mb-3 px-1 text-lg font-extrabold text-kid-text">最近的愿望日记</h2>
+          <h2 className="section-title mb-3">最近的愿望日记</h2>
           <div className="space-y-2">
             {recentDiaryEntries.map(entry => (
-              <div key={entry.id} className="flex items-start gap-3 rounded-2xl bg-white px-4 py-3 border border-gray-100">
-                <span className="mt-0.5 text-lg">📖</span>
+              <div key={entry.id} className="flex items-start gap-3 rounded-[16px] border border-adventure-border bg-white px-4 py-3">
+                <BookHeart aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-adventure-primary" />
                 <div className="min-w-0 flex-1">
                   <div className="flex min-w-0 items-center justify-between gap-3">
-                    <p className="min-w-0 truncate text-sm font-extrabold text-kid-text">{entry.title}</p>
-                    <span className="shrink-0 text-[11px] font-bold text-gray-400">{formatShortDate(entry.created_at)}</span>
+                    <p className="min-w-0 truncate text-sm font-extrabold text-adventure-text">{entry.title}</p>
+                    <span className="shrink-0 text-[11px] font-bold text-adventure-muted">{formatShortDate(entry.created_at)}</span>
                   </div>
                   <p className="mt-1 break-words text-xs leading-relaxed text-gray-500">{entry.description}</p>
                 </div>
@@ -224,17 +218,16 @@ export default function WishShopPage() {
               onClick={event => event.stopPropagation()}
               role="dialog"
               aria-modal="true"
-              aria-label="提交愿望"
+              aria-labelledby="wish-dialog-title"
             >
               <div className="flex min-w-0 items-start justify-between gap-3">
                 <div className="min-w-0">
-                  <p className="break-words text-lg font-extrabold text-kid-text">{selectedReward.name}</p>
-                  <p className="mt-1 break-words text-sm leading-relaxed text-gray-500">{selectedReward.description}</p>
+                  <h2 id="wish-dialog-title" className="break-words text-lg font-extrabold text-adventure-text">{selectedReward.name}</h2>
+                  <p className="mt-1 break-words text-sm leading-relaxed text-adventure-muted">{selectedReward.description}</p>
                 </div>
-                <span className="shrink-0 rounded-full bg-orange-50 px-3 py-1.5 text-sm font-extrabold text-kid-warning">
-                  🎁 {selectedReward.cost}
-                </span>
+                <button type="button" onClick={closeRequestDialog} disabled={isSubmitting} aria-label="关闭愿望提交窗口" className="grid min-h-11 min-w-11 place-items-center rounded-[14px] text-adventure-muted"><X aria-hidden="true" className="h-5 w-5" /></button>
               </div>
+              <p className="mt-3 inline-flex items-center gap-1 rounded-full bg-adventure-warning-soft px-3 py-1.5 text-sm font-extrabold text-amber-700"><Gift aria-hidden="true" className="h-4 w-4" />{selectedReward.cost} 枚愿望币</p>
 
               <label className="mt-4 block text-sm font-extrabold text-kid-text" htmlFor="wish-note">
                 想和爸妈说的话
@@ -250,25 +243,22 @@ export default function WishShopPage() {
               />
               <div className="mt-1 text-right text-[11px] font-bold text-gray-400">{childNote.length}/120</div>
 
-              {submitError && <p className="mt-2 text-sm font-bold text-rose-500">{submitError}</p>}
+              {submitError && <p className="mt-2 text-sm font-bold text-rose-600" role="alert">{submitError}</p>}
 
               <div className="mt-4 grid grid-cols-2 gap-3">
-                <button
-                  type="button"
+                <Button variant="ghost"
                   onClick={closeRequestDialog}
                   disabled={isSubmitting}
-                  className="rounded-2xl bg-gray-100 py-3 text-sm font-extrabold text-gray-500 disabled:opacity-60"
                 >
                   再想想
-                </button>
-                <button
-                  type="button"
+                </Button>
+                <Button
                   onClick={handleSubmit}
                   disabled={isSubmitting}
-                  className="rounded-2xl bg-gradient-to-r from-kid-primary to-kid-pink py-3 text-sm font-extrabold text-white shadow-md shadow-purple-200/50 disabled:opacity-60"
+                  loading={isSubmitting}
                 >
-                  {isSubmitting ? '提交中...' : '提交愿望'}
-                </button>
+                  {isSubmitting ? '提交中' : '提交愿望'}
+                </Button>
               </div>
             </motion.div>
           </motion.div>
