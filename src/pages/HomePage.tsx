@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { Gift, Star } from 'lucide-react'
 import { useCompanionStore } from '../stores/companionStore'
 import { useCheckinStore } from '../stores/checkinStore'
 import { usePointsStore } from '../stores/pointsStore'
@@ -9,12 +9,13 @@ import { useAuthStore } from '../stores/authStore'
 import { useMistakeStore } from '../stores/mistakeStore'
 import { useWishStore } from '../stores/wishStore'
 import { CompanionDisplay } from '../components/companion/CompanionDisplay'
-import { DailyTaskCard } from '../components/quiz/DailyTaskCard'
 import { StreakBadge } from '../components/checkin/StreakBadge'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
-import { DAILY_QUESTIONS_PER_SUBJECT, SUBJECTS } from '../lib/constants'
 import { getSubjectsNeedingCompletionSync } from '../lib/quizUtils'
 import type { Subject } from '../lib/constants'
+import { AdventureMap } from '../components/home/AdventureMap'
+import { PageHeader } from '../components/ui/PageHeader'
+import { Surface } from '../components/ui/Surface'
 
 export default function HomePage() {
   const navigate = useNavigate()
@@ -89,110 +90,56 @@ export default function HomePage() {
       : '完成三科练习获得愿望币'
 
   return (
-    <div className="p-4 space-y-5 pb-2">
-      {/* Header */}
-      <div className="flex items-center justify-between px-1">
-        <div>
-          <h1 className="text-2xl font-extrabold bg-gradient-to-r from-kid-primary to-kid-pink bg-clip-text text-transparent">
-            {profile ? `Hi, ${profile.nickname}! 👋` : '知识冒险'}
-          </h1>
-          <div className="flex items-center gap-2 mt-1">
-            {today && <StreakBadge count={today.streak_count} />}
-            <button onClick={() => navigate('/parent-report')} className="text-xs font-bold text-gray-400">
-              家长报告
-            </button>
-          </div>
-        </div>
-        <motion.div
-          whileTap={{ scale: 0.95 }}
-          onClick={() => navigate('/shop')}
-          className="flex items-center gap-2 glass px-4 py-2 rounded-full cursor-pointer"
+    <div className="page-stack max-w-3xl">
+      <PageHeader
+        eyebrow="KNOWLEDGE ADVENTURE"
+        title={profile ? `${profile.nickname}，今天去哪里冒险？` : '今天去哪里冒险？'}
+        subtitle="完成三科主线，和伙伴一起点亮今日地图"
+        trailing={(
+          <button
+            type="button"
+            onClick={() => navigate('/shop')}
+            aria-label={`星星积分 ${balance}，打开衣柜`}
+            className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-amber-200 bg-adventure-reward-soft px-3 font-black text-amber-700"
+          >
+            <Star aria-hidden="true" className="h-4 w-4 fill-current" />
+            <span className="tabular-nums">{balance}</span>
+          </button>
+        )}
+      />
+
+      <div className="flex flex-wrap items-center gap-2">
+        {today && <StreakBadge count={today.streak_count} />}
+        <button
+          type="button"
+          onClick={() => navigate('/parent-report')}
+          className="min-h-9 rounded-full bg-white px-3 text-xs font-bold text-adventure-muted"
         >
-          <span className="text-xl">⭐</span>
-          <span className="font-extrabold text-kid-primary text-lg">{balance}</span>
-        </motion.div>
+          查看家长报告
+        </button>
       </div>
 
-      {/* Companion */}
-      <CompanionDisplay />
+      <CompanionDisplay compact />
 
-      <motion.button
-        whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-        onClick={() => navigate('/wish-shop')}
-        className="w-full rounded-3xl bg-gradient-to-r from-purple-50 via-pink-50 to-amber-50 p-4 text-left shadow-sm shadow-purple-100/50 border border-purple-100"
-      >
-        <div className="flex min-w-0 items-center gap-3">
-          <span className="shrink-0 text-3xl">🎁</span>
+      <AdventureMap
+        progress={quizCounts}
+        challengeDone={challengeDone}
+        mistakes={needsCorrectionCount}
+        reinforcing={reinforcingCount}
+      />
+
+      <button type="button" onClick={() => navigate('/wish-shop')} className="w-full text-left">
+        <Surface className="flex min-w-0 items-center gap-3 border-amber-100 bg-adventure-reward-soft">
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[14px] bg-white text-amber-600">
+            <Gift aria-hidden="true" className="h-5 w-5" />
+          </span>
           <div className="min-w-0 flex-1">
-            <p className="font-extrabold text-kid-text">愿望商店</p>
-            <p className="mt-1 break-words text-xs font-bold text-purple-500">{wishProgressText}</p>
+            <p className="font-extrabold">今日成长宝箱</p>
+            <p className="mt-0.5 break-words text-xs text-adventure-muted">{wishProgressText}</p>
           </div>
           <WishBalanceBadge available={wishBalance.available} frozen={wishBalance.frozen} />
-        </div>
-      </motion.button>
-
-      {/* Challenge */}
-      {!challengeDone && (
-        <motion.button
-          whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-          onClick={() => navigate('/challenge')}
-          className="w-full bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 rounded-3xl p-5 shadow-lg shadow-orange-200/40 text-white text-left"
-        >
-          <div className="flex items-center gap-4">
-            <span className="text-4xl">⚔️</span>
-            <div>
-              <p className="font-extrabold text-lg">每日挑战</p>
-              <p className="text-sm text-white/80">30题混合闯关 · 通关+200积分</p>
-            </div>
-            <span className="ml-auto text-2xl">→</span>
-          </div>
-        </motion.button>
-      )}
-      {challengeDone && (
-        <div className="card bg-green-50 border border-green-100 text-center py-4">
-          <p className="text-green-600 font-bold">✅ 今日挑战已完成! 明天再来!</p>
-        </div>
-      )}
-
-      {/* Daily Tasks */}
-      {/* PK Entry */}
-      <motion.button
-        whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-        onClick={() => navigate('/pk')}
-        className="w-full bg-gradient-to-r from-blue-400 to-cyan-400 rounded-3xl p-4 shadow-lg shadow-blue-200/40 text-white text-left">
-        <div className="flex items-center gap-3">
-          <span className="text-3xl">⚔️</span>
-          <div>
-            <p className="font-extrabold">好友对战</p>
-            <p className="text-xs text-white/80">创建挑战码，和朋友一决高下</p>
-          </div>
-          <span className="ml-auto text-xl">→</span>
-        </div>
-      </motion.button>
-
-      <div>
-        <h2 className="font-extrabold text-lg mb-3 px-1">📝 今日任务</h2>
-        <div className="grid gap-3">
-          {SUBJECTS.map(subject => (
-            <DailyTaskCard key={subject} subject={subject} completed={quizCounts[subject]} total={DAILY_QUESTIONS_PER_SUBJECT} />
-          ))}
-          <motion.button
-            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-            onClick={() => navigate('/mistakes')}
-            className="w-full bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-200 rounded-3xl p-4 text-left shadow-sm">
-            <div className="flex items-center gap-3">
-              <span className="text-3xl">📝</span>
-              <div className="flex-1">
-                <p className="font-extrabold text-kid-text">错题复习</p>
-                <p className="text-xs text-amber-600 mt-1">
-                  待订正 {needsCorrectionCount} 道 · 巩固中 {reinforcingCount} 道
-                </p>
-              </div>
-              <span className="text-amber-500 font-bold">→</span>
-            </div>
-          </motion.button>
-        </div>
-      </div>
+        </Surface>
+      </button>
     </div>
   )
 }
