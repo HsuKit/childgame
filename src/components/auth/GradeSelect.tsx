@@ -1,6 +1,9 @@
+import { CheckCircle2, Compass } from 'lucide-react'
 import { useState } from 'react'
-import { useAuthStore } from '../../stores/authStore'
 import { getErrorMessage } from '../../lib/errorMessage'
+import { useAuthStore } from '../../stores/authStore'
+import { Button } from '../ui/Button'
+import { Surface } from '../ui/Surface'
 
 export function GradeSelect() {
   const createProfile = useAuthStore(s => s.createProfile)
@@ -24,31 +27,37 @@ export function GradeSelect() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-b from-purple-100 to-blue-100">
-      <h1 className="text-3xl font-bold text-kid-primary mb-2">欢迎来到知识冒险!</h1>
-      <p className="text-gray-500 mb-8">先告诉我你是谁吧</p>
-      <input
-        type="text" placeholder="输入你的昵称" value={nickname}
-        onChange={e => setNickname(e.target.value)} maxLength={12}
-        disabled={saving}
-        className="w-64 px-4 py-3 rounded-2xl border-2 border-purple-200 focus:border-kid-primary outline-none text-center mb-6"
-      />
-      <p className="text-gray-500 mb-4">选择你的年级</p>
-      <div className="grid grid-cols-3 gap-3 mb-8">
-        {[1, 2, 3, 4, 5, 6].map(g => (
-          <button key={g} onClick={() => setGrade(g)}
-            disabled={saving}
-            className={`w-20 h-20 rounded-2xl text-xl font-bold transition-all
-              ${grade === g ? 'bg-kid-primary text-white scale-110 shadow-lg' : 'bg-white text-kid-text hover:bg-purple-50'}`}>
-            {g}年级
-          </button>
-        ))}
-      </div>
-      {error && <p className="text-sm text-red-500 mb-4" role="alert">{error}</p>}
-      <button onClick={handleStart} disabled={grade < 1 || !nickname.trim() || saving}
-        className="btn-primary text-xl px-12">
-        {saving ? '正在创建...' : '开始冒险!'}
-      </button>
+    <div className="min-h-dvh bg-adventure-bg px-4 py-8 sm:px-6">
+      <main className="mx-auto flex min-h-[calc(100dvh-4rem)] w-full max-w-xl items-center">
+        <Surface tone="elevated" className="w-full p-5 sm:p-8">
+          <span className="mx-auto grid h-14 w-14 place-items-center rounded-[18px] bg-adventure-primary-soft text-adventure-primary"><Compass aria-hidden="true" className="h-7 w-7" /></span>
+          <p className="eyebrow mt-4 text-center">欢迎加入</p>
+          <h1 className="mt-1 text-center text-3xl font-black tracking-[-0.03em] text-adventure-text">创建冒险档案</h1>
+          <p className="mt-2 text-center text-sm leading-6 text-adventure-muted">告诉我们你的昵称和年级，题目会自动匹配学习阶段。</p>
+
+          <div className="mt-6">
+            <label htmlFor="profile-nickname" className="mb-2 block text-sm font-extrabold text-adventure-text">昵称</label>
+            <input id="profile-nickname" type="text" placeholder="输入你的昵称" value={nickname} onChange={event => setNickname(event.target.value)} maxLength={12} disabled={saving} className="min-h-14 w-full rounded-[16px] border-2 border-adventure-border bg-white px-4 font-bold outline-none transition focus:border-adventure-primary" />
+          </div>
+
+          <fieldset className="mt-5">
+            <legend className="mb-2 text-sm font-extrabold text-adventure-text">选择年级</legend>
+            <div className="grid grid-cols-3 gap-3 sm:grid-cols-6">
+              {[1, 2, 3, 4, 5, 6].map(value => (
+                <button key={value} type="button" aria-label={`选择 ${value} 年级`} aria-pressed={grade === value} onClick={() => setGrade(value)} disabled={saving} className={`relative min-h-14 rounded-[14px] border-2 px-2 py-3 text-sm font-extrabold transition ${grade === value ? 'border-adventure-primary bg-adventure-primary-soft text-adventure-primary' : 'border-adventure-border bg-white text-adventure-text hover:border-adventure-primary/40'}`}>
+                  {grade === value && <CheckCircle2 aria-hidden="true" className="absolute right-1.5 top-1.5 h-3.5 w-3.5" />}
+                  {value} 年级
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          {error && <p className="mt-4 rounded-[14px] bg-adventure-danger-soft p-3 text-sm font-bold text-red-700" role="alert">{error}</p>}
+          <Button onClick={handleStart} disabled={grade < 1 || !nickname.trim() || saving} loading={saving} className="mt-6 w-full">
+            {saving ? '正在创建' : '开始冒险'}
+          </Button>
+        </Surface>
+      </main>
     </div>
   )
 }

@@ -13,11 +13,11 @@ export function SwitchConfirmDialog({ companionName, cost, onConfirm, onCancel }
   return (
     <AnimatePresence>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-4"
+        className="fixed inset-0 z-[70] flex items-center justify-center bg-slate-950/50 p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]"
         onClick={onCancel}>
         <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }}
           role="dialog" aria-modal="true" aria-labelledby="switch-companion-title"
-          className="w-full max-w-sm rounded-[22px] bg-white p-6 text-center shadow-2xl"
+          className="max-h-[calc(100dvh-2rem)] w-full max-w-sm overflow-y-auto rounded-[22px] bg-white p-6 pb-[calc(1.5rem+env(safe-area-inset-bottom))] text-center shadow-2xl"
           onClick={e => e.stopPropagation()}>
           <RefreshCw aria-hidden="true" className="mx-auto mb-3 h-9 w-9 text-adventure-primary" />
           <h3 id="switch-companion-title" className="text-lg font-extrabold text-adventure-text">切换到{companionName}？</h3>

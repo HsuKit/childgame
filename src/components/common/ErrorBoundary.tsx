@@ -1,4 +1,5 @@
 import { Component, type ReactNode } from 'react'
+import { StatePanel } from '../ui/StatePanel'
 
 interface Props { children: ReactNode }
 interface State { hasError: boolean }
@@ -9,11 +10,7 @@ export class ErrorBoundary extends Component<Props, State> {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-6">
-          <p className="text-5xl mb-4">😵</p>
-          <h1 className="text-xl font-bold mb-2">哎呀，出错了!</h1>
-          <button onClick={() => this.setState({ hasError: false })} className="btn-primary mt-4">重新加载</button>
-        </div>
+        <div className="min-h-dvh bg-adventure-bg p-4"><div className="mx-auto mt-[20vh] max-w-lg"><StatePanel tone="error" title="页面遇到问题" message="你的数据没有丢失，可以重新加载当前页面。" actionLabel="重新加载" onAction={() => this.setState({ hasError: false })} /></div></div>
       )
     }
     return this.props.children
