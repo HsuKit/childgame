@@ -18,6 +18,8 @@
 6. 伙伴页对未拥有目标弹出固定 500 积分确认；扣分、切换和写入 owned 标记依次由客户端执行。
 7. 稀有/传奇伙伴还受前端 unlock chain 约束：minotaur → valkyrie → golem → reaper → angel，后一项要求前一伙伴三套外观都已购买。
 8. 商城页按当前伙伴的三套 `outfitVariants` 展示外观；默认免费，第二、三套分别按 200、300 积分购买。
+
+伙伴域属于底部“伙伴”入口。`/companion` 是标准内页枢纽，组合伙伴展示、带可访问标签的饱腹/心情/经验进度、当前装备、伙伴收藏和衣柜入口；`/companion/select` 使用隐藏底栏的两步专注流程；`/shop` 使用标准页头、积分余额、响应式外观网格和武器区。改造只重组呈现，原购买、装备、切换和动画数据链路保持不变。
 9. 武器首次购买扣 200 积分并写 `weapon_purchased`、`weapon_sword`；之后可免费装备/卸下。
 10. 答题结果通过 `addExp()` 增加经验；`LEVEL_THRESHOLDS` 只有索引 0–19，循环把等级上限限制为 19，因此 5/10 级进化可达，`getEvolutionStage()` 定义的 `level >= 20` 第四阶段当前不可达。
 11. 指针点击会产生心形/星星并触发 sprite 的 throw/attack 动画；Enter/Space 键盘激活只产生心形/星星，不触发 sprite action。两种交互都不写心情、经验或积分。

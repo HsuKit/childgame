@@ -6,6 +6,7 @@
 
 | ID | 日期 | 状态 | 业务域 | 标题 | 记录 | 关联规格/计划 |
 | --- | --- | --- | --- | --- | --- | --- |
+| ITER-20260729-BRIGHT-ADVENTURE-UI-FRAMEWORK | 2026-07-29 | completed | auth-profile, quiz-question-bank, companion-shop, wish-parent, leaderboard-pk, platform | 明亮冒险 UI 框架与四入口导航 | [迭代记录](./2026-07-29-bright-adventure-ui-framework.md) | [规格](../../superpowers/specs/2026-07-29-childgame-ui-framework-design.md) / [计划](../../superpowers/plans/2026-07-29-childgame-ui-framework.md) |
 | ITER-20260728-AI-PROJECT-KNOWLEDGE-SYSTEM | 2026-07-28 | completed | documentation | AI 项目知识与迭代追踪体系 | [迭代记录](./2026-07-28-ai-project-knowledge-system.md) | [规格](../../superpowers/specs/2026-07-28-ai-project-knowledge-system-design.md) / [计划](../../superpowers/plans/2026-07-28-ai-project-knowledge-system.md) |
 | ITER-20260728-ENGLISH-DIFFICULTY | 2026-07-28 | completed | quiz-question-bank | 英语题目难度分层优化 | [迭代记录](./2026-07-28-english-difficulty.md) | 无独立规格 / 无独立实施计划 |
 | ITER-20260722-WISH-REWARDS | 2026-07-22 | completed | wish-parent, quiz-question-bank, companion-shop | 愿望币、愿望商城与家长兑现流程 | [迭代记录](./2026-07-22-wish-rewards.md) | [规格](../../superpowers/specs/2026-07-22-motivation-wish-companion-design.md) / [计划](../../superpowers/plans/2026-07-22-wish-rewards-phase1-2.md) |

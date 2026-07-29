@@ -28,10 +28,21 @@
 | [认证与资料](./domains/auth-profile.md) | `/`、`/profile`、`/checkin`；认证与年级创建由共享 `GuestGate` 接管 |
 | [答题与题库](./domains/quiz-question-bank.md) | `/quiz`、`/quiz/result`、`/challenge`、`/challenge/result`、`/mistakes`、`/mistakes/:id` |
 | [伙伴与商城](./domains/companion-shop.md) | `/companion`、`/companion/select`、`/shop` |
-| [愿望与家长](./domains/wish-parent.md) | `/wish-shop`、`/parent-report`、`/parent-wishes` |
+| [愿望与家长](./domains/wish-parent.md) | `/rewards`、`/wish-shop`、`/parent-report`、`/parent-wishes` |
 | [排行榜与 PK](./domains/leaderboard-pk.md) | `/leaderboard`、`/pk`、`/pk/quiz`、`/pk/result` |
 
 首页 `/` 是跨域仪表盘，会汇总伙伴、打卡、积分、愿望、今日题量、挑战状态和错题。
+
+## UI 框架与页面模板
+
+应用采用“明亮冒险”语义令牌和共享 UI 原语。`src/index.css` 定义背景、文字、主色、成功、警告、危险、奖励与边框令牌；`src/components/ui/` 提供 `Button`、`Surface`、`PageHeader`、`ProgressBar` 和 `StatePanel`。业务组件应优先组合这些原语，不再各自维护无语义的颜色和操作样式。
+
+`AppLayout` 根据 `src/lib/navigation.ts` 的路由元数据选择两种壳：
+
+- 标准壳：保留最大内容宽度与底部四入口导航，入口固定为冒险 `/`、伙伴 `/companion`、奖励 `/rewards`、营地 `/profile`；子路由高亮所属入口。
+- 专注壳：用于答题、挑战、PK 答题、错题订正、首次伙伴选择与结算页，隐藏底部导航并使用居中的窄内容列。
+
+页面主要组合为地图首页、标准数据页、列表管理页、专注答题页、结算页和全屏认证/覆盖层六类。底部导航和弹窗使用 `env(safe-area-inset-bottom)`；弹窗层级为 `z-[70]`。交互目标至少 44px，状态不能只依赖颜色，动画同时受全局 `prefers-reduced-motion` 和组件级 reduced-motion 判断约束。
 
 ## 认证与启动
 
@@ -123,7 +134,7 @@ data/questions canonical JSON
 
 页面用一次性 ref 防止同一次挂载重复进入结算，异常只记录到控制台。上述写入是客户端串行步骤，不是一个数据库事务：任一步失败都可能留下此前成功的写入。尤其 `quiz_records` 已插入而错题同步失败时，store 不会标记 `recordsSaved`，再次尝试可能重复作答行；不能把当前实现描述为端到端原子或完全幂等。
 
-挑战结果先检查当日完成状态，但保存记录、答题积分、伙伴经验、通关积分和 `challenge_done` 更新没有统一 `await` 或事务，失败只形成未处理/局部副作用风险。日期键也不一致：`getTodayChallengeDone` 用 `formatLocalDate(new Date())` 生成本地日期，`ChallengeResultPage` 写入时却用 `new Date().toISOString().slice(0, 10)` 生成 UTC 日期；本地日与 UTC 日不同时，读取和更新可能命中不同的 `check_ins` 行，进而影响完成状态与奖励判断。修改挑战结算时应统一使用同一日期函数，并把这些风险作为正确性重点。
+挑战结果先检查当日完成状态，随后按顺序等待保存记录、答题积分、伙伴经验、通关积分和 `challenge_done` 更新；页面有结算中、成功与失败重试状态。但这些步骤仍不是数据库事务，失败重试可能发生在部分写入已经成功之后。日期键也不一致：`getTodayChallengeDone` 用 `formatLocalDate(new Date())` 生成本地日期，`ChallengeResultPage` 写入时却用 `new Date().toISOString().slice(0, 10)` 生成 UTC 日期；本地日与 UTC 日不同时，读取和更新可能命中不同的 `check_ins` 行，进而影响完成状态与奖励判断。修改挑战结算时应统一使用同一日期函数，并把幂等与原子性作为正确性重点。
 
 ## 奖励一致性
 
@@ -141,7 +152,7 @@ data/questions canonical JSON
 - `authStore`、`quizStore`、`mistakeStore` 和 `wishStore` 暴露不同形式的 loading/error/message；没有统一错误模型。
 - 认证页可原地重新连接；题目加载失败页保留可读 `sessionError` 并返回首页后重进；错题和家长报告保留错误状态；首页的并行区块失败时保持安全初值。
 - 并非所有 Supabase 调用都检查返回的 `error`；例如 `pointsStore` 在交易 insert 后直接更新本地余额。不要把“已 await”误解为“服务端写入已被确认”，修改时应显式检查响应。
-- 结算类页面多为捕获后 `console.error` 或 fire-and-forget，缺少用户可见重试与跨步骤恢复。修改副作用流程时优先补幂等键、数据库事务/RPC 和可见恢复状态。
+- 普通练习与挑战结算页已提供用户可见的结算中、成功和失败重试状态；PK 结果页仍以轮询等待对手。可见恢复不等于跨步骤原子或幂等，修改副作用流程时仍应优先补幂等键和数据库事务/RPC。
 
 ## 部署与运行边界
 

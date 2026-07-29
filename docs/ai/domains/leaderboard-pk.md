@@ -20,6 +20,8 @@ PK 目前不保存自己的 `quiz_records`、不结算积分或奖励，也不�
 8. 创建者先完成且尚无 opponent 时，页面把状态保持为 `waiting`；如果当时已有 opponent，则设为 `completed`。
 9. `/pk/result` 首次读到 challenge 行就立即渲染；任一数据库比分仍为 null 时每 2 秒继续轮询。页面展示由 `getPkResultState()` 的当前用户视角决定，并不等待数据库 `status` 或双方比分都完成后才首次显示。
 
+排行榜位于底部“奖励”入口下，仍保持本周/总榜两次 RPC 语义；RPC 错误显示为错误态，不再误当作空榜。PK 大厅使用标准管理页模板，创建与加入表单都有持续标签、加载与网络错误；PK 答题和结果使用专注/结算壳并隐藏底部导航。
+
 ## 代码与数据定位
 
 - 路由：`src/App.tsx` 中的 `/leaderboard`、`/pk`、`/pk/quiz`、`/pk/result`。

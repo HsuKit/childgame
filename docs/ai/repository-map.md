@@ -7,7 +7,7 @@
 | 路径 | 职责 | 常见入口 |
 | --- | --- | --- |
 | `src/pages/` | 路由页面、数据加载触发和跨 store 编排；部分页面直接访问 Supabase | `src/App.tsx`、`HomePage.tsx`、各结果页 |
-| `src/components/` | 按 auth、layout、quiz、companion、shop、wish 等领域组织的可复用 UI | `components/layout/AppLayout.tsx`、`components/common/ErrorBoundary.tsx` |
+| `src/components/` | 按 auth、layout、quiz、companion、shop、wish 等领域组织 UI；`components/ui/` 是跨域语义原语 | `components/ui/Button.tsx`、`components/layout/AppLayout.tsx`、`components/common/ErrorBoundary.tsx` |
 | `src/stores/` | Zustand 状态与主要客户端持久化动作 | `authStore.ts`、`quizStore.ts`、`checkinStore.ts`、`wishStore.ts` |
 | `src/lib/` | 纯业务规则、日期/错误工具、数据库类型、Supabase client 和题库 repository | `supabase.ts`、`database.types.ts`、`questionRepository.ts`、`questionComposer.ts` |
 | `src/data/` | 伙伴、动画、商品等前端静态配置；`sampleQuestions.ts` 不是 canonical 发布题库 | `companionTypes.ts`、`companionAnimations.ts` |
@@ -27,6 +27,7 @@
 | 改动类型 | 通常修改 | 同步检查 | 测试/验证位置 |
 | --- | --- | --- | --- |
 | routes | `src/App.tsx`、目标 `src/pages/`、导航或 `AppLayout` | 路由参数、返回路径、认证门禁、对应 domain 文档 | `npm test`、`npm run build`，手动访问深链 |
+| UI framework | `src/index.css`、`src/components/ui/`、`src/components/layout/`、`src/lib/navigation.ts` | 标准/专注壳、四入口归属、44px 触控、安全区、reduced motion | UI 组件测试、路由元数据测试、三档视口浏览器检查 |
 | stores | 目标 `src/stores/*.ts`，必要时抽取 `src/lib/` 纯规则 | 页面直接 Supabase 调用、loading/error、跨 store 顺序、RLS | 同目录 `*.test.ts`、`npm test`、`npm run build` |
 | question schema/content | `data/questions/`、`data/question-blueprint.json`、`scripts/lib/` | 审计/抽审/release、`external_id`/`version`、运行时类型与组卷 | `npm run test:questions`、`npm run questions:validate` |
 | rewards | `pointsStore`、`checkinStore`、`wishStore`、结果页与纯奖励规则 | reference 唯一性、重复结算、账本符号、伙伴副作用、愿望 RPC | `src/stores/*test.ts`、`src/lib/wishRewards.test.ts`、`npm test` |
