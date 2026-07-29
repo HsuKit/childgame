@@ -20,6 +20,7 @@ import MistakesPage from './pages/MistakesPage'
 import MistakeDetailPage from './pages/MistakeDetailPage'
 import ParentReportPage from './pages/ParentReportPage'
 import ParentWishPage from './pages/ParentWishPage'
+import RewardsPage from './pages/RewardsPage'
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/challenge" element={<ChallengePage />} />
             <Route path="/challenge/result" element={<ChallengeResultPage />} />
             <Route path="/shop" element={<ShopPage />} />
+            <Route path="/rewards" element={<RewardsPage />} />
             <Route path="/wish-shop" element={<WishShopPage />} />
             <Route path="/checkin" element={<CheckInPage />} />
             <Route path="/profile" element={<ProfilePage />} />

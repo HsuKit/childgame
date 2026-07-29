@@ -1,35 +1,43 @@
-import { NavLink } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { Map, PawPrint, Shield, Trophy } from 'lucide-react'
+import { Link, useLocation } from 'react-router-dom'
+import { getRouteMeta } from '../../lib/navigation'
 
-const links = [
-  { to: '/', label: '首页', icon: '🏠' },
-  { to: '/companion', label: '伙伴', icon: '🐾' },
-  { to: '/shop', label: '衣柜', icon: '🛍️' },
-  { to: '/wish-shop', label: '愿望', icon: '🎁' },
-  { to: '/leaderboard', label: '排行', icon: '🏆' },
-  { to: '/profile', label: '我的', icon: '👤' },
-]
+const destinations = [
+  { to: '/', section: 'adventure', label: '冒险', icon: Map },
+  { to: '/companion', section: 'companion', label: '伙伴', icon: PawPrint },
+  { to: '/rewards', section: 'rewards', label: '奖励', icon: Trophy },
+  { to: '/profile', section: 'camp', label: '营地', icon: Shield },
+] as const
 
 export function BottomNav() {
+  const location = useLocation()
+  const activeSection = getRouteMeta(`${location.pathname}${location.search}`).section
+
   return (
-    <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white/90 backdrop-blur-md border-t border-gray-100 flex justify-around py-1 z-50 rounded-t-3xl shadow-lg shadow-gray-200/50">
-      {links.map(({ to, label, icon }) => (
-        <NavLink key={to} to={to} className="min-w-0 flex-1">
-          {({ isActive }) => (
-            <motion.div
-              whileTap={{ scale: 0.9 }}
-              className={`mx-0.5 flex min-w-0 flex-col items-center gap-0.5 rounded-2xl py-1 text-[11px] transition-all
-                ${isActive ? 'text-kid-primary font-bold scale-105' : 'text-gray-400'}`}
-            >
-              <span className={`text-lg leading-none ${isActive ? 'drop-shadow-md' : ''}`}>{icon}</span>
-              <span className="max-w-full truncate">{label}</span>
-              {isActive && (
-                <motion.div layoutId="nav-dot" className="w-1 h-1 rounded-full bg-kid-primary mt-0.5" />
-              )}
-            </motion.div>
-          )}
-        </NavLink>
-      ))}
+    <nav
+      aria-label="主要导航"
+      className="fixed inset-x-0 bottom-0 z-50 mx-auto grid w-full max-w-2xl grid-cols-4 border-t border-adventure-border bg-white/95 px-2 pt-2 pb-[max(.65rem,env(safe-area-inset-bottom))] shadow-[0_-12px_32px_rgba(45,55,92,.10)] backdrop-blur-xl sm:bottom-4 sm:rounded-[22px] sm:border"
+    >
+      {destinations.map(({ to, section, label, icon: Icon }) => {
+        const isActive = section === activeSection
+
+        return (
+          <Link
+            key={to}
+            to={to}
+            aria-label={label}
+            aria-current={isActive ? 'page' : undefined}
+            className={`group mx-1 flex min-h-14 min-w-0 flex-col items-center justify-center gap-1 rounded-[16px] px-2 text-[11px] font-bold transition active:scale-95 ${
+              isActive
+                ? 'bg-adventure-primary-soft text-adventure-primary'
+                : 'text-slate-400 hover:bg-slate-50 hover:text-adventure-text'
+            }`}
+          >
+            <Icon aria-hidden="true" className="h-5 w-5" strokeWidth={isActive ? 2.7 : 2.2} />
+            <span>{label}</span>
+          </Link>
+        )
+      })}
     </nav>
   )
 }
