@@ -34,7 +34,7 @@ Supabase 健康端点可连通，因此本次不把问题归因于数据库下�
 - `resolveCompanionVariant(companionType, equippedOutfit)` 只接受 `COMPANION_TYPES.outfitVariants` 中存在的外观值。
 - 如果 `equippedOutfit` 是旧目录名、空值或未知值，回退到当前伙伴类型的 `baseVariant`。
 - 当前伙伴类型也未知时，回退到 `Forest_Ranger_1`，保证画布始终有仓库内资源。
-- `getCompanionThumbnailPath(variant)` 固定返回 `/assets/companions/<variant>/Body.png`。
+- `getCompanionThumbnailPath(variant)` 固定返回完整的 `/assets/companions/<variant>/idle/0_<base>_Idle_000.png`。
 
 伙伴收藏、锁定伙伴预览和选择页优先使用缩略图函数，避免再次手写动画帧路径。
 
@@ -44,8 +44,8 @@ Supabase 健康端点可连通，因此本次不把问题归因于数据库下�
 
 - 每次绘制前仅使用 `complete && naturalWidth > 0` 的帧。
 - 当前动作帧不可用时优先使用已加载的 idle 帧。
-- idle 也没有可绘制帧时，不调用 `drawImage`，在 canvas 下显示 `Body.png` 静态兜底图。
-- 图片加载完成后下一次动画帧自然接管静态图。
+- idle 也没有可绘制帧时，不调用 `drawImage`，在 canvas 下显示完整 idle 第 000 帧作为静态兜底图。
+- 图片加载完成后下一次动画帧自然接管，并隐藏静态图，避免双重残影。
 - 图片错误不能向控制台持续抛出 `InvalidStateError`。
 
 本次不改变动画速度、动作触发规则或 reduced-motion 行为。
@@ -70,10 +70,11 @@ Supabase 健康端点可连通，因此本次不把问题归因于数据库下�
   - 有效装备外观保持不变。
   - 旧/未知外观回退到伙伴基础外观。
   - 未知伙伴类型回退到默认游侠。
-  - 缩略图始终使用 `Body.png`。
+  - 缩略图始终使用完整 idle 第 000 帧。
 - `src/components/companion/ChibiComposer.test.tsx`
   - 图片未加载或加载失败时不会把 broken image 传给 canvas。
-  - 静态 `Body.png` 兜底存在并具有正确替代文本。
+  - 完整静态 idle 兜底存在并具有正确替代文本。
+  - 动画帧可绘制后隐藏静态兜底，避免残影。
 - `src/pages/WishShopPage.test.tsx`
   - 拉取失败时展示默认目录与紧凑同步提示。
   - 默认奖励不可打开申请弹窗。

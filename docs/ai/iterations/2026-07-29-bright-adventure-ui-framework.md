@@ -4,7 +4,7 @@ title: 明亮冒险 UI 框架与四入口导航
 status: completed
 domains: [auth-profile, quiz-question-bank, companion-shop, wish-parent, leaderboard-pk, platform]
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## 背景与目标
@@ -56,6 +56,15 @@ updated: 2026-07-29
 - PK 对手回写 RLS、challenge 级会话隔离、双方同题与排行榜跨用户 RLS 风险保持不变。
 - 伙伴/商城购买仍是先扣积分再更新伙伴的客户端串行步骤。
 - 生产包超过 500 kB，后续可做路由级代码分割。
+
+## 2026-07-30 回归修正
+
+- 伙伴动画不再用固定 200ms 假定图片已就绪，只绘制完成解码的帧，并以完整 idle 第 000 帧作为加载失败和旧外观值的静态兜底；动画接管后静态图会隐藏，避免双重残影。
+- 伙伴选择、收藏与锁定预览统一使用完整 idle 第 000 帧，移除对不存在的 `Idle_Blinking_000` 路径依赖；视觉复核确认 `Body.png` 只是分层身体零件，不再作为角色预览。
+- 愿望数据同步失败时默认目录保持只读可浏览；字符串 fallback ID 不会打开提交弹窗或进入 UUID RPC，页面保留紧凑提示和重新同步入口。
+- 修正后 `npm test` 为 29 个测试文件、145 项测试通过；4 个新增专项文件共 11 项测试通过，生产构建、题库验证与文档校验通过。
+- 浏览器首轮确认三位初始伙伴资源均完成解码且无横向溢出；随后本地逐图复核发现 `Body.png` 仅为身体零件，改用完整 idle 帧后通过全资源存在性扫描与组件回归。愿望请求失败时默认目录、禁用提交状态和重新同步入口正常，控制台没有错误。当前浏览器用户没有伙伴，主画布由组件级 broken-image、静态兜底和残影回归覆盖，未为验收写入伙伴数据。
+- 修正规格与计划见 [伙伴图片与愿望加载韧性设计](../../superpowers/specs/2026-07-30-companion-wish-resilience-design.md) 和 [实施计划](../../superpowers/plans/2026-07-30-companion-wish-resilience.md)。
 
 ## Git 关联
 

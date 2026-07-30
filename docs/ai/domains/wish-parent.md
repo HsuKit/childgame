@@ -81,7 +81,7 @@ pending_parent_review
 
 提交兑换时在同一 RPC 事务中创建兑换和 freeze。批准时写 spend，余额函数同时从 frozen 扣除该 spend；拒绝时写 release。兑现只改状态并写日记，不再次扣币。
 
-`fetchWishData()` 并行读取余额、奖励、兑换和最近 20 条日记，并用请求序号防止旧请求覆盖新用户/新结果。无认证用户时清空旧愿望状态。
+`fetchWishData()` 并行读取余额、奖励、兑换和最近 20 条日记，并用请求序号防止旧请求覆盖新用户/新结果。无认证用户时清空旧愿望状态。任一读取失败时 Promise 保持失败语义；愿望商店用紧凑同步提示和重试承接错误，同时把默认 catalog 作为只读内容继续展示。
 
 预设奖励以 `wish_rewards.user_id is null`、`is_preset = true` 表示；自定义奖励绑定当前 user。015 迁移按名称停用旧 preset、更新标准项并补插缺失项。
 
@@ -100,8 +100,8 @@ pending_parent_review
 - `cancelled` 目前只是可显示/可存储状态，没有受控迁移路径，也没有 release 逻辑；不能描述为已实现的取消流程。
 - 家长与孩子共用同一身份，孩子理论上也能打开家长路由并执行 approve/reject/fulfill；当前系统不能提供家长授权保证。
 - `wishStore.createReward()` 是 RLS 下的直接 insert，不经过 RPC；它只允许当前用户创建非 preset，但没有家长身份门禁。
-- `resolveVisibleWishRewards()` 在数据库返回空数组时使用前端默认 catalog；这些默认项的字符串 ID 不是 UUID，若直接提交给 UUID RPC 会失败。标准迁移应保证数据库有 active preset，但客户端 fallback 不是可兑换的完整离线模式。
-- `fetchWishData()` 对任一并行查询错误会整体 reject；页面多处只显示通用错误或保留初始值。
+- `resolveVisibleWishRewards()` 在数据库返回空数组时使用前端默认 catalog；这些默认项的字符串 ID 不是 UUID。愿望商店会把 fallback 卡片标记为只读且阻止打开提交弹窗，只有数据库返回的真实奖励可提交 UUID RPC。标准迁移仍应保证数据库有 active preset；客户端 fallback 不是离线兑换模式。
+- `fetchWishData()` 对任一并行查询错误会整体 reject；愿望商店保留默认目录与重试入口，其他调用方仍可能只保留初始值。
 - `checkinStore` 先更新完成/积分，再调用愿望 RPC，不是跨表单一事务；愿望奖励失败时 check-in 可能已完成，当前 UI 没有专门补偿入口，但 RPC 的 reference 幂等允许安全重试。
 - 家长报告正确率以去重后的今日记录计算；重复记录中“保留哪一次正确性”由查询返回顺序决定，查询没有显式 order。
 
@@ -118,6 +118,8 @@ pending_parent_review
 - 未认证状态清理和并发 fetch 的新结果优先。
 
 `src/stores/mistakeStore.test.ts` 覆盖家长报告计数、重复作答去重和薄弱知识点；`src/stores/checkinStore.test.ts` 覆盖打卡并发保护和愿望奖励调用。当前没有真实 PostgreSQL 并发/RLS/RPC 集成测试。
+
+`src/pages/WishShopPage.test.tsx` 覆盖同步失败时的只读默认目录、fallback 卡片不能打开提交弹窗，以及重新同步操作。
 
 ```bash
 npm test -- src/lib/wishRewards.test.ts src/stores/wishStore.test.ts

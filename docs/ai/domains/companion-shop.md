@@ -27,11 +27,11 @@
 ## 代码与数据定位
 
 - 页面：`src/pages/HomePage.tsx`、`src/pages/CompanionSelectPage.tsx`、`src/pages/CompanionPage.tsx`、`src/pages/ShopPage.tsx`。
-- 伙伴 UI：`src/components/companion/CompanionSelect.tsx`、`src/components/companion/CompanionNameInput.tsx`、`src/components/companion/CompanionDisplay.tsx`、`src/components/companion/InteractiveCompanion.tsx`、`src/components/companion/ChibiComposer.tsx`、`src/components/companion/CompanionStats.tsx`、`src/components/companion/EvolutionCelebration.tsx`。
+- 伙伴 UI：`src/components/companion/CompanionSelect.tsx`、`src/components/companion/CompanionThumbnail.tsx`、`src/components/companion/CompanionNameInput.tsx`、`src/components/companion/CompanionDisplay.tsx`、`src/components/companion/InteractiveCompanion.tsx`、`src/components/companion/ChibiComposer.tsx`、`src/components/companion/CompanionStats.tsx`、`src/components/companion/EvolutionCelebration.tsx`。
 - 商城 UI：`src/components/shop/ShopItemCard.tsx`。
 - 状态：`src/stores/companionStore.ts`、`src/stores/pointsStore.ts`、`src/stores/shopStore.ts`。
 - 前端配置：`src/data/companionTypes.ts`、`src/data/companionAnimations.ts`、`src/data/shopItems.ts`。
-- 等级阈值：`src/lib/constants.ts`。
+- 资源解析与等级阈值：`src/lib/companionAssets.ts`、`src/lib/constants.ts`。
 - sprite 与部件：`public/assets/companions/`。
 - 数据类型：`src/lib/database.types.ts`。
 - 数据库来源：`supabase/migrations/001_initial_schema.sql`、`supabase/migrations/004_sync_companion_types.sql`。
@@ -72,7 +72,7 @@ COMPANION_TYPES + public/assets/companions
 
 前端 `COMPANION_TYPES` 是 UI、variant、外观集合和 unlock chain 的实际配置；数据库 `companion_types` 提供外键目标。004 迁移用幂等 upsert 同步 8 个前端 ID，但不包含 outfitVariants 或前端 chain。
 
-`ChibiComposer` 从 `/assets/companions/<variant>/<animation>/...png` 预加载 idle、throw、attack 帧并在 canvas 播放。当前外观优先用 `equipped_outfit`，其次用伙伴类型的 `baseVariant`。
+`resolveCompanionVariant()` 只接受当前伙伴 `outfitVariants` 中存在的 `equipped_outfit`；旧值或未知值回退到伙伴的 `baseVariant`，未知伙伴类型再回退到 `Forest_Ranger_1`。`ChibiComposer` 从 `/assets/companions/<variant>/<animation>/...png` 预加载 idle、throw、attack 帧，只把完成解码的图片传给 canvas；帧未就绪或损坏时保留完整的 idle 第 000 帧，动画接管后隐藏静态图以避免残影。选择页、收藏和锁定预览也统一使用完整 idle 第 000 帧，不依赖各角色不一致的 blink 帧编号；`Body.png` 只是分层身体零件，不能直接作为完整角色预览。
 
 `src/data/companionAnimations.ts` 的嵌入式动画、`src/data/shopItems.ts`、`ACCESSORIES`、`shopStore` 和 `ShopItemCard` 当前没有生产调用点；不能把这些静态定义描述为页面已启用的商品。
 
@@ -95,7 +95,7 @@ COMPANION_TYPES + public/assets/companions
 
 ## 测试与验证
 
-当前没有 `companionStore`、`pointsStore`、`shopStore` 或伙伴/商城组件的专门测试。伙伴域主要依赖完整 Vitest、类型构建和手动走查。
+`src/lib/companionAssets.test.ts` 覆盖有效、旧值和未知伙伴的外观解析以及稳定缩略图路径；`ChibiComposer.test.tsx` 覆盖 broken image 不进入 canvas 和静态兜底；`CompanionPreview.test.tsx` 覆盖统一预览组件。`companionStore`、`pointsStore` 与 `shopStore` 仍没有专门测试。
 
 ```bash
 npm test

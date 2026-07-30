@@ -4,7 +4,7 @@
 
 **Goal:** Restore all companion artwork and keep the wish catalog safely browsable when remote wish data cannot be synchronized.
 
-**Architecture:** Put companion variant and asset-path decisions in a pure helper module, then make the canvas renderer draw only decoded images and expose a static `Body.png` fallback. Keep wish fetch failures explicit at the page boundary, but render the default catalog in read-only mode so non-UUID fallback rewards can never reach the redemption RPC.
+**Architecture:** Put companion variant and asset-path decisions in a pure helper module, then make the canvas renderer draw only decoded images and expose a complete idle-frame fallback. Keep wish fetch failures explicit at the page boundary, but render the default catalog in read-only mode so non-UUID fallback rewards can never reach the redemption RPC.
 
 **Tech Stack:** React 19, TypeScript, Zustand, Vitest, Testing Library, jsdom, Vite, Tailwind CSS.
 
@@ -42,9 +42,9 @@ describe('companionAssets', () => {
     expect(resolveCompanionVariant('legacy-type', 'missing')).toBe(DEFAULT_COMPANION_VARIANT)
   })
 
-  it('uses the stable body image for thumbnails', () => {
+  it('uses a complete idle frame for thumbnails', () => {
     expect(getCompanionThumbnailPath('Valkyrie_1'))
-      .toBe('/assets/companions/Valkyrie_1/Body.png')
+      .toBe('/assets/companions/Valkyrie_1/idle/0_Valkyrie_Idle_000.png')
   })
 })
 ```
@@ -81,7 +81,8 @@ export function resolveCompanionVariant(
 }
 
 export function getCompanionThumbnailPath(variant: string): string {
-  return `/assets/companions/${variant}/Body.png`
+  const base = variant.replace(/_\d+$/, '')
+  return `/assets/companions/${variant}/idle/0_${base}_Idle_000.png`
 }
 ```
 
@@ -153,11 +154,11 @@ describe('ChibiComposer', () => {
     frameCallback = undefined
   })
 
-  it('shows a static body fallback with useful alternative text', () => {
+  it('shows a complete static fallback with useful alternative text', () => {
     render(<ChibiComposer variant="Forest_Ranger_1" />)
 
     expect(screen.getByRole('img', { name: '伙伴静态形象' }))
-      .toHaveAttribute('src', '/assets/companions/Forest_Ranger_1/Body.png')
+      .toHaveAttribute('src', '/assets/companions/Forest_Ranger_1/idle/0_Forest_Ranger_Idle_000.png')
   })
 
   it('does not draw broken animation images to the canvas', () => {
@@ -269,11 +270,11 @@ import { describe, expect, it } from 'vitest'
 import { CompanionThumbnail } from './CompanionThumbnail'
 
 describe('companion previews', () => {
-  it('renders the stable body image for a companion preview', () => {
+  it('renders a complete idle frame for a companion preview', () => {
     render(<CompanionThumbnail variant="Valkyrie_1" name="女武神" />)
 
     expect(screen.getByRole('img', { name: '女武神' }))
-      .toHaveAttribute('src', '/assets/companions/Valkyrie_1/Body.png')
+      .toHaveAttribute('src', '/assets/companions/Valkyrie_1/idle/0_Valkyrie_Idle_000.png')
   })
 })
 ```
@@ -618,7 +619,7 @@ Add these facts to the relevant domain documents:
 
 ```markdown
 - 伙伴展示只使用配置表中存在的 variant；未知或旧装备值回退到伙伴基础外观。
-- 动画只绘制已完成解码的帧，所有伙伴以 `Body.png` 作为缩略图和动画加载兜底。
+- 动画只绘制已完成解码的帧，所有伙伴以完整 idle 第 000 帧作为缩略图和动画加载兜底。
 ```
 
 ```markdown
