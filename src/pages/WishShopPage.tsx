@@ -7,7 +7,7 @@ import { useWishStore, type WishReward } from '../stores/wishStore'
 import { WishBalanceBadge } from '../components/wish/WishBalanceBadge'
 import { WishRedemptionStatus } from '../components/wish/WishRedemptionStatus'
 import { WishRewardCard } from '../components/wish/WishRewardCard'
-import { BookHeart, Gift, Rainbow, X } from 'lucide-react'
+import { BookHeart, Gift, Rainbow, RefreshCw, X } from 'lucide-react'
 import { PageHeader } from '../components/ui/PageHeader'
 import { StatePanel } from '../components/ui/StatePanel'
 import { Button } from '../components/ui/Button'
@@ -54,6 +54,8 @@ export default function WishShopPage() {
   const groupedRewards = useMemo(() => groupWishRewards(visibleRewards), [visibleRewards])
   const activeRedemptions = redemptions.filter(redemption => isActiveRedemptionStatus(redemption.status))
   const recentDiaryEntries = diaryEntries.slice(0, 4)
+  const isFallbackCatalog = rewards.length === 0
+  const catalogReadOnly = isFallbackCatalog
 
   const openRequestDialog = (reward: WishReward) => {
     setSelectedReward(reward)
@@ -146,7 +148,29 @@ export default function WishShopPage() {
 
       <section className="space-y-5">
         {isLoading && rewards.length === 0 && <StatePanel tone="loading" title="正在加载愿望" />}
-        {loadError && rewards.length === 0 && <StatePanel tone="error" title="愿望清单加载失败" message="请检查网络后再试一次。" actionLabel="重新加载" onAction={() => { setLoadError(false); void fetchWishData().catch(() => setLoadError(true)) }} />}
+        {loadError && (
+          <div
+            role="status"
+            className="flex flex-col gap-3 rounded-[16px] border border-amber-200 bg-adventure-warning-soft p-4 sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <p className="font-extrabold text-amber-900">数据暂未同步</p>
+              <p className="mt-1 text-xs leading-relaxed text-amber-800">
+                可以先浏览默认愿望；余额和申请记录恢复同步后才能提交。
+              </p>
+            </div>
+            <Button
+              variant="secondary"
+              icon={<RefreshCw aria-hidden="true" className="h-4 w-4" />}
+              onClick={() => {
+                setLoadError(false)
+                void fetchWishData().catch(() => setLoadError(true))
+              }}
+            >
+              重新同步
+            </Button>
+          </div>
+        )}
 
         {WISH_REWARD_GROUPS.map(group => {
           const groupRewards = groupedRewards[group.id]
@@ -167,6 +191,7 @@ export default function WishShopPage() {
                     reward={reward}
                     available={balance.available}
                     onRequest={openRequestDialog}
+                    readOnly={catalogReadOnly}
                   />
                 ))}
               </div>
@@ -174,7 +199,7 @@ export default function WishShopPage() {
           )
         })}
 
-        {!isLoading && !loadError && rewards.length === 0 && (
+        {!isLoading && isFallbackCatalog && (
           <p className="px-1 text-center text-xs font-bold leading-relaxed text-adventure-muted">
             这是默认愿望清单，爸妈还可以在家长愿望管理里添加专属奖励。
           </p>

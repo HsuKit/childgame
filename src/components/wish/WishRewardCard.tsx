@@ -7,6 +7,7 @@ interface WishRewardCardProps {
   reward: WishReward
   available: number
   onRequest: (reward: WishReward) => void
+  readOnly?: boolean
 }
 
 const typeLabels: Record<WishReward['type'], string> = {
@@ -23,16 +24,25 @@ const typeIcons: Record<WishReward['type'], LucideIcon> = {
   open_wish: Sparkles,
 }
 
-export function WishRewardCard({ reward, available, onRequest }: WishRewardCardProps) {
-  const canAfford = available >= reward.cost
+export function WishRewardCard({
+  reward,
+  available,
+  onRequest,
+  readOnly = false,
+}: WishRewardCardProps) {
+  const canAfford = !readOnly && available >= reward.cost
   const Icon = typeIcons[reward.type]
 
   return (
     <motion.button
       type="button"
-      whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.97 }}
-      onClick={() => onRequest(reward)}
+      aria-label={reward.name}
+      aria-disabled={readOnly}
+      whileHover={readOnly ? undefined : { scale: 1.01 }}
+      whileTap={readOnly ? undefined : { scale: 0.97 }}
+      onClick={() => {
+        if (!readOnly) onRequest(reward)
+      }}
       className={`w-full rounded-[18px] border p-4 text-left shadow-sm transition-all ${
         canAfford
           ? 'bg-white border-purple-100 shadow-purple-100/50'
@@ -63,7 +73,11 @@ export function WishRewardCard({ reward, available, onRequest }: WishRewardCardP
             <span className={`min-w-0 break-words text-xs font-bold ${
               canAfford ? 'text-emerald-600' : 'text-amber-500'
             }`}>
-              {canAfford ? '可以提交愿望' : `还差 ${reward.cost - available} 枚`}
+              {readOnly
+                ? '同步后可申请'
+                : canAfford
+                  ? '可以提交愿望'
+                  : `还差 ${reward.cost - available} 枚`}
             </span>
             <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-adventure-warning-soft px-3 py-1.5 text-xs font-extrabold text-amber-700">
               <Gift aria-hidden="true" className="h-3.5 w-3.5" />{reward.cost}
