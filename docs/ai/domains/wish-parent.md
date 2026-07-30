@@ -11,7 +11,7 @@
 ## 主要用户流程
 
 1. 普通科目结果页保存答题后调用 `checkinStore.markSubjectDone(subject)`。
-2. 三科均完成且 `bonus_points` 尚未结算时，checkin store 先结算积分，再调用 `awardDailyWishCoins(checkInId)`。
+2. 三科均完成时，checkin store 分别结算积分与愿望币；愿望币调用不依赖 `bonus_points` 是否已经结算，并在读取已完成的当日打卡时执行幂等补偿。
 3. RPC 校验三科完成、上海日期下每科至少 10 个不同题目，并按打卡连续天数计算愿望币。
 4. 每日基础奖励为 1；连续天数是 7 的倍数时加 2，是 30 的倍数时改为加 8，30 天规则优先。
 5. `/wish-shop` 读取余额、启用奖励、本人兑换和最近日记；奖励按成本分组展示。
@@ -81,7 +81,7 @@ pending_parent_review
 
 提交兑换时在同一 RPC 事务中创建兑换和 freeze。批准时写 spend，余额函数同时从 frozen 扣除该 spend；拒绝时写 release。兑现只改状态并写日记，不再次扣币。
 
-`fetchWishData()` 并行读取余额、奖励、兑换和最近 20 条日记，并用请求序号防止旧请求覆盖新用户/新结果。无认证用户时清空旧愿望状态。任一读取失败时 Promise 保持失败语义；愿望商店用紧凑同步提示和重试承接错误，同时把默认 catalog 作为只读内容继续展示。
+`fetchWishData()` 并行读取余额、奖励、兑换和最近 20 条日记，并用请求序号防止旧请求覆盖新用户/新结果。无认证用户时清空旧愿望状态。任一读取失败时 Promise 保持失败语义；愿望商店用紧凑同步提示和重试承接错误，同时把默认 catalog 作为只读内容继续展示。每日奖励 RPC 无论返回新发数量还是幂等命中的 `0`，客户端都会重新读取余额，避免账本已写入但页面仍显示旧值。
 
 预设奖励以 `wish_rewards.user_id is null`、`is_preset = true` 表示；自定义奖励绑定当前 user。015 迁移按名称停用旧 preset、更新标准项并补插缺失项。
 
@@ -102,7 +102,7 @@ pending_parent_review
 - `wishStore.createReward()` 是 RLS 下的直接 insert，不经过 RPC；它只允许当前用户创建非 preset，但没有家长身份门禁。
 - `resolveVisibleWishRewards()` 在数据库返回空数组时使用前端默认 catalog；这些默认项的字符串 ID 不是 UUID。愿望商店会把 fallback 卡片标记为只读且阻止打开提交弹窗，只有数据库返回的真实奖励可提交 UUID RPC。标准迁移仍应保证数据库有 active preset；客户端 fallback 不是离线兑换模式。
 - `fetchWishData()` 对任一并行查询错误会整体 reject；愿望商店保留默认目录与重试入口，其他调用方仍可能只保留初始值。
-- `checkinStore` 先更新完成/积分，再调用愿望 RPC，不是跨表单一事务；愿望奖励失败时 check-in 可能已完成，当前 UI 没有专门补偿入口，但 RPC 的 reference 幂等允许安全重试。
+- check-in、积分与愿望账本仍不是跨表单一事务；客户端会在三科结算及之后读取已完成的当日打卡时重试愿望 RPC，数据库以 check-in reference 唯一约束防止重复发放。若网络长期不可用，仍需等待下一次加载或结算重试。
 - 家长报告正确率以去重后的今日记录计算；重复记录中“保留哪一次正确性”由查询返回顺序决定，查询没有显式 order。
 
 ## 测试与验证
@@ -115,9 +115,10 @@ pending_parent_review
 - stale 本地余额不阻止服务端判定；
 - 余额不足的儿童文案；
 - 每日奖励 RPC；
+- 已结算奖励返回 `0` 时仍刷新账本余额；
 - 未认证状态清理和并发 fetch 的新结果优先。
 
-`src/stores/mistakeStore.test.ts` 覆盖家长报告计数、重复作答去重和薄弱知识点；`src/stores/checkinStore.test.ts` 覆盖打卡并发保护和愿望奖励调用。当前没有真实 PostgreSQL 并发/RLS/RPC 集成测试。
+`src/stores/mistakeStore.test.ts` 覆盖家长报告计数、重复作答去重和薄弱知识点；`src/stores/checkinStore.test.ts` 覆盖打卡并发保护、积分已结算后的愿望奖励重试，以及加载已完成打卡时的补偿。当前没有真实 PostgreSQL 并发/RLS/RPC 集成测试。
 
 `src/pages/WishShopPage.test.tsx` 覆盖同步失败时的只读默认目录、fallback 卡片不能打开提交弹窗，以及重新同步操作。
 

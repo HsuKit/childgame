@@ -51,6 +51,17 @@ function makeUpdateQueryWithError(data: unknown, error: unknown = null) {
   return query
 }
 
+function makeSelectQuery(data: unknown) {
+  const query = {
+    eq: vi.fn(),
+    maybeSingle: vi.fn().mockResolvedValue({ data, error: null }),
+  }
+  query.eq.mockReturnValue(query)
+  return {
+    select: vi.fn(() => query),
+  }
+}
+
 beforeEach(() => {
   vi.clearAllMocks()
   mocks.getAuthState.mockReturnValue({ user: { id: 'user-1' } })
@@ -89,7 +100,7 @@ describe('markSubjectDone', () => {
     expect(useCheckinStore.getState().today).toMatchObject({ chinese_done: true })
   })
 
-  it('returns 0 and skips wish coin awarding when final completion was already bonused', async () => {
+  it('retries the idempotent wish coin award when final completion was already bonused', async () => {
     const alreadyBonusedCheckIn = {
       id: 'check-1',
       chinese_done: true,
@@ -103,9 +114,9 @@ describe('markSubjectDone', () => {
 
     const amount = await useCheckinStore.getState().markSubjectDone('english')
 
-    expect(amount).toBe(0)
+    expect(amount).toBe(3)
     expect(mocks.addPoints).not.toHaveBeenCalled()
-    expect(mocks.awardDailyWishCoins).not.toHaveBeenCalled()
+    expect(mocks.awardDailyWishCoins).toHaveBeenCalledWith('check-1')
   })
 
   it('returns wish coins awarded by the daily completion RPC on the final subject', async () => {
@@ -139,7 +150,7 @@ describe('markSubjectDone', () => {
     })
   })
 
-  it('skips bonus side effects when another request already claimed the completion bonus', async () => {
+  it('still settles wish coins when another request already claimed the completion bonus', async () => {
     const completedCheckIn = {
       id: 'check-1',
       chinese_done: true,
@@ -156,8 +167,26 @@ describe('markSubjectDone', () => {
 
     const amount = await useCheckinStore.getState().markSubjectDone('english')
 
-    expect(amount).toBe(0)
+    expect(amount).toBe(3)
     expect(mocks.addPoints).not.toHaveBeenCalled()
-    expect(mocks.awardDailyWishCoins).not.toHaveBeenCalled()
+    expect(mocks.awardDailyWishCoins).toHaveBeenCalledWith('check-1')
+  })
+})
+
+describe('fetchToday', () => {
+  it('retries daily wish settlement for an already completed check-in', async () => {
+    const completedCheckIn = {
+      id: 'check-1',
+      chinese_done: true,
+      math_done: true,
+      english_done: true,
+      streak_count: 5,
+      bonus_points: POINTS.DAILY_ALL_COMPLETE,
+    }
+    mocks.from.mockReturnValueOnce(makeSelectQuery(completedCheckIn))
+
+    await useCheckinStore.getState().fetchToday()
+
+    expect(mocks.awardDailyWishCoins).toHaveBeenCalledWith('check-1')
   })
 })

@@ -282,6 +282,25 @@ describe('useWishStore Supabase wiring', () => {
 
     expect(amount).toBe(1)
     expect(supabase.rpc).toHaveBeenCalledWith('award_daily_wish_coins', { check_in_id: 'check-1' })
+    expect(useWishStore.getState().balance.available).toBe(10)
+  })
+
+  it('refreshes the balance when an idempotent retry reports no new award', async () => {
+    vi.mocked(supabase.rpc as unknown as ReturnType<typeof vi.fn>).mockImplementation((name: string) => {
+      if (name === 'award_daily_wish_coins') return Promise.resolve({ data: 0, error: null })
+      if (name === 'get_wish_coin_balance') {
+        return Promise.resolve({
+          data: [{ total_earned: 1, frozen: 0, spent: 0, available: 1 }],
+          error: null,
+        })
+      }
+      return Promise.resolve({ data: null, error: null })
+    })
+
+    const amount = await useWishStore.getState().awardDailyWishCoins('check-1')
+
+    expect(amount).toBe(0)
+    expect(useWishStore.getState().balance.available).toBe(1)
   })
 
   it('submits redemptions through RPC without client ledger or redemption inserts', async () => {

@@ -6,6 +6,7 @@
 
 | ID | 日期 | 状态 | 业务域 | 标题 | 记录 | 关联规格/计划 |
 | --- | --- | --- | --- | --- | --- | --- |
+| ITER-20260730-WISH-BALANCE-RECOVERY | 2026-07-30 | completed | wish-parent, quiz-question-bank | 三科完成后的愿望币余额恢复 | [迭代记录](./2026-07-30-wish-balance-recovery.md) | 无独立规格 / 无独立实施计划 |
 | ITER-20260730-QUESTION-VARIETY | 2026-07-30 | completed | quiz-question-bank | 三年级题目避重与模板多样性 | [迭代记录](./2026-07-30-question-variety.md) | [规格](../../superpowers/specs/2026-07-30-question-variety-design.md) / [计划](../../superpowers/plans/2026-07-30-question-variety.md) |
 | ITER-20260729-BRIGHT-ADVENTURE-UI-FRAMEWORK | 2026-07-29 | completed | auth-profile, quiz-question-bank, companion-shop, wish-parent, leaderboard-pk, platform | 明亮冒险 UI 框架与四入口导航 | [迭代记录](./2026-07-29-bright-adventure-ui-framework.md) | [规格](../../superpowers/specs/2026-07-29-childgame-ui-framework-design.md) / [计划](../../superpowers/plans/2026-07-29-childgame-ui-framework.md) |
 | ITER-20260728-AI-PROJECT-KNOWLEDGE-SYSTEM | 2026-07-28 | completed | documentation | AI 项目知识与迭代追踪体系 | [迭代记录](./2026-07-28-ai-project-knowledge-system.md) | [规格](../../superpowers/specs/2026-07-28-ai-project-knowledge-system-design.md) / [计划](../../superpowers/plans/2026-07-28-ai-project-knowledge-system.md) |

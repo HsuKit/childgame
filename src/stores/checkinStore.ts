@@ -41,6 +41,13 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
       today: data ? { chinese_done: data.chinese_done, math_done: data.math_done, english_done: data.english_done, streak_count: data.streak_count, bonus_points: data.bonus_points } : null,
       isLoading: false,
     })
+    if (data?.chinese_done && data.math_done && data.english_done) {
+      try {
+        await useWishStore.getState().awardDailyWishCoins(data.id)
+      } catch (error) {
+        console.error('Failed to reconcile daily wish coins', error)
+      }
+    }
   },
 
   markSubjectDone: async (subject: Subject) => {
@@ -51,6 +58,7 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
     const { data } = await supabase.from('check_ins').update({ [field]: true }).eq('user_id', userId).eq('date', todayStr).select().single()
     if (!data) return 0
     const allDone = data.chinese_done && data.math_done && data.english_done
+    let pointsSettlement: Promise<void> = Promise.resolve()
     if (allDone && data.bonus_points === 0) {
       const newStreak = data.streak_count + 1
       let bonus = POINTS.DAILY_ALL_COMPLETE
@@ -63,17 +71,23 @@ export const useCheckinStore = create<CheckInState>((set, get) => ({
         .eq('bonus_points', 0)
         .select()
         .single()
-      if (!bonusData) return 0
-
-      await usePointsStore.getState().addPoints(bonus, 'checkin_bonus', data.id)
-      const wishCoinsAwarded = await useWishStore.getState().awardDailyWishCoins(data.id)
-      set(state => ({
-        today: state.today ? { ...bonusData, bonus_points: bonus, streak_count: newStreak } : null,
-      }))
-      return wishCoinsAwarded
+      if (bonusData) {
+        set(state => ({
+          today: state.today ? { ...bonusData, bonus_points: bonus, streak_count: newStreak } : null,
+        }))
+        pointsSettlement = usePointsStore.getState().addPoints(bonus, 'checkin_bonus', data.id)
+      } else {
+        set(state => ({ today: state.today ? { ...state.today, [field]: true } : null }))
+      }
     } else {
       set(state => ({ today: state.today ? { ...state.today, [field]: true } : null }))
     }
-    return 0
+
+    if (!allDone) return 0
+    const [wishCoinsAwarded] = await Promise.all([
+      useWishStore.getState().awardDailyWishCoins(data.id),
+      pointsSettlement,
+    ])
+    return wishCoinsAwarded
   },
 }))

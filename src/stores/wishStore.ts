@@ -194,7 +194,7 @@ export const useWishStore = create<WishState>((set, get) => {
 
     awardDailyWishCoins: async (checkInId) => {
       const amount = Number(readRpcData(await supabase.rpc('award_daily_wish_coins', { check_in_id: checkInId })) ?? 0)
-      if (amount > 0) await get().fetchWishData()
+      await get().fetchWishData()
       return amount
     },
 
