@@ -39,7 +39,9 @@ updated: 2026-07-30
 - 组卷和结果页 focused Vitest：4 个文件、23 项通过。
 - schema、audit、三年级 author、release 和 SQL focused Node tests：31 项通过。
 - `questions:validate` 验证 18 个年级-学科组均为 140 题、题型 105/21/14、难度 70/49/21，并判定可发布。
-- 全量 Vitest 30 个文件、150 项通过；离线 Node tests 90 项通过；生产构建成功；文档检查和 `git diff --check` 通过。远端 migration 与生产部署结果在最终提交部署步骤复验。
+- 全量 Vitest 30 个文件、150 项通过；离线 Node tests 90 项通过；生产构建成功；文档检查和 `git diff --check` 通过。
+- 远端 Supabase 已应用 migration `017`。只读查询确认三年级语文、数学、英语各 140 条 approved、各 140 个唯一 `external_id`，模板标签异常均为 0；模板数分别为 60、60、56，单模板最大题量分别为 7、6、7。
+- Netlify 生产首页已引用本次本地构建一致的 `/assets/index-BS07_8Lw.js` 与 `/assets/index-TJ6kJ4a2.css`。
 
 ## 风险与遗留
 
@@ -49,5 +51,5 @@ updated: 2026-07-30
 
 ## Git 关联
 
-- 实施、canonical 数据、migration 与本记录由包含 `017_refresh_grade3_question_variety.sql` 的 main 提交统一定位。
+- 实施、canonical 数据和 migration：`813d50c`（`feat: diversify grade three practice`）。
 - 关键回归由 `src/lib/questionComposer.test.ts`、`src/pages/QuizResultPage.test.tsx` 和 `scripts/tests/author-grade3.test.mjs` 在同一提交中定位。

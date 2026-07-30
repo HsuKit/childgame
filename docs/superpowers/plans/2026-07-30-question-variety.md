@@ -77,4 +77,4 @@
 - [x] Generate migration 017 from the grade-3 release manifest and verify it contains 420 approved upserts and no destructive statements.
 - [x] Document actual behavior, verification evidence, and remaining limits in the domain and iteration ledger.
 - [x] Run `npm test`, `npm run test:questions`, `npm run questions:validate`, `npm run docs:check`, `npm run build`, and `git diff --check`.
-- [ ] Commit, push `main`, apply the linked Supabase migration, verify remote counts/template coverage, and confirm Netlify serves the new asset.
+- [x] Commit, push `main`, apply the linked Supabase migration, verify remote counts/template coverage, and confirm Netlify serves the new asset.
