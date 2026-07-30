@@ -60,6 +60,7 @@ export function auditQuestionSet(questions, blueprint) {
   const difficultyCounts = countBy(questions, 'difficulty')
   const knowledgeCounts = countBy(questions, 'knowledgePoint')
   const expectedTotal = blueprint.total
+  const grade = questions[0]?.grade
 
   if (questions.length !== expectedTotal) errors.push(`total expected ${expectedTotal} got ${questions.length}`)
   for (const [type, expected] of Object.entries(blueprint.types)) {
@@ -80,6 +81,30 @@ export function auditQuestionSet(questions, blueprint) {
   }
   for (const knowledgePoint of allowedKnowledge) {
     if (!knowledgeCounts[knowledgePoint]) errors.push(`knowledge point ${knowledgePoint} has no questions`)
+  }
+
+  if ((blueprint.requiredTemplateGrades ?? []).includes(grade)) {
+    const templateCounts = {}
+    for (const question of questions) {
+      const templates = Array.isArray(question.tags)
+        ? question.tags.filter(tag => typeof tag === 'string' && /^模板:[a-z0-9][a-z0-9-]*$/.test(tag))
+        : []
+      if (templates.length !== 1) {
+        errors.push(`${question.id} requires exactly one valid template tag`)
+        continue
+      }
+      const key = templates[0].slice('模板:'.length)
+      templateCounts[key] = (templateCounts[key] ?? 0) + 1
+    }
+    const templateEntries = Object.entries(templateCounts)
+    if (templateEntries.length < blueprint.minTemplateCount) {
+      errors.push(`question set requires at least ${blueprint.minTemplateCount} templates, got ${templateEntries.length}`)
+    }
+    for (const [key, count] of templateEntries) {
+      if (count / expectedTotal > blueprint.maxTemplateShare) {
+        errors.push(`template ${key} exceeds ${blueprint.maxTemplateShare * 100}%`)
+      }
+    }
   }
 
   const seenIds = new Set()

@@ -21,10 +21,13 @@ export default function QuizResultPage() {
   const addPoints = usePointsStore(s => s.addPoints)
   const addExp = useCompanionStore(s => s.addExp)
   const saveQuizRecords = useQuizStore(s => s.saveQuizRecords)
+  const startSession = useQuizStore(s => s.startSession)
   const [alreadyDone, setAlreadyDone] = useState(false)
   const [wishCoinsAwarded, setWishCoinsAwarded] = useState(0)
   const [settlementStatus, setSettlementStatus] = useState<SettlementStatus>('settling')
   const [settlementAttempt, setSettlementAttempt] = useState(0)
+  const [isRestarting, setIsRestarting] = useState(false)
+  const [restartError, setRestartError] = useState<string | null>(null)
   const awardSettledRef = useRef(false)
   const wasAlreadyDoneAtResultRef = useRef(false)
   const mountedRef = useRef(true)
@@ -76,6 +79,21 @@ export default function QuizResultPage() {
 
   if (!session) return null
 
+  const restartPractice = async () => {
+    if (settlementStatus !== 'success' || isRestarting) return
+    setIsRestarting(true)
+    setRestartError(null)
+    try {
+      await startSession(subject)
+      navigate(`/quiz?subject=${subject}`)
+    } catch (error) {
+      console.error(error)
+      if (mountedRef.current) setRestartError('新题组加载失败，请检查网络后重试。')
+    } finally {
+      if (mountedRef.current) setIsRestarting(false)
+    }
+  }
+
   return (
     <div className="min-h-dvh bg-adventure-bg px-4 py-8 sm:py-12">
       {!alreadyDone && settlementStatus === 'success' && <PointsFlyAnimation amount={session.pointsEarned} />}
@@ -107,8 +125,16 @@ export default function QuizResultPage() {
       )}
       <div className="grid gap-3 pt-2 sm:grid-cols-2">
         <Button onClick={() => navigate('/')}>返回冒险地图</Button>
-        <Button variant="ghost" onClick={() => navigate(`/quiz?subject=${subject}`)}>再练一组</Button>
+        <Button
+          variant="ghost"
+          onClick={() => { void restartPractice() }}
+          loading={isRestarting}
+          disabled={settlementStatus !== 'success'}
+        >
+          再练一组
+        </Button>
       </div>
+      {restartError && <p role="alert" className="text-center text-sm font-bold text-red-700">{restartError}</p>}
       </main>
     </div>
   )

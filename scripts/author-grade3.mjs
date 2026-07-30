@@ -43,7 +43,14 @@ function mathChoice(point, i, difficulty, position) {
   }
   if (point === '乘法') {
     const a = 12 + (n % 28), b = 2 + (n % 7), answer = a * b
-    return choice(`手工课每组要用${a}张彩纸，${b}个小组一共要用多少张？`, `${answer}张`, [`${answer - b}张`, `${answer + a}张`, `${a + b}张`], position, `${a}×${b}=${answer}，所以一共要用${answer}张。`)
+    const stems = [
+      `手工课每组要用${a}张彩纸，${b}个小组一共要用多少张？`,
+      `礼堂摆了${b}排座位，每排有${a}个，一共有多少个座位？`,
+      `每盒有${a}张贴纸，买来${b}盒，一共有多少张贴纸？`,
+    ]
+    const variant = occurrence % stems.length
+    const unit = variant === 1 ? '个' : '张'
+    return choice(stems[variant], `${answer}${unit}`, [`${answer - b}${unit}`, `${answer + a}${unit}`, `${a + b}${unit}`], position, `${a}×${b}=${answer}，所以一共有${answer}${unit}。`)
   }
   if (point === '除法') {
     const b = 2 + (n % 7), q = 4 + (n % 11), total = b * q
@@ -190,7 +197,8 @@ export function authorGrade3Subject(subject) {
       const content = type === 'choice' ? mathChoice(point, serial, difficulty, serial % 4)
         : type === 'fill' ? mathFill(point, serial, difficulty) : mathMatch(point, serial)
       content.stem = `${contexts[Math.floor(serial / points.length) % contexts.length]}：${content.stem}`
-      questions.push({ id: `g3-math-authored-${String(serial + 1).padStart(3, '0')}`, subject, grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', difficulty > 1 ? '情境应用' : '基础巩固'], content, reviewStatus: 'reviewed', version: 1 })
+      const template = `模板:g3-math-${type}-p${points.indexOf(point)}-d${difficulty}`
+      questions.push({ id: `g3-math-authored-${String(serial + 1).padStart(3, '0')}`, subject, grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', difficulty > 1 ? '情境应用' : '基础巩固', template], content, reviewStatus: 'reviewed', version: 2 })
       serial += 1
     }
   }

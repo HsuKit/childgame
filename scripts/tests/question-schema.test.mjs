@@ -25,6 +25,24 @@ test('accepts a complete approved choice question', () => {
   assert.deepEqual(validateQuestion(validChoice), [])
 })
 
+test('requires one well-formed template tag for every grade-3 question', () => {
+  const grade3 = {
+    ...structuredClone(validChoice),
+    id: 'g3-math-item-001',
+    grade: 3,
+  }
+  assert.match(validateQuestion(grade3).join('\n'), /exactly one 模板:/)
+
+  grade3.tags = ['模板:math-place-value', '模板:math-reading']
+  assert.match(validateQuestion(grade3).join('\n'), /exactly one 模板:/)
+
+  grade3.tags = ['模板:']
+  assert.match(validateQuestion(grade3).join('\n'), /well-formed/)
+
+  grade3.tags = ['全国通用', '模板:math-place-value']
+  assert.deepEqual(validateQuestion(grade3), [])
+})
+
 test('rejects missing and invalid shared metadata', () => {
   const errors = validateQuestion({
     ...validChoice,

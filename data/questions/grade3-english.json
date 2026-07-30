@@ -10,7 +10,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
       "stem": "Read: “Tom has some milk.” What does Tom have?",
@@ -24,7 +25,7 @@
       "explanation": "The sentence says Tom has some milk."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-002",
@@ -37,7 +38,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Tom is at home. —What do you like? —I like football.",
@@ -51,7 +53,7 @@
       "explanation": "“I like football” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-003",
@@ -64,7 +66,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Tom ___ up. Choose the verb.",
@@ -78,7 +81,7 @@
       "explanation": "Tom is one person, so the verb is “gets”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-004",
@@ -91,7 +94,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Monday plan: Tom gets up at 7:00. Which word asks the time?",
@@ -105,7 +109,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-005",
@@ -118,7 +122,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Tom gets up at 7:00. Choose the English time words.",
@@ -132,7 +137,7 @@
       "explanation": "7:00 can be read as “7 o'clock”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-006",
@@ -145,7 +150,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Tom gets up.” Which words show the activity?",
@@ -159,7 +165,7 @@
       "explanation": "“gets up” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-007",
@@ -172,7 +178,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Tom is at home.” Where is Tom?",
@@ -186,7 +193,7 @@
       "explanation": "The sentence says Tom is at home."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-008",
@@ -199,7 +206,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "at home, a friend gives Tom some milk. Tom says “Thank you.”",
@@ -213,7 +221,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-009",
@@ -226,21 +234,22 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
-      "stem": "Read: “Lucy has some bread.” What does Lucy have?",
+      "stem": "Read: “Lucy has some bread.” Who has some bread?",
       "options": [
-        "some bread",
-        "a train",
-        "a computer game",
-        "a red bike"
+        "Lucy",
+        "John",
+        "Mary",
+        "Tony"
       ],
       "answer": 0,
-      "explanation": "The sentence says Lucy has some bread."
+      "explanation": "The sentence names Lucy."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-010",
@@ -253,7 +262,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Lucy is in the kitchen. —What do you like? —I like drawing.",
@@ -267,7 +277,7 @@
       "explanation": "“I like drawing” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-011",
@@ -280,7 +290,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Lucy ___ breakfast. Choose the verb.",
@@ -294,7 +305,7 @@
       "explanation": "Lucy is one person, so the verb is “has”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-012",
@@ -307,7 +318,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Tuesday plan: Lucy has breakfast at 7:30. Which word asks the time?",
@@ -321,7 +333,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-013",
@@ -334,7 +346,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Lucy has breakfast at 7:30. Choose the English time words.",
@@ -348,7 +361,7 @@
       "explanation": "7:30 can be read as “half past 7”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-014",
@@ -361,7 +374,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Lucy has breakfast.” Which words show the activity?",
@@ -375,7 +389,7 @@
       "explanation": "“has breakfast” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-015",
@@ -388,7 +402,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Lucy is in the kitchen.” Where is Lucy?",
@@ -402,7 +417,7 @@
       "explanation": "The sentence says Lucy is in the kitchen."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-016",
@@ -415,7 +430,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "in the kitchen, a friend gives Lucy some bread. Lucy says “Thank you.”",
@@ -429,7 +445,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-017",
@@ -442,21 +458,22 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
-      "stem": "Read: “Mike has a book.” What does Mike have?",
+      "stem": "Read: “Mike has a book.” Which sentence is true?",
       "options": [
-        "a book",
-        "a train",
-        "a computer game",
-        "a red bike"
+        "Mike has a book.",
+        "Mike has a train.",
+        "Mike has nothing.",
+        "Mike is on the moon."
       ],
       "answer": 0,
-      "explanation": "The sentence says Mike has a book."
+      "explanation": "The true sentence repeats the stated fact about Mike."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-018",
@@ -469,7 +486,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Mike is at school. —What do you like? —I like reading.",
@@ -483,7 +501,7 @@
       "explanation": "“I like reading” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-019",
@@ -496,7 +514,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Mike ___ to school. Choose the verb.",
@@ -510,7 +529,7 @@
       "explanation": "Mike is one person, so the verb is “goes”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-020",
@@ -523,7 +542,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Wednesday plan: Mike goes to school at 8:00. Which word asks the time?",
@@ -537,7 +557,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-021",
@@ -550,7 +570,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Mike goes to school at 8:00. Choose the English time words.",
@@ -564,7 +585,7 @@
       "explanation": "8:00 can be read as “8 o'clock”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-022",
@@ -577,7 +598,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Mike goes to school.” Which words show the activity?",
@@ -591,7 +613,7 @@
       "explanation": "“goes to school” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-023",
@@ -604,7 +626,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Mike is at school.” Where is Mike?",
@@ -618,7 +641,7 @@
       "explanation": "The sentence says Mike is at school."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-024",
@@ -631,7 +654,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "at school, a friend gives Mike a book. Mike says “Thank you.”",
@@ -645,7 +669,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-025",
@@ -658,7 +682,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
       "stem": "Read: “Amy has a pencil.” What does Amy have?",
@@ -672,7 +697,7 @@
       "explanation": "The sentence says Amy has a pencil."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-026",
@@ -685,7 +710,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Amy is in the classroom. —What do you like? —I like English.",
@@ -699,7 +725,7 @@
       "explanation": "“I like English” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-027",
@@ -712,7 +738,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Amy ___ an English class. Choose the verb.",
@@ -726,7 +753,7 @@
       "explanation": "Amy is one person, so the verb is “has”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-028",
@@ -739,7 +766,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Thursday plan: Amy has an English class at 9:00. Which word asks the time?",
@@ -753,7 +781,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-029",
@@ -766,7 +794,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Amy has an English class at 9:00. Choose the English time words.",
@@ -780,7 +809,7 @@
       "explanation": "9:00 can be read as “9 o'clock”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-030",
@@ -793,7 +822,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Amy has an English class.” Which words show the activity?",
@@ -807,7 +837,7 @@
       "explanation": "“has an English class” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-031",
@@ -820,7 +850,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Amy is in the classroom.” Where is Amy?",
@@ -834,7 +865,7 @@
       "explanation": "The sentence says Amy is in the classroom."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-032",
@@ -847,7 +878,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "in the classroom, a friend gives Amy a pencil. Amy says “Thank you.”",
@@ -861,7 +893,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-033",
@@ -874,21 +906,22 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
-      "stem": "Read: “Jack has a ball.” What does Jack have?",
+      "stem": "Read: “Jack has a ball.” Who has a ball?",
       "options": [
-        "a ball",
-        "a train",
-        "a computer game",
-        "a red bike"
+        "Jack",
+        "John",
+        "Mary",
+        "Tony"
       ],
       "answer": 0,
-      "explanation": "The sentence says Jack has a ball."
+      "explanation": "The sentence names Jack."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-034",
@@ -901,7 +934,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Jack is in the playground. —What do you like? —I like basketball.",
@@ -915,7 +949,7 @@
       "explanation": "“I like basketball” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-035",
@@ -928,7 +962,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Jack ___ basketball. Choose the verb.",
@@ -942,7 +977,7 @@
       "explanation": "Jack is one person, so the verb is “plays”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-036",
@@ -955,7 +990,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Friday plan: Jack plays basketball at 10:00. Which word asks the time?",
@@ -969,7 +1005,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-037",
@@ -982,7 +1018,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Jack plays basketball at 10:00. Choose the English time words.",
@@ -996,7 +1033,7 @@
       "explanation": "10:00 can be read as “10 o'clock”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-038",
@@ -1009,7 +1046,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Jack plays basketball.” Which words show the activity?",
@@ -1023,7 +1061,7 @@
       "explanation": "“plays basketball” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-039",
@@ -1036,7 +1074,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Jack is in the playground.” Where is Jack?",
@@ -1050,7 +1089,7 @@
       "explanation": "The sentence says Jack is in the playground."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-040",
@@ -1063,7 +1102,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "in the playground, a friend gives Jack a ball. Jack says “Thank you.”",
@@ -1077,7 +1117,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-041",
@@ -1090,21 +1130,22 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
-      "stem": "Read: “Lily has some rice.” What does Lily have?",
+      "stem": "Read: “Lily has some rice.” Which sentence is true?",
       "options": [
-        "some rice",
-        "a train",
-        "a computer game",
-        "a red bike"
+        "Lily has some rice.",
+        "Lily has a train.",
+        "Lily has nothing.",
+        "Lily is on the moon."
       ],
       "answer": 0,
-      "explanation": "The sentence says Lily has some rice."
+      "explanation": "The true sentence repeats the stated fact about Lily."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-042",
@@ -1117,7 +1158,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Lily is in the dining room. —What do you like? —I like cooking.",
@@ -1131,7 +1173,7 @@
       "explanation": "“I like cooking” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-043",
@@ -1144,7 +1186,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Lily ___ lunch. Choose the verb.",
@@ -1158,7 +1201,7 @@
       "explanation": "Lily is one person, so the verb is “has”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-044",
@@ -1171,7 +1214,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Saturday plan: Lily has lunch at 12:00. Which word asks the time?",
@@ -1185,7 +1229,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-045",
@@ -1198,7 +1242,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p4-d1"
     ],
     "content": {
       "stem": "Lily has lunch at 12:00. Choose the English time words.",
@@ -1212,7 +1257,7 @@
       "explanation": "12:00 can be read as “12 o'clock”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-046",
@@ -1225,7 +1270,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p5-d1"
     ],
     "content": {
       "stem": "Read: “Lily has lunch.” Which words show the activity?",
@@ -1239,7 +1285,7 @@
       "explanation": "“has lunch” is the activity in the sentence."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-047",
@@ -1252,7 +1298,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p6-d1"
     ],
     "content": {
       "stem": "Read: “Lily is in the dining room.” Where is Lily?",
@@ -1266,7 +1313,7 @@
       "explanation": "The sentence says Lily is in the dining room."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-048",
@@ -1279,7 +1326,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p7-d1"
     ],
     "content": {
       "stem": "in the dining room, a friend gives Lily some rice. Lily says “Thank you.”",
@@ -1293,7 +1341,7 @@
       "explanation": "“You are welcome.” is a polite reply to “Thank you.”"
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-049",
@@ -1306,7 +1354,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p0-d1"
     ],
     "content": {
       "stem": "Read: “Peter has a kite.” What does Peter have?",
@@ -1320,7 +1369,7 @@
       "explanation": "The sentence says Peter has a kite."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-050",
@@ -1333,7 +1382,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p1-d1"
     ],
     "content": {
       "stem": "Mini talk: Peter is in the park. —What do you like? —I like kites.",
@@ -1347,7 +1397,7 @@
       "explanation": "“I like kites” tells the thing or activity liked."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-051",
@@ -1360,7 +1410,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p2-d1"
     ],
     "content": {
       "stem": "Peter ___ a kite. Choose the verb.",
@@ -1374,7 +1425,7 @@
       "explanation": "Peter is one person, so the verb is “flies”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-052",
@@ -1387,7 +1438,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-choice-p3-d1"
     ],
     "content": {
       "stem": "Sunday plan: Peter flies a kite at 3:00. Which word asks the time?",
@@ -1401,7 +1453,7 @@
       "explanation": "A time answer uses the question word “When”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-053",
@@ -1413,7 +1465,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d2"
     ],
     "content": {
       "stem": "Schedule card: Peter flies a kite at 3:00. Which time matches?",
@@ -1427,7 +1480,7 @@
       "explanation": "The sentence gives the time 3:00."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-054",
@@ -1439,7 +1492,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d2"
     ],
     "content": {
       "stem": "Plan: “Peter flies a kite at 3:00.” What happens?",
@@ -1453,7 +1507,7 @@
       "explanation": "The activity is flies a kite."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-055",
@@ -1465,7 +1519,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d2"
     ],
     "content": {
       "stem": "Read: “Peter has a kite and likes kites.” Which fact is stated?",
@@ -1479,7 +1534,7 @@
       "explanation": "The sentence directly says Peter likes kites."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-056",
@@ -1491,7 +1546,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d2"
     ],
     "content": {
       "stem": "Peter needs the kite. Which request is polite?",
@@ -1505,7 +1561,7 @@
       "explanation": "“May I use the kite?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-057",
@@ -1517,7 +1573,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d2"
     ],
     "content": {
       "stem": "Read: “Kate is in the study. Kate does her homework.” What is true?",
@@ -1531,7 +1588,7 @@
       "explanation": "The second sentence says Kate does her homework."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-058",
@@ -1543,7 +1600,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d2"
     ],
     "content": {
       "stem": "—What does Kate like? —___",
@@ -1557,7 +1615,7 @@
       "explanation": "The question asks what Kate likes."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-059",
@@ -1569,7 +1627,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d2"
     ],
     "content": {
       "stem": "Kate ___ her homework every week.",
@@ -1583,7 +1642,7 @@
       "explanation": "One person needs the verb “does”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-060",
@@ -1595,7 +1654,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d2"
     ],
     "content": {
       "stem": "___ is Kate? in the study.",
@@ -1609,7 +1669,7 @@
       "explanation": "A place answer uses “Where”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-061",
@@ -1621,7 +1681,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d2"
     ],
     "content": {
       "stem": "Schedule card: Kate does her homework at 4:00. Which time matches?",
@@ -1635,7 +1696,7 @@
       "explanation": "The sentence gives the time 4:00."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-062",
@@ -1647,7 +1708,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d2"
     ],
     "content": {
       "stem": "Plan: “Kate does her homework at 4:00.” What happens?",
@@ -1661,7 +1723,7 @@
       "explanation": "The activity is does her homework."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-063",
@@ -1673,7 +1735,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d2"
     ],
     "content": {
       "stem": "Read: “Kate has a ruler and likes maths.” Which fact is stated?",
@@ -1687,7 +1750,7 @@
       "explanation": "The sentence directly says Kate likes maths."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-064",
@@ -1699,7 +1762,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d2"
     ],
     "content": {
       "stem": "Kate needs the ruler. Which request is polite?",
@@ -1713,7 +1777,7 @@
       "explanation": "“May I use the ruler?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-065",
@@ -1725,7 +1789,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d2"
     ],
     "content": {
       "stem": "Read: “Sam is in the garden. Sam waters the flowers.” What is true?",
@@ -1739,7 +1804,7 @@
       "explanation": "The second sentence says Sam waters the flowers."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-066",
@@ -1751,7 +1816,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d2"
     ],
     "content": {
       "stem": "—What does Sam like? —___",
@@ -1765,7 +1831,7 @@
       "explanation": "The question asks what Sam likes."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-067",
@@ -1777,7 +1843,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d2"
     ],
     "content": {
       "stem": "Sam ___ the flowers every week.",
@@ -1791,7 +1858,7 @@
       "explanation": "One person needs the verb “waters”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-068",
@@ -1803,7 +1870,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d2"
     ],
     "content": {
       "stem": "___ is Sam? in the garden.",
@@ -1817,7 +1885,7 @@
       "explanation": "A place answer uses “Where”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-069",
@@ -1829,7 +1897,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d2"
     ],
     "content": {
       "stem": "Schedule card: Sam waters the flowers at 5:00. Which time matches?",
@@ -1843,7 +1912,7 @@
       "explanation": "The sentence gives the time 5:00."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-070",
@@ -1855,7 +1924,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d2"
     ],
     "content": {
       "stem": "Plan: “Sam waters the flowers at 5:00.” What happens?",
@@ -1869,7 +1939,7 @@
       "explanation": "The activity is waters the flowers."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-071",
@@ -1881,7 +1951,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d2"
     ],
     "content": {
       "stem": "Read: “Sam has some water and likes plants.” Which fact is stated?",
@@ -1895,7 +1966,7 @@
       "explanation": "The sentence directly says Sam likes plants."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-072",
@@ -1907,7 +1978,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d2"
     ],
     "content": {
       "stem": "Sam needs the water. Which request is polite?",
@@ -1921,7 +1993,7 @@
       "explanation": "“May I use the water?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-073",
@@ -1933,7 +2005,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d2"
     ],
     "content": {
       "stem": "Read: “Anna is in the street. Anna walks her dog.” What is true?",
@@ -1947,7 +2020,7 @@
       "explanation": "The second sentence says Anna walks her dog."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-074",
@@ -1959,7 +2032,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d2"
     ],
     "content": {
       "stem": "—What does Anna like? —___",
@@ -1973,7 +2047,7 @@
       "explanation": "The question asks what Anna likes."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-075",
@@ -1985,7 +2059,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d2"
     ],
     "content": {
       "stem": "Anna ___ her dog every week.",
@@ -1999,7 +2074,7 @@
       "explanation": "One person needs the verb “walks”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-076",
@@ -2011,7 +2086,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d2"
     ],
     "content": {
       "stem": "___ is Anna? in the street.",
@@ -2025,7 +2101,7 @@
       "explanation": "A place answer uses “Where”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-077",
@@ -2037,7 +2113,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d2"
     ],
     "content": {
       "stem": "Schedule card: Anna walks her dog at 6:00. Which time matches?",
@@ -2051,7 +2128,7 @@
       "explanation": "The sentence gives the time 6:00."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-078",
@@ -2063,7 +2140,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d2"
     ],
     "content": {
       "stem": "Plan: “Anna walks her dog at 6:00.” What happens?",
@@ -2077,7 +2155,7 @@
       "explanation": "The activity is walks her dog."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-079",
@@ -2089,7 +2167,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d2"
     ],
     "content": {
       "stem": "Read: “Anna has a dog and likes animals.” Which fact is stated?",
@@ -2103,7 +2182,7 @@
       "explanation": "The sentence directly says Anna likes animals."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-080",
@@ -2115,7 +2194,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d2"
     ],
     "content": {
       "stem": "Anna needs the dog. Which request is polite?",
@@ -2129,7 +2209,7 @@
       "explanation": "“May I use the dog?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-081",
@@ -2141,7 +2221,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d2"
     ],
     "content": {
       "stem": "Read: “Ben is in the kitchen. Ben helps his mother.” What is true?",
@@ -2155,7 +2236,7 @@
       "explanation": "The second sentence says Ben helps his mother."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-082",
@@ -2167,7 +2248,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d2"
     ],
     "content": {
       "stem": "—What does Ben like? —___",
@@ -2181,7 +2263,7 @@
       "explanation": "The question asks what Ben likes."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-083",
@@ -2193,7 +2275,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d2"
     ],
     "content": {
       "stem": "Ben ___ his mother every week.",
@@ -2207,7 +2290,7 @@
       "explanation": "One person needs the verb “helps”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-084",
@@ -2219,7 +2302,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d2"
     ],
     "content": {
       "stem": "___ is Ben? in the kitchen.",
@@ -2233,7 +2317,7 @@
       "explanation": "A place answer uses “Where”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-085",
@@ -2245,7 +2329,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d2"
     ],
     "content": {
       "stem": "Schedule card: Ben helps his mother at 6:30. Which time matches?",
@@ -2259,7 +2344,7 @@
       "explanation": "The sentence gives the time 6:30."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-086",
@@ -2271,7 +2356,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d2"
     ],
     "content": {
       "stem": "Plan: “Ben helps his mother at 6:30.” What happens?",
@@ -2285,7 +2371,7 @@
       "explanation": "The activity is helps his mother."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-087",
@@ -2297,7 +2383,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d2"
     ],
     "content": {
       "stem": "Read: “Ben has a plate and likes helping.” Which fact is stated?",
@@ -2311,7 +2398,7 @@
       "explanation": "The sentence directly says Ben likes helping."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-088",
@@ -2323,7 +2410,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d2"
     ],
     "content": {
       "stem": "Ben needs the plate. Which request is polite?",
@@ -2337,7 +2425,7 @@
       "explanation": "“May I use the plate?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-089",
@@ -2349,7 +2437,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d2"
     ],
     "content": {
       "stem": "Read: “Grace is in the bedroom. Grace reads a story.” What is true?",
@@ -2363,7 +2452,7 @@
       "explanation": "The second sentence says Grace reads a story."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-090",
@@ -2375,7 +2464,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d3"
     ],
     "content": {
       "stem": "Read: “Grace cannot find the storybook. A friend points to it.” —Thank you for helping me. —___",
@@ -2389,7 +2479,7 @@
       "explanation": "The reply is polite and continues the situation by showing where the item is."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-091",
@@ -2401,7 +2491,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d3"
     ],
     "content": {
       "stem": "On Friday, Grace is in the bedroom with a storybook. Grace likes stories. Complete both facts: Grace ___ a story at 7:00 and likes stories.",
@@ -2415,7 +2506,7 @@
       "explanation": "The subject is one person, so “reads” completes the regular activity."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-092",
@@ -2427,7 +2518,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d3"
     ],
     "content": {
       "stem": "On Friday, Grace is in the bedroom with a storybook. Grace likes stories. Read the schedule line: “Grace is in the bedroom at 7:00.” Which pair of question words asks about the place and then the time?",
@@ -2441,7 +2533,7 @@
       "explanation": "“Where” asks about a place; “When” asks about a time."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-093",
@@ -2453,7 +2545,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d3"
     ],
     "content": {
       "stem": "On Friday, Grace is in the bedroom for the stories activity. It starts at 7:00 and finishes 30 minutes later. When does it finish?",
@@ -2467,7 +2560,7 @@
       "explanation": "Thirty minutes after 7:00 is 7:30."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-094",
@@ -2479,7 +2572,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d3"
     ],
     "content": {
       "stem": "Read the plan: “First Grace packs the bag. Then Grace reads a story. After that, Grace reads.” What happens second?",
@@ -2493,7 +2587,7 @@
       "explanation": "The order word “Then” introduces the second activity: reads a story."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-095",
@@ -2505,7 +2599,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d3"
     ],
     "content": {
       "stem": "Read: “On Friday, Grace is in the bedroom with a storybook. Grace likes stories. At 7:00, Grace reads a story.” Which two facts are both true?",
@@ -2519,7 +2614,7 @@
       "explanation": "Both facts are directly stated in the text."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-096",
@@ -2531,7 +2626,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d3"
     ],
     "content": {
       "stem": "On Friday, Grace is in the bedroom before reads a story. Grace needs the storybook, but a classmate is using it. What is the most polite request?",
@@ -2545,7 +2641,7 @@
       "explanation": "“May I use the storybook after you?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-097",
@@ -2557,7 +2653,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d3"
     ],
     "content": {
       "stem": "Read: “On Saturday, David is in the bedroom with a notebook. David likes science. At 8:00, David packs his bag.” Which sentence gives both the day and the activity?",
@@ -2571,7 +2668,7 @@
       "explanation": "The text states the day Saturday and the activity “packs his bag”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-098",
@@ -2583,7 +2680,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p1-d3"
     ],
     "content": {
       "stem": "Read: “David cannot find the notebook. A friend points to it.” —Thank you for helping me. —___",
@@ -2597,7 +2695,7 @@
       "explanation": "The reply is polite and continues the situation by showing where the item is."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-099",
@@ -2609,7 +2707,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p2-d3"
     ],
     "content": {
       "stem": "On Saturday, David is in the bedroom with a notebook. David likes science. Complete both facts: David ___ his bag at 8:00 and likes science.",
@@ -2623,7 +2722,7 @@
       "explanation": "The subject is one person, so “packs” completes the regular activity."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-100",
@@ -2635,7 +2734,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p3-d3"
     ],
     "content": {
       "stem": "On Saturday, David is in the bedroom with a notebook. David likes science. Read the schedule line: “David is in the bedroom at 8:00.” Which pair of question words asks about the place and then the time?",
@@ -2649,7 +2749,7 @@
       "explanation": "“Where” asks about a place; “When” asks about a time."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-101",
@@ -2661,7 +2761,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p4-d3"
     ],
     "content": {
       "stem": "On Saturday, David is in the bedroom for the science activity. It starts at 8:00 and finishes 30 minutes later. When does it finish?",
@@ -2675,7 +2776,7 @@
       "explanation": "Thirty minutes after 8:00 is 8:30."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-102",
@@ -2687,7 +2788,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p5-d3"
     ],
     "content": {
       "stem": "Read the plan: “First David packs the bag. Then David packs his bag. After that, David reads.” What happens second?",
@@ -2701,7 +2803,7 @@
       "explanation": "The order word “Then” introduces the second activity: packs his bag."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-103",
@@ -2713,7 +2815,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p6-d3"
     ],
     "content": {
       "stem": "Read: “On Saturday, David is in the bedroom with a notebook. David likes science. At 8:00, David packs his bag.” Which two facts are both true?",
@@ -2727,7 +2830,7 @@
       "explanation": "Both facts are directly stated in the text."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-104",
@@ -2739,7 +2842,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p7-d3"
     ],
     "content": {
       "stem": "On Saturday, David is in the bedroom before packs his bag. David needs the notebook, but a classmate is using it. What is the most polite request?",
@@ -2753,7 +2857,7 @@
       "explanation": "“May I use the notebook after you?” is polite because “May I...?” asks gently instead of giving an order, and “after you” shows respect for the classmate who is using it. Tip: for a polite request, look for words like “May I”, “could you”, “please” or “after you”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-105",
@@ -2765,7 +2869,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-choice-p0-d3"
     ],
     "content": {
       "stem": "Read: “On Sunday, Helen is in the bedroom with a clock. Helen likes music. At 9:00, Helen goes to bed.” Which sentence gives both the day and the activity?",
@@ -2779,7 +2884,7 @@
       "explanation": "The text states the day Sunday and the activity “goes to bed”."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-106",
@@ -2792,7 +2897,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p0-d1"
     ],
     "content": {
       "stem": "I have a ___. I use it to read stories.（填 book）",
@@ -2800,7 +2906,7 @@
       "explanation": "The answer “book” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-107",
@@ -2813,7 +2919,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p1-d1"
     ],
     "content": {
       "stem": "—How are you? —I am ___.（填“很好”）",
@@ -2821,7 +2928,7 @@
       "explanation": "The clue is “很好”. The answer “fine” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-108",
@@ -2834,7 +2941,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p2-d1"
     ],
     "content": {
       "stem": "Tom ___ to school every day.（填 go 的正确形式）",
@@ -2842,7 +2950,7 @@
       "explanation": "The answer “goes” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-109",
@@ -2855,7 +2963,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p3-d1"
     ],
     "content": {
       "stem": "___ is your name? My name is Lily.",
@@ -2863,7 +2972,7 @@
       "explanation": "The answer “what” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-110",
@@ -2876,7 +2985,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p4-d1"
     ],
     "content": {
       "stem": "Class starts at eight ___.（填“整点”）",
@@ -2884,7 +2994,7 @@
       "explanation": "The clue is “整点”. The answer “o'clock” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-111",
@@ -2897,7 +3007,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p5-d1"
     ],
     "content": {
       "stem": "I ___ my teeth every morning.（填 brush）",
@@ -2905,7 +3016,7 @@
       "explanation": "The answer “brush” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-112",
@@ -2918,7 +3029,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p6-d1"
     ],
     "content": {
       "stem": "Read: “The bag is blue.” The bag is ___.",
@@ -2926,7 +3038,7 @@
       "explanation": "The clue is “The bag is blue.”. The answer “blue” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-113",
@@ -2939,7 +3051,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p7-d1"
     ],
     "content": {
       "stem": "When someone says “Thank you”, you can say “You are ___.”",
@@ -2947,7 +3060,7 @@
       "explanation": "The clue is “Thank you”. The answer “welcome” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-114",
@@ -2960,7 +3073,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p0-d1"
     ],
     "content": {
       "stem": "The cat is under the desk. It is ___ the desk.",
@@ -2968,7 +3082,7 @@
       "explanation": "The answer “under” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-115",
@@ -2981,7 +3095,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p1-d1"
     ],
     "content": {
       "stem": "—Can you swim? —Yes, I ___.",
@@ -2989,7 +3104,7 @@
       "explanation": "The answer “can” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-116",
@@ -3002,7 +3117,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-fill-p2-d1"
     ],
     "content": {
       "stem": "Amy ___ English on Mondays.（填 study 的正确形式）",
@@ -3010,7 +3126,7 @@
       "explanation": "The answer “studies” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-117",
@@ -3022,7 +3138,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p3-d2"
     ],
     "content": {
       "stem": "___ is my ruler? It is in the bag.",
@@ -3030,7 +3147,7 @@
       "explanation": "The answer “where” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-118",
@@ -3042,7 +3159,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p4-d2"
     ],
     "content": {
       "stem": "7:30 can be read as half past ___.",
@@ -3050,7 +3168,7 @@
       "explanation": "The answer “seven” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-119",
@@ -3062,7 +3180,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p5-d2"
     ],
     "content": {
       "stem": "We have ___ at twelve o’clock.（填 lunch）",
@@ -3070,7 +3189,7 @@
       "explanation": "The answer “lunch” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-120",
@@ -3082,7 +3201,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p6-d2"
     ],
     "content": {
       "stem": "Read: “Ben has two dogs.” Ben has ___ dogs.",
@@ -3090,7 +3210,7 @@
       "explanation": "The clue is “Ben has two dogs.”. The answer “two” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-121",
@@ -3102,7 +3222,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p7-d2"
     ],
     "content": {
       "stem": "Before going to bed, we can say “Good ___.”",
@@ -3110,7 +3231,7 @@
       "explanation": "The clue is “Good ___.”. The answer “night” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-122",
@@ -3122,7 +3243,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p0-d2"
     ],
     "content": {
       "stem": "The children are in the library. They are reading ___.",
@@ -3130,7 +3252,7 @@
       "explanation": "The answer “books” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-123",
@@ -3142,7 +3264,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p1-d2"
     ],
     "content": {
       "stem": "—What time is it? —It is nine ___.",
@@ -3150,7 +3273,7 @@
       "explanation": "The answer “o'clock” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-124",
@@ -3162,7 +3285,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p2-d3"
     ],
     "content": {
       "stem": "My father ___ breakfast at seven every day.（填 have 的正确形式）",
@@ -3170,7 +3294,7 @@
       "explanation": "The answer “has” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-125",
@@ -3182,7 +3306,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p3-d3"
     ],
     "content": {
       "stem": "___ is that girl? She is my sister.",
@@ -3190,7 +3315,7 @@
       "explanation": "The answer “who” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-126",
@@ -3202,7 +3327,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-fill-p6-d3"
     ],
     "content": {
       "stem": "Read: “Lucy goes to the park after lunch.” Lucy goes there ___ lunch.",
@@ -3210,7 +3336,7 @@
       "explanation": "The clue is “Lucy goes to the park after lunch.”. The answer “after” fits the meaning and the sentence pattern. Next time, read the words before and after the blank, then put your answer back into the sentence to check if it sounds right."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-127",
@@ -3223,7 +3349,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p0-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each sentence with its meaning.",
@@ -3260,7 +3387,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 句子阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-128",
@@ -3273,7 +3400,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p1-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each question with the best answer.",
@@ -3310,7 +3438,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 短对话, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-129",
@@ -3323,7 +3451,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p2-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each subject and verb with the rest of its sentence.",
@@ -3360,7 +3489,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 一般现在时, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-130",
@@ -3373,7 +3502,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p3-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each question word with what it asks about.",
@@ -3410,7 +3540,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 疑问词, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-131",
@@ -3423,7 +3553,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p4-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each clock time with its English expression.",
@@ -3460,7 +3591,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 时间表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-132",
@@ -3473,7 +3604,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p5-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each daily activity with its Chinese meaning.",
@@ -3510,7 +3642,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常活动, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-133",
@@ -3523,7 +3655,8 @@
     "tags": [
       "全国通用",
       "文字可作答",
-      "听读入门"
+      "听读入门",
+      "模板:g3-en-match-p6-d1"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each sentence with the information it gives.",
@@ -3560,7 +3693,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 显性信息, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-134",
@@ -3572,7 +3705,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p7-d2"
     ],
     "content": {
       "stem": "Use the classroom language chart. Match each expression with the polite reply.",
@@ -3609,7 +3743,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 情境交际, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-135",
@@ -3621,7 +3755,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p0-d2"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each sentence with its meaning.",
@@ -3658,7 +3793,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 句子阅读, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-136",
@@ -3670,7 +3805,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p1-d2"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each question with the best answer.",
@@ -3707,7 +3843,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 短对话, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-137",
@@ -3719,7 +3855,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p2-d2"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each subject and verb with the rest of its sentence.",
@@ -3756,7 +3893,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 一般现在时, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-138",
@@ -3768,7 +3905,8 @@
     "skill": "apply",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p3-d2"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each question word with what it asks about.",
@@ -3805,7 +3943,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 疑问词, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-139",
@@ -3817,7 +3955,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p4-d3"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each clock time with its English expression.",
@@ -3854,7 +3993,7 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 时间表达, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   },
   {
     "id": "g3-english-authored-140",
@@ -3866,7 +4005,8 @@
     "skill": "reason",
     "tags": [
       "全国通用",
-      "文字可作答"
+      "文字可作答",
+      "模板:g3-en-match-p5-d3"
     ],
     "content": {
       "stem": "Use the weekend reading card and compare all four examples. Match each daily activity with its Chinese meaning.",
@@ -3903,6 +4043,6 @@
       "explanation": "Compare each item by meaning and function, not only by the first word you see. For 日常活动, match the clearest pair first, then check the remaining pairs again."
     },
     "reviewStatus": "approved",
-    "version": 2
+    "version": 3
   }
 ]

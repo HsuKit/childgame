@@ -55,3 +55,33 @@ test('grade-3 english polite request explanations teach the polite pattern', () 
   assert.match(politeRequest.content.explanation, /after you/)
   assert.match(politeRequest.content.explanation, /Tip|Next time/)
 })
+
+test('all grade-3 authored questions carry diverse bounded template tags', () => {
+  for (const subject of ['chinese', 'math', 'english']) {
+    const questions = authorGrade3Subject(subject)
+    const templates = questions.map(question => question.tags.filter(tag => tag.startsWith('模板:')))
+    assert.equal(templates.every(tags => tags.length === 1), true, `${subject} must have exactly one template tag`)
+    const counts = new Map()
+    templates.flat().forEach(tag => counts.set(tag, (counts.get(tag) ?? 0) + 1))
+    assert.ok(counts.size >= 10, `${subject} must have at least ten templates`)
+    assert.ok(Math.max(...counts.values()) <= 21, `${subject} template share must stay at or below 15%`)
+  }
+})
+
+test('grade-3 low-level choices vary the prompt structure instead of only swapping values', () => {
+  const mathPrompts = authorGrade3Subject('math')
+    .filter(question => question.type === 'choice' && question.difficulty === 1 && question.knowledgePoint === '乘法')
+    .map(question => question.content.stem)
+    .join('\n')
+  assert.match(mathPrompts, /彩纸/)
+  assert.match(mathPrompts, /座位/)
+  assert.match(mathPrompts, /贴纸/)
+
+  const englishPrompts = authorGrade3English()
+    .filter(question => question.type === 'choice' && question.difficulty === 1 && question.knowledgePoint === '句子阅读')
+    .map(question => question.content.stem)
+    .join('\n')
+  assert.match(englishPrompts, /What does/)
+  assert.match(englishPrompts, /Who has/)
+  assert.match(englishPrompts, /Which sentence is true/)
+})

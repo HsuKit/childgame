@@ -101,6 +101,15 @@ export function validateQuestion(question) {
   if (!Array.isArray(question?.tags) || question.tags.some(tag => !hasText(tag))) {
     errors.push('tags must contain non-empty strings')
   }
+  const templateTags = Array.isArray(question?.tags)
+    ? question.tags.filter(tag => typeof tag === 'string' && tag.startsWith('模板:'))
+    : []
+  if (question?.grade === 3 && templateTags.length !== 1) {
+    errors.push('grade-3 question requires exactly one 模板: tag')
+  }
+  if (templateTags.some(tag => !/^模板:[a-z0-9][a-z0-9-]*$/.test(tag))) {
+    errors.push('template tag must be well-formed as 模板:lowercase-key')
+  }
   if (!REVIEW_STATUSES.includes(question?.reviewStatus)) errors.push('invalid reviewStatus')
   if (!Number.isInteger(question?.version) || question.version < 1) {
     errors.push('version must be a positive integer')

@@ -99,3 +99,30 @@ test('rejects unknown and missing blueprint knowledge points', () => {
   assert.match(errors, /unknown knowledge point 教材专属单元/)
   assert.match(errors, /knowledge point 从未覆盖的知识点 has no questions/)
 })
+
+test('rejects grade-3 collections with too few or overly concentrated templates', () => {
+  const questions = makeQuestions().map((question, index) => ({
+    ...question,
+    id: question.id.replace('g2-', 'g3-'),
+    grade: 3,
+    tags: [`模板:template-${index % 9}`],
+  }))
+  const tooFew = auditQuestionSet(questions, {
+    ...blueprint,
+    requiredTemplateGrades: [3],
+    minTemplateCount: 10,
+    maxTemplateShare: 0.15,
+  })
+  assert.match(tooFew.errors.join('\n'), /at least 10 templates/)
+
+  questions.forEach((question, index) => {
+    question.tags = [`模板:${index < 30 ? 'overused' : `template-${index}`}`]
+  })
+  const concentrated = auditQuestionSet(questions, {
+    ...blueprint,
+    requiredTemplateGrades: [3],
+    minTemplateCount: 10,
+    maxTemplateShare: 0.15,
+  })
+  assert.match(concentrated.errors.join('\n'), /template overused exceeds 15%/)
+})

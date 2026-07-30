@@ -11,7 +11,7 @@
 1. 用户从首页按科目进入 `/quiz?subject=...`，`quizStore.startSession()` 按 profile 年级构建 10 题会话。
 2. `questionRepository` 先加载该年级、学科的全部 `approved` 题；只有 approved 池完全为空时才回退到 `reviewed`。
 3. repository 对选择题答案做兼容归一化，并加载当前用户对候选题的最近作答时间。
-4. `questionComposer` 按题型、难度、知识点覆盖和作答历史选 10 道唯一题，再随机打乱。
+4. `questionComposer` 按题型、难度、知识点、内容模板和作答历史选 10 道唯一题，再随机打乱。未做题优先于严格难度配额，同组优先未使用模板，跨组优先较久未出现的模板。
 5. `QuizCard` 按 choice、fill、match、grid 分发题卡；每题记录正确性、积分和 `selected_answer`，答题后才允许前进。
 6. 普通结果页保存作答与错题，再按“今日该科是否已完成”的客户端快照结算积分、伙伴经验和科目打卡。
 7. 每日挑战对三科分别调用同一 10 题组卷，再把 30 题合并并 Fisher–Yates 混排；答对至少 24 题判定通过。
@@ -54,9 +54,11 @@ data/questions canonical JSON
   -> quiz_records + mistake_records
 ```
 
-普通 10 题默认槽位是 7 choice、2 fill、1 match，难度为 5 道 1、3 道 2、2 道 3。选择顺序优先未覆盖知识点，再按未做、30 天前做过、最近 30 天做过分层；同层中较久未做优先。
+普通 10 题默认槽位是 7 choice、2 fill、1 match，目标难度为 5 道 1、3 道 2、2 道 3。每题可通过 `tags` 中唯一的 `模板:<key>` 表示解题结构；三年级发布门禁强制提供该标签。选择时先在精确题型与难度中寻找未做且本组未用模板的题；没有时依次放宽到同题型、同难度和任意未做题，最后才复用已做题。候选排序同时优先当前组使用次数更少的模板、未覆盖知识点、历史上更久未出现的模板和更久未作答的题。
 
-精确“题型 + 难度”格不足时，候选池依次降级为同题型、同难度、任意剩余题，并标记 `quota-fallback`。同题型候选最初会按难度距离排序，但随后 `orderedCandidates()` 会按知识点覆盖、作答历史和随机值重新排序，因此最终选题不保证是难度最接近的题。候选唯一题不足 10 道时返回 `insufficient-total`，store 不创建残缺会话。
+精确“题型 + 难度”格没有合适的未做/新模板候选时，候选池依次降级为同题型、同难度、任意剩余题，并标记 `quota-fallback`。因此多样性优先时最终难度可能偏离目标槽位，但题型总池足够的三年级每科前 10 轮可覆盖 100 个不重复题目 ID。候选唯一题不足 10 道时返回 `insufficient-total`，store 不创建残缺会话。
+
+结果页“再练一组”只在本轮结算成功后可用；点击会先调用 `startSession(subject)` 读取最新作答历史并替换已完成会话，成功后才进入新题组。加载失败时保留结果页供重试。
 
 repository 每页读取 1000 行；approved 池只要有一行就不会混入 reviewed 补足，因此“approved 有但不足 10”会失败，而不是跨状态补题。
 
@@ -75,6 +77,7 @@ repository 每页读取 1000 行；approved 池只要有一行就不会混入 re
 
 - `data/questions/` 是唯一 canonical 内容源；`src/data/sampleQuestions.ts` 不是发布源。
 - `external_id` 是稳定外部身份；内容或关键元数据变化保留 ID、递增 `version` 并更新 `content_hash`。
+- 三年级 canonical 题必须恰有一个符合 `模板:[a-z0-9-]+` 的标签；每科至少 10 个模板且单模板占比不超过 15%。其他年级尚未强制补齐模板元数据。
 - 发布只包含 `approved`，使用 `on conflict (external_id) do update`，禁止全量删除和静默覆盖既有迁移。
 - draft 必须经过确定性 schema/audit、人工抽审和 release 门禁；禁止把 AI 输出或 AI 生成 SQL 直接用于生产。
 - 当前答题路径不调用 `supabase/functions/generate-questions/`，不得新增运行时 AI 依赖。
@@ -88,7 +91,7 @@ repository 每页读取 1000 行；approved 池只要有一行就不会混入 re
 
 ## 测试与验证
 
-运行时 Vitest 覆盖 repository 的 approved 查询/ reviewed 回退/分页/归一化、history 最新时间，composer 的精确配额/历史优先/降级/总量失败，判题、解释、会话推进、挑战三科各 10、选中答案保存和错题状态。
+运行时 Vitest 覆盖 repository 的 approved 查询/ reviewed 回退/分页/归一化、history 最新时间，composer 的未做题优先、连续十轮避重、模板覆盖、降级/总量失败，结果页重新组卷，判题、解释、会话推进、挑战三科各 10、选中答案保存和错题状态。
 
 离线 Node 测试覆盖 schema、配额审计、重复与近重复、approval、release 数量、SQL 转义与幂等 upsert、迁移元数据和 seed 安全。
 

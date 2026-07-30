@@ -163,7 +163,11 @@ export function authorGrade3Chinese() {
       if (type === 'choice') content = chineseChoice(point, serial, serial % 4)
       else if (type === 'fill') { const item = chineseFill(serial); point = item.knowledgePoint; content = item.content }
       else { const item = chineseMatch(serial); point = item.knowledgePoint; content = item.content }
-      questions.push({ id: `g3-chinese-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'chinese', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', type === 'choice' ? '阅读辨析' : '语言运用'], content, reviewStatus: 'reviewed', version: 1 })
+      const passagePoints = new Set(['段落结构', '人物与事件', '中心信息'])
+      const template = type === 'choice' && passagePoints.has(point)
+        ? `模板:g3-cn-passage-v${Math.floor(serial / points.length)}`
+        : `模板:g3-cn-${type}-p${points.indexOf(point)}-d${difficulty}`
+      questions.push({ id: `g3-chinese-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'chinese', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags: ['全国通用', type === 'choice' ? '阅读辨析' : '语言运用', template], content, reviewStatus: 'reviewed', version: 2 })
       serial += 1
     }
   }

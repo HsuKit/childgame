@@ -47,9 +47,15 @@ function historyTier(lastSeen: number | undefined, recentBoundary: number) {
   return lastSeen < recentBoundary ? 1 : 2
 }
 
+function templateKey(question: Question) {
+  return question.tags.find(tag => tag.startsWith('模板:')) ?? `题目:${question.id}`
+}
+
 function orderedCandidates(
   candidates: Question[],
   usedKnowledge: Set<string>,
+  usedTemplates: Map<string, number>,
+  templateHistory: Map<string, number>,
   history: Map<string, number>,
   recentBoundary: number,
   random: () => number,
@@ -57,9 +63,15 @@ function orderedCandidates(
   return candidates
     .map(question => ({ question, tie: random(), lastSeen: history.get(question.id) }))
     .sort((left, right) => {
+      const leftTemplateCount = usedTemplates.get(templateKey(left.question)) ?? 0
+      const rightTemplateCount = usedTemplates.get(templateKey(right.question)) ?? 0
+      if (leftTemplateCount !== rightTemplateCount) return leftTemplateCount - rightTemplateCount
       const leftCovered = usedKnowledge.has(left.question.knowledge_point) ? 1 : 0
       const rightCovered = usedKnowledge.has(right.question.knowledge_point) ? 1 : 0
       if (leftCovered !== rightCovered) return leftCovered - rightCovered
+      const leftTemplateSeen = templateHistory.get(templateKey(left.question)) ?? 0
+      const rightTemplateSeen = templateHistory.get(templateKey(right.question)) ?? 0
+      if (leftTemplateSeen !== rightTemplateSeen) return leftTemplateSeen - rightTemplateSeen
       const leftTier = historyTier(left.lastSeen, recentBoundary)
       const rightTier = historyTier(right.lastSeen, recentBoundary)
       if (leftTier !== rightTier) return leftTier - rightTier
@@ -91,7 +103,16 @@ export function composeQuestions({
   const selected: Question[] = []
   const selectedIds = new Set<string>()
   const usedKnowledge = new Set<string>()
+  const usedTemplates = new Map<string, number>()
   const answerHistory = latestHistory(history)
+  const templateHistory = new Map<string, number>()
+  for (const question of unique) {
+    const answeredAt = answerHistory.get(question.id)
+    if (answeredAt === undefined) continue
+    const key = templateKey(question)
+    const current = templateHistory.get(key)
+    if (current === undefined || answeredAt > current) templateHistory.set(key, answeredAt)
+  }
   const recentBoundary = now.getTime() - 30 * 24 * 60 * 60 * 1000
   let degraded = false
 
@@ -101,13 +122,44 @@ export function composeQuestions({
     const sameType = remaining.filter(question => question.type === slot.type)
       .sort((a, b) => Math.abs(a.difficulty - slot.difficulty) - Math.abs(b.difficulty - slot.difficulty))
     const sameDifficulty = remaining.filter(question => question.difficulty === slot.difficulty)
-    const pool = exact.length ? exact : sameType.length ? sameType : sameDifficulty.length ? sameDifficulty : remaining
-    if (!exact.length) degraded = true
-    const chosen = orderedCandidates(pool, usedKnowledge, answerHistory, recentBoundary, random)[0]
+    const unseen = (pool: Question[]) => pool.filter(question => !answerHistory.has(question.id))
+    const novelTemplate = (pool: Question[]) => pool.filter(question => !usedTemplates.has(templateKey(question)))
+    const underTemplateCap = (pool: Question[]) => pool.filter(question => (usedTemplates.get(templateKey(question)) ?? 0) < 2)
+    const tiers = [
+      novelTemplate(unseen(exact)),
+      novelTemplate(unseen(sameType)),
+      novelTemplate(unseen(sameDifficulty)),
+      novelTemplate(unseen(remaining)),
+      underTemplateCap(unseen(exact)),
+      underTemplateCap(unseen(sameType)),
+      underTemplateCap(unseen(sameDifficulty)),
+      underTemplateCap(unseen(remaining)),
+      unseen(exact),
+      unseen(sameType),
+      unseen(sameDifficulty),
+      unseen(remaining),
+      novelTemplate(exact),
+      novelTemplate(sameType),
+      novelTemplate(sameDifficulty),
+      novelTemplate(remaining),
+      underTemplateCap(exact),
+      underTemplateCap(sameType),
+      underTemplateCap(sameDifficulty),
+      underTemplateCap(remaining),
+      exact,
+      sameType,
+      sameDifficulty,
+      remaining,
+    ]
+    const pool = tiers.find(candidates => candidates.length > 0) ?? []
+    const chosen = orderedCandidates(pool, usedKnowledge, usedTemplates, templateHistory, answerHistory, recentBoundary, random)[0]
     if (!chosen) return { questions: [], degraded: true, reason: 'insufficient-total' }
+    if (chosen.type !== slot.type || chosen.difficulty !== slot.difficulty) degraded = true
     selected.push(chosen)
     selectedIds.add(chosen.id)
     usedKnowledge.add(chosen.knowledge_point)
+    const chosenTemplate = templateKey(chosen)
+    usedTemplates.set(chosenTemplate, (usedTemplates.get(chosenTemplate) ?? 0) + 1)
   }
 
   const shuffled = [...selected]

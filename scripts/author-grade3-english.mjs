@@ -43,6 +43,12 @@ function englishChoice(point, serial, position) {
   const rest = s.activity.split(' ').slice(1).join(' ')
   const base = s.activity.replace(/^has /, 'have ').replace(/^goes /, 'go ').replace(/^does /, 'do ').replace(/^flies /, 'fly ').replace(/^walks /, 'walk ').replace(/^waters /, 'water ').replace(/^helps /, 'help ').replace(/^reads /, 'read ').replace(/^packs /, 'pack ').replace(/^gets /, 'get ').replace(/^plays /, 'play ')
   if (point === '句子阅读') {
+    if (index % 3 === 1) {
+      return choice(`Read: “${s.name} has ${thingPhrase}.” Who has ${thingPhrase}?`, s.name, ['John', 'Mary', 'Tony'], position, `The sentence names ${s.name}.`)
+    }
+    if (index % 3 === 2) {
+      return choice(`Read: “${s.name} has ${thingPhrase}.” Which sentence is true?`, `${s.name} has ${thingPhrase}.`, [`${s.name} has a train.`, `${s.name} has nothing.`, `${s.name} is on the moon.`], position, `The true sentence repeats the stated fact about ${s.name}.`)
+    }
     return choice(`Read: “${s.name} has ${thingPhrase}.” What does ${s.name} have?`, thingPhrase, ['a train', 'a computer game', 'a red bike'], position, `The sentence says ${s.name} has ${thingPhrase}.`)
   }
   if (point === '短对话') {
@@ -157,7 +163,8 @@ export function authorGrade3English() {
       } else { const match = englishMatch(serial); point = match.point; content = match.content }
       const tags = ['全国通用', '文字可作答']
       if (difficulty === 1) tags.push('听读入门')
-      questions.push({ id: `g3-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags, content, reviewStatus: 'reviewed', version: 2 })
+      tags.push(`模板:g3-en-${type}-p${points.indexOf(point)}-d${difficulty}`)
+      questions.push({ id: `g3-english-authored-${String(serial + 1).padStart(3, '0')}`, subject: 'english', grade: 3, difficulty, type, knowledgePoint: point, skill: difficulty === 1 ? 'understand' : difficulty === 2 ? 'apply' : 'reason', tags, content, reviewStatus: 'reviewed', version: 3 })
       serial += 1
     }
   }

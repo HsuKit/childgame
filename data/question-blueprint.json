@@ -4,6 +4,9 @@
     "types": { "choice": 105, "fill": 21, "match": 14 },
     "difficulties": { "1": 70, "2": 49, "3": 21 },
     "maxKnowledgePointShare": 0.2,
+    "requiredTemplateGrades": [3],
+    "minTemplateCount": 10,
+    "maxTemplateShare": 0.15,
     "reviewedSimilarityExceptions": [
       "g4-chinese-authored-066|g4-chinese-authored-067",
       "g4-chinese-authored-074|g4-chinese-authored-075",
