@@ -31,7 +31,7 @@
 - 纯规则：`src/lib/wishRewards.ts`、`src/lib/wishDialogLayout.ts`。
 - 愿望组件：`src/components/wish/WishBalanceBadge.tsx`、`src/components/wish/WishRewardCard.tsx`、`src/components/wish/WishRedemptionStatus.tsx`。
 - 数据类型：`src/lib/database.types.ts`。
-- 数据库来源：`supabase/migrations/012_mistake_review_parent_report.sql`、`supabase/migrations/013_wish_rewards.sql`、`supabase/migrations/015_standard_wish_rewards.sql`。
+- 数据库来源：`supabase/migrations/012_mistake_review_parent_report.sql`、`supabase/migrations/013_wish_rewards.sql`、`supabase/migrations/015_standard_wish_rewards.sql`、`supabase/migrations/018_fix_wish_coin_balance.sql`。
 
 主要表：
 
@@ -90,6 +90,7 @@ pending_parent_review
 ## 不变量与已知风险
 
 - 愿望币余额只能由账本派生；不得把 Zustand 的显示余额当作写入真相。
+- 余额 RPC 的 PL/pgSQL 返回查询必须限定 `totals.total_earned`、`totals.spent` 等来源列，避免与 `returns table` 隐式输出变量同名而在运行时产生歧义。
 - 带 reference 的 `(user_id, reason, reference_id)` 唯一索引表达同一已生成 reference 的账本动作 exactly-once 意图；日记也有 `(user_id, entry_type, reference_id)` 唯一索引。提交兑换每次生成新的 redemption UUID，因此该约束不对多次提交去重。
 - 每日奖励和兑换 RPC 使用事务级 advisory lock，按当前用户串行化余额相关动作。
 - 所有愿望 RPC 都是 `security definer`、固定 `search_path = public`、验证 `auth.uid()`/资源归属，并撤销 public/anon 后只授予 authenticated。
