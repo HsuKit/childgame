@@ -9,6 +9,13 @@ class BrokenImage {
   src = ''
 }
 
+class LoadedImage {
+  complete = true
+  naturalWidth = 320
+  naturalHeight = 320
+  src = ''
+}
+
 describe('ChibiComposer', () => {
   const drawImage = vi.fn()
   const clearRect = vi.fn()
@@ -37,11 +44,11 @@ describe('ChibiComposer', () => {
     frameCallback = undefined
   })
 
-  it('shows a static body fallback with useful alternative text', () => {
+  it('shows a complete static fallback with useful alternative text', () => {
     render(<ChibiComposer variant="Forest_Ranger_1" />)
 
     expect(screen.getByRole('img', { name: '伙伴静态形象' }))
-      .toHaveAttribute('src', '/assets/companions/Forest_Ranger_1/Body.png')
+      .toHaveAttribute('src', '/assets/companions/Forest_Ranger_1/idle/0_Forest_Ranger_Idle_000.png')
   })
 
   it('does not draw broken animation images to the canvas', () => {
@@ -53,5 +60,19 @@ describe('ChibiComposer', () => {
     })
 
     expect(drawImage).not.toHaveBeenCalled()
+  })
+
+  it('hides the static fallback after an animation frame is drawable', () => {
+    vi.stubGlobal('Image', LoadedImage)
+    render(<ChibiComposer variant="Forest_Ranger_1" />)
+
+    act(() => {
+      vi.advanceTimersByTime(200)
+      frameCallback?.(240)
+    })
+
+    expect(drawImage).toHaveBeenCalled()
+    expect(screen.getByRole('img', { name: '伙伴静态形象' }))
+      .toHaveClass('opacity-0')
   })
 })

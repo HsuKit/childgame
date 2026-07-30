@@ -39,6 +39,7 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
   const rafRef = useRef(0)
   const animRef = useRef<AnimType>('idle')
   const actionTimerRef = useRef(0)
+  const [hasDrawableFrame, setHasDrawableFrame] = useState(false)
   const [, forceRender] = useState(0)
 
   const triggerAction = useCallback(() => {
@@ -59,10 +60,13 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
   }
 
   useEffect(() => {
+    setHasDrawableFrame(false)
+
     // Preload: idle + throw + attack
     const types: AnimType[] = ['idle', 'throw', 'attack']
     const images: Record<string, HTMLImageElement[]> = {}
     let cancelled = false
+    let hasShownFrame = false
 
     for (const t of types) {
       const total = t === 'idle' ? TOTAL_IDLE : 12
@@ -106,6 +110,10 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
           ctx.clearRect(0, 0, s, s)
           if (drawableImage) {
             ctx.drawImage(drawableImage, 0, 0, s, s)
+            if (!hasShownFrame) {
+              hasShownFrame = true
+              setHasDrawableFrame(true)
+            }
           }
           frame = (frame + 1) % total
         }
@@ -131,7 +139,9 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
       <img
         src={getCompanionThumbnailPath(variant)}
         alt="伙伴静态形象"
-        className="absolute inset-0 h-full w-full object-contain"
+        className={`absolute inset-0 h-full w-full object-contain transition-opacity ${
+          hasDrawableFrame ? 'opacity-0' : 'opacity-100'
+        }`}
       />
       <canvas ref={canvasRef} className="relative h-full w-full" aria-hidden="true" />
     </motion.div>

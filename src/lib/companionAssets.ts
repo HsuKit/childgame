@@ -15,5 +15,6 @@ export function resolveCompanionVariant(
 }
 
 export function getCompanionThumbnailPath(variant: string): string {
-  return `/assets/companions/${variant}/Body.png`
+  const base = variant.replace(/_\d+$/, '')
+  return `/assets/companions/${variant}/idle/0_${base}_Idle_000.png`
 }

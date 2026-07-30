@@ -18,8 +18,8 @@ describe('companionAssets', () => {
     expect(resolveCompanionVariant('legacy-type', 'missing')).toBe(DEFAULT_COMPANION_VARIANT)
   })
 
-  it('uses the stable body image for thumbnails', () => {
+  it('uses a complete idle frame for thumbnails', () => {
     expect(getCompanionThumbnailPath('Valkyrie_1'))
-      .toBe('/assets/companions/Valkyrie_1/Body.png')
+      .toBe('/assets/companions/Valkyrie_1/idle/0_Valkyrie_Idle_000.png')
   })
 })
