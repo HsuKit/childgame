@@ -13,6 +13,7 @@ import { PageHeader } from '../components/ui/PageHeader'
 import { Surface } from '../components/ui/Surface'
 import { StatePanel } from '../components/ui/StatePanel'
 import { Button } from '../components/ui/Button'
+import { CompanionThumbnail } from '../components/companion/CompanionThumbnail'
 
 const SWITCH_COST = 500
 
@@ -155,8 +156,11 @@ export default function CompanionPage() {
                 }`}
               >
                 <div className="w-16 h-16 mx-auto mb-1">
-                  <img src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\d+$/, '')}_Idle_Blinking_000.png`}
-                    alt={type.name} className="w-full h-full object-contain" />
+                  <CompanionThumbnail
+                    variant={type.baseVariant}
+                    name={type.name}
+                    className="h-full w-full object-contain"
+                  />
                 </div>
                 <p className="text-xs font-bold text-adventure-text">{type.name}</p>
                 {isActive && (
@@ -182,10 +186,10 @@ export default function CompanionPage() {
               {lockedTypes.map(type => (
                 <div key={type.id} className="text-center relative">
                   <div className="w-12 h-12 rounded-xl bg-gray-900/80 flex items-center justify-center mx-auto overflow-hidden">
-                    <img
-                      src={`/assets/companions/${type.baseVariant}/blink/0_${type.baseVariant.replace(/_\d+$/, '')}_Idle_Blinking_000.png`}
-                      alt={type.name}
-                      className="w-full h-full object-contain opacity-20"
+                    <CompanionThumbnail
+                      variant={type.baseVariant}
+                      name={type.name}
+                      className="h-full w-full object-contain opacity-20"
                     />
                   </div>
                   <p className="mt-1 text-xs font-bold text-adventure-muted">{type.name}</p>

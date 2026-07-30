@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import type { CompanionTypeDef } from '../../data/companionTypes'
 import { CheckCircle2 } from 'lucide-react'
 import { Button } from '../ui/Button'
+import { CompanionThumbnail } from './CompanionThumbnail'
 
 interface Props {
   companions: CompanionTypeDef[]
@@ -21,7 +22,11 @@ export function CompanionSelect({ companions, selected, onSelect, onNext }: Prop
             className={`relative rounded-[20px] border-2 p-4 transition-all
               ${selected === c.id ? 'border-adventure-primary bg-adventure-primary-soft shadow-lg shadow-indigo-100' : 'border-adventure-border bg-white hover:border-adventure-primary/40'}`}>
             {selected === c.id && <CheckCircle2 aria-hidden="true" className="absolute right-3 top-3 h-5 w-5 text-adventure-primary" />}
-            <img src={`/assets/companions/${c.baseVariant}/Body.png`} alt={c.name} className="w-24 h-24 mx-auto object-contain" />
+            <CompanionThumbnail
+              variant={c.baseVariant}
+              name={c.name}
+              className="mx-auto h-24 w-24 object-contain"
+            />
             <p className="mt-2 text-center font-extrabold text-adventure-text">{c.name}</p>
             <p className="mt-1 text-center text-xs leading-5 text-adventure-muted">{c.description}</p>
             {selected === c.id && <span className="mt-2 inline-block text-xs font-extrabold text-adventure-primary">已选择</span>}
