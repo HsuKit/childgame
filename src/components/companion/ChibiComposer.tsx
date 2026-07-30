@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { motion } from 'framer-motion'
+import { getCompanionThumbnailPath } from '../../lib/companionAssets'
 
 interface Props {
   variant: string
@@ -27,6 +28,10 @@ function getFramePath(variant: string, type: AnimType, frame: number): string {
   const folder = type === 'idle' ? 'idle' : type === 'attack' ? 'attack' : 'throw'
   const actionName = getActionName(variant, type)
   return `/assets/companions/${variant}/${folder}/0_${base}_${actionName}_${String(frame).padStart(3, '0')}.png`
+}
+
+function isDrawableImage(image: HTMLImageElement | undefined): image is HTMLImageElement {
+  return Boolean(image?.complete && image.naturalWidth > 0 && image.naturalHeight > 0)
 }
 
 export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onAction, onClick }: Props) {
@@ -94,9 +99,14 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
 
         if (time - last >= delay) {
           last = time
+          const requestedImage = imgs[frame % imgs.length]
+          const idleImage = images.idle.find(isDrawableImage)
+          const drawableImage = isDrawableImage(requestedImage) ? requestedImage : idleImage
+
           ctx.clearRect(0, 0, s, s)
-          const idx = frame % imgs.length
-          if (imgs[idx]) ctx.drawImage(imgs[idx], 0, 0, s, s)
+          if (drawableImage) {
+            ctx.drawImage(drawableImage, 0, 0, s, s)
+          }
           frame = (frame + 1) % total
         }
         rafRef.current = requestAnimationFrame(draw)
@@ -118,7 +128,12 @@ export function ChibiComposer({ variant, size = 'normal', hasWeapon = false, onA
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <canvas ref={canvasRef} className="w-full h-full" />
+      <img
+        src={getCompanionThumbnailPath(variant)}
+        alt="伙伴静态形象"
+        className="absolute inset-0 h-full w-full object-contain"
+      />
+      <canvas ref={canvasRef} className="relative h-full w-full" aria-hidden="true" />
     </motion.div>
   )
 }

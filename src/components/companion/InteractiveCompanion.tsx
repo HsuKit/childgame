@@ -1,8 +1,8 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useCompanionStore } from '../../stores/companionStore'
-import { COMPANION_TYPES } from '../../data/companionTypes'
 import { ChibiComposer } from './ChibiComposer'
+import { resolveCompanionVariant } from '../../lib/companionAssets'
 
 export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'normal' | 'large' }) {
   const { companion } = useCompanionStore()
@@ -50,9 +50,10 @@ export function InteractiveCompanion({ size = 'normal' }: { size?: 'small' | 'no
 
   if (!companion) return null
 
-  const variant = companion.equipped_outfit
-    || COMPANION_TYPES.find(c => c.id === companion.companion_type)?.baseVariant
-    || 'Forest_Ranger_1'
+  const variant = resolveCompanionVariant(
+    companion.companion_type,
+    companion.equipped_outfit,
+  )
 
   return (
     <div className="relative mx-auto flex justify-center">
