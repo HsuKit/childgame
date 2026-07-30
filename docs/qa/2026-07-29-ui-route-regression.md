@@ -85,3 +85,10 @@
 - `/wish-shop` 实际请求失败后显示“数据暂未同步”，继续展示默认目录；fallback 卡片具有禁用语义并显示“同步后可申请”，没有提交弹窗入口。
 - “重新同步”会再次进入加载状态；再次失败后恢复相同只读提示。
 - 上述流程控制台没有错误；没有再出现 `InvalidStateError: drawImage`。
+
+生产发布核验：
+
+- 2026-07-30 将功能提交截至 `3b5c5c3` 推送到 GitHub `main`，Netlify 自动发布成功。
+- 生产首页和 `/companion` SPA 深链均返回 HTTP 200，生产入口引用的 JS/CSS 指纹与本地 `npm run build` 产物一致。
+- `Forest_Ranger_1` 的完整 idle 第 000 帧在生产环境返回 HTTP 200 和 `image/png`。
+- 生产 JS bundle 包含“数据暂未同步”和“同步后可申请”，确认愿望失败降级逻辑已上线。

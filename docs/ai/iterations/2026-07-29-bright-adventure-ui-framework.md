@@ -64,6 +64,7 @@ updated: 2026-07-30
 - 愿望数据同步失败时默认目录保持只读可浏览；字符串 fallback ID 不会打开提交弹窗或进入 UUID RPC，页面保留紧凑提示和重新同步入口。
 - 修正后 `npm test` 为 29 个测试文件、145 项测试通过；4 个新增专项文件共 11 项测试通过，生产构建、题库验证与文档校验通过。
 - 浏览器首轮确认三位初始伙伴资源均完成解码且无横向溢出；随后本地逐图复核发现 `Body.png` 仅为身体零件，改用完整 idle 帧后通过全资源存在性扫描与组件回归。愿望请求失败时默认目录、禁用提交状态和重新同步入口正常，控制台没有错误。当前浏览器用户没有伙伴，主画布由组件级 broken-image、静态兜底和残影回归覆盖，未为验收写入伙伴数据。
+- 2026-07-30 将功能提交截至 `3b5c5c3` fast-forward 合并并推送到 `main`，由 Git push 触发 Netlify 生产发布。生产首页与 `/companion` 深链返回 200，线上 bundle 指纹与本地生产构建一致，完整伙伴 idle 图片返回 `image/png`，愿望失败降级文案已进入生产 bundle。
 - 修正规格与计划见 [伙伴图片与愿望加载韧性设计](../../superpowers/specs/2026-07-30-companion-wish-resilience-design.md) 和 [实施计划](../../superpowers/plans/2026-07-30-companion-wish-resilience.md)。
 
 ## Git 关联
